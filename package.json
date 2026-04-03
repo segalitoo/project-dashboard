@@ -1,0 +1,12 @@
+{
+  "name": "project-dashboard",
+  "version": "1.0.0",
+  "description": "Local project status dashboard - scans Claude/Antigravity workspace",
+  "type": "module",
+  "scripts": {
+    "scan": "node scan-projects.mjs",
+    "scan:push": "node scan-projects.mjs && git add projects-status.json && git commit -m 'chore: update project statuses' --allow-empty && git push"
+  },
+  "author": "Ran Segal",
+  "license": "MIT"
+}

@@ -1,0 +1,10 @@
+# Scanner logs
+scan.log
+launchagent-stdout.log
+launchagent-stderr.log
+
+# OS
+.DS_Store
+
+# Node
+node_modules/

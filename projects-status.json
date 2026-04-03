@@ -1,0 +1,382 @@
+{
+  "lastUpdated": "2026-04-03T21:55:22.358Z",
+  "projectCount": 12,
+  "activeCount": 6,
+  "idleCount": 1,
+  "staleCount": 2,
+  "projects": [
+    {
+      "name": "Zoom-for-kids",
+      "emoji": "👶",
+      "description": "This file documents the project architecture, development conventions, and workflows for AI assistants working on this codebase.",
+      "stack": "TypeScript + React 18 + Vite",
+      "status": "active",
+      "lastActivity": "2026-04-03T20:26:02.566Z",
+      "size": "281M",
+      "hasGit": true,
+      "git": {
+        "branch": "getting-this-error-when-trying-to-uplaod-the-logo",
+        "lastCommitRelative": "13 days ago",
+        "lastCommitMessage": "עדכון טקסט טסטמוניאל: הסרת 'וואו'",
+        "lastCommitDate": "2026-03-22 01:07:14 +0200",
+        "isDirty": true,
+        "changedFiles": 14
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "עדכון טקסט טסטמוניאל: הסרת 'וואו'"
+        },
+        {
+          "type": "commit",
+          "text": "הסרת עיגולים סגולים עם אותיות מאזור הטסטמוניאלס"
+        },
+        {
+          "type": "commit",
+          "text": "הסרת שורת 'בלי הרשמה, בלי פרסומות, בלי מידע אישי' מדף הנחיתה"
+        },
+        {
+          "type": "chat",
+          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/preview.html in the IDE. This may or may…",
+          "sessionId": "ee5dd531-a7e6-4026-a81f-c48c76fc9e3a"
+        },
+        {
+          "type": "chat",
+          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/ran-portfolio/.github/workflows/deploy.yml in the IDE.…",
+          "sessionId": "963ede33-65f0-4a47-a471-d81314f31654"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "ee5dd531-a7e6-4026-a81f-c48c76fc9e3a",
+        "lastActivity": "2026-04-03T20:26:02.566Z",
+        "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/preview.html in the IDE. This may or may…"
+      }
+    },
+    {
+      "name": "ran-portfolio",
+      "emoji": "🌐",
+      "description": "Single-page freelance portfolio. Static HTML + CSS, no framework. Warm & personal visual tone.",
+      "stack": "HTML + CSS + vanilla JS",
+      "status": "active",
+      "lastActivity": "2026-04-03T20:26:02.566Z",
+      "size": "50M",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "13 days ago",
+        "lastCommitMessage": "ci: add GitHub Pages deploy workflow",
+        "lastCommitDate": "2026-03-22 01:31:21 +0200",
+        "isDirty": true,
+        "changedFiles": 21
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "ci: add GitHub Pages deploy workflow"
+        },
+        {
+          "type": "commit",
+          "text": "feat: add sidenav, lightbox, responsive design, and meta tags"
+        },
+        {
+          "type": "commit",
+          "text": "feat: initial portfolio — header, 6 project cards, horizontal scroll"
+        },
+        {
+          "type": "chat",
+          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/preview.html in the IDE. This may or may…",
+          "sessionId": "ee5dd531-a7e6-4026-a81f-c48c76fc9e3a"
+        },
+        {
+          "type": "chat",
+          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/ran-portfolio/.github/workflows/deploy.yml in the IDE.…",
+          "sessionId": "963ede33-65f0-4a47-a471-d81314f31654"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "ee5dd531-a7e6-4026-a81f-c48c76fc9e3a",
+        "lastActivity": "2026-04-03T20:26:02.566Z",
+        "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/preview.html in the IDE. This may or may…"
+      }
+    },
+    {
+      "name": "ai-academy-jordan",
+      "emoji": "🎓",
+      "description": "AI Academy learning platform",
+      "stack": "TypeScript + React 19 + Next.js + Supabase",
+      "status": "active",
+      "lastActivity": "2026-04-03T17:58:09.841Z",
+      "size": "809M",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "24 hours ago",
+        "lastCommitMessage": "AI Academy for Jordan - Hebrew AI learning platform",
+        "lastCommitDate": "2026-04-03 00:34:04 +0300",
+        "isDirty": true,
+        "changedFiles": 1
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "AI Academy for Jordan - Hebrew AI learning platform"
+        },
+        {
+          "type": "commit",
+          "text": "Initial commit from Create Next App"
+        },
+        {
+          "type": "chat",
+          "text": "אני רוצה לבנות דף נחיתה שבו מרוכזים קורסים בנושאי לימוד ai.\nהשיעורים צריכים להיות קצרים וקליטים עד אורך של 10 דק.\nאפשרלש…",
+          "sessionId": "9fbb526b-05db-43d5-bc91-ee0ce9674b64"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "9fbb526b-05db-43d5-bc91-ee0ce9674b64",
+        "lastActivity": "2026-04-03T17:58:09.841Z",
+        "summary": "אני רוצה לבנות דף נחיתה שבו מרוכזים קורסים בנושאי לימוד ai.\nהשיעורים צריכים להיות קצרים וקליטים עד אורך של 10 דק.\nאפשרלש…"
+      }
+    },
+    {
+      "name": "Payoneer-ad-generator",
+      "emoji": "🎨",
+      "description": "React + TypeScript + Vite frontend with Supabase backend (Edge Functions + Storage + PostgreSQL). AI image generation and analysis via Google Gemini.",
+      "stack": "TypeScript + React 19 + Vite + Supabase + Gemini",
+      "status": "active",
+      "lastActivity": "2026-04-03T08:59:41.154Z",
+      "size": "184M",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [
+        {
+          "type": "chat",
+          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/ran-portfolio/.github/workflows/deploy.yml in the IDE.…",
+          "sessionId": "963ede33-65f0-4a47-a471-d81314f31654"
+        },
+        {
+          "type": "chat",
+          "text": "Perform a comprehensive design review of the Payoneer Ad Generator project.\n\nThe project is located at: /Users/rannsegal…",
+          "sessionId": "2ddab48f-ff38-46e9-aab0-d0d5ba39a55b"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "963ede33-65f0-4a47-a471-d81314f31654",
+        "lastActivity": "2026-04-03T08:59:41.154Z",
+        "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/ran-portfolio/.github/workflows/deploy.yml in the IDE.…"
+      }
+    },
+    {
+      "name": "design-agent",
+      "emoji": "🤖",
+      "description": "Design agent project",
+      "stack": "TypeScript",
+      "status": "active",
+      "lastActivity": "2026-04-03T08:59:41.154Z",
+      "size": "117M",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [
+        {
+          "type": "chat",
+          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/ran-portfolio/.github/workflows/deploy.yml in the IDE.…",
+          "sessionId": "963ede33-65f0-4a47-a471-d81314f31654"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "963ede33-65f0-4a47-a471-d81314f31654",
+        "lastActivity": "2026-04-03T08:59:41.154Z",
+        "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/ran-portfolio/.github/workflows/deploy.yml in the IDE.…"
+      }
+    },
+    {
+      "name": "zoom-kids-ui",
+      "emoji": "🎨",
+      "description": "Zoom Kids UI designs",
+      "stack": "Unknown",
+      "status": "active",
+      "lastActivity": "2026-04-01T20:33:49.016Z",
+      "size": "144K",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [
+        {
+          "type": "chat",
+          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/zoom-kids-ui/space-theme-options.html in the IDE. This…",
+          "sessionId": "f82d1f82-7fc3-44c6-8e7e-fd646391b410"
+        },
+        {
+          "type": "chat",
+          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/ran-portfolio/index.html in the IDE. This may or may n…",
+          "sessionId": "94e50ef2-95bf-45ae-ae85-3d4beb68b1a8"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "f82d1f82-7fc3-44c6-8e7e-fd646391b410",
+        "lastActivity": "2026-04-01T20:33:49.016Z",
+        "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/zoom-kids-ui/space-theme-options.html in the IDE. This…"
+      }
+    },
+    {
+      "name": "design-manager-portfolio",
+      "emoji": "💼",
+      "description": "- **Framework:** Next.js 16 (App Router) with TypeScript",
+      "stack": "Next.js 16 + TypeScript + Tailwind CSS 4",
+      "status": "idle",
+      "lastActivity": "2026-03-21T23:11:55.549Z",
+      "size": "830M",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "5 weeks ago",
+        "lastCommitMessage": "Portfolio: 6 case studies with realistic photo placeholders",
+        "lastCommitDate": "2026-02-24 23:40:56 +0200",
+        "isDirty": true,
+        "changedFiles": 23
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Portfolio: 6 case studies with realistic photo placeholders"
+        },
+        {
+          "type": "commit",
+          "text": "Initial commit from Create Next App"
+        },
+        {
+          "type": "chat",
+          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/preview.html in the IDE. This may or may…",
+          "sessionId": "fdd464c8-173a-44b7-ab5c-3ed4e47f5878"
+        },
+        {
+          "type": "chat",
+          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/design-manager-portfolio/src/data/projects.ts in the I…",
+          "sessionId": "79cea027-bc0d-4ec0-a78f-f88cbc242ce5"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "fdd464c8-173a-44b7-ab5c-3ed4e47f5878",
+        "lastActivity": "2026-03-21T23:11:55.549Z",
+        "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/preview.html in the IDE. This may or may…"
+      }
+    },
+    {
+      "name": "shmup-reminder",
+      "emoji": "✅",
+      "description": "Hebrew RTL task manager app — originally built on Lovable, now developed locally.",
+      "stack": "TypeScript + React 18 + Vite + Supabase + PWA",
+      "status": "stale",
+      "lastActivity": "2026-03-09T14:23:57.401Z",
+      "size": "372M",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "5 weeks ago",
+        "lastCommitMessage": "Prevent accidental edit on partial swipe",
+        "lastCommitDate": "2026-02-25 11:54:51 +0000",
+        "isDirty": true,
+        "changedFiles": 26
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Prevent accidental edit on partial swipe"
+        },
+        {
+          "type": "commit",
+          "text": "Changes"
+        },
+        {
+          "type": "commit",
+          "text": "Add iOS haptic fallback"
+        },
+        {
+          "type": "chat",
+          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/shmup-reminder/header-concepts.html in the IDE. This m…",
+          "sessionId": "7efd9c1c-d11c-4baf-a12f-e64cd6b0d486"
+        },
+        {
+          "type": "chat",
+          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/design-manager-portfolio/src/data/projects.ts in the I…",
+          "sessionId": "79cea027-bc0d-4ec0-a78f-f88cbc242ce5"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "7efd9c1c-d11c-4baf-a12f-e64cd6b0d486",
+        "lastActivity": "2026-03-09T14:23:57.401Z",
+        "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/shmup-reminder/header-concepts.html in the IDE. This m…"
+      }
+    },
+    {
+      "name": "Shhh",
+      "emoji": "🎙️",
+      "description": "A Python CLI tool that captures microphone audio, streams it to Google Cloud Speech-to-Text for live transcription, and pastes the result into the frontmost application. Supports English and Hebrew wi…",
+      "stack": "Python 3.9+ + Swift (macOS)",
+      "status": "stale",
+      "lastActivity": "2026-02-26T11:15:22.000Z",
+      "size": "588M",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "5 weeks ago",
+        "lastCommitMessage": "Pure Minimal UI + punctuation + paste/protocol fixes",
+        "lastCommitDate": "2026-02-26 13:15:22 +0200",
+        "isDirty": true,
+        "changedFiles": 31
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Pure Minimal UI + punctuation + paste/protocol fixes"
+        },
+        {
+          "type": "commit",
+          "text": "refactor: single pill panel, remove old toggle+preview views"
+        },
+        {
+          "type": "commit",
+          "text": "feat: add ShhhPillView unified pill with all states"
+        }
+      ],
+      "lastSession": null
+    },
+    {
+      "name": "Chatgpt-codex",
+      "emoji": "💬",
+      "description": "ChatGPT Codex experiments",
+      "stack": "Unknown",
+      "status": "unknown",
+      "lastActivity": null,
+      "size": "312K",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [],
+      "lastSession": null
+    },
+    {
+      "name": "kefel",
+      "emoji": "✖️",
+      "description": "Hebrew multiplication table educational tool",
+      "stack": "HTML",
+      "status": "unknown",
+      "lastActivity": null,
+      "size": "48K",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [],
+      "lastSession": null
+    },
+    {
+      "name": "yad2",
+      "emoji": "🏠",
+      "description": "Yad2 project",
+      "stack": "React 19 + Vite",
+      "status": "unknown",
+      "lastActivity": null,
+      "size": "71M",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [],
+      "lastSession": null
+    }
+  ]
+}
