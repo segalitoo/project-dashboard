@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-03T21:55:22.358Z",
+  "lastUpdated": "2026-04-03T22:13:17.755Z",
   "projectCount": 12,
   "activeCount": 6,
   "idleCount": 1,
@@ -11,7 +11,7 @@
       "description": "This file documents the project architecture, development conventions, and workflows for AI assistants working on this codebase.",
       "stack": "TypeScript + React 18 + Vite",
       "status": "active",
-      "lastActivity": "2026-04-03T20:26:02.566Z",
+      "lastActivity": "2026-04-03T22:13:08.646Z",
       "size": "281M",
       "hasGit": true,
       "git": {
@@ -48,7 +48,7 @@
       ],
       "lastSession": {
         "sessionId": "ee5dd531-a7e6-4026-a81f-c48c76fc9e3a",
-        "lastActivity": "2026-04-03T20:26:02.566Z",
+        "lastActivity": "2026-04-03T22:13:08.646Z",
         "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/preview.html in the IDE. This may or may…"
       }
     },
@@ -58,7 +58,7 @@
       "description": "Single-page freelance portfolio. Static HTML + CSS, no framework. Warm & personal visual tone.",
       "stack": "HTML + CSS + vanilla JS",
       "status": "active",
-      "lastActivity": "2026-04-03T20:26:02.566Z",
+      "lastActivity": "2026-04-03T22:13:08.646Z",
       "size": "50M",
       "hasGit": true,
       "git": {
@@ -95,7 +95,7 @@
       ],
       "lastSession": {
         "sessionId": "ee5dd531-a7e6-4026-a81f-c48c76fc9e3a",
-        "lastActivity": "2026-04-03T20:26:02.566Z",
+        "lastActivity": "2026-04-03T22:13:08.646Z",
         "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/preview.html in the IDE. This may or may…"
       }
     },
@@ -110,7 +110,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "24 hours ago",
+        "lastCommitRelative": "25 hours ago",
         "lastCommitMessage": "AI Academy for Jordan - Hebrew AI learning platform",
         "lastCommitDate": "2026-04-03 00:34:04 +0300",
         "isDirty": true,
