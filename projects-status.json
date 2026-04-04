@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-03T22:13:17.755Z",
+  "lastUpdated": "2026-04-04T20:16:42.932Z",
   "projectCount": 12,
   "activeCount": 6,
   "idleCount": 1,
@@ -11,18 +11,22 @@
       "description": "This file documents the project architecture, development conventions, and workflows for AI assistants working on this codebase.",
       "stack": "TypeScript + React 18 + Vite",
       "status": "active",
-      "lastActivity": "2026-04-03T22:13:08.646Z",
+      "lastActivity": "2026-04-04T20:00:25.420Z",
       "size": "281M",
       "hasGit": true,
       "git": {
         "branch": "getting-this-error-when-trying-to-uplaod-the-logo",
-        "lastCommitRelative": "13 days ago",
-        "lastCommitMessage": "עדכון טקסט טסטמוניאל: הסרת 'וואו'",
-        "lastCommitDate": "2026-03-22 01:07:14 +0200",
+        "lastCommitRelative": "15 hours ago",
+        "lastCommitMessage": "Update landing page to link to Chrome Web Store",
+        "lastCommitDate": "2026-04-04 08:33:29 +0300",
         "isDirty": true,
-        "changedFiles": 14
+        "changedFiles": 17
       },
       "recentActions": [
+        {
+          "type": "commit",
+          "text": "Update landing page to link to Chrome Web Store"
+        },
         {
           "type": "commit",
           "text": "עדכון טקסט טסטמוניאל: הסרת 'וואו'"
@@ -32,23 +36,19 @@
           "text": "הסרת עיגולים סגולים עם אותיות מאזור הטסטמוניאלס"
         },
         {
-          "type": "commit",
-          "text": "הסרת שורת 'בלי הרשמה, בלי פרסומות, בלי מידע אישי' מדף הנחיתה"
-        },
-        {
           "type": "chat",
           "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/preview.html in the IDE. This may or may…",
           "sessionId": "ee5dd531-a7e6-4026-a81f-c48c76fc9e3a"
         },
         {
           "type": "chat",
-          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/ran-portfolio/.github/workflows/deploy.yml in the IDE.…",
-          "sessionId": "963ede33-65f0-4a47-a471-d81314f31654"
+          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/project-dashboard/package.json in the IDE. This may or…",
+          "sessionId": "14bc8c0b-5971-463e-8629-9e7d777b598c"
         }
       ],
       "lastSession": {
         "sessionId": "ee5dd531-a7e6-4026-a81f-c48c76fc9e3a",
-        "lastActivity": "2026-04-03T22:13:08.646Z",
+        "lastActivity": "2026-04-04T20:00:25.420Z",
         "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/preview.html in the IDE. This may or may…"
       }
     },
@@ -58,16 +58,16 @@
       "description": "Single-page freelance portfolio. Static HTML + CSS, no framework. Warm & personal visual tone.",
       "stack": "HTML + CSS + vanilla JS",
       "status": "active",
-      "lastActivity": "2026-04-03T22:13:08.646Z",
+      "lastActivity": "2026-04-04T20:00:25.420Z",
       "size": "50M",
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "13 days ago",
+        "lastCommitRelative": "2 weeks ago",
         "lastCommitMessage": "ci: add GitHub Pages deploy workflow",
         "lastCommitDate": "2026-03-22 01:31:21 +0200",
         "isDirty": true,
-        "changedFiles": 21
+        "changedFiles": 23
       },
       "recentActions": [
         {
@@ -95,7 +95,7 @@
       ],
       "lastSession": {
         "sessionId": "ee5dd531-a7e6-4026-a81f-c48c76fc9e3a",
-        "lastActivity": "2026-04-03T22:13:08.646Z",
+        "lastActivity": "2026-04-04T20:00:25.420Z",
         "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/preview.html in the IDE. This may or may…"
       }
     },
@@ -106,11 +106,11 @@
       "stack": "TypeScript + React 19 + Next.js + Supabase",
       "status": "active",
       "lastActivity": "2026-04-03T17:58:09.841Z",
-      "size": "809M",
+      "size": "812M",
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "25 hours ago",
+        "lastCommitRelative": "2 days ago",
         "lastCommitMessage": "AI Academy for Jordan - Hebrew AI learning platform",
         "lastCommitDate": "2026-04-03 00:34:04 +0300",
         "isDirty": true,
@@ -223,11 +223,11 @@
       "stack": "Next.js 16 + TypeScript + Tailwind CSS 4",
       "status": "idle",
       "lastActivity": "2026-03-21T23:11:55.549Z",
-      "size": "830M",
+      "size": "831M",
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "5 weeks ago",
+        "lastCommitRelative": "6 weeks ago",
         "lastCommitMessage": "Portfolio: 6 case studies with realistic photo placeholders",
         "lastCommitDate": "2026-02-24 23:40:56 +0200",
         "isDirty": true,
