@@ -1,10 +1,99 @@
 {
-  "lastUpdated": "2026-04-05T15:28:28.699Z",
+  "lastUpdated": "2026-04-05T21:02:38.085Z",
   "projectCount": 12,
-  "activeCount": 5,
+  "activeCount": 6,
   "idleCount": 1,
-  "staleCount": 3,
+  "staleCount": 2,
   "projects": [
+    {
+      "name": "ran-portfolio",
+      "emoji": "🌐",
+      "description": "Single-page freelance portfolio. Static HTML + CSS, no framework. Warm & personal visual tone.",
+      "stack": "HTML + CSS + vanilla JS",
+      "status": "active",
+      "lastActivity": "2026-04-05T21:02:30.421Z",
+      "size": "39M",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "2 weeks ago",
+        "lastCommitMessage": "ci: add GitHub Pages deploy workflow",
+        "lastCommitDate": "2026-03-22 01:31:21 +0200",
+        "isDirty": true,
+        "changedFiles": 47
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "ci: add GitHub Pages deploy workflow"
+        },
+        {
+          "type": "commit",
+          "text": "feat: add sidenav, lightbox, responsive design, and meta tags"
+        },
+        {
+          "type": "commit",
+          "text": "feat: initial portfolio — header, 6 project cards, horizontal scroll"
+        },
+        {
+          "type": "chat",
+          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/ran-portfolio/CLAUDE.md in the IDE. This may or may no…",
+          "sessionId": "c4427613-f984-43a9-a5d0-e5ece7623e8f"
+        },
+        {
+          "type": "chat",
+          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/preview.html in the IDE. This may or may…",
+          "sessionId": "ee5dd531-a7e6-4026-a81f-c48c76fc9e3a"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "c4427613-f984-43a9-a5d0-e5ece7623e8f",
+        "lastActivity": "2026-04-05T21:02:30.421Z",
+        "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/ran-portfolio/CLAUDE.md in the IDE. This may or may no…"
+      }
+    },
+    {
+      "name": "Shhh",
+      "emoji": "🎙️",
+      "description": "A Python CLI tool that captures microphone audio, streams it to Google Cloud Speech-to-Text for live transcription, and pastes the result into the frontmost application. Supports English and Hebrew wi…",
+      "stack": "Python 3.9+ + Swift (macOS)",
+      "status": "active",
+      "lastActivity": "2026-04-05T21:02:30.417Z",
+      "size": "588M",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "5 weeks ago",
+        "lastCommitMessage": "Pure Minimal UI + punctuation + paste/protocol fixes",
+        "lastCommitDate": "2026-02-26 13:15:22 +0200",
+        "isDirty": true,
+        "changedFiles": 33
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Pure Minimal UI + punctuation + paste/protocol fixes"
+        },
+        {
+          "type": "commit",
+          "text": "refactor: single pill panel, remove old toggle+preview views"
+        },
+        {
+          "type": "commit",
+          "text": "feat: add ShhhPillView unified pill with all states"
+        },
+        {
+          "type": "chat",
+          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/ran-portfolio/CLAUDE.md in the IDE. This may or may no…",
+          "sessionId": "c4427613-f984-43a9-a5d0-e5ece7623e8f"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "c4427613-f984-43a9-a5d0-e5ece7623e8f",
+        "lastActivity": "2026-04-05T21:02:30.417Z",
+        "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/ran-portfolio/CLAUDE.md in the IDE. This may or may no…"
+      }
+    },
     {
       "name": "Zoom-for-kids",
       "emoji": "👶",
@@ -16,7 +105,7 @@
       "hasGit": true,
       "git": {
         "branch": "getting-this-error-when-trying-to-uplaod-the-logo",
-        "lastCommitRelative": "34 hours ago",
+        "lastCommitRelative": "2 days ago",
         "lastCommitMessage": "Update landing page to link to Chrome Web Store",
         "lastCommitDate": "2026-04-04 08:33:29 +0300",
         "isDirty": true,
@@ -44,53 +133,6 @@
           "type": "chat",
           "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/project-dashboard/package.json in the IDE. This may or…",
           "sessionId": "14bc8c0b-5971-463e-8629-9e7d777b598c"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "ee5dd531-a7e6-4026-a81f-c48c76fc9e3a",
-        "lastActivity": "2026-04-04T20:53:05.015Z",
-        "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/preview.html in the IDE. This may or may…"
-      }
-    },
-    {
-      "name": "ran-portfolio",
-      "emoji": "🌐",
-      "description": "Single-page freelance portfolio. Static HTML + CSS, no framework. Warm & personal visual tone.",
-      "stack": "HTML + CSS + vanilla JS",
-      "status": "active",
-      "lastActivity": "2026-04-04T20:53:05.015Z",
-      "size": "39M",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "2 weeks ago",
-        "lastCommitMessage": "ci: add GitHub Pages deploy workflow",
-        "lastCommitDate": "2026-03-22 01:31:21 +0200",
-        "isDirty": true,
-        "changedFiles": 47
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "ci: add GitHub Pages deploy workflow"
-        },
-        {
-          "type": "commit",
-          "text": "feat: add sidenav, lightbox, responsive design, and meta tags"
-        },
-        {
-          "type": "commit",
-          "text": "feat: initial portfolio — header, 6 project cards, horizontal scroll"
-        },
-        {
-          "type": "chat",
-          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/preview.html in the IDE. This may or may…",
-          "sessionId": "ee5dd531-a7e6-4026-a81f-c48c76fc9e3a"
-        },
-        {
-          "type": "chat",
-          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/ran-portfolio/.github/workflows/deploy.yml in the IDE.…",
-          "sessionId": "963ede33-65f0-4a47-a471-d81314f31654"
         }
       ],
       "lastSession": {
@@ -305,39 +347,6 @@
         "lastActivity": "2026-03-09T14:23:57.401Z",
         "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/shmup-reminder/header-concepts.html in the IDE. This m…"
       }
-    },
-    {
-      "name": "Shhh",
-      "emoji": "🎙️",
-      "description": "A Python CLI tool that captures microphone audio, streams it to Google Cloud Speech-to-Text for live transcription, and pastes the result into the frontmost application. Supports English and Hebrew wi…",
-      "stack": "Python 3.9+ + Swift (macOS)",
-      "status": "stale",
-      "lastActivity": "2026-02-26T11:15:22.000Z",
-      "size": "588M",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "5 weeks ago",
-        "lastCommitMessage": "Pure Minimal UI + punctuation + paste/protocol fixes",
-        "lastCommitDate": "2026-02-26 13:15:22 +0200",
-        "isDirty": true,
-        "changedFiles": 31
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Pure Minimal UI + punctuation + paste/protocol fixes"
-        },
-        {
-          "type": "commit",
-          "text": "refactor: single pill panel, remove old toggle+preview views"
-        },
-        {
-          "type": "commit",
-          "text": "feat: add ShhhPillView unified pill with all states"
-        }
-      ],
-      "lastSession": null
     },
     {
       "name": "Chatgpt-codex",

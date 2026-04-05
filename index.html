@@ -1,68 +1,60 @@
 <!DOCTYPE html>
-<html lang="he" dir="ltr">
+<html lang="he" dir="rtl">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Project Status Dashboard — Real-time overview of all local development projects">
-  <meta name="theme-color" content="#0a0a0f">
+  <meta name="description" content="לוח מצב פרוייקטים — סקירה מעודכנת של כל הפרוייקטים המקומיים">
+  <meta name="theme-color" content="#faf9f7">
   <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <title>Project Dashboard</title>
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <title>לוח פרוייקטים</title>
   <link rel="stylesheet" href="index.css">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📋</text></svg>">
 </head>
 <body>
+  <div class="page">
 
-  <!-- ── Header ──────────────────────────────────────────────── -->
-  <header class="dashboard-header" id="dashboard-header">
-    <h1 class="header-title">Project Dashboard</h1>
-    <p class="header-subtitle">Status overview of all local projects</p>
-    <div class="header-meta">
-      <span class="pulse-dot"></span>
-      <span id="last-updated">Loading...</span>
-    </div>
-  </header>
+    <header class="dashboard-header">
+      <div class="header-row">
+        <h1 class="header-title">הפרוייקטים שלי</h1>
+        <span class="header-updated" id="last-updated">
+          <span class="live-dot"></span>
+          טוען...
+        </span>
+      </div>
+      <hr class="header-line">
+    </header>
 
-  <!-- ── Stats Bar ───────────────────────────────────────────── -->
-  <nav class="stats-bar" id="stats-bar" aria-label="Project statistics">
-    <button class="stat-item" data-filter="all" id="stat-total">
-      <span class="stat-number total" id="count-total">-</span>
-      <span class="stat-label">Total</span>
-    </button>
-    <button class="stat-item" data-filter="active" id="stat-active">
-      <span class="stat-number active" id="count-active">-</span>
-      <span class="stat-label">Active</span>
-    </button>
-    <button class="stat-item" data-filter="idle" id="stat-idle">
-      <span class="stat-number idle" id="count-idle">-</span>
-      <span class="stat-label">Idle</span>
-    </button>
-    <button class="stat-item" data-filter="stale" id="stat-stale">
-      <span class="stat-number stale" id="count-stale">-</span>
-      <span class="stat-label">Stale</span>
-    </button>
-  </nav>
+    <nav class="stats-row" id="stats-bar" aria-label="סינון לפי סטטוס">
+      <button class="stat-pill" data-filter="all" aria-pressed="true" id="stat-total">
+        הכל <span class="count" id="count-total">-</span>
+      </button>
+      <button class="stat-pill" data-filter="active" aria-pressed="false" id="stat-active">
+        פעילים <span class="count" id="count-active">-</span>
+      </button>
+      <button class="stat-pill" data-filter="idle" aria-pressed="false" id="stat-idle">
+        ממתינים <span class="count" id="count-idle">-</span>
+      </button>
+      <button class="stat-pill" data-filter="stale" aria-pressed="false" id="stat-stale">
+        לא פעילים <span class="count" id="count-stale">-</span>
+      </button>
+    </nav>
 
-  <!-- ── Toolbar ─────────────────────────────────────────────── -->
-  <div class="toolbar" id="toolbar">
-    <div class="search-box">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-        <circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>
-      </svg>
-      <input 
-        type="text" 
-        class="search-input" 
-        id="search-input" 
-        placeholder="Search projects..." 
+    <div class="search-wrap">
+      <input
+        type="text"
+        class="search-input"
+        id="search-input"
+        placeholder="חיפוש פרוייקט..."
         autocomplete="off"
       >
     </div>
-  </div>
 
-  <!-- ── Projects Grid ───────────────────────────────────────── -->
-  <main class="projects-grid" id="projects-grid">
-    <!-- Cards rendered by JS -->
-  </main>
+    <main class="project-list" id="project-list">
+      <!-- Rendered by JS -->
+    </main>
+
+  </div>
 
   <script src="app.js"></script>
 </body>
