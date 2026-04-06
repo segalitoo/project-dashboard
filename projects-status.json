@@ -1,22 +1,65 @@
 {
-  "lastUpdated": "2026-04-06T18:56:18.791Z",
+  "lastUpdated": "2026-04-06T23:00:07.765Z",
   "projectCount": 12,
-  "activeCount": 3,
-  "idleCount": 4,
+  "activeCount": 4,
+  "idleCount": 3,
   "staleCount": 2,
   "projects": [
+    {
+      "name": "Payoneer-ad-generator",
+      "emoji": "🎨",
+      "description": "React + TypeScript + Vite frontend with Supabase backend (Edge Functions + Storage + PostgreSQL). AI image generation and analysis via Google Gemini.",
+      "stack": "TypeScript + React 19 + Vite + Supabase + Gemini",
+      "status": "active",
+      "lastActivity": "2026-04-06T22:13:55.788Z",
+      "size": "184M",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "47 minutes ago",
+        "lastCommitMessage": "Add UI redesign implementation plan",
+        "lastCommitDate": "2026-04-07 01:12:50 +0300",
+        "isDirty": true,
+        "changedFiles": 20
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Add UI redesign implementation plan"
+        },
+        {
+          "type": "commit",
+          "text": "Add UI redesign design spec"
+        },
+        {
+          "type": "chat",
+          "text": "Tell your human partner that this command is deprecated and will be removed in the next major release. They should ask y…",
+          "sessionId": "09b34b9a-f838-4d37-87d2-452180465f51"
+        },
+        {
+          "type": "chat",
+          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/ran-portfolio/.github/workflows/deploy.yml in the IDE.…",
+          "sessionId": "963ede33-65f0-4a47-a471-d81314f31654"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "09b34b9a-f838-4d37-87d2-452180465f51",
+        "lastActivity": "2026-04-06T22:13:55.788Z",
+        "summary": "Tell your human partner that this command is deprecated and will be removed in the next major release. They should ask y…"
+      }
+    },
     {
       "name": "Shhh",
       "emoji": "🎙️",
       "description": "A Python CLI tool that captures microphone audio, streams it to Google Cloud Speech-to-Text for live transcription, and pastes the result into the frontmost application. Supports English and Hebrew wi…",
       "stack": "Python 3.9+ + Swift (macOS)",
       "status": "active",
-      "lastActivity": "2026-04-06T09:33:27.187Z",
+      "lastActivity": "2026-04-06T22:13:55.788Z",
       "size": "753M",
       "hasGit": true,
       "git": {
         "branch": "feat/landing-page",
-        "lastCommitRelative": "20 hours ago",
+        "lastCommitRelative": "24 hours ago",
         "lastCommitMessage": "fix: update portfolio link to correct GitHub username",
         "lastCommitDate": "2026-04-06 02:18:42 +0300",
         "isDirty": true,
@@ -37,19 +80,19 @@
         },
         {
           "type": "chat",
-          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/preview.html in the IDE. This may or may…",
-          "sessionId": "ee5dd531-a7e6-4026-a81f-c48c76fc9e3a"
+          "text": "Tell your human partner that this command is deprecated and will be removed in the next major release. They should ask y…",
+          "sessionId": "09b34b9a-f838-4d37-87d2-452180465f51"
         },
         {
           "type": "chat",
-          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/project-dashboard/package.json in the IDE. This may or…",
-          "sessionId": "14bc8c0b-5971-463e-8629-9e7d777b598c"
+          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/preview.html in the IDE. This may or may…",
+          "sessionId": "ee5dd531-a7e6-4026-a81f-c48c76fc9e3a"
         }
       ],
       "lastSession": {
-        "sessionId": "ee5dd531-a7e6-4026-a81f-c48c76fc9e3a",
-        "lastActivity": "2026-04-06T09:33:27.187Z",
-        "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/preview.html in the IDE. This may or may…"
+        "sessionId": "09b34b9a-f838-4d37-87d2-452180465f51",
+        "lastActivity": "2026-04-06T22:13:55.788Z",
+        "summary": "Tell your human partner that this command is deprecated and will be removed in the next major release. They should ask y…"
       }
     },
     {
@@ -58,12 +101,12 @@
       "description": "This file documents the project architecture, development conventions, and workflows for AI assistants working on this codebase.",
       "stack": "TypeScript + React 18 + Vite",
       "status": "active",
-      "lastActivity": "2026-04-06T09:33:27.187Z",
+      "lastActivity": "2026-04-06T21:13:12.928Z",
       "size": "281M",
       "hasGit": true,
       "git": {
         "branch": "claude/add-claude-documentation-gFq7q",
-        "lastCommitRelative": "13 hours ago",
+        "lastCommitRelative": "17 hours ago",
         "lastCommitMessage": "Update landing page with improved design",
         "lastCommitDate": "2026-04-06 09:11:15 +0300",
         "isDirty": true,
@@ -95,7 +138,7 @@
       ],
       "lastSession": {
         "sessionId": "ee5dd531-a7e6-4026-a81f-c48c76fc9e3a",
-        "lastActivity": "2026-04-06T09:33:27.187Z",
+        "lastActivity": "2026-04-06T21:13:12.928Z",
         "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/preview.html in the IDE. This may or may…"
       }
     },
@@ -105,18 +148,22 @@
       "description": "Single-page freelance portfolio. Static HTML + CSS, no framework. Warm & personal visual tone.",
       "stack": "HTML + CSS + vanilla JS",
       "status": "active",
-      "lastActivity": "2026-04-06T09:33:27.187Z",
+      "lastActivity": "2026-04-06T21:13:12.928Z",
       "size": "78M",
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "11 hours ago",
-        "lastCommitMessage": "Remove niqqud from all Zoomi images, fix slide 3 title, update slide 4 panel UI",
-        "lastCommitDate": "2026-04-06 11:18:21 +0300",
+        "lastCommitRelative": "2 hours ago",
+        "lastCommitMessage": "Fix slide 3 title, update slide 4 panel: correct RTL, niqqud, EN button, updated UI",
+        "lastCommitDate": "2026-04-07 00:09:14 +0300",
         "isDirty": true,
-        "changedFiles": 6
+        "changedFiles": 5
       },
       "recentActions": [
+        {
+          "type": "commit",
+          "text": "Fix slide 3 title, update slide 4 panel: correct RTL, niqqud, EN button, updated UI"
+        },
         {
           "type": "commit",
           "text": "Remove niqqud from all Zoomi images, fix slide 3 title, update slide 4 panel UI"
@@ -124,10 +171,6 @@
         {
           "type": "commit",
           "text": "Update Zoomi images: badge aligned right, updated UI with EN+theme+close header, niqqud"
-        },
-        {
-          "type": "commit",
-          "text": "zoom_1: right-align text, remove sparkle icon"
         },
         {
           "type": "chat",
@@ -142,7 +185,7 @@
       ],
       "lastSession": {
         "sessionId": "ee5dd531-a7e6-4026-a81f-c48c76fc9e3a",
-        "lastActivity": "2026-04-06T09:33:27.187Z",
+        "lastActivity": "2026-04-06T21:13:12.928Z",
         "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/preview.html in the IDE. This may or may…"
       }
     },
@@ -153,7 +196,7 @@
       "stack": "TypeScript + React 19 + Next.js + Supabase",
       "status": "idle",
       "lastActivity": "2026-04-03T17:58:09.841Z",
-      "size": "830M",
+      "size": "831M",
       "hasGit": true,
       "git": {
         "branch": "main",
@@ -182,34 +225,6 @@
         "sessionId": "9fbb526b-05db-43d5-bc91-ee0ce9674b64",
         "lastActivity": "2026-04-03T17:58:09.841Z",
         "summary": "אני רוצה לבנות דף נחיתה שבו מרוכזים קורסים בנושאי לימוד ai.\nהשיעורים צריכים להיות קצרים וקליטים עד אורך של 10 דק.\nאפשרלש…"
-      }
-    },
-    {
-      "name": "Payoneer-ad-generator",
-      "emoji": "🎨",
-      "description": "React + TypeScript + Vite frontend with Supabase backend (Edge Functions + Storage + PostgreSQL). AI image generation and analysis via Google Gemini.",
-      "stack": "TypeScript + React 19 + Vite + Supabase + Gemini",
-      "status": "idle",
-      "lastActivity": "2026-04-03T08:59:41.154Z",
-      "size": "184M",
-      "hasGit": false,
-      "git": null,
-      "recentActions": [
-        {
-          "type": "chat",
-          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/ran-portfolio/.github/workflows/deploy.yml in the IDE.…",
-          "sessionId": "963ede33-65f0-4a47-a471-d81314f31654"
-        },
-        {
-          "type": "chat",
-          "text": "Perform a comprehensive design review of the Payoneer Ad Generator project.\n\nThe project is located at: /Users/rannsegal…",
-          "sessionId": "2ddab48f-ff38-46e9-aab0-d0d5ba39a55b"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "963ede33-65f0-4a47-a471-d81314f31654",
-        "lastActivity": "2026-04-03T08:59:41.154Z",
-        "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/ran-portfolio/.github/workflows/deploy.yml in the IDE.…"
       }
     },
     {
@@ -293,11 +308,6 @@
           "type": "chat",
           "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/preview.html in the IDE. This may or may…",
           "sessionId": "fdd464c8-173a-44b7-ab5c-3ed4e47f5878"
-        },
-        {
-          "type": "chat",
-          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/design-manager-portfolio/src/data/projects.ts in the I…",
-          "sessionId": "79cea027-bc0d-4ec0-a78f-f88cbc242ce5"
         }
       ],
       "lastSession": {
@@ -340,11 +350,6 @@
           "type": "chat",
           "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/shmup-reminder/header-concepts.html in the IDE. This m…",
           "sessionId": "7efd9c1c-d11c-4baf-a12f-e64cd6b0d486"
-        },
-        {
-          "type": "chat",
-          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/design-manager-portfolio/src/data/projects.ts in the I…",
-          "sessionId": "79cea027-bc0d-4ec0-a78f-f88cbc242ce5"
         }
       ],
       "lastSession": {
