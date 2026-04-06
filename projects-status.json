@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-05T21:58:40.256Z",
+  "lastUpdated": "2026-04-06T06:11:58.647Z",
   "projectCount": 12,
   "activeCount": 6,
   "idleCount": 1,
@@ -11,76 +11,34 @@
       "description": "A Python CLI tool that captures microphone audio, streams it to Google Cloud Speech-to-Text for live transcription, and pastes the result into the frontmost application. Supports English and Hebrew wi…",
       "stack": "Python 3.9+ + Swift (macOS)",
       "status": "active",
-      "lastActivity": "2026-04-05T21:56:59.057Z",
-      "size": "687M",
+      "lastActivity": "2026-04-06T06:11:28.554Z",
+      "size": "753M",
       "hasGit": true,
       "git": {
         "branch": "feat/landing-page",
-        "lastCommitRelative": "32 minutes ago",
-        "lastCommitMessage": "feat: assemble all sections and add visual polish",
-        "lastCommitDate": "2026-04-06 00:26:56 +0300",
+        "lastCommitRelative": "7 hours ago",
+        "lastCommitMessage": "fix: update portfolio link to correct GitHub username",
+        "lastCommitDate": "2026-04-06 02:18:42 +0300",
         "isDirty": true,
-        "changedFiles": 35
+        "changedFiles": 36
       },
       "recentActions": [
         {
           "type": "commit",
-          "text": "feat: assemble all sections and add visual polish"
+          "text": "fix: update portfolio link to correct GitHub username"
         },
         {
           "type": "commit",
-          "text": "feat: add CraftDetails section with staggered card reveal"
+          "text": "ci: add GitHub Pages deployment workflow for landing page"
         },
         {
           "type": "commit",
-          "text": "feat: add DesignExploration, ThePill, and UserFlow sections with Remotion players"
+          "text": "feat: visual redesign with bento grid layout, animation fixes, and GH Pages setup"
         },
         {
           "type": "chat",
-          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/ran-portfolio/CLAUDE.md in the IDE. This may or may no…",
-          "sessionId": "c4427613-f984-43a9-a5d0-e5ece7623e8f"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "c4427613-f984-43a9-a5d0-e5ece7623e8f",
-        "lastActivity": "2026-04-05T21:56:59.057Z",
-        "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/ran-portfolio/CLAUDE.md in the IDE. This may or may no…"
-      }
-    },
-    {
-      "name": "ran-portfolio",
-      "emoji": "🌐",
-      "description": "Single-page freelance portfolio. Static HTML + CSS, no framework. Warm & personal visual tone.",
-      "stack": "HTML + CSS + vanilla JS",
-      "status": "active",
-      "lastActivity": "2026-04-05T21:56:59.057Z",
-      "size": "39M",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "2 weeks ago",
-        "lastCommitMessage": "ci: add GitHub Pages deploy workflow",
-        "lastCommitDate": "2026-03-22 01:31:21 +0200",
-        "isDirty": true,
-        "changedFiles": 47
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "ci: add GitHub Pages deploy workflow"
-        },
-        {
-          "type": "commit",
-          "text": "feat: add sidenav, lightbox, responsive design, and meta tags"
-        },
-        {
-          "type": "commit",
-          "text": "feat: initial portfolio — header, 6 project cards, horizontal scroll"
-        },
-        {
-          "type": "chat",
-          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/ran-portfolio/CLAUDE.md in the IDE. This may or may no…",
-          "sessionId": "c4427613-f984-43a9-a5d0-e5ece7623e8f"
+          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/project-dashboard/package.json in the IDE. This may or…",
+          "sessionId": "14bc8c0b-5971-463e-8629-9e7d777b598c"
         },
         {
           "type": "chat",
@@ -89,9 +47,9 @@
         }
       ],
       "lastSession": {
-        "sessionId": "c4427613-f984-43a9-a5d0-e5ece7623e8f",
-        "lastActivity": "2026-04-05T21:56:59.057Z",
-        "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/ran-portfolio/CLAUDE.md in the IDE. This may or may no…"
+        "sessionId": "14bc8c0b-5971-463e-8629-9e7d777b598c",
+        "lastActivity": "2026-04-06T06:11:28.554Z",
+        "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/project-dashboard/package.json in the IDE. This may or…"
       }
     },
     {
@@ -100,21 +58,21 @@
       "description": "This file documents the project architecture, development conventions, and workflows for AI assistants working on this codebase.",
       "stack": "TypeScript + React 18 + Vite",
       "status": "active",
-      "lastActivity": "2026-04-04T20:53:05.015Z",
+      "lastActivity": "2026-04-06T06:11:28.554Z",
       "size": "281M",
       "hasGit": true,
       "git": {
-        "branch": "getting-this-error-when-trying-to-uplaod-the-logo",
-        "lastCommitRelative": "2 days ago",
-        "lastCommitMessage": "Update landing page to link to Chrome Web Store",
-        "lastCommitDate": "2026-04-04 08:33:29 +0300",
+        "branch": "claude/add-claude-documentation-gFq7q",
+        "lastCommitRelative": "36 seconds ago",
+        "lastCommitMessage": "Update landing page with improved design",
+        "lastCommitDate": "2026-04-06 09:11:15 +0300",
         "isDirty": true,
-        "changedFiles": 17
+        "changedFiles": 16
       },
       "recentActions": [
         {
           "type": "commit",
-          "text": "Update landing page to link to Chrome Web Store"
+          "text": "Update landing page with improved design"
         },
         {
           "type": "commit",
@@ -126,18 +84,65 @@
         },
         {
           "type": "chat",
+          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/project-dashboard/package.json in the IDE. This may or…",
+          "sessionId": "14bc8c0b-5971-463e-8629-9e7d777b598c"
+        },
+        {
+          "type": "chat",
+          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/preview.html in the IDE. This may or may…",
+          "sessionId": "ee5dd531-a7e6-4026-a81f-c48c76fc9e3a"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "14bc8c0b-5971-463e-8629-9e7d777b598c",
+        "lastActivity": "2026-04-06T06:11:28.554Z",
+        "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/project-dashboard/package.json in the IDE. This may or…"
+      }
+    },
+    {
+      "name": "ran-portfolio",
+      "emoji": "🌐",
+      "description": "Single-page freelance portfolio. Static HTML + CSS, no framework. Warm & personal visual tone.",
+      "stack": "HTML + CSS + vanilla JS",
+      "status": "active",
+      "lastActivity": "2026-04-06T00:15:04.242Z",
+      "size": "71M",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "6 hours ago",
+        "lastCommitMessage": "Add Zoomi as second AI project with generated marketing images",
+        "lastCommitDate": "2026-04-06 03:14:55 +0300",
+        "isDirty": true,
+        "changedFiles": 5
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Add Zoomi as second AI project with generated marketing images"
+        },
+        {
+          "type": "commit",
+          "text": "Update shhh_2.png image"
+        },
+        {
+          "type": "commit",
+          "text": "Add Shhh as first AI project"
+        },
+        {
+          "type": "chat",
           "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/preview.html in the IDE. This may or may…",
           "sessionId": "ee5dd531-a7e6-4026-a81f-c48c76fc9e3a"
         },
         {
           "type": "chat",
-          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/project-dashboard/package.json in the IDE. This may or…",
-          "sessionId": "14bc8c0b-5971-463e-8629-9e7d777b598c"
+          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/ran-portfolio/CLAUDE.md in the IDE. This may or may no…",
+          "sessionId": "c4427613-f984-43a9-a5d0-e5ece7623e8f"
         }
       ],
       "lastSession": {
         "sessionId": "ee5dd531-a7e6-4026-a81f-c48c76fc9e3a",
-        "lastActivity": "2026-04-04T20:53:05.015Z",
+        "lastActivity": "2026-04-06T00:15:04.242Z",
         "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/preview.html in the IDE. This may or may…"
       }
     },
@@ -148,7 +153,7 @@
       "stack": "TypeScript + React 19 + Next.js + Supabase",
       "status": "active",
       "lastActivity": "2026-04-03T17:58:09.841Z",
-      "size": "812M",
+      "size": "829M",
       "hasGit": true,
       "git": {
         "branch": "main",
@@ -265,7 +270,7 @@
       "stack": "Next.js 16 + TypeScript + Tailwind CSS 4",
       "status": "stale",
       "lastActivity": "2026-03-21T23:11:55.549Z",
-      "size": "831M",
+      "size": "841M",
       "hasGit": true,
       "git": {
         "branch": "main",
