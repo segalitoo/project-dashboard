@@ -1,7 +1,7 @@
 {
-  "lastUpdated": "2026-04-07T19:47:46.464Z",
-  "projectCount": 12,
-  "activeCount": 4,
+  "lastUpdated": "2026-04-08T12:22:26.417Z",
+  "projectCount": 13,
+  "activeCount": 5,
   "idleCount": 3,
   "staleCount": 2,
   "projects": [
@@ -11,29 +11,29 @@
       "description": "React + TypeScript + Vite frontend with Supabase backend (Edge Functions + Storage + PostgreSQL). AI image generation and analysis via Google Gemini.",
       "stack": "TypeScript + React 19 + Vite + Supabase + Gemini",
       "status": "active",
-      "lastActivity": "2026-04-07T19:46:57.226Z",
+      "lastActivity": "2026-04-08T12:19:33.256Z",
       "size": "185M",
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "84 seconds ago",
-        "lastCommitMessage": "feat: add BrandAsset types and brand asset API functions",
-        "lastCommitDate": "2026-04-07 22:46:12 +0300",
+        "lastCommitRelative": "16 hours ago",
+        "lastCommitMessage": "fix: safe blob download and add length guard in CreatePage",
+        "lastCommitDate": "2026-04-07 23:01:50 +0300",
         "isDirty": true,
-        "changedFiles": 33
+        "changedFiles": 38
       },
       "recentActions": [
         {
           "type": "commit",
-          "text": "feat: add BrandAsset types and brand asset API functions"
+          "text": "fix: safe blob download and add length guard in CreatePage"
         },
         {
           "type": "commit",
-          "text": "feat: add brand_assets table migration"
+          "text": "feat: rewrite Create page as canvas-first layout with floating prompt bar"
         },
         {
           "type": "commit",
-          "text": "Add UI redesign implementation plan"
+          "text": "feat: rewrite Settings page with sections and generation defaults"
         },
         {
           "type": "chat",
@@ -48,7 +48,7 @@
       ],
       "lastSession": {
         "sessionId": "09b34b9a-f838-4d37-87d2-452180465f51",
-        "lastActivity": "2026-04-07T19:46:57.226Z",
+        "lastActivity": "2026-04-08T12:19:33.256Z",
         "summary": "Tell your human partner that this command is deprecated and will be removed in the next major release. They should ask y…"
       }
     },
@@ -58,12 +58,12 @@
       "description": "A Python CLI tool that captures microphone audio, streams it to Google Cloud Speech-to-Text for live transcription, and pastes the result into the frontmost application. Supports English and Hebrew wi…",
       "stack": "Python 3.9+ + Swift (macOS)",
       "status": "active",
-      "lastActivity": "2026-04-07T19:46:57.226Z",
+      "lastActivity": "2026-04-08T12:19:33.256Z",
       "size": "753M",
       "hasGit": true,
       "git": {
         "branch": "feat/landing-page",
-        "lastCommitRelative": "2 days ago",
+        "lastCommitRelative": "3 days ago",
         "lastCommitMessage": "fix: update portfolio link to correct GitHub username",
         "lastCommitDate": "2026-04-06 02:18:42 +0300",
         "isDirty": true,
@@ -95,7 +95,35 @@
       ],
       "lastSession": {
         "sessionId": "09b34b9a-f838-4d37-87d2-452180465f51",
-        "lastActivity": "2026-04-07T19:46:57.226Z",
+        "lastActivity": "2026-04-08T12:19:33.256Z",
+        "summary": "Tell your human partner that this command is deprecated and will be removed in the next major release. They should ask y…"
+      }
+    },
+    {
+      "name": "agents",
+      "emoji": "📁",
+      "description": "Local project",
+      "stack": "Unknown",
+      "status": "active",
+      "lastActivity": "2026-04-08T12:19:33.256Z",
+      "size": "20K",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [
+        {
+          "type": "chat",
+          "text": "Tell your human partner that this command is deprecated and will be removed in the next major release. They should ask y…",
+          "sessionId": "09b34b9a-f838-4d37-87d2-452180465f51"
+        },
+        {
+          "type": "chat",
+          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/.claude/skills/update-dashboard/SKILL.md in the IDE. T…",
+          "sessionId": "27fde11d-cd2c-4264-9eda-5f36582f514c"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "09b34b9a-f838-4d37-87d2-452180465f51",
+        "lastActivity": "2026-04-08T12:19:33.256Z",
         "summary": "Tell your human partner that this command is deprecated and will be removed in the next major release. They should ask y…"
       }
     },
@@ -157,7 +185,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "23 hours ago",
+        "lastCommitRelative": "2 days ago",
         "lastCommitMessage": "Fix slide 3 title, update slide 4 panel: correct RTL, niqqud, EN button, updated UI",
         "lastCommitDate": "2026-04-07 00:09:14 +0300",
         "isDirty": true,
@@ -200,11 +228,11 @@
       "stack": "TypeScript + React 19 + Next.js + Supabase",
       "status": "idle",
       "lastActivity": "2026-04-03T17:58:09.841Z",
-      "size": "840M",
+      "size": "882M",
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "5 days ago",
+        "lastCommitRelative": "6 days ago",
         "lastCommitMessage": "AI Academy for Jordan - Hebrew AI learning platform",
         "lastCommitDate": "2026-04-03 00:34:04 +0300",
         "isDirty": true,
@@ -289,7 +317,7 @@
       "stack": "Next.js 16 + TypeScript + Tailwind CSS 4",
       "status": "stale",
       "lastActivity": "2026-03-21T23:11:55.549Z",
-      "size": "846M",
+      "size": "881M",
       "hasGit": true,
       "git": {
         "branch": "main",
