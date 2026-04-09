@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-08T12:22:26.417Z",
+  "lastUpdated": "2026-04-09T06:19:09.381Z",
   "projectCount": 13,
   "activeCount": 5,
   "idleCount": 3,
@@ -11,29 +11,29 @@
       "description": "React + TypeScript + Vite frontend with Supabase backend (Edge Functions + Storage + PostgreSQL). AI image generation and analysis via Google Gemini.",
       "stack": "TypeScript + React 19 + Vite + Supabase + Gemini",
       "status": "active",
-      "lastActivity": "2026-04-08T12:19:33.256Z",
-      "size": "185M",
+      "lastActivity": "2026-04-09T06:18:19.526Z",
+      "size": "191M",
       "hasGit": true,
       "git": {
-        "branch": "main",
-        "lastCommitRelative": "16 hours ago",
-        "lastCommitMessage": "fix: safe blob download and add length guard in CreatePage",
-        "lastCommitDate": "2026-04-07 23:01:50 +0300",
+        "branch": "feat/node-canvas",
+        "lastCommitRelative": "9 hours ago",
+        "lastCommitMessage": "plan: node-based canvas create page",
+        "lastCommitDate": "2026-04-09 00:37:35 +0300",
         "isDirty": true,
-        "changedFiles": 38
+        "changedFiles": 4
       },
       "recentActions": [
         {
           "type": "commit",
+          "text": "plan: node-based canvas create page"
+        },
+        {
+          "type": "commit",
+          "text": "feat: complete redesign — canvas create, copy AI, node fixes, hardening"
+        },
+        {
+          "type": "commit",
           "text": "fix: safe blob download and add length guard in CreatePage"
-        },
-        {
-          "type": "commit",
-          "text": "feat: rewrite Create page as canvas-first layout with floating prompt bar"
-        },
-        {
-          "type": "commit",
-          "text": "feat: rewrite Settings page with sections and generation defaults"
         },
         {
           "type": "chat",
@@ -48,7 +48,7 @@
       ],
       "lastSession": {
         "sessionId": "09b34b9a-f838-4d37-87d2-452180465f51",
-        "lastActivity": "2026-04-08T12:19:33.256Z",
+        "lastActivity": "2026-04-09T06:18:19.526Z",
         "summary": "Tell your human partner that this command is deprecated and will be removed in the next major release. They should ask y…"
       }
     },
@@ -58,7 +58,7 @@
       "description": "A Python CLI tool that captures microphone audio, streams it to Google Cloud Speech-to-Text for live transcription, and pastes the result into the frontmost application. Supports English and Hebrew wi…",
       "stack": "Python 3.9+ + Swift (macOS)",
       "status": "active",
-      "lastActivity": "2026-04-08T12:19:33.256Z",
+      "lastActivity": "2026-04-09T06:18:19.526Z",
       "size": "753M",
       "hasGit": true,
       "git": {
@@ -89,13 +89,13 @@
         },
         {
           "type": "chat",
-          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/preview.html in the IDE. This may or may…",
-          "sessionId": "ee5dd531-a7e6-4026-a81f-c48c76fc9e3a"
+          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Shhh/docs/superpowers/specs/2026-04-06-shhh-landing-re…",
+          "sessionId": "b64df149-8ef2-44cd-98a8-b4a46a539857"
         }
       ],
       "lastSession": {
         "sessionId": "09b34b9a-f838-4d37-87d2-452180465f51",
-        "lastActivity": "2026-04-08T12:19:33.256Z",
+        "lastActivity": "2026-04-09T06:18:19.526Z",
         "summary": "Tell your human partner that this command is deprecated and will be removed in the next major release. They should ask y…"
       }
     },
@@ -105,7 +105,7 @@
       "description": "Local project",
       "stack": "Unknown",
       "status": "active",
-      "lastActivity": "2026-04-08T12:19:33.256Z",
+      "lastActivity": "2026-04-09T06:18:19.526Z",
       "size": "20K",
       "hasGit": false,
       "git": null,
@@ -123,7 +123,7 @@
       ],
       "lastSession": {
         "sessionId": "09b34b9a-f838-4d37-87d2-452180465f51",
-        "lastActivity": "2026-04-08T12:19:33.256Z",
+        "lastActivity": "2026-04-09T06:18:19.526Z",
         "summary": "Tell your human partner that this command is deprecated and will be removed in the next major release. They should ask y…"
       }
     },
@@ -138,7 +138,7 @@
       "hasGit": true,
       "git": {
         "branch": "claude/add-claude-documentation-gFq7q",
-        "lastCommitRelative": "2 days ago",
+        "lastCommitRelative": "3 days ago",
         "lastCommitMessage": "Update landing page with improved design",
         "lastCommitDate": "2026-04-06 09:11:15 +0300",
         "isDirty": true,
@@ -228,7 +228,7 @@
       "stack": "TypeScript + React 19 + Next.js + Supabase",
       "status": "idle",
       "lastActivity": "2026-04-03T17:58:09.841Z",
-      "size": "882M",
+      "size": "840M",
       "hasGit": true,
       "git": {
         "branch": "main",
@@ -317,7 +317,7 @@
       "stack": "Next.js 16 + TypeScript + Tailwind CSS 4",
       "status": "stale",
       "lastActivity": "2026-03-21T23:11:55.549Z",
-      "size": "881M",
+      "size": "822M",
       "hasGit": true,
       "git": {
         "branch": "main",
