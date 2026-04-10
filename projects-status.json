@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-10T18:05:17.150Z",
+  "lastUpdated": "2026-04-10T21:42:18.231Z",
   "projectCount": 13,
   "activeCount": 5,
   "idleCount": 3,
@@ -11,18 +11,22 @@
       "description": "React + TypeScript + Vite frontend with Supabase backend (Edge Functions + Storage + PostgreSQL). AI image generation and analysis via Google Gemini.",
       "stack": "TypeScript + React 19 + Vite + Supabase + Gemini",
       "status": "active",
-      "lastActivity": "2026-04-09T22:46:07.513Z",
+      "lastActivity": "2026-04-10T21:38:21.160Z",
       "size": "192M",
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "2 days ago",
-        "lastCommitMessage": "feat: node-based canvas create page with React Flow",
-        "lastCommitDate": "2026-04-09 09:21:23 +0300",
+        "lastCommitRelative": "29 minutes ago",
+        "lastCommitMessage": "feat: separate Copy AI & Reference nodes with inter-node data flow",
+        "lastCommitDate": "2026-04-11 00:12:39 +0300",
         "isDirty": true,
-        "changedFiles": 13
+        "changedFiles": 1
       },
       "recentActions": [
+        {
+          "type": "commit",
+          "text": "feat: separate Copy AI & Reference nodes with inter-node data flow"
+        },
         {
           "type": "commit",
           "text": "feat: node-based canvas create page with React Flow"
@@ -30,10 +34,6 @@
         {
           "type": "commit",
           "text": "plan: node-based canvas create page"
-        },
-        {
-          "type": "commit",
-          "text": "feat: complete redesign — canvas create, copy AI, node fixes, hardening"
         },
         {
           "type": "chat",
@@ -48,7 +48,7 @@
       ],
       "lastSession": {
         "sessionId": "ee5dd531-a7e6-4026-a81f-c48c76fc9e3a",
-        "lastActivity": "2026-04-09T22:46:07.513Z",
+        "lastActivity": "2026-04-10T21:38:21.160Z",
         "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/preview.html in the IDE. This may or may…"
       }
     },
@@ -58,7 +58,7 @@
       "description": "A Python CLI tool that captures microphone audio, streams it to Google Cloud Speech-to-Text for live transcription, and pastes the result into the frontmost application. Supports English and Hebrew wi…",
       "stack": "Python 3.9+ + Swift (macOS)",
       "status": "active",
-      "lastActivity": "2026-04-09T22:46:07.513Z",
+      "lastActivity": "2026-04-10T21:38:21.160Z",
       "size": "753M",
       "hasGit": true,
       "git": {
@@ -67,7 +67,7 @@
         "lastCommitMessage": "fix: update portfolio link to correct GitHub username",
         "lastCommitDate": "2026-04-06 02:18:42 +0300",
         "isDirty": true,
-        "changedFiles": 37
+        "changedFiles": 38
       },
       "recentActions": [
         {
@@ -95,7 +95,7 @@
       ],
       "lastSession": {
         "sessionId": "ee5dd531-a7e6-4026-a81f-c48c76fc9e3a",
-        "lastActivity": "2026-04-09T22:46:07.513Z",
+        "lastActivity": "2026-04-10T21:38:21.160Z",
         "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/preview.html in the IDE. This may or may…"
       }
     },
@@ -105,7 +105,7 @@
       "description": "This file documents the project architecture, development conventions, and workflows for AI assistants working on this codebase.",
       "stack": "TypeScript + React 18 + Vite",
       "status": "active",
-      "lastActivity": "2026-04-09T22:46:07.513Z",
+      "lastActivity": "2026-04-10T21:38:21.160Z",
       "size": "281M",
       "hasGit": true,
       "git": {
@@ -142,7 +142,7 @@
       ],
       "lastSession": {
         "sessionId": "ee5dd531-a7e6-4026-a81f-c48c76fc9e3a",
-        "lastActivity": "2026-04-09T22:46:07.513Z",
+        "lastActivity": "2026-04-10T21:38:21.160Z",
         "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/preview.html in the IDE. This may or may…"
       }
     },
@@ -152,7 +152,7 @@
       "description": "Local project",
       "stack": "Unknown",
       "status": "active",
-      "lastActivity": "2026-04-09T22:46:07.513Z",
+      "lastActivity": "2026-04-10T21:38:21.160Z",
       "size": "20K",
       "hasGit": false,
       "git": null,
@@ -170,7 +170,7 @@
       ],
       "lastSession": {
         "sessionId": "ee5dd531-a7e6-4026-a81f-c48c76fc9e3a",
-        "lastActivity": "2026-04-09T22:46:07.513Z",
+        "lastActivity": "2026-04-10T21:38:21.160Z",
         "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/preview.html in the IDE. This may or may…"
       }
     },
@@ -180,29 +180,29 @@
       "description": "Single-page freelance portfolio. Static HTML + CSS, no framework. Warm & personal visual tone.",
       "stack": "HTML + CSS + vanilla JS",
       "status": "active",
-      "lastActivity": "2026-04-09T22:46:07.513Z",
-      "size": "78M",
+      "lastActivity": "2026-04-10T21:38:21.160Z",
+      "size": "84M",
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "4 days ago",
-        "lastCommitMessage": "Fix slide 3 title, update slide 4 panel: correct RTL, niqqud, EN button, updated UI",
-        "lastCommitDate": "2026-04-07 00:09:14 +0300",
+        "lastCommitRelative": "4 minutes ago",
+        "lastCommitMessage": "Update Ad Generator slides to match real app UI (green #20DC86, node canvas, Brand-OS)",
+        "lastCommitDate": "2026-04-11 00:38:08 +0300",
         "isDirty": true,
         "changedFiles": 5
       },
       "recentActions": [
         {
           "type": "commit",
+          "text": "Update Ad Generator slides to match real app UI (green #20DC86, node canvas, Brand-OS)"
+        },
+        {
+          "type": "commit",
+          "text": "Add Payoneer Ad Generator as AI project 3 with 4 marketing images"
+        },
+        {
+          "type": "commit",
           "text": "Fix slide 3 title, update slide 4 panel: correct RTL, niqqud, EN button, updated UI"
-        },
-        {
-          "type": "commit",
-          "text": "Remove niqqud from all Zoomi images, fix slide 3 title, update slide 4 panel UI"
-        },
-        {
-          "type": "commit",
-          "text": "Update Zoomi images: badge aligned right, updated UI with EN+theme+close header, niqqud"
         },
         {
           "type": "chat",
@@ -217,7 +217,7 @@
       ],
       "lastSession": {
         "sessionId": "ee5dd531-a7e6-4026-a81f-c48c76fc9e3a",
-        "lastActivity": "2026-04-09T22:46:07.513Z",
+        "lastActivity": "2026-04-10T21:38:21.160Z",
         "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/preview.html in the IDE. This may or may…"
       }
     },
@@ -228,7 +228,7 @@
       "stack": "TypeScript + React 19 + Next.js + Supabase",
       "status": "idle",
       "lastActivity": "2026-04-03T17:58:09.841Z",
-      "size": "762M",
+      "size": "689M",
       "hasGit": true,
       "git": {
         "branch": "main",
@@ -317,7 +317,7 @@
       "stack": "Next.js 16 + TypeScript + Tailwind CSS 4",
       "status": "stale",
       "lastActivity": "2026-03-21T23:11:55.549Z",
-      "size": "808M",
+      "size": "833M",
       "hasGit": true,
       "git": {
         "branch": "main",
