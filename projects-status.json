@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-10T21:42:18.231Z",
+  "lastUpdated": "2026-04-11T06:58:31.605Z",
   "projectCount": 13,
   "activeCount": 5,
   "idleCount": 3,
@@ -11,29 +11,29 @@
       "description": "React + TypeScript + Vite frontend with Supabase backend (Edge Functions + Storage + PostgreSQL). AI image generation and analysis via Google Gemini.",
       "stack": "TypeScript + React 19 + Vite + Supabase + Gemini",
       "status": "active",
-      "lastActivity": "2026-04-10T21:38:21.160Z",
-      "size": "192M",
+      "lastActivity": "2026-04-11T05:41:57.879Z",
+      "size": "193M",
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "29 minutes ago",
-        "lastCommitMessage": "feat: separate Copy AI & Reference nodes with inter-node data flow",
-        "lastCommitDate": "2026-04-11 00:12:39 +0300",
+        "lastCommitRelative": "79 minutes ago",
+        "lastCommitMessage": "fix: single batch success toast instead of one per generated ad",
+        "lastCommitDate": "2026-04-11 08:39:45 +0300",
         "isDirty": true,
         "changedFiles": 1
       },
       "recentActions": [
         {
           "type": "commit",
-          "text": "feat: separate Copy AI & Reference nodes with inter-node data flow"
+          "text": "fix: single batch success toast instead of one per generated ad"
         },
         {
           "type": "commit",
-          "text": "feat: node-based canvas create page with React Flow"
+          "text": "feat: toast notifications and confirm dialog for canvas actions"
         },
         {
           "type": "commit",
-          "text": "plan: node-based canvas create page"
+          "text": "fix: ConfirmDialog focus management and button type attributes"
         },
         {
           "type": "chat",
@@ -48,7 +48,7 @@
       ],
       "lastSession": {
         "sessionId": "ee5dd531-a7e6-4026-a81f-c48c76fc9e3a",
-        "lastActivity": "2026-04-10T21:38:21.160Z",
+        "lastActivity": "2026-04-11T05:41:57.879Z",
         "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/preview.html in the IDE. This may or may…"
       }
     },
@@ -58,7 +58,7 @@
       "description": "A Python CLI tool that captures microphone audio, streams it to Google Cloud Speech-to-Text for live transcription, and pastes the result into the frontmost application. Supports English and Hebrew wi…",
       "stack": "Python 3.9+ + Swift (macOS)",
       "status": "active",
-      "lastActivity": "2026-04-10T21:38:21.160Z",
+      "lastActivity": "2026-04-11T05:41:57.879Z",
       "size": "753M",
       "hasGit": true,
       "git": {
@@ -95,7 +95,7 @@
       ],
       "lastSession": {
         "sessionId": "ee5dd531-a7e6-4026-a81f-c48c76fc9e3a",
-        "lastActivity": "2026-04-10T21:38:21.160Z",
+        "lastActivity": "2026-04-11T05:41:57.879Z",
         "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/preview.html in the IDE. This may or may…"
       }
     },
@@ -105,7 +105,7 @@
       "description": "This file documents the project architecture, development conventions, and workflows for AI assistants working on this codebase.",
       "stack": "TypeScript + React 18 + Vite",
       "status": "active",
-      "lastActivity": "2026-04-10T21:38:21.160Z",
+      "lastActivity": "2026-04-11T05:41:57.879Z",
       "size": "281M",
       "hasGit": true,
       "git": {
@@ -142,7 +142,7 @@
       ],
       "lastSession": {
         "sessionId": "ee5dd531-a7e6-4026-a81f-c48c76fc9e3a",
-        "lastActivity": "2026-04-10T21:38:21.160Z",
+        "lastActivity": "2026-04-11T05:41:57.879Z",
         "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/preview.html in the IDE. This may or may…"
       }
     },
@@ -152,7 +152,7 @@
       "description": "Local project",
       "stack": "Unknown",
       "status": "active",
-      "lastActivity": "2026-04-10T21:38:21.160Z",
+      "lastActivity": "2026-04-11T05:41:57.879Z",
       "size": "20K",
       "hasGit": false,
       "git": null,
@@ -170,7 +170,7 @@
       ],
       "lastSession": {
         "sessionId": "ee5dd531-a7e6-4026-a81f-c48c76fc9e3a",
-        "lastActivity": "2026-04-10T21:38:21.160Z",
+        "lastActivity": "2026-04-11T05:41:57.879Z",
         "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/preview.html in the IDE. This may or may…"
       }
     },
@@ -180,29 +180,29 @@
       "description": "Single-page freelance portfolio. Static HTML + CSS, no framework. Warm & personal visual tone.",
       "stack": "HTML + CSS + vanilla JS",
       "status": "active",
-      "lastActivity": "2026-04-10T21:38:21.160Z",
-      "size": "84M",
+      "lastActivity": "2026-04-11T05:41:57.879Z",
+      "size": "94M",
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "4 minutes ago",
-        "lastCommitMessage": "Update Ad Generator slides to match real app UI (green #20DC86, node canvas, Brand-OS)",
-        "lastCommitDate": "2026-04-11 00:38:08 +0300",
+        "lastCommitRelative": "2 hours ago",
+        "lastCommitMessage": "Update Brand-OS slides to teal accent color #00E5C8",
+        "lastCommitDate": "2026-04-11 08:11:57 +0300",
         "isDirty": true,
-        "changedFiles": 5
+        "changedFiles": 6
       },
       "recentActions": [
         {
           "type": "commit",
-          "text": "Update Ad Generator slides to match real app UI (green #20DC86, node canvas, Brand-OS)"
+          "text": "Update Brand-OS slides to teal accent color #00E5C8"
         },
         {
           "type": "commit",
-          "text": "Add Payoneer Ad Generator as AI project 3 with 4 marketing images"
+          "text": "Update slide 4: fix icon rail design, remove canvas dot grid, update toolbar"
         },
         {
           "type": "commit",
-          "text": "Fix slide 3 title, update slide 4 panel: correct RTL, niqqud, EN button, updated UI"
+          "text": "Slide 1 cleanup: remove badges, no canvas dots, fix chip overflow, slim toolbar"
         },
         {
           "type": "chat",
@@ -217,7 +217,7 @@
       ],
       "lastSession": {
         "sessionId": "ee5dd531-a7e6-4026-a81f-c48c76fc9e3a",
-        "lastActivity": "2026-04-10T21:38:21.160Z",
+        "lastActivity": "2026-04-11T05:41:57.879Z",
         "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/preview.html in the IDE. This may or may…"
       }
     },
@@ -228,7 +228,7 @@
       "stack": "TypeScript + React 19 + Next.js + Supabase",
       "status": "idle",
       "lastActivity": "2026-04-03T17:58:09.841Z",
-      "size": "689M",
+      "size": "806M",
       "hasGit": true,
       "git": {
         "branch": "main",
