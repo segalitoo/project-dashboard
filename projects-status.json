@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-11T06:58:31.605Z",
+  "lastUpdated": "2026-04-11T09:58:44.637Z",
   "projectCount": 13,
   "activeCount": 5,
   "idleCount": 3,
@@ -16,7 +16,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "79 minutes ago",
+        "lastCommitRelative": "4 hours ago",
         "lastCommitMessage": "fix: single batch success toast instead of one per generated ad",
         "lastCommitDate": "2026-04-11 08:39:45 +0300",
         "isDirty": true,
@@ -181,15 +181,15 @@
       "stack": "HTML + CSS + vanilla JS",
       "status": "active",
       "lastActivity": "2026-04-11T05:41:57.879Z",
-      "size": "94M",
+      "size": "93M",
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "2 hours ago",
+        "lastCommitRelative": "5 hours ago",
         "lastCommitMessage": "Update Brand-OS slides to teal accent color #00E5C8",
         "lastCommitDate": "2026-04-11 08:11:57 +0300",
         "isDirty": true,
-        "changedFiles": 6
+        "changedFiles": 7
       },
       "recentActions": [
         {
@@ -232,7 +232,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "8 days ago",
+        "lastCommitRelative": "9 days ago",
         "lastCommitMessage": "AI Academy for Jordan - Hebrew AI learning platform",
         "lastCommitDate": "2026-04-03 00:34:04 +0300",
         "isDirty": true,
@@ -317,11 +317,11 @@
       "stack": "Next.js 16 + TypeScript + Tailwind CSS 4",
       "status": "stale",
       "lastActivity": "2026-03-21T23:11:55.549Z",
-      "size": "833M",
+      "size": "832M",
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "6 weeks ago",
+        "lastCommitRelative": "7 weeks ago",
         "lastCommitMessage": "Portfolio: 6 case studies with realistic photo placeholders",
         "lastCommitDate": "2026-02-24 23:40:56 +0200",
         "isDirty": true,
