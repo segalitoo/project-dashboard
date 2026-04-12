@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-04-12T08:34:05.014Z",
-  "projectCount": 13,
+  "lastUpdated": "2026-04-12T18:59:52.944Z",
+  "projectCount": 14,
   "activeCount": 5,
   "idleCount": 3,
   "staleCount": 2,
@@ -11,29 +11,29 @@
       "description": "React + TypeScript + Vite frontend with Supabase backend (Edge Functions + Storage + PostgreSQL). AI image generation and analysis via Google Gemini.",
       "stack": "TypeScript + React 19 + Vite + Supabase + Gemini",
       "status": "active",
-      "lastActivity": "2026-04-11T05:41:57.879Z",
+      "lastActivity": "2026-04-12T12:03:50.717Z",
       "size": "193M",
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "27 hours ago",
-        "lastCommitMessage": "fix: single batch success toast instead of one per generated ad",
-        "lastCommitDate": "2026-04-11 08:39:45 +0300",
+        "lastCommitRelative": "7 hours ago",
+        "lastCommitMessage": "fix: pass source image as reference and use smart remix path when remixing from canvas",
+        "lastCommitDate": "2026-04-12 14:38:53 +0300",
         "isDirty": true,
-        "changedFiles": 1
+        "changedFiles": 2
       },
       "recentActions": [
         {
           "type": "commit",
-          "text": "fix: single batch success toast instead of one per generated ad"
+          "text": "fix: pass source image as reference and use smart remix path when remixing from canvas"
         },
         {
           "type": "commit",
-          "text": "feat: toast notifications and confirm dialog for canvas actions"
+          "text": "feat: move image chips/badge below image, add language picker to Copy AI node"
         },
         {
           "type": "commit",
-          "text": "fix: ConfirmDialog focus management and button type attributes"
+          "text": "fix: include startPromptDismissed in auto-create effect deps"
         },
         {
           "type": "chat",
@@ -48,7 +48,7 @@
       ],
       "lastSession": {
         "sessionId": "ee5dd531-a7e6-4026-a81f-c48c76fc9e3a",
-        "lastActivity": "2026-04-11T05:41:57.879Z",
+        "lastActivity": "2026-04-12T12:03:50.717Z",
         "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/preview.html in the IDE. This may or may…"
       }
     },
@@ -58,16 +58,16 @@
       "description": "A Python CLI tool that captures microphone audio, streams it to Google Cloud Speech-to-Text for live transcription, and pastes the result into the frontmost application. Supports English and Hebrew wi…",
       "stack": "Python 3.9+ + Swift (macOS)",
       "status": "active",
-      "lastActivity": "2026-04-11T05:41:57.879Z",
+      "lastActivity": "2026-04-12T12:03:50.717Z",
       "size": "753M",
       "hasGit": true,
       "git": {
         "branch": "feat/landing-page",
-        "lastCommitRelative": "6 days ago",
+        "lastCommitRelative": "7 days ago",
         "lastCommitMessage": "fix: update portfolio link to correct GitHub username",
         "lastCommitDate": "2026-04-06 02:18:42 +0300",
         "isDirty": true,
-        "changedFiles": 38
+        "changedFiles": 39
       },
       "recentActions": [
         {
@@ -95,7 +95,7 @@
       ],
       "lastSession": {
         "sessionId": "ee5dd531-a7e6-4026-a81f-c48c76fc9e3a",
-        "lastActivity": "2026-04-11T05:41:57.879Z",
+        "lastActivity": "2026-04-12T12:03:50.717Z",
         "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/preview.html in the IDE. This may or may…"
       }
     },
@@ -105,12 +105,12 @@
       "description": "This file documents the project architecture, development conventions, and workflows for AI assistants working on this codebase.",
       "stack": "TypeScript + React 18 + Vite",
       "status": "active",
-      "lastActivity": "2026-04-11T05:41:57.879Z",
+      "lastActivity": "2026-04-12T12:03:50.717Z",
       "size": "281M",
       "hasGit": true,
       "git": {
         "branch": "claude/add-claude-documentation-gFq7q",
-        "lastCommitRelative": "6 days ago",
+        "lastCommitRelative": "7 days ago",
         "lastCommitMessage": "Update landing page with improved design",
         "lastCommitDate": "2026-04-06 09:11:15 +0300",
         "isDirty": true,
@@ -142,7 +142,7 @@
       ],
       "lastSession": {
         "sessionId": "ee5dd531-a7e6-4026-a81f-c48c76fc9e3a",
-        "lastActivity": "2026-04-11T05:41:57.879Z",
+        "lastActivity": "2026-04-12T12:03:50.717Z",
         "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/preview.html in the IDE. This may or may…"
       }
     },
@@ -152,7 +152,7 @@
       "description": "Local project",
       "stack": "Unknown",
       "status": "active",
-      "lastActivity": "2026-04-11T05:41:57.879Z",
+      "lastActivity": "2026-04-12T12:03:50.717Z",
       "size": "20K",
       "hasGit": false,
       "git": null,
@@ -170,7 +170,7 @@
       ],
       "lastSession": {
         "sessionId": "ee5dd531-a7e6-4026-a81f-c48c76fc9e3a",
-        "lastActivity": "2026-04-11T05:41:57.879Z",
+        "lastActivity": "2026-04-12T12:03:50.717Z",
         "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/preview.html in the IDE. This may or may…"
       }
     },
@@ -180,12 +180,12 @@
       "description": "Single-page freelance portfolio. Static HTML + CSS, no framework. Warm & personal visual tone.",
       "stack": "HTML + CSS + vanilla JS",
       "status": "active",
-      "lastActivity": "2026-04-11T05:41:57.879Z",
+      "lastActivity": "2026-04-12T12:03:50.717Z",
       "size": "93M",
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "27 hours ago",
+        "lastCommitRelative": "2 days ago",
         "lastCommitMessage": "Update Brand-OS slides to teal accent color #00E5C8",
         "lastCommitDate": "2026-04-11 08:11:57 +0300",
         "isDirty": true,
@@ -217,7 +217,7 @@
       ],
       "lastSession": {
         "sessionId": "ee5dd531-a7e6-4026-a81f-c48c76fc9e3a",
-        "lastActivity": "2026-04-11T05:41:57.879Z",
+        "lastActivity": "2026-04-12T12:03:50.717Z",
         "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/preview.html in the IDE. This may or may…"
       }
     },
@@ -232,7 +232,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "9 days ago",
+        "lastCommitRelative": "10 days ago",
         "lastCommitMessage": "AI Academy for Jordan - Hebrew AI learning platform",
         "lastCommitDate": "2026-04-03 00:34:04 +0300",
         "isDirty": true,
@@ -411,6 +411,19 @@
       "status": "unknown",
       "lastActivity": null,
       "size": "48K",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [],
+      "lastSession": null
+    },
+    {
+      "name": "pear-animation",
+      "emoji": "📁",
+      "description": "Local project",
+      "stack": "TypeScript + React 19 + Vite",
+      "status": "unknown",
+      "lastActivity": null,
+      "size": "73M",
       "hasGit": false,
       "git": null,
       "recentActions": [],
