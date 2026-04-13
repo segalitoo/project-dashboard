@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-13T04:44:35.251Z",
+  "lastUpdated": "2026-04-13T10:28:21.670Z",
   "projectCount": 14,
   "activeCount": 5,
   "idleCount": 3,
@@ -16,7 +16,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "8 hours ago",
+        "lastCommitRelative": "14 hours ago",
         "lastCommitMessage": "fix: platform badge back on image bottom-left, chips stay below",
         "lastCommitDate": "2026-04-12 23:36:11 +0300",
         "isDirty": true,
@@ -189,7 +189,7 @@
         "lastCommitMessage": "Update Brand-OS slides to teal accent color #00E5C8",
         "lastCommitDate": "2026-04-11 08:11:57 +0300",
         "isDirty": true,
-        "changedFiles": 7
+        "changedFiles": 10
       },
       "recentActions": [
         {
@@ -232,7 +232,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "10 days ago",
+        "lastCommitRelative": "11 days ago",
         "lastCommitMessage": "AI Academy for Jordan - Hebrew AI learning platform",
         "lastCommitDate": "2026-04-03 00:34:04 +0300",
         "isDirty": true,
