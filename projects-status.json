@@ -1,17 +1,64 @@
 {
-  "lastUpdated": "2026-04-14T09:50:16.844Z",
+  "lastUpdated": "2026-04-14T21:52:04.660Z",
   "projectCount": 14,
   "activeCount": 5,
   "idleCount": 3,
   "staleCount": 2,
   "projects": [
     {
+      "name": "ran-portfolio",
+      "emoji": "🌐",
+      "description": "Single-page freelance portfolio. Static HTML + CSS, no framework. Warm & personal visual tone.",
+      "stack": "HTML + CSS + vanilla JS",
+      "status": "active",
+      "lastActivity": "2026-04-14T13:55:36.507Z",
+      "size": "124M",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "8 hours ago",
+        "lastCommitMessage": "Remove Lottie triangle animation",
+        "lastCommitDate": "2026-04-14 16:55:29 +0300",
+        "isDirty": true,
+        "changedFiles": 7
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Remove Lottie triangle animation"
+        },
+        {
+          "type": "commit",
+          "text": "Update all portfolio images"
+        },
+        {
+          "type": "commit",
+          "text": "Update email template images again"
+        },
+        {
+          "type": "chat",
+          "text": "in project ran-portfolio, remove the last project",
+          "sessionId": "8b24dc3b-ba22-4905-b480-dd7c287902ae"
+        },
+        {
+          "type": "chat",
+          "text": "https://github.com/alexgreensh/token-optimizer\n\nהתקן את הסקיל הזה ואחכ הפעל",
+          "sessionId": "4be0e2c0-3d0f-4164-9d00-6fa340ba203e"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "8b24dc3b-ba22-4905-b480-dd7c287902ae",
+        "lastActivity": "2026-04-14T13:55:36.507Z",
+        "summary": "in project ran-portfolio, remove the last project"
+      }
+    },
+    {
       "name": "Payoneer-ad-generator",
       "emoji": "🎨",
       "description": "React + TypeScript + Vite frontend with Supabase backend (Edge Functions + Storage + PostgreSQL). AI image generation and analysis via Google Gemini.",
       "stack": "TypeScript + React 19 + Vite + Supabase + Gemini",
       "status": "active",
-      "lastActivity": "2026-04-14T07:11:44.799Z",
+      "lastActivity": "2026-04-14T11:46:01.766Z",
       "size": "193M",
       "hasGit": true,
       "git": {
@@ -48,7 +95,7 @@
       ],
       "lastSession": {
         "sessionId": "09b34b9a-f838-4d37-87d2-452180465f51",
-        "lastActivity": "2026-04-14T07:11:44.799Z",
+        "lastActivity": "2026-04-14T11:46:01.766Z",
         "summary": "Tell your human partner that this command is deprecated and will be removed in the next major release. They should ask y…"
       }
     },
@@ -58,12 +105,12 @@
       "description": "A Python CLI tool that captures microphone audio, streams it to Google Cloud Speech-to-Text for live transcription, and pastes the result into the frontmost application. Supports English and Hebrew wi…",
       "stack": "Python 3.9+ + Swift (macOS)",
       "status": "active",
-      "lastActivity": "2026-04-14T07:11:44.799Z",
-      "size": "786M",
+      "lastActivity": "2026-04-14T11:46:01.766Z",
+      "size": "785M",
       "hasGit": true,
       "git": {
         "branch": "feat/landing-page",
-        "lastCommitRelative": "8 days ago",
+        "lastCommitRelative": "9 days ago",
         "lastCommitMessage": "fix: update portfolio link to correct GitHub username",
         "lastCommitDate": "2026-04-06 02:18:42 +0300",
         "isDirty": true,
@@ -95,7 +142,7 @@
       ],
       "lastSession": {
         "sessionId": "09b34b9a-f838-4d37-87d2-452180465f51",
-        "lastActivity": "2026-04-14T07:11:44.799Z",
+        "lastActivity": "2026-04-14T11:46:01.766Z",
         "summary": "Tell your human partner that this command is deprecated and will be removed in the next major release. They should ask y…"
       }
     },
@@ -105,7 +152,7 @@
       "description": "Local project",
       "stack": "Unknown",
       "status": "active",
-      "lastActivity": "2026-04-14T07:11:44.799Z",
+      "lastActivity": "2026-04-14T11:46:01.766Z",
       "size": "20K",
       "hasGit": false,
       "git": null,
@@ -123,7 +170,7 @@
       ],
       "lastSession": {
         "sessionId": "09b34b9a-f838-4d37-87d2-452180465f51",
-        "lastActivity": "2026-04-14T07:11:44.799Z",
+        "lastActivity": "2026-04-14T11:46:01.766Z",
         "summary": "Tell your human partner that this command is deprecated and will be removed in the next major release. They should ask y…"
       }
     },
@@ -138,7 +185,7 @@
       "hasGit": true,
       "git": {
         "branch": "claude/add-claude-documentation-gFq7q",
-        "lastCommitRelative": "8 days ago",
+        "lastCommitRelative": "9 days ago",
         "lastCommitMessage": "Update landing page with improved design",
         "lastCommitDate": "2026-04-06 09:11:15 +0300",
         "isDirty": true,
@@ -166,53 +213,6 @@
           "type": "chat",
           "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/project-dashboard/package.json in the IDE. This may or…",
           "sessionId": "14bc8c0b-5971-463e-8629-9e7d777b598c"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "ee5dd531-a7e6-4026-a81f-c48c76fc9e3a",
-        "lastActivity": "2026-04-13T21:53:58.415Z",
-        "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/preview.html in the IDE. This may or may…"
-      }
-    },
-    {
-      "name": "ran-portfolio",
-      "emoji": "🌐",
-      "description": "Single-page freelance portfolio. Static HTML + CSS, no framework. Warm & personal visual tone.",
-      "stack": "HTML + CSS + vanilla JS",
-      "status": "active",
-      "lastActivity": "2026-04-13T21:53:58.415Z",
-      "size": "93M",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "3 days ago",
-        "lastCommitMessage": "Update Brand-OS slides to teal accent color #00E5C8",
-        "lastCommitDate": "2026-04-11 08:11:57 +0300",
-        "isDirty": true,
-        "changedFiles": 10
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Update Brand-OS slides to teal accent color #00E5C8"
-        },
-        {
-          "type": "commit",
-          "text": "Update slide 4: fix icon rail design, remove canvas dot grid, update toolbar"
-        },
-        {
-          "type": "commit",
-          "text": "Slide 1 cleanup: remove badges, no canvas dots, fix chip overflow, slim toolbar"
-        },
-        {
-          "type": "chat",
-          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/preview.html in the IDE. This may or may…",
-          "sessionId": "ee5dd531-a7e6-4026-a81f-c48c76fc9e3a"
-        },
-        {
-          "type": "chat",
-          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/ran-portfolio/CLAUDE.md in the IDE. This may or may no…",
-          "sessionId": "c4427613-f984-43a9-a5d0-e5ece7623e8f"
         }
       ],
       "lastSession": {
