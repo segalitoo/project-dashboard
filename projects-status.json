@@ -1,10 +1,99 @@
 {
-  "lastUpdated": "2026-04-15T16:47:38.721Z",
-  "projectCount": 14,
-  "activeCount": 5,
-  "idleCount": 3,
-  "staleCount": 2,
+  "lastUpdated": "2026-04-15T22:52:45.988Z",
+  "projectCount": 15,
+  "activeCount": 6,
+  "idleCount": 2,
+  "staleCount": 3,
   "projects": [
+    {
+      "name": "Zoom-for-kids",
+      "emoji": "👶",
+      "description": "This file documents the project architecture, development conventions, and workflows for AI assistants working on this codebase.",
+      "stack": "TypeScript + React 18 + Vite",
+      "status": "active",
+      "lastActivity": "2026-04-15T22:52:21.500Z",
+      "size": "282M",
+      "hasGit": true,
+      "git": {
+        "branch": "claude/add-claude-documentation-gFq7q",
+        "lastCommitRelative": "14 hours ago",
+        "lastCommitMessage": "Update extension components and marketplace mockup",
+        "lastCommitDate": "2026-04-15 12:18:38 +0300",
+        "isDirty": true,
+        "changedFiles": 6
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Update extension components and marketplace mockup"
+        },
+        {
+          "type": "commit",
+          "text": "Update landing page with improved design"
+        },
+        {
+          "type": "commit",
+          "text": "עדכון טקסט טסטמוניאל: הסרת 'וואו'"
+        },
+        {
+          "type": "chat",
+          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/marketplace-assets/mockup4.html in the I…",
+          "sessionId": "19e2a091-e33c-4819-b5d3-9673730856a5"
+        },
+        {
+          "type": "chat",
+          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/marketplace-assets/mockup4.html in the I…",
+          "sessionId": "61dbf59a-69c7-42c2-bd52-37219b766a1d"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "19e2a091-e33c-4819-b5d3-9673730856a5",
+        "lastActivity": "2026-04-15T22:52:21.500Z",
+        "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/marketplace-assets/mockup4.html in the I…"
+      }
+    },
+    {
+      "name": "anime-master",
+      "emoji": "📁",
+      "description": "Local project",
+      "stack": "TypeScript + React 18 + Vite",
+      "status": "active",
+      "lastActivity": "2026-04-15T22:52:21.500Z",
+      "size": "210M",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "14 hours ago",
+        "lastCommitMessage": "Built effects panel system",
+        "lastCommitDate": "2026-04-15 09:12:14 +0000",
+        "isDirty": true,
+        "changedFiles": 49
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Built effects panel system"
+        },
+        {
+          "type": "commit",
+          "text": "Changes"
+        },
+        {
+          "type": "commit",
+          "text": "Changes"
+        },
+        {
+          "type": "chat",
+          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/marketplace-assets/mockup4.html in the I…",
+          "sessionId": "19e2a091-e33c-4819-b5d3-9673730856a5"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "19e2a091-e33c-4819-b5d3-9673730856a5",
+        "lastActivity": "2026-04-15T22:52:21.500Z",
+        "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/marketplace-assets/mockup4.html in the I…"
+      }
+    },
     {
       "name": "Payoneer-ad-generator",
       "emoji": "🎨",
@@ -100,53 +189,6 @@
       }
     },
     {
-      "name": "Zoom-for-kids",
-      "emoji": "👶",
-      "description": "This file documents the project architecture, development conventions, and workflows for AI assistants working on this codebase.",
-      "stack": "TypeScript + React 18 + Vite",
-      "status": "active",
-      "lastActivity": "2026-04-15T11:40:08.359Z",
-      "size": "282M",
-      "hasGit": true,
-      "git": {
-        "branch": "claude/add-claude-documentation-gFq7q",
-        "lastCommitRelative": "7 hours ago",
-        "lastCommitMessage": "Update extension components and marketplace mockup",
-        "lastCommitDate": "2026-04-15 12:18:38 +0300",
-        "isDirty": true,
-        "changedFiles": 6
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Update extension components and marketplace mockup"
-        },
-        {
-          "type": "commit",
-          "text": "Update landing page with improved design"
-        },
-        {
-          "type": "commit",
-          "text": "עדכון טקסט טסטמוניאל: הסרת 'וואו'"
-        },
-        {
-          "type": "chat",
-          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/marketplace-assets/mockup4.html in the I…",
-          "sessionId": "61dbf59a-69c7-42c2-bd52-37219b766a1d"
-        },
-        {
-          "type": "chat",
-          "text": "in project ran-portfolio, remove the last project",
-          "sessionId": "8b24dc3b-ba22-4905-b480-dd7c287902ae"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "61dbf59a-69c7-42c2-bd52-37219b766a1d",
-        "lastActivity": "2026-04-15T11:40:08.359Z",
-        "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/marketplace-assets/mockup4.html in the I…"
-      }
-    },
-    {
       "name": "ran-portfolio",
       "emoji": "🌐",
       "description": "Single-page freelance portfolio. Static HTML + CSS, no framework. Warm & personal visual tone.",
@@ -157,7 +199,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "5 hours ago",
+        "lastCommitRelative": "11 hours ago",
         "lastCommitMessage": "Reorder AI projects: Zoomi 06, Mint 07, Shhh 08",
         "lastCommitDate": "2026-04-15 14:40:04 +0300",
         "isDirty": true,
@@ -287,7 +329,7 @@
       "emoji": "🎨",
       "description": "Zoom Kids UI designs",
       "stack": "Unknown",
-      "status": "idle",
+      "status": "stale",
       "lastActivity": "2026-04-01T20:33:49.016Z",
       "size": "144K",
       "hasGit": false,
