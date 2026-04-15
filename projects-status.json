@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-15T08:16:05.777Z",
+  "lastUpdated": "2026-04-15T11:16:24.154Z",
   "projectCount": 14,
   "activeCount": 5,
   "idleCount": 3,
@@ -11,18 +11,22 @@
       "description": "This file documents the project architecture, development conventions, and workflows for AI assistants working on this codebase.",
       "stack": "TypeScript + React 18 + Vite",
       "status": "active",
-      "lastActivity": "2026-04-15T06:30:10.173Z",
-      "size": "281M",
+      "lastActivity": "2026-04-15T11:02:48.525Z",
+      "size": "282M",
       "hasGit": true,
       "git": {
         "branch": "claude/add-claude-documentation-gFq7q",
-        "lastCommitRelative": "9 days ago",
-        "lastCommitMessage": "Update landing page with improved design",
-        "lastCommitDate": "2026-04-06 09:11:15 +0300",
+        "lastCommitRelative": "2 hours ago",
+        "lastCommitMessage": "Update extension components and marketplace mockup",
+        "lastCommitDate": "2026-04-15 12:18:38 +0300",
         "isDirty": true,
-        "changedFiles": 17
+        "changedFiles": 6
       },
       "recentActions": [
+        {
+          "type": "commit",
+          "text": "Update extension components and marketplace mockup"
+        },
         {
           "type": "commit",
           "text": "Update landing page with improved design"
@@ -32,24 +36,20 @@
           "text": "עדכון טקסט טסטמוניאל: הסרת 'וואו'"
         },
         {
-          "type": "commit",
-          "text": "הסרת עיגולים סגולים עם אותיות מאזור הטסטמוניאלס"
+          "type": "chat",
+          "text": "in project ran-portfolio, remove the last project",
+          "sessionId": "8b24dc3b-ba22-4905-b480-dd7c287902ae"
         },
         {
           "type": "chat",
           "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/marketplace-assets/mockup4.html in the I…",
           "sessionId": "882c3c29-f021-444a-8f5f-c035fdafe0f8"
-        },
-        {
-          "type": "chat",
-          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/preview.html in the IDE. This may or may…",
-          "sessionId": "ee5dd531-a7e6-4026-a81f-c48c76fc9e3a"
         }
       ],
       "lastSession": {
-        "sessionId": "882c3c29-f021-444a-8f5f-c035fdafe0f8",
-        "lastActivity": "2026-04-15T06:30:10.173Z",
-        "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/marketplace-assets/mockup4.html in the I…"
+        "sessionId": "8b24dc3b-ba22-4905-b480-dd7c287902ae",
+        "lastActivity": "2026-04-15T11:02:48.525Z",
+        "summary": "in project ran-portfolio, remove the last project"
       }
     },
     {
@@ -58,29 +58,29 @@
       "description": "Single-page freelance portfolio. Static HTML + CSS, no framework. Warm & personal visual tone.",
       "stack": "HTML + CSS + vanilla JS",
       "status": "active",
-      "lastActivity": "2026-04-14T13:55:36.507Z",
-      "size": "124M",
+      "lastActivity": "2026-04-15T11:02:48.525Z",
+      "size": "126M",
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "18 hours ago",
-        "lastCommitMessage": "Remove Lottie triangle animation",
-        "lastCommitDate": "2026-04-14 16:55:29 +0300",
+        "lastCommitRelative": "16 minutes ago",
+        "lastCommitMessage": "Add Google Analytics 4 (G-7BQQ79P7QM)",
+        "lastCommitDate": "2026-04-15 14:00:49 +0300",
         "isDirty": true,
-        "changedFiles": 9
+        "changedFiles": 8
       },
       "recentActions": [
         {
           "type": "commit",
-          "text": "Remove Lottie triangle animation"
+          "text": "Add Google Analytics 4 (G-7BQQ79P7QM)"
         },
         {
           "type": "commit",
-          "text": "Update all portfolio images"
+          "text": "Update zoom_3 portfolio image"
         },
         {
           "type": "commit",
-          "text": "Update email template images again"
+          "text": "Resize zoom_3 image to 2120x1120"
         },
         {
           "type": "chat",
@@ -95,7 +95,7 @@
       ],
       "lastSession": {
         "sessionId": "8b24dc3b-ba22-4905-b480-dd7c287902ae",
-        "lastActivity": "2026-04-14T13:55:36.507Z",
+        "lastActivity": "2026-04-15T11:02:48.525Z",
         "summary": "in project ran-portfolio, remove the last project"
       }
     },
@@ -157,7 +157,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/landing-page",
-        "lastCommitRelative": "9 days ago",
+        "lastCommitRelative": "10 days ago",
         "lastCommitMessage": "fix: update portfolio link to correct GitHub username",
         "lastCommitDate": "2026-04-06 02:18:42 +0300",
         "isDirty": true,
@@ -232,7 +232,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "12 days ago",
+        "lastCommitRelative": "13 days ago",
         "lastCommitMessage": "AI Academy for Jordan - Hebrew AI learning platform",
         "lastCommitDate": "2026-04-03 00:34:04 +0300",
         "isDirty": true,
