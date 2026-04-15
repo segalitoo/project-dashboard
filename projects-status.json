@@ -1,10 +1,57 @@
 {
-  "lastUpdated": "2026-04-14T21:52:04.660Z",
+  "lastUpdated": "2026-04-15T08:16:05.777Z",
   "projectCount": 14,
   "activeCount": 5,
   "idleCount": 3,
   "staleCount": 2,
   "projects": [
+    {
+      "name": "Zoom-for-kids",
+      "emoji": "👶",
+      "description": "This file documents the project architecture, development conventions, and workflows for AI assistants working on this codebase.",
+      "stack": "TypeScript + React 18 + Vite",
+      "status": "active",
+      "lastActivity": "2026-04-15T06:30:10.173Z",
+      "size": "281M",
+      "hasGit": true,
+      "git": {
+        "branch": "claude/add-claude-documentation-gFq7q",
+        "lastCommitRelative": "9 days ago",
+        "lastCommitMessage": "Update landing page with improved design",
+        "lastCommitDate": "2026-04-06 09:11:15 +0300",
+        "isDirty": true,
+        "changedFiles": 17
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Update landing page with improved design"
+        },
+        {
+          "type": "commit",
+          "text": "עדכון טקסט טסטמוניאל: הסרת 'וואו'"
+        },
+        {
+          "type": "commit",
+          "text": "הסרת עיגולים סגולים עם אותיות מאזור הטסטמוניאלס"
+        },
+        {
+          "type": "chat",
+          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/marketplace-assets/mockup4.html in the I…",
+          "sessionId": "882c3c29-f021-444a-8f5f-c035fdafe0f8"
+        },
+        {
+          "type": "chat",
+          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/preview.html in the IDE. This may or may…",
+          "sessionId": "ee5dd531-a7e6-4026-a81f-c48c76fc9e3a"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "882c3c29-f021-444a-8f5f-c035fdafe0f8",
+        "lastActivity": "2026-04-15T06:30:10.173Z",
+        "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/marketplace-assets/mockup4.html in the I…"
+      }
+    },
     {
       "name": "ran-portfolio",
       "emoji": "🌐",
@@ -16,11 +63,11 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "8 hours ago",
+        "lastCommitRelative": "18 hours ago",
         "lastCommitMessage": "Remove Lottie triangle animation",
         "lastCommitDate": "2026-04-14 16:55:29 +0300",
         "isDirty": true,
-        "changedFiles": 7
+        "changedFiles": 9
       },
       "recentActions": [
         {
@@ -63,7 +110,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "2 days ago",
+        "lastCommitRelative": "3 days ago",
         "lastCommitMessage": "fix: platform badge back on image bottom-left, chips stay below",
         "lastCommitDate": "2026-04-12 23:36:11 +0300",
         "isDirty": true,
@@ -172,53 +219,6 @@
         "sessionId": "09b34b9a-f838-4d37-87d2-452180465f51",
         "lastActivity": "2026-04-14T11:46:01.766Z",
         "summary": "Tell your human partner that this command is deprecated and will be removed in the next major release. They should ask y…"
-      }
-    },
-    {
-      "name": "Zoom-for-kids",
-      "emoji": "👶",
-      "description": "This file documents the project architecture, development conventions, and workflows for AI assistants working on this codebase.",
-      "stack": "TypeScript + React 18 + Vite",
-      "status": "active",
-      "lastActivity": "2026-04-13T21:53:58.415Z",
-      "size": "281M",
-      "hasGit": true,
-      "git": {
-        "branch": "claude/add-claude-documentation-gFq7q",
-        "lastCommitRelative": "9 days ago",
-        "lastCommitMessage": "Update landing page with improved design",
-        "lastCommitDate": "2026-04-06 09:11:15 +0300",
-        "isDirty": true,
-        "changedFiles": 16
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Update landing page with improved design"
-        },
-        {
-          "type": "commit",
-          "text": "עדכון טקסט טסטמוניאל: הסרת 'וואו'"
-        },
-        {
-          "type": "commit",
-          "text": "הסרת עיגולים סגולים עם אותיות מאזור הטסטמוניאלס"
-        },
-        {
-          "type": "chat",
-          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/preview.html in the IDE. This may or may…",
-          "sessionId": "ee5dd531-a7e6-4026-a81f-c48c76fc9e3a"
-        },
-        {
-          "type": "chat",
-          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/project-dashboard/package.json in the IDE. This may or…",
-          "sessionId": "14bc8c0b-5971-463e-8629-9e7d777b598c"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "ee5dd531-a7e6-4026-a81f-c48c76fc9e3a",
-        "lastActivity": "2026-04-13T21:53:58.415Z",
-        "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/preview.html in the IDE. This may or may…"
       }
     },
     {
