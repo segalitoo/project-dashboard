@@ -1,111 +1,17 @@
 {
-  "lastUpdated": "2026-04-15T11:16:24.154Z",
+  "lastUpdated": "2026-04-15T16:47:38.721Z",
   "projectCount": 14,
   "activeCount": 5,
   "idleCount": 3,
   "staleCount": 2,
   "projects": [
     {
-      "name": "Zoom-for-kids",
-      "emoji": "👶",
-      "description": "This file documents the project architecture, development conventions, and workflows for AI assistants working on this codebase.",
-      "stack": "TypeScript + React 18 + Vite",
-      "status": "active",
-      "lastActivity": "2026-04-15T11:02:48.525Z",
-      "size": "282M",
-      "hasGit": true,
-      "git": {
-        "branch": "claude/add-claude-documentation-gFq7q",
-        "lastCommitRelative": "2 hours ago",
-        "lastCommitMessage": "Update extension components and marketplace mockup",
-        "lastCommitDate": "2026-04-15 12:18:38 +0300",
-        "isDirty": true,
-        "changedFiles": 6
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Update extension components and marketplace mockup"
-        },
-        {
-          "type": "commit",
-          "text": "Update landing page with improved design"
-        },
-        {
-          "type": "commit",
-          "text": "עדכון טקסט טסטמוניאל: הסרת 'וואו'"
-        },
-        {
-          "type": "chat",
-          "text": "in project ran-portfolio, remove the last project",
-          "sessionId": "8b24dc3b-ba22-4905-b480-dd7c287902ae"
-        },
-        {
-          "type": "chat",
-          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/marketplace-assets/mockup4.html in the I…",
-          "sessionId": "882c3c29-f021-444a-8f5f-c035fdafe0f8"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "8b24dc3b-ba22-4905-b480-dd7c287902ae",
-        "lastActivity": "2026-04-15T11:02:48.525Z",
-        "summary": "in project ran-portfolio, remove the last project"
-      }
-    },
-    {
-      "name": "ran-portfolio",
-      "emoji": "🌐",
-      "description": "Single-page freelance portfolio. Static HTML + CSS, no framework. Warm & personal visual tone.",
-      "stack": "HTML + CSS + vanilla JS",
-      "status": "active",
-      "lastActivity": "2026-04-15T11:02:48.525Z",
-      "size": "126M",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "16 minutes ago",
-        "lastCommitMessage": "Add Google Analytics 4 (G-7BQQ79P7QM)",
-        "lastCommitDate": "2026-04-15 14:00:49 +0300",
-        "isDirty": true,
-        "changedFiles": 8
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Add Google Analytics 4 (G-7BQQ79P7QM)"
-        },
-        {
-          "type": "commit",
-          "text": "Update zoom_3 portfolio image"
-        },
-        {
-          "type": "commit",
-          "text": "Resize zoom_3 image to 2120x1120"
-        },
-        {
-          "type": "chat",
-          "text": "in project ran-portfolio, remove the last project",
-          "sessionId": "8b24dc3b-ba22-4905-b480-dd7c287902ae"
-        },
-        {
-          "type": "chat",
-          "text": "https://github.com/alexgreensh/token-optimizer\n\nהתקן את הסקיל הזה ואחכ הפעל",
-          "sessionId": "4be0e2c0-3d0f-4164-9d00-6fa340ba203e"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "8b24dc3b-ba22-4905-b480-dd7c287902ae",
-        "lastActivity": "2026-04-15T11:02:48.525Z",
-        "summary": "in project ran-portfolio, remove the last project"
-      }
-    },
-    {
       "name": "Payoneer-ad-generator",
       "emoji": "🎨",
       "description": "React + TypeScript + Vite frontend with Supabase backend (Edge Functions + Storage + PostgreSQL). AI image generation and analysis via Google Gemini.",
       "stack": "TypeScript + React 19 + Vite + Supabase + Gemini",
       "status": "active",
-      "lastActivity": "2026-04-14T11:46:01.766Z",
+      "lastActivity": "2026-04-15T11:40:08.359Z",
       "size": "193M",
       "hasGit": true,
       "git": {
@@ -114,7 +20,7 @@
         "lastCommitMessage": "fix: platform badge back on image bottom-left, chips stay below",
         "lastCommitDate": "2026-04-12 23:36:11 +0300",
         "isDirty": true,
-        "changedFiles": 1
+        "changedFiles": 2
       },
       "recentActions": [
         {
@@ -131,19 +37,19 @@
         },
         {
           "type": "chat",
-          "text": "Tell your human partner that this command is deprecated and will be removed in the next major release. They should ask y…",
-          "sessionId": "09b34b9a-f838-4d37-87d2-452180465f51"
+          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/marketplace-assets/mockup4.html in the I…",
+          "sessionId": "61dbf59a-69c7-42c2-bd52-37219b766a1d"
         },
         {
           "type": "chat",
-          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/preview.html in the IDE. This may or may…",
-          "sessionId": "ee5dd531-a7e6-4026-a81f-c48c76fc9e3a"
+          "text": "Tell your human partner that this command is deprecated and will be removed in the next major release. They should ask y…",
+          "sessionId": "09b34b9a-f838-4d37-87d2-452180465f51"
         }
       ],
       "lastSession": {
-        "sessionId": "09b34b9a-f838-4d37-87d2-452180465f51",
-        "lastActivity": "2026-04-14T11:46:01.766Z",
-        "summary": "Tell your human partner that this command is deprecated and will be removed in the next major release. They should ask y…"
+        "sessionId": "61dbf59a-69c7-42c2-bd52-37219b766a1d",
+        "lastActivity": "2026-04-15T11:40:08.359Z",
+        "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/marketplace-assets/mockup4.html in the I…"
       }
     },
     {
@@ -152,7 +58,7 @@
       "description": "A Python CLI tool that captures microphone audio, streams it to Google Cloud Speech-to-Text for live transcription, and pastes the result into the frontmost application. Supports English and Hebrew wi…",
       "stack": "Python 3.9+ + Swift (macOS)",
       "status": "active",
-      "lastActivity": "2026-04-14T11:46:01.766Z",
+      "lastActivity": "2026-04-15T11:40:08.359Z",
       "size": "785M",
       "hasGit": true,
       "git": {
@@ -178,19 +84,113 @@
         },
         {
           "type": "chat",
-          "text": "Tell your human partner that this command is deprecated and will be removed in the next major release. They should ask y…",
-          "sessionId": "09b34b9a-f838-4d37-87d2-452180465f51"
+          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/marketplace-assets/mockup4.html in the I…",
+          "sessionId": "61dbf59a-69c7-42c2-bd52-37219b766a1d"
         },
         {
           "type": "chat",
-          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/preview.html in the IDE. This may or may…",
-          "sessionId": "ee5dd531-a7e6-4026-a81f-c48c76fc9e3a"
+          "text": "Tell your human partner that this command is deprecated and will be removed in the next major release. They should ask y…",
+          "sessionId": "09b34b9a-f838-4d37-87d2-452180465f51"
         }
       ],
       "lastSession": {
-        "sessionId": "09b34b9a-f838-4d37-87d2-452180465f51",
-        "lastActivity": "2026-04-14T11:46:01.766Z",
-        "summary": "Tell your human partner that this command is deprecated and will be removed in the next major release. They should ask y…"
+        "sessionId": "61dbf59a-69c7-42c2-bd52-37219b766a1d",
+        "lastActivity": "2026-04-15T11:40:08.359Z",
+        "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/marketplace-assets/mockup4.html in the I…"
+      }
+    },
+    {
+      "name": "Zoom-for-kids",
+      "emoji": "👶",
+      "description": "This file documents the project architecture, development conventions, and workflows for AI assistants working on this codebase.",
+      "stack": "TypeScript + React 18 + Vite",
+      "status": "active",
+      "lastActivity": "2026-04-15T11:40:08.359Z",
+      "size": "282M",
+      "hasGit": true,
+      "git": {
+        "branch": "claude/add-claude-documentation-gFq7q",
+        "lastCommitRelative": "7 hours ago",
+        "lastCommitMessage": "Update extension components and marketplace mockup",
+        "lastCommitDate": "2026-04-15 12:18:38 +0300",
+        "isDirty": true,
+        "changedFiles": 6
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Update extension components and marketplace mockup"
+        },
+        {
+          "type": "commit",
+          "text": "Update landing page with improved design"
+        },
+        {
+          "type": "commit",
+          "text": "עדכון טקסט טסטמוניאל: הסרת 'וואו'"
+        },
+        {
+          "type": "chat",
+          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/marketplace-assets/mockup4.html in the I…",
+          "sessionId": "61dbf59a-69c7-42c2-bd52-37219b766a1d"
+        },
+        {
+          "type": "chat",
+          "text": "in project ran-portfolio, remove the last project",
+          "sessionId": "8b24dc3b-ba22-4905-b480-dd7c287902ae"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "61dbf59a-69c7-42c2-bd52-37219b766a1d",
+        "lastActivity": "2026-04-15T11:40:08.359Z",
+        "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/marketplace-assets/mockup4.html in the I…"
+      }
+    },
+    {
+      "name": "ran-portfolio",
+      "emoji": "🌐",
+      "description": "Single-page freelance portfolio. Static HTML + CSS, no framework. Warm & personal visual tone.",
+      "stack": "HTML + CSS + vanilla JS",
+      "status": "active",
+      "lastActivity": "2026-04-15T11:40:08.359Z",
+      "size": "126M",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "5 hours ago",
+        "lastCommitMessage": "Reorder AI projects: Zoomi 06, Mint 07, Shhh 08",
+        "lastCommitDate": "2026-04-15 14:40:04 +0300",
+        "isDirty": true,
+        "changedFiles": 8
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Reorder AI projects: Zoomi 06, Mint 07, Shhh 08"
+        },
+        {
+          "type": "commit",
+          "text": "Update Mint project link to live Vercel deployment"
+        },
+        {
+          "type": "commit",
+          "text": "Add Google Analytics 4 (G-7BQQ79P7QM)"
+        },
+        {
+          "type": "chat",
+          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/marketplace-assets/mockup4.html in the I…",
+          "sessionId": "61dbf59a-69c7-42c2-bd52-37219b766a1d"
+        },
+        {
+          "type": "chat",
+          "text": "in project ran-portfolio, remove the last project",
+          "sessionId": "8b24dc3b-ba22-4905-b480-dd7c287902ae"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "61dbf59a-69c7-42c2-bd52-37219b766a1d",
+        "lastActivity": "2026-04-15T11:40:08.359Z",
+        "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/marketplace-assets/mockup4.html in the I…"
       }
     },
     {
@@ -297,11 +297,6 @@
           "type": "chat",
           "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/zoom-kids-ui/space-theme-options.html in the IDE. This…",
           "sessionId": "f82d1f82-7fc3-44c6-8e7e-fd646391b410"
-        },
-        {
-          "type": "chat",
-          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/ran-portfolio/index.html in the IDE. This may or may n…",
-          "sessionId": "94e50ef2-95bf-45ae-ae85-3d4beb68b1a8"
         }
       ],
       "lastSession": {
@@ -354,7 +349,7 @@
       "description": "Hebrew RTL task manager app — originally built on Lovable, now developed locally.",
       "stack": "TypeScript + React 18 + Vite + Supabase + PWA",
       "status": "stale",
-      "lastActivity": "2026-03-09T14:23:57.401Z",
+      "lastActivity": "2026-02-25T11:54:51.000Z",
       "size": "372M",
       "hasGit": true,
       "git": {
@@ -377,18 +372,9 @@
         {
           "type": "commit",
           "text": "Add iOS haptic fallback"
-        },
-        {
-          "type": "chat",
-          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/shmup-reminder/header-concepts.html in the IDE. This m…",
-          "sessionId": "7efd9c1c-d11c-4baf-a12f-e64cd6b0d486"
         }
       ],
-      "lastSession": {
-        "sessionId": "7efd9c1c-d11c-4baf-a12f-e64cd6b0d486",
-        "lastActivity": "2026-03-09T14:23:57.401Z",
-        "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/shmup-reminder/header-concepts.html in the IDE. This m…"
-      }
+      "lastSession": null
     },
     {
       "name": "Chatgpt-codex",
