@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-16T15:52:11.057Z",
+  "lastUpdated": "2026-04-16T22:27:59.056Z",
   "projectCount": 15,
   "activeCount": 6,
   "idleCount": 2,
@@ -11,12 +11,12 @@
       "description": "This file documents the project architecture, development conventions, and workflows for AI assistants working on this codebase.",
       "stack": "TypeScript + React 18 + Vite",
       "status": "active",
-      "lastActivity": "2026-04-16T11:40:33.081Z",
+      "lastActivity": "2026-04-16T17:33:50.550Z",
       "size": "282M",
       "hasGit": true,
       "git": {
         "branch": "claude/add-claude-documentation-gFq7q",
-        "lastCommitRelative": "31 hours ago",
+        "lastCommitRelative": "2 days ago",
         "lastCommitMessage": "Update extension components and marketplace mockup",
         "lastCommitDate": "2026-04-15 12:18:38 +0300",
         "isDirty": true,
@@ -48,7 +48,7 @@
       ],
       "lastSession": {
         "sessionId": "8b24dc3b-ba22-4905-b480-dd7c287902ae",
-        "lastActivity": "2026-04-16T11:40:33.081Z",
+        "lastActivity": "2026-04-16T17:33:50.550Z",
         "summary": "in project ran-portfolio, remove the last project"
       }
     },
@@ -58,12 +58,12 @@
       "description": "SVG animation editor built with TypeScript + React 18 + Vite. Users create layered shapes/text, animate properties via keyframes, and export to Lottie JSON or GIF.",
       "stack": "TypeScript + React 18 + Vite",
       "status": "active",
-      "lastActivity": "2026-04-16T11:40:33.081Z",
+      "lastActivity": "2026-04-16T17:33:50.550Z",
       "size": "211M",
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "6 hours ago",
+        "lastCommitRelative": "12 hours ago",
         "lastCommitMessage": "fix: remove duplicate selectedLayerId declaration causing blank page",
         "lastCommitDate": "2026-04-16 13:05:58 +0300",
         "isDirty": true,
@@ -95,7 +95,7 @@
       ],
       "lastSession": {
         "sessionId": "8b24dc3b-ba22-4905-b480-dd7c287902ae",
-        "lastActivity": "2026-04-16T11:40:33.081Z",
+        "lastActivity": "2026-04-16T17:33:50.550Z",
         "summary": "in project ran-portfolio, remove the last project"
       }
     },
@@ -105,12 +105,12 @@
       "description": "Single-page freelance portfolio. Static HTML + CSS, no framework. Warm & personal visual tone.",
       "stack": "HTML + CSS + vanilla JS",
       "status": "active",
-      "lastActivity": "2026-04-16T11:40:33.081Z",
+      "lastActivity": "2026-04-16T17:33:50.550Z",
       "size": "126M",
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "7 hours ago",
+        "lastCommitRelative": "14 hours ago",
         "lastCommitMessage": "Add GA4 click tracking for nav and CTA buttons",
         "lastCommitDate": "2026-04-16 11:25:51 +0300",
         "isDirty": true,
@@ -142,7 +142,7 @@
       ],
       "lastSession": {
         "sessionId": "8b24dc3b-ba22-4905-b480-dd7c287902ae",
-        "lastActivity": "2026-04-16T11:40:33.081Z",
+        "lastActivity": "2026-04-16T17:33:50.550Z",
         "summary": "in project ran-portfolio, remove the last project"
       }
     },
