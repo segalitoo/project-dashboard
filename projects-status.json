@@ -1,69 +1,22 @@
 {
-  "lastUpdated": "2026-04-16T08:48:42.516Z",
+  "lastUpdated": "2026-04-16T11:48:59.022Z",
   "projectCount": 15,
   "activeCount": 6,
   "idleCount": 2,
   "staleCount": 3,
   "projects": [
     {
-      "name": "ran-portfolio",
-      "emoji": "🌐",
-      "description": "Single-page freelance portfolio. Static HTML + CSS, no framework. Warm & personal visual tone.",
-      "stack": "HTML + CSS + vanilla JS",
-      "status": "active",
-      "lastActivity": "2026-04-16T08:25:51.000Z",
-      "size": "126M",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "23 minutes ago",
-        "lastCommitMessage": "Add GA4 click tracking for nav and CTA buttons",
-        "lastCommitDate": "2026-04-16 11:25:51 +0300",
-        "isDirty": true,
-        "changedFiles": 8
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Add GA4 click tracking for nav and CTA buttons"
-        },
-        {
-          "type": "commit",
-          "text": "Reorder AI projects: Zoomi 06, Mint 07, Shhh 08"
-        },
-        {
-          "type": "commit",
-          "text": "Update Mint project link to live Vercel deployment"
-        },
-        {
-          "type": "chat",
-          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/marketplace-assets/mockup4.html in the I…",
-          "sessionId": "61dbf59a-69c7-42c2-bd52-37219b766a1d"
-        },
-        {
-          "type": "chat",
-          "text": "in project ran-portfolio, remove the last project",
-          "sessionId": "8b24dc3b-ba22-4905-b480-dd7c287902ae"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "61dbf59a-69c7-42c2-bd52-37219b766a1d",
-        "lastActivity": "2026-04-15T11:40:08.359Z",
-        "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/marketplace-assets/mockup4.html in the I…"
-      }
-    },
-    {
       "name": "Zoom-for-kids",
       "emoji": "👶",
       "description": "This file documents the project architecture, development conventions, and workflows for AI assistants working on this codebase.",
       "stack": "TypeScript + React 18 + Vite",
       "status": "active",
-      "lastActivity": "2026-04-16T06:47:14.767Z",
+      "lastActivity": "2026-04-16T11:40:33.081Z",
       "size": "282M",
       "hasGit": true,
       "git": {
         "branch": "claude/add-claude-documentation-gFq7q",
-        "lastCommitRelative": "24 hours ago",
+        "lastCommitRelative": "27 hours ago",
         "lastCommitMessage": "Update extension components and marketplace mockup",
         "lastCommitDate": "2026-04-15 12:18:38 +0300",
         "isDirty": true,
@@ -84,8 +37,102 @@
         },
         {
           "type": "chat",
+          "text": "in project ran-portfolio, remove the last project",
+          "sessionId": "8b24dc3b-ba22-4905-b480-dd7c287902ae"
+        },
+        {
+          "type": "chat",
           "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/marketplace-assets/mockup4.html in the I…",
           "sessionId": "19e2a091-e33c-4819-b5d3-9673730856a5"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "8b24dc3b-ba22-4905-b480-dd7c287902ae",
+        "lastActivity": "2026-04-16T11:40:33.081Z",
+        "summary": "in project ran-portfolio, remove the last project"
+      }
+    },
+    {
+      "name": "anime-master",
+      "emoji": "📁",
+      "description": "SVG animation editor built with TypeScript + React 18 + Vite. Users create layered shapes/text, animate properties via keyframes, and export to Lottie JSON or GIF.",
+      "stack": "TypeScript + React 18 + Vite",
+      "status": "active",
+      "lastActivity": "2026-04-16T11:40:33.081Z",
+      "size": "211M",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "2 hours ago",
+        "lastCommitMessage": "fix: remove duplicate selectedLayerId declaration causing blank page",
+        "lastCommitDate": "2026-04-16 13:05:58 +0300",
+        "isDirty": true,
+        "changedFiles": 58
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "fix: remove duplicate selectedLayerId declaration causing blank page"
+        },
+        {
+          "type": "commit",
+          "text": "feat: fix toolbar overlap, add layer focus + group drill-down"
+        },
+        {
+          "type": "commit",
+          "text": "fix: restore toolbar, artboard props, effects panel, color picking, handle drag"
+        },
+        {
+          "type": "chat",
+          "text": "in project ran-portfolio, remove the last project",
+          "sessionId": "8b24dc3b-ba22-4905-b480-dd7c287902ae"
+        },
+        {
+          "type": "chat",
+          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/marketplace-assets/mockup4.html in the I…",
+          "sessionId": "19e2a091-e33c-4819-b5d3-9673730856a5"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "8b24dc3b-ba22-4905-b480-dd7c287902ae",
+        "lastActivity": "2026-04-16T11:40:33.081Z",
+        "summary": "in project ran-portfolio, remove the last project"
+      }
+    },
+    {
+      "name": "ran-portfolio",
+      "emoji": "🌐",
+      "description": "Single-page freelance portfolio. Static HTML + CSS, no framework. Warm & personal visual tone.",
+      "stack": "HTML + CSS + vanilla JS",
+      "status": "active",
+      "lastActivity": "2026-04-16T11:40:33.081Z",
+      "size": "126M",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "3 hours ago",
+        "lastCommitMessage": "Add GA4 click tracking for nav and CTA buttons",
+        "lastCommitDate": "2026-04-16 11:25:51 +0300",
+        "isDirty": true,
+        "changedFiles": 8
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Add GA4 click tracking for nav and CTA buttons"
+        },
+        {
+          "type": "commit",
+          "text": "Reorder AI projects: Zoomi 06, Mint 07, Shhh 08"
+        },
+        {
+          "type": "commit",
+          "text": "Update Mint project link to live Vercel deployment"
+        },
+        {
+          "type": "chat",
+          "text": "in project ran-portfolio, remove the last project",
+          "sessionId": "8b24dc3b-ba22-4905-b480-dd7c287902ae"
         },
         {
           "type": "chat",
@@ -94,9 +141,9 @@
         }
       ],
       "lastSession": {
-        "sessionId": "19e2a091-e33c-4819-b5d3-9673730856a5",
-        "lastActivity": "2026-04-16T06:47:14.767Z",
-        "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/marketplace-assets/mockup4.html in the I…"
+        "sessionId": "8b24dc3b-ba22-4905-b480-dd7c287902ae",
+        "lastActivity": "2026-04-16T11:40:33.081Z",
+        "summary": "in project ran-portfolio, remove the last project"
       }
     },
     {
@@ -105,7 +152,7 @@
       "description": "Local project",
       "stack": "Unknown",
       "status": "active",
-      "lastActivity": "2026-04-16T06:47:14.767Z",
+      "lastActivity": "2026-04-16T10:07:16.711Z",
       "size": "20K",
       "hasGit": false,
       "git": null,
@@ -123,49 +170,7 @@
       ],
       "lastSession": {
         "sessionId": "19e2a091-e33c-4819-b5d3-9673730856a5",
-        "lastActivity": "2026-04-16T06:47:14.767Z",
-        "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/marketplace-assets/mockup4.html in the I…"
-      }
-    },
-    {
-      "name": "anime-master",
-      "emoji": "📁",
-      "description": "SVG animation editor built with TypeScript + React 18 + Vite. Users create layered shapes/text, animate properties via keyframes, and export to Lottie JSON or GIF.",
-      "stack": "TypeScript + React 18 + Vite",
-      "status": "active",
-      "lastActivity": "2026-04-16T06:47:14.767Z",
-      "size": "211M",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "2 hours ago",
-        "lastCommitMessage": "fix: restore toolbar, artboard props, effects panel, color picking, handle drag",
-        "lastCommitDate": "2026-04-16 09:37:03 +0300",
-        "isDirty": true,
-        "changedFiles": 52
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "fix: restore toolbar, artboard props, effects panel, color picking, handle drag"
-        },
-        {
-          "type": "commit",
-          "text": "polish: panel entry animations and timeline slide-up transition"
-        },
-        {
-          "type": "commit",
-          "text": "style: add Lottie gradient and GIF ghost export buttons to topbar"
-        },
-        {
-          "type": "chat",
-          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/marketplace-assets/mockup4.html in the I…",
-          "sessionId": "19e2a091-e33c-4819-b5d3-9673730856a5"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "19e2a091-e33c-4819-b5d3-9673730856a5",
-        "lastActivity": "2026-04-16T06:47:14.767Z",
+        "lastActivity": "2026-04-16T10:07:16.711Z",
         "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/marketplace-assets/mockup4.html in the I…"
       }
     },
@@ -227,7 +232,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/landing-page",
-        "lastCommitRelative": "10 days ago",
+        "lastCommitRelative": "11 days ago",
         "lastCommitMessage": "fix: update portfolio link to correct GitHub username",
         "lastCommitDate": "2026-04-06 02:18:42 +0300",
         "isDirty": true,
@@ -274,7 +279,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "13 days ago",
+        "lastCommitRelative": "2 weeks ago",
         "lastCommitMessage": "AI Academy for Jordan - Hebrew AI learning platform",
         "lastCommitDate": "2026-04-03 00:34:04 +0300",
         "isDirty": true,
