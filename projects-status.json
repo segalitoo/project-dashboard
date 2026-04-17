@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-04-17T15:29:42.840Z",
+  "lastUpdated": "2026-04-17T18:29:56.888Z",
   "projectCount": 15,
   "activeCount": 6,
-  "idleCount": 1,
-  "staleCount": 4,
+  "idleCount": 0,
+  "staleCount": 5,
   "projects": [
     {
       "name": "Zoom-for-kids",
@@ -63,7 +63,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "29 hours ago",
+        "lastCommitRelative": "32 hours ago",
         "lastCommitMessage": "fix: remove duplicate selectedLayerId declaration causing blank page",
         "lastCommitDate": "2026-04-16 13:05:58 +0300",
         "isDirty": true,
@@ -110,7 +110,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "31 hours ago",
+        "lastCommitRelative": "34 hours ago",
         "lastCommitMessage": "Add GA4 click tracking for nav and CTA buttons",
         "lastCommitDate": "2026-04-16 11:25:51 +0300",
         "isDirty": true,
@@ -273,7 +273,7 @@
       "emoji": "🎓",
       "description": "AI Academy learning platform",
       "stack": "TypeScript + React 19 + Next.js + Supabase",
-      "status": "idle",
+      "status": "stale",
       "lastActivity": "2026-04-03T17:58:09.841Z",
       "size": "806M",
       "hasGit": true,
