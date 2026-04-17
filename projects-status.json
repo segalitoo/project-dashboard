@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-04-17T08:19:30.324Z",
+  "lastUpdated": "2026-04-17T11:58:58.457Z",
   "projectCount": 15,
   "activeCount": 6,
-  "idleCount": 2,
-  "staleCount": 3,
+  "idleCount": 1,
+  "staleCount": 4,
   "projects": [
     {
       "name": "Zoom-for-kids",
@@ -63,7 +63,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "22 hours ago",
+        "lastCommitRelative": "26 hours ago",
         "lastCommitMessage": "fix: remove duplicate selectedLayerId declaration causing blank page",
         "lastCommitDate": "2026-04-16 13:05:58 +0300",
         "isDirty": true,
@@ -110,7 +110,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "24 hours ago",
+        "lastCommitRelative": "28 hours ago",
         "lastCommitMessage": "Add GA4 click tracking for nav and CTA buttons",
         "lastCommitDate": "2026-04-16 11:25:51 +0300",
         "isDirty": true,
@@ -232,7 +232,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/landing-page",
-        "lastCommitRelative": "11 days ago",
+        "lastCommitRelative": "12 days ago",
         "lastCommitMessage": "fix: update portfolio link to correct GitHub username",
         "lastCommitDate": "2026-04-06 02:18:42 +0300",
         "isDirty": true,
@@ -311,7 +311,7 @@
       "emoji": "🤖",
       "description": "Design agent project",
       "stack": "TypeScript",
-      "status": "idle",
+      "status": "stale",
       "lastActivity": "2026-04-03T08:59:41.154Z",
       "size": "117M",
       "hasGit": false,
