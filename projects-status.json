@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-04-17T21:37:21.161Z",
+  "lastUpdated": "2026-04-18T20:19:17.484Z",
   "projectCount": 15,
-  "activeCount": 6,
-  "idleCount": 0,
+  "activeCount": 4,
+  "idleCount": 2,
   "staleCount": 5,
   "projects": [
     {
@@ -110,7 +110,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "2 days ago",
+        "lastCommitRelative": "3 days ago",
         "lastCommitMessage": "Add GA4 click tracking for nav and CTA buttons",
         "lastCommitDate": "2026-04-16 11:25:51 +0300",
         "isDirty": true,
@@ -179,13 +179,13 @@
       "emoji": "🎨",
       "description": "React + TypeScript + Vite frontend with Supabase backend (Edge Functions + Storage + PostgreSQL). AI image generation and analysis via Google Gemini.",
       "stack": "TypeScript + React 19 + Vite + Supabase + Gemini",
-      "status": "active",
+      "status": "idle",
       "lastActivity": "2026-04-15T11:40:08.359Z",
       "size": "193M",
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "5 days ago",
+        "lastCommitRelative": "6 days ago",
         "lastCommitMessage": "fix: platform badge back on image bottom-left, chips stay below",
         "lastCommitDate": "2026-04-12 23:36:11 +0300",
         "isDirty": true,
@@ -226,13 +226,13 @@
       "emoji": "🎙️",
       "description": "A Python CLI tool that captures microphone audio, streams it to Google Cloud Speech-to-Text for live transcription, and pastes the result into the frontmost application. Supports English and Hebrew wi…",
       "stack": "Python 3.9+ + Swift (macOS)",
-      "status": "active",
+      "status": "idle",
       "lastActivity": "2026-04-15T11:40:08.359Z",
       "size": "785M",
       "hasGit": true,
       "git": {
         "branch": "feat/landing-page",
-        "lastCommitRelative": "12 days ago",
+        "lastCommitRelative": "13 days ago",
         "lastCommitMessage": "fix: update portfolio link to correct GitHub username",
         "lastCommitDate": "2026-04-06 02:18:42 +0300",
         "isDirty": true,
@@ -363,7 +363,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "7 weeks ago",
+        "lastCommitRelative": "8 weeks ago",
         "lastCommitMessage": "Portfolio: 6 case studies with realistic photo placeholders",
         "lastCommitDate": "2026-02-24 23:40:56 +0200",
         "isDirty": true,
