@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-19T10:57:13.000Z",
+  "lastUpdated": "2026-04-19T14:36:52.133Z",
   "projectCount": 15,
   "activeCount": 4,
   "idleCount": 2,
@@ -11,7 +11,7 @@
       "description": "This file documents the project architecture, development conventions, and workflows for AI assistants working on this codebase.",
       "stack": "TypeScript + React 18 + Vite",
       "status": "active",
-      "lastActivity": "2026-04-19T09:52:19.396Z",
+      "lastActivity": "2026-04-19T12:11:34.272Z",
       "size": "282M",
       "hasGit": true,
       "git": {
@@ -48,7 +48,7 @@
       ],
       "lastSession": {
         "sessionId": "8b24dc3b-ba22-4905-b480-dd7c287902ae",
-        "lastActivity": "2026-04-19T09:52:19.396Z",
+        "lastActivity": "2026-04-19T12:11:34.272Z",
         "summary": "in project ran-portfolio, remove the last project"
       }
     },
@@ -58,7 +58,7 @@
       "description": "SVG animation editor built with TypeScript + React 18 + Vite. Users create layered shapes/text, animate properties via keyframes, and export to Lottie JSON or GIF.",
       "stack": "TypeScript + React 18 + Vite",
       "status": "active",
-      "lastActivity": "2026-04-19T09:52:19.396Z",
+      "lastActivity": "2026-04-19T12:11:34.272Z",
       "size": "211M",
       "hasGit": true,
       "git": {
@@ -67,7 +67,7 @@
         "lastCommitMessage": "fix: remove duplicate selectedLayerId declaration causing blank page",
         "lastCommitDate": "2026-04-16 13:05:58 +0300",
         "isDirty": true,
-        "changedFiles": 58
+        "changedFiles": 61
       },
       "recentActions": [
         {
@@ -95,7 +95,7 @@
       ],
       "lastSession": {
         "sessionId": "8b24dc3b-ba22-4905-b480-dd7c287902ae",
-        "lastActivity": "2026-04-19T09:52:19.396Z",
+        "lastActivity": "2026-04-19T12:11:34.272Z",
         "summary": "in project ran-portfolio, remove the last project"
       }
     },
@@ -105,7 +105,7 @@
       "description": "Single-page freelance portfolio. Static HTML + CSS, no framework. Warm & personal visual tone.",
       "stack": "HTML + CSS + vanilla JS",
       "status": "active",
-      "lastActivity": "2026-04-19T09:52:19.396Z",
+      "lastActivity": "2026-04-19T12:11:34.272Z",
       "size": "126M",
       "hasGit": true,
       "git": {
@@ -142,7 +142,7 @@
       ],
       "lastSession": {
         "sessionId": "8b24dc3b-ba22-4905-b480-dd7c287902ae",
-        "lastActivity": "2026-04-19T09:52:19.396Z",
+        "lastActivity": "2026-04-19T12:11:34.272Z",
         "summary": "in project ran-portfolio, remove the last project"
       }
     },
