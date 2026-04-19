@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-18T20:19:17.484Z",
+  "lastUpdated": "2026-04-19T00:16:38.613Z",
   "projectCount": 15,
   "activeCount": 4,
   "idleCount": 2,
@@ -16,7 +16,7 @@
       "hasGit": true,
       "git": {
         "branch": "claude/add-claude-documentation-gFq7q",
-        "lastCommitRelative": "3 days ago",
+        "lastCommitRelative": "4 days ago",
         "lastCommitMessage": "Update extension components and marketplace mockup",
         "lastCommitDate": "2026-04-15 12:18:38 +0300",
         "isDirty": true,
@@ -63,7 +63,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "2 days ago",
+        "lastCommitRelative": "3 days ago",
         "lastCommitMessage": "fix: remove duplicate selectedLayerId declaration causing blank page",
         "lastCommitDate": "2026-04-16 13:05:58 +0300",
         "isDirty": true,
@@ -401,7 +401,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "7 weeks ago",
+        "lastCommitRelative": "8 weeks ago",
         "lastCommitMessage": "Prevent accidental edit on partial swipe",
         "lastCommitDate": "2026-02-25 11:54:51 +0000",
         "isDirty": true,
