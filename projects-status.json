@@ -1,17 +1,64 @@
 {
-  "lastUpdated": "2026-04-19T20:48:27.276Z",
+  "lastUpdated": "2026-04-20T09:23:25.154Z",
   "projectCount": 15,
   "activeCount": 4,
   "idleCount": 2,
   "staleCount": 5,
   "projects": [
     {
+      "name": "anime-master",
+      "emoji": "📁",
+      "description": "SVG animation editor built with TypeScript + React 18 + Vite. Users create layered shapes/text, animate properties via keyframes, and export to Lottie JSON or GIF.",
+      "stack": "TypeScript + React 18 + Vite",
+      "status": "active",
+      "lastActivity": "2026-04-19T22:05:05.443Z",
+      "size": "211M",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "4 days ago",
+        "lastCommitMessage": "fix: remove duplicate selectedLayerId declaration causing blank page",
+        "lastCommitDate": "2026-04-16 13:05:58 +0300",
+        "isDirty": true,
+        "changedFiles": 62
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "fix: remove duplicate selectedLayerId declaration causing blank page"
+        },
+        {
+          "type": "commit",
+          "text": "feat: fix toolbar overlap, add layer focus + group drill-down"
+        },
+        {
+          "type": "commit",
+          "text": "fix: restore toolbar, artboard props, effects panel, color picking, handle drag"
+        },
+        {
+          "type": "chat",
+          "text": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/b…",
+          "sessionId": "afab8798-108e-47c3-9588-222e9667cbc0"
+        },
+        {
+          "type": "chat",
+          "text": "in project ran-portfolio, remove the last project",
+          "sessionId": "8b24dc3b-ba22-4905-b480-dd7c287902ae"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "afab8798-108e-47c3-9588-222e9667cbc0",
+        "lastActivity": "2026-04-19T22:05:05.443Z",
+        "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/b…"
+      }
+    },
+    {
       "name": "Zoom-for-kids",
       "emoji": "👶",
       "description": "This file documents the project architecture, development conventions, and workflows for AI assistants working on this codebase.",
       "stack": "TypeScript + React 18 + Vite",
       "status": "active",
-      "lastActivity": "2026-04-19T12:11:34.272Z",
+      "lastActivity": "2026-04-19T21:42:11.723Z",
       "size": "282M",
       "hasGit": true,
       "git": {
@@ -48,54 +95,7 @@
       ],
       "lastSession": {
         "sessionId": "8b24dc3b-ba22-4905-b480-dd7c287902ae",
-        "lastActivity": "2026-04-19T12:11:34.272Z",
-        "summary": "in project ran-portfolio, remove the last project"
-      }
-    },
-    {
-      "name": "anime-master",
-      "emoji": "📁",
-      "description": "SVG animation editor built with TypeScript + React 18 + Vite. Users create layered shapes/text, animate properties via keyframes, and export to Lottie JSON or GIF.",
-      "stack": "TypeScript + React 18 + Vite",
-      "status": "active",
-      "lastActivity": "2026-04-19T12:11:34.272Z",
-      "size": "211M",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "3 days ago",
-        "lastCommitMessage": "fix: remove duplicate selectedLayerId declaration causing blank page",
-        "lastCommitDate": "2026-04-16 13:05:58 +0300",
-        "isDirty": true,
-        "changedFiles": 61
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "fix: remove duplicate selectedLayerId declaration causing blank page"
-        },
-        {
-          "type": "commit",
-          "text": "feat: fix toolbar overlap, add layer focus + group drill-down"
-        },
-        {
-          "type": "commit",
-          "text": "fix: restore toolbar, artboard props, effects panel, color picking, handle drag"
-        },
-        {
-          "type": "chat",
-          "text": "in project ran-portfolio, remove the last project",
-          "sessionId": "8b24dc3b-ba22-4905-b480-dd7c287902ae"
-        },
-        {
-          "type": "chat",
-          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/anime-master/src/components/editor/Canvas.tsx in the I…",
-          "sessionId": "5586472e-fdb8-40e3-9f49-670dbf51be1b"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "8b24dc3b-ba22-4905-b480-dd7c287902ae",
-        "lastActivity": "2026-04-19T12:11:34.272Z",
+        "lastActivity": "2026-04-19T21:42:11.723Z",
         "summary": "in project ran-portfolio, remove the last project"
       }
     },
@@ -105,7 +105,7 @@
       "description": "Single-page freelance portfolio. Static HTML + CSS, no framework. Warm & personal visual tone.",
       "stack": "HTML + CSS + vanilla JS",
       "status": "active",
-      "lastActivity": "2026-04-19T12:11:34.272Z",
+      "lastActivity": "2026-04-19T21:42:11.723Z",
       "size": "126M",
       "hasGit": true,
       "git": {
@@ -142,7 +142,7 @@
       ],
       "lastSession": {
         "sessionId": "8b24dc3b-ba22-4905-b480-dd7c287902ae",
-        "lastActivity": "2026-04-19T12:11:34.272Z",
+        "lastActivity": "2026-04-19T21:42:11.723Z",
         "summary": "in project ran-portfolio, remove the last project"
       }
     },
@@ -185,7 +185,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "7 days ago",
+        "lastCommitRelative": "8 days ago",
         "lastCommitMessage": "fix: platform badge back on image bottom-left, chips stay below",
         "lastCommitDate": "2026-04-12 23:36:11 +0300",
         "isDirty": true,
@@ -279,7 +279,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "2 weeks ago",
+        "lastCommitRelative": "3 weeks ago",
         "lastCommitMessage": "AI Academy for Jordan - Hebrew AI learning platform",
         "lastCommitDate": "2026-04-03 00:34:04 +0300",
         "isDirty": true,
