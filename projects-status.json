@@ -1,10 +1,52 @@
 {
-  "lastUpdated": "2026-04-22T07:55:16.395Z",
+  "lastUpdated": "2026-04-22T20:59:42.235Z",
   "projectCount": 16,
   "activeCount": 5,
   "idleCount": 2,
   "staleCount": 5,
   "projects": [
+    {
+      "name": "Payoneer-ad-generator",
+      "emoji": "🎨",
+      "description": "React + TypeScript + Vite frontend with Supabase backend (Edge Functions + Storage + PostgreSQL). AI image generation and analysis via Google Gemini.",
+      "stack": "TypeScript + React 19 + Vite + Supabase + Gemini",
+      "status": "active",
+      "lastActivity": "2026-04-22T20:58:50.057Z",
+      "size": "193M",
+      "hasGit": true,
+      "git": {
+        "branch": "feat/node-canvas",
+        "lastCommitRelative": "10 days ago",
+        "lastCommitMessage": "fix: platform badge back on image bottom-left, chips stay below",
+        "lastCommitDate": "2026-04-12 23:36:11 +0300",
+        "isDirty": true,
+        "changedFiles": 2
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "fix: platform badge back on image bottom-left, chips stay below"
+        },
+        {
+          "type": "commit",
+          "text": "fix: pass source image as reference and use smart remix path when remixing from canvas"
+        },
+        {
+          "type": "commit",
+          "text": "feat: move image chips/badge below image, add language picker to Copy AI node"
+        },
+        {
+          "type": "chat",
+          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/marketplace-assets/mockup4.html in the I…",
+          "sessionId": "61dbf59a-69c7-42c2-bd52-37219b766a1d"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "dea733b9-5751-4564-93df-4879149c7dc4",
+        "lastActivity": "2026-04-22T20:58:50.057Z",
+        "summary": ""
+      }
+    },
     {
       "name": "spotted",
       "emoji": "📁",
@@ -12,11 +54,11 @@
       "stack": "TypeScript + React 19 + Next.js",
       "status": "active",
       "lastActivity": "2026-04-21T22:51:14.737Z",
-      "size": "678M",
+      "size": "679M",
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "9 hours ago",
+        "lastCommitRelative": "22 hours ago",
         "lastCommitMessage": "W1: swap heic2any -> heic-to for modern HEIC support",
         "lastCommitDate": "2026-04-22 01:36:33 +0300",
         "isDirty": true,
@@ -105,7 +147,7 @@
       "hasGit": true,
       "git": {
         "branch": "claude/add-claude-documentation-gFq7q",
-        "lastCommitRelative": "7 days ago",
+        "lastCommitRelative": "8 days ago",
         "lastCommitMessage": "Update extension components and marketplace mockup",
         "lastCommitDate": "2026-04-15 12:18:38 +0300",
         "isDirty": true,
@@ -152,7 +194,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "6 days ago",
+        "lastCommitRelative": "7 days ago",
         "lastCommitMessage": "Add GA4 click tracking for nav and CTA buttons",
         "lastCommitDate": "2026-04-16 11:25:51 +0300",
         "isDirty": true,
@@ -193,7 +235,7 @@
       "emoji": "📁",
       "description": "Local project",
       "stack": "Unknown",
-      "status": "active",
+      "status": "idle",
       "lastActivity": "2026-04-19T09:20:19.019Z",
       "size": "20K",
       "hasGit": false,
@@ -214,53 +256,6 @@
         "sessionId": "5586472e-fdb8-40e3-9f49-670dbf51be1b",
         "lastActivity": "2026-04-19T09:20:19.019Z",
         "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/anime-master/src/components/editor/Canvas.tsx in the I…"
-      }
-    },
-    {
-      "name": "Payoneer-ad-generator",
-      "emoji": "🎨",
-      "description": "React + TypeScript + Vite frontend with Supabase backend (Edge Functions + Storage + PostgreSQL). AI image generation and analysis via Google Gemini.",
-      "stack": "TypeScript + React 19 + Vite + Supabase + Gemini",
-      "status": "idle",
-      "lastActivity": "2026-04-15T11:40:08.359Z",
-      "size": "193M",
-      "hasGit": true,
-      "git": {
-        "branch": "feat/node-canvas",
-        "lastCommitRelative": "9 days ago",
-        "lastCommitMessage": "fix: platform badge back on image bottom-left, chips stay below",
-        "lastCommitDate": "2026-04-12 23:36:11 +0300",
-        "isDirty": true,
-        "changedFiles": 2
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "fix: platform badge back on image bottom-left, chips stay below"
-        },
-        {
-          "type": "commit",
-          "text": "fix: pass source image as reference and use smart remix path when remixing from canvas"
-        },
-        {
-          "type": "commit",
-          "text": "feat: move image chips/badge below image, add language picker to Copy AI node"
-        },
-        {
-          "type": "chat",
-          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/marketplace-assets/mockup4.html in the I…",
-          "sessionId": "61dbf59a-69c7-42c2-bd52-37219b766a1d"
-        },
-        {
-          "type": "chat",
-          "text": "Tell your human partner that this command is deprecated and will be removed in the next major release. They should ask y…",
-          "sessionId": "09b34b9a-f838-4d37-87d2-452180465f51"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "61dbf59a-69c7-42c2-bd52-37219b766a1d",
-        "lastActivity": "2026-04-15T11:40:08.359Z",
-        "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/marketplace-assets/mockup4.html in the I…"
       }
     },
     {
