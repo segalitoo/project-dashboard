@@ -1,10 +1,52 @@
 {
-  "lastUpdated": "2026-04-21T20:46:55.979Z",
-  "projectCount": 15,
-  "activeCount": 4,
+  "lastUpdated": "2026-04-22T02:50:14.966Z",
+  "projectCount": 16,
+  "activeCount": 5,
   "idleCount": 2,
   "staleCount": 5,
   "projects": [
+    {
+      "name": "spotted",
+      "emoji": "📁",
+      "description": "> Working rules for Claude Code in this repository. Read this first, every session.",
+      "stack": "TypeScript + React 19 + Next.js",
+      "status": "active",
+      "lastActivity": "2026-04-21T22:51:14.737Z",
+      "size": "678M",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "4 hours ago",
+        "lastCommitMessage": "W1: swap heic2any -> heic-to for modern HEIC support",
+        "lastCommitDate": "2026-04-22 01:36:33 +0300",
+        "isDirty": true,
+        "changedFiles": 1
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "W1: swap heic2any -> heic-to for modern HEIC support"
+        },
+        {
+          "type": "commit",
+          "text": "W1: robust HEIC decode + readable error messages"
+        },
+        {
+          "type": "commit",
+          "text": "W1: redeploy to pick up Vercel env vars"
+        },
+        {
+          "type": "chat",
+          "text": "i have to say i imagine a face below the red box on the pile of clothes. it's not marked ar all.",
+          "sessionId": "cdd194c8-da41-41c9-9b9d-6a6c795dc832"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "cdd194c8-da41-41c9-9b9d-6a6c795dc832",
+        "lastActivity": "2026-04-21T22:51:14.737Z",
+        "summary": "i have to say i imagine a face below the red box on the pile of clothes. it's not marked ar all."
+      }
+    },
     {
       "name": "anime-master",
       "emoji": "📁",
@@ -16,7 +58,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "5 days ago",
+        "lastCommitRelative": "6 days ago",
         "lastCommitMessage": "fix: remove duplicate selectedLayerId declaration causing blank page",
         "lastCommitDate": "2026-04-16 13:05:58 +0300",
         "isDirty": true,
@@ -63,7 +105,7 @@
       "hasGit": true,
       "git": {
         "branch": "claude/add-claude-documentation-gFq7q",
-        "lastCommitRelative": "6 days ago",
+        "lastCommitRelative": "7 days ago",
         "lastCommitMessage": "Update extension components and marketplace mockup",
         "lastCommitDate": "2026-04-15 12:18:38 +0300",
         "isDirty": true,
@@ -353,44 +395,6 @@
       }
     },
     {
-      "name": "design-manager-portfolio",
-      "emoji": "💼",
-      "description": "- **Framework:** Next.js 16 (App Router) with TypeScript",
-      "stack": "Next.js 16 + TypeScript + Tailwind CSS 4",
-      "status": "stale",
-      "lastActivity": "2026-03-21T23:11:55.549Z",
-      "size": "832M",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "8 weeks ago",
-        "lastCommitMessage": "Portfolio: 6 case studies with realistic photo placeholders",
-        "lastCommitDate": "2026-02-24 23:40:56 +0200",
-        "isDirty": true,
-        "changedFiles": 23
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Portfolio: 6 case studies with realistic photo placeholders"
-        },
-        {
-          "type": "commit",
-          "text": "Initial commit from Create Next App"
-        },
-        {
-          "type": "chat",
-          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/preview.html in the IDE. This may or may…",
-          "sessionId": "fdd464c8-173a-44b7-ab5c-3ed4e47f5878"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "fdd464c8-173a-44b7-ab5c-3ed4e47f5878",
-        "lastActivity": "2026-03-21T23:11:55.549Z",
-        "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/preview.html in the IDE. This may or may…"
-      }
-    },
-    {
       "name": "shmup-reminder",
       "emoji": "✅",
       "description": "Hebrew RTL task manager app — originally built on Lovable, now developed locally.",
@@ -419,6 +423,35 @@
         {
           "type": "commit",
           "text": "Add iOS haptic fallback"
+        }
+      ],
+      "lastSession": null
+    },
+    {
+      "name": "design-manager-portfolio",
+      "emoji": "💼",
+      "description": "- **Framework:** Next.js 16 (App Router) with TypeScript",
+      "stack": "Next.js 16 + TypeScript + Tailwind CSS 4",
+      "status": "stale",
+      "lastActivity": "2026-02-24T21:40:56.000Z",
+      "size": "832M",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "8 weeks ago",
+        "lastCommitMessage": "Portfolio: 6 case studies with realistic photo placeholders",
+        "lastCommitDate": "2026-02-24 23:40:56 +0200",
+        "isDirty": true,
+        "changedFiles": 23
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Portfolio: 6 case studies with realistic photo placeholders"
+        },
+        {
+          "type": "commit",
+          "text": "Initial commit from Create Next App"
         }
       ],
       "lastSession": null
