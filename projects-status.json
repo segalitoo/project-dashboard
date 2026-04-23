@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-23T12:01:35.946Z",
+  "lastUpdated": "2026-04-23T21:19:36.503Z",
   "projectCount": 16,
   "activeCount": 2,
   "idleCount": 5,
@@ -11,44 +11,44 @@
       "description": "React + TypeScript + Vite frontend with Supabase backend (Edge Functions + Storage + PostgreSQL). AI image generation and analysis via Google Gemini.",
       "stack": "TypeScript + React 19 + Vite + Supabase + Gemini",
       "status": "active",
-      "lastActivity": "2026-04-23T09:19:02.948Z",
+      "lastActivity": "2026-04-23T20:03:31.211Z",
       "size": "194M",
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "3 hours ago",
-        "lastCommitMessage": "feat(mint): update create-page components to light palette",
-        "lastCommitDate": "2026-04-23 12:18:25 +0300",
+        "lastCommitRelative": "2 hours ago",
+        "lastCommitMessage": "fix(mint): remove stale charcoal classes and rename brand-os filenames",
+        "lastCommitDate": "2026-04-23 22:42:04 +0300",
         "isDirty": true,
-        "changedFiles": 4
+        "changedFiles": 5
       },
       "recentActions": [
         {
           "type": "commit",
-          "text": "feat(mint): update create-page components to light palette"
+          "text": "fix(mint): remove stale charcoal classes and rename brand-os filenames"
         },
         {
           "type": "commit",
-          "text": "feat(mint): update canvas edge to mint primary color"
+          "text": "fix(mint): QA sweep — fix remaining dark color values"
         },
         {
           "type": "commit",
-          "text": "feat(mint): update canvas nodes to light palette"
+          "text": "fix(mint): fix text-white/30 on light bg in gallery remix modal"
+        },
+        {
+          "type": "chat",
+          "text": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/b…",
+          "sessionId": "dea733b9-5751-4564-93df-4879149c7dc4"
         },
         {
           "type": "chat",
           "text": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/b…",
           "sessionId": "29a8be26-d298-4024-98ec-09a738f55aae"
-        },
-        {
-          "type": "chat",
-          "text": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/b…",
-          "sessionId": "51a7b2a1-2f01-4763-8010-8d5180bf3fc2"
         }
       ],
       "lastSession": {
-        "sessionId": "29a8be26-d298-4024-98ec-09a738f55aae",
-        "lastActivity": "2026-04-23T09:19:02.948Z",
+        "sessionId": "dea733b9-5751-4564-93df-4879149c7dc4",
+        "lastActivity": "2026-04-23T20:03:31.211Z",
         "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/b…"
       }
     },
@@ -152,7 +152,7 @@
       "hasGit": true,
       "git": {
         "branch": "claude/add-claude-documentation-gFq7q",
-        "lastCommitRelative": "8 days ago",
+        "lastCommitRelative": "9 days ago",
         "lastCommitMessage": "Update extension components and marketplace mockup",
         "lastCommitDate": "2026-04-15 12:18:38 +0300",
         "isDirty": true,
@@ -199,7 +199,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "7 days ago",
+        "lastCommitRelative": "8 days ago",
         "lastCommitMessage": "Add GA4 click tracking for nav and CTA buttons",
         "lastCommitDate": "2026-04-16 11:25:51 +0300",
         "isDirty": true,
