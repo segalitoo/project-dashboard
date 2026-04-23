@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-04-22T20:59:42.235Z",
+  "lastUpdated": "2026-04-23T07:34:05.992Z",
   "projectCount": 16,
-  "activeCount": 5,
-  "idleCount": 2,
+  "activeCount": 2,
+  "idleCount": 5,
   "staleCount": 5,
   "projects": [
     {
@@ -11,29 +11,34 @@
       "description": "React + TypeScript + Vite frontend with Supabase backend (Edge Functions + Storage + PostgreSQL). AI image generation and analysis via Google Gemini.",
       "stack": "TypeScript + React 19 + Vite + Supabase + Gemini",
       "status": "active",
-      "lastActivity": "2026-04-22T20:58:50.057Z",
-      "size": "193M",
+      "lastActivity": "2026-04-22T21:34:59.726Z",
+      "size": "194M",
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "10 days ago",
-        "lastCommitMessage": "fix: platform badge back on image bottom-left, chips stay below",
-        "lastCommitDate": "2026-04-12 23:36:11 +0300",
+        "lastCommitRelative": "10 hours ago",
+        "lastCommitMessage": "docs: add Mint rebrand implementation plan",
+        "lastCommitDate": "2026-04-23 00:34:52 +0300",
         "isDirty": true,
-        "changedFiles": 2
+        "changedFiles": 4
       },
       "recentActions": [
+        {
+          "type": "commit",
+          "text": "docs: add Mint rebrand implementation plan"
+        },
+        {
+          "type": "commit",
+          "text": "docs: add Mint rebrand design spec"
+        },
         {
           "type": "commit",
           "text": "fix: platform badge back on image bottom-left, chips stay below"
         },
         {
-          "type": "commit",
-          "text": "fix: pass source image as reference and use smart remix path when remixing from canvas"
-        },
-        {
-          "type": "commit",
-          "text": "feat: move image chips/badge below image, add language picker to Copy AI node"
+          "type": "chat",
+          "text": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/b…",
+          "sessionId": "dea733b9-5751-4564-93df-4879149c7dc4"
         },
         {
           "type": "chat",
@@ -43,8 +48,8 @@
       ],
       "lastSession": {
         "sessionId": "dea733b9-5751-4564-93df-4879149c7dc4",
-        "lastActivity": "2026-04-22T20:58:50.057Z",
-        "summary": ""
+        "lastActivity": "2026-04-22T21:34:59.726Z",
+        "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/b…"
       }
     },
     {
@@ -58,7 +63,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "22 hours ago",
+        "lastCommitRelative": "33 hours ago",
         "lastCommitMessage": "W1: swap heic2any -> heic-to for modern HEIC support",
         "lastCommitDate": "2026-04-22 01:36:33 +0300",
         "isDirty": true,
@@ -94,13 +99,13 @@
       "emoji": "📁",
       "description": "SVG animation editor built with TypeScript + React 18 + Vite. Users create layered shapes/text, animate properties via keyframes, and export to Lottie JSON or GIF.",
       "stack": "TypeScript + React 18 + Vite",
-      "status": "active",
+      "status": "idle",
       "lastActivity": "2026-04-19T22:05:05.443Z",
       "size": "211M",
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "6 days ago",
+        "lastCommitRelative": "7 days ago",
         "lastCommitMessage": "fix: remove duplicate selectedLayerId declaration causing blank page",
         "lastCommitDate": "2026-04-16 13:05:58 +0300",
         "isDirty": true,
@@ -141,7 +146,7 @@
       "emoji": "👶",
       "description": "This file documents the project architecture, development conventions, and workflows for AI assistants working on this codebase.",
       "stack": "TypeScript + React 18 + Vite",
-      "status": "active",
+      "status": "idle",
       "lastActivity": "2026-04-19T21:42:11.723Z",
       "size": "282M",
       "hasGit": true,
@@ -188,7 +193,7 @@
       "emoji": "🌐",
       "description": "Single-page freelance portfolio. Static HTML + CSS, no framework. Warm & personal visual tone.",
       "stack": "HTML + CSS + vanilla JS",
-      "status": "active",
+      "status": "idle",
       "lastActivity": "2026-04-19T21:42:11.723Z",
       "size": "126M",
       "hasGit": true,
