@@ -1,10 +1,57 @@
 {
-  "lastUpdated": "2026-04-23T21:19:36.503Z",
+  "lastUpdated": "2026-04-24T06:08:41.053Z",
   "projectCount": 16,
-  "activeCount": 2,
-  "idleCount": 5,
+  "activeCount": 3,
+  "idleCount": 4,
   "staleCount": 5,
   "projects": [
+    {
+      "name": "ran-portfolio",
+      "emoji": "🌐",
+      "description": "Single-page freelance portfolio. Static HTML + CSS, no framework. Warm & personal visual tone.",
+      "stack": "HTML + CSS + vanilla JS",
+      "status": "active",
+      "lastActivity": "2026-04-23T22:29:35.000Z",
+      "size": "131M",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "8 hours ago",
+        "lastCommitMessage": "Update Payoneer-ad-generator marketing images with new mint-green design",
+        "lastCommitDate": "2026-04-24 01:29:35 +0300",
+        "isDirty": true,
+        "changedFiles": 8
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Update Payoneer-ad-generator marketing images with new mint-green design"
+        },
+        {
+          "type": "commit",
+          "text": "Add GA4 click tracking for nav and CTA buttons"
+        },
+        {
+          "type": "commit",
+          "text": "Reorder AI projects: Zoomi 06, Mint 07, Shhh 08"
+        },
+        {
+          "type": "chat",
+          "text": "in project ran-portfolio, remove the last project",
+          "sessionId": "8b24dc3b-ba22-4905-b480-dd7c287902ae"
+        },
+        {
+          "type": "chat",
+          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/marketplace-assets/mockup4.html in the I…",
+          "sessionId": "61dbf59a-69c7-42c2-bd52-37219b766a1d"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "8b24dc3b-ba22-4905-b480-dd7c287902ae",
+        "lastActivity": "2026-04-19T21:42:11.723Z",
+        "summary": "in project ran-portfolio, remove the last project"
+      }
+    },
     {
       "name": "Payoneer-ad-generator",
       "emoji": "🎨",
@@ -12,15 +59,15 @@
       "stack": "TypeScript + React 19 + Vite + Supabase + Gemini",
       "status": "active",
       "lastActivity": "2026-04-23T20:03:31.211Z",
-      "size": "194M",
+      "size": "249M",
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "2 hours ago",
+        "lastCommitRelative": "10 hours ago",
         "lastCommitMessage": "fix(mint): remove stale charcoal classes and rename brand-os filenames",
         "lastCommitDate": "2026-04-23 22:42:04 +0300",
         "isDirty": true,
-        "changedFiles": 5
+        "changedFiles": 18
       },
       "recentActions": [
         {
@@ -59,29 +106,10 @@
       "stack": "TypeScript + React 19 + Next.js",
       "status": "active",
       "lastActivity": "2026-04-21T22:51:14.737Z",
-      "size": "679M",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "2 days ago",
-        "lastCommitMessage": "W1: swap heic2any -> heic-to for modern HEIC support",
-        "lastCommitDate": "2026-04-22 01:36:33 +0300",
-        "isDirty": true,
-        "changedFiles": 1
-      },
+      "size": "442M",
+      "hasGit": false,
+      "git": null,
       "recentActions": [
-        {
-          "type": "commit",
-          "text": "W1: swap heic2any -> heic-to for modern HEIC support"
-        },
-        {
-          "type": "commit",
-          "text": "W1: robust HEIC decode + readable error messages"
-        },
-        {
-          "type": "commit",
-          "text": "W1: redeploy to pick up Vercel env vars"
-        },
         {
           "type": "chat",
           "text": "i have to say i imagine a face below the red box on the pile of clothes. it's not marked ar all.",
@@ -101,15 +129,15 @@
       "stack": "TypeScript + React 18 + Vite",
       "status": "idle",
       "lastActivity": "2026-04-19T22:05:05.443Z",
-      "size": "211M",
+      "size": "258M",
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "7 days ago",
+        "lastCommitRelative": "8 days ago",
         "lastCommitMessage": "fix: remove duplicate selectedLayerId declaration causing blank page",
         "lastCommitDate": "2026-04-16 13:05:58 +0300",
         "isDirty": true,
-        "changedFiles": 62
+        "changedFiles": 63
       },
       "recentActions": [
         {
@@ -189,53 +217,6 @@
       }
     },
     {
-      "name": "ran-portfolio",
-      "emoji": "🌐",
-      "description": "Single-page freelance portfolio. Static HTML + CSS, no framework. Warm & personal visual tone.",
-      "stack": "HTML + CSS + vanilla JS",
-      "status": "idle",
-      "lastActivity": "2026-04-19T21:42:11.723Z",
-      "size": "126M",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "8 days ago",
-        "lastCommitMessage": "Add GA4 click tracking for nav and CTA buttons",
-        "lastCommitDate": "2026-04-16 11:25:51 +0300",
-        "isDirty": true,
-        "changedFiles": 8
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Add GA4 click tracking for nav and CTA buttons"
-        },
-        {
-          "type": "commit",
-          "text": "Reorder AI projects: Zoomi 06, Mint 07, Shhh 08"
-        },
-        {
-          "type": "commit",
-          "text": "Update Mint project link to live Vercel deployment"
-        },
-        {
-          "type": "chat",
-          "text": "in project ran-portfolio, remove the last project",
-          "sessionId": "8b24dc3b-ba22-4905-b480-dd7c287902ae"
-        },
-        {
-          "type": "chat",
-          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/marketplace-assets/mockup4.html in the I…",
-          "sessionId": "61dbf59a-69c7-42c2-bd52-37219b766a1d"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "8b24dc3b-ba22-4905-b480-dd7c287902ae",
-        "lastActivity": "2026-04-19T21:42:11.723Z",
-        "summary": "in project ran-portfolio, remove the last project"
-      }
-    },
-    {
       "name": "agents",
       "emoji": "📁",
       "description": "Local project",
@@ -278,7 +259,7 @@
         "lastCommitMessage": "fix: update portfolio link to correct GitHub username",
         "lastCommitDate": "2026-04-06 02:18:42 +0300",
         "isDirty": true,
-        "changedFiles": 52
+        "changedFiles": 53
       },
       "recentActions": [
         {
