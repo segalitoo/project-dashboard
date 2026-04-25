@@ -1,8 +1,8 @@
 {
-  "lastUpdated": "2026-04-24T06:08:41.053Z",
+  "lastUpdated": "2026-04-25T15:43:37.189Z",
   "projectCount": 16,
-  "activeCount": 3,
-  "idleCount": 4,
+  "activeCount": 2,
+  "idleCount": 5,
   "staleCount": 5,
   "projects": [
     {
@@ -16,7 +16,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "8 hours ago",
+        "lastCommitRelative": "2 days ago",
         "lastCommitMessage": "Update Payoneer-ad-generator marketing images with new mint-green design",
         "lastCommitDate": "2026-04-24 01:29:35 +0300",
         "isDirty": true,
@@ -63,7 +63,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "10 hours ago",
+        "lastCommitRelative": "2 days ago",
         "lastCommitMessage": "fix(mint): remove stale charcoal classes and rename brand-os filenames",
         "lastCommitDate": "2026-04-23 22:42:04 +0300",
         "isDirty": true,
@@ -104,7 +104,7 @@
       "emoji": "📁",
       "description": "> Working rules for Claude Code in this repository. Read this first, every session.",
       "stack": "TypeScript + React 19 + Next.js",
-      "status": "active",
+      "status": "idle",
       "lastActivity": "2026-04-21T22:51:14.737Z",
       "size": "442M",
       "hasGit": false,
@@ -133,7 +133,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "8 days ago",
+        "lastCommitRelative": "9 days ago",
         "lastCommitMessage": "fix: remove duplicate selectedLayerId declaration causing blank page",
         "lastCommitDate": "2026-04-16 13:05:58 +0300",
         "isDirty": true,
@@ -180,7 +180,7 @@
       "hasGit": true,
       "git": {
         "branch": "claude/add-claude-documentation-gFq7q",
-        "lastCommitRelative": "9 days ago",
+        "lastCommitRelative": "10 days ago",
         "lastCommitMessage": "Update extension components and marketplace mockup",
         "lastCommitDate": "2026-04-15 12:18:38 +0300",
         "isDirty": true,
@@ -419,7 +419,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "8 weeks ago",
+        "lastCommitRelative": "9 weeks ago",
         "lastCommitMessage": "Portfolio: 6 case studies with realistic photo placeholders",
         "lastCommitDate": "2026-02-24 23:40:56 +0200",
         "isDirty": true,
