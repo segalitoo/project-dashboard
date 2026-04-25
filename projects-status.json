@@ -1,10 +1,38 @@
 {
-  "lastUpdated": "2026-04-25T15:43:37.189Z",
-  "projectCount": 16,
-  "activeCount": 2,
+  "lastUpdated": "2026-04-25T23:30:31.916Z",
+  "projectCount": 17,
+  "activeCount": 3,
   "idleCount": 5,
   "staleCount": 5,
   "projects": [
+    {
+      "name": "tabspeak",
+      "emoji": "📁",
+      "description": "This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.",
+      "stack": "TypeScript + React 19 + Vite",
+      "status": "active",
+      "lastActivity": "2026-04-25T21:38:21.601Z",
+      "size": "191M",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [
+        {
+          "type": "chat",
+          "text": "i think its not workig",
+          "sessionId": "488328d0-121d-441e-a529-d171b9bf5144"
+        },
+        {
+          "type": "chat",
+          "text": "i think its not workig",
+          "sessionId": "41d7c9c8-1af3-4128-85f5-022913aae746"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "488328d0-121d-441e-a529-d171b9bf5144",
+        "lastActivity": "2026-04-25T21:38:21.601Z",
+        "summary": "i think its not workig"
+      }
+    },
     {
       "name": "ran-portfolio",
       "emoji": "🌐",
@@ -133,7 +161,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "9 days ago",
+        "lastCommitRelative": "10 days ago",
         "lastCommitMessage": "fix: remove duplicate selectedLayerId declaration causing blank page",
         "lastCommitDate": "2026-04-16 13:05:58 +0300",
         "isDirty": true,
@@ -180,7 +208,7 @@
       "hasGit": true,
       "git": {
         "branch": "claude/add-claude-documentation-gFq7q",
-        "lastCommitRelative": "10 days ago",
+        "lastCommitRelative": "11 days ago",
         "lastCommitMessage": "Update extension components and marketplace mockup",
         "lastCommitDate": "2026-04-15 12:18:38 +0300",
         "isDirty": true,
