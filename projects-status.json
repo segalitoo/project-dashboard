@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-04-30T11:03:45.680Z",
+  "lastUpdated": "2026-04-30T20:45:04.946Z",
   "projectCount": 18,
   "activeCount": 1,
   "idleCount": 6,
@@ -11,7 +11,7 @@
       "description": "This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.",
       "stack": "TypeScript + React 19 + Vite",
       "status": "active",
-      "lastActivity": "2026-04-30T10:45:01.108Z",
+      "lastActivity": "2026-04-30T12:36:08.624Z",
       "size": "196M",
       "hasGit": false,
       "git": null,
@@ -29,7 +29,7 @@
       ],
       "lastSession": {
         "sessionId": "41d7c9c8-1af3-4128-85f5-022913aae746",
-        "lastActivity": "2026-04-30T10:45:01.108Z",
+        "lastActivity": "2026-04-30T12:36:08.624Z",
         "summary": "i think its not workig"
       }
     },
