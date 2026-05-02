@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-01T21:22:47.843Z",
+  "lastUpdated": "2026-05-02T12:10:54.499Z",
   "projectCount": 18,
   "activeCount": 1,
   "idleCount": 6,
@@ -11,8 +11,8 @@
       "description": "This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.",
       "stack": "TypeScript + React 19 + Vite",
       "status": "active",
-      "lastActivity": "2026-05-01T21:06:02.103Z",
-      "size": "196M",
+      "lastActivity": "2026-05-01T23:34:31.259Z",
+      "size": "673M",
       "hasGit": false,
       "git": null,
       "recentActions": [
@@ -29,7 +29,7 @@
       ],
       "lastSession": {
         "sessionId": "41d7c9c8-1af3-4128-85f5-022913aae746",
-        "lastActivity": "2026-05-01T21:06:02.103Z",
+        "lastActivity": "2026-05-01T23:34:31.259Z",
         "summary": "i think its not workig"
       }
     },
@@ -44,7 +44,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "8 days ago",
+        "lastCommitRelative": "9 days ago",
         "lastCommitMessage": "Update Payoneer-ad-generator marketing images with new mint-green design",
         "lastCommitDate": "2026-04-24 01:29:35 +0300",
         "isDirty": true,
@@ -91,7 +91,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "8 days ago",
+        "lastCommitRelative": "9 days ago",
         "lastCommitMessage": "fix(mint): remove stale charcoal classes and rename brand-os filenames",
         "lastCommitDate": "2026-04-23 22:42:04 +0300",
         "isDirty": true,
@@ -447,7 +447,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "9 weeks ago",
+        "lastCommitRelative": "10 weeks ago",
         "lastCommitMessage": "Portfolio: 6 case studies with realistic photo placeholders",
         "lastCommitDate": "2026-02-24 23:40:56 +0200",
         "isDirty": true,
