@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bento — הפרוייקטים</title>
+  <meta name="theme-color" content="#fafafa">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800;900&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="bento.css">
+</head>
+<body>
+
+  <nav class="variant-switcher" aria-label="כיוון עיצובי">
+    <a href="./" class="vs-link">
+      <span class="vs-dot"></span>מחברת
+    </a>
+    <a href="bento.html" class="vs-link active">
+      <span class="vs-dot"></span>Bento
+    </a>
+    <a href="dark.html" class="vs-link">
+      <span class="vs-dot"></span>Dark
+    </a>
+  </nav>
+
+  <div class="page">
+    <header class="hdr">
+      <div class="hdr-eyebrow">PROJECTS · 2026</div>
+      <h1 class="hdr-title">הפרוייקטים שלי</h1>
+      <p class="hdr-meta" id="hdr-meta">טוען...</p>
+    </header>
+
+    <nav class="filters" id="filters" aria-label="סינון">
+      <button class="chip active" data-filter="all">הכל <span class="chip-count" id="c-all">·</span></button>
+      <button class="chip" data-filter="live">חי <span class="chip-count" id="c-live">·</span></button>
+      <button class="chip" data-filter="building">בפיתוח <span class="chip-count" id="c-building">·</span></button>
+      <button class="chip" data-filter="paused">מושהה <span class="chip-count" id="c-paused">·</span></button>
+      <button class="chip" data-filter="archive">ארכיון <span class="chip-count" id="c-archive">·</span></button>
+      <button class="chip" data-filter="idea">רעיונות <span class="chip-count" id="c-idea">·</span></button>
+    </nav>
+
+    <main class="bento" id="bento"></main>
+  </div>
+
+  <div class="modal-backdrop" id="backdrop" hidden></div>
+  <aside class="modal" id="modal" hidden aria-hidden="true">
+    <button class="modal-close" id="modal-close" aria-label="סגור">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><path d="M5 5L15 15M15 5L5 15" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+    <div class="modal-content" id="modal-content"></div>
+  </aside>
+
+  <script src="bento.js"></script>
+</body>
+</html>

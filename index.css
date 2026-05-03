@@ -64,6 +64,57 @@
                   0 16px 24px -8px rgba(60, 45, 20, 0.16);
 }
 
+/* ── Variant switcher ──────────────────────────────────────────── */
+
+.variant-switcher {
+  position: fixed;
+  top: 16px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 50;
+  display: flex;
+  gap: 4px;
+  padding: 5px;
+  background: rgba(245, 239, 228, 0.85);
+  backdrop-filter: saturate(180%) blur(16px);
+  -webkit-backdrop-filter: saturate(180%) blur(16px);
+  border: 1px solid rgba(60, 45, 20, 0.14);
+  border-radius: 100px;
+  box-shadow: 0 4px 16px -4px rgba(60, 45, 20, 0.12);
+}
+
+.vs-link {
+  font-family: 'Heebo', sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  color: #6b6353;
+  text-decoration: none;
+  padding: 7px 14px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 200ms ease;
+}
+
+.vs-link .vs-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: currentColor;
+  opacity: 0.4;
+}
+
+.vs-link:hover { color: #1a1815; background: rgba(0,0,0,0.04); }
+.vs-link.active {
+  background: #1a1815;
+  color: #f5efe4;
+}
+.vs-link.active .vs-dot { opacity: 1; background: #3d5a3d; }
+
+/* push page content down to clear the fixed switcher */
+.page { padding-top: calc(var(--space-7) + 24px) !important; }
+
 /* ── Reset & Base ──────────────────────────────────────────────── */
 
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }

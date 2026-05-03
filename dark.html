@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dark — הפרוייקטים</title>
+  <meta name="theme-color" content="#0a0a0c">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800&family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="dark.css">
+</head>
+<body>
+
+  <nav class="variant-switcher" aria-label="כיוון עיצובי">
+    <a href="./" class="vs-link">
+      <span class="vs-dot"></span>מחברת
+    </a>
+    <a href="bento.html" class="vs-link">
+      <span class="vs-dot"></span>Bento
+    </a>
+    <a href="dark.html" class="vs-link active">
+      <span class="vs-dot"></span>Dark
+    </a>
+  </nav>
+
+  <div class="aurora" aria-hidden="true"></div>
+
+  <div class="page">
+    <header class="hdr">
+      <div class="hdr-row">
+        <div class="hdr-left">
+          <div class="hdr-eyebrow">PROJECT INDEX · 2026</div>
+          <h1 class="hdr-title">הפרוייקטים<span class="hdr-title-dot">.</span></h1>
+        </div>
+        <div class="hdr-stats" id="hdr-stats">
+          <div class="stat">
+            <div class="stat-num" id="s-total">—</div>
+            <div class="stat-label">בסך הכל</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num accent" id="s-live">—</div>
+            <div class="stat-label">חי עכשיו</div>
+          </div>
+          <div class="stat">
+            <div class="stat-num" id="s-building">—</div>
+            <div class="stat-label">בפיתוח</div>
+          </div>
+        </div>
+      </div>
+      <p class="hdr-meta" id="hdr-meta">טוען...</p>
+    </header>
+
+    <div class="control-bar">
+      <nav class="filters" id="filters" aria-label="סינון">
+        <button class="chip active" data-filter="all">All <span class="chip-count" id="c-all">·</span></button>
+        <button class="chip" data-filter="live">Live <span class="chip-count" id="c-live">·</span></button>
+        <button class="chip" data-filter="building">Building <span class="chip-count" id="c-building">·</span></button>
+        <button class="chip" data-filter="paused">Paused <span class="chip-count" id="c-paused">·</span></button>
+        <button class="chip" data-filter="archive">Archived <span class="chip-count" id="c-archive">·</span></button>
+        <button class="chip" data-filter="idea">Ideas <span class="chip-count" id="c-idea">·</span></button>
+      </nav>
+
+      <div class="search-wrap">
+        <svg class="search-icon" width="14" height="14" viewBox="0 0 14 14" fill="none">
+          <circle cx="6" cy="6" r="4.5" stroke="currentColor" stroke-width="1.5"/>
+          <path d="M9.5 9.5L13 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+        <input type="text" id="search" placeholder="חיפוש..." autocomplete="off">
+        <kbd>⌘K</kbd>
+      </div>
+    </div>
+
+    <div class="list-header">
+      <div class="lh-status">סטטוס</div>
+      <div class="lh-name">פרוייקט</div>
+      <div class="lh-next">הצעד הבא</div>
+      <div class="lh-time">פעילות</div>
+    </div>
+
+    <main class="list" id="list"></main>
+  </div>
+
+  <div class="panel-backdrop" id="backdrop" hidden></div>
+  <aside class="panel" id="panel" hidden aria-hidden="true">
+    <button class="panel-close" id="panel-close" aria-label="סגור">
+      <svg width="18" height="18" viewBox="0 0 18 18" fill="none"><path d="M4 4L14 14M14 4L4 14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
+    </button>
+    <div class="panel-content" id="panel-content"></div>
+  </aside>
+
+  <script src="dark.js"></script>
+</body>
+</html>
