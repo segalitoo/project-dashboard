@@ -1,491 +1,250 @@
 {
-  "lastUpdated": "2026-05-02T12:10:54.499Z",
-  "projectCount": 18,
-  "activeCount": 1,
-  "idleCount": 6,
-  "staleCount": 6,
+  "lastUpdated": "2026-05-03T06:17:40.470Z",
+  "lastUpdatedHebrew": "הרגע",
+  "projectCount": 14,
+  "counts": {
+    "live": 0,
+    "building": 0,
+    "paused": 14,
+    "archive": 0,
+    "idea": 0
+  },
   "projects": [
     {
-      "name": "tabspeak",
-      "emoji": "📁",
-      "description": "This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.",
-      "stack": "TypeScript + React 19 + Vite",
-      "status": "active",
-      "lastActivity": "2026-05-01T23:34:31.259Z",
-      "size": "673M",
-      "hasGit": false,
+      "name": "Payoneer-ad-generator",
+      "humanName": "מחולל באנרים לפיוניר",
+      "tagline": "כלי שמייצר אוטומטית באנרים פרסומיים באמצעות AI",
+      "longDescription": "הפרוייקט מקבל פרטי מוצר ומחזיר עשרה באנרים פרסומיים בסגנונות שונים. מבוסס על Gemini ליצירת תמונות וניתוח תוכן, עם backend ב-Supabase לאחסון וצד משתמש ב-React. נבנה כדמו ל-Payoneer.",
+      "nextStep": "לסיים את הפיצ׳ר node-canvas ולמזג ל-main",
+      "category": "AI Tools",
+      "accentColor": "#8b3a2e",
+      "screenshot": null,
+      "stack": "—",
+      "status": "paused",
+      "subStatus": null,
+      "lastActivity": null,
+      "lastActivityHebrew": "מתעדכן בסריקה הבאה",
+      "size": "unknown",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/Payoneer-ad-generator",
+      "source": "local",
+      "hasGit": true,
       "git": null,
-      "recentActions": [
-        {
-          "type": "chat",
-          "text": "i think its not workig",
-          "sessionId": "41d7c9c8-1af3-4128-85f5-022913aae746"
-        },
-        {
-          "type": "chat",
-          "text": "i think its not workig",
-          "sessionId": "488328d0-121d-441e-a529-d171b9bf5144"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "41d7c9c8-1af3-4128-85f5-022913aae746",
-        "lastActivity": "2026-05-01T23:34:31.259Z",
-        "summary": "i think its not workig"
-      }
+      "recentActions": [],
+      "lastSession": null
     },
     {
       "name": "ran-portfolio",
-      "emoji": "🌐",
-      "description": "Single-page freelance portfolio. Static HTML + CSS, no framework. Warm & personal visual tone.",
-      "stack": "HTML + CSS + vanilla JS",
-      "status": "idle",
-      "lastActivity": "2026-04-23T22:29:35.000Z",
-      "size": "131M",
+      "humanName": "פורטפוליו אישי",
+      "tagline": "כרטיס ביקור אונליין - אוסף הפרוייקטים והשירותים שלי",
+      "longDescription": "אתר סטטי בעברית שמרכז את הפרוייקטים, ניסיון העבודה ופרטי קשר. מעוצב ידנית ב-HTML/CSS/JS ללא פריימוורק, עם דגש על טון אישי וחם. כולל מעקב אנליטיקס דרך GA4.",
+      "nextStep": "לפרסם את הגרסה האחרונה (יש 8 קבצים שונו)",
+      "category": "Portfolio",
+      "accentColor": "#3a4a6b",
+      "screenshot": null,
+      "stack": "—",
+      "status": "paused",
+      "subStatus": null,
+      "lastActivity": null,
+      "lastActivityHebrew": "מתעדכן בסריקה הבאה",
+      "size": "unknown",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/ran-portfolio",
+      "source": "local",
       "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "9 days ago",
-        "lastCommitMessage": "Update Payoneer-ad-generator marketing images with new mint-green design",
-        "lastCommitDate": "2026-04-24 01:29:35 +0300",
-        "isDirty": true,
-        "changedFiles": 8
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Update Payoneer-ad-generator marketing images with new mint-green design"
-        },
-        {
-          "type": "commit",
-          "text": "Add GA4 click tracking for nav and CTA buttons"
-        },
-        {
-          "type": "commit",
-          "text": "Reorder AI projects: Zoomi 06, Mint 07, Shhh 08"
-        },
-        {
-          "type": "chat",
-          "text": "in project ran-portfolio, remove the last project",
-          "sessionId": "8b24dc3b-ba22-4905-b480-dd7c287902ae"
-        },
-        {
-          "type": "chat",
-          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/marketplace-assets/mockup4.html in the I…",
-          "sessionId": "61dbf59a-69c7-42c2-bd52-37219b766a1d"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "8b24dc3b-ba22-4905-b480-dd7c287902ae",
-        "lastActivity": "2026-04-19T21:42:11.723Z",
-        "summary": "in project ran-portfolio, remove the last project"
-      }
-    },
-    {
-      "name": "Payoneer-ad-generator",
-      "emoji": "🎨",
-      "description": "React + TypeScript + Vite frontend with Supabase backend (Edge Functions + Storage + PostgreSQL). AI image generation and analysis via Google Gemini.",
-      "stack": "TypeScript + React 19 + Vite + Supabase + Gemini",
-      "status": "idle",
-      "lastActivity": "2026-04-23T20:03:31.211Z",
-      "size": "249M",
-      "hasGit": true,
-      "git": {
-        "branch": "feat/node-canvas",
-        "lastCommitRelative": "9 days ago",
-        "lastCommitMessage": "fix(mint): remove stale charcoal classes and rename brand-os filenames",
-        "lastCommitDate": "2026-04-23 22:42:04 +0300",
-        "isDirty": true,
-        "changedFiles": 18
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "fix(mint): remove stale charcoal classes and rename brand-os filenames"
-        },
-        {
-          "type": "commit",
-          "text": "fix(mint): QA sweep — fix remaining dark color values"
-        },
-        {
-          "type": "commit",
-          "text": "fix(mint): fix text-white/30 on light bg in gallery remix modal"
-        },
-        {
-          "type": "chat",
-          "text": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/b…",
-          "sessionId": "dea733b9-5751-4564-93df-4879149c7dc4"
-        },
-        {
-          "type": "chat",
-          "text": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/b…",
-          "sessionId": "29a8be26-d298-4024-98ec-09a738f55aae"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "dea733b9-5751-4564-93df-4879149c7dc4",
-        "lastActivity": "2026-04-23T20:03:31.211Z",
-        "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/b…"
-      }
-    },
-    {
-      "name": "spotted",
-      "emoji": "📁",
-      "description": "> Working rules for Claude Code in this repository. Read this first, every session.",
-      "stack": "TypeScript + React 19 + Next.js",
-      "status": "idle",
-      "lastActivity": "2026-04-21T22:51:14.737Z",
-      "size": "442M",
-      "hasGit": false,
       "git": null,
-      "recentActions": [
-        {
-          "type": "chat",
-          "text": "i have to say i imagine a face below the red box on the pile of clothes. it's not marked ar all.",
-          "sessionId": "cdd194c8-da41-41c9-9b9d-6a6c795dc832"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "cdd194c8-da41-41c9-9b9d-6a6c795dc832",
-        "lastActivity": "2026-04-21T22:51:14.737Z",
-        "summary": "i have to say i imagine a face below the red box on the pile of clothes. it's not marked ar all."
-      }
-    },
-    {
-      "name": "anime-master",
-      "emoji": "📁",
-      "description": "SVG animation editor built with TypeScript + React 18 + Vite. Users create layered shapes/text, animate properties via keyframes, and export to Lottie JSON or GIF.",
-      "stack": "TypeScript + React 18 + Vite",
-      "status": "idle",
-      "lastActivity": "2026-04-19T22:05:05.443Z",
-      "size": "258M",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "2 weeks ago",
-        "lastCommitMessage": "fix: remove duplicate selectedLayerId declaration causing blank page",
-        "lastCommitDate": "2026-04-16 13:05:58 +0300",
-        "isDirty": true,
-        "changedFiles": 63
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "fix: remove duplicate selectedLayerId declaration causing blank page"
-        },
-        {
-          "type": "commit",
-          "text": "feat: fix toolbar overlap, add layer focus + group drill-down"
-        },
-        {
-          "type": "commit",
-          "text": "fix: restore toolbar, artboard props, effects panel, color picking, handle drag"
-        },
-        {
-          "type": "chat",
-          "text": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/b…",
-          "sessionId": "afab8798-108e-47c3-9588-222e9667cbc0"
-        },
-        {
-          "type": "chat",
-          "text": "in project ran-portfolio, remove the last project",
-          "sessionId": "8b24dc3b-ba22-4905-b480-dd7c287902ae"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "afab8798-108e-47c3-9588-222e9667cbc0",
-        "lastActivity": "2026-04-19T22:05:05.443Z",
-        "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/b…"
-      }
+      "recentActions": [],
+      "lastSession": null
     },
     {
       "name": "Zoom-for-kids",
-      "emoji": "👶",
-      "description": "This file documents the project architecture, development conventions, and workflows for AI assistants working on this codebase.",
-      "stack": "TypeScript + React 18 + Vite",
-      "status": "idle",
-      "lastActivity": "2026-04-19T21:42:11.723Z",
-      "size": "282M",
+      "humanName": "Zoom לילדים",
+      "tagline": "תוסף דפדפן שמתאים את ממשק הזום לילדים בכיתות וירטואליות",
+      "longDescription": "תוסף ל-Chrome ול-Firefox שמתאים את ממשק הזום ללמידה של ילדים - בקרות מפושטות, נעילות הורים, חסימת הפרעות, ועיצוב צבעוני יותר. כולל landing page ועזרים שיווקיים ל-marketplace.",
+      "nextStep": "להעלות ל-Chrome Web Store",
+      "category": "Productivity",
+      "accentColor": "#a87432",
+      "screenshot": null,
+      "stack": "—",
+      "status": "paused",
+      "subStatus": null,
+      "lastActivity": null,
+      "lastActivityHebrew": "מתעדכן בסריקה הבאה",
+      "size": "unknown",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/Zoom-for-kids",
+      "source": "local",
       "hasGit": true,
-      "git": {
-        "branch": "claude/add-claude-documentation-gFq7q",
-        "lastCommitRelative": "2 weeks ago",
-        "lastCommitMessage": "Update extension components and marketplace mockup",
-        "lastCommitDate": "2026-04-15 12:18:38 +0300",
-        "isDirty": true,
-        "changedFiles": 6
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Update extension components and marketplace mockup"
-        },
-        {
-          "type": "commit",
-          "text": "Update landing page with improved design"
-        },
-        {
-          "type": "commit",
-          "text": "עדכון טקסט טסטמוניאל: הסרת 'וואו'"
-        },
-        {
-          "type": "chat",
-          "text": "in project ran-portfolio, remove the last project",
-          "sessionId": "8b24dc3b-ba22-4905-b480-dd7c287902ae"
-        },
-        {
-          "type": "chat",
-          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/marketplace-assets/mockup4.html in the I…",
-          "sessionId": "19e2a091-e33c-4819-b5d3-9673730856a5"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "8b24dc3b-ba22-4905-b480-dd7c287902ae",
-        "lastActivity": "2026-04-19T21:42:11.723Z",
-        "summary": "in project ran-portfolio, remove the last project"
-      }
-    },
-    {
-      "name": "agents",
-      "emoji": "📁",
-      "description": "Local project",
-      "stack": "Unknown",
-      "status": "idle",
-      "lastActivity": "2026-04-19T09:20:19.019Z",
-      "size": "20K",
-      "hasGit": false,
       "git": null,
-      "recentActions": [
-        {
-          "type": "chat",
-          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/anime-master/src/components/editor/Canvas.tsx in the I…",
-          "sessionId": "5586472e-fdb8-40e3-9f49-670dbf51be1b"
-        },
-        {
-          "type": "chat",
-          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/marketplace-assets/mockup4.html in the I…",
-          "sessionId": "19e2a091-e33c-4819-b5d3-9673730856a5"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "5586472e-fdb8-40e3-9f49-670dbf51be1b",
-        "lastActivity": "2026-04-19T09:20:19.019Z",
-        "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/anime-master/src/components/editor/Canvas.tsx in the I…"
-      }
+      "recentActions": [],
+      "lastSession": null
     },
     {
       "name": "Shhh",
-      "emoji": "🎙️",
-      "description": "A Python CLI tool that captures microphone audio, streams it to Google Cloud Speech-to-Text for live transcription, and pastes the result into the frontmost application. Supports English and Hebrew wi…",
-      "stack": "Python 3.9+ + Swift (macOS)",
-      "status": "stale",
-      "lastActivity": "2026-04-15T11:40:08.359Z",
-      "size": "785M",
+      "humanName": "Shhh",
+      "tagline": "כלי הכתבה חי שמדבר ישר לכל אפליקציה במק",
+      "longDescription": "אפליקציית macOS שמקליטה את המיקרופון, שולחת ל-Google Cloud Speech-to-Text, ומדביקה את הטקסט ישר לאפליקציה הפעילה. תומך עברית ואנגלית במקביל, עם UI ב-Swift ו-engine ב-Python.",
+      "nextStep": "לסיים את ה-landing page (53 קבצים open)",
+      "category": "Productivity",
+      "accentColor": "#3d5a3d",
+      "screenshot": null,
+      "stack": "—",
+      "status": "paused",
+      "subStatus": null,
+      "lastActivity": null,
+      "lastActivityHebrew": "מתעדכן בסריקה הבאה",
+      "size": "unknown",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/Shhh",
+      "source": "local",
       "hasGit": true,
-      "git": {
-        "branch": "feat/landing-page",
-        "lastCommitRelative": "4 weeks ago",
-        "lastCommitMessage": "fix: update portfolio link to correct GitHub username",
-        "lastCommitDate": "2026-04-06 02:18:42 +0300",
-        "isDirty": true,
-        "changedFiles": 53
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "fix: update portfolio link to correct GitHub username"
-        },
-        {
-          "type": "commit",
-          "text": "ci: add GitHub Pages deployment workflow for landing page"
-        },
-        {
-          "type": "commit",
-          "text": "feat: visual redesign with bento grid layout, animation fixes, and GH Pages setup"
-        },
-        {
-          "type": "chat",
-          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/marketplace-assets/mockup4.html in the I…",
-          "sessionId": "61dbf59a-69c7-42c2-bd52-37219b766a1d"
-        },
-        {
-          "type": "chat",
-          "text": "Tell your human partner that this command is deprecated and will be removed in the next major release. They should ask y…",
-          "sessionId": "09b34b9a-f838-4d37-87d2-452180465f51"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "61dbf59a-69c7-42c2-bd52-37219b766a1d",
-        "lastActivity": "2026-04-15T11:40:08.359Z",
-        "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/Zoom-for-kids/marketplace-assets/mockup4.html in the I…"
-      }
-    },
-    {
-      "name": "ai-academy-jordan",
-      "emoji": "🎓",
-      "description": "AI Academy learning platform",
-      "stack": "TypeScript + React 19 + Next.js + Supabase",
-      "status": "stale",
-      "lastActivity": "2026-04-03T17:58:09.841Z",
-      "size": "806M",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "4 weeks ago",
-        "lastCommitMessage": "AI Academy for Jordan - Hebrew AI learning platform",
-        "lastCommitDate": "2026-04-03 00:34:04 +0300",
-        "isDirty": true,
-        "changedFiles": 1
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "AI Academy for Jordan - Hebrew AI learning platform"
-        },
-        {
-          "type": "commit",
-          "text": "Initial commit from Create Next App"
-        },
-        {
-          "type": "chat",
-          "text": "אני רוצה לבנות דף נחיתה שבו מרוכזים קורסים בנושאי לימוד ai.\nהשיעורים צריכים להיות קצרים וקליטים עד אורך של 10 דק.\nאפשרלש…",
-          "sessionId": "9fbb526b-05db-43d5-bc91-ee0ce9674b64"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "9fbb526b-05db-43d5-bc91-ee0ce9674b64",
-        "lastActivity": "2026-04-03T17:58:09.841Z",
-        "summary": "אני רוצה לבנות דף נחיתה שבו מרוכזים קורסים בנושאי לימוד ai.\nהשיעורים צריכים להיות קצרים וקליטים עד אורך של 10 דק.\nאפשרלש…"
-      }
-    },
-    {
-      "name": "design-agent",
-      "emoji": "🤖",
-      "description": "Design agent project",
-      "stack": "TypeScript",
-      "status": "stale",
-      "lastActivity": "2026-04-03T08:59:41.154Z",
-      "size": "117M",
-      "hasGit": false,
       "git": null,
-      "recentActions": [
-        {
-          "type": "chat",
-          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/ran-portfolio/.github/workflows/deploy.yml in the IDE.…",
-          "sessionId": "963ede33-65f0-4a47-a471-d81314f31654"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "963ede33-65f0-4a47-a471-d81314f31654",
-        "lastActivity": "2026-04-03T08:59:41.154Z",
-        "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/ran-portfolio/.github/workflows/deploy.yml in the IDE.…"
-      }
-    },
-    {
-      "name": "zoom-kids-ui",
-      "emoji": "🎨",
-      "description": "Zoom Kids UI designs",
-      "stack": "Unknown",
-      "status": "stale",
-      "lastActivity": "2026-04-01T20:33:49.016Z",
-      "size": "144K",
-      "hasGit": false,
-      "git": null,
-      "recentActions": [
-        {
-          "type": "chat",
-          "text": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/zoom-kids-ui/space-theme-options.html in the IDE. This…",
-          "sessionId": "f82d1f82-7fc3-44c6-8e7e-fd646391b410"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "f82d1f82-7fc3-44c6-8e7e-fd646391b410",
-        "lastActivity": "2026-04-01T20:33:49.016Z",
-        "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/zoom-kids-ui/space-theme-options.html in the IDE. This…"
-      }
+      "recentActions": [],
+      "lastSession": null
     },
     {
       "name": "shmup-reminder",
-      "emoji": "✅",
-      "description": "Hebrew RTL task manager app — originally built on Lovable, now developed locally.",
-      "stack": "TypeScript + React 18 + Vite + Supabase + PWA",
-      "status": "stale",
-      "lastActivity": "2026-02-25T11:54:51.000Z",
-      "size": "372M",
+      "humanName": "שמופ - תזכורות",
+      "tagline": "מנהל משימות בעברית RTL עם קלט קולי",
+      "longDescription": "אפליקציית web ל-iOS ו-Android (PWA) לניהול משימות יומיות בעברית. תמיכה מלאה ב-RTL, swipe gestures, haptic feedback, ושמירה ב-Supabase. הוקם במקור ב-Lovable, עכשיו בפיתוח מקומי.",
+      "nextStep": "לבדוק את ה-edge case של partial swipe",
+      "category": "Productivity",
+      "accentColor": "#c9885f",
+      "screenshot": null,
+      "stack": "—",
+      "status": "paused",
+      "subStatus": null,
+      "lastActivity": null,
+      "lastActivityHebrew": "מתעדכן בסריקה הבאה",
+      "size": "unknown",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/shmup-reminder",
+      "source": "local",
       "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "9 weeks ago",
-        "lastCommitMessage": "Prevent accidental edit on partial swipe",
-        "lastCommitDate": "2026-02-25 11:54:51 +0000",
-        "isDirty": true,
-        "changedFiles": 26
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Prevent accidental edit on partial swipe"
-        },
-        {
-          "type": "commit",
-          "text": "Changes"
-        },
-        {
-          "type": "commit",
-          "text": "Add iOS haptic fallback"
-        }
-      ],
+      "git": null,
+      "recentActions": [],
+      "lastSession": null
+    },
+    {
+      "name": "anime-master",
+      "humanName": "Anime Master",
+      "tagline": "עורך אנימציות SVG עם ייצוא ל-Lottie",
+      "longDescription": "כלי web ליצירת אנימציות SVG. המשתמש מצייר שכבות, מגדיר keyframes, ומייצא ל-Lottie JSON או GIF. בנוי על Vite + React 18, עם canvas מותאם אישית לעריכה.",
+      "nextStep": "לתקן באג של selectedLayerId כפול",
+      "category": "Creative",
+      "accentColor": "#8b3a8e",
+      "screenshot": null,
+      "stack": "—",
+      "status": "paused",
+      "subStatus": null,
+      "lastActivity": null,
+      "lastActivityHebrew": "מתעדכן בסריקה הבאה",
+      "size": "unknown",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/anime-master",
+      "source": "local",
+      "hasGit": true,
+      "git": null,
+      "recentActions": [],
+      "lastSession": null
+    },
+    {
+      "name": "ai-academy-jordan",
+      "humanName": "אקדמיית AI",
+      "tagline": "פלטפורמת קורסים בעברית בנושאי AI - שיעורים קצרים עד 10 דקות",
+      "longDescription": "דף נחיתה ופלטפורמה לקורסי AI בעברית. כל שיעור עד 10 דקות, עם דגש על קליטות וגישה מהירה. בנוי על Next.js + Supabase. נוצר בעקבות בקשת חבר (ג׳ורדן).",
+      "nextStep": "לבנות את מסך הקורסים הראשי",
+      "category": "Educational",
+      "accentColor": "#2d5f7f",
+      "screenshot": null,
+      "stack": "—",
+      "status": "paused",
+      "subStatus": null,
+      "lastActivity": null,
+      "lastActivityHebrew": "מתעדכן בסריקה הבאה",
+      "size": "unknown",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/ai-academy-jordan",
+      "source": "local",
+      "hasGit": true,
+      "git": null,
+      "recentActions": [],
       "lastSession": null
     },
     {
       "name": "design-manager-portfolio",
-      "emoji": "💼",
-      "description": "- **Framework:** Next.js 16 (App Router) with TypeScript",
-      "stack": "Next.js 16 + TypeScript + Tailwind CSS 4",
-      "status": "stale",
-      "lastActivity": "2026-02-24T21:40:56.000Z",
-      "size": "832M",
+      "humanName": "פורטפוליו design manager",
+      "tagline": "אתר case studies ל-design manager",
+      "longDescription": "פורטפוליו עם 6 case studies, מעוצב ב-Next.js 16 + Tailwind 4. מיועד להציג עבודה כ-design manager, עם תמונות ריאליסטיות ו-storytelling חזק.",
+      "nextStep": "להחליף את התמונות הזמניות בתמונות אמיתיות",
+      "category": "Portfolio",
+      "accentColor": "#1a4d4d",
+      "screenshot": null,
+      "stack": "—",
+      "status": "paused",
+      "subStatus": null,
+      "lastActivity": null,
+      "lastActivityHebrew": "מתעדכן בסריקה הבאה",
+      "size": "unknown",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/design-manager-portfolio",
+      "source": "local",
       "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "10 weeks ago",
-        "lastCommitMessage": "Portfolio: 6 case studies with realistic photo placeholders",
-        "lastCommitDate": "2026-02-24 23:40:56 +0200",
-        "isDirty": true,
-        "changedFiles": 23
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Portfolio: 6 case studies with realistic photo placeholders"
-        },
-        {
-          "type": "commit",
-          "text": "Initial commit from Create Next App"
-        }
-      ],
+      "git": null,
+      "recentActions": [],
       "lastSession": null
     },
     {
-      "name": "Chatgpt-codex",
-      "emoji": "💬",
-      "description": "ChatGPT Codex experiments",
-      "stack": "Unknown",
-      "status": "unknown",
+      "name": "tabspeak",
+      "humanName": "TabSpeak",
+      "tagline": "תוסף שמדבר את התוכן של הטאבים הפתוחים",
+      "longDescription": "תוסף דפדפן שקורא בקול את התוכן של הטאב הפעיל. שימושי לרב-משימה ולנגישות. בנוי על React 19 + Vite.",
+      "nextStep": "לתקן את הבאג שדווח (\"i think its not working\")",
+      "category": "Productivity",
+      "accentColor": "#a06b9e",
+      "screenshot": null,
+      "stack": "—",
+      "status": "paused",
+      "subStatus": null,
       "lastActivity": null,
-      "size": "312K",
+      "lastActivityHebrew": "מתעדכן בסריקה הבאה",
+      "size": "unknown",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
       "hasGit": false,
       "git": null,
       "recentActions": [],
       "lastSession": null
     },
     {
-      "name": "infographic",
-      "emoji": "📁",
-      "description": "Local project",
-      "stack": "HTML/CSS/JS",
-      "status": "unknown",
+      "name": "spotted",
+      "humanName": "Spotted",
+      "tagline": "כלי לסימון אובייקטים בתמונות",
+      "longDescription": "אפליקציית web לסימון אובייקטים בתמונות באמצעות bounding boxes. בנוי על Next.js + React 19. שלב מוקדם של פיתוח.",
+      "nextStep": "להוסיף סימון פנים בתמונה הראשית",
+      "category": "Creative",
+      "accentColor": "#b85f5f",
+      "screenshot": null,
+      "stack": "—",
+      "status": "paused",
+      "subStatus": null,
       "lastActivity": null,
-      "size": "16K",
+      "lastActivityHebrew": "מתעדכן בסריקה הבאה",
+      "size": "unknown",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
       "hasGit": false,
       "git": null,
       "recentActions": [],
@@ -493,25 +252,23 @@
     },
     {
       "name": "kefel",
-      "emoji": "✖️",
-      "description": "Hebrew multiplication table educational tool",
-      "stack": "HTML",
-      "status": "unknown",
+      "humanName": "לוח הכפל",
+      "tagline": "כלי חינוכי ללוח הכפל בעברית",
+      "longDescription": "אתר סטטי קטן ומשמח ללימוד לוח הכפל. בעברית, RTL, מיועד לילדים. HTML טהור ללא תלויות.",
+      "nextStep": "להוסיף מצב משחק טיים-אטאק",
+      "category": "Educational",
+      "accentColor": "#d4a052",
+      "screenshot": null,
+      "stack": "—",
+      "status": "paused",
+      "subStatus": null,
       "lastActivity": null,
-      "size": "48K",
-      "hasGit": false,
-      "git": null,
-      "recentActions": [],
-      "lastSession": null
-    },
-    {
-      "name": "pear-animation",
-      "emoji": "📁",
-      "description": "Local project",
-      "stack": "TypeScript + React 19 + Vite",
-      "status": "unknown",
-      "lastActivity": null,
-      "size": "73M",
+      "lastActivityHebrew": "מתעדכן בסריקה הבאה",
+      "size": "unknown",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
       "hasGit": false,
       "git": null,
       "recentActions": [],
@@ -519,16 +276,76 @@
     },
     {
       "name": "yad2",
-      "emoji": "🏠",
-      "description": "Yad2 project",
-      "stack": "React 19 + Vite",
-      "status": "unknown",
+      "humanName": "Yad2",
+      "tagline": "פרוייקט ניסיוני סביב יד2",
+      "longDescription": "התחלה של פרוייקט סביב יד2 - מבוסס React 19 + Vite. עדיין בשלב מוקדם, ללא git.",
+      "nextStep": "להחליט מה הכיוון של הפרוייקט",
+      "category": "Idea",
+      "accentColor": "#7a8a3a",
+      "screenshot": null,
+      "stack": "—",
+      "status": "paused",
+      "subStatus": null,
       "lastActivity": null,
-      "size": "71M",
+      "lastActivityHebrew": "מתעדכן בסריקה הבאה",
+      "size": "unknown",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [],
+      "lastSession": null
+    },
+    {
+      "name": "zoom-kids-ui",
+      "humanName": "Zoom Kids UI",
+      "tagline": "ניסויי עיצוב ל-Zoom for kids",
+      "longDescription": "ארגז חול לניסויי עיצוב ויזואליים ל-Zoom for kids - mockups, נושאים שונים, וריאציות. HTML טהור.",
+      "nextStep": "לבחור theme ולהעביר לתוסף הראשי",
+      "category": "Creative",
+      "accentColor": "#5f7fa8",
+      "screenshot": null,
+      "stack": "—",
+      "status": "paused",
+      "subStatus": null,
+      "lastActivity": null,
+      "lastActivityHebrew": "מתעדכן בסריקה הבאה",
+      "size": "unknown",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [],
+      "lastSession": null
+    },
+    {
+      "name": "pear-animation",
+      "humanName": "Pear Animation",
+      "tagline": "ניסויי אנימציה",
+      "longDescription": "ארגז חול לניסויי אנימציה ב-React 19 + Vite. שלב מוקדם.",
+      "nextStep": "להגדיר מטרה ספציפית לפרוייקט",
+      "category": "Idea",
+      "accentColor": "#5f9d7f",
+      "screenshot": null,
+      "stack": "—",
+      "status": "paused",
+      "subStatus": null,
+      "lastActivity": null,
+      "lastActivityHebrew": "מתעדכן בסריקה הבאה",
+      "size": "unknown",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
       "hasGit": false,
       "git": null,
       "recentActions": [],
       "lastSession": null
     }
-  ]
+  ],
+  "_seededFromMeta": true
 }

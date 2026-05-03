@@ -1,230 +1,430 @@
 /**
- * app.js — לוח מצב פרוייקטים
- * טוען projects-status.json, מרנדר שורות, מסנן וחיפוש
+ * app.js — מחברת הפרוייקטים
+ * טוען projects-status.json, מרנדר hero + grid, מנהל filter/search/drawer.
  */
 
-// ── State ───────────────────────────────────────────────────────────
+// ── State ──────────────────────────────────────────────────────────
 let allProjects = [];
 let currentFilter = 'all';
 
-// ── DOM ─────────────────────────────────────────────────────────────
-const list = document.getElementById('project-list');
+// ── DOM ────────────────────────────────────────────────────────────
+const heroEl = document.getElementById('hero');
+const gridEl = document.getElementById('grid');
+const filtersEl = document.getElementById('filters');
 const searchInput = document.getElementById('search-input');
-const statsBar = document.getElementById('stats-bar');
-const lastUpdatedEl = document.getElementById('last-updated');
+const subtitleEl = document.getElementById('header-subtitle');
+const drawerEl = document.getElementById('drawer');
+const drawerBackdropEl = document.getElementById('drawer-backdrop');
+const drawerCloseEl = document.getElementById('drawer-close');
+const drawerContentEl = document.getElementById('drawer-content');
 
-// ── Hebrew labels ───────────────────────────────────────────────────
-const STATUS_LABELS = {
-  active: 'פעיל',
-  idle: 'ממתין',
-  stale: 'לא פעיל',
-  unknown: 'לא ידוע',
+// ── Hebrew labels ──────────────────────────────────────────────────
+const STATUS_HE = {
+  live:     'חי',
+  building: 'בפיתוח',
+  paused:   'מושהה',
+  archive:  'ארכיון',
+  idea:     'רעיון',
+  unknown:  'לא ידוע',
 };
 
-// ── Load Data ───────────────────────────────────────────────────────
+const SOURCE_HE = {
+  local: 'מקומי',
+  cloud: 'ענן',
+  both:  'מקומי + ענן',
+};
+
+// ── Load data ──────────────────────────────────────────────────────
 async function loadData() {
   try {
     const res = await fetch(`projects-status.json?t=${Date.now()}`);
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
 
-    allProjects = data.projects;
+    allProjects = data.projects || [];
 
-    document.getElementById('count-total').textContent = data.projectCount;
-    document.getElementById('count-active').textContent = data.activeCount;
-    document.getElementById('count-idle').textContent = data.idleCount;
-    document.getElementById('count-stale').textContent = data.staleCount;
+    // Update counts
+    document.getElementById('count-all').textContent = data.projectCount;
+    document.getElementById('count-live').textContent = data.counts?.live ?? 0;
+    document.getElementById('count-building').textContent = data.counts?.building ?? 0;
+    document.getElementById('count-paused').textContent = data.counts?.paused ?? 0;
+    document.getElementById('count-archive').textContent = data.counts?.archive ?? 0;
+    document.getElementById('count-idea').textContent = data.counts?.idea ?? 0;
 
-    lastUpdatedEl.innerHTML = `<span class="live-dot"></span> עודכן ${formatRelativeTime(data.lastUpdated)}`;
+    // Subtitle
+    const total = data.projectCount;
+    const liveCnt = data.counts?.live ?? 0;
+    const upd = data.lastUpdatedHebrew || formatRelative(data.lastUpdated);
+    subtitleEl.innerHTML = `
+      <span class="total-num">${total}</span> פרוייקטים ·
+      <span class="live-num">${liveCnt} חיים</span> ·
+      עודכן ${esc(upd)}
+    `;
 
-    renderProjects();
+    render();
   } catch (err) {
-    console.error('Failed to load project data:', err);
-    list.innerHTML = `
+    console.error('Failed to load:', err);
+    gridEl.innerHTML = `
       <div class="empty-state">
-        <p>לא ניתן לטעון נתונים. יש להריץ <code>npm run scan</code> קודם.</p>
+        עוד לא נטענו נתונים — הריצי <code>npm run scan</code> קודם.
       </div>
     `;
   }
 }
 
-// ── Render ───────────────────────────────────────────────────────────
-function renderProjects() {
-  const query = searchInput.value.toLowerCase().trim();
+// ── Render ─────────────────────────────────────────────────────────
 
-  const filtered = allProjects.filter(project => {
-    const matchesFilter = currentFilter === 'all' || project.status === currentFilter;
-    const matchesSearch = !query ||
-      project.name.toLowerCase().includes(query) ||
-      project.description.toLowerCase().includes(query) ||
-      project.stack.toLowerCase().includes(query);
-    return matchesFilter && matchesSearch;
+function render() {
+  const query = searchInput.value.toLowerCase().trim();
+  const filtered = allProjects.filter(p => {
+    const matchFilter = currentFilter === 'all' || p.status === currentFilter;
+    const matchSearch = !query ||
+      (p.humanName || p.name).toLowerCase().includes(query) ||
+      (p.tagline || '').toLowerCase().includes(query) ||
+      (p.longDescription || '').toLowerCase().includes(query) ||
+      (p.stack || '').toLowerCase().includes(query) ||
+      (p.category || '').toLowerCase().includes(query);
+    return matchFilter && matchSearch;
   });
 
-  if (filtered.length === 0) {
-    list.innerHTML = `<div class="empty-state"><p>לא נמצאו פרוייקטים תואמים.</p></div>`;
+  // Hero: only when "all" filter and we have a top project
+  const useHero = currentFilter === 'all' && !query && filtered.length > 0;
+  const heroProject = useHero ? filtered[0] : null;
+  const gridProjects = useHero ? filtered.slice(1) : filtered;
+
+  if (heroProject) {
+    heroEl.hidden = false;
+    heroEl.innerHTML = renderHero(heroProject);
+    heroEl.style.setProperty('--accent', heroProject.accentColor);
+    heroEl._project = heroProject;
+  } else {
+    heroEl.hidden = true;
+    heroEl.innerHTML = '';
+    heroEl._project = null;
+  }
+
+  if (gridProjects.length === 0 && !heroProject) {
+    gridEl.innerHTML = `<div class="empty-state">לא נמצאו פרוייקטים תואמים</div>`;
     return;
   }
 
-  list.innerHTML = filtered.map(renderRow).join('');
+  gridEl.innerHTML = gridProjects.map((p, i) => renderCard(p, i)).join('');
+  // Bind card clicks
+  gridEl.querySelectorAll('.card').forEach((el, i) => {
+    el.addEventListener('click', () => openDrawer(gridProjects[i]));
+  });
 }
 
-function renderRow(project) {
-  const { name, emoji, description, stack, status, git, recentActions, lastSession, lastActivity, size } = project;
+// ── Hero ───────────────────────────────────────────────────────────
 
-  const statusLabel = STATUS_LABELS[status] || STATUS_LABELS.unknown;
+function renderHero(p) {
+  const stamp = renderStamp(p);
+  const initial = (p.humanName || p.name).charAt(0);
 
-  // Meta tags
-  const tags = [];
-  tags.push(`<span class="tag">${esc(stack)}</span>`);
-  if (size && size !== 'unknown') {
-    tags.push(`<span class="tag">${size}</span>`);
-  }
-  if (git?.isDirty) {
-    tags.push(`<span class="tag dirty">${git.changedFiles} קבצים שונו</span>`);
-  }
-
-  // Git info
-  let gitHtml = '';
-  if (git) {
-    gitHtml = `
-      <div class="git-info">
-        <span class="branch">${esc(git.branch)}</span>
-        <span class="separator">·</span>
-        <span class="commit-msg">${esc(git.lastCommitMessage)}</span>
-        <span class="separator">·</span>
-        <span class="commit-time">${translateRelativeTime(git.lastCommitRelative)}</span>
-      </div>
-    `;
-  }
-
-  // Actions — show all text, no truncation
-  let actionsHtml = '';
-  const actions = recentActions.filter(a => {
-    // Filter out IDE-opened-file noise
-    return !a.text.startsWith('<ide_opened_file>');
-  }).slice(0, 5);
-
-  if (actions.length > 0) {
-    const items = actions.map(a => {
-      const text = cleanActionText(a.text);
-      if (!text) return '';
-      return `
-        <div class="action-line">
-          <span class="bullet ${a.type}"></span>
-          <span class="text">${esc(text)}</span>
-        </div>
-      `;
-    }).filter(Boolean).join('');
-
-    if (items) {
-      actionsHtml = `
-        <div class="actions-block">
-          <div class="actions-label">פעילות אחרונה</div>
-          ${items}
-        </div>
-      `;
-    }
-  }
-
-  // Footer
-  const activityText = lastActivity ? `עדכון אחרון ${formatRelativeTime(lastActivity)}` : 'אין פעילות מתועדת';
-
-  const chatBtn = lastSession
-    ? `<button class="chat-link-btn">צ׳אט אחרון</button>`
-    : '';
+  const polaroidImg = p.screenshot
+    ? `<img src="${esc(p.screenshot)}" alt="">`
+    : esc(initial);
 
   return `
-    <article class="project-row" data-status="${status}">
-      <div class="row-top">
-        <h2 class="project-name">
-          <span class="emoji">${emoji}</span>
-          ${esc(name)}
-        </h2>
-        <span class="status-tag ${status}">${statusLabel}</span>
+    <div class="hero-polaroid-wrap">
+      <div class="polaroid">
+        <div class="polaroid-image ${p.screenshot ? '' : 'placeholder'}" style="--accent: ${esc(p.accentColor)}; background: ${p.screenshot ? '' : esc(p.accentColor)}">
+          ${polaroidImg}
+        </div>
+        <div class="polaroid-caption">${esc(p.humanName || p.name)}</div>
+      </div>
+    </div>
+
+    <div class="hero-body">
+      <div class="hero-label">הפרוייקט הכי פעיל כרגע</div>
+      <div class="hero-title-row">
+        <h2 class="hero-title">${esc(p.humanName || p.name)}</h2>
+        ${stamp}
+      </div>
+      <p class="hero-tagline">${esc(p.tagline || '')}</p>
+
+      <div class="hero-meta-row">
+        ${p.lastActivityHebrew ? `<span>עודכן ${esc(p.lastActivityHebrew)}</span>` : ''}
+        ${p.lastActivityHebrew && p.category ? `<span class="dot">·</span>` : ''}
+        ${p.category ? `<span>${esc(p.category)}</span>` : ''}
       </div>
 
-      <p class="project-desc">${esc(description)}</p>
+      ${p.nextStep ? `
+        <div class="sticky-note">
+          <div class="sticky-note-label">הצעד הבא</div>
+          <div class="sticky-note-text">${esc(p.nextStep)}</div>
+        </div>
+      ` : ''}
 
-      <div class="project-meta">${tags.join('')}</div>
+      <div class="hero-actions">
+        ${p.liveUrl ? `<a class="hero-action-btn primary" href="${esc(p.liveUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">פתח באתר</a>` : ''}
+        ${p.githubUrl ? `<a class="hero-action-btn" href="${esc(p.githubUrl)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">GitHub</a>` : ''}
+        <button class="hero-action-btn">פרטים מלאים</button>
+      </div>
+    </div>
+  `;
+}
 
-      ${gitHtml}
-      ${actionsHtml}
+// ── Card ───────────────────────────────────────────────────────────
 
-      <div class="row-footer">
-        <span>${activityText}</span>
-        ${chatBtn}
+function renderCard(p, idx) {
+  const stamp = renderStamp(p);
+  const initial = (p.humanName || p.name).charAt(0);
+
+  const polaroidContent = p.screenshot
+    ? `<img src="${esc(p.screenshot)}" alt="">`
+    : esc(initial);
+
+  // Subtle randomized rotation per card
+  const rotations = ['-0.6deg', '0.4deg', '-0.3deg', '0.7deg', '-0.5deg'];
+  const rot = rotations[idx % rotations.length];
+
+  return `
+    <article class="card" style="--card-accent: ${esc(p.accentColor)}; transform: rotate(${rot})" data-name="${esc(p.name)}">
+      <div class="card-polaroid-wrap">
+        <div class="card-polaroid">
+          <div class="card-polaroid-img" style="--card-accent: ${esc(p.accentColor)}; background: ${p.screenshot ? '' : esc(p.accentColor)}">
+            ${polaroidContent}
+          </div>
+          <div class="card-polaroid-caption">${esc(p.humanName || p.name)}</div>
+        </div>
+      </div>
+
+      <div class="card-header">
+        <h3 class="card-title">${esc(p.humanName || p.name)}</h3>
+        ${stamp}
+      </div>
+
+      <p class="card-tagline">${esc(p.tagline || '')}</p>
+
+      ${p.nextStep ? `
+        <div class="card-next-step">
+          <div class="card-next-step-label">הצעד הבא</div>
+          <div class="card-next-step-text">${esc(p.nextStep)}</div>
+        </div>
+      ` : ''}
+
+      <div class="card-footer">
+        <span class="time">${esc(p.lastActivityHebrew || '—')}</span>
+        <span class="card-source-mark">${esc(SOURCE_HE[p.source] || '')}</span>
       </div>
     </article>
   `;
 }
 
-// ── Events ──────────────────────────────────────────────────────────
-statsBar.addEventListener('click', (e) => {
-  const btn = e.target.closest('.stat-pill');
+// ── Stamp ──────────────────────────────────────────────────────────
+
+function renderStamp(p) {
+  const cls = p.status || 'unknown';
+  const label = STATUS_HE[cls] || STATUS_HE.unknown;
+  const dot = cls === 'live' ? `<span class="live-dot"></span>` : '';
+  return `<span class="stamp ${cls}">${dot}${label}</span>`;
+}
+
+// ── Drawer ─────────────────────────────────────────────────────────
+
+function openDrawer(p) {
+  drawerContentEl.innerHTML = renderDrawer(p);
+  drawerEl.hidden = false;
+  drawerBackdropEl.hidden = false;
+  drawerEl.setAttribute('aria-hidden', 'false');
+  document.body.style.overflow = 'hidden';
+  // Focus close for keyboard accessibility
+  setTimeout(() => drawerCloseEl.focus(), 100);
+}
+
+function closeDrawer() {
+  drawerEl.setAttribute('aria-hidden', 'true');
+  // Allow CSS exit animation
+  drawerEl.style.transition = '';
+  drawerEl.style.transform = 'translateX(-100%)';
+  setTimeout(() => {
+    drawerEl.hidden = true;
+    drawerBackdropEl.hidden = true;
+    drawerEl.style.transform = '';
+    drawerContentEl.innerHTML = '';
+    document.body.style.overflow = '';
+  }, 360);
+}
+
+function renderDrawer(p) {
+  const stamp = renderStamp(p);
+  const initial = (p.humanName || p.name).charAt(0);
+  const polaroidContent = p.screenshot
+    ? `<img src="${esc(p.screenshot)}" alt="">`
+    : esc(initial);
+
+  // Activity items (cleaned)
+  const activity = (p.recentActions || [])
+    .filter(a => a.text && !a.text.startsWith('<ide_opened_file>') && !a.text.startsWith('Base directory for this skill'))
+    .slice(0, 6)
+    .map(a => `
+      <div class="activity-item">
+        <span class="activity-mark ${a.type}">${a.type === 'commit' ? 'COMMIT' : 'CHAT'}</span>
+        <span>${esc(cleanText(a.text))}</span>
+      </div>
+    `).join('');
+
+  // Tech chips
+  const chips = [];
+  if (p.stack && p.stack !== 'Unknown') {
+    p.stack.split(' + ').forEach(s => chips.push(`<span class="tech-chip">${esc(s)}</span>`));
+  }
+  if (p.size && p.size !== 'unknown' && p.size !== 'cloud') {
+    chips.push(`<span class="tech-chip">${esc(p.size)}</span>`);
+  }
+  if (p.git?.isDirty) {
+    chips.push(`<span class="tech-chip dirty">${p.git.changedFiles} files dirty</span>`);
+  }
+
+  // Git block
+  let gitBlock = '';
+  if (p.git && p.git.lastCommitMessage) {
+    gitBlock = `
+      <div class="drawer-section">
+        <div class="drawer-section-label">Git</div>
+        <div class="git-line">
+          <span><span class="git-branch">${esc(p.git.branch || '')}</span> · ${esc(p.git.lastCommitHebrew || p.git.lastCommitRelative || '')}</span>
+          <span>"${esc(p.git.lastCommitMessage)}"</span>
+        </div>
+      </div>
+    `;
+  }
+
+  // Links
+  const links = [];
+  if (p.liveUrl) {
+    links.push(`<a class="drawer-link primary" href="${esc(p.liveUrl)}" target="_blank" rel="noopener">פתח באתר ↗</a>`);
+  }
+  if (p.githubUrl) {
+    links.push(`<a class="drawer-link" href="${esc(p.githubUrl)}" target="_blank" rel="noopener">GitHub ↗</a>`);
+  }
+  if (p.lastSession?.sessionId) {
+    // Best-effort deep link to claude
+    links.push(`<a class="drawer-link" href="cursor://anysphere.cursor-deeplink/file?path=/Users/rannsegal/Claude/${encodeURIComponent(p.name)}">פתח בעורך ↗</a>`);
+  }
+
+  return `
+    <div class="drawer-polaroid-wrap">
+      <div class="drawer-polaroid">
+        <div class="drawer-polaroid-img" style="--accent: ${esc(p.accentColor)}; background: ${p.screenshot ? '' : esc(p.accentColor)}">
+          ${polaroidContent}
+        </div>
+        <div class="drawer-polaroid-caption">${esc(p.humanName || p.name)}</div>
+      </div>
+    </div>
+
+    <div class="drawer-title-row">
+      <h2 class="drawer-title">${esc(p.humanName || p.name)}</h2>
+      ${stamp}
+    </div>
+
+    <p class="drawer-tagline">${esc(p.tagline || '')}</p>
+
+    ${p.nextStep ? `
+      <div class="drawer-next-step">
+        <div class="drawer-next-step-label">הצעד הבא</div>
+        <div class="drawer-next-step-text">${esc(p.nextStep)}</div>
+      </div>
+    ` : ''}
+
+    ${p.longDescription ? `
+      <div class="drawer-section">
+        <div class="drawer-section-label">סיפור הפרוייקט</div>
+        <p class="drawer-text">${esc(p.longDescription)}</p>
+      </div>
+    ` : ''}
+
+    ${links.length > 0 ? `
+      <div class="drawer-section">
+        <div class="drawer-section-label">קישורים</div>
+        <div class="drawer-links">${links.join('')}</div>
+      </div>
+    ` : ''}
+
+    ${chips.length > 0 ? `
+      <div class="drawer-section">
+        <div class="drawer-section-label">פרטים טכניים</div>
+        <div class="tech-chips">${chips.join('')}</div>
+      </div>
+    ` : ''}
+
+    ${gitBlock}
+
+    ${activity ? `
+      <div class="drawer-section">
+        <div class="drawer-section-label">פעילות אחרונה</div>
+        <div class="activity-list">${activity}</div>
+      </div>
+    ` : ''}
+
+    <div class="drawer-section">
+      <div class="drawer-section-label">מטא</div>
+      <div class="tech-chips">
+        <span class="tech-chip">${esc(SOURCE_HE[p.source] || p.source || '')}</span>
+        ${p.category ? `<span class="tech-chip">${esc(p.category)}</span>` : ''}
+        ${p.lastActivityHebrew ? `<span class="tech-chip">${esc(p.lastActivityHebrew)}</span>` : ''}
+      </div>
+    </div>
+  `;
+}
+
+// ── Events ─────────────────────────────────────────────────────────
+
+filtersEl.addEventListener('click', (e) => {
+  const btn = e.target.closest('.filter-pill');
   if (!btn) return;
-
   currentFilter = btn.dataset.filter;
-
-  document.querySelectorAll('.stat-pill').forEach(el => el.setAttribute('aria-pressed', 'false'));
+  filtersEl.querySelectorAll('.filter-pill').forEach(el => el.setAttribute('aria-pressed', 'false'));
   btn.setAttribute('aria-pressed', 'true');
-
-  renderProjects();
+  render();
 });
 
-let debounce;
+let searchDebounce;
 searchInput.addEventListener('input', () => {
-  clearTimeout(debounce);
-  debounce = setTimeout(renderProjects, 150);
+  clearTimeout(searchDebounce);
+  searchDebounce = setTimeout(render, 150);
 });
 
-// ── Utilities ───────────────────────────────────────────────────────
-function formatRelativeTime(dateStr) {
-  const diff = Date.now() - new Date(dateStr).getTime();
-  const min = Math.floor(diff / 60000);
-  const hrs = Math.floor(diff / 3600000);
-  const days = Math.floor(diff / 86400000);
+drawerCloseEl.addEventListener('click', closeDrawer);
+drawerBackdropEl.addEventListener('click', closeDrawer);
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape' && !drawerEl.hidden) closeDrawer();
+});
 
-  if (min < 1) return 'הרגע';
-  if (min < 60) return `לפני ${min} דקות`;
-  if (hrs < 24) return `לפני ${hrs} שעות`;
-  if (days === 1) return 'אתמול';
-  if (days < 7) return `לפני ${days} ימים`;
-  if (days < 30) return `לפני ${Math.floor(days / 7)} שבועות`;
-  if (days < 365) return `לפני ${Math.floor(days / 30)} חודשים`;
-  return `לפני ${Math.floor(days / 365)} שנים`;
-}
+heroEl.addEventListener('click', (e) => {
+  // Links open in new tab; only intercept everything else (incl. "פרטים מלאים" button)
+  if (e.target.closest('a')) return;
+  if (heroEl._project) openDrawer(heroEl._project);
+});
 
-function translateRelativeTime(eng) {
-  if (!eng) return '';
-  // Translate common English relative times to Hebrew
-  return eng
-    .replace(/^(\d+) seconds? ago$/, 'לפני $1 שניות')
-    .replace(/^(\d+) minutes? ago$/, 'לפני $1 דקות')
-    .replace(/^(\d+) hours? ago$/, 'לפני $1 שעות')
-    .replace(/^(\d+) days? ago$/, 'לפני $1 ימים')
-    .replace(/^(\d+) weeks? ago$/, 'לפני $1 שבועות')
-    .replace(/^(\d+) months? ago$/, 'לפני $1 חודשים')
-    .replace(/^(\d+) years? ago$/, 'לפני $1 שנים')
-    .replace(/^yesterday$/, 'אתמול')
-    .replace(/^just now$/, 'הרגע');
-}
+// ── Utilities ──────────────────────────────────────────────────────
 
 function esc(str) {
-  if (!str) return '';
+  if (str === null || str === undefined) return '';
   const d = document.createElement('div');
-  d.textContent = str;
+  d.textContent = String(str);
   return d.innerHTML;
 }
 
-function cleanActionText(text) {
-  if (!text) return '';
-  // Strip IDE noise entirely
-  if (text.startsWith('<ide_opened_file>')) return '';
-  text = text.replace(/^<[^>]+>/, '');
-  // Don't truncate — show full text
-  return text;
+function cleanText(t) {
+  if (!t) return '';
+  return t.replace(/^<[^>]+>/, '').trim();
 }
 
-// ── Init ────────────────────────────────────────────────────────────
+function formatRelative(iso) {
+  if (!iso) return '';
+  const diff = Date.now() - new Date(iso).getTime();
+  const mins = Math.floor(diff / 60000);
+  const hrs = Math.floor(diff / 3600000);
+  const days = Math.floor(diff / 86400000);
+  if (mins < 1) return 'הרגע';
+  if (mins < 60) return `לפני ${mins} דקות`;
+  if (hrs < 24) return hrs === 1 ? 'לפני שעה' : `לפני ${hrs} שעות`;
+  if (days === 1) return 'אתמול';
+  return `לפני ${days} ימים`;
+}
+
+// ── Init ───────────────────────────────────────────────────────────
+
 document.addEventListener('DOMContentLoaded', loadData);

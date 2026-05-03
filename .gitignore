@@ -8,3 +8,7 @@ launchagent-stderr.log
 
 # Node
 node_modules/
+
+# Environment (GitHub token)
+.env.local
+.env

@@ -1,0 +1,138 @@
+{
+  "_comment": "מקור אמת ידני לתיאורים בעברית, פרוייקטי ענן, URLs וצעדים הבאים. ערוך כשמתעדכן משהו.",
+  "_fields": {
+    "humanName": "שם בעברית או באנגלית - כותרת ראשית",
+    "tagline": "משפט אחד בעברית - מה הפרוייקט",
+    "longDescription": "פסקה ארוכה ל-drawer",
+    "nextStep": "שורה אחת - מה הצעד הבא",
+    "liveUrl": "URL של האתר החי (אם קיים)",
+    "githubUrl": "URL של ה-repo ב-GitHub",
+    "screenshot": "נתיב יחסי ל-screenshots/",
+    "accentColor": "hex - חתימה צבעונית",
+    "category": "קטגוריה (AI Tools, Portfolio, Productivity, Creative, Educational)",
+    "cloudOnly": "true אם אין תיקייה מקומית",
+    "status": "אופציונלי - דריסה ידנית של סטטוס (idea / archive)"
+  },
+  "projects": {
+    "Payoneer-ad-generator": {
+      "humanName": "מחולל באנרים לפיוניר",
+      "tagline": "כלי שמייצר אוטומטית באנרים פרסומיים באמצעות AI",
+      "longDescription": "הפרוייקט מקבל פרטי מוצר ומחזיר עשרה באנרים פרסומיים בסגנונות שונים. מבוסס על Gemini ליצירת תמונות וניתוח תוכן, עם backend ב-Supabase לאחסון וצד משתמש ב-React. נבנה כדמו ל-Payoneer.",
+      "nextStep": "לסיים את הפיצ׳ר node-canvas ולמזג ל-main",
+      "githubUrl": "https://github.com/segalitoo/Payoneer-ad-generator",
+      "accentColor": "#8b3a2e",
+      "category": "AI Tools"
+    },
+    "ran-portfolio": {
+      "humanName": "פורטפוליו אישי",
+      "tagline": "כרטיס ביקור אונליין - אוסף הפרוייקטים והשירותים שלי",
+      "longDescription": "אתר סטטי בעברית שמרכז את הפרוייקטים, ניסיון העבודה ופרטי קשר. מעוצב ידנית ב-HTML/CSS/JS ללא פריימוורק, עם דגש על טון אישי וחם. כולל מעקב אנליטיקס דרך GA4.",
+      "nextStep": "לפרסם את הגרסה האחרונה (יש 8 קבצים שונו)",
+      "githubUrl": "https://github.com/segalitoo/ran-portfolio",
+      "accentColor": "#3a4a6b",
+      "category": "Portfolio"
+    },
+    "Zoom-for-kids": {
+      "humanName": "Zoom לילדים",
+      "tagline": "תוסף דפדפן שמתאים את ממשק הזום לילדים בכיתות וירטואליות",
+      "longDescription": "תוסף ל-Chrome ול-Firefox שמתאים את ממשק הזום ללמידה של ילדים - בקרות מפושטות, נעילות הורים, חסימת הפרעות, ועיצוב צבעוני יותר. כולל landing page ועזרים שיווקיים ל-marketplace.",
+      "nextStep": "להעלות ל-Chrome Web Store",
+      "githubUrl": "https://github.com/segalitoo/Zoom-for-kids",
+      "accentColor": "#a87432",
+      "category": "Productivity"
+    },
+    "Shhh": {
+      "humanName": "Shhh",
+      "tagline": "כלי הכתבה חי שמדבר ישר לכל אפליקציה במק",
+      "longDescription": "אפליקציית macOS שמקליטה את המיקרופון, שולחת ל-Google Cloud Speech-to-Text, ומדביקה את הטקסט ישר לאפליקציה הפעילה. תומך עברית ואנגלית במקביל, עם UI ב-Swift ו-engine ב-Python.",
+      "nextStep": "לסיים את ה-landing page (53 קבצים open)",
+      "githubUrl": "https://github.com/segalitoo/Shhh",
+      "accentColor": "#3d5a3d",
+      "category": "Productivity"
+    },
+    "shmup-reminder": {
+      "humanName": "שמופ - תזכורות",
+      "tagline": "מנהל משימות בעברית RTL עם קלט קולי",
+      "longDescription": "אפליקציית web ל-iOS ו-Android (PWA) לניהול משימות יומיות בעברית. תמיכה מלאה ב-RTL, swipe gestures, haptic feedback, ושמירה ב-Supabase. הוקם במקור ב-Lovable, עכשיו בפיתוח מקומי.",
+      "nextStep": "לבדוק את ה-edge case של partial swipe",
+      "githubUrl": "https://github.com/segalitoo/shmup-reminder",
+      "accentColor": "#c9885f",
+      "category": "Productivity"
+    },
+    "anime-master": {
+      "humanName": "Anime Master",
+      "tagline": "עורך אנימציות SVG עם ייצוא ל-Lottie",
+      "longDescription": "כלי web ליצירת אנימציות SVG. המשתמש מצייר שכבות, מגדיר keyframes, ומייצא ל-Lottie JSON או GIF. בנוי על Vite + React 18, עם canvas מותאם אישית לעריכה.",
+      "nextStep": "לתקן באג של selectedLayerId כפול",
+      "githubUrl": "https://github.com/segalitoo/anime-master",
+      "accentColor": "#8b3a8e",
+      "category": "Creative"
+    },
+    "ai-academy-jordan": {
+      "humanName": "אקדמיית AI",
+      "tagline": "פלטפורמת קורסים בעברית בנושאי AI - שיעורים קצרים עד 10 דקות",
+      "longDescription": "דף נחיתה ופלטפורמה לקורסי AI בעברית. כל שיעור עד 10 דקות, עם דגש על קליטות וגישה מהירה. בנוי על Next.js + Supabase. נוצר בעקבות בקשת חבר (ג׳ורדן).",
+      "nextStep": "לבנות את מסך הקורסים הראשי",
+      "githubUrl": "https://github.com/segalitoo/ai-academy-jordan",
+      "accentColor": "#2d5f7f",
+      "category": "Educational"
+    },
+    "design-manager-portfolio": {
+      "humanName": "פורטפוליו design manager",
+      "tagline": "אתר case studies ל-design manager",
+      "longDescription": "פורטפוליו עם 6 case studies, מעוצב ב-Next.js 16 + Tailwind 4. מיועד להציג עבודה כ-design manager, עם תמונות ריאליסטיות ו-storytelling חזק.",
+      "nextStep": "להחליף את התמונות הזמניות בתמונות אמיתיות",
+      "githubUrl": "https://github.com/segalitoo/design-manager-portfolio",
+      "accentColor": "#1a4d4d",
+      "category": "Portfolio"
+    },
+    "tabspeak": {
+      "humanName": "TabSpeak",
+      "tagline": "תוסף שמדבר את התוכן של הטאבים הפתוחים",
+      "longDescription": "תוסף דפדפן שקורא בקול את התוכן של הטאב הפעיל. שימושי לרב-משימה ולנגישות. בנוי על React 19 + Vite.",
+      "nextStep": "לתקן את הבאג שדווח (\"i think its not working\")",
+      "accentColor": "#a06b9e",
+      "category": "Productivity"
+    },
+    "spotted": {
+      "humanName": "Spotted",
+      "tagline": "כלי לסימון אובייקטים בתמונות",
+      "longDescription": "אפליקציית web לסימון אובייקטים בתמונות באמצעות bounding boxes. בנוי על Next.js + React 19. שלב מוקדם של פיתוח.",
+      "nextStep": "להוסיף סימון פנים בתמונה הראשית",
+      "accentColor": "#b85f5f",
+      "category": "Creative"
+    },
+    "kefel": {
+      "humanName": "לוח הכפל",
+      "tagline": "כלי חינוכי ללוח הכפל בעברית",
+      "longDescription": "אתר סטטי קטן ומשמח ללימוד לוח הכפל. בעברית, RTL, מיועד לילדים. HTML טהור ללא תלויות.",
+      "nextStep": "להוסיף מצב משחק טיים-אטאק",
+      "accentColor": "#d4a052",
+      "category": "Educational"
+    },
+    "yad2": {
+      "humanName": "Yad2",
+      "tagline": "פרוייקט ניסיוני סביב יד2",
+      "longDescription": "התחלה של פרוייקט סביב יד2 - מבוסס React 19 + Vite. עדיין בשלב מוקדם, ללא git.",
+      "nextStep": "להחליט מה הכיוון של הפרוייקט",
+      "accentColor": "#7a8a3a",
+      "category": "Idea"
+    },
+    "zoom-kids-ui": {
+      "humanName": "Zoom Kids UI",
+      "tagline": "ניסויי עיצוב ל-Zoom for kids",
+      "longDescription": "ארגז חול לניסויי עיצוב ויזואליים ל-Zoom for kids - mockups, נושאים שונים, וריאציות. HTML טהור.",
+      "nextStep": "לבחור theme ולהעביר לתוסף הראשי",
+      "accentColor": "#5f7fa8",
+      "category": "Creative"
+    },
+    "pear-animation": {
+      "humanName": "Pear Animation",
+      "tagline": "ניסויי אנימציה",
+      "longDescription": "ארגז חול לניסויי אנימציה ב-React 19 + Vite. שלב מוקדם.",
+      "nextStep": "להגדיר מטרה ספציפית לפרוייקט",
+      "accentColor": "#5f9d7f",
+      "category": "Idea"
+    }
+  }
+}
