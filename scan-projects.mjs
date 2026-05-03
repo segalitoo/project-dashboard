@@ -503,37 +503,43 @@ async function scanProjects() {
 
     if (repo.isFork || repo.isArchived) continue; // skip forks and archives by default
 
-    console.log(`  ☁️  ${repo.name} (cloud-only github)`);
-    const isLive = await checkLive(repo.homepage);
+    // Merge with manual meta if available (gives Hebrew names, taglines, etc.)
+    const m = meta[repo.name] || {};
+    const liveUrl = m.liveUrl || repo.homepage || null;
+    const isLive = await checkLive(liveUrl);
 
     const daysSincePush = repo.pushedAt
       ? (Date.now() - new Date(repo.pushedAt).getTime()) / 86400000
       : Infinity;
 
     let status;
-    if (isLive) status = 'live';
+    if (m.status) status = m.status;
+    else if (isLive) status = 'live';
     else if (daysSincePush <= 7) status = 'building';
     else if (daysSincePush <= 30) status = 'paused';
     else status = 'archive';
 
+    const hasMeta = Object.keys(m).length > 0;
+    console.log(`  ☁️  ${repo.name} (${hasMeta ? 'github + meta' : 'github only'})`);
+
     projects.push({
       name: repo.name,
-      humanName: repo.name,
-      tagline: repo.description || `repo ענן: ${repo.name}`,
-      longDescription: repo.description || '',
-      nextStep: null,
-      category: null,
-      accentColor: hashAccent(repo.name),
-      screenshot: null,
-      stack: repo.language || 'Unknown',
+      humanName: m.humanName || repo.name,
+      tagline: m.tagline || repo.description || `repo ענן: ${repo.name}`,
+      longDescription: m.longDescription || repo.description || '',
+      nextStep: m.nextStep || null,
+      category: m.category || null,
+      accentColor: m.accentColor || hashAccent(repo.name),
+      screenshot: m.screenshot || null,
+      stack: m.stack || repo.language || 'Unknown',
       status,
       subStatus: null,
       lastActivity: repo.pushedAt,
       lastActivityHebrew: toHebrewRelative(repo.pushedAt),
       size: 'cloud',
       isLive,
-      liveUrl: repo.homepage || null,
-      githubUrl: repo.url,
+      liveUrl,
+      githubUrl: m.githubUrl || repo.url,
       source: 'cloud',
       hasGit: true,
       git: {
@@ -548,6 +554,44 @@ async function scanProjects() {
       recentActions: [],
       lastSession: null,
     });
+    seenNames.add(repo.name);
+  }
+
+  // Pass 4: meta-only entries that are neither local nor on GitHub
+  // (e.g. ideas, projects on other clouds). Skip if cloudOnly was already
+  // handled in Pass 2.
+  for (const [name, m] of Object.entries(meta)) {
+    if (seenNames.has(name)) continue;
+    if (name.startsWith('_')) continue; // skip _comment / _fields meta
+
+    console.log(`  📝 ${name} (meta only)`);
+    const isLive = await checkLive(m.liveUrl);
+
+    projects.push({
+      name,
+      humanName: m.humanName || name,
+      tagline: m.tagline || '',
+      longDescription: m.longDescription || '',
+      nextStep: m.nextStep || null,
+      category: m.category || null,
+      accentColor: m.accentColor || hashAccent(name),
+      screenshot: m.screenshot || null,
+      stack: m.stack || '—',
+      status: m.status || (isLive ? 'live' : 'idea'),
+      subStatus: null,
+      lastActivity: null,
+      lastActivityHebrew: '',
+      size: 'meta',
+      isLive,
+      liveUrl: m.liveUrl || null,
+      githubUrl: m.githubUrl || null,
+      source: 'cloud',
+      hasGit: false,
+      git: null,
+      recentActions: [],
+      lastSession: null,
+    });
+    seenNames.add(name);
   }
 
   // Sort: live first, then building, paused, archive, idea
