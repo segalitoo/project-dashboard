@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-05-03T23:25:33.359Z",
+  "lastUpdated": "2026-05-04T09:15:02.356Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 18,
   "counts": {
     "live": 0,
     "building": 1,
     "paused": 7,
-    "archive": 5,
-    "idea": 5
+    "archive": 3,
+    "idea": 7
   },
   "projects": [
     {
@@ -22,8 +22,8 @@
       "stack": "TypeScript + React 19 + Vite",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-05-03T23:25:29.635Z",
-      "lastActivityHebrew": "הרגע",
+      "lastActivity": "2026-05-04T09:02:20.333Z",
+      "lastActivityHebrew": "לפני 12 דקות",
       "size": "674M",
       "isLive": false,
       "liveUrl": null,
@@ -39,9 +39,9 @@
         }
       ],
       "lastSession": {
-        "sessionId": "f48b104d-773c-4268-8cce-a21f91b177f6",
-        "lastActivity": "2026-05-03T23:25:29.635Z",
-        "summary": ""
+        "sessionId": "41d7c9c8-1af3-4128-85f5-022913aae746",
+        "lastActivity": "2026-05-04T09:02:20.333Z",
+        "summary": "i think its not workig"
       }
     },
     {
@@ -120,7 +120,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "10 days ago",
+        "lastCommitRelative": "11 days ago",
         "lastCommitMessage": "fix(mint): remove stale charcoal classes and rename brand-os filenames",
         "lastCommitDate": "2026-04-23 22:42:04 +0300",
         "lastCommitHebrew": "השבוע",
@@ -383,7 +383,7 @@
       "stack": "TypeScript + Next.js + Supabase",
       "status": "archive",
       "subStatus": null,
-      "lastActivity": "2026-04-03T17:58:09.841Z",
+      "lastActivity": "2026-04-02T21:34:04.000Z",
       "lastActivityHebrew": "לפני חודש",
       "size": "806M",
       "isLive": false,
@@ -393,7 +393,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "4 weeks ago",
+        "lastCommitRelative": "5 weeks ago",
         "lastCommitMessage": "AI Academy for Jordan - Hebrew AI learning platform",
         "lastCommitDate": "2026-04-03 00:34:04 +0300",
         "lastCommitHebrew": "לפני חודש",
@@ -408,74 +408,9 @@
         {
           "type": "commit",
           "text": "Initial commit from Create Next App"
-        },
-        {
-          "type": "chat",
-          "text": "אני רוצה לבנות דף נחיתה שבו מרוכזים קורסים בנושאי לימוד ai.\nהשיעורים צריכים להיות קצרים וקליטים עד אורך של 10 דק.\nאפשרלש…",
-          "sessionId": "9fbb526b-05db-43d5-bc91-ee0ce9674b64"
         }
       ],
-      "lastSession": {
-        "sessionId": "9fbb526b-05db-43d5-bc91-ee0ce9674b64",
-        "lastActivity": "2026-04-03T17:58:09.841Z",
-        "summary": "אני רוצה לבנות דף נחיתה שבו מרוכזים קורסים בנושאי לימוד ai.\nהשיעורים צריכים להיות קצרים וקליטים עד אורך של 10 דק.\nאפשרלש…"
-      }
-    },
-    {
-      "name": "design-agent",
-      "humanName": "design-agent",
-      "tagline": "TypeScript",
-      "longDescription": "פרוייקט ב-TypeScript",
-      "nextStep": null,
-      "category": null,
-      "accentColor": "#a06b9e",
-      "screenshot": null,
-      "stack": "TypeScript",
-      "status": "archive",
-      "subStatus": null,
-      "lastActivity": "2026-04-03T08:59:41.154Z",
-      "lastActivityHebrew": "לפני חודש",
-      "size": "117M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": null,
-      "source": "local",
-      "hasGit": false,
-      "git": null,
-      "recentActions": [],
-      "lastSession": {
-        "sessionId": "963ede33-65f0-4a47-a471-d81314f31654",
-        "lastActivity": "2026-04-03T08:59:41.154Z",
-        "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/ran-portfolio/.github/workflows/deploy.yml in the IDE.…"
-      }
-    },
-    {
-      "name": "zoom-kids-ui",
-      "humanName": "Zoom Kids UI",
-      "tagline": "ניסויי עיצוב ל-Zoom for kids",
-      "longDescription": "ארגז חול לניסויי עיצוב ויזואליים ל-Zoom for kids - mockups, נושאים שונים, וריאציות. HTML טהור.",
-      "nextStep": "לבחור theme ולהעביר לתוסף הראשי",
-      "category": "Creative",
-      "accentColor": "#5f7fa8",
-      "screenshot": null,
-      "stack": "Unknown",
-      "status": "archive",
-      "subStatus": null,
-      "lastActivity": "2026-04-01T20:33:49.016Z",
-      "lastActivityHebrew": "לפני חודש",
-      "size": "144K",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": null,
-      "source": "local",
-      "hasGit": false,
-      "git": null,
-      "recentActions": [],
-      "lastSession": {
-        "sessionId": "f82d1f82-7fc3-44c6-8e7e-fd646391b410",
-        "lastActivity": "2026-04-01T20:33:49.016Z",
-        "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/zoom-kids-ui/space-theme-options.html in the IDE. This…"
-      }
+      "lastSession": null
     },
     {
       "name": "shmup-reminder",
@@ -588,6 +523,30 @@
       "lastSession": null
     },
     {
+      "name": "design-agent",
+      "humanName": "design-agent",
+      "tagline": "TypeScript",
+      "longDescription": "פרוייקט ב-TypeScript",
+      "nextStep": null,
+      "category": null,
+      "accentColor": "#a06b9e",
+      "screenshot": null,
+      "stack": "TypeScript",
+      "status": "idea",
+      "subStatus": null,
+      "lastActivity": null,
+      "lastActivityHebrew": "",
+      "size": "117M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [],
+      "lastSession": null
+    },
+    {
       "name": "infographic",
       "humanName": "infographic",
       "tagline": "HTML/CSS/JS",
@@ -674,6 +633,30 @@
       "lastActivity": null,
       "lastActivityHebrew": "",
       "size": "71M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [],
+      "lastSession": null
+    },
+    {
+      "name": "zoom-kids-ui",
+      "humanName": "Zoom Kids UI",
+      "tagline": "ניסויי עיצוב ל-Zoom for kids",
+      "longDescription": "ארגז חול לניסויי עיצוב ויזואליים ל-Zoom for kids - mockups, נושאים שונים, וריאציות. HTML טהור.",
+      "nextStep": "לבחור theme ולהעביר לתוסף הראשי",
+      "category": "Creative",
+      "accentColor": "#5f7fa8",
+      "screenshot": null,
+      "stack": "Unknown",
+      "status": "idea",
+      "subStatus": null,
+      "lastActivity": null,
+      "lastActivityHebrew": "",
+      "size": "144K",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
