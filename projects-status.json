@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-04T09:15:02.356Z",
+  "lastUpdated": "2026-05-04T12:15:20.625Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 18,
   "counts": {
@@ -22,8 +22,8 @@
       "stack": "TypeScript + React 19 + Vite",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-05-04T09:02:20.333Z",
-      "lastActivityHebrew": "לפני 12 דקות",
+      "lastActivity": "2026-05-04T10:35:17.210Z",
+      "lastActivityHebrew": "לפני שעה",
       "size": "674M",
       "isLive": false,
       "liveUrl": null,
@@ -39,9 +39,9 @@
         }
       ],
       "lastSession": {
-        "sessionId": "41d7c9c8-1af3-4128-85f5-022913aae746",
-        "lastActivity": "2026-05-04T09:02:20.333Z",
-        "summary": "i think its not workig"
+        "sessionId": "b38b00e2-f4e7-4f80-9fb3-b5588f8b0b16",
+        "lastActivity": "2026-05-04T10:35:17.210Z",
+        "summary": "Base directory for this skill: /Users/rannsegal/Library/Application Support/Claude/local-agent-mode-sessions/skills-plug…"
       }
     },
     {
@@ -66,7 +66,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "10 days ago",
+        "lastCommitRelative": "11 days ago",
         "lastCommitMessage": "Update Payoneer-ad-generator marketing images with new mint-green design",
         "lastCommitDate": "2026-04-24 01:29:35 +0300",
         "lastCommitHebrew": "השבוע",
