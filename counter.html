@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>קאונטר - קשיו ופיסטוק</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Heebo', system-ui, sans-serif;
+      background: #f5efe4;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 480px;
+      width: 100%;
+    }
+
+    h1 {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 2rem;
+      color: #2a2a2a;
+    }
+
+    .counter-card {
+      background: #fff;
+      border: 1px solid #e0d8c8;
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin-bottom: 1rem;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    }
+
+    .counter-label {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 1rem;
+      color: #2a2a2a;
+    }
+
+    .counter-controls {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1rem;
+    }
+
+    .counter-btn {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      border: none;
+      font-size: 1.75rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: transform 0.1s, background 0.2s;
+      color: #fff;
+    }
+
+    .counter-btn:hover { transform: scale(1.05); }
+    .counter-btn:active { transform: scale(0.95); }
+    .counter-btn:disabled {
+      opacity: 0.4;
+      cursor: not-allowed;
+      transform: none;
+    }
+
+    .btn-plus { background: #4a8a4a; }
+    .btn-minus { background: #c25450; }
+
+    .counter-value {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 3rem;
+      font-weight: 700;
+      min-width: 80px;
+      text-align: center;
+      color: #2a2a2a;
+    }
+  </style>
+</head>
+<body>
+  <main class="container">
+    <h1>קאונטר אגוזים</h1>
+
+    <section class="counter-card">
+      <div class="counter-label">קשיו</div>
+      <div class="counter-controls">
+        <button class="counter-btn btn-minus" data-action="dec" data-target="cashew" aria-label="הורד קשיו">−</button>
+        <span class="counter-value" id="cashew-value">0</span>
+        <button class="counter-btn btn-plus" data-action="inc" data-target="cashew" aria-label="הוסף קשיו">+</button>
+      </div>
+    </section>
+
+    <section class="counter-card">
+      <div class="counter-label">פיסטוק</div>
+      <div class="counter-controls">
+        <button class="counter-btn btn-minus" data-action="dec" data-target="pistachio" aria-label="הורד פיסטוק">−</button>
+        <span class="counter-value" id="pistachio-value">0</span>
+        <button class="counter-btn btn-plus" data-action="inc" data-target="pistachio" aria-label="הוסף פיסטוק">+</button>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const counts = { cashew: 0, pistachio: 0 };
+
+    function render(target) {
+      const el = document.getElementById(`${target}-value`);
+      el.textContent = counts[target];
+      const minusBtn = document.querySelector(`.btn-minus[data-target="${target}"]`);
+      minusBtn.disabled = counts[target] <= 0;
+    }
+
+    document.querySelectorAll('.counter-btn').forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const { action, target } = btn.dataset;
+        if (action === 'inc') counts[target]++;
+        else if (action === 'dec' && counts[target] > 0) counts[target]--;
+        render(target);
+      });
+    });
+
+    render('cashew');
+    render('pistachio');
+  </script>
+</body>
+</html>
