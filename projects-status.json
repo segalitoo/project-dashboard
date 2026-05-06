@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-06T17:16:21.379Z",
+  "lastUpdated": "2026-05-06T23:05:36.976Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 18,
   "counts": {
@@ -10,60 +10,6 @@
     "idea": 7
   },
   "projects": [
-    {
-      "name": "Payoneer-ad-generator",
-      "humanName": "מחולל באנרים לפיוניר",
-      "tagline": "כלי שמייצר אוטומטית באנרים פרסומיים באמצעות AI",
-      "longDescription": "הפרוייקט מקבל פרטי מוצר ומחזיר עשרה באנרים פרסומיים בסגנונות שונים. מבוסס על Gemini ליצירת תמונות וניתוח תוכן, עם backend ב-Supabase לאחסון וצד משתמש ב-React. נבנה כדמו ל-Payoneer.",
-      "nextStep": "לסיים את הפיצ׳ר node-canvas ולמזג ל-main",
-      "category": "AI Tools",
-      "accentColor": "#8b3a2e",
-      "screenshot": null,
-      "stack": "TypeScript + React 19 + Vite + Supabase",
-      "status": "building",
-      "subStatus": null,
-      "lastActivity": "2026-05-06T15:01:23.603Z",
-      "lastActivityHebrew": "לפני 2 שעות",
-      "size": "249M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/Payoneer-ad-generator",
-      "source": "local",
-      "hasGit": true,
-      "git": {
-        "branch": "feat/node-canvas",
-        "lastCommitRelative": "7 hours ago",
-        "lastCommitMessage": "feat(contrast): apply dark sidebar treatment to icon-rail (actual nav component)",
-        "lastCommitDate": "2026-05-06 13:22:29 +0300",
-        "lastCommitHebrew": "לפני 6 שעות",
-        "isDirty": true,
-        "changedFiles": 15
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "feat(contrast): apply dark sidebar treatment to icon-rail (actual nav component)"
-        },
-        {
-          "type": "commit",
-          "text": "feat(contrast): fix Active badge, confirm dialog cancel, and remaining mint tints"
-        },
-        {
-          "type": "commit",
-          "text": "feat(contrast): replace mint card surfaces/borders with neutral whites and grays"
-        },
-        {
-          "type": "chat",
-          "text": "everything is too bright. we need to make a better visability but keeping some elements with pour green mint color",
-          "sessionId": "4f9704cf-f8f9-4706-82c0-a4f2c83021e2"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "4f9704cf-f8f9-4706-82c0-a4f2c83021e2",
-        "lastActivity": "2026-05-06T15:01:23.603Z",
-        "summary": "everything is too bright. we need to make a better visability but keeping some elements with pour green mint color"
-      }
-    },
     {
       "name": "tabspeak",
       "humanName": "TabSpeak",
@@ -76,9 +22,9 @@
       "stack": "TypeScript + React 19 + Vite",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-05-05T14:00:14.432Z",
-      "lastActivityHebrew": "אתמול",
-      "size": "674M",
+      "lastActivity": "2026-05-06T23:04:30.932Z",
+      "lastActivityHebrew": "לפני 1 דקות",
+      "size": "675M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
@@ -94,8 +40,62 @@
       ],
       "lastSession": {
         "sessionId": "b38b00e2-f4e7-4f80-9fb3-b5588f8b0b16",
-        "lastActivity": "2026-05-05T14:00:14.432Z",
+        "lastActivity": "2026-05-06T23:04:30.932Z",
         "summary": "Base directory for this skill: /Users/rannsegal/Library/Application Support/Claude/local-agent-mode-sessions/skills-plug…"
+      }
+    },
+    {
+      "name": "Payoneer-ad-generator",
+      "humanName": "מחולל באנרים לפיוניר",
+      "tagline": "כלי שמייצר אוטומטית באנרים פרסומיים באמצעות AI",
+      "longDescription": "הפרוייקט מקבל פרטי מוצר ומחזיר עשרה באנרים פרסומיים בסגנונות שונים. מבוסס על Gemini ליצירת תמונות וניתוח תוכן, עם backend ב-Supabase לאחסון וצד משתמש ב-React. נבנה כדמו ל-Payoneer.",
+      "nextStep": "לסיים את הפיצ׳ר node-canvas ולמזג ל-main",
+      "category": "AI Tools",
+      "accentColor": "#8b3a2e",
+      "screenshot": null,
+      "stack": "TypeScript + React 19 + Vite + Supabase",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-05-06T22:33:32.341Z",
+      "lastActivityHebrew": "לפני 31 דקות",
+      "size": "249M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/Payoneer-ad-generator",
+      "source": "local",
+      "hasGit": true,
+      "git": {
+        "branch": "feat/node-canvas",
+        "lastCommitRelative": "32 minutes ago",
+        "lastCommitMessage": "feat(theme): add light/dark toggle with node canvas theming",
+        "lastCommitDate": "2026-05-07 01:33:26 +0300",
+        "lastCommitHebrew": "לפני 31 דקות",
+        "isDirty": true,
+        "changedFiles": 15
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "feat(theme): add light/dark toggle with node canvas theming"
+        },
+        {
+          "type": "commit",
+          "text": "feat(contrast): apply dark sidebar treatment to icon-rail (actual nav component)"
+        },
+        {
+          "type": "commit",
+          "text": "feat(contrast): fix Active badge, confirm dialog cancel, and remaining mint tints"
+        },
+        {
+          "type": "chat",
+          "text": "everything is too bright. we need to make a better visability but keeping some elements with pour green mint color",
+          "sessionId": "4f9704cf-f8f9-4706-82c0-a4f2c83021e2"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "4f9704cf-f8f9-4706-82c0-a4f2c83021e2",
+        "lastActivity": "2026-05-06T22:33:32.341Z",
+        "summary": "everything is too bright. we need to make a better visability but keeping some elements with pour green mint color"
       }
     },
     {
