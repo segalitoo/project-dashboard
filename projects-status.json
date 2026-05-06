@@ -1,15 +1,69 @@
 {
-  "lastUpdated": "2026-05-06T07:56:01.630Z",
+  "lastUpdated": "2026-05-06T12:23:52.209Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 18,
   "counts": {
     "live": 0,
-    "building": 1,
-    "paused": 7,
+    "building": 2,
+    "paused": 6,
     "archive": 3,
     "idea": 7
   },
   "projects": [
+    {
+      "name": "Payoneer-ad-generator",
+      "humanName": "מחולל באנרים לפיוניר",
+      "tagline": "כלי שמייצר אוטומטית באנרים פרסומיים באמצעות AI",
+      "longDescription": "הפרוייקט מקבל פרטי מוצר ומחזיר עשרה באנרים פרסומיים בסגנונות שונים. מבוסס על Gemini ליצירת תמונות וניתוח תוכן, עם backend ב-Supabase לאחסון וצד משתמש ב-React. נבנה כדמו ל-Payoneer.",
+      "nextStep": "לסיים את הפיצ׳ר node-canvas ולמזג ל-main",
+      "category": "AI Tools",
+      "accentColor": "#8b3a2e",
+      "screenshot": null,
+      "stack": "TypeScript + React 19 + Vite + Supabase",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-05-06T10:24:03.773Z",
+      "lastActivityHebrew": "לפני שעה",
+      "size": "249M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/Payoneer-ad-generator",
+      "source": "local",
+      "hasGit": true,
+      "git": {
+        "branch": "feat/node-canvas",
+        "lastCommitRelative": "2 hours ago",
+        "lastCommitMessage": "feat(contrast): apply dark sidebar treatment to icon-rail (actual nav component)",
+        "lastCommitDate": "2026-05-06 13:22:29 +0300",
+        "lastCommitHebrew": "לפני 2 שעות",
+        "isDirty": true,
+        "changedFiles": 15
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "feat(contrast): apply dark sidebar treatment to icon-rail (actual nav component)"
+        },
+        {
+          "type": "commit",
+          "text": "feat(contrast): fix Active badge, confirm dialog cancel, and remaining mint tints"
+        },
+        {
+          "type": "commit",
+          "text": "feat(contrast): replace mint card surfaces/borders with neutral whites and grays"
+        },
+        {
+          "type": "chat",
+          "text": "everything is too bright. we need to make a better visability but keeping some elements with pour green mint color",
+          "sessionId": "4f9704cf-f8f9-4706-82c0-a4f2c83021e2"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "4f9704cf-f8f9-4706-82c0-a4f2c83021e2",
+        "lastActivity": "2026-05-06T10:24:03.773Z",
+        "summary": "everything is too bright. we need to make a better visability but keeping some elements with pour green mint color"
+      }
+    },
     {
       "name": "tabspeak",
       "humanName": "TabSpeak",
@@ -23,7 +77,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-05-05T14:00:14.432Z",
-      "lastActivityHebrew": "לפני 17 שעות",
+      "lastActivityHebrew": "לפני 22 שעות",
       "size": "674M",
       "isLive": false,
       "liveUrl": null,
@@ -66,7 +120,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "12 days ago",
+        "lastCommitRelative": "13 days ago",
         "lastCommitMessage": "Update Payoneer-ad-generator marketing images with new mint-green design",
         "lastCommitDate": "2026-04-24 01:29:35 +0300",
         "lastCommitHebrew": "השבוע",
@@ -96,55 +150,6 @@
         "sessionId": "8b24dc3b-ba22-4905-b480-dd7c287902ae",
         "lastActivity": "2026-04-19T21:42:11.723Z",
         "summary": "in project ran-portfolio, remove the last project"
-      }
-    },
-    {
-      "name": "Payoneer-ad-generator",
-      "humanName": "מחולל באנרים לפיוניר",
-      "tagline": "כלי שמייצר אוטומטית באנרים פרסומיים באמצעות AI",
-      "longDescription": "הפרוייקט מקבל פרטי מוצר ומחזיר עשרה באנרים פרסומיים בסגנונות שונים. מבוסס על Gemini ליצירת תמונות וניתוח תוכן, עם backend ב-Supabase לאחסון וצד משתמש ב-React. נבנה כדמו ל-Payoneer.",
-      "nextStep": "לסיים את הפיצ׳ר node-canvas ולמזג ל-main",
-      "category": "AI Tools",
-      "accentColor": "#8b3a2e",
-      "screenshot": null,
-      "stack": "TypeScript + React 19 + Vite + Supabase",
-      "status": "paused",
-      "subStatus": null,
-      "lastActivity": "2026-04-23T20:03:31.211Z",
-      "lastActivityHebrew": "השבוע",
-      "size": "249M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/Payoneer-ad-generator",
-      "source": "local",
-      "hasGit": true,
-      "git": {
-        "branch": "feat/node-canvas",
-        "lastCommitRelative": "13 days ago",
-        "lastCommitMessage": "fix(mint): remove stale charcoal classes and rename brand-os filenames",
-        "lastCommitDate": "2026-04-23 22:42:04 +0300",
-        "lastCommitHebrew": "השבוע",
-        "isDirty": true,
-        "changedFiles": 18
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "fix(mint): remove stale charcoal classes and rename brand-os filenames"
-        },
-        {
-          "type": "commit",
-          "text": "fix(mint): QA sweep — fix remaining dark color values"
-        },
-        {
-          "type": "commit",
-          "text": "fix(mint): fix text-white/30 on light bg in gallery remix modal"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "dea733b9-5751-4564-93df-4879149c7dc4",
-        "lastActivity": "2026-04-23T20:03:31.211Z",
-        "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/b…"
       }
     },
     {
@@ -260,7 +265,7 @@
         "lastCommitRelative": "3 weeks ago",
         "lastCommitMessage": "Update extension components and marketplace mockup",
         "lastCommitDate": "2026-04-15 12:18:38 +0300",
-        "lastCommitHebrew": "לפני 2 שבועות",
+        "lastCommitHebrew": "לפני 3 שבועות",
         "isDirty": true,
         "changedFiles": 6
       },
@@ -330,7 +335,7 @@
       "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-04-15T11:40:08.359Z",
-      "lastActivityHebrew": "לפני 2 שבועות",
+      "lastActivityHebrew": "לפני 3 שבועות",
       "size": "785M",
       "isLive": false,
       "liveUrl": null,
