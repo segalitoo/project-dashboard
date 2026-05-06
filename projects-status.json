@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-04T18:41:20.060Z",
+  "lastUpdated": "2026-05-06T07:56:01.630Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 18,
   "counts": {
@@ -22,8 +22,8 @@
       "stack": "TypeScript + React 19 + Vite",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-05-04T10:35:17.210Z",
-      "lastActivityHebrew": "לפני 8 שעות",
+      "lastActivity": "2026-05-05T14:00:14.432Z",
+      "lastActivityHebrew": "לפני 17 שעות",
       "size": "674M",
       "isLive": false,
       "liveUrl": null,
@@ -40,7 +40,7 @@
       ],
       "lastSession": {
         "sessionId": "b38b00e2-f4e7-4f80-9fb3-b5588f8b0b16",
-        "lastActivity": "2026-05-04T10:35:17.210Z",
+        "lastActivity": "2026-05-05T14:00:14.432Z",
         "summary": "Base directory for this skill: /Users/rannsegal/Library/Application Support/Claude/local-agent-mode-sessions/skills-plug…"
       }
     },
@@ -66,7 +66,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "11 days ago",
+        "lastCommitRelative": "12 days ago",
         "lastCommitMessage": "Update Payoneer-ad-generator marketing images with new mint-green design",
         "lastCommitDate": "2026-04-24 01:29:35 +0300",
         "lastCommitHebrew": "השבוע",
@@ -120,7 +120,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "11 days ago",
+        "lastCommitRelative": "13 days ago",
         "lastCommitMessage": "fix(mint): remove stale charcoal classes and rename brand-os filenames",
         "lastCommitDate": "2026-04-23 22:42:04 +0300",
         "lastCommitHebrew": "השבוע",
@@ -160,7 +160,7 @@
       "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-04-21T22:51:14.737Z",
-      "lastActivityHebrew": "השבוע",
+      "lastActivityHebrew": "לפני 2 שבועות",
       "size": "442M",
       "isLive": false,
       "liveUrl": null,
@@ -342,7 +342,7 @@
         "lastCommitRelative": "4 weeks ago",
         "lastCommitMessage": "fix: update portfolio link to correct GitHub username",
         "lastCommitDate": "2026-04-06 02:18:42 +0300",
-        "lastCommitHebrew": "לפני 0 חודשים",
+        "lastCommitHebrew": "לפני חודש",
         "isDirty": true,
         "changedFiles": 53
       },
@@ -434,7 +434,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "10 weeks ago",
+        "lastCommitRelative": "2 months ago",
         "lastCommitMessage": "Prevent accidental edit on partial swipe",
         "lastCommitDate": "2026-02-25 11:54:51 +0000",
         "lastCommitHebrew": "לפני 2 חודשים",
@@ -479,7 +479,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "10 weeks ago",
+        "lastCommitRelative": "2 months ago",
         "lastCommitMessage": "Portfolio: 6 case studies with realistic photo placeholders",
         "lastCommitDate": "2026-02-24 23:40:56 +0200",
         "lastCommitHebrew": "לפני 2 חודשים",
