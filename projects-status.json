@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-06T23:05:36.976Z",
+  "lastUpdated": "2026-05-07T09:39:12.763Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 18,
   "counts": {
@@ -10,40 +10,6 @@
     "idea": 7
   },
   "projects": [
-    {
-      "name": "tabspeak",
-      "humanName": "TabSpeak",
-      "tagline": "תוסף שמדבר את התוכן של הטאבים הפתוחים",
-      "longDescription": "תוסף דפדפן שקורא בקול את התוכן של הטאב הפעיל. שימושי לרב-משימה ולנגישות. בנוי על React 19 + Vite.",
-      "nextStep": "לתקן את הבאג שדווח (\"i think its not working\")",
-      "category": "Productivity",
-      "accentColor": "#a06b9e",
-      "screenshot": null,
-      "stack": "TypeScript + React 19 + Vite",
-      "status": "building",
-      "subStatus": null,
-      "lastActivity": "2026-05-06T23:04:30.932Z",
-      "lastActivityHebrew": "לפני 1 דקות",
-      "size": "675M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": null,
-      "source": "local",
-      "hasGit": false,
-      "git": null,
-      "recentActions": [
-        {
-          "type": "chat",
-          "text": "i think its not workig",
-          "sessionId": "41d7c9c8-1af3-4128-85f5-022913aae746"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "b38b00e2-f4e7-4f80-9fb3-b5588f8b0b16",
-        "lastActivity": "2026-05-06T23:04:30.932Z",
-        "summary": "Base directory for this skill: /Users/rannsegal/Library/Application Support/Claude/local-agent-mode-sessions/skills-plug…"
-      }
-    },
     {
       "name": "Payoneer-ad-generator",
       "humanName": "מחולל באנרים לפיוניר",
@@ -56,8 +22,8 @@
       "stack": "TypeScript + React 19 + Vite + Supabase",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-05-06T22:33:32.341Z",
-      "lastActivityHebrew": "לפני 31 דקות",
+      "lastActivity": "2026-05-07T09:15:30.986Z",
+      "lastActivityHebrew": "לפני 23 דקות",
       "size": "249M",
       "isLive": false,
       "liveUrl": null,
@@ -66,12 +32,12 @@
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "32 minutes ago",
+        "lastCommitRelative": "11 hours ago",
         "lastCommitMessage": "feat(theme): add light/dark toggle with node canvas theming",
         "lastCommitDate": "2026-05-07 01:33:26 +0300",
-        "lastCommitHebrew": "לפני 31 דקות",
+        "lastCommitHebrew": "לפני 11 שעות",
         "isDirty": true,
-        "changedFiles": 15
+        "changedFiles": 17
       },
       "recentActions": [
         {
@@ -94,8 +60,42 @@
       ],
       "lastSession": {
         "sessionId": "4f9704cf-f8f9-4706-82c0-a4f2c83021e2",
-        "lastActivity": "2026-05-06T22:33:32.341Z",
+        "lastActivity": "2026-05-07T09:15:30.986Z",
         "summary": "everything is too bright. we need to make a better visability but keeping some elements with pour green mint color"
+      }
+    },
+    {
+      "name": "tabspeak",
+      "humanName": "TabSpeak",
+      "tagline": "תוסף שמדבר את התוכן של הטאבים הפתוחים",
+      "longDescription": "תוסף דפדפן שקורא בקול את התוכן של הטאב הפעיל. שימושי לרב-משימה ולנגישות. בנוי על React 19 + Vite.",
+      "nextStep": "לתקן את הבאג שדווח (\"i think its not working\")",
+      "category": "Productivity",
+      "accentColor": "#a06b9e",
+      "screenshot": null,
+      "stack": "TypeScript + React 19 + Vite",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-05-07T07:34:36.473Z",
+      "lastActivityHebrew": "לפני 2 שעות",
+      "size": "675M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [
+        {
+          "type": "chat",
+          "text": "i think its not workig",
+          "sessionId": "41d7c9c8-1af3-4128-85f5-022913aae746"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "b38b00e2-f4e7-4f80-9fb3-b5588f8b0b16",
+        "lastActivity": "2026-05-07T07:34:36.473Z",
+        "summary": "Base directory for this skill: /Users/rannsegal/Library/Application Support/Claude/local-agent-mode-sessions/skills-plug…"
       }
     },
     {
