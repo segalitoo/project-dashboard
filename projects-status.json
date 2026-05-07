@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-05-07T09:39:12.763Z",
+  "lastUpdated": "2026-05-07T21:47:08.763Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 18,
   "counts": {
     "live": 0,
-    "building": 2,
-    "paused": 6,
+    "building": 3,
+    "paused": 5,
     "archive": 3,
     "idea": 7
   },
@@ -22,8 +22,8 @@
       "stack": "TypeScript + React 19 + Vite + Supabase",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-05-07T09:15:30.986Z",
-      "lastActivityHebrew": "לפני 23 דקות",
+      "lastActivity": "2026-05-07T21:46:21.498Z",
+      "lastActivityHebrew": "הרגע",
       "size": "249M",
       "isLive": false,
       "liveUrl": null,
@@ -32,12 +32,12 @@
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "11 hours ago",
+        "lastCommitRelative": "23 hours ago",
         "lastCommitMessage": "feat(theme): add light/dark toggle with node canvas theming",
         "lastCommitDate": "2026-05-07 01:33:26 +0300",
-        "lastCommitHebrew": "לפני 11 שעות",
+        "lastCommitHebrew": "לפני 23 שעות",
         "isDirty": true,
-        "changedFiles": 17
+        "changedFiles": 18
       },
       "recentActions": [
         {
@@ -60,7 +60,7 @@
       ],
       "lastSession": {
         "sessionId": "4f9704cf-f8f9-4706-82c0-a4f2c83021e2",
-        "lastActivity": "2026-05-07T09:15:30.986Z",
+        "lastActivity": "2026-05-07T21:46:21.498Z",
         "summary": "everything is too bright. we need to make a better visability but keeping some elements with pour green mint color"
       }
     },
@@ -76,9 +76,9 @@
       "stack": "TypeScript + React 19 + Vite",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-05-07T07:34:36.473Z",
-      "lastActivityHebrew": "לפני 2 שעות",
-      "size": "675M",
+      "lastActivity": "2026-05-07T12:33:44.719Z",
+      "lastActivityHebrew": "לפני 9 שעות",
+      "size": "676M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
@@ -94,7 +94,7 @@
       ],
       "lastSession": {
         "sessionId": "b38b00e2-f4e7-4f80-9fb3-b5588f8b0b16",
-        "lastActivity": "2026-05-07T07:34:36.473Z",
+        "lastActivity": "2026-05-07T12:33:44.719Z",
         "summary": "Base directory for this skill: /Users/rannsegal/Library/Application Support/Claude/local-agent-mode-sessions/skills-plug…"
       }
     },
@@ -108,10 +108,10 @@
       "accentColor": "#3a4a6b",
       "screenshot": null,
       "stack": "HTML/CSS/JS",
-      "status": "paused",
+      "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-04-23T22:29:35.000Z",
-      "lastActivityHebrew": "השבוע",
+      "lastActivity": "2026-05-07T12:30:49.362Z",
+      "lastActivityHebrew": "לפני 9 שעות",
       "size": "131M",
       "isLive": false,
       "liveUrl": null,
@@ -120,12 +120,12 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "13 days ago",
+        "lastCommitRelative": "2 weeks ago",
         "lastCommitMessage": "Update Payoneer-ad-generator marketing images with new mint-green design",
         "lastCommitDate": "2026-04-24 01:29:35 +0300",
         "lastCommitHebrew": "השבוע",
         "isDirty": true,
-        "changedFiles": 8
+        "changedFiles": 13
       },
       "recentActions": [
         {
@@ -147,9 +147,9 @@
         }
       ],
       "lastSession": {
-        "sessionId": "8b24dc3b-ba22-4905-b480-dd7c287902ae",
-        "lastActivity": "2026-04-19T21:42:11.723Z",
-        "summary": "in project ran-portfolio, remove the last project"
+        "sessionId": "99ddefc0-751b-4ff1-97be-fa5b089c27a1",
+        "lastActivity": "2026-05-07T12:30:49.362Z",
+        "summary": ""
       }
     },
     {
@@ -211,7 +211,7 @@
         "lastCommitRelative": "3 weeks ago",
         "lastCommitMessage": "fix: remove duplicate selectedLayerId declaration causing blank page",
         "lastCommitDate": "2026-04-16 13:05:58 +0300",
-        "lastCommitHebrew": "לפני 2 שבועות",
+        "lastCommitHebrew": "לפני 3 שבועות",
         "isDirty": true,
         "changedFiles": 63
       },
@@ -344,7 +344,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/landing-page",
-        "lastCommitRelative": "4 weeks ago",
+        "lastCommitRelative": "5 weeks ago",
         "lastCommitMessage": "fix: update portfolio link to correct GitHub username",
         "lastCommitDate": "2026-04-06 02:18:42 +0300",
         "lastCommitHebrew": "לפני חודש",
