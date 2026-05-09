@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-07T21:47:08.763Z",
+  "lastUpdated": "2026-05-09T09:32:41.695Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 18,
   "counts": {
@@ -22,8 +22,8 @@
       "stack": "TypeScript + React 19 + Vite + Supabase",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-05-07T21:46:21.498Z",
-      "lastActivityHebrew": "הרגע",
+      "lastActivity": "2026-05-07T21:55:30.450Z",
+      "lastActivityHebrew": "אתמול",
       "size": "249M",
       "isLive": false,
       "liveUrl": null,
@@ -32,10 +32,10 @@
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "23 hours ago",
+        "lastCommitRelative": "2 days ago",
         "lastCommitMessage": "feat(theme): add light/dark toggle with node canvas theming",
         "lastCommitDate": "2026-05-07 01:33:26 +0300",
-        "lastCommitHebrew": "לפני 23 שעות",
+        "lastCommitHebrew": "שלשום",
         "isDirty": true,
         "changedFiles": 18
       },
@@ -60,7 +60,7 @@
       ],
       "lastSession": {
         "sessionId": "4f9704cf-f8f9-4706-82c0-a4f2c83021e2",
-        "lastActivity": "2026-05-07T21:46:21.498Z",
+        "lastActivity": "2026-05-07T21:55:30.450Z",
         "summary": "everything is too bright. we need to make a better visability but keeping some elements with pour green mint color"
       }
     },
@@ -77,7 +77,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-05-07T12:33:44.719Z",
-      "lastActivityHebrew": "לפני 9 שעות",
+      "lastActivityHebrew": "אתמול",
       "size": "676M",
       "isLive": false,
       "liveUrl": null,
@@ -111,7 +111,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-05-07T12:30:49.362Z",
-      "lastActivityHebrew": "לפני 9 שעות",
+      "lastActivityHebrew": "אתמול",
       "size": "131M",
       "isLive": false,
       "liveUrl": null,
@@ -123,7 +123,7 @@
         "lastCommitRelative": "2 weeks ago",
         "lastCommitMessage": "Update Payoneer-ad-generator marketing images with new mint-green design",
         "lastCommitDate": "2026-04-24 01:29:35 +0300",
-        "lastCommitHebrew": "השבוע",
+        "lastCommitHebrew": "לפני 2 שבועות",
         "isDirty": true,
         "changedFiles": 13
       },
