@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-10T10:06:28.949Z",
+  "lastUpdated": "2026-05-11T07:30:19.212Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 18,
   "counts": {
@@ -22,8 +22,8 @@
       "stack": "TypeScript + React 19 + Vite + Supabase",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-05-10T09:27:54.098Z",
-      "lastActivityHebrew": "לפני 38 דקות",
+      "lastActivity": "2026-05-10T23:54:06.875Z",
+      "lastActivityHebrew": "לפני 7 שעות",
       "size": "250M",
       "isLive": false,
       "liveUrl": null,
@@ -32,10 +32,10 @@
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "51 minutes ago",
+        "lastCommitRelative": "22 hours ago",
         "lastCommitMessage": "docs: add spec for Mint portfolio marketing images",
         "lastCommitDate": "2026-05-10 12:14:57 +0300",
-        "lastCommitHebrew": "לפני 51 דקות",
+        "lastCommitHebrew": "לפני 22 שעות",
         "isDirty": true,
         "changedFiles": 20
       },
@@ -60,7 +60,7 @@
       ],
       "lastSession": {
         "sessionId": "4f9704cf-f8f9-4706-82c0-a4f2c83021e2",
-        "lastActivity": "2026-05-10T09:27:54.098Z",
+        "lastActivity": "2026-05-10T23:54:06.875Z",
         "summary": "everything is too bright. we need to make a better visability but keeping some elements with pour green mint color"
       }
     },
@@ -77,7 +77,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-05-10T08:53:22.767Z",
-      "lastActivityHebrew": "לפני שעה",
+      "lastActivityHebrew": "לפני 22 שעות",
       "size": "132M",
       "isLive": false,
       "liveUrl": null,
@@ -86,10 +86,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "73 minutes ago",
+        "lastCommitRelative": "23 hours ago",
         "lastCommitMessage": "Add Zeph as first AI project with images and updated nav order",
         "lastCommitDate": "2026-05-10 11:53:14 +0300",
-        "lastCommitHebrew": "לפני שעה",
+        "lastCommitHebrew": "לפני 22 שעות",
         "isDirty": true,
         "changedFiles": 8
       },
@@ -131,7 +131,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-05-07T12:33:44.719Z",
-      "lastActivityHebrew": "שלשום",
+      "lastActivityHebrew": "לפני 3 ימים",
       "size": "675M",
       "isLive": false,
       "liveUrl": null,
@@ -199,7 +199,7 @@
       "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-04-19T22:05:05.443Z",
-      "lastActivityHebrew": "לפני 2 שבועות",
+      "lastActivityHebrew": "לפני 3 שבועות",
       "size": "258M",
       "isLive": false,
       "liveUrl": null,
@@ -208,7 +208,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "3 weeks ago",
+        "lastCommitRelative": "4 weeks ago",
         "lastCommitMessage": "fix: remove duplicate selectedLayerId declaration causing blank page",
         "lastCommitDate": "2026-04-16 13:05:58 +0300",
         "lastCommitHebrew": "לפני 3 שבועות",
@@ -253,7 +253,7 @@
       "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-04-19T21:42:11.723Z",
-      "lastActivityHebrew": "לפני 2 שבועות",
+      "lastActivityHebrew": "לפני 3 שבועות",
       "size": "282M",
       "isLive": false,
       "liveUrl": null,
@@ -439,7 +439,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "2 months ago",
+        "lastCommitRelative": "3 months ago",
         "lastCommitMessage": "Prevent accidental edit on partial swipe",
         "lastCommitDate": "2026-02-25 11:54:51 +0000",
         "lastCommitHebrew": "לפני 2 חודשים",
