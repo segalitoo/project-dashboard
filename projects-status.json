@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T10:30:39.041Z",
+  "lastUpdated": "2026-05-11T13:42:28.237Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 18,
   "counts": {
@@ -22,8 +22,8 @@
       "stack": "TypeScript + React 19 + Vite + Supabase",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-05-10T23:54:06.875Z",
-      "lastActivityHebrew": "לפני 10 שעות",
+      "lastActivity": "2026-05-11T12:14:51.781Z",
+      "lastActivityHebrew": "לפני שעה",
       "size": "250M",
       "isLive": false,
       "liveUrl": null,
@@ -32,7 +32,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "25 hours ago",
+        "lastCommitRelative": "28 hours ago",
         "lastCommitMessage": "docs: add spec for Mint portfolio marketing images",
         "lastCommitDate": "2026-05-10 12:14:57 +0300",
         "lastCommitHebrew": "אתמול",
@@ -60,7 +60,7 @@
       ],
       "lastSession": {
         "sessionId": "4f9704cf-f8f9-4706-82c0-a4f2c83021e2",
-        "lastActivity": "2026-05-10T23:54:06.875Z",
+        "lastActivity": "2026-05-11T12:14:51.781Z",
         "summary": "everything is too bright. we need to make a better visability but keeping some elements with pour green mint color"
       }
     },
@@ -76,9 +76,9 @@
       "stack": "HTML/CSS/JS",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-05-10T08:53:22.767Z",
-      "lastActivityHebrew": "אתמול",
-      "size": "132M",
+      "lastActivity": "2026-05-11T12:14:44.000Z",
+      "lastActivityHebrew": "לפני שעה",
+      "size": "144M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": "https://github.com/segalitoo/ran-portfolio",
@@ -86,14 +86,18 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "26 hours ago",
-        "lastCommitMessage": "Add Zeph as first AI project with images and updated nav order",
-        "lastCommitDate": "2026-05-10 11:53:14 +0300",
-        "lastCommitHebrew": "אתמול",
+        "lastCommitRelative": "88 minutes ago",
+        "lastCommitMessage": "Update Mint project marketing images with polished portfolio visuals",
+        "lastCommitDate": "2026-05-11 15:14:44 +0300",
+        "lastCommitHebrew": "לפני שעה",
         "isDirty": true,
         "changedFiles": 8
       },
       "recentActions": [
+        {
+          "type": "commit",
+          "text": "Update Mint project marketing images with polished portfolio visuals"
+        },
         {
           "type": "commit",
           "text": "Add Zeph as first AI project with images and updated nav order"
@@ -101,10 +105,6 @@
         {
           "type": "commit",
           "text": "Update Payoneer-ad-generator marketing images with new mint-green design"
-        },
-        {
-          "type": "commit",
-          "text": "Add GA4 click tracking for nav and CTA buttons"
         },
         {
           "type": "chat",
@@ -131,7 +131,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-05-07T12:33:44.719Z",
-      "lastActivityHebrew": "לפני 3 ימים",
+      "lastActivityHebrew": "לפני 4 ימים",
       "size": "675M",
       "isLive": false,
       "liveUrl": null,
