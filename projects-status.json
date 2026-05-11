@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T07:30:19.212Z",
+  "lastUpdated": "2026-05-11T10:30:39.041Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 18,
   "counts": {
@@ -23,7 +23,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-05-10T23:54:06.875Z",
-      "lastActivityHebrew": "לפני 7 שעות",
+      "lastActivityHebrew": "לפני 10 שעות",
       "size": "250M",
       "isLive": false,
       "liveUrl": null,
@@ -32,10 +32,10 @@
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "22 hours ago",
+        "lastCommitRelative": "25 hours ago",
         "lastCommitMessage": "docs: add spec for Mint portfolio marketing images",
         "lastCommitDate": "2026-05-10 12:14:57 +0300",
-        "lastCommitHebrew": "לפני 22 שעות",
+        "lastCommitHebrew": "אתמול",
         "isDirty": true,
         "changedFiles": 20
       },
@@ -77,7 +77,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-05-10T08:53:22.767Z",
-      "lastActivityHebrew": "לפני 22 שעות",
+      "lastActivityHebrew": "אתמול",
       "size": "132M",
       "isLive": false,
       "liveUrl": null,
@@ -86,10 +86,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "23 hours ago",
+        "lastCommitRelative": "26 hours ago",
         "lastCommitMessage": "Add Zeph as first AI project with images and updated nav order",
         "lastCommitDate": "2026-05-10 11:53:14 +0300",
-        "lastCommitHebrew": "לפני 22 שעות",
+        "lastCommitHebrew": "אתמול",
         "isDirty": true,
         "changedFiles": 8
       },
@@ -398,7 +398,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "5 weeks ago",
+        "lastCommitRelative": "6 weeks ago",
         "lastCommitMessage": "AI Academy for Jordan - Hebrew AI learning platform",
         "lastCommitDate": "2026-04-03 00:34:04 +0300",
         "lastCommitHebrew": "לפני חודש",
