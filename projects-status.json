@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-11T13:42:28.237Z",
+  "lastUpdated": "2026-05-12T13:46:20.444Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 18,
   "counts": {
@@ -23,7 +23,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-05-11T12:14:51.781Z",
-      "lastActivityHebrew": "לפני שעה",
+      "lastActivityHebrew": "אתמול",
       "size": "250M",
       "isLive": false,
       "liveUrl": null,
@@ -32,10 +32,10 @@
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "28 hours ago",
+        "lastCommitRelative": "2 days ago",
         "lastCommitMessage": "docs: add spec for Mint portfolio marketing images",
         "lastCommitDate": "2026-05-10 12:14:57 +0300",
-        "lastCommitHebrew": "אתמול",
+        "lastCommitHebrew": "שלשום",
         "isDirty": true,
         "changedFiles": 20
       },
@@ -77,7 +77,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-05-11T12:14:44.000Z",
-      "lastActivityHebrew": "לפני שעה",
+      "lastActivityHebrew": "אתמול",
       "size": "144M",
       "isLive": false,
       "liveUrl": null,
@@ -86,10 +86,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "88 minutes ago",
+        "lastCommitRelative": "26 hours ago",
         "lastCommitMessage": "Update Mint project marketing images with polished portfolio visuals",
         "lastCommitDate": "2026-05-11 15:14:44 +0300",
-        "lastCommitHebrew": "לפני שעה",
+        "lastCommitHebrew": "אתמול",
         "isDirty": true,
         "changedFiles": 8
       },
@@ -131,7 +131,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-05-07T12:33:44.719Z",
-      "lastActivityHebrew": "לפני 4 ימים",
+      "lastActivityHebrew": "לפני 5 ימים",
       "size": "675M",
       "isLive": false,
       "liveUrl": null,
@@ -254,7 +254,7 @@
       "subStatus": null,
       "lastActivity": "2026-04-19T21:42:11.723Z",
       "lastActivityHebrew": "לפני 3 שבועות",
-      "size": "282M",
+      "size": "287M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": "https://github.com/segalitoo/Zoom-for-kids",
@@ -267,7 +267,7 @@
         "lastCommitDate": "2026-04-15 12:18:38 +0300",
         "lastCommitHebrew": "לפני 3 שבועות",
         "isDirty": true,
-        "changedFiles": 6
+        "changedFiles": 15
       },
       "recentActions": [
         {
