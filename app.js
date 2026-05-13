@@ -19,7 +19,7 @@ const PLACEHOLDER = 'הוסיפו תזכורת מהירה…';
 const MONTHS_HE = ['ינואר','פברואר','מרץ','אפריל','מאי','יוני','יולי','אוגוסט','ספטמבר','אוקטובר','נובמבר','דצמבר'];
 
 const feedEl       = document.getElementById('feed');
-const heroCountEl  = document.getElementById('hero-count-num');
+const heroCountEl  = document.getElementById('hero-count');
 const footerMetaEl = document.getElementById('footer-meta');
 
 let allProjects = [];
@@ -40,10 +40,16 @@ async function loadData() {
   }
 }
 
-// ── Hero count ────────────────────────────────────────────────────
+// ── Hero count (Hebrew pluralization) ─────────────────────────────
 function renderHeroCount(projects) {
   const active = projects.filter(p => ACTIVE_STATUSES.has(p.status)).length;
-  heroCountEl.textContent = active;
+  if (active === 0) {
+    heroCountEl.innerHTML = 'אין פרויקטים פעילים כרגע';
+  } else if (active === 1) {
+    heroCountEl.innerHTML = 'מציג <strong>פרויקט אחד</strong> פעיל';
+  } else {
+    heroCountEl.innerHTML = `מציג <strong>${active}</strong> פרויקטים פעילים`;
+  }
 }
 
 // ── Footer meta ───────────────────────────────────────────────────
@@ -71,24 +77,25 @@ function renderProject(p) {
   const id = p.name;
   const title = p.humanName || p.name;
   const desc = p.longDescription || p.tagline || '';
-  const category = (p.category || p.stack || 'PROJECT').toUpperCase();
+  const category = p.category ? p.category.toUpperCase() : '';
   const date = formatHebrewDate(p.lastActivity);
 
   return `
     <article class="project" data-id="${esc(id)}">
       ${renderMedia(p, title)}
       <div class="project-content">
+        ${(date || category) ? `
         <div class="project-meta">
           ${date ? `<span class="project-date">${esc(date)}</span>` : ''}
-          ${date && category ? `<span class="meta-sep" aria-hidden="true">•</span>` : ''}
+          ${date && category ? `<span class="meta-sep" aria-hidden="true">—</span>` : ''}
           ${category ? `<span class="project-cat" dir="ltr">${esc(category)}</span>` : ''}
-        </div>
+        </div>` : ''}
         <h2 class="project-title">${esc(title)}</h2>
         ${desc ? `<p class="project-desc">${esc(desc)}</p>` : ''}
         ${renderNotes(p)}
         <button class="cta" type="button" aria-expanded="false">
           <span class="cta-label">צפה בפרטים מלאים</span>
-          <span class="cta-arrow" aria-hidden="true">↙</span>
+          <span class="cta-arrow" aria-hidden="true">↘</span>
         </button>
         <div class="project-details" aria-hidden="true">
           <div class="project-details-inner">
