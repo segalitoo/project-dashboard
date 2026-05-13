@@ -638,6 +638,19 @@ button { font: inherit; }
   background: rgba(167, 139, 250, 0.08);
 }
 
+.export-btn.is-busy {
+  cursor: progress;
+  opacity: 0.7;
+}
+
+.export-btn.is-busy svg {
+  animation: export-spin 1.2s linear infinite;
+}
+
+@keyframes export-spin {
+  to { transform: rotate(360deg); }
+}
+
 .export-btn svg {
   width: 13px;
   height: 13px;

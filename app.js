@@ -37,9 +37,11 @@ async function loadData() {
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
     allProjects = data.projects || [];
+    cleanupRedundantEdits(allProjects);
     renderHeroCount(allProjects);
     renderFeed(allProjects);
     renderFooter(data);
+    updateExportBadge();
   } catch (err) {
     console.error('Failed to load:', err);
     feedEl.innerHTML = `<div class="empty-state">אין נתונים — הריצו <code>npm run scan</code>.</div>`;
@@ -323,14 +325,113 @@ async function exportEdits() {
     showToast('אין עריכות לייצא עדיין');
     return;
   }
+
+  setExportBtnState('busy', 'שומר…');
+
+  const saved = await trySaveDirect(overrides);
+  if (saved) {
+    setExportBtnState('busy', 'סורק פרויקטים…');
+    const scanResult = await tryScan();
+    await loadData();
+    setExportBtnState('idle');
+    if (scanResult) {
+      showToast('נשמר ב-projects-meta.json וסונכרן ✓');
+    } else {
+      showToast('נשמר ב-projects-meta.json · הריצו "npm run scan" לרענון');
+    }
+    return;
+  }
+
+  // Fallback: clipboard copy (GitHub Pages / no backend).
+  setExportBtnState('idle');
   const json = JSON.stringify(overrides, null, 2);
   try {
     await navigator.clipboard.writeText(json);
     showToast('הועתק ללוח · הדביקו ב-projects-meta.json תחת "projects"');
   } catch {
     console.log('=== Dashboard edits ===\n' + json);
-    showToast('שגיאה בהעתקה — הצצנו לקונסול עם התוכן');
+    showToast('שגיאה בהעתקה — בדקו את הקונסול');
   }
+}
+
+async function trySaveDirect(overrides) {
+  let metaText;
+  try {
+    const res = await fetch(`projects-meta.json?t=${Date.now()}`);
+    if (!res.ok) return false;
+    metaText = await res.text();
+  } catch {
+    return false;
+  }
+  let meta;
+  try {
+    meta = JSON.parse(metaText);
+  } catch {
+    return false;
+  }
+  meta.projects = meta.projects || {};
+  for (const [id, fields] of Object.entries(overrides)) {
+    if (!meta.projects[id]) meta.projects[id] = {};
+    for (const [field, value] of Object.entries(fields)) {
+      meta.projects[id][field] = value;
+    }
+  }
+  try {
+    const res = await fetch('/api/save-meta', {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify(meta),
+    });
+    if (!res.ok) return false;
+    const json = await res.json().catch(() => ({}));
+    return !!json.ok;
+  } catch {
+    return false;
+  }
+}
+
+async function tryScan() {
+  try {
+    const res = await fetch('/api/scan', { method: 'POST' });
+    if (!res.ok) return false;
+    const json = await res.json().catch(() => ({}));
+    return !!json.ok;
+  } catch {
+    return false;
+  }
+}
+
+function setExportBtnState(state, label) {
+  if (!exportBtnEl) return;
+  exportBtnEl.classList.toggle('is-busy', state === 'busy');
+  exportBtnEl.disabled = state === 'busy';
+  const labelEl = exportBtnEl.querySelector('.export-label');
+  if (labelEl && label) labelEl.textContent = label;
+  if (state === 'idle') updateExportBadge();
+}
+
+function cleanupRedundantEdits(projects) {
+  const byId = Object.fromEntries(projects.map(p => [p.name, p]));
+  const removed = [];
+  for (let i = localStorage.length - 1; i >= 0; i--) {
+    const key = localStorage.key(i);
+    if (!key || !key.startsWith('dashboard-edit:')) continue;
+    const parts = key.split(':');
+    const projectId = parts[1];
+    const field = parts.slice(2).join(':');
+    const project = byId[projectId];
+    if (!project) continue;
+    const override = (localStorage.getItem(key) || '').trim();
+    const native = ((project[field] ?? '') + '').trim();
+    const eq = field === 'category'
+      ? override.toUpperCase() === native.toUpperCase()
+      : override === native;
+    if (eq) {
+      localStorage.removeItem(key);
+      removed.push(key);
+    }
+  }
+  return removed.length;
 }
 
 function showToast(msg) {

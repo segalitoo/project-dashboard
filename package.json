@@ -8,7 +8,7 @@
     "scan": "node fetch-github-repos.mjs && node scan-projects.mjs",
     "scan:local": "node scan-projects.mjs --no-live-check",
     "scan:push": "npm run scan && git add projects-status.json github-cloud-projects.json && git commit -m 'chore: update project statuses' --allow-empty && git push",
-    "serve": "python3 -m http.server 8000"
+    "serve": "node dev-server.mjs"
   },
   "author": "Ran Segal",
   "license": "MIT"
