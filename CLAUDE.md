@@ -1,7 +1,7 @@
 # Project Dashboard — מחברת הפרוייקטים
 
 ## Project Overview
-פורטל אישי שמרכז את כל הפרוייקטים של רן (מקומיים + ענן). עיצוב hand-crafted analog (מחברת/יומן עבודה אישי), תוכן בעברית, נפרס ל-GitHub Pages.
+פורטל אישי שמרכז את כל הפרוייקטים של רן (מקומיים + ענן). עיצוב "quiet luxury / atelier journal" — רקע bone חם, סריף עברי, מון-ספייס דק לתוויות, פריסה דו-טורית: שמאל פרוייקטים, ימין תזכורות אישיות. תוכן בעברית, נפרס ל-GitHub Pages.
 
 ## Tech Stack
 - **Frontend:** Static HTML + CSS + vanilla JS (no framework)
@@ -13,9 +13,9 @@
 ## File Structure
 ```
 project-dashboard/
-├── index.html                    # Hero + filters + grid + drawer
-├── index.css                     # Hand-crafted analog design system
-├── app.js                        # Rendering + drawer + filter/search
+├── index.html                    # 2-column layout: projects (left) + notes (right)
+├── index.css                     # Quiet luxury / atelier journal design system
+├── app.js                        # Renders projects list + notes feed (localStorage)
 ├── scan-projects.mjs             # Local scanner + meta merger
 ├── fetch-github-repos.mjs        # GitHub API fetcher (uses GITHUB_TOKEN)
 ├── projects-meta.json            # ✋ MANUAL source of truth (Hebrew)
@@ -63,14 +63,17 @@ npm run serve         # Local dev server on :8000
 ## Editing projects-meta.json
 The most useful manual fields per project:
 - `humanName` — Hebrew/display name
-- `tagline` — one-line plain Hebrew ("what it does", NOT stack)
-- `longDescription` — paragraph for the drawer
-- `nextStep` — what to do next, single short line
+- `tagline` — one-sentence Hebrew "what it does" (shown under the project title)
+- `longDescription` — paragraph (kept in data, not rendered in current view)
+- `nextStep` — single short line (kept in data, not rendered in current view)
+- `notes` — multi-line free-form text used as the **seed** for the right-column note. The browser persists edits to `localStorage` under `dashboard-note:<projectName>`; `notes` only appears when no localStorage value exists yet.
 - `liveUrl`, `githubUrl`, `screenshot`, `accentColor`, `category`
 - `cloudOnly: true` — for projects that only exist on GitHub
 - `status` — manual override (e.g. `"idea"` or `"archive"`)
 
 Auto-detected if absent: stack (from `package.json`), description (from `CLAUDE.md`), accentColor (hashed from name).
+
+Link labels in the project entry are auto-derived from `liveUrl`'s hostname: `*.vercel.app → vercel`, `*.netlify.app/.com → netlify`, `*.github.io → pages`, `*.pages.dev → cloudflare`, `*.fly.dev → fly`, anything else → `live`. `githubUrl` always renders as `repo`.
 
 ## GitHub Token Setup
 1. Create a Classic Personal Access Token with `repo` (read) scope at https://github.com/settings/tokens
@@ -80,14 +83,13 @@ Auto-detected if absent: stack (from `package.json`), description (from `CLAUDE.
    ```
 3. `.env.local` is gitignored.
 
-## Visual Design — "Hand-crafted Analog"
-- Paper-cream background (`#f5efe4`) + grain + subtle notebook lines
-- **Frank Ruhl Libre** for serif Hebrew titles, **Heebo** for body, **Caveat** for handwritten callouts, **JetBrains Mono** for code/numerals
-- Polaroids (slight rotation, yellow tape) for project images
-- Sticky notes (yellow with tape) for "next step"
-- Rubber-stamp status indicators (slight rotate, opacity 0.85)
-- Heartbeat-pulsing dot for live status
-- Hero (top featured project) + filterable grid + drawer for details
+## Visual Design — "Quiet Luxury / Atelier Journal"
+- Warm bone background (`#f3eee4`), single muted clay accent (`#a8624a`), soft hairline dividers (`#d8d1c2`)
+- **Frank Ruhl Libre** for Hebrew display, **EB Garamond** for Latin display/italics, **Heebo** for body, **IBM Plex Mono** for tiny uppercase labels
+- 2-column layout: LEFT = projects list (index numeral, title, one-sentence tagline, 16:10 thumbnail, mono link row, status dot, relative time). RIGHT = scrollable feed of editable note blocks (one per project).
+- No skeuomorphism — no polaroids, no tape, no rotation, no rubber stamps, no paper grain.
+- Status indicators: 7px desaturated dot + mono uppercase label. No live-pulse animation.
+- Below 980px the columns stack (projects first, notes below).
 
 ## Accessibility / Direction
 - `dir="rtl"` on `<html>`, Hebrew primary
@@ -99,3 +101,4 @@ Auto-detected if absent: stack (from `package.json`), description (from `CLAUDE.
 - `projects-status.json` & `github-cloud-projects.json` are checked into git
 - LaunchAgent at `~/Library/LaunchAgents/com.rannsegal.project-dashboard.plist` runs `scan:push` every 3 hours
 - No build step — flat HTML/CSS/JS
+- Notes are **client-side only** (localStorage) and do not sync across devices. Use the `notes` field in `projects-meta.json` if a baseline reminder should be visible on a fresh browser profile.

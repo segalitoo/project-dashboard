@@ -3,97 +3,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="מחברת הפרוייקטים - אוסף הפרוייקטים האישיים של רן">
-  <meta name="theme-color" content="#f5efe4">
-  <title>מחברת הפרוייקטים</title>
+  <meta name="description" content="מחברת — יומן עבודה אישי של פרוייקטים">
+  <meta name="theme-color" content="#f3eee4">
+  <title>מחברת</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;500;700&family=Heebo:wght@300;400;500;700&family=Caveat:wght@400;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;500;700&family=Heebo:wght@300;400;500&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="index.css">
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📓</text></svg>">
 </head>
 <body>
 
-  <!-- Variant switcher (compare design directions) -->
-  <nav class="variant-switcher" aria-label="כיוון עיצובי">
-    <a href="./" class="vs-link active">
-      <span class="vs-dot"></span>מחברת
-    </a>
-    <a href="bento.html" class="vs-link">
-      <span class="vs-dot"></span>Bento
-    </a>
-    <a href="dark.html" class="vs-link">
-      <span class="vs-dot"></span>Dark
-    </a>
-  </nav>
-
-  <!-- Paper grain & grid background overlay -->
-  <div class="paper-texture" aria-hidden="true"></div>
-
-  <div class="page">
-
-    <!-- ── Header ─────────────────────────────────────────────────── -->
-    <header class="notebook-header">
-      <div class="header-meta">
-        <span class="meta-stamp">בית מלאכה אישי</span>
+  <header class="masthead">
+    <div class="masthead-inner">
+      <div class="masthead-title-block">
+        <h1 class="masthead-title">מחברת</h1>
+        <p class="masthead-sub">a working journal of projects</p>
       </div>
-      <h1 class="notebook-title">מחברת הפרוייקטים</h1>
-      <p class="notebook-subtitle" id="header-subtitle">טוען...</p>
-      <div class="header-rule" aria-hidden="true"></div>
-    </header>
+      <div class="masthead-meta" id="masthead-meta" dir="ltr"></div>
+    </div>
+    <div class="masthead-rule" aria-hidden="true"></div>
+  </header>
 
-    <!-- ── Hero (most active project) ─────────────────────────────── -->
-    <section class="hero" id="hero" hidden></section>
+  <main class="layout">
+    <section class="col col-projects" aria-label="פרוייקטים">
+      <div class="col-label" dir="ltr">— projects</div>
+      <div class="projects-list" id="projects-list"></div>
+    </section>
 
-    <!-- ── Filters ─────────────────────────────────────────────────── -->
-    <nav class="filters-row" aria-label="סינון">
-      <div class="filters" id="filters">
-        <button class="filter-pill" data-filter="all" aria-pressed="true">
-          הכל <span class="count" id="count-all">-</span>
-        </button>
-        <button class="filter-pill" data-filter="live" aria-pressed="false">
-          חי <span class="count" id="count-live">-</span>
-        </button>
-        <button class="filter-pill" data-filter="building" aria-pressed="false">
-          בפיתוח <span class="count" id="count-building">-</span>
-        </button>
-        <button class="filter-pill" data-filter="paused" aria-pressed="false">
-          מושהה <span class="count" id="count-paused">-</span>
-        </button>
-        <button class="filter-pill" data-filter="archive" aria-pressed="false">
-          ארכיון <span class="count" id="count-archive">-</span>
-        </button>
-        <button class="filter-pill" data-filter="idea" aria-pressed="false">
-          רעיון <span class="count" id="count-idea">-</span>
-        </button>
-      </div>
-
-      <div class="search-wrap">
-        <input
-          type="text"
-          class="search-input"
-          id="search-input"
-          placeholder="חיפוש..."
-          autocomplete="off"
-        >
-      </div>
-    </nav>
-
-    <!-- ── Grid (rest of projects) ─────────────────────────────────── -->
-    <main class="grid" id="grid">
-      <!-- Rendered by JS -->
-    </main>
-
-  </div>
-
-  <!-- ── Drawer (project detail) ──────────────────────────────────── -->
-  <div class="drawer-backdrop" id="drawer-backdrop" hidden></div>
-  <aside class="drawer" id="drawer" hidden aria-hidden="true">
-    <button class="drawer-close" id="drawer-close" aria-label="סגור">×</button>
-    <div class="drawer-content" id="drawer-content"></div>
-  </aside>
+    <section class="col col-notes" aria-label="תזכורות">
+      <div class="col-label" dir="ltr">— notes</div>
+      <div class="notes-feed" id="notes-feed"></div>
+    </section>
+  </main>
 
   <script src="app.js"></script>
 </body>
