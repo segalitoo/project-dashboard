@@ -206,7 +206,7 @@ button { font: inherit; }
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
   gap: var(--s-8);
-  align-items: stretch;
+  align-items: start;
 }
 
 /* Media (DOM-first → goes to first grid column → right side in RTL) */
@@ -216,7 +216,7 @@ button { font: inherit; }
   overflow: hidden;
   background: var(--bg-elev-1);
   aspect-ratio: 4 / 3;
-  min-height: 360px;
+  width: 100%;
   border: 1px solid var(--border-soft);
 }
 
@@ -239,7 +239,7 @@ button { font: inherit; }
 .project-media-initial {
   font-family: var(--sans);
   font-weight: 900;
-  font-size: 220px;
+  font-size: clamp(80px, 14vw, 200px);
   line-height: 1;
   letter-spacing: -0.04em;
   color: rgba(255, 255, 255, 0.06);
@@ -316,6 +316,8 @@ button { font: inherit; }
   line-height: 1.04;
   letter-spacing: -0.02em;
   color: var(--ink);
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .project-desc {
@@ -612,11 +614,10 @@ button { font: inherit; }
     gap: var(--s-5);
   }
   .project-media {
-    min-height: 240px;
     aspect-ratio: 16 / 11;
     border-radius: 22px;
   }
-  .project-media-initial { font-size: 130px; }
+  .project-media-initial { font-size: clamp(80px, 22vw, 130px); }
   .project-content { padding-block: 0; gap: var(--s-4); }
   .project-title { font-size: clamp(26px, 7.2vw, 42px); }
   .project-desc { font-size: 15.5px; }
