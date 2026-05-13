@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-12T13:46:20.444Z",
+  "lastUpdated": "2026-05-13T09:52:49.368Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 18,
   "counts": {
@@ -10,6 +10,65 @@
     "idea": 7
   },
   "projects": [
+    {
+      "name": "ran-portfolio",
+      "humanName": "פורטפוליו אישי",
+      "tagline": "כרטיס ביקור אונליין - אוסף הפרוייקטים והשירותים שלי",
+      "longDescription": "אתר סטטי בעברית שמרכז את הפרוייקטים, ניסיון העבודה ופרטי קשר. מעוצב ידנית ב-HTML/CSS/JS ללא פריימוורק, עם דגש על טון אישי וחם. כולל מעקב אנליטיקס דרך GA4.",
+      "nextStep": "לפרסם את הגרסה האחרונה (יש 8 קבצים שונו)",
+      "category": "Portfolio",
+      "accentColor": "#3a4a6b",
+      "screenshot": null,
+      "stack": "HTML/CSS/JS",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-05-13T09:38:08.272Z",
+      "lastActivityHebrew": "לפני 14 דקות",
+      "size": "144M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/ran-portfolio",
+      "source": "local",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "33 minutes ago",
+        "lastCommitMessage": "Add nav active state improvements and enhanced GA4 analytics",
+        "lastCommitDate": "2026-05-13 12:20:06 +0300",
+        "lastCommitHebrew": "לפני 32 דקות",
+        "isDirty": true,
+        "changedFiles": 9
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Add nav active state improvements and enhanced GA4 analytics"
+        },
+        {
+          "type": "commit",
+          "text": "Update Mint project marketing images with polished portfolio visuals"
+        },
+        {
+          "type": "commit",
+          "text": "Add Zeph as first AI project with images and updated nav order"
+        },
+        {
+          "type": "chat",
+          "text": "Continue from where you left off.",
+          "sessionId": "99ddefc0-751b-4ff1-97be-fa5b089c27a1"
+        },
+        {
+          "type": "chat",
+          "text": "in project ran-portfolio, remove the last project",
+          "sessionId": "8b24dc3b-ba22-4905-b480-dd7c287902ae"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "99ddefc0-751b-4ff1-97be-fa5b089c27a1",
+        "lastActivity": "2026-05-13T09:38:08.272Z",
+        "summary": "Continue from where you left off."
+      }
+    },
     {
       "name": "Payoneer-ad-generator",
       "humanName": "מחולל באנרים לפיוניר",
@@ -32,10 +91,10 @@
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "2 days ago",
+        "lastCommitRelative": "3 days ago",
         "lastCommitMessage": "docs: add spec for Mint portfolio marketing images",
         "lastCommitDate": "2026-05-10 12:14:57 +0300",
-        "lastCommitHebrew": "שלשום",
+        "lastCommitHebrew": "לפני 3 ימים",
         "isDirty": true,
         "changedFiles": 20
       },
@@ -62,60 +121,6 @@
         "sessionId": "4f9704cf-f8f9-4706-82c0-a4f2c83021e2",
         "lastActivity": "2026-05-11T12:14:51.781Z",
         "summary": "everything is too bright. we need to make a better visability but keeping some elements with pour green mint color"
-      }
-    },
-    {
-      "name": "ran-portfolio",
-      "humanName": "פורטפוליו אישי",
-      "tagline": "כרטיס ביקור אונליין - אוסף הפרוייקטים והשירותים שלי",
-      "longDescription": "אתר סטטי בעברית שמרכז את הפרוייקטים, ניסיון העבודה ופרטי קשר. מעוצב ידנית ב-HTML/CSS/JS ללא פריימוורק, עם דגש על טון אישי וחם. כולל מעקב אנליטיקס דרך GA4.",
-      "nextStep": "לפרסם את הגרסה האחרונה (יש 8 קבצים שונו)",
-      "category": "Portfolio",
-      "accentColor": "#3a4a6b",
-      "screenshot": null,
-      "stack": "HTML/CSS/JS",
-      "status": "building",
-      "subStatus": null,
-      "lastActivity": "2026-05-11T12:14:44.000Z",
-      "lastActivityHebrew": "אתמול",
-      "size": "144M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/ran-portfolio",
-      "source": "local",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "26 hours ago",
-        "lastCommitMessage": "Update Mint project marketing images with polished portfolio visuals",
-        "lastCommitDate": "2026-05-11 15:14:44 +0300",
-        "lastCommitHebrew": "אתמול",
-        "isDirty": true,
-        "changedFiles": 8
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Update Mint project marketing images with polished portfolio visuals"
-        },
-        {
-          "type": "commit",
-          "text": "Add Zeph as first AI project with images and updated nav order"
-        },
-        {
-          "type": "commit",
-          "text": "Update Payoneer-ad-generator marketing images with new mint-green design"
-        },
-        {
-          "type": "chat",
-          "text": "in project ran-portfolio, remove the last project",
-          "sessionId": "8b24dc3b-ba22-4905-b480-dd7c287902ae"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "99ddefc0-751b-4ff1-97be-fa5b089c27a1",
-        "lastActivity": "2026-05-10T08:53:22.767Z",
-        "summary": ""
       }
     },
     {
@@ -165,7 +170,7 @@
       "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-04-21T22:51:14.737Z",
-      "lastActivityHebrew": "לפני 2 שבועות",
+      "lastActivityHebrew": "לפני 3 שבועות",
       "size": "442M",
       "isLive": false,
       "liveUrl": null,
@@ -265,7 +270,7 @@
         "lastCommitRelative": "4 weeks ago",
         "lastCommitMessage": "Update extension components and marketplace mockup",
         "lastCommitDate": "2026-04-15 12:18:38 +0300",
-        "lastCommitHebrew": "לפני 3 שבועות",
+        "lastCommitHebrew": "לפני 0 חודשים",
         "isDirty": true,
         "changedFiles": 15
       },
