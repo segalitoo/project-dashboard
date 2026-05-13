@@ -133,6 +133,30 @@
       "nextStep": "להגדיר מטרה ספציפית לפרוייקט",
       "accentColor": "#5f9d7f",
       "category": "Idea"
+    },
+    "project-dashboard": {
+      "humanName": "מעקב",
+      "tagline": "לוח פרויקטים אישי — מרכז את כל הפרויקטים המקומיים והענן",
+      "category": "Dev Tools"
+    },
+    "agents": {
+      "category": "AI Tools"
+    },
+    "Codex": {
+      "category": "Idea"
+    },
+    "adgen": {
+      "humanName": "Ad Generator",
+      "category": "AI Tools"
+    },
+    "Chatgpt-codex": {
+      "category": "AI Tools"
+    },
+    "design-agent": {
+      "category": "AI Tools"
+    },
+    "infographic": {
+      "category": "Creative"
     }
   }
 }

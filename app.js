@@ -15,12 +15,18 @@ const STATUS_HE = {
 
 const ACTIVE_STATUSES = new Set(['live', 'building']);
 const NOTE_KEY = (id) => `dashboard-note:${id}`;
+const EDIT_KEY = (id, field) => `dashboard-edit:${id}:${field}`;
+const EDIT_FIELDS = ['humanName', 'tagline', 'category'];
 const PLACEHOLDER = 'הוסיפו תזכורת מהירה…';
+const PH_TITLE    = 'ללא כותרת';
+const PH_TAGLINE  = 'הוסיפו תיאור קצר';
+const PH_CATEGORY = 'הוסיפו קטגוריה';
 const MONTHS_HE = ['ינואר','פברואר','מרץ','אפריל','מאי','יוני','יולי','אוגוסט','ספטמבר','אוקטובר','נובמבר','דצמבר'];
 
 const feedEl       = document.getElementById('feed');
 const heroCountEl  = document.getElementById('hero-count');
 const footerMetaEl = document.getElementById('footer-meta');
+const exportBtnEl  = document.getElementById('export-edits');
 
 let allProjects = [];
 
@@ -71,27 +77,50 @@ function renderFeed(projects) {
   feedEl.querySelectorAll('.notes-body').forEach(bindNoteEditor);
   feedEl.querySelectorAll('.cta').forEach(bindCta);
   feedEl.querySelectorAll('.notes-save').forEach(bindSaveButton);
+  feedEl.querySelectorAll('[data-edit-field]').forEach(bindEditableField);
 }
 
 function renderProject(p) {
   const id = p.name;
-  const title = p.humanName || p.name;
-  const desc = p.longDescription || p.tagline || '';
-  const category = p.category ? p.category.toUpperCase() : '';
+  const titleRaw = applyEdit(p, 'humanName') || p.name;
+  const taglineRaw = applyEdit(p, 'tagline') || '';
+  const categoryRaw = (applyEdit(p, 'category') || '').toUpperCase();
   const date = formatHebrewDate(p.lastActivity);
+
+  const isEdited = (field) => localStorage.getItem(EDIT_KEY(id, field)) !== null;
 
   return `
     <article class="project" data-id="${esc(id)}">
-      ${renderMedia(p, title)}
+      ${renderMedia(p, titleRaw)}
       <div class="project-content">
-        ${(date || category) ? `
         <div class="project-meta">
           ${date ? `<span class="project-date">${esc(date)}</span>` : ''}
-          ${date && category ? `<span class="meta-sep" aria-hidden="true">—</span>` : ''}
-          ${category ? `<span class="project-cat" dir="ltr">${esc(category)}</span>` : ''}
-        </div>` : ''}
-        <h2 class="project-title">${esc(title)}</h2>
-        ${desc ? `<p class="project-desc">${esc(desc)}</p>` : ''}
+          <span class="meta-sep" aria-hidden="true">—</span>
+          <span
+            class="project-cat editable${isEdited('category') ? ' is-edited' : ''}"
+            dir="ltr"
+            contenteditable="true"
+            spellcheck="false"
+            data-edit-field="category"
+            data-placeholder="${esc(PH_CATEGORY)}"
+          >${esc(categoryRaw)}</span>
+        </div>
+        <h2
+          class="project-title editable${isEdited('humanName') ? ' is-edited' : ''}"
+          contenteditable="true"
+          spellcheck="false"
+          dir="auto"
+          data-edit-field="humanName"
+          data-placeholder="${esc(PH_TITLE)}"
+        >${esc(titleRaw)}</h2>
+        <p
+          class="project-desc editable${isEdited('tagline') ? ' is-edited' : ''}"
+          contenteditable="true"
+          spellcheck="false"
+          dir="auto"
+          data-edit-field="tagline"
+          data-placeholder="${esc(PH_TAGLINE)}"
+        >${esc(taglineRaw)}</p>
         ${renderNotes(p)}
         <button class="cta" type="button" aria-expanded="false">
           <span class="cta-label">צפה בפרטים מלאים</span>
@@ -207,6 +236,117 @@ function detailRow(label, valueHtml) {
   `;
 }
 
+// ── Inline editing for title / tagline / category ─────────────────
+function applyEdit(p, field) {
+  const override = localStorage.getItem(EDIT_KEY(p.name, field));
+  if (override !== null) return override;
+  return p[field] || '';
+}
+
+function bindEditableField(el) {
+  const article = el.closest('.project');
+  if (!article) return;
+  const id = article.dataset.id;
+  const field = el.dataset.editField;
+  const project = allProjects.find(p => p.name === id);
+  const original = (project && project[field]) || '';
+  let debounce;
+
+  el.addEventListener('input', () => {
+    clearTimeout(debounce);
+    debounce = setTimeout(() => persistEdit(el, id, field, original), 500);
+  });
+  el.addEventListener('blur', () => {
+    clearTimeout(debounce);
+    persistEdit(el, id, field, original);
+  });
+  el.addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' && field !== 'tagline') {
+      e.preventDefault();
+      el.blur();
+    }
+    if (e.key === 'Escape') {
+      e.preventDefault();
+      el.blur();
+    }
+  });
+}
+
+function persistEdit(el, id, field, original) {
+  let value = el.innerText.replace(/ /g, ' ').trim();
+  if (field === 'category') value = value.toUpperCase();
+  const normalizedOriginal = (original || '').trim();
+  const normalizedOriginalUpper = field === 'category' ? normalizedOriginal.toUpperCase() : normalizedOriginal;
+
+  if (!value || value === normalizedOriginalUpper) {
+    localStorage.removeItem(EDIT_KEY(id, field));
+    el.classList.remove('is-edited');
+  } else {
+    localStorage.setItem(EDIT_KEY(id, field), value);
+    el.classList.add('is-edited');
+  }
+  if (exportBtnEl) updateExportBadge();
+}
+
+// ── Export edits ──────────────────────────────────────────────────
+function collectEdits() {
+  const overrides = {};
+  for (let i = 0; i < localStorage.length; i++) {
+    const key = localStorage.key(i);
+    if (!key || !key.startsWith('dashboard-edit:')) continue;
+    const parts = key.split(':');
+    const projectId = parts[1];
+    const field = parts.slice(2).join(':');
+    if (!projectId || !field) continue;
+    if (!overrides[projectId]) overrides[projectId] = {};
+    overrides[projectId][field] = localStorage.getItem(key);
+  }
+  return overrides;
+}
+
+function updateExportBadge() {
+  if (!exportBtnEl) return;
+  const count = Object.keys(collectEdits()).length;
+  exportBtnEl.dataset.count = count;
+  exportBtnEl.classList.toggle('has-edits', count > 0);
+  const label = exportBtnEl.querySelector('.export-label');
+  if (label) {
+    label.textContent = count
+      ? `ייצוא עריכות (${count})`
+      : 'ייצוא עריכות';
+  }
+}
+
+async function exportEdits() {
+  const overrides = collectEdits();
+  if (!Object.keys(overrides).length) {
+    showToast('אין עריכות לייצא עדיין');
+    return;
+  }
+  const json = JSON.stringify(overrides, null, 2);
+  try {
+    await navigator.clipboard.writeText(json);
+    showToast('הועתק ללוח · הדביקו ב-projects-meta.json תחת "projects"');
+  } catch {
+    console.log('=== Dashboard edits ===\n' + json);
+    showToast('שגיאה בהעתקה — הצצנו לקונסול עם התוכן');
+  }
+}
+
+function showToast(msg) {
+  const existing = document.querySelector('.toast');
+  if (existing) existing.remove();
+  const toast = document.createElement('div');
+  toast.className = 'toast';
+  toast.textContent = msg;
+  document.body.appendChild(toast);
+  requestAnimationFrame(() => toast.classList.add('is-visible'));
+  setTimeout(() => {
+    toast.classList.remove('is-visible');
+    setTimeout(() => toast.remove(), 280);
+  }, 3200);
+}
+
 // ── Notes editor ──────────────────────────────────────────────────
 function bindNoteEditor(el) {
   const project = el.closest('.project');
@@ -302,4 +442,10 @@ function initialOf(title) {
   return trimmed.charAt(0) || '·';
 }
 
-document.addEventListener('DOMContentLoaded', loadData);
+document.addEventListener('DOMContentLoaded', () => {
+  if (exportBtnEl) {
+    exportBtnEl.addEventListener('click', exportEdits);
+    updateExportBadge();
+  }
+  loadData();
+});
