@@ -1,28 +1,28 @@
 /**
- * app.js — מחברת
- * 2-column quiet-luxury journal: projects list (left) + editable notes feed (right).
+ * app.js — מעקב
+ * Dark tracker: hero + per-project feed (image card + content + inline notes + expandable details).
  * Notes persist in localStorage under `dashboard-note:<project.id>`.
  */
 
 const STATUS_HE = {
   live:     'חי',
-  building: 'בפיתוח',
+  building: 'בעבודה',
   paused:   'מושהה',
   archive:  'ארכיון',
   idea:     'רעיון',
   unknown:  'לא ידוע',
 };
 
+const ACTIVE_STATUSES = new Set(['live', 'building']);
 const NOTE_KEY = (id) => `dashboard-note:${id}`;
-const PLACEHOLDER = 'הוספת תזכורת…';
+const PLACEHOLDER = 'הוסיפו תזכורת מהירה…';
 const MONTHS_HE = ['ינואר','פברואר','מרץ','אפריל','מאי','יוני','יולי','אוגוסט','ספטמבר','אוקטובר','נובמבר','דצמבר'];
 
-const projectsListEl = document.getElementById('projects-list');
-const notesFeedEl    = document.getElementById('notes-feed');
-const mastheadMetaEl = document.getElementById('masthead-meta');
+const feedEl       = document.getElementById('feed');
+const heroCountEl  = document.getElementById('hero-count-num');
+const footerMetaEl = document.getElementById('footer-meta');
 
 let allProjects = [];
-let highlightTimer = null;
 
 // ── Load ──────────────────────────────────────────────────────────
 async function loadData() {
@@ -31,161 +31,240 @@ async function loadData() {
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
     const data = await res.json();
     allProjects = data.projects || [];
-    renderMastheadMeta(data);
-    renderProjects(allProjects);
-    renderNotes(allProjects);
+    renderHeroCount(allProjects);
+    renderFeed(allProjects);
+    renderFooter(data);
   } catch (err) {
     console.error('Failed to load:', err);
-    projectsListEl.innerHTML = `<div class="empty-state">אין נתונים — הריצי <code>npm run scan</code>.</div>`;
+    feedEl.innerHTML = `<div class="empty-state">אין נתונים — הריצו <code>npm run scan</code>.</div>`;
   }
 }
 
-// ── Masthead meta (current month + counts) ────────────────────────
-function renderMastheadMeta(data) {
+// ── Hero count ────────────────────────────────────────────────────
+function renderHeroCount(projects) {
+  const active = projects.filter(p => ACTIVE_STATUSES.has(p.status)).length;
+  heroCountEl.textContent = active;
+}
+
+// ── Footer meta ───────────────────────────────────────────────────
+function renderFooter(data) {
   const now = new Date();
-  const month = MONTHS_HE[now.getMonth()];
+  const month = MONTHS_HE[now.getMonth()].toUpperCase();
   const year = String(now.getFullYear()).slice(-2);
   const total = data.projectCount ?? allProjects.length;
-  mastheadMetaEl.textContent = `${month} ’${year}  ·  ${total} projects`;
+  footerMetaEl.textContent = `${month} '${year}  ·  ${total} PROJECTS`;
 }
 
-// ── Projects list (LEFT) ──────────────────────────────────────────
-function renderProjects(projects) {
-  projectsListEl.innerHTML = projects.map((p, i) => renderProject(p, i)).join('');
-  projectsListEl.querySelectorAll('.project').forEach((el) => {
-    el.addEventListener('click', (e) => {
-      if (e.target.closest('a')) return;
-      const id = el.dataset.id;
-      focusNote(id);
-    });
-  });
+// ── Feed ──────────────────────────────────────────────────────────
+function renderFeed(projects) {
+  if (!projects.length) {
+    feedEl.innerHTML = `<div class="empty-state">אין פרויקטים להציג עדיין.</div>`;
+    return;
+  }
+  feedEl.innerHTML = projects.map(renderProject).join('');
+  feedEl.querySelectorAll('.notes-body').forEach(bindNoteEditor);
+  feedEl.querySelectorAll('.cta').forEach(bindCta);
+  feedEl.querySelectorAll('.notes-save').forEach(bindSaveButton);
 }
 
-function renderProject(p, i) {
+function renderProject(p) {
   const id = p.name;
-  const idx = String(i + 1).padStart(2, '0');
   const title = p.humanName || p.name;
-  const tagline = p.tagline || '';
-  const links = collectLinks(p);
-  const time = p.lastActivityHebrew || '';
-  const status = p.status || 'unknown';
-  const statusLabel = STATUS_HE[status] || STATUS_HE.unknown;
-
-  const thumb = p.screenshot
-    ? `<div class="project-thumb"><img src="${esc(p.screenshot)}" alt="" loading="lazy"></div>`
-    : `<div class="project-thumb placeholder" style="background:${tintFor(p.accentColor)}"><span class="project-thumb-initial" style="color:${esc(p.accentColor || '#6b6457')}">${esc(initialOf(title))}</span></div>`;
-
-  const linksHtml = links.length
-    ? links.map((l, idx) => {
-        const sep = idx > 0 ? `<span class="project-foot-sep" aria-hidden="true"></span>` : '';
-        return `${sep}<a class="project-link" data-kind="${l.kind}" href="${esc(l.url)}" target="_blank" rel="noopener" dir="ltr">${esc(l.label)} ↗</a>`;
-      }).join('')
-    : `<span class="mono-label" style="color:var(--ink-soft)">— no links</span>`;
-
-  const timeHtml = time ? `<span class="project-time">${esc(time)}</span>` : '';
+  const desc = p.longDescription || p.tagline || '';
+  const category = (p.category || p.stack || 'PROJECT').toUpperCase();
+  const date = formatHebrewDate(p.lastActivity);
 
   return `
     <article class="project" data-id="${esc(id)}">
-      <div class="project-index">${idx}</div>
-      <div class="project-body">
-        <div class="project-head">
-          <h2 class="project-title">${esc(title)}</h2>
-          <span class="project-status">
-            <span class="status-dot ${esc(status)}" aria-hidden="true"></span>
-            ${esc(statusLabel)}
-          </span>
+      ${renderMedia(p, title)}
+      <div class="project-content">
+        <div class="project-meta">
+          ${date ? `<span class="project-date">${esc(date)}</span>` : ''}
+          ${date && category ? `<span class="meta-sep" aria-hidden="true">•</span>` : ''}
+          ${category ? `<span class="project-cat" dir="ltr">${esc(category)}</span>` : ''}
         </div>
-        ${tagline ? `<p class="project-tagline">${esc(tagline)}</p>` : ''}
-        ${thumb}
-        <div class="project-foot">
-          ${linksHtml}
-          ${timeHtml}
+        <h2 class="project-title">${esc(title)}</h2>
+        ${desc ? `<p class="project-desc">${esc(desc)}</p>` : ''}
+        ${renderNotes(p)}
+        <button class="cta" type="button" aria-expanded="false">
+          <span class="cta-label">צפה בפרטים מלאים</span>
+          <span class="cta-arrow" aria-hidden="true">↙</span>
+        </button>
+        <div class="project-details" aria-hidden="true">
+          <div class="project-details-inner">
+            ${renderDetails(p)}
+          </div>
         </div>
       </div>
     </article>
   `;
 }
 
-// ── Notes feed (RIGHT) ────────────────────────────────────────────
-function renderNotes(projects) {
-  notesFeedEl.innerHTML = projects.map(renderNoteBlock).join('');
-  notesFeedEl.querySelectorAll('.note-body').forEach(bindNoteEditor);
+function renderMedia(p, title) {
+  const status = p.status || 'unknown';
+  const statusLabel = STATUS_HE[status] || STATUS_HE.unknown;
+  const pill = `
+    <div class="status-pill" data-status="${esc(status)}">
+      <span class="status-dot" aria-hidden="true"></span>
+      <span>${esc(statusLabel)}</span>
+    </div>
+  `;
+
+  if (p.screenshot) {
+    return `
+      <div class="project-media">
+        ${pill}
+        <img src="${esc(p.screenshot)}" alt="${esc(title)}" loading="lazy">
+      </div>
+    `;
+  }
+
+  return `
+    <div class="project-media placeholder">
+      ${pill}
+      <span class="project-media-initial" aria-hidden="true">${esc(initialOf(title))}</span>
+    </div>
+  `;
 }
 
-function renderNoteBlock(p) {
+function renderNotes(p) {
   const id = p.name;
-  const title = p.humanName || p.name;
   const initial = (localStorage.getItem(NOTE_KEY(id)) ?? p.notes ?? '').trim();
   return `
-    <section class="note" id="note-${cssId(id)}" data-id="${esc(id)}">
-      <header class="note-head">
-        <h3 class="note-title">${esc(title)}</h3>
-        <span class="note-saved" aria-live="polite">saved</span>
-      </header>
+    <div class="notes">
+      <div class="notes-head">
+        <button class="notes-save" type="button" aria-label="שמור הערות">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2Z"/>
+            <polyline points="17 21 17 13 7 13 7 21"/>
+            <polyline points="7 3 7 8 15 8"/>
+          </svg>
+          <span class="notes-save-label">שמור</span>
+        </button>
+        <h3 class="notes-label">הערות מהירות</h3>
+      </div>
       <div
-        class="note-body"
+        class="notes-body"
         contenteditable="true"
         spellcheck="false"
         dir="auto"
         data-placeholder="${esc(PLACEHOLDER)}"
       >${esc(initial)}</div>
-    </section>
+    </div>
   `;
 }
 
+function renderDetails(p) {
+  const rows = [];
+
+  if (p.nextStep) {
+    rows.push(detailRow('הצעד הבא', esc(p.nextStep)));
+  }
+  if (p.lastActivityHebrew) {
+    rows.push(detailRow('פעילות', esc(p.lastActivityHebrew)));
+  }
+
+  const tags = [];
+  if (p.stack) tags.push(p.stack);
+  if (p.category && p.category !== p.stack) tags.push(p.category);
+  if (tags.length) {
+    rows.push(detailRow(
+      'תגיות',
+      `<div class="detail-tags">${tags.map(t => `<span class="detail-tag">${esc(t)}</span>`).join('')}</div>`
+    ));
+  }
+
+  const links = [];
+  if (p.liveUrl) {
+    links.push(`<a href="${esc(p.liveUrl)}" target="_blank" rel="noopener" dir="ltr">${esc(hostLabel(p.liveUrl))} ↗</a>`);
+  }
+  if (p.githubUrl) {
+    links.push(`<a href="${esc(p.githubUrl)}" target="_blank" rel="noopener" dir="ltr">repo ↗</a>`);
+  }
+  if (links.length) {
+    rows.push(detailRow('קישורים', links.join('  ·  ')));
+  }
+
+  if (!rows.length) {
+    return `<div class="detail-row"><span class="detail-label">אין</span><span class="detail-value">אין פרטים נוספים</span></div>`;
+  }
+  return rows.join('');
+}
+
+function detailRow(label, valueHtml) {
+  return `
+    <div class="detail-row">
+      <span class="detail-label">${esc(label)}</span>
+      <span class="detail-value">${valueHtml}</span>
+    </div>
+  `;
+}
+
+// ── Notes editor ──────────────────────────────────────────────────
 function bindNoteEditor(el) {
-  const note = el.closest('.note');
-  const id = note.dataset.id;
-  const savedEl = note.querySelector('.note-saved');
+  const project = el.closest('.project');
+  const id = project.dataset.id;
+  const saveBtn = project.querySelector('.notes-save');
   let debounce;
-  let savedTimer;
 
   el.addEventListener('input', () => {
+    saveBtn.classList.remove('is-saved');
     clearTimeout(debounce);
-    debounce = setTimeout(() => {
-      const value = el.innerText.replace(/ /g, ' ').trimEnd();
-      if (value) localStorage.setItem(NOTE_KEY(id), value);
-      else localStorage.removeItem(NOTE_KEY(id));
-      flashSaved(savedEl);
-    }, 400);
+    debounce = setTimeout(() => persist(id, el, saveBtn), 500);
   });
 
   el.addEventListener('blur', () => {
     clearTimeout(debounce);
-    const value = el.innerText.replace(/ /g, ' ').trimEnd();
-    if (value) localStorage.setItem(NOTE_KEY(id), value);
-    else localStorage.removeItem(NOTE_KEY(id));
+    persist(id, el, saveBtn);
   });
-
-  function flashSaved(el) {
-    el.classList.add('is-visible');
-    el.textContent = 'saved · just now';
-    clearTimeout(savedTimer);
-    savedTimer = setTimeout(() => el.classList.remove('is-visible'), 1600);
-  }
 }
 
-// ── Cross-column interaction ──────────────────────────────────────
-function focusNote(id) {
-  const note = notesFeedEl.querySelector(`.note[data-id="${cssAttr(id)}"]`);
-  if (!note) return;
-  note.scrollIntoView({ behavior: 'smooth', block: 'start' });
-
-  notesFeedEl.querySelectorAll('.note.is-highlighted').forEach(n => n.classList.remove('is-highlighted'));
-  note.classList.add('is-highlighted');
-  clearTimeout(highlightTimer);
-  highlightTimer = setTimeout(() => note.classList.remove('is-highlighted'), 1400);
-
-  const body = note.querySelector('.note-body');
-  if (body) body.focus({ preventScroll: true });
+function bindSaveButton(btn) {
+  btn.addEventListener('click', () => {
+    const project = btn.closest('.project');
+    const body = project.querySelector('.notes-body');
+    if (!body) return;
+    persist(project.dataset.id, body, btn);
+  });
 }
 
-// ── Link inference ────────────────────────────────────────────────
-function collectLinks(p) {
-  const out = [];
-  if (p.liveUrl) out.push({ kind: 'live', label: hostLabel(p.liveUrl), url: p.liveUrl });
-  if (p.githubUrl) out.push({ kind: 'repo', label: 'repo', url: p.githubUrl });
-  return out;
+function persist(id, el, btn) {
+  const value = el.innerText.replace(/ /g, ' ').trimEnd();
+  if (value) localStorage.setItem(NOTE_KEY(id), value);
+  else localStorage.removeItem(NOTE_KEY(id));
+  flashSaved(btn);
+}
+
+function flashSaved(btn) {
+  const label = btn.querySelector('.notes-save-label');
+  btn.classList.add('is-saved');
+  if (label) label.textContent = 'נשמר';
+  clearTimeout(btn._savedTimer);
+  btn._savedTimer = setTimeout(() => {
+    btn.classList.remove('is-saved');
+    if (label) label.textContent = 'שמור';
+  }, 1600);
+}
+
+// ── CTA (expand inline details) ───────────────────────────────────
+function bindCta(btn) {
+  btn.addEventListener('click', () => {
+    const project = btn.closest('.project');
+    const expanded = project.classList.toggle('is-expanded');
+    btn.setAttribute('aria-expanded', expanded ? 'true' : 'false');
+    const details = project.querySelector('.project-details');
+    if (details) details.setAttribute('aria-hidden', expanded ? 'false' : 'true');
+    const label = btn.querySelector('.cta-label');
+    if (label) label.textContent = expanded ? 'סגרו את הפרטים' : 'צפה בפרטים מלאים';
+  });
+}
+
+// ── Helpers ───────────────────────────────────────────────────────
+function formatHebrewDate(iso) {
+  if (!iso) return '';
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) return '';
+  return `${d.getDate()} ${MONTHS_HE[d.getMonth()]} ${d.getFullYear()}`;
 }
 
 function hostLabel(url) {
@@ -203,7 +282,6 @@ function hostLabel(url) {
   }
 }
 
-// ── Utilities ─────────────────────────────────────────────────────
 function esc(str) {
   if (str === null || str === undefined) return '';
   const d = document.createElement('div');
@@ -211,26 +289,10 @@ function esc(str) {
   return d.innerHTML;
 }
 
-function cssId(s) {
-  return String(s).replace(/[^a-zA-Z0-9_-]/g, '_');
-}
-
-function cssAttr(s) {
-  return String(s).replace(/(["\\])/g, '\\$1');
-}
-
 function initialOf(title) {
   if (!title) return '·';
   const trimmed = String(title).trim();
   return trimmed.charAt(0) || '·';
-}
-
-function tintFor(hex) {
-  if (!hex || !/^#[0-9a-f]{6}$/i.test(hex)) return 'var(--bone-deep)';
-  const r = parseInt(hex.slice(1, 3), 16);
-  const g = parseInt(hex.slice(3, 5), 16);
-  const b = parseInt(hex.slice(5, 7), 16);
-  return `rgba(${r}, ${g}, ${b}, 0.08)`;
 }
 
 document.addEventListener('DOMContentLoaded', loadData);

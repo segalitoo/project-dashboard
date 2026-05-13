@@ -3,41 +3,43 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="מחברת — יומן עבודה אישי של פרוייקטים">
-  <meta name="theme-color" content="#f3eee4">
-  <title>מחברת</title>
+  <meta name="description" content="מעקב — לוח הפרויקטים האישי">
+  <meta name="theme-color" content="#0a0a0a">
+  <title>מעקב — הפרויקטים שלי</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;500;700&family=Heebo:wght@300;400;500&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;700;800;900&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="index.css">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📓</text></svg>">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='white'/><text x='50' y='70' text-anchor='middle' font-size='56' font-family='-apple-system,system-ui,sans-serif' font-weight='900' fill='black'>מ</text></svg>">
 </head>
 <body>
+  <div class="bg-glow" aria-hidden="true"></div>
 
   <header class="masthead">
-    <div class="masthead-inner">
-      <div class="masthead-title-block">
-        <h1 class="masthead-title">מחברת</h1>
-        <p class="masthead-sub">a working journal of projects</p>
-      </div>
-      <div class="masthead-meta" id="masthead-meta" dir="ltr"></div>
-    </div>
-    <div class="masthead-rule" aria-hidden="true"></div>
+    <a href="#" class="masthead-brand" aria-label="מעקב">
+      <span class="brand-mark" aria-hidden="true">מ</span>
+      <span class="brand-name">מעקב</span>
+    </a>
+    <div class="masthead-tag" dir="ltr">V2.0 · TRACKER</div>
   </header>
 
-  <main class="layout">
-    <section class="col col-projects" aria-label="פרוייקטים">
-      <div class="col-label" dir="ltr">— projects</div>
-      <div class="projects-list" id="projects-list"></div>
-    </section>
+  <section class="hero">
+    <h1 class="hero-title">
+      <span class="hero-word hero-word-solid">הפרויקטים</span>
+      <span class="hero-word hero-word-outline">שלי<span class="hero-dot" aria-hidden="true">.</span></span>
+    </h1>
+    <p class="hero-count" id="hero-count" aria-live="polite">
+      מציג <span id="hero-count-num">…</span> פרויקטים פעילים
+    </p>
+  </section>
 
-    <section class="col col-notes" aria-label="תזכורות">
-      <div class="col-label" dir="ltr">— notes</div>
-      <div class="notes-feed" id="notes-feed"></div>
-    </section>
-  </main>
+  <main class="feed" id="feed" aria-label="פרויקטים"></main>
+
+  <footer class="site-footer">
+    <span class="footer-meta" id="footer-meta" dir="ltr"></span>
+  </footer>
 
   <script src="app.js"></script>
 </body>
