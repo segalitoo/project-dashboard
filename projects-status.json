@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-16T12:02:43.215Z",
+  "lastUpdated": "2026-05-16T17:05:46.683Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 22,
   "counts": {
@@ -23,9 +23,9 @@
       "stack": "TypeScript + Next.js + Supabase",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-05-16T12:02:18.000Z",
-      "lastActivityHebrew": "הרגע",
-      "size": "535M",
+      "lastActivity": "2026-05-16T13:58:32.000Z",
+      "lastActivityHebrew": "לפני 3 שעות",
+      "size": "644M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
@@ -33,25 +33,25 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "14 seconds ago",
-        "lastCommitMessage": "feat: add shared types and retailer URL builder",
-        "lastCommitDate": "2026-05-16 15:02:18 +0300",
-        "lastCommitHebrew": "הרגע",
-        "isDirty": false,
-        "changedFiles": 0
+        "lastCommitRelative": "3 hours ago",
+        "lastCommitMessage": "feat: add recommendations page with gap analysis trigger and shop links",
+        "lastCommitDate": "2026-05-16 16:58:32 +0300",
+        "lastCommitHebrew": "לפני 3 שעות",
+        "isDirty": true,
+        "changedFiles": 5
       },
       "recentActions": [
         {
           "type": "commit",
-          "text": "feat: add shared types and retailer URL builder"
+          "text": "feat: add recommendations page with gap analysis trigger and shop links"
         },
         {
           "type": "commit",
-          "text": "chore: add .env to gitignore"
+          "text": "feat: add analyze-wardrobe API route for gap analysis"
         },
         {
           "type": "commit",
-          "text": "chore: clean up bootstrap boilerplate and add .env.example"
+          "text": "feat: add wardrobe grid with filtering and item deletion"
         }
       ],
       "lastSession": null
