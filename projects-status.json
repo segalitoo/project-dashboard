@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-16T17:05:46.683Z",
+  "lastUpdated": "2026-05-17T14:31:08.598Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 22,
   "counts": {
@@ -23,9 +23,9 @@
       "stack": "TypeScript + Next.js + Supabase",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-05-16T13:58:32.000Z",
-      "lastActivityHebrew": "לפני 3 שעות",
-      "size": "644M",
+      "lastActivity": "2026-05-16T20:42:55.000Z",
+      "lastActivityHebrew": "לפני 17 שעות",
+      "size": "981M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
@@ -33,14 +33,18 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "3 hours ago",
-        "lastCommitMessage": "feat: add recommendations page with gap analysis trigger and shop links",
-        "lastCommitDate": "2026-05-16 16:58:32 +0300",
-        "lastCommitHebrew": "לפני 3 שעות",
+        "lastCommitRelative": "18 hours ago",
+        "lastCommitMessage": "fix: guard DB writes in analyze-wardrobe and handle fetchRecs errors",
+        "lastCommitDate": "2026-05-16 23:42:55 +0300",
+        "lastCommitHebrew": "לפני 17 שעות",
         "isDirty": true,
-        "changedFiles": 5
+        "changedFiles": 18
       },
       "recentActions": [
+        {
+          "type": "commit",
+          "text": "fix: guard DB writes in analyze-wardrobe and handle fetchRecs errors"
+        },
         {
           "type": "commit",
           "text": "feat: add recommendations page with gap analysis trigger and shop links"
@@ -48,10 +52,6 @@
         {
           "type": "commit",
           "text": "feat: add analyze-wardrobe API route for gap analysis"
-        },
-        {
-          "type": "commit",
-          "text": "feat: add wardrobe grid with filtering and item deletion"
         }
       ],
       "lastSession": null
@@ -70,7 +70,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-05-13T18:28:43.097Z",
-      "lastActivityHebrew": "שלשום",
+      "lastActivityHebrew": "לפני 3 ימים",
       "size": "250M",
       "isLive": true,
       "liveUrl": "https://payoneer-ad-generator.vercel.app",
@@ -79,10 +79,10 @@
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "6 days ago",
+        "lastCommitRelative": "7 days ago",
         "lastCommitMessage": "docs: add spec for Mint portfolio marketing images",
         "lastCommitDate": "2026-05-10 12:14:57 +0300",
-        "lastCommitHebrew": "לפני 6 ימים",
+        "lastCommitHebrew": "השבוע",
         "isDirty": true,
         "changedFiles": 20
       },
@@ -125,7 +125,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-05-13T09:38:08.272Z",
-      "lastActivityHebrew": "לפני 3 ימים",
+      "lastActivityHebrew": "לפני 4 ימים",
       "size": "144M",
       "isLive": false,
       "liveUrl": null,
@@ -134,10 +134,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "3 days ago",
+        "lastCommitRelative": "4 days ago",
         "lastCommitMessage": "Add nav active state improvements and enhanced GA4 analytics",
         "lastCommitDate": "2026-05-13 12:20:06 +0300",
-        "lastCommitHebrew": "לפני 3 ימים",
+        "lastCommitHebrew": "לפני 4 ימים",
         "isDirty": true,
         "changedFiles": 9
       },
@@ -220,7 +220,7 @@
       "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-05-03T06:18:33Z",
-      "lastActivityHebrew": "השבוע",
+      "lastActivityHebrew": "לפני 2 שבועות",
       "size": "cloud",
       "isLive": false,
       "liveUrl": null,
@@ -232,7 +232,7 @@
         "lastCommitRelative": "",
         "lastCommitMessage": "",
         "lastCommitDate": "2026-05-03T06:18:33Z",
-        "lastCommitHebrew": "השבוע",
+        "lastCommitHebrew": "לפני 2 שבועות",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -352,7 +352,7 @@
       "hasGit": true,
       "git": {
         "branch": "claude/add-claude-documentation-gFq7q",
-        "lastCommitRelative": "4 weeks ago",
+        "lastCommitRelative": "5 weeks ago",
         "lastCommitMessage": "Update extension components and marketplace mockup",
         "lastCommitDate": "2026-04-15 12:18:38 +0300",
         "lastCommitHebrew": "לפני חודש",
@@ -398,7 +398,7 @@
       "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-04-19T09:20:19.019Z",
-      "lastActivityHebrew": "לפני 3 שבועות",
+      "lastActivityHebrew": "לפני 0 חודשים",
       "size": "20K",
       "isLive": false,
       "liveUrl": null,
