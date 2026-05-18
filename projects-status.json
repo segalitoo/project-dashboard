@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-17T14:31:08.598Z",
+  "lastUpdated": "2026-05-18T20:56:27.749Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 22,
   "counts": {
@@ -24,8 +24,8 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-05-16T20:42:55.000Z",
-      "lastActivityHebrew": "לפני 17 שעות",
-      "size": "981M",
+      "lastActivityHebrew": "שלשום",
+      "size": "1.1G",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
@@ -33,12 +33,12 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "18 hours ago",
+        "lastCommitRelative": "2 days ago",
         "lastCommitMessage": "fix: guard DB writes in analyze-wardrobe and handle fetchRecs errors",
         "lastCommitDate": "2026-05-16 23:42:55 +0300",
-        "lastCommitHebrew": "לפני 17 שעות",
+        "lastCommitHebrew": "שלשום",
         "isDirty": true,
-        "changedFiles": 18
+        "changedFiles": 22
       },
       "recentActions": [
         {
@@ -70,7 +70,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-05-13T18:28:43.097Z",
-      "lastActivityHebrew": "לפני 3 ימים",
+      "lastActivityHebrew": "לפני 5 ימים",
       "size": "250M",
       "isLive": true,
       "liveUrl": "https://payoneer-ad-generator.vercel.app",
@@ -79,7 +79,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "7 days ago",
+        "lastCommitRelative": "9 days ago",
         "lastCommitMessage": "docs: add spec for Mint portfolio marketing images",
         "lastCommitDate": "2026-05-10 12:14:57 +0300",
         "lastCommitHebrew": "השבוע",
@@ -125,7 +125,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-05-13T09:38:08.272Z",
-      "lastActivityHebrew": "לפני 4 ימים",
+      "lastActivityHebrew": "לפני 5 ימים",
       "size": "144M",
       "isLive": false,
       "liveUrl": null,
@@ -134,10 +134,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "4 days ago",
+        "lastCommitRelative": "6 days ago",
         "lastCommitMessage": "Add nav active state improvements and enhanced GA4 analytics",
         "lastCommitDate": "2026-05-13 12:20:06 +0300",
-        "lastCommitHebrew": "לפני 4 ימים",
+        "lastCommitHebrew": "לפני 5 ימים",
         "isDirty": true,
         "changedFiles": 9
       },
@@ -288,7 +288,7 @@
       "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-04-19T22:05:05.443Z",
-      "lastActivityHebrew": "לפני 3 שבועות",
+      "lastActivityHebrew": "לפני 0 חודשים",
       "size": "258M",
       "isLive": false,
       "liveUrl": null,
@@ -297,7 +297,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "4 weeks ago",
+        "lastCommitRelative": "5 weeks ago",
         "lastCommitMessage": "fix: remove duplicate selectedLayerId declaration causing blank page",
         "lastCommitDate": "2026-04-16 13:05:58 +0300",
         "lastCommitHebrew": "לפני חודש",
@@ -343,7 +343,7 @@
       "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-04-19T21:42:11.723Z",
-      "lastActivityHebrew": "לפני 3 שבועות",
+      "lastActivityHebrew": "לפני 0 חודשים",
       "size": "287M",
       "isLive": true,
       "liveUrl": "https://zoom-for-kids.vercel.app",
@@ -482,7 +482,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "6 weeks ago",
+        "lastCommitRelative": "7 weeks ago",
         "lastCommitMessage": "AI Academy for Jordan - Hebrew AI learning platform",
         "lastCommitDate": "2026-04-03 00:34:04 +0300",
         "lastCommitHebrew": "לפני חודש",
