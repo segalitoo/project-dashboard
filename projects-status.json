@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-05-20T06:42:58.067Z",
+  "lastUpdated": "2026-05-20T13:40:51.753Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 22,
   "counts": {
     "live": 0,
-    "building": 4,
-    "paused": 3,
+    "building": 3,
+    "paused": 4,
     "archive": 8,
     "idea": 7
   },
@@ -23,8 +23,8 @@
       "stack": "TypeScript + React 19 + Vite + Supabase",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-05-19T10:55:56.132Z",
-      "lastActivityHebrew": "לפני 19 שעות",
+      "lastActivity": "2026-05-20T13:38:14.275Z",
+      "lastActivityHebrew": "לפני 2 דקות",
       "size": "250M",
       "isLive": true,
       "liveUrl": "https://payoneer-ad-generator.vercel.app",
@@ -38,7 +38,7 @@
         "lastCommitDate": "2026-05-10 12:14:57 +0300",
         "lastCommitHebrew": "השבוע",
         "isDirty": true,
-        "changedFiles": 21
+        "changedFiles": 22
       },
       "recentActions": [
         {
@@ -61,7 +61,7 @@
       ],
       "lastSession": {
         "sessionId": "4f9704cf-f8f9-4706-82c0-a4f2c83021e2",
-        "lastActivity": "2026-05-19T10:55:56.132Z",
+        "lastActivity": "2026-05-20T13:38:14.275Z",
         "summary": "everything is too bright. we need to make a better visability but keeping some elements with pour green mint color"
       }
     },
@@ -79,7 +79,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-05-19T07:28:42.031Z",
-      "lastActivityHebrew": "לפני 23 שעות",
+      "lastActivityHebrew": "אתמול",
       "size": "791M",
       "isLive": false,
       "liveUrl": null,
@@ -130,7 +130,7 @@
       "subStatus": null,
       "lastActivity": "2026-05-16T20:42:55.000Z",
       "lastActivityHebrew": "לפני 3 ימים",
-      "size": "1.1G",
+      "size": "1.0G",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
@@ -138,7 +138,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "3 days ago",
+        "lastCommitRelative": "4 days ago",
         "lastCommitMessage": "fix: guard DB writes in analyze-wardrobe and handle fetchRecs errors",
         "lastCommitDate": "2026-05-16 23:42:55 +0300",
         "lastCommitHebrew": "לפני 3 ימים",
@@ -172,10 +172,10 @@
       "accentColor": "#3a4a6b",
       "screenshot": null,
       "stack": "HTML/CSS/JS",
-      "status": "building",
+      "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-05-13T09:38:08.272Z",
-      "lastActivityHebrew": "לפני 6 ימים",
+      "lastActivityHebrew": "השבוע",
       "size": "144M",
       "isLive": false,
       "liveUrl": null,
@@ -187,7 +187,7 @@
         "lastCommitRelative": "7 days ago",
         "lastCommitMessage": "Add nav active state improvements and enhanced GA4 analytics",
         "lastCommitDate": "2026-05-13 12:20:06 +0300",
-        "lastCommitHebrew": "לפני 6 ימים",
+        "lastCommitHebrew": "השבוע",
         "isDirty": true,
         "changedFiles": 9
       },
