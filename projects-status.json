@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-20T13:40:51.753Z",
+  "lastUpdated": "2026-05-20T23:19:26.112Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 22,
   "counts": {
@@ -24,7 +24,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-05-20T13:38:14.275Z",
-      "lastActivityHebrew": "לפני 2 דקות",
+      "lastActivityHebrew": "לפני 9 שעות",
       "size": "250M",
       "isLive": true,
       "liveUrl": "https://payoneer-ad-generator.vercel.app",
@@ -33,7 +33,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "10 days ago",
+        "lastCommitRelative": "11 days ago",
         "lastCommitMessage": "docs: add spec for Mint portfolio marketing images",
         "lastCommitDate": "2026-05-10 12:14:57 +0300",
         "lastCommitHebrew": "השבוע",
@@ -129,7 +129,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-05-16T20:42:55.000Z",
-      "lastActivityHebrew": "לפני 3 ימים",
+      "lastActivityHebrew": "לפני 4 ימים",
       "size": "1.0G",
       "isLive": false,
       "liveUrl": null,
@@ -141,7 +141,7 @@
         "lastCommitRelative": "4 days ago",
         "lastCommitMessage": "fix: guard DB writes in analyze-wardrobe and handle fetchRecs errors",
         "lastCommitDate": "2026-05-16 23:42:55 +0300",
-        "lastCommitHebrew": "לפני 3 ימים",
+        "lastCommitHebrew": "לפני 4 ימים",
         "isDirty": true,
         "changedFiles": 22
       },
@@ -184,7 +184,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "7 days ago",
+        "lastCommitRelative": "8 days ago",
         "lastCommitMessage": "Add nav active state improvements and enhanced GA4 analytics",
         "lastCommitDate": "2026-05-13 12:20:06 +0300",
         "lastCommitHebrew": "השבוע",
