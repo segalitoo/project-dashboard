@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-24T12:21:14.513Z",
+  "lastUpdated": "2026-05-24T16:09:44.963Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 22,
   "counts": {
@@ -24,8 +24,8 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-05-24T06:14:59.696Z",
-      "lastActivityHebrew": "לפני 6 שעות",
-      "size": "668M",
+      "lastActivityHebrew": "לפני 9 שעות",
+      "size": "666M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": "https://github.com/segalitoo/Shhh",
@@ -74,7 +74,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-05-23T20:33:53.099Z",
-      "lastActivityHebrew": "לפני 15 שעות",
+      "lastActivityHebrew": "לפני 19 שעות",
       "size": "250M",
       "isLive": true,
       "liveUrl": "https://payoneer-ad-generator.vercel.app",
