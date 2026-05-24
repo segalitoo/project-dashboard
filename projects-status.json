@@ -1,70 +1,15 @@
 {
-  "lastUpdated": "2026-05-24T06:08:28.117Z",
+  "lastUpdated": "2026-05-24T12:21:14.513Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 22,
   "counts": {
     "live": 0,
     "building": 2,
     "paused": 4,
-    "archive": 8,
-    "idea": 8
+    "archive": 7,
+    "idea": 9
   },
   "projects": [
-    {
-      "name": "Payoneer-ad-generator",
-      "humanName": "מחולל באנרים לפיוניר",
-      "tagline": "כלי שמייצר אוטומטית באנרים פרסומיים באמצעות AI",
-      "longDescription": "הפרוייקט מקבל פרטי מוצר ומחזיר עשרה באנרים פרסומיים בסגנונות שונים. מבוסס על Gemini ליצירת תמונות וניתוח תוכן, עם backend ב-Supabase לאחסון וצד משתמש ב-React. נבנה כדמו ל-Payoneer.",
-      "nextStep": "לסיים את הפיצ׳ר node-canvas ולמזג ל-main",
-      "notes": null,
-      "category": "AI Tools",
-      "accentColor": "#8b3a2e",
-      "screenshot": null,
-      "stack": "TypeScript + React 19 + Vite + Supabase",
-      "status": "building",
-      "subStatus": null,
-      "lastActivity": "2026-05-23T20:33:53.099Z",
-      "lastActivityHebrew": "לפני 9 שעות",
-      "size": "250M",
-      "isLive": true,
-      "liveUrl": "https://payoneer-ad-generator.vercel.app",
-      "githubUrl": "https://github.com/segalitoo/Payoneer-ad-generator",
-      "source": "both",
-      "hasGit": true,
-      "git": {
-        "branch": "feat/node-canvas",
-        "lastCommitRelative": "2 weeks ago",
-        "lastCommitMessage": "docs: add spec for Mint portfolio marketing images",
-        "lastCommitDate": "2026-05-10 12:14:57 +0300",
-        "lastCommitHebrew": "השבוע",
-        "isDirty": true,
-        "changedFiles": 22
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "docs: add spec for Mint portfolio marketing images"
-        },
-        {
-          "type": "commit",
-          "text": "feat(theme): add light/dark toggle with node canvas theming"
-        },
-        {
-          "type": "commit",
-          "text": "feat(contrast): apply dark sidebar treatment to icon-rail (actual nav component)"
-        },
-        {
-          "type": "chat",
-          "text": "everything is too bright. we need to make a better visability but keeping some elements with pour green mint color",
-          "sessionId": "4f9704cf-f8f9-4706-82c0-a4f2c83021e2"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "4f9704cf-f8f9-4706-82c0-a4f2c83021e2",
-        "lastActivity": "2026-05-23T20:33:53.099Z",
-        "summary": "everything is too bright. we need to make a better visability but keeping some elements with pour green mint color"
-      }
-    },
     {
       "name": "Shhh",
       "humanName": "Shhh",
@@ -78,9 +23,9 @@
       "stack": "Python",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-05-19T07:28:42.031Z",
-      "lastActivityHebrew": "לפני 4 ימים",
-      "size": "791M",
+      "lastActivity": "2026-05-24T06:14:59.696Z",
+      "lastActivityHebrew": "לפני 6 שעות",
+      "size": "668M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": "https://github.com/segalitoo/Shhh",
@@ -111,8 +56,63 @@
       ],
       "lastSession": {
         "sessionId": "07ecd1ec-397b-4af7-8d15-b19a8f55f5e7",
-        "lastActivity": "2026-05-19T07:28:42.031Z",
+        "lastActivity": "2026-05-24T06:14:59.696Z",
         "summary": "Base directory for this skill: /private/tmp/claude-501/bundled-skills/2.1.138/c325fd82b8b807e648409daa5a24cab7/claude-ap…"
+      }
+    },
+    {
+      "name": "Payoneer-ad-generator",
+      "humanName": "מחולל באנרים לפיוניר",
+      "tagline": "כלי שמייצר אוטומטית באנרים פרסומיים באמצעות AI",
+      "longDescription": "הפרוייקט מקבל פרטי מוצר ומחזיר עשרה באנרים פרסומיים בסגנונות שונים. מבוסס על Gemini ליצירת תמונות וניתוח תוכן, עם backend ב-Supabase לאחסון וצד משתמש ב-React. נבנה כדמו ל-Payoneer.",
+      "nextStep": "לסיים את הפיצ׳ר node-canvas ולמזג ל-main",
+      "notes": null,
+      "category": "AI Tools",
+      "accentColor": "#8b3a2e",
+      "screenshot": null,
+      "stack": "TypeScript + React 19 + Vite + Supabase",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-05-23T20:33:53.099Z",
+      "lastActivityHebrew": "לפני 15 שעות",
+      "size": "250M",
+      "isLive": true,
+      "liveUrl": "https://payoneer-ad-generator.vercel.app",
+      "githubUrl": "https://github.com/segalitoo/Payoneer-ad-generator",
+      "source": "both",
+      "hasGit": true,
+      "git": {
+        "branch": "feat/node-canvas",
+        "lastCommitRelative": "2 weeks ago",
+        "lastCommitMessage": "docs: add spec for Mint portfolio marketing images",
+        "lastCommitDate": "2026-05-10 12:14:57 +0300",
+        "lastCommitHebrew": "לפני 2 שבועות",
+        "isDirty": true,
+        "changedFiles": 22
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "docs: add spec for Mint portfolio marketing images"
+        },
+        {
+          "type": "commit",
+          "text": "feat(theme): add light/dark toggle with node canvas theming"
+        },
+        {
+          "type": "commit",
+          "text": "feat(contrast): apply dark sidebar treatment to icon-rail (actual nav component)"
+        },
+        {
+          "type": "chat",
+          "text": "everything is too bright. we need to make a better visability but keeping some elements with pour green mint color",
+          "sessionId": "4f9704cf-f8f9-4706-82c0-a4f2c83021e2"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "4f9704cf-f8f9-4706-82c0-a4f2c83021e2",
+        "lastActivity": "2026-05-23T20:33:53.099Z",
+        "summary": "everything is too bright. we need to make a better visability but keeping some elements with pour green mint color"
       }
     },
     {
@@ -138,7 +138,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "7 days ago",
+        "lastCommitRelative": "8 days ago",
         "lastCommitMessage": "fix: guard DB writes in analyze-wardrobe and handle fetchRecs errors",
         "lastCommitDate": "2026-05-16 23:42:55 +0300",
         "lastCommitHebrew": "השבוע",
@@ -265,7 +265,7 @@
       "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-05-03T06:18:33Z",
-      "lastActivityHebrew": "לפני 2 שבועות",
+      "lastActivityHebrew": "לפני 3 שבועות",
       "size": "cloud",
       "isLive": false,
       "liveUrl": null,
@@ -277,7 +277,7 @@
         "lastCommitRelative": "",
         "lastCommitMessage": "",
         "lastCommitDate": "2026-05-03T06:18:33Z",
-        "lastCommitHebrew": "לפני 2 שבועות",
+        "lastCommitHebrew": "לפני 3 שבועות",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -347,7 +347,7 @@
       "stack": "TypeScript + React 18 + Vite",
       "status": "archive",
       "subStatus": null,
-      "lastActivity": "2026-04-19T21:42:11.723Z",
+      "lastActivity": "2026-04-15T09:18:38.000Z",
       "lastActivityHebrew": "לפני חודש",
       "size": "287M",
       "isLive": true,
@@ -376,47 +376,9 @@
         {
           "type": "commit",
           "text": "עדכון טקסט טסטמוניאל: הסרת 'וואו'"
-        },
-        {
-          "type": "chat",
-          "text": "in project ran-portfolio, remove the last project",
-          "sessionId": "8b24dc3b-ba22-4905-b480-dd7c287902ae"
         }
       ],
-      "lastSession": {
-        "sessionId": "8b24dc3b-ba22-4905-b480-dd7c287902ae",
-        "lastActivity": "2026-04-19T21:42:11.723Z",
-        "summary": "in project ran-portfolio, remove the last project"
-      }
-    },
-    {
-      "name": "agents",
-      "humanName": "agents",
-      "tagline": "Unknown",
-      "longDescription": "פרוייקט ב-Unknown",
-      "nextStep": null,
-      "notes": null,
-      "category": "AI Tools",
-      "accentColor": "#a87432",
-      "screenshot": null,
-      "stack": "Unknown",
-      "status": "archive",
-      "subStatus": null,
-      "lastActivity": "2026-04-19T09:20:19.019Z",
-      "lastActivityHebrew": "לפני חודש",
-      "size": "20K",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": null,
-      "source": "local",
-      "hasGit": false,
-      "git": null,
-      "recentActions": [],
-      "lastSession": {
-        "sessionId": "5586472e-fdb8-40e3-9f49-670dbf51be1b",
-        "lastActivity": "2026-04-19T09:20:19.019Z",
-        "summary": "<ide_opened_file>The user opened the file /Users/rannsegal/Claude/anime-master/src/components/editor/Canvas.tsx in the I…"
-      }
+      "lastSession": null
     },
     {
       "name": "ai-academy-jordan",
@@ -630,6 +592,31 @@
       "lastActivity": null,
       "lastActivityHebrew": "",
       "size": "312K",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [],
+      "lastSession": null
+    },
+    {
+      "name": "agents",
+      "humanName": "agents",
+      "tagline": "Unknown",
+      "longDescription": "פרוייקט ב-Unknown",
+      "nextStep": null,
+      "notes": null,
+      "category": "AI Tools",
+      "accentColor": "#a87432",
+      "screenshot": null,
+      "stack": "Unknown",
+      "status": "idea",
+      "subStatus": null,
+      "lastActivity": null,
+      "lastActivityHebrew": "",
+      "size": "20K",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
