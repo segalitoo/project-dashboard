@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-25T06:08:48.605Z",
+  "lastUpdated": "2026-05-25T09:48:06.817Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 22,
   "counts": {
@@ -23,8 +23,8 @@
       "stack": "Python",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-05-24T06:14:59.696Z",
-      "lastActivityHebrew": "לפני 23 שעות",
+      "lastActivity": "2026-05-25T06:27:08.237Z",
+      "lastActivityHebrew": "לפני 3 שעות",
       "size": "666M",
       "isLive": false,
       "liveUrl": null,
@@ -56,7 +56,7 @@
       ],
       "lastSession": {
         "sessionId": "07ecd1ec-397b-4af7-8d15-b19a8f55f5e7",
-        "lastActivity": "2026-05-24T06:14:59.696Z",
+        "lastActivity": "2026-05-25T06:27:08.237Z",
         "summary": "Base directory for this skill: /private/tmp/claude-501/bundled-skills/2.1.138/c325fd82b8b807e648409daa5a24cab7/claude-ap…"
       }
     },
@@ -138,7 +138,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "8 days ago",
+        "lastCommitRelative": "9 days ago",
         "lastCommitMessage": "fix: guard DB writes in analyze-wardrobe and handle fetchRecs errors",
         "lastCommitDate": "2026-05-16 23:42:55 +0300",
         "lastCommitHebrew": "השבוע",
@@ -403,7 +403,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "7 weeks ago",
+        "lastCommitRelative": "8 weeks ago",
         "lastCommitMessage": "AI Academy for Jordan - Hebrew AI learning platform",
         "lastCommitDate": "2026-04-03 00:34:04 +0300",
         "lastCommitHebrew": "לפני חודש",
