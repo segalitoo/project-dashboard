@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-24T19:14:57.123Z",
+  "lastUpdated": "2026-05-25T00:07:55.049Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 22,
   "counts": {
@@ -24,7 +24,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-05-24T06:14:59.696Z",
-      "lastActivityHebrew": "לפני 12 שעות",
+      "lastActivityHebrew": "לפני 17 שעות",
       "size": "666M",
       "isLive": false,
       "liveUrl": null,
@@ -74,7 +74,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-05-23T20:33:53.099Z",
-      "lastActivityHebrew": "לפני 22 שעות",
+      "lastActivityHebrew": "אתמול",
       "size": "250M",
       "isLive": true,
       "liveUrl": "https://payoneer-ad-generator.vercel.app",
@@ -184,7 +184,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "11 days ago",
+        "lastCommitRelative": "12 days ago",
         "lastCommitMessage": "Add nav active state improvements and enhanced GA4 analytics",
         "lastCommitDate": "2026-05-13 12:20:06 +0300",
         "lastCommitHebrew": "השבוע",
@@ -307,7 +307,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "5 weeks ago",
+        "lastCommitRelative": "6 weeks ago",
         "lastCommitMessage": "fix: remove duplicate selectedLayerId declaration causing blank page",
         "lastCommitDate": "2026-04-16 13:05:58 +0300",
         "lastCommitHebrew": "לפני חודש",
