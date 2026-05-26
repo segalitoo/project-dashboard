@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-26T13:27:14.998Z",
+  "lastUpdated": "2026-05-26T17:11:13.092Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 22,
   "counts": {
@@ -23,8 +23,8 @@
       "stack": "Python",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-05-25T06:27:08.237Z",
-      "lastActivityHebrew": "אתמול",
+      "lastActivity": "2026-05-26T14:34:18.589Z",
+      "lastActivityHebrew": "לפני 2 שעות",
       "size": "666M",
       "isLive": false,
       "liveUrl": null,
@@ -56,7 +56,7 @@
       ],
       "lastSession": {
         "sessionId": "07ecd1ec-397b-4af7-8d15-b19a8f55f5e7",
-        "lastActivity": "2026-05-25T06:27:08.237Z",
+        "lastActivity": "2026-05-26T14:34:18.589Z",
         "summary": "Base directory for this skill: /private/tmp/claude-501/bundled-skills/2.1.138/c325fd82b8b807e648409daa5a24cab7/claude-ap…"
       }
     },
