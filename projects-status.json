@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-25T21:40:31.065Z",
+  "lastUpdated": "2026-05-26T01:12:46.316Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 22,
   "counts": {
@@ -24,7 +24,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-05-25T06:27:08.237Z",
-      "lastActivityHebrew": "לפני 15 שעות",
+      "lastActivityHebrew": "לפני 18 שעות",
       "size": "666M",
       "isLive": false,
       "liveUrl": null,
@@ -482,7 +482,7 @@
       "status": "archive",
       "subStatus": null,
       "lastActivity": "2026-02-24T21:40:56.000Z",
-      "lastActivityHebrew": "לפני 2 חודשים",
+      "lastActivityHebrew": "לפני 3 חודשים",
       "size": "832M",
       "isLive": false,
       "liveUrl": null,
@@ -494,7 +494,7 @@
         "lastCommitRelative": "3 months ago",
         "lastCommitMessage": "Portfolio: 6 case studies with realistic photo placeholders",
         "lastCommitDate": "2026-02-24 23:40:56 +0200",
-        "lastCommitHebrew": "לפני 2 חודשים",
+        "lastCommitHebrew": "לפני 3 חודשים",
         "isDirty": true,
         "changedFiles": 23
       },
