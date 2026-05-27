@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-27T06:46:46.482Z",
+  "lastUpdated": "2026-05-27T09:46:59.458Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 22,
   "counts": {
@@ -24,7 +24,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-05-27T06:31:31.474Z",
-      "lastActivityHebrew": "לפני 15 דקות",
+      "lastActivityHebrew": "לפני 3 שעות",
       "size": "250M",
       "isLive": true,
       "liveUrl": "https://payoneer-ad-generator.vercel.app",
@@ -79,7 +79,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-05-27T05:41:10.003Z",
-      "lastActivityHebrew": "לפני שעה",
+      "lastActivityHebrew": "לפני 4 שעות",
       "size": "666M",
       "isLive": false,
       "liveUrl": null,
@@ -138,7 +138,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "10 days ago",
+        "lastCommitRelative": "11 days ago",
         "lastCommitMessage": "fix: guard DB writes in analyze-wardrobe and handle fetchRecs errors",
         "lastCommitDate": "2026-05-16 23:42:55 +0300",
         "lastCommitHebrew": "השבוע",
@@ -175,7 +175,7 @@
       "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-05-13T09:38:08.272Z",
-      "lastActivityHebrew": "השבוע",
+      "lastActivityHebrew": "לפני 2 שבועות",
       "size": "144M",
       "isLive": false,
       "liveUrl": null,
@@ -187,7 +187,7 @@
         "lastCommitRelative": "2 weeks ago",
         "lastCommitMessage": "Add nav active state improvements and enhanced GA4 analytics",
         "lastCommitDate": "2026-05-13 12:20:06 +0300",
-        "lastCommitHebrew": "השבוע",
+        "lastCommitHebrew": "לפני 2 שבועות",
         "isDirty": true,
         "changedFiles": 9
       },
