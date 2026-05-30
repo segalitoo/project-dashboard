@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-30T18:10:20.968Z",
+  "lastUpdated": "2026-05-30T21:30:53.457Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 22,
   "counts": {
@@ -129,7 +129,7 @@
       "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-05-16T20:42:55.000Z",
-      "lastActivityHebrew": "השבוע",
+      "lastActivityHebrew": "לפני 2 שבועות",
       "size": "1.0G",
       "isLive": false,
       "liveUrl": null,
@@ -141,7 +141,7 @@
         "lastCommitRelative": "2 weeks ago",
         "lastCommitMessage": "fix: guard DB writes in analyze-wardrobe and handle fetchRecs errors",
         "lastCommitDate": "2026-05-16 23:42:55 +0300",
-        "lastCommitHebrew": "השבוע",
+        "lastCommitHebrew": "לפני 2 שבועות",
         "isDirty": true,
         "changedFiles": 22
       },
@@ -184,7 +184,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "2 weeks ago",
+        "lastCommitRelative": "3 weeks ago",
         "lastCommitMessage": "Add nav active state improvements and enhanced GA4 analytics",
         "lastCommitDate": "2026-05-13 12:20:06 +0300",
         "lastCommitHebrew": "לפני 2 שבועות",
@@ -357,7 +357,7 @@
       "hasGit": true,
       "git": {
         "branch": "claude/add-claude-documentation-gFq7q",
-        "lastCommitRelative": "6 weeks ago",
+        "lastCommitRelative": "7 weeks ago",
         "lastCommitMessage": "Update extension components and marketplace mockup",
         "lastCommitDate": "2026-04-15 12:18:38 +0300",
         "lastCommitHebrew": "לפני חודש",
