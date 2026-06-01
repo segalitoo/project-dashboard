@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-01T19:20:26.319Z",
+  "lastUpdated": "2026-06-01T23:02:40.300Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 22,
   "counts": {
@@ -394,7 +394,7 @@
       "status": "archive",
       "subStatus": null,
       "lastActivity": "2026-04-02T21:34:04.000Z",
-      "lastActivityHebrew": "לפני חודש",
+      "lastActivityHebrew": "לפני 2 חודשים",
       "size": "806M",
       "isLive": false,
       "liveUrl": null,
@@ -406,7 +406,7 @@
         "lastCommitRelative": "9 weeks ago",
         "lastCommitMessage": "AI Academy for Jordan - Hebrew AI learning platform",
         "lastCommitDate": "2026-04-03 00:34:04 +0300",
-        "lastCommitHebrew": "לפני חודש",
+        "lastCommitHebrew": "לפני 2 חודשים",
         "isDirty": true,
         "changedFiles": 1
       },
