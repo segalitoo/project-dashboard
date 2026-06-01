@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-31T20:12:48.063Z",
+  "lastUpdated": "2026-06-01T01:03:44.218Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 22,
   "counts": {
@@ -307,7 +307,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "6 weeks ago",
+        "lastCommitRelative": "7 weeks ago",
         "lastCommitMessage": "fix: remove duplicate selectedLayerId declaration causing blank page",
         "lastCommitDate": "2026-04-16 13:05:58 +0300",
         "lastCommitHebrew": "לפני חודש",
