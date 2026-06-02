@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-02T08:03:18.024Z",
+  "lastUpdated": "2026-06-02T11:20:00.161Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 22,
   "counts": {
@@ -24,7 +24,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-02T07:07:31.903Z",
-      "lastActivityHebrew": "לפני 55 דקות",
+      "lastActivityHebrew": "לפני 4 שעות",
       "size": "144M",
       "isLive": false,
       "liveUrl": null,
@@ -33,10 +33,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "73 minutes ago",
+        "lastCommitRelative": "5 hours ago",
         "lastCommitMessage": "Update AI project titles for clarity and searchability",
         "lastCommitDate": "2026-06-02 09:49:53 +0300",
-        "lastCommitHebrew": "לפני שעה",
+        "lastCommitHebrew": "לפני 4 שעות",
         "isDirty": true,
         "changedFiles": 9
       },
