@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-02T19:23:18.581Z",
+  "lastUpdated": "2026-06-02T22:34:26.819Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 23,
   "counts": {
@@ -23,8 +23,8 @@
       "stack": "TypeScript + React 19 + Vite + Supabase",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-06-02T17:28:29.012Z",
-      "lastActivityHebrew": "לפני שעה",
+      "lastActivity": "2026-06-02T22:34:06.274Z",
+      "lastActivityHebrew": "הרגע",
       "size": "250M",
       "isLive": true,
       "liveUrl": "https://payoneer-ad-generator.vercel.app",
@@ -33,14 +33,18 @@
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "3 weeks ago",
-        "lastCommitMessage": "docs: add spec for Mint portfolio marketing images",
-        "lastCommitDate": "2026-05-10 12:14:57 +0300",
-        "lastCommitHebrew": "לפני 3 שבועות",
+        "lastCommitRelative": "22 minutes ago",
+        "lastCommitMessage": "design: migrate to shared toolkit design tokens",
+        "lastCommitDate": "2026-06-03 01:11:54 +0300",
+        "lastCommitHebrew": "לפני 22 דקות",
         "isDirty": true,
-        "changedFiles": 58
+        "changedFiles": 22
       },
       "recentActions": [
+        {
+          "type": "commit",
+          "text": "design: migrate to shared toolkit design tokens"
+        },
         {
           "type": "commit",
           "text": "docs: add spec for Mint portfolio marketing images"
@@ -48,10 +52,6 @@
         {
           "type": "commit",
           "text": "feat(theme): add light/dark toggle with node canvas theming"
-        },
-        {
-          "type": "commit",
-          "text": "feat(contrast): apply dark sidebar treatment to icon-rail (actual nav component)"
         },
         {
           "type": "chat",
@@ -66,7 +66,7 @@
       ],
       "lastSession": {
         "sessionId": "9eb2d04d-bfbc-42b2-a515-9c8a85cf9fc9",
-        "lastActivity": "2026-06-02T17:28:29.012Z",
+        "lastActivity": "2026-06-02T22:34:06.274Z",
         "summary": "Continue from where you left off."
       }
     },
@@ -84,7 +84,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-02T07:07:31.903Z",
-      "lastActivityHebrew": "לפני 12 שעות",
+      "lastActivityHebrew": "לפני 15 שעות",
       "size": "144M",
       "isLive": false,
       "liveUrl": null,
@@ -93,10 +93,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "13 hours ago",
+        "lastCommitRelative": "16 hours ago",
         "lastCommitMessage": "Update AI project titles for clarity and searchability",
         "lastCommitDate": "2026-06-02 09:49:53 +0300",
-        "lastCommitHebrew": "לפני 12 שעות",
+        "lastCommitHebrew": "לפני 15 שעות",
         "isDirty": true,
         "changedFiles": 9
       },
