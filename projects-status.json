@@ -1,15 +1,70 @@
 {
-  "lastUpdated": "2026-06-02T05:03:05.423Z",
+  "lastUpdated": "2026-06-02T08:03:18.024Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 22,
   "counts": {
     "live": 0,
-    "building": 2,
-    "paused": 4,
-    "archive": 7,
+    "building": 3,
+    "paused": 2,
+    "archive": 8,
     "idea": 9
   },
   "projects": [
+    {
+      "name": "ran-portfolio",
+      "humanName": "פורטפוליו אישי",
+      "tagline": "כרטיס ביקור אונליין - אוסף הפרוייקטים והשירותים שלי",
+      "longDescription": "אתר סטטי בעברית שמרכז את הפרוייקטים, ניסיון העבודה ופרטי קשר. מעוצב ידנית ב-HTML/CSS/JS ללא פריימוורק, עם דגש על טון אישי וחם. כולל מעקב אנליטיקס דרך GA4.",
+      "nextStep": "לפרסם את הגרסה האחרונה (יש 8 קבצים שונו)",
+      "notes": null,
+      "category": "Portfolio",
+      "accentColor": "#3a4a6b",
+      "screenshot": null,
+      "stack": "HTML/CSS/JS",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-06-02T07:07:31.903Z",
+      "lastActivityHebrew": "לפני 55 דקות",
+      "size": "144M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/ran-portfolio",
+      "source": "both",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "73 minutes ago",
+        "lastCommitMessage": "Update AI project titles for clarity and searchability",
+        "lastCommitDate": "2026-06-02 09:49:53 +0300",
+        "lastCommitHebrew": "לפני שעה",
+        "isDirty": true,
+        "changedFiles": 9
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Update AI project titles for clarity and searchability"
+        },
+        {
+          "type": "commit",
+          "text": "Add nav active state improvements and enhanced GA4 analytics"
+        },
+        {
+          "type": "commit",
+          "text": "Update Mint project marketing images with polished portfolio visuals"
+        },
+        {
+          "type": "chat",
+          "text": "Continue from where you left off.",
+          "sessionId": "99ddefc0-751b-4ff1-97be-fa5b089c27a1"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "99ddefc0-751b-4ff1-97be-fa5b089c27a1",
+        "lastActivity": "2026-06-02T07:07:31.903Z",
+        "summary": "Continue from where you left off."
+      }
+    },
     {
       "name": "Payoneer-ad-generator",
       "humanName": "מחולל באנרים לפיוניר",
@@ -24,7 +79,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-05-27T06:31:31.474Z",
-      "lastActivityHebrew": "לפני 5 ימים",
+      "lastActivityHebrew": "לפני 6 ימים",
       "size": "250M",
       "isLive": true,
       "liveUrl": "https://payoneer-ad-generator.vercel.app",
@@ -79,7 +134,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-05-27T05:41:10.003Z",
-      "lastActivityHebrew": "לפני 5 ימים",
+      "lastActivityHebrew": "לפני 6 ימים",
       "size": "666M",
       "isLive": false,
       "liveUrl": null,
@@ -162,61 +217,6 @@
       "lastSession": null
     },
     {
-      "name": "ran-portfolio",
-      "humanName": "פורטפוליו אישי",
-      "tagline": "כרטיס ביקור אונליין - אוסף הפרוייקטים והשירותים שלי",
-      "longDescription": "אתר סטטי בעברית שמרכז את הפרוייקטים, ניסיון העבודה ופרטי קשר. מעוצב ידנית ב-HTML/CSS/JS ללא פריימוורק, עם דגש על טון אישי וחם. כולל מעקב אנליטיקס דרך GA4.",
-      "nextStep": "לפרסם את הגרסה האחרונה (יש 8 קבצים שונו)",
-      "notes": null,
-      "category": "Portfolio",
-      "accentColor": "#3a4a6b",
-      "screenshot": null,
-      "stack": "HTML/CSS/JS",
-      "status": "paused",
-      "subStatus": null,
-      "lastActivity": "2026-05-13T09:38:08.272Z",
-      "lastActivityHebrew": "לפני 2 שבועות",
-      "size": "144M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/ran-portfolio",
-      "source": "both",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "3 weeks ago",
-        "lastCommitMessage": "Add nav active state improvements and enhanced GA4 analytics",
-        "lastCommitDate": "2026-05-13 12:20:06 +0300",
-        "lastCommitHebrew": "לפני 2 שבועות",
-        "isDirty": true,
-        "changedFiles": 9
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Add nav active state improvements and enhanced GA4 analytics"
-        },
-        {
-          "type": "commit",
-          "text": "Update Mint project marketing images with polished portfolio visuals"
-        },
-        {
-          "type": "commit",
-          "text": "Add Zeph as first AI project with images and updated nav order"
-        },
-        {
-          "type": "chat",
-          "text": "Continue from where you left off.",
-          "sessionId": "99ddefc0-751b-4ff1-97be-fa5b089c27a1"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "99ddefc0-751b-4ff1-97be-fa5b089c27a1",
-        "lastActivity": "2026-05-13T09:38:08.272Z",
-        "summary": "Continue from where you left off."
-      }
-    },
-    {
       "name": "tabspeak",
       "humanName": "TabSpeak",
       "tagline": "תוסף שמדבר את התוכן של הטאבים הפתוחים",
@@ -262,10 +262,10 @@
       "accentColor": "#5f7fa8",
       "screenshot": null,
       "stack": "JavaScript",
-      "status": "paused",
+      "status": "archive",
       "subStatus": null,
       "lastActivity": "2026-05-03T06:18:33Z",
-      "lastActivityHebrew": "לפני 0 חודשים",
+      "lastActivityHebrew": "לפני חודש",
       "size": "cloud",
       "isLive": false,
       "liveUrl": null,
@@ -277,7 +277,7 @@
         "lastCommitRelative": "",
         "lastCommitMessage": "",
         "lastCommitDate": "2026-05-03T06:18:33Z",
-        "lastCommitHebrew": "לפני 0 חודשים",
+        "lastCommitHebrew": "לפני חודש",
         "isDirty": false,
         "changedFiles": 0
       },
