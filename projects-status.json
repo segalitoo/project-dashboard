@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-03T08:05:16.295Z",
+  "lastUpdated": "2026-06-03T11:29:44.145Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 23,
   "counts": {
@@ -23,8 +23,8 @@
       "stack": "HTML/CSS/JS",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-06-03T00:12:17.387Z",
-      "lastActivityHebrew": "לפני 7 שעות",
+      "lastActivity": "2026-06-03T11:18:42.168Z",
+      "lastActivityHebrew": "לפני 10 דקות",
       "size": "144M",
       "isLive": false,
       "liveUrl": null,
@@ -33,25 +33,25 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "8 hours ago",
-        "lastCommitMessage": "Rebuild portfolio as two-pane app layout",
-        "lastCommitDate": "2026-06-03 03:12:06 +0300",
-        "lastCommitHebrew": "לפני 7 שעות",
+        "lastCommitRelative": "11 minutes ago",
+        "lastCommitMessage": "Remove tagline subtitle from rail header",
+        "lastCommitDate": "2026-06-03 14:18:35 +0300",
+        "lastCommitHebrew": "לפני 11 דקות",
         "isDirty": true,
         "changedFiles": 7
       },
       "recentActions": [
         {
           "type": "commit",
+          "text": "Remove tagline subtitle from rail header"
+        },
+        {
+          "type": "commit",
+          "text": "Improve mobile: move project index into a slide-in drawer"
+        },
+        {
+          "type": "commit",
           "text": "Rebuild portfolio as two-pane app layout"
-        },
-        {
-          "type": "commit",
-          "text": "Remove stray event_category from ai_section_viewed"
-        },
-        {
-          "type": "commit",
-          "text": "Add Split Edge carousel galleries and layout exploration demos"
         },
         {
           "type": "chat",
@@ -61,7 +61,7 @@
       ],
       "lastSession": {
         "sessionId": "99ddefc0-751b-4ff1-97be-fa5b089c27a1",
-        "lastActivity": "2026-06-03T00:12:17.387Z",
+        "lastActivity": "2026-06-03T11:18:42.168Z",
         "summary": "Continue from where you left off."
       }
     },
@@ -79,7 +79,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-02T23:08:25.415Z",
-      "lastActivityHebrew": "לפני 8 שעות",
+      "lastActivityHebrew": "לפני 12 שעות",
       "size": "250M",
       "isLive": true,
       "liveUrl": "https://payoneer-ad-generator.vercel.app",
@@ -88,10 +88,10 @@
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "9 hours ago",
+        "lastCommitRelative": "13 hours ago",
         "lastCommitMessage": "design: fix residual AA contrast failures found in audit",
         "lastCommitDate": "2026-06-03 01:38:01 +0300",
-        "lastCommitHebrew": "לפני 9 שעות",
+        "lastCommitHebrew": "לפני 12 שעות",
         "isDirty": true,
         "changedFiles": 22
       },
@@ -198,7 +198,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "2 weeks ago",
+        "lastCommitRelative": "3 weeks ago",
         "lastCommitMessage": "fix: guard DB writes in analyze-wardrobe and handle fetchRecs errors",
         "lastCommitDate": "2026-05-16 23:42:55 +0300",
         "lastCommitHebrew": "לפני 2 שבועות",
