@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-03T02:04:53.069Z",
+  "lastUpdated": "2026-06-03T05:05:04.574Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 23,
   "counts": {
@@ -24,7 +24,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-03T00:12:17.387Z",
-      "lastActivityHebrew": "לפני שעה",
+      "lastActivityHebrew": "לפני 4 שעות",
       "size": "144M",
       "isLive": false,
       "liveUrl": null,
@@ -33,10 +33,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "2 hours ago",
+        "lastCommitRelative": "5 hours ago",
         "lastCommitMessage": "Rebuild portfolio as two-pane app layout",
         "lastCommitDate": "2026-06-03 03:12:06 +0300",
-        "lastCommitHebrew": "לפני שעה",
+        "lastCommitHebrew": "לפני 4 שעות",
         "isDirty": true,
         "changedFiles": 7
       },
@@ -79,7 +79,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-02T23:08:25.415Z",
-      "lastActivityHebrew": "לפני 2 שעות",
+      "lastActivityHebrew": "לפני 5 שעות",
       "size": "250M",
       "isLive": true,
       "liveUrl": "https://payoneer-ad-generator.vercel.app",
@@ -88,10 +88,10 @@
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "3 hours ago",
+        "lastCommitRelative": "6 hours ago",
         "lastCommitMessage": "design: fix residual AA contrast failures found in audit",
         "lastCommitDate": "2026-06-03 01:38:01 +0300",
-        "lastCommitHebrew": "לפני 3 שעות",
+        "lastCommitHebrew": "לפני 6 שעות",
         "isDirty": true,
         "changedFiles": 22
       },
