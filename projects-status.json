@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-04T10:51:52.069Z",
+  "lastUpdated": "2026-06-04T16:24:49.139Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 23,
   "counts": {
@@ -24,7 +24,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-03T21:52:57.380Z",
-      "lastActivityHebrew": "לפני 12 שעות",
+      "lastActivityHebrew": "לפני 18 שעות",
       "size": "250M",
       "isLive": true,
       "liveUrl": "https://payoneer-ad-generator.vercel.app",
@@ -84,7 +84,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-03T11:18:42.168Z",
-      "lastActivityHebrew": "לפני 23 שעות",
+      "lastActivityHebrew": "אתמול",
       "size": "144M",
       "isLive": false,
       "liveUrl": null,
@@ -93,10 +93,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "24 hours ago",
+        "lastCommitRelative": "29 hours ago",
         "lastCommitMessage": "Remove tagline subtitle from rail header",
         "lastCommitDate": "2026-06-03 14:18:35 +0300",
-        "lastCommitHebrew": "לפני 23 שעות",
+        "lastCommitHebrew": "אתמול",
         "isDirty": true,
         "changedFiles": 7
       },
@@ -235,7 +235,7 @@
       "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-05-07T12:33:44.719Z",
-      "lastActivityHebrew": "לפני 3 שבועות",
+      "lastActivityHebrew": "לפני 0 חודשים",
       "size": "675M",
       "isLive": false,
       "liveUrl": null,
