@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-04T03:56:20.484Z",
+  "lastUpdated": "2026-06-04T07:51:40.970Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 23,
   "counts": {
@@ -24,7 +24,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-03T21:52:57.380Z",
-      "lastActivityHebrew": "לפני 6 שעות",
+      "lastActivityHebrew": "לפני 9 שעות",
       "size": "250M",
       "isLive": true,
       "liveUrl": "https://payoneer-ad-generator.vercel.app",
@@ -33,7 +33,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "29 hours ago",
+        "lastCommitRelative": "33 hours ago",
         "lastCommitMessage": "design: fix residual AA contrast failures found in audit",
         "lastCommitDate": "2026-06-03 01:38:01 +0300",
         "lastCommitHebrew": "אתמול",
@@ -84,7 +84,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-03T11:18:42.168Z",
-      "lastActivityHebrew": "לפני 16 שעות",
+      "lastActivityHebrew": "לפני 20 שעות",
       "size": "144M",
       "isLive": false,
       "liveUrl": null,
@@ -93,10 +93,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "17 hours ago",
+        "lastCommitRelative": "21 hours ago",
         "lastCommitMessage": "Remove tagline subtitle from rail header",
         "lastCommitDate": "2026-06-03 14:18:35 +0300",
-        "lastCommitHebrew": "לפני 16 שעות",
+        "lastCommitHebrew": "לפני 20 שעות",
         "isDirty": true,
         "changedFiles": 7
       },
