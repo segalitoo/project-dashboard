@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-05T05:52:42.894Z",
+  "lastUpdated": "2026-06-05T10:21:59.988Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 23,
   "counts": {
@@ -33,7 +33,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "2 days ago",
+        "lastCommitRelative": "3 days ago",
         "lastCommitMessage": "design: fix residual AA contrast failures found in audit",
         "lastCommitDate": "2026-06-03 01:38:01 +0300",
         "lastCommitHebrew": "שלשום",
