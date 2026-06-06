@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-06-06T05:55:59.597Z",
+  "lastUpdated": "2026-06-06T16:59:53.311Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 23,
   "counts": {
     "live": 0,
     "building": 2,
-    "paused": 3,
-    "archive": 8,
+    "paused": 2,
+    "archive": 9,
     "idea": 10
   },
   "projects": [
@@ -33,7 +33,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "3 days ago",
+        "lastCommitRelative": "4 days ago",
         "lastCommitMessage": "design: fix residual AA contrast failures found in audit",
         "lastCommitDate": "2026-06-03 01:38:01 +0300",
         "lastCommitHebrew": "לפני 3 ימים",
@@ -84,7 +84,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-03T11:18:42.168Z",
-      "lastActivityHebrew": "שלשום",
+      "lastActivityHebrew": "לפני 3 ימים",
       "size": "144M",
       "isLive": false,
       "liveUrl": null,
@@ -96,7 +96,7 @@
         "lastCommitRelative": "3 days ago",
         "lastCommitMessage": "Remove tagline subtitle from rail header",
         "lastCommitDate": "2026-06-03 14:18:35 +0300",
-        "lastCommitHebrew": "שלשום",
+        "lastCommitHebrew": "לפני 3 ימים",
         "isDirty": true,
         "changedFiles": 7
       },
@@ -232,10 +232,10 @@
       "accentColor": "#a06b9e",
       "screenshot": null,
       "stack": "TypeScript + React 19 + Vite",
-      "status": "paused",
+      "status": "archive",
       "subStatus": null,
       "lastActivity": "2026-05-07T12:33:44.719Z",
-      "lastActivityHebrew": "לפני 0 חודשים",
+      "lastActivityHebrew": "לפני חודש",
       "size": "675M",
       "isLive": false,
       "liveUrl": null,
