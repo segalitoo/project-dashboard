@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-07T10:13:31.997Z",
+  "lastUpdated": "2026-06-07T13:43:47.819Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 23,
   "counts": {
@@ -84,7 +84,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-03T11:18:42.168Z",
-      "lastActivityHebrew": "לפני 3 ימים",
+      "lastActivityHebrew": "לפני 4 ימים",
       "size": "144M",
       "isLive": false,
       "liveUrl": null,
@@ -96,7 +96,7 @@
         "lastCommitRelative": "4 days ago",
         "lastCommitMessage": "Remove tagline subtitle from rail header",
         "lastCommitDate": "2026-06-03 14:18:35 +0300",
-        "lastCommitHebrew": "לפני 3 ימים",
+        "lastCommitHebrew": "לפני 4 ימים",
         "isDirty": true,
         "changedFiles": 7
       },
