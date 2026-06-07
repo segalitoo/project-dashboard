@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-07T17:14:52.852Z",
+  "lastUpdated": "2026-06-07T22:41:15.271Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 23,
   "counts": {
@@ -10,6 +10,61 @@
     "idea": 10
   },
   "projects": [
+    {
+      "name": "ran-portfolio",
+      "humanName": "פורטפוליו אישי",
+      "tagline": "כרטיס ביקור אונליין - אוסף הפרוייקטים והשירותים שלי",
+      "longDescription": "אתר סטטי בעברית שמרכז את הפרוייקטים, ניסיון העבודה ופרטי קשר. מעוצב ידנית ב-HTML/CSS/JS ללא פריימוורק, עם דגש על טון אישי וחם. כולל מעקב אנליטיקס דרך GA4.",
+      "nextStep": "לפרסם את הגרסה האחרונה (יש 8 קבצים שונו)",
+      "notes": null,
+      "category": "Portfolio",
+      "accentColor": "#3a4a6b",
+      "screenshot": null,
+      "stack": "HTML/CSS/JS",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-06-07T21:39:44.352Z",
+      "lastActivityHebrew": "לפני שעה",
+      "size": "145M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/ran-portfolio",
+      "source": "both",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "2 hours ago",
+        "lastCommitMessage": "Update index.html",
+        "lastCommitDate": "2026-06-07 23:47:27 +0300",
+        "lastCommitHebrew": "לפני שעה",
+        "isDirty": true,
+        "changedFiles": 8
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Update index.html"
+        },
+        {
+          "type": "commit",
+          "text": "Update index.html"
+        },
+        {
+          "type": "commit",
+          "text": "Update index.html"
+        },
+        {
+          "type": "chat",
+          "text": "Continue from where you left off.",
+          "sessionId": "99ddefc0-751b-4ff1-97be-fa5b089c27a1"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "99ddefc0-751b-4ff1-97be-fa5b089c27a1",
+        "lastActivity": "2026-06-07T21:39:44.352Z",
+        "summary": "Continue from where you left off."
+      }
+    },
     {
       "name": "Payoneer-ad-generator",
       "humanName": "מחולל באנרים לפיוניר",
@@ -24,7 +79,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-03T21:52:57.380Z",
-      "lastActivityHebrew": "לפני 3 ימים",
+      "lastActivityHebrew": "לפני 4 ימים",
       "size": "250M",
       "isLive": true,
       "liveUrl": "https://payoneer-ad-generator.vercel.app",
@@ -36,7 +91,7 @@
         "lastCommitRelative": "5 days ago",
         "lastCommitMessage": "design: fix residual AA contrast failures found in audit",
         "lastCommitDate": "2026-06-03 01:38:01 +0300",
-        "lastCommitHebrew": "לפני 4 ימים",
+        "lastCommitHebrew": "לפני 5 ימים",
         "isDirty": true,
         "changedFiles": 22
       },
@@ -67,61 +122,6 @@
       "lastSession": {
         "sessionId": "9eb2d04d-bfbc-42b2-a515-9c8a85cf9fc9",
         "lastActivity": "2026-06-03T21:52:57.380Z",
-        "summary": "Continue from where you left off."
-      }
-    },
-    {
-      "name": "ran-portfolio",
-      "humanName": "פורטפוליו אישי",
-      "tagline": "כרטיס ביקור אונליין - אוסף הפרוייקטים והשירותים שלי",
-      "longDescription": "אתר סטטי בעברית שמרכז את הפרוייקטים, ניסיון העבודה ופרטי קשר. מעוצב ידנית ב-HTML/CSS/JS ללא פריימוורק, עם דגש על טון אישי וחם. כולל מעקב אנליטיקס דרך GA4.",
-      "nextStep": "לפרסם את הגרסה האחרונה (יש 8 קבצים שונו)",
-      "notes": null,
-      "category": "Portfolio",
-      "accentColor": "#3a4a6b",
-      "screenshot": null,
-      "stack": "HTML/CSS/JS",
-      "status": "building",
-      "subStatus": null,
-      "lastActivity": "2026-06-03T11:18:42.168Z",
-      "lastActivityHebrew": "לפני 4 ימים",
-      "size": "144M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/ran-portfolio",
-      "source": "both",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "4 days ago",
-        "lastCommitMessage": "Remove tagline subtitle from rail header",
-        "lastCommitDate": "2026-06-03 14:18:35 +0300",
-        "lastCommitHebrew": "לפני 4 ימים",
-        "isDirty": true,
-        "changedFiles": 7
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Remove tagline subtitle from rail header"
-        },
-        {
-          "type": "commit",
-          "text": "Improve mobile: move project index into a slide-in drawer"
-        },
-        {
-          "type": "commit",
-          "text": "Rebuild portfolio as two-pane app layout"
-        },
-        {
-          "type": "chat",
-          "text": "Continue from where you left off.",
-          "sessionId": "99ddefc0-751b-4ff1-97be-fa5b089c27a1"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "99ddefc0-751b-4ff1-97be-fa5b089c27a1",
-        "lastActivity": "2026-06-03T11:18:42.168Z",
         "summary": "Continue from where you left off."
       }
     },
@@ -312,7 +312,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "7 weeks ago",
+        "lastCommitRelative": "8 weeks ago",
         "lastCommitMessage": "fix: remove duplicate selectedLayerId declaration causing blank page",
         "lastCommitDate": "2026-04-16 13:05:58 +0300",
         "lastCommitHebrew": "לפני חודש",
