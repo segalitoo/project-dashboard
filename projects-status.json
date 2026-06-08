@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08T13:41:31.482Z",
+  "lastUpdated": "2026-06-08T17:27:47.290Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 23,
   "counts": {
@@ -24,7 +24,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-08T08:22:46.385Z",
-      "lastActivityHebrew": "לפני 5 שעות",
+      "lastActivityHebrew": "לפני 9 שעות",
       "size": "145M",
       "isLive": false,
       "liveUrl": null,
@@ -33,10 +33,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "6 hours ago",
+        "lastCommitRelative": "10 hours ago",
         "lastCommitMessage": "Redesign CTAs as outlined capsule pills with fill-on-hover",
         "lastCommitDate": "2026-06-08 10:53:24 +0300",
-        "lastCommitHebrew": "לפני 5 שעות",
+        "lastCommitHebrew": "לפני 9 שעות",
         "isDirty": true,
         "changedFiles": 7
       },
@@ -79,7 +79,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-08T07:59:37.417Z",
-      "lastActivityHebrew": "לפני 5 שעות",
+      "lastActivityHebrew": "לפני 9 שעות",
       "size": "250M",
       "isLive": true,
       "liveUrl": "https://payoneer-ad-generator.vercel.app",
