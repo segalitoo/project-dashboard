@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T13:31:29.902Z",
+  "lastUpdated": "2026-06-09T17:46:01.692Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 23,
   "counts": {
@@ -33,7 +33,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "30 hours ago",
+        "lastCommitRelative": "34 hours ago",
         "lastCommitMessage": "Redesign CTAs as outlined capsule pills with fill-on-hover",
         "lastCommitDate": "2026-06-08 10:53:24 +0300",
         "lastCommitHebrew": "אתמול",
