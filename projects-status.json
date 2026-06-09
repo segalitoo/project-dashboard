@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T06:58:18.628Z",
+  "lastUpdated": "2026-06-09T09:39:25.361Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 23,
   "counts": {
@@ -24,7 +24,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-08T08:22:46.385Z",
-      "lastActivityHebrew": "לפני 22 שעות",
+      "lastActivityHebrew": "אתמול",
       "size": "145M",
       "isLive": false,
       "liveUrl": null,
@@ -33,10 +33,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "23 hours ago",
+        "lastCommitRelative": "26 hours ago",
         "lastCommitMessage": "Redesign CTAs as outlined capsule pills with fill-on-hover",
         "lastCommitDate": "2026-06-08 10:53:24 +0300",
-        "lastCommitHebrew": "לפני 23 שעות",
+        "lastCommitHebrew": "אתמול",
         "isDirty": true,
         "changedFiles": 7
       },
@@ -79,7 +79,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-08T07:59:37.417Z",
-      "lastActivityHebrew": "לפני 22 שעות",
+      "lastActivityHebrew": "אתמול",
       "size": "250M",
       "isLive": true,
       "liveUrl": "https://payoneer-ad-generator.vercel.app",
@@ -496,7 +496,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "3 months ago",
+        "lastCommitRelative": "4 months ago",
         "lastCommitMessage": "Portfolio: 6 case studies with realistic photo placeholders",
         "lastCommitDate": "2026-02-24 23:40:56 +0200",
         "lastCommitHebrew": "לפני 3 חודשים",
