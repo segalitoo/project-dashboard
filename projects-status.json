@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-11T07:22:14.422Z",
+  "lastUpdated": "2026-06-11T12:07:04.285Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 23,
   "counts": {
@@ -24,7 +24,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-08T08:22:46.385Z",
-      "lastActivityHebrew": "שלשום",
+      "lastActivityHebrew": "לפני 3 ימים",
       "size": "145M",
       "isLive": false,
       "liveUrl": null,
@@ -36,7 +36,7 @@
         "lastCommitRelative": "3 days ago",
         "lastCommitMessage": "Redesign CTAs as outlined capsule pills with fill-on-hover",
         "lastCommitDate": "2026-06-08 10:53:24 +0300",
-        "lastCommitHebrew": "שלשום",
+        "lastCommitHebrew": "לפני 3 ימים",
         "isDirty": true,
         "changedFiles": 7
       },
@@ -79,7 +79,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-08T07:59:37.417Z",
-      "lastActivityHebrew": "שלשום",
+      "lastActivityHebrew": "לפני 3 ימים",
       "size": "250M",
       "isLive": true,
       "liveUrl": "https://payoneer-ad-generator.vercel.app",
@@ -88,7 +88,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "8 days ago",
+        "lastCommitRelative": "9 days ago",
         "lastCommitMessage": "design: fix residual AA contrast failures found in audit",
         "lastCommitDate": "2026-06-03 01:38:01 +0300",
         "lastCommitHebrew": "השבוע",
@@ -148,7 +148,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/landing-page",
-        "lastCommitRelative": "9 weeks ago",
+        "lastCommitRelative": "10 weeks ago",
         "lastCommitMessage": "fix: update portfolio link to correct GitHub username",
         "lastCommitDate": "2026-04-06 02:18:42 +0300",
         "lastCommitHebrew": "לפני 2 חודשים",
@@ -408,7 +408,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "10 weeks ago",
+        "lastCommitRelative": "2 months ago",
         "lastCommitMessage": "AI Academy for Jordan - Hebrew AI learning platform",
         "lastCommitDate": "2026-04-03 00:34:04 +0300",
         "lastCommitHebrew": "לפני 2 חודשים",
