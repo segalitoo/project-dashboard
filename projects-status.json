@@ -1,15 +1,125 @@
 {
-  "lastUpdated": "2026-06-12T07:51:46.099Z",
+  "lastUpdated": "2026-06-12T20:18:20.294Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 23,
   "counts": {
     "live": 0,
-    "building": 2,
+    "building": 3,
     "paused": 2,
-    "archive": 9,
+    "archive": 8,
     "idea": 10
   },
   "projects": [
+    {
+      "name": "Payoneer-ad-generator",
+      "humanName": "מחולל באנרים לפיוניר",
+      "tagline": "כלי שמייצר אוטומטית באנרים פרסומיים באמצעות AI",
+      "longDescription": "הפרוייקט מקבל פרטי מוצר ומחזיר עשרה באנרים פרסומיים בסגנונות שונים. מבוסס על Gemini ליצירת תמונות וניתוח תוכן, עם backend ב-Supabase לאחסון וצד משתמש ב-React. נבנה כדמו ל-Payoneer.",
+      "nextStep": "לסיים את הפיצ׳ר node-canvas ולמזג ל-main",
+      "notes": null,
+      "category": "AI Tools",
+      "accentColor": "#8b3a2e",
+      "screenshot": null,
+      "stack": "TypeScript + React 19 + Vite + Supabase",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-06-12T19:20:20.028Z",
+      "lastActivityHebrew": "לפני 57 דקות",
+      "size": "250M",
+      "isLive": true,
+      "liveUrl": "https://payoneer-ad-generator.vercel.app",
+      "githubUrl": "https://github.com/segalitoo/Payoneer-ad-generator",
+      "source": "both",
+      "hasGit": true,
+      "git": {
+        "branch": "feat/node-canvas",
+        "lastCommitRelative": "10 days ago",
+        "lastCommitMessage": "design: fix residual AA contrast failures found in audit",
+        "lastCommitDate": "2026-06-03 01:38:01 +0300",
+        "lastCommitHebrew": "השבוע",
+        "isDirty": true,
+        "changedFiles": 23
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "design: fix residual AA contrast failures found in audit"
+        },
+        {
+          "type": "commit",
+          "text": "design: migrate to shared toolkit design tokens"
+        },
+        {
+          "type": "commit",
+          "text": "docs: add spec for Mint portfolio marketing images"
+        },
+        {
+          "type": "chat",
+          "text": "Continue from where you left off.",
+          "sessionId": "9eb2d04d-bfbc-42b2-a515-9c8a85cf9fc9"
+        },
+        {
+          "type": "chat",
+          "text": "everything is too bright. we need to make a better visability but keeping some elements with pour green mint color",
+          "sessionId": "4f9704cf-f8f9-4706-82c0-a4f2c83021e2"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "9eb2d04d-bfbc-42b2-a515-9c8a85cf9fc9",
+        "lastActivity": "2026-06-12T19:20:20.028Z",
+        "summary": "Continue from where you left off."
+      }
+    },
+    {
+      "name": "anime-master",
+      "humanName": "Anime Master",
+      "tagline": "עורך אנימציות SVG עם ייצוא ל-Lottie",
+      "longDescription": "כלי web ליצירת אנימציות SVG. המשתמש מצייר שכבות, מגדיר keyframes, ומייצא ל-Lottie JSON או GIF. בנוי על Vite + React 18, עם canvas מותאם אישית לעריכה.",
+      "nextStep": "לתקן באג של selectedLayerId כפול",
+      "notes": null,
+      "category": "Creative",
+      "accentColor": "#8b3a8e",
+      "screenshot": null,
+      "stack": "TypeScript + React 18 + Vite",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-06-12T19:14:55.521Z",
+      "lastActivityHebrew": "לפני שעה",
+      "size": "258M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/anime-master",
+      "source": "both",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "8 weeks ago",
+        "lastCommitMessage": "fix: remove duplicate selectedLayerId declaration causing blank page",
+        "lastCommitDate": "2026-04-16 13:05:58 +0300",
+        "lastCommitHebrew": "לפני חודש",
+        "isDirty": true,
+        "changedFiles": 63
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "fix: remove duplicate selectedLayerId declaration causing blank page"
+        },
+        {
+          "type": "commit",
+          "text": "feat: fix toolbar overlap, add layer focus + group drill-down"
+        },
+        {
+          "type": "commit",
+          "text": "fix: restore toolbar, artboard props, effects panel, color picking, handle drag"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "afab8798-108e-47c3-9588-222e9667cbc0",
+        "lastActivity": "2026-06-12T19:14:55.521Z",
+        "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/b…"
+      }
+    },
     {
       "name": "ran-portfolio",
       "humanName": "פורטפוליו אישי",
@@ -24,7 +134,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-08T08:22:46.385Z",
-      "lastActivityHebrew": "לפני 3 ימים",
+      "lastActivityHebrew": "לפני 4 ימים",
       "size": "145M",
       "isLive": false,
       "liveUrl": null,
@@ -33,10 +143,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "4 days ago",
+        "lastCommitRelative": "5 days ago",
         "lastCommitMessage": "Redesign CTAs as outlined capsule pills with fill-on-hover",
         "lastCommitDate": "2026-06-08 10:53:24 +0300",
-        "lastCommitHebrew": "לפני 3 ימים",
+        "lastCommitHebrew": "לפני 4 ימים",
         "isDirty": true,
         "changedFiles": 7
       },
@@ -63,66 +173,6 @@
         "sessionId": "99ddefc0-751b-4ff1-97be-fa5b089c27a1",
         "lastActivity": "2026-06-08T08:22:46.385Z",
         "summary": "Continue from where you left off."
-      }
-    },
-    {
-      "name": "Payoneer-ad-generator",
-      "humanName": "מחולל באנרים לפיוניר",
-      "tagline": "כלי שמייצר אוטומטית באנרים פרסומיים באמצעות AI",
-      "longDescription": "הפרוייקט מקבל פרטי מוצר ומחזיר עשרה באנרים פרסומיים בסגנונות שונים. מבוסס על Gemini ליצירת תמונות וניתוח תוכן, עם backend ב-Supabase לאחסון וצד משתמש ב-React. נבנה כדמו ל-Payoneer.",
-      "nextStep": "לסיים את הפיצ׳ר node-canvas ולמזג ל-main",
-      "notes": null,
-      "category": "AI Tools",
-      "accentColor": "#8b3a2e",
-      "screenshot": null,
-      "stack": "TypeScript + React 19 + Vite + Supabase",
-      "status": "building",
-      "subStatus": null,
-      "lastActivity": "2026-06-08T07:59:37.417Z",
-      "lastActivityHebrew": "לפני 3 ימים",
-      "size": "250M",
-      "isLive": true,
-      "liveUrl": "https://payoneer-ad-generator.vercel.app",
-      "githubUrl": "https://github.com/segalitoo/Payoneer-ad-generator",
-      "source": "both",
-      "hasGit": true,
-      "git": {
-        "branch": "feat/node-canvas",
-        "lastCommitRelative": "9 days ago",
-        "lastCommitMessage": "design: fix residual AA contrast failures found in audit",
-        "lastCommitDate": "2026-06-03 01:38:01 +0300",
-        "lastCommitHebrew": "השבוע",
-        "isDirty": true,
-        "changedFiles": 23
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "design: fix residual AA contrast failures found in audit"
-        },
-        {
-          "type": "commit",
-          "text": "design: migrate to shared toolkit design tokens"
-        },
-        {
-          "type": "commit",
-          "text": "docs: add spec for Mint portfolio marketing images"
-        },
-        {
-          "type": "chat",
-          "text": "everything is too bright. we need to make a better visability but keeping some elements with pour green mint color",
-          "sessionId": "4f9704cf-f8f9-4706-82c0-a4f2c83021e2"
-        },
-        {
-          "type": "chat",
-          "text": "Continue from where you left off.",
-          "sessionId": "9eb2d04d-bfbc-42b2-a515-9c8a85cf9fc9"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "4f9704cf-f8f9-4706-82c0-a4f2c83021e2",
-        "lastActivity": "2026-06-08T07:59:37.417Z",
-        "summary": "everything is too bright. we need to make a better visability but keeping some elements with pour green mint color"
       }
     },
     {
@@ -288,56 +338,6 @@
       },
       "recentActions": [],
       "lastSession": null
-    },
-    {
-      "name": "anime-master",
-      "humanName": "Anime Master",
-      "tagline": "עורך אנימציות SVG עם ייצוא ל-Lottie",
-      "longDescription": "כלי web ליצירת אנימציות SVG. המשתמש מצייר שכבות, מגדיר keyframes, ומייצא ל-Lottie JSON או GIF. בנוי על Vite + React 18, עם canvas מותאם אישית לעריכה.",
-      "nextStep": "לתקן באג של selectedLayerId כפול",
-      "notes": null,
-      "category": "Creative",
-      "accentColor": "#8b3a8e",
-      "screenshot": null,
-      "stack": "TypeScript + React 18 + Vite",
-      "status": "archive",
-      "subStatus": null,
-      "lastActivity": "2026-04-19T22:05:05.443Z",
-      "lastActivityHebrew": "לפני חודש",
-      "size": "258M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/anime-master",
-      "source": "both",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "8 weeks ago",
-        "lastCommitMessage": "fix: remove duplicate selectedLayerId declaration causing blank page",
-        "lastCommitDate": "2026-04-16 13:05:58 +0300",
-        "lastCommitHebrew": "לפני חודש",
-        "isDirty": true,
-        "changedFiles": 63
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "fix: remove duplicate selectedLayerId declaration causing blank page"
-        },
-        {
-          "type": "commit",
-          "text": "feat: fix toolbar overlap, add layer focus + group drill-down"
-        },
-        {
-          "type": "commit",
-          "text": "fix: restore toolbar, artboard props, effects panel, color picking, handle drag"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "afab8798-108e-47c3-9588-222e9667cbc0",
-        "lastActivity": "2026-04-19T22:05:05.443Z",
-        "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/b…"
-      }
     },
     {
       "name": "Zoom-for-kids",
