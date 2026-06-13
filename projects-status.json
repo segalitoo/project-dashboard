@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-13T11:19:11.309Z",
+  "lastUpdated": "2026-06-13T20:48:18.336Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 23,
   "counts": {
@@ -23,9 +23,9 @@
       "stack": "TypeScript + React 18 + Vite",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-06-13T00:45:43.368Z",
-      "lastActivityHebrew": "לפני 10 שעות",
-      "size": "258M",
+      "lastActivity": "2026-06-13T20:48:06.330Z",
+      "lastActivityHebrew": "הרגע",
+      "size": "259M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": "https://github.com/segalitoo/anime-master",
@@ -33,30 +33,30 @@
       "hasGit": true,
       "git": {
         "branch": "redesign/drafting-table",
-        "lastCommitRelative": "11 hours ago",
-        "lastCommitMessage": "feat(redesign): ruler tick computation utility",
-        "lastCommitDate": "2026-06-13 03:36:34 +0300",
-        "lastCommitHebrew": "לפני 10 שעות",
+        "lastCommitRelative": "7 minutes ago",
+        "lastCommitMessage": "polish(redesign): mechanical transitions and final sweep",
+        "lastCommitDate": "2026-06-13 23:40:51 +0300",
+        "lastCommitHebrew": "לפני 7 דקות",
         "isDirty": false,
         "changedFiles": 0
       },
       "recentActions": [
         {
           "type": "commit",
-          "text": "feat(redesign): ruler tick computation utility"
+          "text": "polish(redesign): mechanical transitions and final sweep"
         },
         {
           "type": "commit",
-          "text": "fix(redesign): pin rounded-sm controls to 2px after radius change"
+          "text": "fix(redesign): make selected keyframe legible with contrasting ring"
         },
         {
           "type": "commit",
-          "text": "feat(redesign): drafting table design tokens and fonts"
+          "text": "feat(redesign): drafting timeline and mini timeline"
         }
       ],
       "lastSession": {
         "sessionId": "afab8798-108e-47c3-9588-222e9667cbc0",
-        "lastActivity": "2026-06-13T00:45:43.368Z",
+        "lastActivity": "2026-06-13T20:48:06.330Z",
         "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/b…"
       }
     },
@@ -74,7 +74,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-12T19:20:20.028Z",
-      "lastActivityHebrew": "לפני 15 שעות",
+      "lastActivityHebrew": "אתמול",
       "size": "250M",
       "isLive": true,
       "liveUrl": "https://payoneer-ad-generator.vercel.app",
@@ -143,7 +143,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "5 days ago",
+        "lastCommitRelative": "6 days ago",
         "lastCommitMessage": "Redesign CTAs as outlined capsule pills with fill-on-hover",
         "lastCommitDate": "2026-06-08 10:53:24 +0300",
         "lastCommitHebrew": "לפני 5 ימים",
@@ -239,7 +239,7 @@
       "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-05-16T20:42:55.000Z",
-      "lastActivityHebrew": "לפני 3 שבועות",
+      "lastActivityHebrew": "לפני 0 חודשים",
       "size": "1.0G",
       "isLive": false,
       "liveUrl": null,
@@ -251,7 +251,7 @@
         "lastCommitRelative": "4 weeks ago",
         "lastCommitMessage": "fix: guard DB writes in analyze-wardrobe and handle fetchRecs errors",
         "lastCommitDate": "2026-05-16 23:42:55 +0300",
-        "lastCommitHebrew": "לפני 3 שבועות",
+        "lastCommitHebrew": "לפני 0 חודשים",
         "isDirty": true,
         "changedFiles": 22
       },
@@ -362,7 +362,7 @@
       "hasGit": true,
       "git": {
         "branch": "claude/add-claude-documentation-gFq7q",
-        "lastCommitRelative": "8 weeks ago",
+        "lastCommitRelative": "9 weeks ago",
         "lastCommitMessage": "Update extension components and marketplace mockup",
         "lastCommitDate": "2026-04-15 12:18:38 +0300",
         "lastCommitHebrew": "לפני חודש",
