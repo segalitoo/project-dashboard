@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T20:18:20.294Z",
+  "lastUpdated": "2026-06-13T11:19:11.309Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 23,
   "counts": {
@@ -10,6 +10,56 @@
     "idea": 10
   },
   "projects": [
+    {
+      "name": "anime-master",
+      "humanName": "Anime Master",
+      "tagline": "עורך אנימציות SVG עם ייצוא ל-Lottie",
+      "longDescription": "כלי web ליצירת אנימציות SVG. המשתמש מצייר שכבות, מגדיר keyframes, ומייצא ל-Lottie JSON או GIF. בנוי על Vite + React 18, עם canvas מותאם אישית לעריכה.",
+      "nextStep": "לתקן באג של selectedLayerId כפול",
+      "notes": null,
+      "category": "Creative",
+      "accentColor": "#8b3a8e",
+      "screenshot": null,
+      "stack": "TypeScript + React 18 + Vite",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-06-13T00:45:43.368Z",
+      "lastActivityHebrew": "לפני 10 שעות",
+      "size": "258M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/anime-master",
+      "source": "both",
+      "hasGit": true,
+      "git": {
+        "branch": "redesign/drafting-table",
+        "lastCommitRelative": "11 hours ago",
+        "lastCommitMessage": "feat(redesign): ruler tick computation utility",
+        "lastCommitDate": "2026-06-13 03:36:34 +0300",
+        "lastCommitHebrew": "לפני 10 שעות",
+        "isDirty": false,
+        "changedFiles": 0
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "feat(redesign): ruler tick computation utility"
+        },
+        {
+          "type": "commit",
+          "text": "fix(redesign): pin rounded-sm controls to 2px after radius change"
+        },
+        {
+          "type": "commit",
+          "text": "feat(redesign): drafting table design tokens and fonts"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "afab8798-108e-47c3-9588-222e9667cbc0",
+        "lastActivity": "2026-06-13T00:45:43.368Z",
+        "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/b…"
+      }
+    },
     {
       "name": "Payoneer-ad-generator",
       "humanName": "מחולל באנרים לפיוניר",
@@ -24,7 +74,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-12T19:20:20.028Z",
-      "lastActivityHebrew": "לפני 57 דקות",
+      "lastActivityHebrew": "לפני 15 שעות",
       "size": "250M",
       "isLive": true,
       "liveUrl": "https://payoneer-ad-generator.vercel.app",
@@ -33,7 +83,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "10 days ago",
+        "lastCommitRelative": "11 days ago",
         "lastCommitMessage": "design: fix residual AA contrast failures found in audit",
         "lastCommitDate": "2026-06-03 01:38:01 +0300",
         "lastCommitHebrew": "השבוע",
@@ -71,56 +121,6 @@
       }
     },
     {
-      "name": "anime-master",
-      "humanName": "Anime Master",
-      "tagline": "עורך אנימציות SVG עם ייצוא ל-Lottie",
-      "longDescription": "כלי web ליצירת אנימציות SVG. המשתמש מצייר שכבות, מגדיר keyframes, ומייצא ל-Lottie JSON או GIF. בנוי על Vite + React 18, עם canvas מותאם אישית לעריכה.",
-      "nextStep": "לתקן באג של selectedLayerId כפול",
-      "notes": null,
-      "category": "Creative",
-      "accentColor": "#8b3a8e",
-      "screenshot": null,
-      "stack": "TypeScript + React 18 + Vite",
-      "status": "building",
-      "subStatus": null,
-      "lastActivity": "2026-06-12T19:14:55.521Z",
-      "lastActivityHebrew": "לפני שעה",
-      "size": "258M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/anime-master",
-      "source": "both",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "8 weeks ago",
-        "lastCommitMessage": "fix: remove duplicate selectedLayerId declaration causing blank page",
-        "lastCommitDate": "2026-04-16 13:05:58 +0300",
-        "lastCommitHebrew": "לפני חודש",
-        "isDirty": true,
-        "changedFiles": 63
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "fix: remove duplicate selectedLayerId declaration causing blank page"
-        },
-        {
-          "type": "commit",
-          "text": "feat: fix toolbar overlap, add layer focus + group drill-down"
-        },
-        {
-          "type": "commit",
-          "text": "fix: restore toolbar, artboard props, effects panel, color picking, handle drag"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "afab8798-108e-47c3-9588-222e9667cbc0",
-        "lastActivity": "2026-06-12T19:14:55.521Z",
-        "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/b…"
-      }
-    },
-    {
       "name": "ran-portfolio",
       "humanName": "פורטפוליו אישי",
       "tagline": "כרטיס ביקור אונליין - אוסף הפרוייקטים והשירותים שלי",
@@ -134,7 +134,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-08T08:22:46.385Z",
-      "lastActivityHebrew": "לפני 4 ימים",
+      "lastActivityHebrew": "לפני 5 ימים",
       "size": "145M",
       "isLive": false,
       "liveUrl": null,
@@ -146,7 +146,7 @@
         "lastCommitRelative": "5 days ago",
         "lastCommitMessage": "Redesign CTAs as outlined capsule pills with fill-on-hover",
         "lastCommitDate": "2026-06-08 10:53:24 +0300",
-        "lastCommitHebrew": "לפני 4 ימים",
+        "lastCommitHebrew": "לפני 5 ימים",
         "isDirty": true,
         "changedFiles": 7
       },
