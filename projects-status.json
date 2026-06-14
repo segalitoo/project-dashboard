@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-14T13:44:26.313Z",
+  "lastUpdated": "2026-06-14T16:44:38.170Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 23,
   "counts": {
@@ -24,7 +24,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-13T22:55:37.224Z",
-      "lastActivityHebrew": "לפני 14 שעות",
+      "lastActivityHebrew": "לפני 17 שעות",
       "size": "259M",
       "isLive": false,
       "liveUrl": null,
@@ -33,10 +33,10 @@
       "hasGit": true,
       "git": {
         "branch": "redesign/drafting-table",
-        "lastCommitRelative": "15 hours ago",
+        "lastCommitRelative": "18 hours ago",
         "lastCommitMessage": "docs: implementation plan for sliders and keyframe refinements",
         "lastCommitDate": "2026-06-14 01:55:28 +0300",
-        "lastCommitHebrew": "לפני 14 שעות",
+        "lastCommitHebrew": "לפני 17 שעות",
         "isDirty": true,
         "changedFiles": 2
       },
