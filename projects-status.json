@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-14T07:31:09.702Z",
+  "lastUpdated": "2026-06-14T10:44:13.979Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 23,
   "counts": {
@@ -24,7 +24,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-13T22:55:37.224Z",
-      "lastActivityHebrew": "לפני 8 שעות",
+      "lastActivityHebrew": "לפני 11 שעות",
       "size": "259M",
       "isLive": false,
       "liveUrl": null,
@@ -33,10 +33,10 @@
       "hasGit": true,
       "git": {
         "branch": "redesign/drafting-table",
-        "lastCommitRelative": "9 hours ago",
+        "lastCommitRelative": "12 hours ago",
         "lastCommitMessage": "docs: implementation plan for sliders and keyframe refinements",
         "lastCommitDate": "2026-06-14 01:55:28 +0300",
-        "lastCommitHebrew": "לפני 8 שעות",
+        "lastCommitHebrew": "לפני 11 שעות",
         "isDirty": true,
         "changedFiles": 2
       },
@@ -83,7 +83,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "11 days ago",
+        "lastCommitRelative": "12 days ago",
         "lastCommitMessage": "design: fix residual AA contrast failures found in audit",
         "lastCommitDate": "2026-06-03 01:38:01 +0300",
         "lastCommitHebrew": "השבוע",
@@ -134,7 +134,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-08T08:22:46.385Z",
-      "lastActivityHebrew": "לפני 5 ימים",
+      "lastActivityHebrew": "לפני 6 ימים",
       "size": "145M",
       "isLive": false,
       "liveUrl": null,
@@ -146,7 +146,7 @@
         "lastCommitRelative": "6 days ago",
         "lastCommitMessage": "Redesign CTAs as outlined capsule pills with fill-on-hover",
         "lastCommitDate": "2026-06-08 10:53:24 +0300",
-        "lastCommitHebrew": "לפני 5 ימים",
+        "lastCommitHebrew": "לפני 6 ימים",
         "isDirty": true,
         "changedFiles": 7
       },
@@ -353,7 +353,7 @@
       "status": "archive",
       "subStatus": null,
       "lastActivity": "2026-04-15T09:18:38.000Z",
-      "lastActivityHebrew": "לפני חודש",
+      "lastActivityHebrew": "לפני 2 חודשים",
       "size": "287M",
       "isLive": true,
       "liveUrl": "https://zoom-for-kids.vercel.app",
@@ -365,7 +365,7 @@
         "lastCommitRelative": "9 weeks ago",
         "lastCommitMessage": "Update extension components and marketplace mockup",
         "lastCommitDate": "2026-04-15 12:18:38 +0300",
-        "lastCommitHebrew": "לפני חודש",
+        "lastCommitHebrew": "לפני 2 חודשים",
         "isDirty": true,
         "changedFiles": 15
       },
