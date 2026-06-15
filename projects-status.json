@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15T05:03:14.065Z",
+  "lastUpdated": "2026-06-15T08:13:11.799Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 23,
   "counts": {
@@ -24,7 +24,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-15T00:47:32.169Z",
-      "lastActivityHebrew": "לפני 4 שעות",
+      "lastActivityHebrew": "לפני 7 שעות",
       "size": "259M",
       "isLive": false,
       "liveUrl": null,
@@ -33,10 +33,10 @@
       "hasGit": true,
       "git": {
         "branch": "redesign/drafting-table",
-        "lastCommitRelative": "4 hours ago",
+        "lastCommitRelative": "7 hours ago",
         "lastCommitMessage": "fix(editor): keyframe arrow-nudge preempts canvas layer-nudge",
         "lastCommitDate": "2026-06-15 03:46:53 +0300",
-        "lastCommitHebrew": "לפני 4 שעות",
+        "lastCommitHebrew": "לפני 7 שעות",
         "isDirty": true,
         "changedFiles": 2
       },
@@ -146,7 +146,7 @@
         "lastCommitRelative": "7 days ago",
         "lastCommitMessage": "Redesign CTAs as outlined capsule pills with fill-on-hover",
         "lastCommitDate": "2026-06-08 10:53:24 +0300",
-        "lastCommitHebrew": "לפני 6 ימים",
+        "lastCommitHebrew": "השבוע",
         "isDirty": true,
         "changedFiles": 7
       },
