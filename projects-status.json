@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-14T20:29:01.318Z",
+  "lastUpdated": "2026-06-15T05:03:14.065Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 23,
   "counts": {
@@ -23,8 +23,8 @@
       "stack": "TypeScript + React 18 + Vite",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-06-13T22:55:37.224Z",
-      "lastActivityHebrew": "לפני 21 שעות",
+      "lastActivity": "2026-06-15T00:47:32.169Z",
+      "lastActivityHebrew": "לפני 4 שעות",
       "size": "259M",
       "isLive": false,
       "liveUrl": null,
@@ -33,30 +33,30 @@
       "hasGit": true,
       "git": {
         "branch": "redesign/drafting-table",
-        "lastCommitRelative": "22 hours ago",
-        "lastCommitMessage": "docs: implementation plan for sliders and keyframe refinements",
-        "lastCommitDate": "2026-06-14 01:55:28 +0300",
-        "lastCommitHebrew": "לפני 21 שעות",
+        "lastCommitRelative": "4 hours ago",
+        "lastCommitMessage": "fix(editor): keyframe arrow-nudge preempts canvas layer-nudge",
+        "lastCommitDate": "2026-06-15 03:46:53 +0300",
+        "lastCommitHebrew": "לפני 4 שעות",
         "isDirty": true,
         "changedFiles": 2
       },
       "recentActions": [
         {
           "type": "commit",
-          "text": "docs: implementation plan for sliders and keyframe refinements"
+          "text": "fix(editor): keyframe arrow-nudge preempts canvas layer-nudge"
         },
         {
           "type": "commit",
-          "text": "docs: spec for property sliders and timeline keyframe refinements"
+          "text": "feat(editor): arrow-key keyframe nudge"
         },
         {
           "type": "commit",
-          "text": "feat(redesign): baseline-rule style for layer Fill/Stroke/Weight inputs"
+          "text": "fix(editor): coalesce keyframe drags into one undo step"
         }
       ],
       "lastSession": {
         "sessionId": "afab8798-108e-47c3-9588-222e9667cbc0",
-        "lastActivity": "2026-06-13T22:55:37.224Z",
+        "lastActivity": "2026-06-15T00:47:32.169Z",
         "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/b…"
       }
     },
