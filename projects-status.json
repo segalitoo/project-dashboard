@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-15T11:13:23.689Z",
+  "lastUpdated": "2026-06-15T14:13:35.455Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 23,
   "counts": {
@@ -24,7 +24,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-15T00:47:32.169Z",
-      "lastActivityHebrew": "לפני 10 שעות",
+      "lastActivityHebrew": "לפני 13 שעות",
       "size": "259M",
       "isLive": false,
       "liveUrl": null,
@@ -33,10 +33,10 @@
       "hasGit": true,
       "git": {
         "branch": "redesign/drafting-table",
-        "lastCommitRelative": "10 hours ago",
+        "lastCommitRelative": "13 hours ago",
         "lastCommitMessage": "fix(editor): keyframe arrow-nudge preempts canvas layer-nudge",
         "lastCommitDate": "2026-06-15 03:46:53 +0300",
-        "lastCommitHebrew": "לפני 10 שעות",
+        "lastCommitHebrew": "לפני 13 שעות",
         "isDirty": true,
         "changedFiles": 2
       },
