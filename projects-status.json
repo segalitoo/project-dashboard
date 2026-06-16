@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16T04:20:21.929Z",
+  "lastUpdated": "2026-06-16T08:38:54.988Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 23,
   "counts": {
@@ -33,7 +33,7 @@
       "hasGit": true,
       "git": {
         "branch": "redesign/drafting-table",
-        "lastCommitRelative": "28 hours ago",
+        "lastCommitRelative": "32 hours ago",
         "lastCommitMessage": "fix(editor): keyframe arrow-nudge preempts canvas layer-nudge",
         "lastCommitDate": "2026-06-15 03:46:53 +0300",
         "lastCommitHebrew": "אתמול",
