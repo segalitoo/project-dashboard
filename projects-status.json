@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-06-15T17:13:47.582Z",
+  "lastUpdated": "2026-06-16T04:20:21.929Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 23,
   "counts": {
     "live": 0,
     "building": 2,
-    "paused": 3,
-    "archive": 8,
+    "paused": 2,
+    "archive": 9,
     "idea": 10
   },
   "projects": [
@@ -24,7 +24,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-15T00:47:32.169Z",
-      "lastActivityHebrew": "לפני 16 שעות",
+      "lastActivityHebrew": "אתמול",
       "size": "259M",
       "isLive": false,
       "liveUrl": null,
@@ -33,10 +33,10 @@
       "hasGit": true,
       "git": {
         "branch": "redesign/drafting-table",
-        "lastCommitRelative": "16 hours ago",
+        "lastCommitRelative": "28 hours ago",
         "lastCommitMessage": "fix(editor): keyframe arrow-nudge preempts canvas layer-nudge",
         "lastCommitDate": "2026-06-15 03:46:53 +0300",
-        "lastCommitHebrew": "לפני 16 שעות",
+        "lastCommitHebrew": "אתמול",
         "isDirty": true,
         "changedFiles": 2
       },
@@ -74,7 +74,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-12T19:20:20.028Z",
-      "lastActivityHebrew": "שלשום",
+      "lastActivityHebrew": "לפני 3 ימים",
       "size": "250M",
       "isLive": true,
       "liveUrl": "https://payoneer-ad-generator.vercel.app",
@@ -143,7 +143,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "7 days ago",
+        "lastCommitRelative": "8 days ago",
         "lastCommitMessage": "Redesign CTAs as outlined capsule pills with fill-on-hover",
         "lastCommitDate": "2026-06-08 10:53:24 +0300",
         "lastCommitHebrew": "השבוע",
@@ -236,10 +236,10 @@
       "accentColor": "#7a8a3a",
       "screenshot": null,
       "stack": "TypeScript + Next.js + Supabase",
-      "status": "paused",
+      "status": "archive",
       "subStatus": null,
       "lastActivity": "2026-05-16T20:42:55.000Z",
-      "lastActivityHebrew": "לפני 0 חודשים",
+      "lastActivityHebrew": "לפני חודש",
       "size": "1.0G",
       "isLive": false,
       "liveUrl": null,
@@ -251,7 +251,7 @@
         "lastCommitRelative": "4 weeks ago",
         "lastCommitMessage": "fix: guard DB writes in analyze-wardrobe and handle fetchRecs errors",
         "lastCommitDate": "2026-05-16 23:42:55 +0300",
-        "lastCommitHebrew": "לפני 0 חודשים",
+        "lastCommitHebrew": "לפני חודש",
         "isDirty": true,
         "changedFiles": 22
       },
