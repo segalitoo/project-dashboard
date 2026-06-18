@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-18T11:36:37.091Z",
+  "lastUpdated": "2026-06-18T17:43:14.306Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 23,
   "counts": {
@@ -23,8 +23,8 @@
       "stack": "TypeScript + React 18 + Vite",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-06-15T00:47:32.169Z",
-      "lastActivityHebrew": "לפני 3 ימים",
+      "lastActivity": "2026-06-18T11:41:05.037Z",
+      "lastActivityHebrew": "לפני 5 שעות",
       "size": "259M",
       "isLive": false,
       "liveUrl": null,
@@ -33,7 +33,7 @@
       "hasGit": true,
       "git": {
         "branch": "redesign/drafting-table",
-        "lastCommitRelative": "3 days ago",
+        "lastCommitRelative": "4 days ago",
         "lastCommitMessage": "fix(editor): keyframe arrow-nudge preempts canvas layer-nudge",
         "lastCommitDate": "2026-06-15 03:46:53 +0300",
         "lastCommitHebrew": "לפני 3 ימים",
@@ -52,12 +52,17 @@
         {
           "type": "commit",
           "text": "fix(editor): coalesce keyframe drags into one undo step"
+        },
+        {
+          "type": "chat",
+          "text": "[Request interrupted by user]",
+          "sessionId": "bad71fc1-0705-43d2-b885-283fd6024ee2"
         }
       ],
       "lastSession": {
-        "sessionId": "afab8798-108e-47c3-9588-222e9667cbc0",
-        "lastActivity": "2026-06-15T00:47:32.169Z",
-        "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/b…"
+        "sessionId": "bad71fc1-0705-43d2-b885-283fd6024ee2",
+        "lastActivity": "2026-06-18T11:41:05.037Z",
+        "summary": "[Request interrupted by user]"
       }
     },
     {
