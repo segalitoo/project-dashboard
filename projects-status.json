@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T04:58:32.934Z",
+  "lastUpdated": "2026-06-20T20:40:32.270Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 26,
   "counts": {
@@ -24,16 +24,16 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-19T22:02:35.411Z",
-      "lastActivityHebrew": "לפני 6 שעות",
+      "lastActivityHebrew": "לפני 22 שעות",
       "size": "250M",
-      "isLive": false,
+      "isLive": true,
       "liveUrl": "https://payoneer-ad-generator.vercel.app",
       "githubUrl": "https://github.com/segalitoo/Payoneer-ad-generator",
       "source": "both",
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "2 weeks ago",
+        "lastCommitRelative": "3 weeks ago",
         "lastCommitMessage": "design: fix residual AA contrast failures found in audit",
         "lastCommitDate": "2026-06-03 01:38:01 +0300",
         "lastCommitHebrew": "לפני 2 שבועות",
@@ -84,7 +84,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-18T11:41:05.037Z",
-      "lastActivityHebrew": "אתמול",
+      "lastActivityHebrew": "שלשום",
       "size": "259M",
       "isLive": false,
       "liveUrl": null,
@@ -93,7 +93,7 @@
       "hasGit": true,
       "git": {
         "branch": "redesign/drafting-table",
-        "lastCommitRelative": "5 days ago",
+        "lastCommitRelative": "6 days ago",
         "lastCommitMessage": "fix(editor): keyframe arrow-nudge preempts canvas layer-nudge",
         "lastCommitDate": "2026-06-15 03:46:53 +0300",
         "lastCommitHebrew": "לפני 5 ימים",
@@ -232,7 +232,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "12 days ago",
+        "lastCommitRelative": "13 days ago",
         "lastCommitMessage": "Redesign CTAs as outlined capsule pills with fill-on-hover",
         "lastCommitDate": "2026-06-08 10:53:24 +0300",
         "lastCommitHebrew": "השבוע",
