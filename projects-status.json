@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-20T20:40:32.270Z",
+  "lastUpdated": "2026-06-21T00:05:54.856Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 26,
   "counts": {
@@ -24,7 +24,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-19T22:02:35.411Z",
-      "lastActivityHebrew": "לפני 22 שעות",
+      "lastActivityHebrew": "אתמול",
       "size": "250M",
       "isLive": true,
       "liveUrl": "https://payoneer-ad-generator.vercel.app",
@@ -148,7 +148,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "9 days ago",
+        "lastCommitRelative": "10 days ago",
         "lastCommitMessage": "Project hub: bento wall of live sites with search and settings",
         "lastCommitDate": "2026-06-11 15:13:10 +0300",
         "lastCommitHebrew": "השבוע",
@@ -186,7 +186,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "11 days ago",
+        "lastCommitRelative": "12 days ago",
         "lastCommitMessage": "Add real .zip export of all seven files",
         "lastCommitDate": "2026-06-09 13:33:18 +0300",
         "lastCommitHebrew": "השבוע",
@@ -451,7 +451,7 @@
       "hasGit": true,
       "git": {
         "branch": "claude/add-claude-documentation-gFq7q",
-        "lastCommitRelative": "9 weeks ago",
+        "lastCommitRelative": "10 weeks ago",
         "lastCommitMessage": "Update extension components and marketplace mockup",
         "lastCommitDate": "2026-04-15 12:18:38 +0300",
         "lastCommitHebrew": "לפני 2 חודשים",
