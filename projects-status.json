@@ -1,15 +1,100 @@
 {
-  "lastUpdated": "2026-06-22T19:15:49.172Z",
+  "lastUpdated": "2026-06-22T22:52:11.502Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 26,
   "counts": {
     "live": 0,
-    "building": 2,
-    "paused": 4,
-    "archive": 9,
+    "building": 4,
+    "paused": 3,
+    "archive": 8,
     "idea": 11
   },
   "projects": [
+    {
+      "name": "Agent-blueprint",
+      "humanName": "Agent-blueprint",
+      "tagline": "Dev memory for Claude Code working ON this repository. This is not the agent template itself, and it does not load the template. The template is a deliverable that lives in `templa…",
+      "longDescription": "Dev memory for Claude Code working ON this repository. This is not the agent template itself, and it does not load the template. The template is a deliverable that lives in `templa…",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#3d5a3d",
+      "screenshot": null,
+      "stack": "Unknown",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-06-22T22:28:01.390Z",
+      "lastActivityHebrew": "לפני 23 דקות",
+      "size": "99M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "2 weeks ago",
+        "lastCommitMessage": "Add real .zip export of all seven files",
+        "lastCommitDate": "2026-06-09 13:33:18 +0300",
+        "lastCommitHebrew": "השבוע",
+        "isDirty": true,
+        "changedFiles": 2
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Add real .zip export of all seven files"
+        },
+        {
+          "type": "commit",
+          "text": "Restructure into dev repo; scaffold landing as Vite app"
+        },
+        {
+          "type": "commit",
+          "text": "Initial commit: agent blueprint template + landing app"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "40fe2c06-868b-439c-beaa-eab54e2cdb99",
+        "lastActivity": "2026-06-22T22:28:01.390Z",
+        "summary": ""
+      }
+    },
+    {
+      "name": "tabspeak",
+      "humanName": "TabSpeak",
+      "tagline": "תוסף שמדבר את התוכן של הטאבים הפתוחים",
+      "longDescription": "תוסף דפדפן שקורא בקול את התוכן של הטאב הפעיל. שימושי לרב-משימה ולנגישות. בנוי על React 19 + Vite.",
+      "nextStep": "לתקן את הבאג שדווח (\"i think its not working\")",
+      "notes": null,
+      "category": "Productivity",
+      "accentColor": "#a06b9e",
+      "screenshot": null,
+      "stack": "TypeScript + React 19 + Vite",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-06-22T21:37:31.847Z",
+      "lastActivityHebrew": "לפני שעה",
+      "size": "675M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [
+        {
+          "type": "chat",
+          "text": "i think its not workig",
+          "sessionId": "41d7c9c8-1af3-4128-85f5-022913aae746"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "b38b00e2-f4e7-4f80-9fb3-b5588f8b0b16",
+        "lastActivity": "2026-06-22T21:37:31.847Z",
+        "summary": "Base directory for this skill: /Users/rannsegal/Library/Application Support/Claude/local-agent-mode-sessions/skills-plug…"
+      }
+    },
     {
       "name": "Payoneer-ad-generator",
       "humanName": "מחולל באנרים לפיוניר",
@@ -24,7 +109,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-19T22:02:35.411Z",
-      "lastActivityHebrew": "שלשום",
+      "lastActivityHebrew": "לפני 3 ימים",
       "size": "250M",
       "isLive": true,
       "liveUrl": "https://payoneer-ad-generator.vercel.app",
@@ -159,52 +244,6 @@
         {
           "type": "commit",
           "text": "Project hub: bento wall of live sites with search and settings"
-        }
-      ],
-      "lastSession": null
-    },
-    {
-      "name": "Agent-blueprint",
-      "humanName": "Agent-blueprint",
-      "tagline": "Dev memory for Claude Code working ON this repository. This is not the agent template itself, and it does not load the template. The template is a deliverable that lives in `templa…",
-      "longDescription": "Dev memory for Claude Code working ON this repository. This is not the agent template itself, and it does not load the template. The template is a deliverable that lives in `templa…",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#3d5a3d",
-      "screenshot": null,
-      "stack": "Unknown",
-      "status": "paused",
-      "subStatus": null,
-      "lastActivity": "2026-06-09T10:33:18.000Z",
-      "lastActivityHebrew": "השבוע",
-      "size": "99M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": null,
-      "source": "local",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "13 days ago",
-        "lastCommitMessage": "Add real .zip export of all seven files",
-        "lastCommitDate": "2026-06-09 13:33:18 +0300",
-        "lastCommitHebrew": "השבוע",
-        "isDirty": true,
-        "changedFiles": 1
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Add real .zip export of all seven files"
-        },
-        {
-          "type": "commit",
-          "text": "Restructure into dev repo; scaffold landing as Vite app"
-        },
-        {
-          "type": "commit",
-          "text": "Initial commit: agent blueprint template + landing app"
         }
       ],
       "lastSession": null
@@ -359,41 +398,6 @@
         }
       ],
       "lastSession": null
-    },
-    {
-      "name": "tabspeak",
-      "humanName": "TabSpeak",
-      "tagline": "תוסף שמדבר את התוכן של הטאבים הפתוחים",
-      "longDescription": "תוסף דפדפן שקורא בקול את התוכן של הטאב הפעיל. שימושי לרב-משימה ולנגישות. בנוי על React 19 + Vite.",
-      "nextStep": "לתקן את הבאג שדווח (\"i think its not working\")",
-      "notes": null,
-      "category": "Productivity",
-      "accentColor": "#a06b9e",
-      "screenshot": null,
-      "stack": "TypeScript + React 19 + Vite",
-      "status": "archive",
-      "subStatus": null,
-      "lastActivity": "2026-05-07T12:33:44.719Z",
-      "lastActivityHebrew": "לפני חודש",
-      "size": "675M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": null,
-      "source": "local",
-      "hasGit": false,
-      "git": null,
-      "recentActions": [
-        {
-          "type": "chat",
-          "text": "i think its not workig",
-          "sessionId": "41d7c9c8-1af3-4128-85f5-022913aae746"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "b38b00e2-f4e7-4f80-9fb3-b5588f8b0b16",
-        "lastActivity": "2026-05-07T12:33:44.719Z",
-        "summary": "Base directory for this skill: /Users/rannsegal/Library/Application Support/Claude/local-agent-mode-sessions/skills-plug…"
-      }
     },
     {
       "name": "project-dashboard",
