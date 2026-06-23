@@ -1,15 +1,44 @@
 {
-  "lastUpdated": "2026-06-22T22:52:11.502Z",
+  "lastUpdated": "2026-06-23T02:09:36.416Z",
   "lastUpdatedHebrew": "הרגע",
-  "projectCount": 26,
+  "projectCount": 27,
   "counts": {
     "live": 0,
-    "building": 4,
+    "building": 5,
     "paused": 3,
     "archive": 8,
     "idea": 11
   },
   "projects": [
+    {
+      "name": "growth-operator",
+      "humanName": "growth-operator",
+      "tagline": "This file is the entry point. It loads every layer of the agent's architecture at session start.",
+      "longDescription": "This file is the entry point. It loads every layer of the agent's architecture at session start.",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#8b3a2e",
+      "screenshot": null,
+      "stack": "Unknown",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-06-23T00:42:44.695Z",
+      "lastActivityHebrew": "לפני שעה",
+      "size": "60K",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [],
+      "lastSession": {
+        "sessionId": "66e5dd19-7dd0-453f-a475-05aad38fb45e",
+        "lastActivity": "2026-06-23T00:42:44.695Z",
+        "summary": ""
+      }
+    },
     {
       "name": "Agent-blueprint",
       "humanName": "Agent-blueprint",
@@ -23,8 +52,8 @@
       "stack": "Unknown",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-06-22T22:28:01.390Z",
-      "lastActivityHebrew": "לפני 23 דקות",
+      "lastActivity": "2026-06-23T00:32:02.743Z",
+      "lastActivityHebrew": "לפני שעה",
       "size": "99M",
       "isLive": false,
       "liveUrl": null,
@@ -56,7 +85,7 @@
       ],
       "lastSession": {
         "sessionId": "40fe2c06-868b-439c-beaa-eab54e2cdb99",
-        "lastActivity": "2026-06-22T22:28:01.390Z",
+        "lastActivity": "2026-06-23T00:32:02.743Z",
         "summary": ""
       }
     },
@@ -74,7 +103,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-22T21:37:31.847Z",
-      "lastActivityHebrew": "לפני שעה",
+      "lastActivityHebrew": "לפני 4 שעות",
       "size": "675M",
       "isLive": false,
       "liveUrl": null,
@@ -233,7 +262,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "11 days ago",
+        "lastCommitRelative": "12 days ago",
         "lastCommitMessage": "Project hub: bento wall of live sites with search and settings",
         "lastCommitDate": "2026-06-11 15:13:10 +0300",
         "lastCommitHebrew": "השבוע",
