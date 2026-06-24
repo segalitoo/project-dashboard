@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24T08:13:52.440Z",
+  "lastUpdated": "2026-06-24T12:42:19.976Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 28,
   "counts": {
@@ -20,12 +20,12 @@
       "category": null,
       "accentColor": "#a87432",
       "screenshot": null,
-      "stack": "TypeScript + React 18 + Vite",
+      "stack": "TypeScript + React 18 + Vite + Supabase",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-06-24T06:42:37.367Z",
-      "lastActivityHebrew": "לפני שעה",
-      "size": "141M",
+      "lastActivity": "2026-06-24T12:35:51.203Z",
+      "lastActivityHebrew": "לפני 6 דקות",
+      "size": "149M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": "https://github.com/segalitoo/nitzotz",
@@ -33,17 +33,25 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "2 hours ago",
-        "lastCommitMessage": "ניצוץ: Hebrew idea-capture PWA",
-        "lastCommitDate": "2026-06-24 09:41:53 +0300",
-        "lastCommitHebrew": "לפני שעה",
+        "lastCommitRelative": "10 minutes ago",
+        "lastCommitMessage": "Switch sync auth to Google + email magic link",
+        "lastCommitDate": "2026-06-24 15:32:20 +0300",
+        "lastCommitHebrew": "לפני 9 דקות",
         "isDirty": false,
         "changedFiles": 0
       },
       "recentActions": [
         {
           "type": "commit",
-          "text": "ניצוץ: Hebrew idea-capture PWA"
+          "text": "Switch sync auth to Google + email magic link"
+        },
+        {
+          "type": "commit",
+          "text": "Redesign idea list: borderless airy rows"
+        },
+        {
+          "type": "commit",
+          "text": "Add optional cross-device sync via Supabase"
         },
         {
           "type": "chat",
@@ -53,7 +61,7 @@
       ],
       "lastSession": {
         "sessionId": "071cbb82-ca5d-4b36-ad2c-354cd77a8977",
-        "lastActivity": "2026-06-24T06:42:37.367Z",
+        "lastActivity": "2026-06-24T12:35:51.203Z",
         "summary": "[Request interrupted by user]"
       }
     },
@@ -71,7 +79,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-24T01:01:17.353Z",
-      "lastActivityHebrew": "לפני 7 שעות",
+      "lastActivityHebrew": "לפני 11 שעות",
       "size": "250M",
       "isLive": true,
       "liveUrl": "https://payoneer-ad-generator.vercel.app",
@@ -245,7 +253,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-18T11:41:05.037Z",
-      "lastActivityHebrew": "לפני 5 ימים",
+      "lastActivityHebrew": "לפני 6 ימים",
       "size": "259M",
       "isLive": false,
       "liveUrl": null,
@@ -254,7 +262,7 @@
       "hasGit": true,
       "git": {
         "branch": "redesign/drafting-table",
-        "lastCommitRelative": "9 days ago",
+        "lastCommitRelative": "10 days ago",
         "lastCommitMessage": "fix(editor): keyframe arrow-nudge preempts canvas layer-nudge",
         "lastCommitDate": "2026-06-15 03:46:53 +0300",
         "lastCommitHebrew": "השבוע",
