@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-23T19:51:45.284Z",
+  "lastUpdated": "2026-06-24T00:37:14.442Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 27,
   "counts": {
@@ -10,6 +10,66 @@
     "idea": 11
   },
   "projects": [
+    {
+      "name": "Payoneer-ad-generator",
+      "humanName": "מחולל באנרים לפיוניר",
+      "tagline": "כלי שמייצר אוטומטית באנרים פרסומיים באמצעות AI",
+      "longDescription": "הפרוייקט מקבל פרטי מוצר ומחזיר עשרה באנרים פרסומיים בסגנונות שונים. מבוסס על Gemini ליצירת תמונות וניתוח תוכן, עם backend ב-Supabase לאחסון וצד משתמש ב-React. נבנה כדמו ל-Payoneer.",
+      "nextStep": "לסיים את הפיצ׳ר node-canvas ולמזג ל-main",
+      "notes": null,
+      "category": "AI Tools",
+      "accentColor": "#8b3a2e",
+      "screenshot": null,
+      "stack": "TypeScript + React 19 + Vite + Supabase",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-06-23T22:56:10.933Z",
+      "lastActivityHebrew": "לפני שעה",
+      "size": "250M",
+      "isLive": true,
+      "liveUrl": "https://payoneer-ad-generator.vercel.app",
+      "githubUrl": "https://github.com/segalitoo/Payoneer-ad-generator",
+      "source": "both",
+      "hasGit": true,
+      "git": {
+        "branch": "feat/node-canvas",
+        "lastCommitRelative": "3 weeks ago",
+        "lastCommitMessage": "design: fix residual AA contrast failures found in audit",
+        "lastCommitDate": "2026-06-03 01:38:01 +0300",
+        "lastCommitHebrew": "לפני 3 שבועות",
+        "isDirty": true,
+        "changedFiles": 24
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "design: fix residual AA contrast failures found in audit"
+        },
+        {
+          "type": "commit",
+          "text": "design: migrate to shared toolkit design tokens"
+        },
+        {
+          "type": "commit",
+          "text": "docs: add spec for Mint portfolio marketing images"
+        },
+        {
+          "type": "chat",
+          "text": "everything is too bright. we need to make a better visability but keeping some elements with pour green mint color",
+          "sessionId": "4f9704cf-f8f9-4706-82c0-a4f2c83021e2"
+        },
+        {
+          "type": "chat",
+          "text": "Continue from where you left off.",
+          "sessionId": "9eb2d04d-bfbc-42b2-a515-9c8a85cf9fc9"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "4f9704cf-f8f9-4706-82c0-a4f2c83021e2",
+        "lastActivity": "2026-06-23T22:56:10.933Z",
+        "summary": "everything is too bright. we need to make a better visability but keeping some elements with pour green mint color"
+      }
+    },
     {
       "name": "growth-operator",
       "humanName": "growth-operator",
@@ -24,7 +84,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-23T00:42:44.695Z",
-      "lastActivityHebrew": "לפני 19 שעות",
+      "lastActivityHebrew": "לפני 23 שעות",
       "size": "60K",
       "isLive": false,
       "liveUrl": null,
@@ -53,7 +113,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-23T00:32:02.743Z",
-      "lastActivityHebrew": "לפני 19 שעות",
+      "lastActivityHebrew": "אתמול",
       "size": "99M",
       "isLive": false,
       "liveUrl": null,
@@ -103,7 +163,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-22T21:37:31.847Z",
-      "lastActivityHebrew": "לפני 22 שעות",
+      "lastActivityHebrew": "אתמול",
       "size": "675M",
       "isLive": false,
       "liveUrl": null,
@@ -122,66 +182,6 @@
         "sessionId": "b38b00e2-f4e7-4f80-9fb3-b5588f8b0b16",
         "lastActivity": "2026-06-22T21:37:31.847Z",
         "summary": "Base directory for this skill: /Users/rannsegal/Library/Application Support/Claude/local-agent-mode-sessions/skills-plug…"
-      }
-    },
-    {
-      "name": "Payoneer-ad-generator",
-      "humanName": "מחולל באנרים לפיוניר",
-      "tagline": "כלי שמייצר אוטומטית באנרים פרסומיים באמצעות AI",
-      "longDescription": "הפרוייקט מקבל פרטי מוצר ומחזיר עשרה באנרים פרסומיים בסגנונות שונים. מבוסס על Gemini ליצירת תמונות וניתוח תוכן, עם backend ב-Supabase לאחסון וצד משתמש ב-React. נבנה כדמו ל-Payoneer.",
-      "nextStep": "לסיים את הפיצ׳ר node-canvas ולמזג ל-main",
-      "notes": null,
-      "category": "AI Tools",
-      "accentColor": "#8b3a2e",
-      "screenshot": null,
-      "stack": "TypeScript + React 19 + Vite + Supabase",
-      "status": "building",
-      "subStatus": null,
-      "lastActivity": "2026-06-19T22:02:35.411Z",
-      "lastActivityHebrew": "לפני 3 ימים",
-      "size": "250M",
-      "isLive": true,
-      "liveUrl": "https://payoneer-ad-generator.vercel.app",
-      "githubUrl": "https://github.com/segalitoo/Payoneer-ad-generator",
-      "source": "both",
-      "hasGit": true,
-      "git": {
-        "branch": "feat/node-canvas",
-        "lastCommitRelative": "3 weeks ago",
-        "lastCommitMessage": "design: fix residual AA contrast failures found in audit",
-        "lastCommitDate": "2026-06-03 01:38:01 +0300",
-        "lastCommitHebrew": "לפני 2 שבועות",
-        "isDirty": true,
-        "changedFiles": 23
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "design: fix residual AA contrast failures found in audit"
-        },
-        {
-          "type": "commit",
-          "text": "design: migrate to shared toolkit design tokens"
-        },
-        {
-          "type": "commit",
-          "text": "docs: add spec for Mint portfolio marketing images"
-        },
-        {
-          "type": "chat",
-          "text": "everything is too bright. we need to make a better visability but keeping some elements with pour green mint color",
-          "sessionId": "4f9704cf-f8f9-4706-82c0-a4f2c83021e2"
-        },
-        {
-          "type": "chat",
-          "text": "Continue from where you left off.",
-          "sessionId": "9eb2d04d-bfbc-42b2-a515-9c8a85cf9fc9"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "4f9704cf-f8f9-4706-82c0-a4f2c83021e2",
-        "lastActivity": "2026-06-19T22:02:35.411Z",
-        "summary": "everything is too bright. we need to make a better visability but keeping some elements with pour green mint color"
       }
     },
     {
@@ -262,7 +262,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "12 days ago",
+        "lastCommitRelative": "13 days ago",
         "lastCommitMessage": "Project hub: bento wall of live sites with search and settings",
         "lastCommitDate": "2026-06-11 15:13:10 +0300",
         "lastCommitHebrew": "השבוע",
@@ -484,7 +484,7 @@
       "hasGit": true,
       "git": {
         "branch": "claude/add-claude-documentation-gFq7q",
-        "lastCommitRelative": "10 weeks ago",
+        "lastCommitRelative": "2 months ago",
         "lastCommitMessage": "Update extension components and marketplace mockup",
         "lastCommitDate": "2026-04-15 12:18:38 +0300",
         "lastCommitHebrew": "לפני 2 חודשים",
