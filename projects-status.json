@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-24T03:37:27.609Z",
+  "lastUpdated": "2026-06-24T08:13:52.440Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 28,
   "counts": {
@@ -23,16 +23,28 @@
       "stack": "TypeScript + React 18 + Vite",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-06-24T01:16:03.256Z",
-      "lastActivityHebrew": "לפני 2 שעות",
+      "lastActivity": "2026-06-24T06:42:37.367Z",
+      "lastActivityHebrew": "לפני שעה",
       "size": "141M",
       "isLive": false,
       "liveUrl": null,
-      "githubUrl": null,
+      "githubUrl": "https://github.com/segalitoo/nitzotz",
       "source": "local",
-      "hasGit": false,
-      "git": null,
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "2 hours ago",
+        "lastCommitMessage": "ניצוץ: Hebrew idea-capture PWA",
+        "lastCommitDate": "2026-06-24 09:41:53 +0300",
+        "lastCommitHebrew": "לפני שעה",
+        "isDirty": false,
+        "changedFiles": 0
+      },
       "recentActions": [
+        {
+          "type": "commit",
+          "text": "ניצוץ: Hebrew idea-capture PWA"
+        },
         {
           "type": "chat",
           "text": "[Request interrupted by user]",
@@ -41,7 +53,7 @@
       ],
       "lastSession": {
         "sessionId": "071cbb82-ca5d-4b36-ad2c-354cd77a8977",
-        "lastActivity": "2026-06-24T01:16:03.256Z",
+        "lastActivity": "2026-06-24T06:42:37.367Z",
         "summary": "[Request interrupted by user]"
       }
     },
@@ -59,7 +71,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-24T01:01:17.353Z",
-      "lastActivityHebrew": "לפני 2 שעות",
+      "lastActivityHebrew": "לפני 7 שעות",
       "size": "250M",
       "isLive": true,
       "liveUrl": "https://payoneer-ad-generator.vercel.app",
@@ -381,7 +393,7 @@
       "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-05-27T05:41:10.003Z",
-      "lastActivityHebrew": "לפני 3 שבועות",
+      "lastActivityHebrew": "לפני 0 חודשים",
       "size": "666M",
       "isLive": false,
       "liveUrl": null,
@@ -440,7 +452,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "5 weeks ago",
+        "lastCommitRelative": "6 weeks ago",
         "lastCommitMessage": "fix: guard DB writes in analyze-wardrobe and handle fetchRecs errors",
         "lastCommitDate": "2026-05-16 23:42:55 +0300",
         "lastCommitHebrew": "לפני חודש",
