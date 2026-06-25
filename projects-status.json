@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25T03:59:25.957Z",
+  "lastUpdated": "2026-06-25T07:51:47.212Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 28,
   "counts": {
@@ -24,7 +24,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-24T12:35:51.203Z",
-      "lastActivityHebrew": "לפני 15 שעות",
+      "lastActivityHebrew": "לפני 19 שעות",
       "size": "149M",
       "isLive": false,
       "liveUrl": null,
@@ -33,10 +33,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "15 hours ago",
+        "lastCommitRelative": "19 hours ago",
         "lastCommitMessage": "Switch sync auth to Google + email magic link",
         "lastCommitDate": "2026-06-24 15:32:20 +0300",
-        "lastCommitHebrew": "לפני 15 שעות",
+        "lastCommitHebrew": "לפני 19 שעות",
         "isDirty": false,
         "changedFiles": 0
       },
