@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-25T15:48:12.012Z",
+  "lastUpdated": "2026-06-25T20:08:58.843Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 28,
   "counts": {
@@ -23,8 +23,8 @@
       "stack": "TypeScript + React 18 + Vite + Supabase",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-06-25T10:20:22.512Z",
-      "lastActivityHebrew": "לפני 5 שעות",
+      "lastActivity": "2026-06-25T19:14:10.592Z",
+      "lastActivityHebrew": "לפני 54 דקות",
       "size": "153M",
       "isLive": false,
       "liveUrl": null,
@@ -33,10 +33,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "7 hours ago",
+        "lastCommitRelative": "11 hours ago",
         "lastCommitMessage": "Add voice capture, undo-on-delete, AI assist, tags + pin + sort",
         "lastCommitDate": "2026-06-25 12:11:49 +0300",
-        "lastCommitHebrew": "לפני 6 שעות",
+        "lastCommitHebrew": "לפני 10 שעות",
         "isDirty": true,
         "changedFiles": 1
       },
@@ -61,7 +61,7 @@
       ],
       "lastSession": {
         "sessionId": "071cbb82-ca5d-4b36-ad2c-354cd77a8977",
-        "lastActivity": "2026-06-25T10:20:22.512Z",
+        "lastActivity": "2026-06-25T19:14:10.592Z",
         "summary": "[Request interrupted by user]"
       }
     },
@@ -355,7 +355,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "2 weeks ago",
+        "lastCommitRelative": "3 weeks ago",
         "lastCommitMessage": "Redesign CTAs as outlined capsule pills with fill-on-hover",
         "lastCommitDate": "2026-06-08 10:53:24 +0300",
         "lastCommitHebrew": "לפני 2 שבועות",
