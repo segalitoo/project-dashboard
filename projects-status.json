@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-06-25T20:08:58.843Z",
+  "lastUpdated": "2026-06-26T00:13:07.199Z",
   "lastUpdatedHebrew": "הרגע",
-  "projectCount": 28,
+  "projectCount": 27,
   "counts": {
     "live": 0,
     "building": 5,
     "paused": 4,
-    "archive": 8,
-    "idea": 11
+    "archive": 6,
+    "idea": 12
   },
   "projects": [
     {
@@ -24,7 +24,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-25T19:14:10.592Z",
-      "lastActivityHebrew": "לפני 54 דקות",
+      "lastActivityHebrew": "לפני 4 שעות",
       "size": "153M",
       "isLive": false,
       "liveUrl": null,
@@ -33,10 +33,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "11 hours ago",
+        "lastCommitRelative": "15 hours ago",
         "lastCommitMessage": "Add voice capture, undo-on-delete, AI assist, tags + pin + sort",
         "lastCommitDate": "2026-06-25 12:11:49 +0300",
-        "lastCommitHebrew": "לפני 10 שעות",
+        "lastCommitHebrew": "לפני 15 שעות",
         "isDirty": true,
         "changedFiles": 1
       },
@@ -140,7 +140,7 @@
       "subStatus": null,
       "lastActivity": "2026-06-23T00:42:44.695Z",
       "lastActivityHebrew": "שלשום",
-      "size": "60K",
+      "size": "68K",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
@@ -218,7 +218,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-22T21:37:31.847Z",
-      "lastActivityHebrew": "שלשום",
+      "lastActivityHebrew": "לפני 3 ימים",
       "size": "675M",
       "isLive": false,
       "liveUrl": null,
@@ -438,52 +438,6 @@
       }
     },
     {
-      "name": "Wardrobeapp",
-      "humanName": "Wardrobeapp",
-      "tagline": "TypeScript + Next.js + Supabase",
-      "longDescription": "פרוייקט ב-TypeScript + Next.js + Supabase",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#7a8a3a",
-      "screenshot": null,
-      "stack": "TypeScript + Next.js + Supabase",
-      "status": "archive",
-      "subStatus": null,
-      "lastActivity": "2026-05-16T20:42:55.000Z",
-      "lastActivityHebrew": "לפני חודש",
-      "size": "1.0G",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": null,
-      "source": "local",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "6 weeks ago",
-        "lastCommitMessage": "fix: guard DB writes in analyze-wardrobe and handle fetchRecs errors",
-        "lastCommitDate": "2026-05-16 23:42:55 +0300",
-        "lastCommitHebrew": "לפני חודש",
-        "isDirty": true,
-        "changedFiles": 22
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "fix: guard DB writes in analyze-wardrobe and handle fetchRecs errors"
-        },
-        {
-          "type": "commit",
-          "text": "feat: add recommendations page with gap analysis trigger and shop links"
-        },
-        {
-          "type": "commit",
-          "text": "feat: add analyze-wardrobe API route for gap analysis"
-        }
-      ],
-      "lastSession": null
-    },
-    {
       "name": "project-dashboard",
       "humanName": "מעקב",
       "tagline": "לוח פרויקטים אישי — מרכז את כל הפרויקטים המקומיים והענן",
@@ -558,48 +512,6 @@
         {
           "type": "commit",
           "text": "עדכון טקסט טסטמוניאל: הסרת 'וואו'"
-        }
-      ],
-      "lastSession": null
-    },
-    {
-      "name": "ai-academy-jordan",
-      "humanName": "אקדמיית AI",
-      "tagline": "פלטפורמת קורסים בעברית בנושאי AI - שיעורים קצרים עד 10 דקות",
-      "longDescription": "דף נחיתה ופלטפורמה לקורסי AI בעברית. כל שיעור עד 10 דקות, עם דגש על קליטות וגישה מהירה. בנוי על Next.js + Supabase. נוצר בעקבות בקשת חבר (ג׳ורדן).",
-      "nextStep": "לבנות את מסך הקורסים הראשי",
-      "notes": null,
-      "category": "Educational",
-      "accentColor": "#2d5f7f",
-      "screenshot": null,
-      "stack": "TypeScript + Next.js + Supabase",
-      "status": "archive",
-      "subStatus": null,
-      "lastActivity": "2026-04-02T21:34:04.000Z",
-      "lastActivityHebrew": "לפני 2 חודשים",
-      "size": "806M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/ai-academy-jordan",
-      "source": "local",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "3 months ago",
-        "lastCommitMessage": "AI Academy for Jordan - Hebrew AI learning platform",
-        "lastCommitDate": "2026-04-03 00:34:04 +0300",
-        "lastCommitHebrew": "לפני 2 חודשים",
-        "isDirty": true,
-        "changedFiles": 1
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "AI Academy for Jordan - Hebrew AI learning platform"
-        },
-        {
-          "type": "commit",
-          "text": "Initial commit from Create Next App"
         }
       ],
       "lastSession": null
@@ -978,6 +890,31 @@
       "liveUrl": null,
       "githubUrl": null,
       "source": "local",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [],
+      "lastSession": null
+    },
+    {
+      "name": "ai-academy-jordan",
+      "humanName": "אקדמיית AI",
+      "tagline": "פלטפורמת קורסים בעברית בנושאי AI - שיעורים קצרים עד 10 דקות",
+      "longDescription": "דף נחיתה ופלטפורמה לקורסי AI בעברית. כל שיעור עד 10 דקות, עם דגש על קליטות וגישה מהירה. בנוי על Next.js + Supabase. נוצר בעקבות בקשת חבר (ג׳ורדן).",
+      "nextStep": "לבנות את מסך הקורסים הראשי",
+      "notes": null,
+      "category": "Educational",
+      "accentColor": "#2d5f7f",
+      "screenshot": null,
+      "stack": "—",
+      "status": "idea",
+      "subStatus": null,
+      "lastActivity": null,
+      "lastActivityHebrew": "",
+      "size": "meta",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/ai-academy-jordan",
+      "source": "cloud",
       "hasGit": false,
       "git": null,
       "recentActions": [],
