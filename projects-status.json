@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T11:19:29.236Z",
+  "lastUpdated": "2026-06-26T19:09:31.532Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 27,
   "counts": {
@@ -24,7 +24,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-25T19:14:10.592Z",
-      "lastActivityHebrew": "לפני 16 שעות",
+      "lastActivityHebrew": "לפני 23 שעות",
       "size": "153M",
       "isLive": false,
       "liveUrl": null,
@@ -33,7 +33,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "26 hours ago",
+        "lastCommitRelative": "34 hours ago",
         "lastCommitMessage": "Add voice capture, undo-on-delete, AI assist, tags + pin + sort",
         "lastCommitDate": "2026-06-25 12:11:49 +0300",
         "lastCommitHebrew": "אתמול",
@@ -262,7 +262,7 @@
       "hasGit": true,
       "git": {
         "branch": "redesign/drafting-table",
-        "lastCommitRelative": "11 days ago",
+        "lastCommitRelative": "12 days ago",
         "lastCommitMessage": "fix(editor): keyframe arrow-nudge preempts canvas layer-nudge",
         "lastCommitDate": "2026-06-15 03:46:53 +0300",
         "lastCommitHebrew": "השבוע",
