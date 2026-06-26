@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T19:09:31.532Z",
+  "lastUpdated": "2026-06-26T22:09:43.504Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 27,
   "counts": {
@@ -24,7 +24,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-25T19:14:10.592Z",
-      "lastActivityHebrew": "לפני 23 שעות",
+      "lastActivityHebrew": "אתמול",
       "size": "153M",
       "isLive": false,
       "liveUrl": null,
@@ -33,7 +33,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "34 hours ago",
+        "lastCommitRelative": "2 days ago",
         "lastCommitMessage": "Add voice capture, undo-on-delete, AI assist, tags + pin + sort",
         "lastCommitDate": "2026-06-25 12:11:49 +0300",
         "lastCommitHebrew": "אתמול",
@@ -177,7 +177,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "2 weeks ago",
+        "lastCommitRelative": "3 weeks ago",
         "lastCommitMessage": "Add real .zip export of all seven files",
         "lastCommitDate": "2026-06-09 13:33:18 +0300",
         "lastCommitHebrew": "לפני 2 שבועות",
@@ -218,7 +218,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-22T21:37:31.847Z",
-      "lastActivityHebrew": "לפני 3 ימים",
+      "lastActivityHebrew": "לפני 4 ימים",
       "size": "675M",
       "isLive": false,
       "liveUrl": null,
