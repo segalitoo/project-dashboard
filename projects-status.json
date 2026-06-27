@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T20:17:13.407Z",
+  "lastUpdated": "2026-06-27T23:17:24.828Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 27,
   "counts": {
@@ -10,6 +10,41 @@
     "idea": 12
   },
   "projects": [
+    {
+      "name": "tabspeak",
+      "humanName": "TabSpeak",
+      "tagline": "תוסף שמדבר את התוכן של הטאבים הפתוחים",
+      "longDescription": "תוסף דפדפן שקורא בקול את התוכן של הטאב הפעיל. שימושי לרב-משימה ולנגישות. בנוי על React 19 + Vite.",
+      "nextStep": "לתקן את הבאג שדווח (\"i think its not working\")",
+      "notes": null,
+      "category": "Productivity",
+      "accentColor": "#a06b9e",
+      "screenshot": null,
+      "stack": "TypeScript + React 19 + Vite",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-06-27T22:53:22.718Z",
+      "lastActivityHebrew": "לפני 24 דקות",
+      "size": "676M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [
+        {
+          "type": "chat",
+          "text": "i think its not workig",
+          "sessionId": "41d7c9c8-1af3-4128-85f5-022913aae746"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "b38b00e2-f4e7-4f80-9fb3-b5588f8b0b16",
+        "lastActivity": "2026-06-27T22:53:22.718Z",
+        "summary": "Base directory for this skill: /Users/rannsegal/Library/Application Support/Claude/local-agent-mode-sessions/skills-plug…"
+      }
+    },
     {
       "name": "Ideas",
       "humanName": "Ideas",
@@ -23,8 +58,8 @@
       "stack": "TypeScript + React 18 + Vite + Supabase",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-06-25T19:14:10.592Z",
-      "lastActivityHebrew": "שלשום",
+      "lastActivity": "2026-06-27T22:03:40.956Z",
+      "lastActivityHebrew": "לפני שעה",
       "size": "153M",
       "isLive": false,
       "liveUrl": null,
@@ -33,14 +68,18 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "2 days ago",
-        "lastCommitMessage": "Add voice capture, undo-on-delete, AI assist, tags + pin + sort",
-        "lastCommitDate": "2026-06-25 12:11:49 +0300",
-        "lastCommitHebrew": "שלשום",
-        "isDirty": true,
-        "changedFiles": 1
+        "lastCommitRelative": "2 hours ago",
+        "lastCommitMessage": "Add share-to-app (PWA share target) + daily resurface (ניצוץ היומי)",
+        "lastCommitDate": "2026-06-28 00:22:51 +0300",
+        "lastCommitHebrew": "לפני שעה",
+        "isDirty": false,
+        "changedFiles": 0
       },
       "recentActions": [
+        {
+          "type": "commit",
+          "text": "Add share-to-app (PWA share target) + daily resurface (ניצוץ היומי)"
+        },
         {
           "type": "commit",
           "text": "Add voice capture, undo-on-delete, AI assist, tags + pin + sort"
@@ -50,10 +89,6 @@
           "text": "Switch sync auth to Google + email magic link"
         },
         {
-          "type": "commit",
-          "text": "Redesign idea list: borderless airy rows"
-        },
-        {
           "type": "chat",
           "text": "[Request interrupted by user]",
           "sessionId": "071cbb82-ca5d-4b36-ad2c-354cd77a8977"
@@ -61,7 +96,7 @@
       ],
       "lastSession": {
         "sessionId": "071cbb82-ca5d-4b36-ad2c-354cd77a8977",
-        "lastActivity": "2026-06-25T19:14:10.592Z",
+        "lastActivity": "2026-06-27T22:03:40.956Z",
         "summary": "[Request interrupted by user]"
       }
     },
@@ -202,41 +237,6 @@
         "sessionId": "40fe2c06-868b-439c-beaa-eab54e2cdb99",
         "lastActivity": "2026-06-23T00:32:02.743Z",
         "summary": ""
-      }
-    },
-    {
-      "name": "tabspeak",
-      "humanName": "TabSpeak",
-      "tagline": "תוסף שמדבר את התוכן של הטאבים הפתוחים",
-      "longDescription": "תוסף דפדפן שקורא בקול את התוכן של הטאב הפעיל. שימושי לרב-משימה ולנגישות. בנוי על React 19 + Vite.",
-      "nextStep": "לתקן את הבאג שדווח (\"i think its not working\")",
-      "notes": null,
-      "category": "Productivity",
-      "accentColor": "#a06b9e",
-      "screenshot": null,
-      "stack": "TypeScript + React 19 + Vite",
-      "status": "building",
-      "subStatus": null,
-      "lastActivity": "2026-06-22T21:37:31.847Z",
-      "lastActivityHebrew": "לפני 4 ימים",
-      "size": "675M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": null,
-      "source": "local",
-      "hasGit": false,
-      "git": null,
-      "recentActions": [
-        {
-          "type": "chat",
-          "text": "i think its not workig",
-          "sessionId": "41d7c9c8-1af3-4128-85f5-022913aae746"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "b38b00e2-f4e7-4f80-9fb3-b5588f8b0b16",
-        "lastActivity": "2026-06-22T21:37:31.847Z",
-        "summary": "Base directory for this skill: /Users/rannsegal/Library/Application Support/Claude/local-agent-mode-sessions/skills-plug…"
       }
     },
     {
