@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-26T22:09:43.504Z",
+  "lastUpdated": "2026-06-27T01:09:54.293Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 27,
   "counts": {
@@ -79,7 +79,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-24T01:01:17.353Z",
-      "lastActivityHebrew": "שלשום",
+      "lastActivityHebrew": "לפני 3 ימים",
       "size": "250M",
       "isLive": true,
       "liveUrl": "https://payoneer-ad-generator.vercel.app",
@@ -139,7 +139,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-23T00:42:44.695Z",
-      "lastActivityHebrew": "לפני 3 ימים",
+      "lastActivityHebrew": "לפני 4 ימים",
       "size": "68K",
       "isLive": false,
       "liveUrl": null,
@@ -168,7 +168,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-23T00:32:02.743Z",
-      "lastActivityHebrew": "לפני 3 ימים",
+      "lastActivityHebrew": "לפני 4 ימים",
       "size": "99M",
       "isLive": false,
       "liveUrl": null,
