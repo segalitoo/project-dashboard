@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T04:10:04.934Z",
+  "lastUpdated": "2026-06-27T12:53:36.798Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 27,
   "counts": {
@@ -36,7 +36,7 @@
         "lastCommitRelative": "2 days ago",
         "lastCommitMessage": "Add voice capture, undo-on-delete, AI assist, tags + pin + sort",
         "lastCommitDate": "2026-06-25 12:11:49 +0300",
-        "lastCommitHebrew": "אתמול",
+        "lastCommitHebrew": "שלשום",
         "isDirty": true,
         "changedFiles": 1
       },
@@ -88,7 +88,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "3 weeks ago",
+        "lastCommitRelative": "4 weeks ago",
         "lastCommitMessage": "design: fix residual AA contrast failures found in audit",
         "lastCommitDate": "2026-06-03 01:38:01 +0300",
         "lastCommitHebrew": "לפני 3 שבועות",
@@ -262,7 +262,7 @@
       "hasGit": true,
       "git": {
         "branch": "redesign/drafting-table",
-        "lastCommitRelative": "12 days ago",
+        "lastCommitRelative": "13 days ago",
         "lastCommitMessage": "fix(editor): keyframe arrow-nudge preempts canvas layer-nudge",
         "lastCommitDate": "2026-06-15 03:46:53 +0300",
         "lastCommitHebrew": "השבוע",
