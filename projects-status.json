@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-28T14:23:54.560Z",
+  "lastUpdated": "2026-06-28T17:24:05.747Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 27,
   "counts": {
@@ -24,7 +24,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-27T23:56:43.312Z",
-      "lastActivityHebrew": "לפני 14 שעות",
+      "lastActivityHebrew": "לפני 17 שעות",
       "size": "676M",
       "isLive": false,
       "liveUrl": null,
@@ -59,7 +59,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-27T22:03:40.956Z",
-      "lastActivityHebrew": "לפני 16 שעות",
+      "lastActivityHebrew": "לפני 19 שעות",
       "size": "153M",
       "isLive": false,
       "liveUrl": null,
@@ -68,10 +68,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "17 hours ago",
+        "lastCommitRelative": "20 hours ago",
         "lastCommitMessage": "Add share-to-app (PWA share target) + daily resurface (ניצוץ היומי)",
         "lastCommitDate": "2026-06-28 00:22:51 +0300",
-        "lastCommitHebrew": "לפני 17 שעות",
+        "lastCommitHebrew": "לפני 20 שעות",
         "isDirty": false,
         "changedFiles": 0
       },
