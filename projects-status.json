@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-28T17:24:05.747Z",
+  "lastUpdated": "2026-06-28T21:04:31.653Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 27,
   "counts": {
@@ -23,8 +23,8 @@
       "stack": "TypeScript + React 19 + Vite",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-06-27T23:56:43.312Z",
-      "lastActivityHebrew": "לפני 17 שעות",
+      "lastActivity": "2026-06-28T20:52:53.368Z",
+      "lastActivityHebrew": "לפני 11 דקות",
       "size": "676M",
       "isLive": false,
       "liveUrl": null,
@@ -41,7 +41,7 @@
       ],
       "lastSession": {
         "sessionId": "b38b00e2-f4e7-4f80-9fb3-b5588f8b0b16",
-        "lastActivity": "2026-06-27T23:56:43.312Z",
+        "lastActivity": "2026-06-28T20:52:53.368Z",
         "summary": "Base directory for this skill: /Users/rannsegal/Library/Application Support/Claude/local-agent-mode-sessions/skills-plug…"
       }
     },
@@ -59,7 +59,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-27T22:03:40.956Z",
-      "lastActivityHebrew": "לפני 19 שעות",
+      "lastActivityHebrew": "לפני 23 שעות",
       "size": "153M",
       "isLive": false,
       "liveUrl": null,
@@ -68,10 +68,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "20 hours ago",
+        "lastCommitRelative": "24 hours ago",
         "lastCommitMessage": "Add share-to-app (PWA share target) + daily resurface (ניצוץ היומי)",
         "lastCommitDate": "2026-06-28 00:22:51 +0300",
-        "lastCommitHebrew": "לפני 20 שעות",
+        "lastCommitHebrew": "לפני 23 שעות",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -493,7 +493,7 @@
       "hasGit": true,
       "git": {
         "branch": "claude/add-claude-documentation-gFq7q",
-        "lastCommitRelative": "2 months ago",
+        "lastCommitRelative": "3 months ago",
         "lastCommitMessage": "Update extension components and marketplace mockup",
         "lastCommitDate": "2026-04-15 12:18:38 +0300",
         "lastCommitHebrew": "לפני 2 חודשים",
