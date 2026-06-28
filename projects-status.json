@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T23:17:24.828Z",
+  "lastUpdated": "2026-06-28T10:45:17.135Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 27,
   "counts": {
@@ -23,8 +23,8 @@
       "stack": "TypeScript + React 19 + Vite",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-06-27T22:53:22.718Z",
-      "lastActivityHebrew": "לפני 24 דקות",
+      "lastActivity": "2026-06-27T23:56:43.312Z",
+      "lastActivityHebrew": "לפני 10 שעות",
       "size": "676M",
       "isLive": false,
       "liveUrl": null,
@@ -41,7 +41,7 @@
       ],
       "lastSession": {
         "sessionId": "b38b00e2-f4e7-4f80-9fb3-b5588f8b0b16",
-        "lastActivity": "2026-06-27T22:53:22.718Z",
+        "lastActivity": "2026-06-27T23:56:43.312Z",
         "summary": "Base directory for this skill: /Users/rannsegal/Library/Application Support/Claude/local-agent-mode-sessions/skills-plug…"
       }
     },
@@ -59,7 +59,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-27T22:03:40.956Z",
-      "lastActivityHebrew": "לפני שעה",
+      "lastActivityHebrew": "לפני 12 שעות",
       "size": "153M",
       "isLive": false,
       "liveUrl": null,
@@ -68,10 +68,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "2 hours ago",
+        "lastCommitRelative": "13 hours ago",
         "lastCommitMessage": "Add share-to-app (PWA share target) + daily resurface (ניצוץ היומי)",
         "lastCommitDate": "2026-06-28 00:22:51 +0300",
-        "lastCommitHebrew": "לפני שעה",
+        "lastCommitHebrew": "לפני 13 שעות",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -114,7 +114,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-24T01:01:17.353Z",
-      "lastActivityHebrew": "לפני 3 ימים",
+      "lastActivityHebrew": "לפני 4 ימים",
       "size": "250M",
       "isLive": true,
       "liveUrl": "https://payoneer-ad-generator.vercel.app",
@@ -174,7 +174,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-23T00:42:44.695Z",
-      "lastActivityHebrew": "לפני 4 ימים",
+      "lastActivityHebrew": "לפני 5 ימים",
       "size": "68K",
       "isLive": false,
       "liveUrl": null,
@@ -203,7 +203,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-23T00:32:02.743Z",
-      "lastActivityHebrew": "לפני 4 ימים",
+      "lastActivityHebrew": "לפני 5 ימים",
       "size": "99M",
       "isLive": false,
       "liveUrl": null,
