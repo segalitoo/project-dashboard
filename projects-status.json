@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-06-29T05:55:30.847Z",
+  "lastUpdated": "2026-06-29T09:39:25.326Z",
   "lastUpdatedHebrew": "הרגע",
-  "projectCount": 27,
+  "projectCount": 28,
   "counts": {
     "live": 0,
     "building": 5,
     "paused": 3,
     "archive": 7,
-    "idea": 12
+    "idea": 13
   },
   "projects": [
     {
@@ -23,8 +23,8 @@
       "stack": "TypeScript + React 19 + Vite",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-06-28T22:24:12.676Z",
-      "lastActivityHebrew": "לפני 7 שעות",
+      "lastActivity": "2026-06-29T09:31:29.436Z",
+      "lastActivityHebrew": "לפני 7 דקות",
       "size": "676M",
       "isLive": false,
       "liveUrl": null,
@@ -32,16 +32,10 @@
       "source": "local",
       "hasGit": false,
       "git": null,
-      "recentActions": [
-        {
-          "type": "chat",
-          "text": "i think its not workig",
-          "sessionId": "41d7c9c8-1af3-4128-85f5-022913aae746"
-        }
-      ],
+      "recentActions": [],
       "lastSession": {
         "sessionId": "b38b00e2-f4e7-4f80-9fb3-b5588f8b0b16",
-        "lastActivity": "2026-06-28T22:24:12.676Z",
+        "lastActivity": "2026-06-29T09:31:29.436Z",
         "summary": "Base directory for this skill: /Users/rannsegal/Library/Application Support/Claude/local-agent-mode-sessions/skills-plug…"
       }
     },
@@ -58,8 +52,8 @@
       "stack": "TypeScript + React 18 + Vite + Supabase",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-06-27T22:03:40.956Z",
-      "lastActivityHebrew": "אתמול",
+      "lastActivity": "2026-06-29T07:21:38.673Z",
+      "lastActivityHebrew": "לפני 2 שעות",
       "size": "153M",
       "isLive": false,
       "liveUrl": null,
@@ -68,25 +62,25 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "33 hours ago",
-        "lastCommitMessage": "Add share-to-app (PWA share target) + daily resurface (ניצוץ היומי)",
-        "lastCommitDate": "2026-06-28 00:22:51 +0300",
-        "lastCommitHebrew": "אתמול",
+        "lastCommitRelative": "2 hours ago",
+        "lastCommitMessage": "Switch SparkIcon to filled solid star matching the app icon",
+        "lastCommitDate": "2026-06-29 10:21:31 +0300",
+        "lastCommitHebrew": "לפני 2 שעות",
         "isDirty": false,
         "changedFiles": 0
       },
       "recentActions": [
         {
           "type": "commit",
-          "text": "Add share-to-app (PWA share target) + daily resurface (ניצוץ היומי)"
+          "text": "Switch SparkIcon to filled solid star matching the app icon"
         },
         {
           "type": "commit",
-          "text": "Add voice capture, undo-on-delete, AI assist, tags + pin + sort"
+          "text": "Update in-app spark icon to match light paper PWA icon"
         },
         {
           "type": "commit",
-          "text": "Switch sync auth to Google + email magic link"
+          "text": "Redesign app icon: light paper tile with ember spark"
         },
         {
           "type": "chat",
@@ -96,7 +90,7 @@
       ],
       "lastSession": {
         "sessionId": "071cbb82-ca5d-4b36-ad2c-354cd77a8977",
-        "lastActivity": "2026-06-27T22:03:40.956Z",
+        "lastActivity": "2026-06-29T07:21:38.673Z",
         "summary": "[Request interrupted by user]"
       }
     },
@@ -346,7 +340,7 @@
       "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-06-08T08:22:46.385Z",
-      "lastActivityHebrew": "לפני 2 שבועות",
+      "lastActivityHebrew": "לפני 3 שבועות",
       "size": "145M",
       "isLive": false,
       "liveUrl": null,
@@ -358,9 +352,9 @@
         "lastCommitRelative": "3 weeks ago",
         "lastCommitMessage": "Redesign CTAs as outlined capsule pills with fill-on-hover",
         "lastCommitDate": "2026-06-08 10:53:24 +0300",
-        "lastCommitHebrew": "לפני 2 שבועות",
+        "lastCommitHebrew": "לפני 3 שבועות",
         "isDirty": true,
-        "changedFiles": 7
+        "changedFiles": 10
       },
       "recentActions": [
         {
@@ -736,6 +730,31 @@
       "lastActivity": null,
       "lastActivityHebrew": "",
       "size": "20K",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [],
+      "lastSession": null
+    },
+    {
+      "name": "brand-system",
+      "humanName": "brand-system",
+      "tagline": "Unknown",
+      "longDescription": "פרוייקט ב-Unknown",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#8b3a8e",
+      "screenshot": null,
+      "stack": "Unknown",
+      "status": "idea",
+      "subStatus": null,
+      "lastActivity": null,
+      "lastActivityHebrew": "",
+      "size": "52K",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
