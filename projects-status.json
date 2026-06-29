@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-28T21:04:31.653Z",
+  "lastUpdated": "2026-06-29T00:04:43.282Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 27,
   "counts": {
@@ -23,8 +23,8 @@
       "stack": "TypeScript + React 19 + Vite",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-06-28T20:52:53.368Z",
-      "lastActivityHebrew": "לפני 11 דקות",
+      "lastActivity": "2026-06-28T22:24:12.676Z",
+      "lastActivityHebrew": "לפני שעה",
       "size": "676M",
       "isLive": false,
       "liveUrl": null,
@@ -41,7 +41,7 @@
       ],
       "lastSession": {
         "sessionId": "b38b00e2-f4e7-4f80-9fb3-b5588f8b0b16",
-        "lastActivity": "2026-06-28T20:52:53.368Z",
+        "lastActivity": "2026-06-28T22:24:12.676Z",
         "summary": "Base directory for this skill: /Users/rannsegal/Library/Application Support/Claude/local-agent-mode-sessions/skills-plug…"
       }
     },
@@ -59,7 +59,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-27T22:03:40.956Z",
-      "lastActivityHebrew": "לפני 23 שעות",
+      "lastActivityHebrew": "אתמול",
       "size": "153M",
       "isLive": false,
       "liveUrl": null,
@@ -68,10 +68,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "24 hours ago",
+        "lastCommitRelative": "27 hours ago",
         "lastCommitMessage": "Add share-to-app (PWA share target) + daily resurface (ניצוץ היומי)",
         "lastCommitDate": "2026-06-28 00:22:51 +0300",
-        "lastCommitHebrew": "לפני 23 שעות",
+        "lastCommitHebrew": "אתמול",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -317,7 +317,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "2 weeks ago",
+        "lastCommitRelative": "3 weeks ago",
         "lastCommitMessage": "Project hub: bento wall of live sites with search and settings",
         "lastCommitDate": "2026-06-11 15:13:10 +0300",
         "lastCommitHebrew": "לפני 2 שבועות",
