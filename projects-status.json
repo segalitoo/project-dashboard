@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-30T08:57:11.240Z",
+  "lastUpdated": "2026-06-30T11:57:23.863Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 28,
   "counts": {
@@ -24,7 +24,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-30T03:51:34.713Z",
-      "lastActivityHebrew": "לפני 5 שעות",
+      "lastActivityHebrew": "לפני 8 שעות",
       "size": "675M",
       "isLive": false,
       "liveUrl": null,
@@ -53,7 +53,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-30T03:49:19.000Z",
-      "lastActivityHebrew": "לפני 5 שעות",
+      "lastActivityHebrew": "לפני 8 שעות",
       "size": "308K",
       "isLive": false,
       "liveUrl": null,
@@ -62,10 +62,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "5 hours ago",
+        "lastCommitRelative": "8 hours ago",
         "lastCommitMessage": "docs: add repo URL to submodule instructions",
         "lastCommitDate": "2026-06-30 06:49:19 +0300",
-        "lastCommitHebrew": "לפני 5 שעות",
+        "lastCommitHebrew": "לפני 8 שעות",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -95,7 +95,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-30T03:45:52.152Z",
-      "lastActivityHebrew": "לפני 5 שעות",
+      "lastActivityHebrew": "לפני 8 שעות",
       "size": "147M",
       "isLive": false,
       "liveUrl": null,
@@ -104,10 +104,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "5 hours ago",
+        "lastCommitRelative": "8 hours ago",
         "lastCommitMessage": "Update Zeph project screenshots",
         "lastCommitDate": "2026-06-30 06:45:45 +0300",
-        "lastCommitHebrew": "לפני 5 שעות",
+        "lastCommitHebrew": "לפני 8 שעות",
         "isDirty": true,
         "changedFiles": 10
       },
@@ -164,7 +164,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "26 hours ago",
+        "lastCommitRelative": "29 hours ago",
         "lastCommitMessage": "Switch SparkIcon to filled solid star matching the app icon",
         "lastCommitDate": "2026-06-29 10:21:31 +0300",
         "lastCommitHebrew": "אתמול",
@@ -311,7 +311,7 @@
         "lastCommitRelative": "3 weeks ago",
         "lastCommitMessage": "Add real .zip export of all seven files",
         "lastCommitDate": "2026-06-09 13:33:18 +0300",
-        "lastCommitHebrew": "לפני 2 שבועות",
+        "lastCommitHebrew": "לפני 3 שבועות",
         "isDirty": true,
         "changedFiles": 2
       },
