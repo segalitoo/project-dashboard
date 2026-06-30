@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-06-29T22:56:46.804Z",
+  "lastUpdated": "2026-06-30T02:12:43.768Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 28,
   "counts": {
     "live": 0,
-    "building": 5,
-    "paused": 3,
+    "building": 4,
+    "paused": 4,
     "archive": 7,
     "idea": 13
   },
@@ -23,9 +23,9 @@
       "stack": "TypeScript + React 19 + Vite",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-06-29T22:12:28.263Z",
-      "lastActivityHebrew": "לפני 44 דקות",
-      "size": "676M",
+      "lastActivity": "2026-06-30T01:21:25.408Z",
+      "lastActivityHebrew": "לפני 51 דקות",
+      "size": "675M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
@@ -35,8 +35,68 @@
       "recentActions": [],
       "lastSession": {
         "sessionId": "b38b00e2-f4e7-4f80-9fb3-b5588f8b0b16",
-        "lastActivity": "2026-06-29T22:12:28.263Z",
+        "lastActivity": "2026-06-30T01:21:25.408Z",
         "summary": "Base directory for this skill: /Users/rannsegal/Library/Application Support/Claude/local-agent-mode-sessions/skills-plug…"
+      }
+    },
+    {
+      "name": "ran-portfolio",
+      "humanName": "פורטפוליו אישי",
+      "tagline": "כרטיס ביקור אונליין - אוסף הפרוייקטים והשירותים שלי",
+      "longDescription": "אתר סטטי בעברית שמרכז את הפרוייקטים, ניסיון העבודה ופרטי קשר. מעוצב ידנית ב-HTML/CSS/JS ללא פריימוורק, עם דגש על טון אישי וחם. כולל מעקב אנליטיקס דרך GA4.",
+      "nextStep": "לפרסם את הגרסה האחרונה (יש 8 קבצים שונו)",
+      "notes": null,
+      "category": "Portfolio",
+      "accentColor": "#3a4a6b",
+      "screenshot": null,
+      "stack": "HTML/CSS/JS",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-06-30T01:17:33.842Z",
+      "lastActivityHebrew": "לפני 55 דקות",
+      "size": "145M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/ran-portfolio",
+      "source": "both",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "3 weeks ago",
+        "lastCommitMessage": "Redesign CTAs as outlined capsule pills with fill-on-hover",
+        "lastCommitDate": "2026-06-08 10:53:24 +0300",
+        "lastCommitHebrew": "לפני 3 שבועות",
+        "isDirty": true,
+        "changedFiles": 14
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Redesign CTAs as outlined capsule pills with fill-on-hover"
+        },
+        {
+          "type": "commit",
+          "text": "Move AI project CTAs inline with role text, update year to 2026"
+        },
+        {
+          "type": "commit",
+          "text": "Update index.html"
+        },
+        {
+          "type": "chat",
+          "text": "Continue from where you left off.",
+          "sessionId": "62949473-9542-4af5-b1f3-c760e5957a96"
+        },
+        {
+          "type": "chat",
+          "text": "Continue from where you left off.",
+          "sessionId": "99ddefc0-751b-4ff1-97be-fa5b089c27a1"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "62949473-9542-4af5-b1f3-c760e5957a96",
+        "lastActivity": "2026-06-30T01:17:33.842Z",
+        "summary": "Continue from where you left off."
       }
     },
     {
@@ -53,7 +113,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-29T07:21:38.673Z",
-      "lastActivityHebrew": "לפני 15 שעות",
+      "lastActivityHebrew": "לפני 18 שעות",
       "size": "153M",
       "isLive": false,
       "liveUrl": null,
@@ -62,10 +122,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "16 hours ago",
+        "lastCommitRelative": "19 hours ago",
         "lastCommitMessage": "Switch SparkIcon to filled solid star matching the app icon",
         "lastCommitDate": "2026-06-29 10:21:31 +0300",
-        "lastCommitHebrew": "לפני 15 שעות",
+        "lastCommitHebrew": "לפני 18 שעות",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -108,7 +168,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-24T01:01:17.353Z",
-      "lastActivityHebrew": "לפני 5 ימים",
+      "lastActivityHebrew": "לפני 6 ימים",
       "size": "250M",
       "isLive": true,
       "liveUrl": "https://payoneer-ad-generator.vercel.app",
@@ -165,10 +225,10 @@
       "accentColor": "#8b3a2e",
       "screenshot": null,
       "stack": "Unknown",
-      "status": "building",
+      "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-06-23T00:42:44.695Z",
-      "lastActivityHebrew": "לפני 6 ימים",
+      "lastActivityHebrew": "השבוע",
       "size": "68K",
       "isLive": false,
       "liveUrl": null,
@@ -194,10 +254,10 @@
       "accentColor": "#3d5a3d",
       "screenshot": null,
       "stack": "Unknown",
-      "status": "building",
+      "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-06-23T00:32:02.743Z",
-      "lastActivityHebrew": "לפני 6 ימים",
+      "lastActivityHebrew": "השבוע",
       "size": "99M",
       "isLive": false,
       "liveUrl": null,
@@ -325,61 +385,6 @@
         }
       ],
       "lastSession": null
-    },
-    {
-      "name": "ran-portfolio",
-      "humanName": "פורטפוליו אישי",
-      "tagline": "כרטיס ביקור אונליין - אוסף הפרוייקטים והשירותים שלי",
-      "longDescription": "אתר סטטי בעברית שמרכז את הפרוייקטים, ניסיון העבודה ופרטי קשר. מעוצב ידנית ב-HTML/CSS/JS ללא פריימוורק, עם דגש על טון אישי וחם. כולל מעקב אנליטיקס דרך GA4.",
-      "nextStep": "לפרסם את הגרסה האחרונה (יש 8 קבצים שונו)",
-      "notes": null,
-      "category": "Portfolio",
-      "accentColor": "#3a4a6b",
-      "screenshot": null,
-      "stack": "HTML/CSS/JS",
-      "status": "paused",
-      "subStatus": null,
-      "lastActivity": "2026-06-08T08:22:46.385Z",
-      "lastActivityHebrew": "לפני 3 שבועות",
-      "size": "145M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/ran-portfolio",
-      "source": "both",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "3 weeks ago",
-        "lastCommitMessage": "Redesign CTAs as outlined capsule pills with fill-on-hover",
-        "lastCommitDate": "2026-06-08 10:53:24 +0300",
-        "lastCommitHebrew": "לפני 3 שבועות",
-        "isDirty": true,
-        "changedFiles": 10
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Redesign CTAs as outlined capsule pills with fill-on-hover"
-        },
-        {
-          "type": "commit",
-          "text": "Move AI project CTAs inline with role text, update year to 2026"
-        },
-        {
-          "type": "commit",
-          "text": "Update index.html"
-        },
-        {
-          "type": "chat",
-          "text": "Continue from where you left off.",
-          "sessionId": "99ddefc0-751b-4ff1-97be-fa5b089c27a1"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "99ddefc0-751b-4ff1-97be-fa5b089c27a1",
-        "lastActivity": "2026-06-08T08:22:46.385Z",
-        "summary": "Continue from where you left off."
-      }
     },
     {
       "name": "Shhh",
@@ -754,7 +759,7 @@
       "subStatus": null,
       "lastActivity": null,
       "lastActivityHebrew": "",
-      "size": "76K",
+      "size": "84K",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
