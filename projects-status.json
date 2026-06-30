@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-06-30T02:12:43.768Z",
+  "lastUpdated": "2026-06-30T05:56:59.059Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 28,
   "counts": {
     "live": 0,
-    "building": 4,
+    "building": 5,
     "paused": 4,
     "archive": 7,
-    "idea": 13
+    "idea": 12
   },
   "projects": [
     {
@@ -23,8 +23,8 @@
       "stack": "TypeScript + React 19 + Vite",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-06-30T01:21:25.408Z",
-      "lastActivityHebrew": "לפני 51 דקות",
+      "lastActivity": "2026-06-30T03:51:34.713Z",
+      "lastActivityHebrew": "לפני 2 שעות",
       "size": "675M",
       "isLive": false,
       "liveUrl": null,
@@ -35,9 +35,51 @@
       "recentActions": [],
       "lastSession": {
         "sessionId": "b38b00e2-f4e7-4f80-9fb3-b5588f8b0b16",
-        "lastActivity": "2026-06-30T01:21:25.408Z",
+        "lastActivity": "2026-06-30T03:51:34.713Z",
         "summary": "Base directory for this skill: /Users/rannsegal/Library/Application Support/Claude/local-agent-mode-sessions/skills-plug…"
       }
+    },
+    {
+      "name": "brand-system",
+      "humanName": "brand-system",
+      "tagline": "Crafel studio design system: cobalt + coral tokens, components, brand assets, and tone of voice. Shared across all studio products.",
+      "longDescription": "Crafel studio design system: cobalt + coral tokens, components, brand assets, and tone of voice. Shared across all studio products.",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#8b3a8e",
+      "screenshot": null,
+      "stack": "Node.js",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-06-30T03:49:19.000Z",
+      "lastActivityHebrew": "לפני 2 שעות",
+      "size": "308K",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/crafel-design-system",
+      "source": "local",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "2 hours ago",
+        "lastCommitMessage": "docs: add repo URL to submodule instructions",
+        "lastCommitDate": "2026-06-30 06:49:19 +0300",
+        "lastCommitHebrew": "לפני 2 שעות",
+        "isDirty": false,
+        "changedFiles": 0
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "docs: add repo URL to submodule instructions"
+        },
+        {
+          "type": "commit",
+          "text": "Crafel Design System v0.1.0"
+        }
+      ],
+      "lastSession": null
     },
     {
       "name": "ran-portfolio",
@@ -52,9 +94,9 @@
       "stack": "HTML/CSS/JS",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-06-30T01:17:33.842Z",
-      "lastActivityHebrew": "לפני 55 דקות",
-      "size": "145M",
+      "lastActivity": "2026-06-30T03:45:52.152Z",
+      "lastActivityHebrew": "לפני 2 שעות",
+      "size": "147M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": "https://github.com/segalitoo/ran-portfolio",
@@ -62,14 +104,18 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "3 weeks ago",
-        "lastCommitMessage": "Redesign CTAs as outlined capsule pills with fill-on-hover",
-        "lastCommitDate": "2026-06-08 10:53:24 +0300",
-        "lastCommitHebrew": "לפני 3 שבועות",
+        "lastCommitRelative": "2 hours ago",
+        "lastCommitMessage": "Update Zeph project screenshots",
+        "lastCommitDate": "2026-06-30 06:45:45 +0300",
+        "lastCommitHebrew": "לפני 2 שעות",
         "isDirty": true,
-        "changedFiles": 14
+        "changedFiles": 10
       },
       "recentActions": [
+        {
+          "type": "commit",
+          "text": "Update Zeph project screenshots"
+        },
         {
           "type": "commit",
           "text": "Redesign CTAs as outlined capsule pills with fill-on-hover"
@@ -77,10 +123,6 @@
         {
           "type": "commit",
           "text": "Move AI project CTAs inline with role text, update year to 2026"
-        },
-        {
-          "type": "commit",
-          "text": "Update index.html"
         },
         {
           "type": "chat",
@@ -95,7 +137,7 @@
       ],
       "lastSession": {
         "sessionId": "62949473-9542-4af5-b1f3-c760e5957a96",
-        "lastActivity": "2026-06-30T01:17:33.842Z",
+        "lastActivity": "2026-06-30T03:45:52.152Z",
         "summary": "Continue from where you left off."
       }
     },
@@ -113,7 +155,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-29T07:21:38.673Z",
-      "lastActivityHebrew": "לפני 18 שעות",
+      "lastActivityHebrew": "לפני 22 שעות",
       "size": "153M",
       "isLive": false,
       "liveUrl": null,
@@ -122,10 +164,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "19 hours ago",
+        "lastCommitRelative": "23 hours ago",
         "lastCommitMessage": "Switch SparkIcon to filled solid star matching the app icon",
         "lastCommitDate": "2026-06-29 10:21:31 +0300",
-        "lastCommitHebrew": "לפני 18 שעות",
+        "lastCommitHebrew": "לפני 22 שעות",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -735,31 +777,6 @@
       "lastActivity": null,
       "lastActivityHebrew": "",
       "size": "20K",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": null,
-      "source": "local",
-      "hasGit": false,
-      "git": null,
-      "recentActions": [],
-      "lastSession": null
-    },
-    {
-      "name": "brand-system",
-      "humanName": "brand-system",
-      "tagline": "Unknown",
-      "longDescription": "פרוייקט ב-Unknown",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#8b3a8e",
-      "screenshot": null,
-      "stack": "Unknown",
-      "status": "idea",
-      "subStatus": null,
-      "lastActivity": null,
-      "lastActivityHebrew": "",
-      "size": "84K",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
