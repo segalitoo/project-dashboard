@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-07-01T00:10:58.640Z",
+  "lastUpdated": "2026-07-01T03:26:29.130Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 28,
   "counts": {
     "live": 0,
-    "building": 8,
-    "paused": 2,
+    "building": 7,
+    "paused": 3,
     "archive": 6,
     "idea": 12
   },
@@ -23,41 +23,70 @@
       "stack": "Unknown",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-07-01T00:08:56.004Z",
-      "lastActivityHebrew": "לפני 1 דקות",
+      "lastActivity": "2026-07-01T01:34:28.388Z",
+      "lastActivityHebrew": "לפני שעה",
       "size": "197M",
       "isLive": false,
       "liveUrl": null,
-      "githubUrl": null,
+      "githubUrl": "https://github.com/segalitoo/agent-blueprint",
       "source": "local",
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "3 weeks ago",
-        "lastCommitMessage": "Add real .zip export of all seven files",
-        "lastCommitDate": "2026-06-09 13:33:18 +0300",
-        "lastCommitHebrew": "לפני 3 שבועות",
-        "isDirty": true,
-        "changedFiles": 6
+        "lastCommitRelative": "3 hours ago",
+        "lastCommitMessage": "Fix theme toggle: set data-theme on <html> so OS dark mode can't override the explicit choice",
+        "lastCommitDate": "2026-07-01 03:52:55 +0300",
+        "lastCommitHebrew": "לפני 2 שעות",
+        "isDirty": false,
+        "changedFiles": 0
       },
       "recentActions": [
         {
           "type": "commit",
+          "text": "Fix theme toggle: set data-theme on <html> so OS dark mode can't override the explicit choice"
+        },
+        {
+          "type": "commit",
+          "text": "Add Crafel landing variant, builder upgrades, and Vercel deploy"
+        },
+        {
+          "type": "commit",
           "text": "Add real .zip export of all seven files"
-        },
-        {
-          "type": "commit",
-          "text": "Restructure into dev repo; scaffold landing as Vite app"
-        },
-        {
-          "type": "commit",
-          "text": "Initial commit: agent blueprint template + landing app"
         }
       ],
       "lastSession": {
         "sessionId": "548705ca-d6ec-41c4-a1f3-a2db55b9e144",
-        "lastActivity": "2026-07-01T00:08:56.004Z",
+        "lastActivity": "2026-07-01T01:34:28.388Z",
         "summary": "Base directory for this skill: /Users/rannsegal/.claude/skills/craft\n\n# Craft — Visual Architect\n\nYou are **Craft**, a V…"
+      }
+    },
+    {
+      "name": "tabspeak",
+      "humanName": "TabSpeak",
+      "tagline": "תוסף שמדבר את התוכן של הטאבים הפתוחים",
+      "longDescription": "תוסף דפדפן שקורא בקול את התוכן של הטאב הפעיל. שימושי לרב-משימה ולנגישות. בנוי על React 19 + Vite.",
+      "nextStep": "לתקן את הבאג שדווח (\"i think its not working\")",
+      "notes": null,
+      "category": "Productivity",
+      "accentColor": "#a06b9e",
+      "screenshot": null,
+      "stack": "TypeScript + React 19 + Vite",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-07-01T01:03:35.159Z",
+      "lastActivityHebrew": "לפני 2 שעות",
+      "size": "675M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [],
+      "lastSession": {
+        "sessionId": "b38b00e2-f4e7-4f80-9fb3-b5588f8b0b16",
+        "lastActivity": "2026-07-01T01:03:35.159Z",
+        "summary": "Base directory for this skill: /Users/rannsegal/Library/Application Support/Claude/local-agent-mode-sessions/skills-plug…"
       }
     },
     {
@@ -73,9 +102,9 @@
       "stack": "Python",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-07-01T00:07:29.749Z",
-      "lastActivityHebrew": "לפני 3 דקות",
-      "size": "837M",
+      "lastActivity": "2026-07-01T00:58:32.656Z",
+      "lastActivityHebrew": "לפני 2 שעות",
+      "size": "834M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": "https://github.com/segalitoo/Shhh",
@@ -106,38 +135,55 @@
       ],
       "lastSession": {
         "sessionId": "07ecd1ec-397b-4af7-8d15-b19a8f55f5e7",
-        "lastActivity": "2026-07-01T00:07:29.749Z",
+        "lastActivity": "2026-07-01T00:58:32.656Z",
         "summary": "Base directory for this skill: /private/tmp/claude-501/bundled-skills/2.1.138/c325fd82b8b807e648409daa5a24cab7/claude-ap…"
       }
     },
     {
-      "name": "tabspeak",
-      "humanName": "TabSpeak",
-      "tagline": "תוסף שמדבר את התוכן של הטאבים הפתוחים",
-      "longDescription": "תוסף דפדפן שקורא בקול את התוכן של הטאב הפעיל. שימושי לרב-משימה ולנגישות. בנוי על React 19 + Vite.",
-      "nextStep": "לתקן את הבאג שדווח (\"i think its not working\")",
+      "name": "brand-system",
+      "humanName": "brand-system",
+      "tagline": "Crafel studio design system: cobalt + coral tokens, components, brand assets, and tone of voice. Shared across all studio products.",
+      "longDescription": "Crafel studio design system: cobalt + coral tokens, components, brand assets, and tone of voice. Shared across all studio products.",
+      "nextStep": null,
       "notes": null,
-      "category": "Productivity",
-      "accentColor": "#a06b9e",
+      "category": null,
+      "accentColor": "#8b3a8e",
       "screenshot": null,
-      "stack": "TypeScript + React 19 + Vite",
+      "stack": "Node.js",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-06-30T23:52:36.501Z",
-      "lastActivityHebrew": "לפני 18 דקות",
-      "size": "675M",
+      "lastActivity": "2026-07-01T00:40:41.000Z",
+      "lastActivityHebrew": "לפני 2 שעות",
+      "size": "360K",
       "isLive": false,
       "liveUrl": null,
-      "githubUrl": null,
+      "githubUrl": "https://github.com/segalitoo/crafel-design-system",
       "source": "local",
-      "hasGit": false,
-      "git": null,
-      "recentActions": [],
-      "lastSession": {
-        "sessionId": "b38b00e2-f4e7-4f80-9fb3-b5588f8b0b16",
-        "lastActivity": "2026-06-30T23:52:36.501Z",
-        "summary": "Base directory for this skill: /Users/rannsegal/Library/Application Support/Claude/local-agent-mode-sessions/skills-plug…"
-      }
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "3 hours ago",
+        "lastCommitMessage": "Crafel footer: add breathing space around the slash separator",
+        "lastCommitDate": "2026-07-01 03:40:41 +0300",
+        "lastCommitHebrew": "לפני 2 שעות",
+        "isDirty": false,
+        "changedFiles": 0
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Crafel footer: add breathing space around the slash separator"
+        },
+        {
+          "type": "commit",
+          "text": "Add Crafel footer component (studio-credit lockup)"
+        },
+        {
+          "type": "commit",
+          "text": "docs: add repo URL to submodule instructions"
+        }
+      ],
+      "lastSession": null
     },
     {
       "name": "anime-master",
@@ -153,7 +199,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-30T23:45:58.094Z",
-      "lastActivityHebrew": "לפני 24 דקות",
+      "lastActivityHebrew": "לפני 3 שעות",
       "size": "259M",
       "isLive": false,
       "liveUrl": null,
@@ -208,7 +254,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-30T23:13:15.285Z",
-      "lastActivityHebrew": "לפני 57 דקות",
+      "lastActivityHebrew": "לפני 4 שעות",
       "size": "147M",
       "isLive": false,
       "liveUrl": null,
@@ -217,10 +263,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "58 minutes ago",
+        "lastCommitRelative": "4 hours ago",
         "lastCommitMessage": "Add Crafel v2 portfolio with dark mode toggle",
         "lastCommitDate": "2026-07-01 02:13:02 +0300",
-        "lastCommitHebrew": "לפני 57 דקות",
+        "lastCommitHebrew": "לפני 4 שעות",
         "isDirty": true,
         "changedFiles": 21
       },
@@ -268,7 +314,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-30T22:50:13.024Z",
-      "lastActivityHebrew": "לפני שעה",
+      "lastActivityHebrew": "לפני 4 שעות",
       "size": "153M",
       "isLive": false,
       "liveUrl": null,
@@ -277,10 +323,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "81 minutes ago",
+        "lastCommitRelative": "5 hours ago",
         "lastCommitMessage": "Add small Crafel mark credit in the footer",
         "lastCommitDate": "2026-07-01 01:50:05 +0300",
-        "lastCommitHebrew": "לפני שעה",
+        "lastCommitHebrew": "לפני 4 שעות",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -310,48 +356,6 @@
       }
     },
     {
-      "name": "brand-system",
-      "humanName": "brand-system",
-      "tagline": "Crafel studio design system: cobalt + coral tokens, components, brand assets, and tone of voice. Shared across all studio products.",
-      "longDescription": "Crafel studio design system: cobalt + coral tokens, components, brand assets, and tone of voice. Shared across all studio products.",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#8b3a8e",
-      "screenshot": null,
-      "stack": "Node.js",
-      "status": "building",
-      "subStatus": null,
-      "lastActivity": "2026-06-30T03:49:19.000Z",
-      "lastActivityHebrew": "לפני 20 שעות",
-      "size": "308K",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/crafel-design-system",
-      "source": "local",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "20 hours ago",
-        "lastCommitMessage": "docs: add repo URL to submodule instructions",
-        "lastCommitDate": "2026-06-30 06:49:19 +0300",
-        "lastCommitHebrew": "לפני 20 שעות",
-        "isDirty": false,
-        "changedFiles": 0
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "docs: add repo URL to submodule instructions"
-        },
-        {
-          "type": "commit",
-          "text": "Crafel Design System v0.1.0"
-        }
-      ],
-      "lastSession": null
-    },
-    {
       "name": "Payoneer-ad-generator",
       "humanName": "מחולל באנרים לפיוניר",
       "tagline": "כלי שמייצר אוטומטית באנרים פרסומיים באמצעות AI",
@@ -362,10 +366,10 @@
       "accentColor": "#8b3a2e",
       "screenshot": null,
       "stack": "TypeScript + React 19 + Vite + Supabase",
-      "status": "building",
+      "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-06-24T01:01:17.353Z",
-      "lastActivityHebrew": "לפני 6 ימים",
+      "lastActivityHebrew": "השבוע",
       "size": "250M",
       "isLive": true,
       "liveUrl": "https://payoneer-ad-generator.vercel.app",
