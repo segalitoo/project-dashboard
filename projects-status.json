@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T08:09:21.954Z",
+  "lastUpdated": "2026-07-01T11:09:33.913Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 28,
   "counts": {
@@ -10,6 +10,116 @@
     "idea": 12
   },
   "projects": [
+    {
+      "name": "Shhh",
+      "humanName": "Shhh",
+      "tagline": "כלי הכתבה חי שמדבר ישר לכל אפליקציה במק",
+      "longDescription": "אפליקציית macOS שמקליטה את המיקרופון, שולחת ל-Google Cloud Speech-to-Text, ומדביקה את הטקסט ישר לאפליקציה הפעילה. תומך עברית ואנגלית במקביל, עם UI ב-Swift ו-engine ב-Python.",
+      "nextStep": "לסיים את ה-landing page (53 קבצים open)",
+      "notes": null,
+      "category": "Productivity",
+      "accentColor": "#3d5a3d",
+      "screenshot": null,
+      "stack": "Python",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-07-01T09:21:55.444Z",
+      "lastActivityHebrew": "לפני שעה",
+      "size": "835M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/Shhh",
+      "source": "both",
+      "hasGit": true,
+      "git": {
+        "branch": "feat/landing-page",
+        "lastCommitRelative": "2 hours ago",
+        "lastCommitMessage": "feat: add Crafel-themed social images",
+        "lastCommitDate": "2026-07-01 12:21:37 +0300",
+        "lastCommitHebrew": "לפני שעה",
+        "isDirty": true,
+        "changedFiles": 66
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "feat: add Crafel-themed social images"
+        },
+        {
+          "type": "commit",
+          "text": "feat: ship Crafel redesign as live landing page"
+        },
+        {
+          "type": "commit",
+          "text": "fix: update portfolio link to correct GitHub username"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "07ecd1ec-397b-4af7-8d15-b19a8f55f5e7",
+        "lastActivity": "2026-07-01T09:21:55.444Z",
+        "summary": "Base directory for this skill: /private/tmp/claude-501/bundled-skills/2.1.138/c325fd82b8b807e648409daa5a24cab7/claude-ap…"
+      }
+    },
+    {
+      "name": "ran-portfolio",
+      "humanName": "פורטפוליו אישי",
+      "tagline": "כרטיס ביקור אונליין - אוסף הפרוייקטים והשירותים שלי",
+      "longDescription": "אתר סטטי בעברית שמרכז את הפרוייקטים, ניסיון העבודה ופרטי קשר. מעוצב ידנית ב-HTML/CSS/JS ללא פריימוורק, עם דגש על טון אישי וחם. כולל מעקב אנליטיקס דרך GA4.",
+      "nextStep": "לפרסם את הגרסה האחרונה (יש 8 קבצים שונו)",
+      "notes": null,
+      "category": "Portfolio",
+      "accentColor": "#3a4a6b",
+      "screenshot": null,
+      "stack": "HTML/CSS/JS",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-07-01T09:10:50.047Z",
+      "lastActivityHebrew": "לפני שעה",
+      "size": "147M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/ran-portfolio",
+      "source": "both",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "2 hours ago",
+        "lastCommitMessage": "Update favicon to match Crafel brand mark",
+        "lastCommitDate": "2026-07-01 12:10:44 +0300",
+        "lastCommitHebrew": "לפני שעה",
+        "isDirty": true,
+        "changedFiles": 20
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Update favicon to match Crafel brand mark"
+        },
+        {
+          "type": "commit",
+          "text": "Make v2 Crafel design the default portfolio page"
+        },
+        {
+          "type": "commit",
+          "text": "Add Crafel v2 portfolio with dark mode toggle"
+        },
+        {
+          "type": "chat",
+          "text": "Continue from where you left off.",
+          "sessionId": "62949473-9542-4af5-b1f3-c760e5957a96"
+        },
+        {
+          "type": "chat",
+          "text": "Continue from where you left off.",
+          "sessionId": "99ddefc0-751b-4ff1-97be-fa5b089c27a1"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "62949473-9542-4af5-b1f3-c760e5957a96",
+        "lastActivity": "2026-07-01T09:10:50.047Z",
+        "summary": "Continue from where you left off."
+      }
+    },
     {
       "name": "tabspeak",
       "humanName": "TabSpeak",
@@ -23,8 +133,8 @@
       "stack": "TypeScript + React 19 + Vite",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-07-01T04:22:33.268Z",
-      "lastActivityHebrew": "לפני 3 שעות",
+      "lastActivity": "2026-07-01T08:53:26.940Z",
+      "lastActivityHebrew": "לפני 2 שעות",
       "size": "675M",
       "isLive": false,
       "liveUrl": null,
@@ -35,7 +145,7 @@
       "recentActions": [],
       "lastSession": {
         "sessionId": "b38b00e2-f4e7-4f80-9fb3-b5588f8b0b16",
-        "lastActivity": "2026-07-01T04:22:33.268Z",
+        "lastActivity": "2026-07-01T08:53:26.940Z",
         "summary": "Base directory for this skill: /Users/rannsegal/Library/Application Support/Claude/local-agent-mode-sessions/skills-plug…"
       }
     },
@@ -53,7 +163,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-01T01:34:28.388Z",
-      "lastActivityHebrew": "לפני 6 שעות",
+      "lastActivityHebrew": "לפני 9 שעות",
       "size": "197M",
       "isLive": false,
       "liveUrl": null,
@@ -62,10 +172,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "7 hours ago",
+        "lastCommitRelative": "10 hours ago",
         "lastCommitMessage": "Fix theme toggle: set data-theme on <html> so OS dark mode can't override the explicit choice",
         "lastCommitDate": "2026-07-01 03:52:55 +0300",
-        "lastCommitHebrew": "לפני 7 שעות",
+        "lastCommitHebrew": "לפני 10 שעות",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -90,56 +200,6 @@
       }
     },
     {
-      "name": "Shhh",
-      "humanName": "Shhh",
-      "tagline": "כלי הכתבה חי שמדבר ישר לכל אפליקציה במק",
-      "longDescription": "אפליקציית macOS שמקליטה את המיקרופון, שולחת ל-Google Cloud Speech-to-Text, ומדביקה את הטקסט ישר לאפליקציה הפעילה. תומך עברית ואנגלית במקביל, עם UI ב-Swift ו-engine ב-Python.",
-      "nextStep": "לסיים את ה-landing page (53 קבצים open)",
-      "notes": null,
-      "category": "Productivity",
-      "accentColor": "#3d5a3d",
-      "screenshot": null,
-      "stack": "Python",
-      "status": "building",
-      "subStatus": null,
-      "lastActivity": "2026-07-01T00:58:32.656Z",
-      "lastActivityHebrew": "לפני 7 שעות",
-      "size": "834M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/Shhh",
-      "source": "both",
-      "hasGit": true,
-      "git": {
-        "branch": "feat/landing-page",
-        "lastCommitRelative": "3 months ago",
-        "lastCommitMessage": "fix: update portfolio link to correct GitHub username",
-        "lastCommitDate": "2026-04-06 02:18:42 +0300",
-        "lastCommitHebrew": "לפני 2 חודשים",
-        "isDirty": true,
-        "changedFiles": 57
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "fix: update portfolio link to correct GitHub username"
-        },
-        {
-          "type": "commit",
-          "text": "ci: add GitHub Pages deployment workflow for landing page"
-        },
-        {
-          "type": "commit",
-          "text": "feat: visual redesign with bento grid layout, animation fixes, and GH Pages setup"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "07ecd1ec-397b-4af7-8d15-b19a8f55f5e7",
-        "lastActivity": "2026-07-01T00:58:32.656Z",
-        "summary": "Base directory for this skill: /private/tmp/claude-501/bundled-skills/2.1.138/c325fd82b8b807e648409daa5a24cab7/claude-ap…"
-      }
-    },
-    {
       "name": "brand-system",
       "humanName": "brand-system",
       "tagline": "Crafel studio design system: cobalt + coral tokens, components, brand assets, and tone of voice. Shared across all studio products.",
@@ -153,7 +213,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-01T00:40:41.000Z",
-      "lastActivityHebrew": "לפני 7 שעות",
+      "lastActivityHebrew": "לפני 10 שעות",
       "size": "360K",
       "isLive": false,
       "liveUrl": null,
@@ -162,10 +222,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "7 hours ago",
+        "lastCommitRelative": "10 hours ago",
         "lastCommitMessage": "Crafel footer: add breathing space around the slash separator",
         "lastCommitDate": "2026-07-01 03:40:41 +0300",
-        "lastCommitHebrew": "לפני 7 שעות",
+        "lastCommitHebrew": "לפני 10 שעות",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -199,7 +259,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-30T23:45:58.094Z",
-      "lastActivityHebrew": "לפני 8 שעות",
+      "lastActivityHebrew": "לפני 11 שעות",
       "size": "259M",
       "isLive": false,
       "liveUrl": null,
@@ -241,66 +301,6 @@
       }
     },
     {
-      "name": "ran-portfolio",
-      "humanName": "פורטפוליו אישי",
-      "tagline": "כרטיס ביקור אונליין - אוסף הפרוייקטים והשירותים שלי",
-      "longDescription": "אתר סטטי בעברית שמרכז את הפרוייקטים, ניסיון העבודה ופרטי קשר. מעוצב ידנית ב-HTML/CSS/JS ללא פריימוורק, עם דגש על טון אישי וחם. כולל מעקב אנליטיקס דרך GA4.",
-      "nextStep": "לפרסם את הגרסה האחרונה (יש 8 קבצים שונו)",
-      "notes": null,
-      "category": "Portfolio",
-      "accentColor": "#3a4a6b",
-      "screenshot": null,
-      "stack": "HTML/CSS/JS",
-      "status": "building",
-      "subStatus": null,
-      "lastActivity": "2026-06-30T23:13:15.285Z",
-      "lastActivityHebrew": "לפני 8 שעות",
-      "size": "147M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/ran-portfolio",
-      "source": "both",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "9 hours ago",
-        "lastCommitMessage": "Add Crafel v2 portfolio with dark mode toggle",
-        "lastCommitDate": "2026-07-01 02:13:02 +0300",
-        "lastCommitHebrew": "לפני 8 שעות",
-        "isDirty": true,
-        "changedFiles": 21
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Add Crafel v2 portfolio with dark mode toggle"
-        },
-        {
-          "type": "commit",
-          "text": "Update Zeph project screenshots"
-        },
-        {
-          "type": "commit",
-          "text": "Redesign CTAs as outlined capsule pills with fill-on-hover"
-        },
-        {
-          "type": "chat",
-          "text": "Continue from where you left off.",
-          "sessionId": "62949473-9542-4af5-b1f3-c760e5957a96"
-        },
-        {
-          "type": "chat",
-          "text": "Continue from where you left off.",
-          "sessionId": "99ddefc0-751b-4ff1-97be-fa5b089c27a1"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "62949473-9542-4af5-b1f3-c760e5957a96",
-        "lastActivity": "2026-06-30T23:13:15.285Z",
-        "summary": "Continue from where you left off."
-      }
-    },
-    {
       "name": "Ideas",
       "humanName": "Ideas",
       "tagline": "ניצוץ · לתפוס רעיונות לפני שהם בורחים",
@@ -314,7 +314,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-30T22:50:13.024Z",
-      "lastActivityHebrew": "לפני 9 שעות",
+      "lastActivityHebrew": "לפני 12 שעות",
       "size": "153M",
       "isLive": false,
       "liveUrl": null,
@@ -323,10 +323,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "9 hours ago",
+        "lastCommitRelative": "12 hours ago",
         "lastCommitMessage": "Add small Crafel mark credit in the footer",
         "lastCommitDate": "2026-07-01 01:50:05 +0300",
-        "lastCommitHebrew": "לפני 9 שעות",
+        "lastCommitHebrew": "לפני 12 שעות",
         "isDirty": false,
         "changedFiles": 0
       },
