@@ -1,70 +1,15 @@
 {
-  "lastUpdated": "2026-06-30T21:10:47.075Z",
+  "lastUpdated": "2026-07-01T00:10:58.640Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 28,
   "counts": {
     "live": 0,
-    "building": 6,
-    "paused": 3,
-    "archive": 7,
+    "building": 8,
+    "paused": 2,
+    "archive": 6,
     "idea": 12
   },
   "projects": [
-    {
-      "name": "Ideas",
-      "humanName": "Ideas",
-      "tagline": "ניצוץ · לתפוס רעיונות לפני שהם בורחים",
-      "longDescription": "ניצוץ · לתפוס רעיונות לפני שהם בורחים",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#a87432",
-      "screenshot": null,
-      "stack": "TypeScript + React 18 + Vite + Supabase",
-      "status": "building",
-      "subStatus": null,
-      "lastActivity": "2026-06-30T20:50:44.083Z",
-      "lastActivityHebrew": "לפני 19 דקות",
-      "size": "153M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/nitzotz",
-      "source": "local",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "21 minutes ago",
-        "lastCommitMessage": "Adopt Crafel design system: cobalt + coral rebrand",
-        "lastCommitDate": "2026-06-30 23:49:39 +0300",
-        "lastCommitHebrew": "לפני 20 דקות",
-        "isDirty": false,
-        "changedFiles": 0
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Adopt Crafel design system: cobalt + coral rebrand"
-        },
-        {
-          "type": "commit",
-          "text": "Switch SparkIcon to filled solid star matching the app icon"
-        },
-        {
-          "type": "commit",
-          "text": "Update in-app spark icon to match light paper PWA icon"
-        },
-        {
-          "type": "chat",
-          "text": "[Request interrupted by user]",
-          "sessionId": "071cbb82-ca5d-4b36-ad2c-354cd77a8977"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "071cbb82-ca5d-4b36-ad2c-354cd77a8977",
-        "lastActivity": "2026-06-30T20:50:44.083Z",
-        "summary": "[Request interrupted by user]"
-      }
-    },
     {
       "name": "Agent-blueprint",
       "humanName": "Agent-blueprint",
@@ -78,9 +23,9 @@
       "stack": "Unknown",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-06-30T20:43:52.480Z",
-      "lastActivityHebrew": "לפני 26 דקות",
-      "size": "99M",
+      "lastActivity": "2026-07-01T00:08:56.004Z",
+      "lastActivityHebrew": "לפני 1 דקות",
+      "size": "197M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
@@ -93,7 +38,7 @@
         "lastCommitDate": "2026-06-09 13:33:18 +0300",
         "lastCommitHebrew": "לפני 3 שבועות",
         "isDirty": true,
-        "changedFiles": 3
+        "changedFiles": 6
       },
       "recentActions": [
         {
@@ -111,8 +56,58 @@
       ],
       "lastSession": {
         "sessionId": "548705ca-d6ec-41c4-a1f3-a2db55b9e144",
-        "lastActivity": "2026-06-30T20:43:52.480Z",
-        "summary": ""
+        "lastActivity": "2026-07-01T00:08:56.004Z",
+        "summary": "Base directory for this skill: /Users/rannsegal/.claude/skills/craft\n\n# Craft — Visual Architect\n\nYou are **Craft**, a V…"
+      }
+    },
+    {
+      "name": "Shhh",
+      "humanName": "Shhh",
+      "tagline": "כלי הכתבה חי שמדבר ישר לכל אפליקציה במק",
+      "longDescription": "אפליקציית macOS שמקליטה את המיקרופון, שולחת ל-Google Cloud Speech-to-Text, ומדביקה את הטקסט ישר לאפליקציה הפעילה. תומך עברית ואנגלית במקביל, עם UI ב-Swift ו-engine ב-Python.",
+      "nextStep": "לסיים את ה-landing page (53 קבצים open)",
+      "notes": null,
+      "category": "Productivity",
+      "accentColor": "#3d5a3d",
+      "screenshot": null,
+      "stack": "Python",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-07-01T00:07:29.749Z",
+      "lastActivityHebrew": "לפני 3 דקות",
+      "size": "837M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/Shhh",
+      "source": "both",
+      "hasGit": true,
+      "git": {
+        "branch": "feat/landing-page",
+        "lastCommitRelative": "3 months ago",
+        "lastCommitMessage": "fix: update portfolio link to correct GitHub username",
+        "lastCommitDate": "2026-04-06 02:18:42 +0300",
+        "lastCommitHebrew": "לפני 2 חודשים",
+        "isDirty": true,
+        "changedFiles": 57
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "fix: update portfolio link to correct GitHub username"
+        },
+        {
+          "type": "commit",
+          "text": "ci: add GitHub Pages deployment workflow for landing page"
+        },
+        {
+          "type": "commit",
+          "text": "feat: visual redesign with bento grid layout, animation fixes, and GH Pages setup"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "07ecd1ec-397b-4af7-8d15-b19a8f55f5e7",
+        "lastActivity": "2026-07-01T00:07:29.749Z",
+        "summary": "Base directory for this skill: /private/tmp/claude-501/bundled-skills/2.1.138/c325fd82b8b807e648409daa5a24cab7/claude-ap…"
       }
     },
     {
@@ -128,8 +123,8 @@
       "stack": "TypeScript + React 19 + Vite",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-06-30T20:31:50.262Z",
-      "lastActivityHebrew": "לפני 38 דקות",
+      "lastActivity": "2026-06-30T23:52:36.501Z",
+      "lastActivityHebrew": "לפני 18 דקות",
       "size": "675M",
       "isLive": false,
       "liveUrl": null,
@@ -140,8 +135,178 @@
       "recentActions": [],
       "lastSession": {
         "sessionId": "b38b00e2-f4e7-4f80-9fb3-b5588f8b0b16",
-        "lastActivity": "2026-06-30T20:31:50.262Z",
+        "lastActivity": "2026-06-30T23:52:36.501Z",
         "summary": "Base directory for this skill: /Users/rannsegal/Library/Application Support/Claude/local-agent-mode-sessions/skills-plug…"
+      }
+    },
+    {
+      "name": "anime-master",
+      "humanName": "Anime Master",
+      "tagline": "עורך אנימציות SVG עם ייצוא ל-Lottie",
+      "longDescription": "כלי web ליצירת אנימציות SVG. המשתמש מצייר שכבות, מגדיר keyframes, ומייצא ל-Lottie JSON או GIF. בנוי על Vite + React 18, עם canvas מותאם אישית לעריכה.",
+      "nextStep": "לתקן באג של selectedLayerId כפול",
+      "notes": null,
+      "category": "Creative",
+      "accentColor": "#8b3a8e",
+      "screenshot": null,
+      "stack": "TypeScript + React 18 + Vite",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-06-30T23:45:58.094Z",
+      "lastActivityHebrew": "לפני 24 דקות",
+      "size": "259M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/anime-master",
+      "source": "both",
+      "hasGit": true,
+      "git": {
+        "branch": "redesign/drafting-table",
+        "lastCommitRelative": "2 weeks ago",
+        "lastCommitMessage": "fix(editor): keyframe arrow-nudge preempts canvas layer-nudge",
+        "lastCommitDate": "2026-06-15 03:46:53 +0300",
+        "lastCommitHebrew": "לפני 2 שבועות",
+        "isDirty": true,
+        "changedFiles": 10
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "fix(editor): keyframe arrow-nudge preempts canvas layer-nudge"
+        },
+        {
+          "type": "commit",
+          "text": "feat(editor): arrow-key keyframe nudge"
+        },
+        {
+          "type": "commit",
+          "text": "fix(editor): coalesce keyframe drags into one undo step"
+        },
+        {
+          "type": "chat",
+          "text": "[Request interrupted by user]",
+          "sessionId": "bad71fc1-0705-43d2-b885-283fd6024ee2"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "afab8798-108e-47c3-9588-222e9667cbc0",
+        "lastActivity": "2026-06-30T23:45:58.094Z",
+        "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/b…"
+      }
+    },
+    {
+      "name": "ran-portfolio",
+      "humanName": "פורטפוליו אישי",
+      "tagline": "כרטיס ביקור אונליין - אוסף הפרוייקטים והשירותים שלי",
+      "longDescription": "אתר סטטי בעברית שמרכז את הפרוייקטים, ניסיון העבודה ופרטי קשר. מעוצב ידנית ב-HTML/CSS/JS ללא פריימוורק, עם דגש על טון אישי וחם. כולל מעקב אנליטיקס דרך GA4.",
+      "nextStep": "לפרסם את הגרסה האחרונה (יש 8 קבצים שונו)",
+      "notes": null,
+      "category": "Portfolio",
+      "accentColor": "#3a4a6b",
+      "screenshot": null,
+      "stack": "HTML/CSS/JS",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-06-30T23:13:15.285Z",
+      "lastActivityHebrew": "לפני 57 דקות",
+      "size": "147M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/ran-portfolio",
+      "source": "both",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "58 minutes ago",
+        "lastCommitMessage": "Add Crafel v2 portfolio with dark mode toggle",
+        "lastCommitDate": "2026-07-01 02:13:02 +0300",
+        "lastCommitHebrew": "לפני 57 דקות",
+        "isDirty": true,
+        "changedFiles": 21
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Add Crafel v2 portfolio with dark mode toggle"
+        },
+        {
+          "type": "commit",
+          "text": "Update Zeph project screenshots"
+        },
+        {
+          "type": "commit",
+          "text": "Redesign CTAs as outlined capsule pills with fill-on-hover"
+        },
+        {
+          "type": "chat",
+          "text": "Continue from where you left off.",
+          "sessionId": "62949473-9542-4af5-b1f3-c760e5957a96"
+        },
+        {
+          "type": "chat",
+          "text": "Continue from where you left off.",
+          "sessionId": "99ddefc0-751b-4ff1-97be-fa5b089c27a1"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "62949473-9542-4af5-b1f3-c760e5957a96",
+        "lastActivity": "2026-06-30T23:13:15.285Z",
+        "summary": "Continue from where you left off."
+      }
+    },
+    {
+      "name": "Ideas",
+      "humanName": "Ideas",
+      "tagline": "ניצוץ · לתפוס רעיונות לפני שהם בורחים",
+      "longDescription": "ניצוץ · לתפוס רעיונות לפני שהם בורחים",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#a87432",
+      "screenshot": null,
+      "stack": "TypeScript + React 18 + Vite + Supabase",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-06-30T22:50:13.024Z",
+      "lastActivityHebrew": "לפני שעה",
+      "size": "153M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/nitzotz",
+      "source": "local",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "81 minutes ago",
+        "lastCommitMessage": "Add small Crafel mark credit in the footer",
+        "lastCommitDate": "2026-07-01 01:50:05 +0300",
+        "lastCommitHebrew": "לפני שעה",
+        "isDirty": false,
+        "changedFiles": 0
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Add small Crafel mark credit in the footer"
+        },
+        {
+          "type": "commit",
+          "text": "Fix theme toggle: set data-theme so light wins over OS dark mode"
+        },
+        {
+          "type": "commit",
+          "text": "Revert Hebrew display font to Suez One"
+        },
+        {
+          "type": "chat",
+          "text": "[Request interrupted by user]",
+          "sessionId": "071cbb82-ca5d-4b36-ad2c-354cd77a8977"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "071cbb82-ca5d-4b36-ad2c-354cd77a8977",
+        "lastActivity": "2026-06-30T22:50:13.024Z",
+        "summary": "[Request interrupted by user]"
       }
     },
     {
@@ -158,7 +323,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-30T03:49:19.000Z",
-      "lastActivityHebrew": "לפני 17 שעות",
+      "lastActivityHebrew": "לפני 20 שעות",
       "size": "308K",
       "isLive": false,
       "liveUrl": null,
@@ -167,10 +332,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "17 hours ago",
+        "lastCommitRelative": "20 hours ago",
         "lastCommitMessage": "docs: add repo URL to submodule instructions",
         "lastCommitDate": "2026-06-30 06:49:19 +0300",
-        "lastCommitHebrew": "לפני 17 שעות",
+        "lastCommitHebrew": "לפני 20 שעות",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -185,66 +350,6 @@
         }
       ],
       "lastSession": null
-    },
-    {
-      "name": "ran-portfolio",
-      "humanName": "פורטפוליו אישי",
-      "tagline": "כרטיס ביקור אונליין - אוסף הפרוייקטים והשירותים שלי",
-      "longDescription": "אתר סטטי בעברית שמרכז את הפרוייקטים, ניסיון העבודה ופרטי קשר. מעוצב ידנית ב-HTML/CSS/JS ללא פריימוורק, עם דגש על טון אישי וחם. כולל מעקב אנליטיקס דרך GA4.",
-      "nextStep": "לפרסם את הגרסה האחרונה (יש 8 קבצים שונו)",
-      "notes": null,
-      "category": "Portfolio",
-      "accentColor": "#3a4a6b",
-      "screenshot": null,
-      "stack": "HTML/CSS/JS",
-      "status": "building",
-      "subStatus": null,
-      "lastActivity": "2026-06-30T03:45:52.152Z",
-      "lastActivityHebrew": "לפני 17 שעות",
-      "size": "147M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/ran-portfolio",
-      "source": "both",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "17 hours ago",
-        "lastCommitMessage": "Update Zeph project screenshots",
-        "lastCommitDate": "2026-06-30 06:45:45 +0300",
-        "lastCommitHebrew": "לפני 17 שעות",
-        "isDirty": true,
-        "changedFiles": 10
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Update Zeph project screenshots"
-        },
-        {
-          "type": "commit",
-          "text": "Redesign CTAs as outlined capsule pills with fill-on-hover"
-        },
-        {
-          "type": "commit",
-          "text": "Move AI project CTAs inline with role text, update year to 2026"
-        },
-        {
-          "type": "chat",
-          "text": "Continue from where you left off.",
-          "sessionId": "62949473-9542-4af5-b1f3-c760e5957a96"
-        },
-        {
-          "type": "chat",
-          "text": "Continue from where you left off.",
-          "sessionId": "99ddefc0-751b-4ff1-97be-fa5b089c27a1"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "62949473-9542-4af5-b1f3-c760e5957a96",
-        "lastActivity": "2026-06-30T03:45:52.152Z",
-        "summary": "Continue from where you left off."
-      }
     },
     {
       "name": "Payoneer-ad-generator",
@@ -272,7 +377,7 @@
         "lastCommitRelative": "4 weeks ago",
         "lastCommitMessage": "design: fix residual AA contrast failures found in audit",
         "lastCommitDate": "2026-06-03 01:38:01 +0300",
-        "lastCommitHebrew": "לפני 3 שבועות",
+        "lastCommitHebrew": "לפני 0 חודשים",
         "isDirty": true,
         "changedFiles": 24
       },
@@ -336,61 +441,6 @@
       }
     },
     {
-      "name": "anime-master",
-      "humanName": "Anime Master",
-      "tagline": "עורך אנימציות SVG עם ייצוא ל-Lottie",
-      "longDescription": "כלי web ליצירת אנימציות SVG. המשתמש מצייר שכבות, מגדיר keyframes, ומייצא ל-Lottie JSON או GIF. בנוי על Vite + React 18, עם canvas מותאם אישית לעריכה.",
-      "nextStep": "לתקן באג של selectedLayerId כפול",
-      "notes": null,
-      "category": "Creative",
-      "accentColor": "#8b3a8e",
-      "screenshot": null,
-      "stack": "TypeScript + React 18 + Vite",
-      "status": "paused",
-      "subStatus": null,
-      "lastActivity": "2026-06-18T11:41:05.037Z",
-      "lastActivityHebrew": "השבוע",
-      "size": "259M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/anime-master",
-      "source": "both",
-      "hasGit": true,
-      "git": {
-        "branch": "redesign/drafting-table",
-        "lastCommitRelative": "2 weeks ago",
-        "lastCommitMessage": "fix(editor): keyframe arrow-nudge preempts canvas layer-nudge",
-        "lastCommitDate": "2026-06-15 03:46:53 +0300",
-        "lastCommitHebrew": "לפני 2 שבועות",
-        "isDirty": true,
-        "changedFiles": 2
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "fix(editor): keyframe arrow-nudge preempts canvas layer-nudge"
-        },
-        {
-          "type": "commit",
-          "text": "feat(editor): arrow-key keyframe nudge"
-        },
-        {
-          "type": "commit",
-          "text": "fix(editor): coalesce keyframe drags into one undo step"
-        },
-        {
-          "type": "chat",
-          "text": "[Request interrupted by user]",
-          "sessionId": "bad71fc1-0705-43d2-b885-283fd6024ee2"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "bad71fc1-0705-43d2-b885-283fd6024ee2",
-        "lastActivity": "2026-06-18T11:41:05.037Z",
-        "summary": "[Request interrupted by user]"
-      }
-    },
-    {
       "name": "Project-hub",
       "humanName": "Project-hub",
       "tagline": "HTML/CSS/JS",
@@ -427,56 +477,6 @@
         }
       ],
       "lastSession": null
-    },
-    {
-      "name": "Shhh",
-      "humanName": "Shhh",
-      "tagline": "כלי הכתבה חי שמדבר ישר לכל אפליקציה במק",
-      "longDescription": "אפליקציית macOS שמקליטה את המיקרופון, שולחת ל-Google Cloud Speech-to-Text, ומדביקה את הטקסט ישר לאפליקציה הפעילה. תומך עברית ואנגלית במקביל, עם UI ב-Swift ו-engine ב-Python.",
-      "nextStep": "לסיים את ה-landing page (53 קבצים open)",
-      "notes": null,
-      "category": "Productivity",
-      "accentColor": "#3d5a3d",
-      "screenshot": null,
-      "stack": "Python",
-      "status": "archive",
-      "subStatus": null,
-      "lastActivity": "2026-05-27T05:41:10.003Z",
-      "lastActivityHebrew": "לפני חודש",
-      "size": "666M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/Shhh",
-      "source": "both",
-      "hasGit": true,
-      "git": {
-        "branch": "feat/landing-page",
-        "lastCommitRelative": "3 months ago",
-        "lastCommitMessage": "fix: update portfolio link to correct GitHub username",
-        "lastCommitDate": "2026-04-06 02:18:42 +0300",
-        "lastCommitHebrew": "לפני 2 חודשים",
-        "isDirty": true,
-        "changedFiles": 53
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "fix: update portfolio link to correct GitHub username"
-        },
-        {
-          "type": "commit",
-          "text": "ci: add GitHub Pages deployment workflow for landing page"
-        },
-        {
-          "type": "commit",
-          "text": "feat: visual redesign with bento grid layout, animation fixes, and GH Pages setup"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "07ecd1ec-397b-4af7-8d15-b19a8f55f5e7",
-        "lastActivity": "2026-05-27T05:41:10.003Z",
-        "summary": "Base directory for this skill: /private/tmp/claude-501/bundled-skills/2.1.138/c325fd82b8b807e648409daa5a24cab7/claude-ap…"
-      }
     },
     {
       "name": "project-dashboard",
