@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-01T20:25:24.952Z",
+  "lastUpdated": "2026-07-02T06:39:27.700Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 28,
   "counts": {
@@ -10,6 +10,66 @@
     "idea": 12
   },
   "projects": [
+    {
+      "name": "ran-portfolio",
+      "humanName": "פורטפוליו אישי",
+      "tagline": "כרטיס ביקור אונליין - אוסף הפרוייקטים והשירותים שלי",
+      "longDescription": "אתר סטטי בעברית שמרכז את הפרוייקטים, ניסיון העבודה ופרטי קשר. מעוצב ידנית ב-HTML/CSS/JS ללא פריימוורק, עם דגש על טון אישי וחם. כולל מעקב אנליטיקס דרך GA4.",
+      "nextStep": "לפרסם את הגרסה האחרונה (יש 8 קבצים שונו)",
+      "notes": null,
+      "category": "Portfolio",
+      "accentColor": "#3a4a6b",
+      "screenshot": null,
+      "stack": "HTML/CSS/JS",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-07-01T22:06:16.381Z",
+      "lastActivityHebrew": "לפני 8 שעות",
+      "size": "148M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/ran-portfolio",
+      "source": "both",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "9 hours ago",
+        "lastCommitMessage": "Add Naymo screenshots for Voice tab switching project",
+        "lastCommitDate": "2026-07-02 01:06:03 +0300",
+        "lastCommitHebrew": "לפני 8 שעות",
+        "isDirty": true,
+        "changedFiles": 16
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Add Naymo screenshots for Voice tab switching project"
+        },
+        {
+          "type": "commit",
+          "text": "Update Shhh project screenshots"
+        },
+        {
+          "type": "commit",
+          "text": "Update favicon to match Crafel brand mark"
+        },
+        {
+          "type": "chat",
+          "text": "Continue from where you left off.",
+          "sessionId": "62949473-9542-4af5-b1f3-c760e5957a96"
+        },
+        {
+          "type": "chat",
+          "text": "Continue from where you left off.",
+          "sessionId": "99ddefc0-751b-4ff1-97be-fa5b089c27a1"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "62949473-9542-4af5-b1f3-c760e5957a96",
+        "lastActivity": "2026-07-01T22:06:16.381Z",
+        "summary": "Continue from where you left off."
+      }
+    },
     {
       "name": "Project-hub",
       "humanName": "Project-hub",
@@ -23,9 +83,9 @@
       "stack": "HTML/CSS/JS",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-07-01T14:16:32.831Z",
-      "lastActivityHebrew": "לפני 6 שעות",
-      "size": "268K",
+      "lastActivity": "2026-07-01T22:02:46.022Z",
+      "lastActivityHebrew": "לפני 8 שעות",
+      "size": "272K",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": "https://github.com/segalitoo/project-hub",
@@ -33,10 +93,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "8 hours ago",
+        "lastCommitRelative": "9 hours ago",
         "lastCommitMessage": "Rebrand project hub to Crafel design system",
-        "lastCommitDate": "2026-07-01 15:37:25 +0300",
-        "lastCommitHebrew": "לפני 7 שעות",
+        "lastCommitDate": "2026-07-02 00:59:47 +0300",
+        "lastCommitHebrew": "לפני 8 שעות",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -52,68 +112,8 @@
       ],
       "lastSession": {
         "sessionId": "4d7ee6f7-cf30-480e-976b-d836f99e8af9",
-        "lastActivity": "2026-07-01T14:16:32.831Z",
+        "lastActivity": "2026-07-01T22:02:46.022Z",
         "summary": ""
-      }
-    },
-    {
-      "name": "ran-portfolio",
-      "humanName": "פורטפוליו אישי",
-      "tagline": "כרטיס ביקור אונליין - אוסף הפרוייקטים והשירותים שלי",
-      "longDescription": "אתר סטטי בעברית שמרכז את הפרוייקטים, ניסיון העבודה ופרטי קשר. מעוצב ידנית ב-HTML/CSS/JS ללא פריימוורק, עם דגש על טון אישי וחם. כולל מעקב אנליטיקס דרך GA4.",
-      "nextStep": "לפרסם את הגרסה האחרונה (יש 8 קבצים שונו)",
-      "notes": null,
-      "category": "Portfolio",
-      "accentColor": "#3a4a6b",
-      "screenshot": null,
-      "stack": "HTML/CSS/JS",
-      "status": "building",
-      "subStatus": null,
-      "lastActivity": "2026-07-01T12:00:22.105Z",
-      "lastActivityHebrew": "לפני 8 שעות",
-      "size": "147M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/ran-portfolio",
-      "source": "both",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "8 hours ago",
-        "lastCommitMessage": "Update Shhh project screenshots",
-        "lastCommitDate": "2026-07-01 15:00:13 +0300",
-        "lastCommitHebrew": "לפני 8 שעות",
-        "isDirty": true,
-        "changedFiles": 20
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Update Shhh project screenshots"
-        },
-        {
-          "type": "commit",
-          "text": "Update favicon to match Crafel brand mark"
-        },
-        {
-          "type": "commit",
-          "text": "Make v2 Crafel design the default portfolio page"
-        },
-        {
-          "type": "chat",
-          "text": "Continue from where you left off.",
-          "sessionId": "62949473-9542-4af5-b1f3-c760e5957a96"
-        },
-        {
-          "type": "chat",
-          "text": "Continue from where you left off.",
-          "sessionId": "99ddefc0-751b-4ff1-97be-fa5b089c27a1"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "62949473-9542-4af5-b1f3-c760e5957a96",
-        "lastActivity": "2026-07-01T12:00:22.105Z",
-        "summary": "Continue from where you left off."
       }
     },
     {
@@ -130,7 +130,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-01T09:21:55.444Z",
-      "lastActivityHebrew": "לפני 11 שעות",
+      "lastActivityHebrew": "לפני 21 שעות",
       "size": "835M",
       "isLive": false,
       "liveUrl": null,
@@ -139,10 +139,10 @@
       "hasGit": true,
       "git": {
         "branch": "feat/landing-page",
-        "lastCommitRelative": "11 hours ago",
+        "lastCommitRelative": "21 hours ago",
         "lastCommitMessage": "feat: add Crafel-themed social images",
         "lastCommitDate": "2026-07-01 12:21:37 +0300",
-        "lastCommitHebrew": "לפני 11 שעות",
+        "lastCommitHebrew": "לפני 21 שעות",
         "isDirty": true,
         "changedFiles": 74
       },
@@ -180,7 +180,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-01T08:53:26.940Z",
-      "lastActivityHebrew": "לפני 11 שעות",
+      "lastActivityHebrew": "לפני 21 שעות",
       "size": "675M",
       "isLive": false,
       "liveUrl": null,
@@ -209,7 +209,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-01T01:34:28.388Z",
-      "lastActivityHebrew": "לפני 18 שעות",
+      "lastActivityHebrew": "אתמול",
       "size": "197M",
       "isLive": false,
       "liveUrl": null,
@@ -218,10 +218,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "20 hours ago",
+        "lastCommitRelative": "30 hours ago",
         "lastCommitMessage": "Fix theme toggle: set data-theme on <html> so OS dark mode can't override the explicit choice",
         "lastCommitDate": "2026-07-01 03:52:55 +0300",
-        "lastCommitHebrew": "לפני 19 שעות",
+        "lastCommitHebrew": "אתמול",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -259,7 +259,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-01T00:40:41.000Z",
-      "lastActivityHebrew": "לפני 19 שעות",
+      "lastActivityHebrew": "אתמול",
       "size": "360K",
       "isLive": false,
       "liveUrl": null,
@@ -268,10 +268,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "20 hours ago",
+        "lastCommitRelative": "30 hours ago",
         "lastCommitMessage": "Crafel footer: add breathing space around the slash separator",
         "lastCommitDate": "2026-07-01 03:40:41 +0300",
-        "lastCommitHebrew": "לפני 19 שעות",
+        "lastCommitHebrew": "אתמול",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -305,7 +305,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-30T23:45:58.094Z",
-      "lastActivityHebrew": "לפני 20 שעות",
+      "lastActivityHebrew": "אתמול",
       "size": "259M",
       "isLive": false,
       "liveUrl": null,
@@ -360,7 +360,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-30T22:50:13.024Z",
-      "lastActivityHebrew": "לפני 21 שעות",
+      "lastActivityHebrew": "אתמול",
       "size": "153M",
       "isLive": false,
       "liveUrl": null,
@@ -369,10 +369,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "22 hours ago",
+        "lastCommitRelative": "32 hours ago",
         "lastCommitMessage": "Add small Crafel mark credit in the footer",
         "lastCommitDate": "2026-07-01 01:50:05 +0300",
-        "lastCommitHebrew": "לפני 21 שעות",
+        "lastCommitHebrew": "אתמול",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -504,7 +504,7 @@
       "status": "archive",
       "subStatus": null,
       "lastActivity": "2026-05-03T06:18:33Z",
-      "lastActivityHebrew": "לפני חודש",
+      "lastActivityHebrew": "לפני 2 חודשים",
       "size": "cloud",
       "isLive": false,
       "liveUrl": null,
@@ -516,7 +516,7 @@
         "lastCommitRelative": "",
         "lastCommitMessage": "",
         "lastCommitDate": "2026-05-03T06:18:33Z",
-        "lastCommitHebrew": "לפני חודש",
+        "lastCommitHebrew": "לפני 2 חודשים",
         "isDirty": false,
         "changedFiles": 0
       },
