@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T06:39:27.700Z",
+  "lastUpdated": "2026-07-02T10:13:28.757Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 28,
   "counts": {
@@ -10,6 +10,56 @@
     "idea": 12
   },
   "projects": [
+    {
+      "name": "brand-system",
+      "humanName": "brand-system",
+      "tagline": "Crafel studio design system: cobalt + coral tokens, components, brand assets, and tone of voice. Shared across all studio products.",
+      "longDescription": "Crafel studio design system: cobalt + coral tokens, components, brand assets, and tone of voice. Shared across all studio products.",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#8b3a8e",
+      "screenshot": null,
+      "stack": "Node.js",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-07-02T08:10:32.303Z",
+      "lastActivityHebrew": "לפני 2 שעות",
+      "size": "428K",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/crafel-design-system",
+      "source": "local",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "2 hours ago",
+        "lastCommitMessage": "docs: add example-page.html, a full Crafel sample page",
+        "lastCommitDate": "2026-07-02 11:10:17 +0300",
+        "lastCommitHebrew": "לפני 2 שעות",
+        "isDirty": false,
+        "changedFiles": 0
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "docs: add example-page.html, a full Crafel sample page"
+        },
+        {
+          "type": "commit",
+          "text": "Crafel footer: add breathing space around the slash separator"
+        },
+        {
+          "type": "commit",
+          "text": "Add Crafel footer component (studio-credit lockup)"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "67ff1d82-8a4a-4b6f-b28d-79fa7ac0907a",
+        "lastActivity": "2026-07-02T08:10:32.303Z",
+        "summary": ""
+      }
+    },
     {
       "name": "ran-portfolio",
       "humanName": "פורטפוליו אישי",
@@ -24,7 +74,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-01T22:06:16.381Z",
-      "lastActivityHebrew": "לפני 8 שעות",
+      "lastActivityHebrew": "לפני 12 שעות",
       "size": "148M",
       "isLive": false,
       "liveUrl": null,
@@ -33,10 +83,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "9 hours ago",
+        "lastCommitRelative": "12 hours ago",
         "lastCommitMessage": "Add Naymo screenshots for Voice tab switching project",
         "lastCommitDate": "2026-07-02 01:06:03 +0300",
-        "lastCommitHebrew": "לפני 8 שעות",
+        "lastCommitHebrew": "לפני 12 שעות",
         "isDirty": true,
         "changedFiles": 16
       },
@@ -84,7 +134,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-01T22:02:46.022Z",
-      "lastActivityHebrew": "לפני 8 שעות",
+      "lastActivityHebrew": "לפני 12 שעות",
       "size": "272K",
       "isLive": false,
       "liveUrl": null,
@@ -93,10 +143,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "9 hours ago",
+        "lastCommitRelative": "12 hours ago",
         "lastCommitMessage": "Rebrand project hub to Crafel design system",
         "lastCommitDate": "2026-07-02 00:59:47 +0300",
-        "lastCommitHebrew": "לפני 8 שעות",
+        "lastCommitHebrew": "לפני 12 שעות",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -130,7 +180,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-01T09:21:55.444Z",
-      "lastActivityHebrew": "לפני 21 שעות",
+      "lastActivityHebrew": "אתמול",
       "size": "835M",
       "isLive": false,
       "liveUrl": null,
@@ -139,10 +189,10 @@
       "hasGit": true,
       "git": {
         "branch": "feat/landing-page",
-        "lastCommitRelative": "21 hours ago",
+        "lastCommitRelative": "25 hours ago",
         "lastCommitMessage": "feat: add Crafel-themed social images",
         "lastCommitDate": "2026-07-01 12:21:37 +0300",
-        "lastCommitHebrew": "לפני 21 שעות",
+        "lastCommitHebrew": "אתמול",
         "isDirty": true,
         "changedFiles": 74
       },
@@ -180,7 +230,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-01T08:53:26.940Z",
-      "lastActivityHebrew": "לפני 21 שעות",
+      "lastActivityHebrew": "אתמול",
       "size": "675M",
       "isLive": false,
       "liveUrl": null,
@@ -218,7 +268,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "30 hours ago",
+        "lastCommitRelative": "33 hours ago",
         "lastCommitMessage": "Fix theme toggle: set data-theme on <html> so OS dark mode can't override the explicit choice",
         "lastCommitDate": "2026-07-01 03:52:55 +0300",
         "lastCommitHebrew": "אתמול",
@@ -244,52 +294,6 @@
         "lastActivity": "2026-07-01T01:34:28.388Z",
         "summary": "Base directory for this skill: /Users/rannsegal/.claude/skills/craft\n\n# Craft — Visual Architect\n\nYou are **Craft**, a V…"
       }
-    },
-    {
-      "name": "brand-system",
-      "humanName": "brand-system",
-      "tagline": "Crafel studio design system: cobalt + coral tokens, components, brand assets, and tone of voice. Shared across all studio products.",
-      "longDescription": "Crafel studio design system: cobalt + coral tokens, components, brand assets, and tone of voice. Shared across all studio products.",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#8b3a8e",
-      "screenshot": null,
-      "stack": "Node.js",
-      "status": "building",
-      "subStatus": null,
-      "lastActivity": "2026-07-01T00:40:41.000Z",
-      "lastActivityHebrew": "אתמול",
-      "size": "360K",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/crafel-design-system",
-      "source": "local",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "30 hours ago",
-        "lastCommitMessage": "Crafel footer: add breathing space around the slash separator",
-        "lastCommitDate": "2026-07-01 03:40:41 +0300",
-        "lastCommitHebrew": "אתמול",
-        "isDirty": false,
-        "changedFiles": 0
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Crafel footer: add breathing space around the slash separator"
-        },
-        {
-          "type": "commit",
-          "text": "Add Crafel footer component (studio-credit lockup)"
-        },
-        {
-          "type": "commit",
-          "text": "docs: add repo URL to submodule instructions"
-        }
-      ],
-      "lastSession": null
     },
     {
       "name": "anime-master",
@@ -369,7 +373,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "32 hours ago",
+        "lastCommitRelative": "35 hours ago",
         "lastCommitMessage": "Add small Crafel mark credit in the footer",
         "lastCommitDate": "2026-07-01 01:50:05 +0300",
         "lastCommitHebrew": "אתמול",
