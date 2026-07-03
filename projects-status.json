@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T13:11:37.759Z",
+  "lastUpdated": "2026-07-03T16:28:55.424Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 29,
   "counts": {
@@ -24,7 +24,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-03T12:26:41.776Z",
-      "lastActivityHebrew": "לפני 44 דקות",
+      "lastActivityHebrew": "לפני 4 שעות",
       "size": "53M",
       "isLive": false,
       "liveUrl": null,
@@ -68,7 +68,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "29 hours ago",
+        "lastCommitRelative": "32 hours ago",
         "lastCommitMessage": "docs: add example-page.html, a full Crafel sample page",
         "lastCommitDate": "2026-07-02 11:10:17 +0300",
         "lastCommitHebrew": "אתמול",
