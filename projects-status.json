@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T01:35:40.204Z",
+  "lastUpdated": "2026-07-03T04:35:51.604Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 28,
   "counts": {
@@ -24,7 +24,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-02T08:10:32.303Z",
-      "lastActivityHebrew": "לפני 17 שעות",
+      "lastActivityHebrew": "לפני 20 שעות",
       "size": "428K",
       "isLive": false,
       "liveUrl": null,
@@ -33,10 +33,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "17 hours ago",
+        "lastCommitRelative": "20 hours ago",
         "lastCommitMessage": "docs: add example-page.html, a full Crafel sample page",
         "lastCommitDate": "2026-07-02 11:10:17 +0300",
-        "lastCommitHebrew": "לפני 17 שעות",
+        "lastCommitHebrew": "לפני 20 שעות",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -83,7 +83,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "28 hours ago",
+        "lastCommitRelative": "31 hours ago",
         "lastCommitMessage": "Add Naymo screenshots for Voice tab switching project",
         "lastCommitDate": "2026-07-02 01:06:03 +0300",
         "lastCommitHebrew": "אתמול",
@@ -143,7 +143,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "28 hours ago",
+        "lastCommitRelative": "31 hours ago",
         "lastCommitMessage": "Rebrand project hub to Crafel design system",
         "lastCommitDate": "2026-07-02 00:59:47 +0300",
         "lastCommitHebrew": "אתמול",
