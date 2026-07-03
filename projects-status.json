@@ -1,15 +1,50 @@
 {
-  "lastUpdated": "2026-07-03T04:35:51.604Z",
+  "lastUpdated": "2026-07-03T09:33:08.998Z",
   "lastUpdatedHebrew": "הרגע",
-  "projectCount": 28,
+  "projectCount": 29,
   "counts": {
     "live": 0,
-    "building": 8,
+    "building": 9,
     "paused": 2,
     "archive": 6,
     "idea": 12
   },
   "projects": [
+    {
+      "name": "Playtika",
+      "humanName": "Playtika",
+      "tagline": "Unknown",
+      "longDescription": "פרוייקט ב-Unknown",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#7a8a3a",
+      "screenshot": null,
+      "stack": "Unknown",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-07-03T09:21:44.620Z",
+      "lastActivityHebrew": "לפני 11 דקות",
+      "size": "23M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [
+        {
+          "type": "chat",
+          "text": "need to create a log iterations file / page to review image generations and decisions about each one.\nbased on this file…",
+          "sessionId": "1cda61d4-fa7c-400b-bda5-3d1ceb84d9c7"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "1cda61d4-fa7c-400b-bda5-3d1ceb84d9c7",
+        "lastActivity": "2026-07-03T09:21:44.620Z",
+        "summary": "need to create a log iterations file / page to review image generations and decisions about each one.\nbased on this file…"
+      }
+    },
     {
       "name": "brand-system",
       "humanName": "brand-system",
@@ -24,7 +59,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-02T08:10:32.303Z",
-      "lastActivityHebrew": "לפני 20 שעות",
+      "lastActivityHebrew": "אתמול",
       "size": "428K",
       "isLive": false,
       "liveUrl": null,
@@ -33,10 +68,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "20 hours ago",
+        "lastCommitRelative": "25 hours ago",
         "lastCommitMessage": "docs: add example-page.html, a full Crafel sample page",
         "lastCommitDate": "2026-07-02 11:10:17 +0300",
-        "lastCommitHebrew": "לפני 20 שעות",
+        "lastCommitHebrew": "אתמול",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -83,7 +118,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "31 hours ago",
+        "lastCommitRelative": "35 hours ago",
         "lastCommitMessage": "Add Naymo screenshots for Voice tab switching project",
         "lastCommitDate": "2026-07-02 01:06:03 +0300",
         "lastCommitHebrew": "אתמול",
@@ -143,7 +178,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "31 hours ago",
+        "lastCommitRelative": "2 days ago",
         "lastCommitMessage": "Rebrand project hub to Crafel design system",
         "lastCommitDate": "2026-07-02 00:59:47 +0300",
         "lastCommitHebrew": "אתמול",
@@ -180,7 +215,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-01T09:21:55.444Z",
-      "lastActivityHebrew": "אתמול",
+      "lastActivityHebrew": "שלשום",
       "size": "835M",
       "isLive": false,
       "liveUrl": null,
@@ -192,7 +227,7 @@
         "lastCommitRelative": "2 days ago",
         "lastCommitMessage": "feat: add Crafel-themed social images",
         "lastCommitDate": "2026-07-01 12:21:37 +0300",
-        "lastCommitHebrew": "אתמול",
+        "lastCommitHebrew": "שלשום",
         "isDirty": true,
         "changedFiles": 74
       },
@@ -230,7 +265,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-01T08:53:26.940Z",
-      "lastActivityHebrew": "אתמול",
+      "lastActivityHebrew": "שלשום",
       "size": "675M",
       "isLive": false,
       "liveUrl": null,
