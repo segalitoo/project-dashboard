@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-02T22:14:15.175Z",
+  "lastUpdated": "2026-07-03T01:35:40.204Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 28,
   "counts": {
@@ -24,7 +24,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-02T08:10:32.303Z",
-      "lastActivityHebrew": "לפני 14 שעות",
+      "lastActivityHebrew": "לפני 17 שעות",
       "size": "428K",
       "isLive": false,
       "liveUrl": null,
@@ -33,10 +33,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "14 hours ago",
+        "lastCommitRelative": "17 hours ago",
         "lastCommitMessage": "docs: add example-page.html, a full Crafel sample page",
         "lastCommitDate": "2026-07-02 11:10:17 +0300",
-        "lastCommitHebrew": "לפני 14 שעות",
+        "lastCommitHebrew": "לפני 17 שעות",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -83,7 +83,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "24 hours ago",
+        "lastCommitRelative": "28 hours ago",
         "lastCommitMessage": "Add Naymo screenshots for Voice tab switching project",
         "lastCommitDate": "2026-07-02 01:06:03 +0300",
         "lastCommitHebrew": "אתמול",
@@ -143,7 +143,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "24 hours ago",
+        "lastCommitRelative": "28 hours ago",
         "lastCommitMessage": "Rebrand project hub to Crafel design system",
         "lastCommitDate": "2026-07-02 00:59:47 +0300",
         "lastCommitHebrew": "אתמול",
@@ -259,7 +259,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-01T01:34:28.388Z",
-      "lastActivityHebrew": "אתמול",
+      "lastActivityHebrew": "שלשום",
       "size": "197M",
       "isLive": false,
       "liveUrl": null,
@@ -271,7 +271,7 @@
         "lastCommitRelative": "2 days ago",
         "lastCommitMessage": "Fix theme toggle: set data-theme on <html> so OS dark mode can't override the explicit choice",
         "lastCommitDate": "2026-07-01 03:52:55 +0300",
-        "lastCommitHebrew": "אתמול",
+        "lastCommitHebrew": "שלשום",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -309,7 +309,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-30T23:45:58.094Z",
-      "lastActivityHebrew": "אתמול",
+      "lastActivityHebrew": "שלשום",
       "size": "259M",
       "isLive": false,
       "liveUrl": null,
@@ -364,7 +364,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-30T22:50:13.024Z",
-      "lastActivityHebrew": "אתמול",
+      "lastActivityHebrew": "שלשום",
       "size": "153M",
       "isLive": false,
       "liveUrl": null,
@@ -376,7 +376,7 @@
         "lastCommitRelative": "2 days ago",
         "lastCommitMessage": "Add small Crafel mark credit in the footer",
         "lastCommitDate": "2026-07-01 01:50:05 +0300",
-        "lastCommitHebrew": "אתמול",
+        "lastCommitHebrew": "שלשום",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -431,7 +431,7 @@
         "lastCommitRelative": "4 weeks ago",
         "lastCommitMessage": "design: fix residual AA contrast failures found in audit",
         "lastCommitDate": "2026-06-03 01:38:01 +0300",
-        "lastCommitHebrew": "לפני 0 חודשים",
+        "lastCommitHebrew": "לפני חודש",
         "isDirty": true,
         "changedFiles": 24
       },
