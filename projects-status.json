@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03T09:33:08.998Z",
+  "lastUpdated": "2026-07-03T13:11:37.759Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 29,
   "counts": {
@@ -23,9 +23,9 @@
       "stack": "Unknown",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-07-03T09:21:44.620Z",
-      "lastActivityHebrew": "לפני 11 דקות",
-      "size": "23M",
+      "lastActivity": "2026-07-03T12:26:41.776Z",
+      "lastActivityHebrew": "לפני 44 דקות",
+      "size": "53M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
@@ -41,7 +41,7 @@
       ],
       "lastSession": {
         "sessionId": "1cda61d4-fa7c-400b-bda5-3d1ceb84d9c7",
-        "lastActivity": "2026-07-03T09:21:44.620Z",
+        "lastActivity": "2026-07-03T12:26:41.776Z",
         "summary": "need to create a log iterations file / page to review image generations and decisions about each one.\nbased on this file…"
       }
     },
@@ -68,7 +68,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "25 hours ago",
+        "lastCommitRelative": "29 hours ago",
         "lastCommitMessage": "docs: add example-page.html, a full Crafel sample page",
         "lastCommitDate": "2026-07-02 11:10:17 +0300",
         "lastCommitHebrew": "אתמול",
@@ -118,7 +118,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "35 hours ago",
+        "lastCommitRelative": "2 days ago",
         "lastCommitMessage": "Add Naymo screenshots for Voice tab switching project",
         "lastCommitDate": "2026-07-02 01:06:03 +0300",
         "lastCommitHebrew": "אתמול",
@@ -303,7 +303,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "2 days ago",
+        "lastCommitRelative": "3 days ago",
         "lastCommitMessage": "Fix theme toggle: set data-theme on <html> so OS dark mode can't override the explicit choice",
         "lastCommitDate": "2026-07-01 03:52:55 +0300",
         "lastCommitHebrew": "שלשום",
@@ -408,7 +408,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "2 days ago",
+        "lastCommitRelative": "3 days ago",
         "lastCommitMessage": "Add small Crafel mark credit in the footer",
         "lastCommitDate": "2026-07-01 01:50:05 +0300",
         "lastCommitHebrew": "שלשום",
