@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T00:25:26.660Z",
+  "lastUpdated": "2026-07-04T03:25:38.251Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 29,
   "counts": {
@@ -24,7 +24,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-03T12:26:41.776Z",
-      "lastActivityHebrew": "לפני 11 שעות",
+      "lastActivityHebrew": "לפני 14 שעות",
       "size": "53M",
       "isLive": false,
       "liveUrl": null,
@@ -294,7 +294,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-01T01:34:28.388Z",
-      "lastActivityHebrew": "שלשום",
+      "lastActivityHebrew": "לפני 3 ימים",
       "size": "197M",
       "isLive": false,
       "liveUrl": null,
@@ -306,7 +306,7 @@
         "lastCommitRelative": "3 days ago",
         "lastCommitMessage": "Fix theme toggle: set data-theme on <html> so OS dark mode can't override the explicit choice",
         "lastCommitDate": "2026-07-01 03:52:55 +0300",
-        "lastCommitHebrew": "שלשום",
+        "lastCommitHebrew": "לפני 3 ימים",
         "isDirty": false,
         "changedFiles": 0
       },
