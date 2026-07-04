@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T18:39:04.328Z",
+  "lastUpdated": "2026-07-04T21:41:01.697Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 29,
   "counts": {
@@ -23,8 +23,8 @@
       "stack": "Unknown",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-07-03T12:26:41.776Z",
-      "lastActivityHebrew": "אתמול",
+      "lastActivity": "2026-07-04T21:25:18.126Z",
+      "lastActivityHebrew": "לפני 15 דקות",
       "size": "53M",
       "isLive": false,
       "liveUrl": null,
@@ -41,7 +41,7 @@
       ],
       "lastSession": {
         "sessionId": "1cda61d4-fa7c-400b-bda5-3d1ceb84d9c7",
-        "lastActivity": "2026-07-03T12:26:41.776Z",
+        "lastActivity": "2026-07-04T21:25:18.126Z",
         "summary": "need to create a log iterations file / page to review image generations and decisions about each one.\nbased on this file…"
       }
     },
@@ -68,7 +68,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "2 days ago",
+        "lastCommitRelative": "3 days ago",
         "lastCommitMessage": "docs: add example-page.html, a full Crafel sample page",
         "lastCommitDate": "2026-07-02 11:10:17 +0300",
         "lastCommitHebrew": "שלשום",
@@ -224,7 +224,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/landing-page",
-        "lastCommitRelative": "3 days ago",
+        "lastCommitRelative": "4 days ago",
         "lastCommitMessage": "feat: add Crafel-themed social images",
         "lastCommitDate": "2026-07-01 12:21:37 +0300",
         "lastCommitHebrew": "לפני 3 ימים",
