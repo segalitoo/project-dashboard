@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-04T03:25:38.251Z",
+  "lastUpdated": "2026-07-04T15:38:52.835Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 29,
   "counts": {
@@ -24,7 +24,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-03T12:26:41.776Z",
-      "lastActivityHebrew": "לפני 14 שעות",
+      "lastActivityHebrew": "אתמול",
       "size": "53M",
       "isLive": false,
       "liveUrl": null,
@@ -59,7 +59,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-02T08:10:32.303Z",
-      "lastActivityHebrew": "אתמול",
+      "lastActivityHebrew": "שלשום",
       "size": "428K",
       "isLive": false,
       "liveUrl": null,
@@ -71,7 +71,7 @@
         "lastCommitRelative": "2 days ago",
         "lastCommitMessage": "docs: add example-page.html, a full Crafel sample page",
         "lastCommitDate": "2026-07-02 11:10:17 +0300",
-        "lastCommitHebrew": "אתמול",
+        "lastCommitHebrew": "שלשום",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -118,7 +118,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "2 days ago",
+        "lastCommitRelative": "3 days ago",
         "lastCommitMessage": "Add Naymo screenshots for Voice tab switching project",
         "lastCommitDate": "2026-07-02 01:06:03 +0300",
         "lastCommitHebrew": "שלשום",
@@ -178,7 +178,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "2 days ago",
+        "lastCommitRelative": "3 days ago",
         "lastCommitMessage": "Rebrand project hub to Crafel design system",
         "lastCommitDate": "2026-07-02 00:59:47 +0300",
         "lastCommitHebrew": "שלשום",
@@ -215,7 +215,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-01T09:21:55.444Z",
-      "lastActivityHebrew": "שלשום",
+      "lastActivityHebrew": "לפני 3 ימים",
       "size": "835M",
       "isLive": false,
       "liveUrl": null,
@@ -227,7 +227,7 @@
         "lastCommitRelative": "3 days ago",
         "lastCommitMessage": "feat: add Crafel-themed social images",
         "lastCommitDate": "2026-07-01 12:21:37 +0300",
-        "lastCommitHebrew": "שלשום",
+        "lastCommitHebrew": "לפני 3 ימים",
         "isDirty": true,
         "changedFiles": 74
       },
@@ -265,7 +265,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-01T08:53:26.940Z",
-      "lastActivityHebrew": "שלשום",
+      "lastActivityHebrew": "לפני 3 ימים",
       "size": "675M",
       "isLive": false,
       "liveUrl": null,
@@ -303,7 +303,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "3 days ago",
+        "lastCommitRelative": "4 days ago",
         "lastCommitMessage": "Fix theme toggle: set data-theme on <html> so OS dark mode can't override the explicit choice",
         "lastCommitDate": "2026-07-01 03:52:55 +0300",
         "lastCommitHebrew": "לפני 3 ימים",
@@ -408,7 +408,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "3 days ago",
+        "lastCommitRelative": "4 days ago",
         "lastCommitMessage": "Add small Crafel mark credit in the footer",
         "lastCommitDate": "2026-07-01 01:50:05 +0300",
         "lastCommitHebrew": "לפני 3 ימים",
@@ -463,7 +463,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "4 weeks ago",
+        "lastCommitRelative": "5 weeks ago",
         "lastCommitMessage": "design: fix residual AA contrast failures found in audit",
         "lastCommitDate": "2026-06-03 01:38:01 +0300",
         "lastCommitHebrew": "לפני חודש",
