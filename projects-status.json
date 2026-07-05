@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-05T03:41:26.406Z",
+  "lastUpdated": "2026-07-05T07:20:52.872Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 29,
   "counts": {
@@ -23,8 +23,8 @@
       "stack": "Unknown",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-07-05T02:05:14.423Z",
-      "lastActivityHebrew": "לפני שעה",
+      "lastActivity": "2026-07-05T07:16:25.659Z",
+      "lastActivityHebrew": "לפני 4 דקות",
       "size": "101M",
       "isLive": false,
       "liveUrl": null,
@@ -41,7 +41,7 @@
       ],
       "lastSession": {
         "sessionId": "5797ca9f-6934-4dc0-9ecf-7f9e815ca646",
-        "lastActivity": "2026-07-05T02:05:14.423Z",
+        "lastActivity": "2026-07-05T07:16:25.659Z",
         "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/frontend-design/unknown/sk…"
       }
     },
