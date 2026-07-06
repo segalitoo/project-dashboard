@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06T13:54:11.731Z",
+  "lastUpdated": "2026-07-06T16:54:23.844Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 29,
   "counts": {
@@ -23,8 +23,8 @@
       "stack": "Unknown",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-07-06T13:51:30.147Z",
-      "lastActivityHebrew": "לפני 2 דקות",
+      "lastActivity": "2026-07-06T14:54:56.895Z",
+      "lastActivityHebrew": "לפני שעה",
       "size": "144M",
       "isLive": false,
       "liveUrl": null,
@@ -35,7 +35,7 @@
       "recentActions": [],
       "lastSession": {
         "sessionId": "f84ed9c3-cb58-47bf-b137-dafca3ed1f5c",
-        "lastActivity": "2026-07-06T13:51:30.147Z",
+        "lastActivity": "2026-07-06T14:54:56.895Z",
         "summary": "Base directory for this skill: /Users/rannsegal/Library/Application Support/Claude/local-agent-mode-sessions/7724135e-de…"
       }
     },
