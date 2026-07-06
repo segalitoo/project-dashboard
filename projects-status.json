@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-05T22:29:28.695Z",
+  "lastUpdated": "2026-07-06T01:53:21.300Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 29,
   "counts": {
@@ -23,25 +23,19 @@
       "stack": "Unknown",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-07-05T22:26:49.271Z",
-      "lastActivityHebrew": "לפני 2 דקות",
-      "size": "127M",
+      "lastActivity": "2026-07-05T23:46:45.471Z",
+      "lastActivityHebrew": "לפני 2 שעות",
+      "size": "141M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
       "source": "local",
       "hasGit": false,
       "git": null,
-      "recentActions": [
-        {
-          "type": "chat",
-          "text": "create this button in HTML file with some hover state and roll over",
-          "sessionId": "7a422874-c420-4bb1-9eb5-64a547b940d5"
-        }
-      ],
+      "recentActions": [],
       "lastSession": {
-        "sessionId": "005fc90a-8f7c-44ab-9eb3-c26d42fd2ddc",
-        "lastActivity": "2026-07-05T22:26:49.271Z",
+        "sessionId": "f84ed9c3-cb58-47bf-b137-dafca3ed1f5c",
+        "lastActivity": "2026-07-05T23:46:45.471Z",
         "summary": "Base directory for this skill: /Users/rannsegal/Library/Application Support/Claude/local-agent-mode-sessions/7724135e-de…"
       }
     },
@@ -294,7 +288,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-01T01:34:28.388Z",
-      "lastActivityHebrew": "לפני 4 ימים",
+      "lastActivityHebrew": "לפני 5 ימים",
       "size": "197M",
       "isLive": false,
       "liveUrl": null,
@@ -306,7 +300,7 @@
         "lastCommitRelative": "5 days ago",
         "lastCommitMessage": "Fix theme toggle: set data-theme on <html> so OS dark mode can't override the explicit choice",
         "lastCommitDate": "2026-07-01 03:52:55 +0300",
-        "lastCommitHebrew": "לפני 4 ימים",
+        "lastCommitHebrew": "לפני 5 ימים",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -344,7 +338,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-30T23:45:58.094Z",
-      "lastActivityHebrew": "לפני 4 ימים",
+      "lastActivityHebrew": "לפני 5 ימים",
       "size": "259M",
       "isLive": false,
       "liveUrl": null,
@@ -356,7 +350,7 @@
         "lastCommitRelative": "3 weeks ago",
         "lastCommitMessage": "fix(editor): keyframe arrow-nudge preempts canvas layer-nudge",
         "lastCommitDate": "2026-06-15 03:46:53 +0300",
-        "lastCommitHebrew": "לפני 2 שבועות",
+        "lastCommitHebrew": "לפני 3 שבועות",
         "isDirty": true,
         "changedFiles": 10
       },
@@ -399,7 +393,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-30T22:50:13.024Z",
-      "lastActivityHebrew": "לפני 4 ימים",
+      "lastActivityHebrew": "לפני 5 ימים",
       "size": "153M",
       "isLive": false,
       "liveUrl": null,
@@ -411,7 +405,7 @@
         "lastCommitRelative": "5 days ago",
         "lastCommitMessage": "Add small Crafel mark credit in the footer",
         "lastCommitDate": "2026-07-01 01:50:05 +0300",
-        "lastCommitHebrew": "לפני 4 ימים",
+        "lastCommitHebrew": "לפני 5 ימים",
         "isDirty": false,
         "changedFiles": 0
       },
