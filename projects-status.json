@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-06T22:54:48.632Z",
+  "lastUpdated": "2026-07-07T02:12:09.304Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 29,
   "counts": {
@@ -23,20 +23,26 @@
       "stack": "Unknown",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-07-06T22:35:20.553Z",
-      "lastActivityHebrew": "לפני 19 דקות",
-      "size": "194M",
+      "lastActivity": "2026-07-07T01:21:12.495Z",
+      "lastActivityHebrew": "לפני 50 דקות",
+      "size": "206M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
       "source": "local",
       "hasGit": false,
       "git": null,
-      "recentActions": [],
+      "recentActions": [
+        {
+          "type": "chat",
+          "text": "[Request interrupted by user]",
+          "sessionId": "e8a319c5-06ff-4b35-af7a-5bff6ba5cf50"
+        }
+      ],
       "lastSession": {
-        "sessionId": "f84ed9c3-cb58-47bf-b137-dafca3ed1f5c",
-        "lastActivity": "2026-07-06T22:35:20.553Z",
-        "summary": "Base directory for this skill: /Users/rannsegal/Library/Application Support/Claude/local-agent-mode-sessions/7724135e-de…"
+        "sessionId": "e8a319c5-06ff-4b35-af7a-5bff6ba5cf50",
+        "lastActivity": "2026-07-07T01:21:12.495Z",
+        "summary": "[Request interrupted by user]"
       }
     },
     {
@@ -288,7 +294,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-01T01:34:28.388Z",
-      "lastActivityHebrew": "לפני 5 ימים",
+      "lastActivityHebrew": "לפני 6 ימים",
       "size": "197M",
       "isLive": false,
       "liveUrl": null,
@@ -300,7 +306,7 @@
         "lastCommitRelative": "6 days ago",
         "lastCommitMessage": "Fix theme toggle: set data-theme on <html> so OS dark mode can't override the explicit choice",
         "lastCommitDate": "2026-07-01 03:52:55 +0300",
-        "lastCommitHebrew": "לפני 5 ימים",
+        "lastCommitHebrew": "לפני 6 ימים",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -338,7 +344,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-06-30T23:45:58.094Z",
-      "lastActivityHebrew": "לפני 5 ימים",
+      "lastActivityHebrew": "לפני 6 ימים",
       "size": "259M",
       "isLive": false,
       "liveUrl": null,
@@ -508,7 +514,7 @@
       "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-06-23T00:42:44.695Z",
-      "lastActivityHebrew": "השבוע",
+      "lastActivityHebrew": "לפני 2 שבועות",
       "size": "68K",
       "isLive": false,
       "liveUrl": null,
