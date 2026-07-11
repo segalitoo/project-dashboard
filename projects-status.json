@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-11T18:21:03.843Z",
+  "lastUpdated": "2026-07-11T21:21:16.856Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 29,
   "counts": {
@@ -68,7 +68,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "9 days ago",
+        "lastCommitRelative": "10 days ago",
         "lastCommitMessage": "docs: add example-page.html, a full Crafel sample page",
         "lastCommitDate": "2026-07-02 11:10:17 +0300",
         "lastCommitHebrew": "השבוע",
@@ -224,7 +224,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/landing-page",
-        "lastCommitRelative": "10 days ago",
+        "lastCommitRelative": "11 days ago",
         "lastCommitMessage": "feat: add Crafel-themed social images",
         "lastCommitDate": "2026-07-01 12:21:37 +0300",
         "lastCommitHebrew": "השבוע",
