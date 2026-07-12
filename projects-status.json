@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-12T00:21:28.915Z",
+  "lastUpdated": "2026-07-12T04:38:54.079Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 29,
   "counts": {
@@ -23,8 +23,8 @@
       "stack": "TypeScript + React 18 + Vite + Supabase",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-07-12T00:15:37.223Z",
-      "lastActivityHebrew": "לפני 5 דקות",
+      "lastActivity": "2026-07-12T00:46:15.450Z",
+      "lastActivityHebrew": "לפני 3 שעות",
       "size": "153M",
       "isLive": false,
       "liveUrl": null,
@@ -33,14 +33,18 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "9 minutes ago",
-        "lastCommitMessage": "Stats and streak sheet",
-        "lastCommitDate": "2026-07-12 03:12:01 +0300",
-        "lastCommitHebrew": "לפני 9 דקות",
+        "lastCommitRelative": "4 hours ago",
+        "lastCommitMessage": "Redeploy to pick up ANTHROPIC_API_KEY",
+        "lastCommitDate": "2026-07-12 03:33:21 +0300",
+        "lastCommitHebrew": "לפני 4 שעות",
         "isDirty": false,
         "changedFiles": 0
       },
       "recentActions": [
+        {
+          "type": "commit",
+          "text": "Redeploy to pick up ANTHROPIC_API_KEY"
+        },
         {
           "type": "commit",
           "text": "Stats and streak sheet"
@@ -50,10 +54,6 @@
           "text": "Trash with 30-day restore"
         },
         {
-          "type": "commit",
-          "text": "Persisted tags with filter row"
-        },
-        {
           "type": "chat",
           "text": "[Request interrupted by user]",
           "sessionId": "071cbb82-ca5d-4b36-ad2c-354cd77a8977"
@@ -61,7 +61,7 @@
       ],
       "lastSession": {
         "sessionId": "071cbb82-ca5d-4b36-ad2c-354cd77a8977",
-        "lastActivity": "2026-07-12T00:15:37.223Z",
+        "lastActivity": "2026-07-12T00:46:15.450Z",
         "summary": "[Request interrupted by user]"
       }
     },
@@ -78,8 +78,8 @@
       "stack": "HTML/CSS/JS",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-07-12T00:14:35.876Z",
-      "lastActivityHebrew": "לפני 6 דקות",
+      "lastActivity": "2026-07-12T00:23:41.447Z",
+      "lastActivityHebrew": "לפני 4 שעות",
       "size": "432K",
       "isLive": false,
       "liveUrl": null,
@@ -88,10 +88,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "33 minutes ago",
+        "lastCommitRelative": "5 hours ago",
         "lastCommitMessage": "Fix new-project save: omit id and server-managed columns on write",
         "lastCommitDate": "2026-07-12 02:48:18 +0300",
-        "lastCommitHebrew": "לפני 33 דקות",
+        "lastCommitHebrew": "לפני 4 שעות",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -116,7 +116,7 @@
       ],
       "lastSession": {
         "sessionId": "8de7af49-34bc-4752-a1d4-f322c3f4fb53",
-        "lastActivity": "2026-07-12T00:14:35.876Z",
+        "lastActivity": "2026-07-12T00:23:41.447Z",
         "summary": "1 done.\n2 - attached image. is this the place?"
       }
     },
@@ -134,7 +134,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-07T01:21:12.495Z",
-      "lastActivityHebrew": "לפני 4 ימים",
+      "lastActivityHebrew": "לפני 5 ימים",
       "size": "206M",
       "isLive": false,
       "liveUrl": null,
