@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-12T20:09:10.780Z",
+  "lastUpdated": "2026-07-12T23:52:57.309Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 29,
   "counts": {
@@ -10,6 +10,61 @@
     "idea": 12
   },
   "projects": [
+    {
+      "name": "Project-hub",
+      "humanName": "Project-hub",
+      "tagline": "HTML/CSS/JS",
+      "longDescription": "פרוייקט ב-HTML/CSS/JS",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#7a8a3a",
+      "screenshot": null,
+      "stack": "HTML/CSS/JS",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-07-12T22:43:50.567Z",
+      "lastActivityHebrew": "לפני שעה",
+      "size": "488K",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/project-hub",
+      "source": "local",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "72 minutes ago",
+        "lastCommitMessage": "Make the save-confirmation toast attribute-driven with !important",
+        "lastCommitDate": "2026-07-13 01:40:40 +0300",
+        "lastCommitHebrew": "לפני שעה",
+        "isDirty": false,
+        "changedFiles": 0
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Make the save-confirmation toast attribute-driven with !important"
+        },
+        {
+          "type": "commit",
+          "text": "Fix crash on Save: recover from a fetch failure instead of leaving the form dead"
+        },
+        {
+          "type": "commit",
+          "text": "Fix new-project save: omit id and server-managed columns on write"
+        },
+        {
+          "type": "chat",
+          "text": "1 done.\n2 - attached image. is this the place?",
+          "sessionId": "8de7af49-34bc-4752-a1d4-f322c3f4fb53"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "8de7af49-34bc-4752-a1d4-f322c3f4fb53",
+        "lastActivity": "2026-07-12T22:43:50.567Z",
+        "summary": "1 done.\n2 - attached image. is this the place?"
+      }
+    },
     {
       "name": "Ideas",
       "humanName": "Ideas",
@@ -23,8 +78,8 @@
       "stack": "TypeScript + React 18 + Vite + Supabase",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-07-12T00:46:15.450Z",
-      "lastActivityHebrew": "לפני 19 שעות",
+      "lastActivity": "2026-07-12T22:13:56.230Z",
+      "lastActivityHebrew": "לפני שעה",
       "size": "153M",
       "isLive": false,
       "liveUrl": null,
@@ -33,10 +88,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "20 hours ago",
+        "lastCommitRelative": "23 hours ago",
         "lastCommitMessage": "Redeploy to pick up ANTHROPIC_API_KEY",
         "lastCommitDate": "2026-07-12 03:33:21 +0300",
-        "lastCommitHebrew": "לפני 19 שעות",
+        "lastCommitHebrew": "לפני 23 שעות",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -61,63 +116,8 @@
       ],
       "lastSession": {
         "sessionId": "071cbb82-ca5d-4b36-ad2c-354cd77a8977",
-        "lastActivity": "2026-07-12T00:46:15.450Z",
+        "lastActivity": "2026-07-12T22:13:56.230Z",
         "summary": "[Request interrupted by user]"
-      }
-    },
-    {
-      "name": "Project-hub",
-      "humanName": "Project-hub",
-      "tagline": "HTML/CSS/JS",
-      "longDescription": "פרוייקט ב-HTML/CSS/JS",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#7a8a3a",
-      "screenshot": null,
-      "stack": "HTML/CSS/JS",
-      "status": "building",
-      "subStatus": null,
-      "lastActivity": "2026-07-12T00:23:41.447Z",
-      "lastActivityHebrew": "לפני 19 שעות",
-      "size": "432K",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/project-hub",
-      "source": "local",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "20 hours ago",
-        "lastCommitMessage": "Fix new-project save: omit id and server-managed columns on write",
-        "lastCommitDate": "2026-07-12 02:48:18 +0300",
-        "lastCommitHebrew": "לפני 20 שעות",
-        "isDirty": false,
-        "changedFiles": 0
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Fix new-project save: omit id and server-managed columns on write"
-        },
-        {
-          "type": "commit",
-          "text": "Redeploy to pick up status-check environment variables"
-        },
-        {
-          "type": "commit",
-          "text": "Vary share responses by User-Agent so redirects are not cached across visitors"
-        },
-        {
-          "type": "chat",
-          "text": "1 done.\n2 - attached image. is this the place?",
-          "sessionId": "8de7af49-34bc-4752-a1d4-f322c3f4fb53"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "8de7af49-34bc-4752-a1d4-f322c3f4fb53",
-        "lastActivity": "2026-07-12T00:23:41.447Z",
-        "summary": "1 done.\n2 - attached image. is this the place?"
       }
     },
     {
@@ -288,7 +288,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/landing-page",
-        "lastCommitRelative": "11 days ago",
+        "lastCommitRelative": "12 days ago",
         "lastCommitMessage": "feat: add Crafel-themed social images",
         "lastCommitDate": "2026-07-01 12:21:37 +0300",
         "lastCommitHebrew": "השבוע",
