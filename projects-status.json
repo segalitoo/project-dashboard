@@ -1,15 +1,125 @@
 {
-  "lastUpdated": "2026-07-11T21:21:16.856Z",
+  "lastUpdated": "2026-07-12T00:21:28.915Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 29,
   "counts": {
     "live": 0,
-    "building": 1,
-    "paused": 10,
+    "building": 3,
+    "paused": 8,
     "archive": 6,
     "idea": 12
   },
   "projects": [
+    {
+      "name": "Ideas",
+      "humanName": "Ideas",
+      "tagline": "ניצוץ · לתפוס רעיונות לפני שהם בורחים",
+      "longDescription": "ניצוץ · לתפוס רעיונות לפני שהם בורחים",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#a87432",
+      "screenshot": null,
+      "stack": "TypeScript + React 18 + Vite + Supabase",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-07-12T00:15:37.223Z",
+      "lastActivityHebrew": "לפני 5 דקות",
+      "size": "153M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/nitzotz",
+      "source": "local",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "9 minutes ago",
+        "lastCommitMessage": "Stats and streak sheet",
+        "lastCommitDate": "2026-07-12 03:12:01 +0300",
+        "lastCommitHebrew": "לפני 9 דקות",
+        "isDirty": false,
+        "changedFiles": 0
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Stats and streak sheet"
+        },
+        {
+          "type": "commit",
+          "text": "Trash with 30-day restore"
+        },
+        {
+          "type": "commit",
+          "text": "Persisted tags with filter row"
+        },
+        {
+          "type": "chat",
+          "text": "[Request interrupted by user]",
+          "sessionId": "071cbb82-ca5d-4b36-ad2c-354cd77a8977"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "071cbb82-ca5d-4b36-ad2c-354cd77a8977",
+        "lastActivity": "2026-07-12T00:15:37.223Z",
+        "summary": "[Request interrupted by user]"
+      }
+    },
+    {
+      "name": "Project-hub",
+      "humanName": "Project-hub",
+      "tagline": "HTML/CSS/JS",
+      "longDescription": "פרוייקט ב-HTML/CSS/JS",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#7a8a3a",
+      "screenshot": null,
+      "stack": "HTML/CSS/JS",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-07-12T00:14:35.876Z",
+      "lastActivityHebrew": "לפני 6 דקות",
+      "size": "432K",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/project-hub",
+      "source": "local",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "33 minutes ago",
+        "lastCommitMessage": "Fix new-project save: omit id and server-managed columns on write",
+        "lastCommitDate": "2026-07-12 02:48:18 +0300",
+        "lastCommitHebrew": "לפני 33 דקות",
+        "isDirty": false,
+        "changedFiles": 0
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Fix new-project save: omit id and server-managed columns on write"
+        },
+        {
+          "type": "commit",
+          "text": "Redeploy to pick up status-check environment variables"
+        },
+        {
+          "type": "commit",
+          "text": "Vary share responses by User-Agent so redirects are not cached across visitors"
+        },
+        {
+          "type": "chat",
+          "text": "1 done.\n2 - attached image. is this the place?",
+          "sessionId": "8de7af49-34bc-4752-a1d4-f322c3f4fb53"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "8de7af49-34bc-4752-a1d4-f322c3f4fb53",
+        "lastActivity": "2026-07-12T00:14:35.876Z",
+        "summary": "1 done.\n2 - attached image. is this the place?"
+      }
+    },
     {
       "name": "Playtika",
       "humanName": "Playtika",
@@ -153,52 +263,6 @@
         "sessionId": "62949473-9542-4af5-b1f3-c760e5957a96",
         "lastActivity": "2026-07-01T22:06:16.381Z",
         "summary": "Continue from where you left off."
-      }
-    },
-    {
-      "name": "Project-hub",
-      "humanName": "Project-hub",
-      "tagline": "HTML/CSS/JS",
-      "longDescription": "פרוייקט ב-HTML/CSS/JS",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#7a8a3a",
-      "screenshot": null,
-      "stack": "HTML/CSS/JS",
-      "status": "paused",
-      "subStatus": null,
-      "lastActivity": "2026-07-01T22:02:46.022Z",
-      "lastActivityHebrew": "השבוע",
-      "size": "272K",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/project-hub",
-      "source": "local",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "10 days ago",
-        "lastCommitMessage": "Rebrand project hub to Crafel design system",
-        "lastCommitDate": "2026-07-02 00:59:47 +0300",
-        "lastCommitHebrew": "השבוע",
-        "isDirty": false,
-        "changedFiles": 0
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Rebrand project hub to Crafel design system"
-        },
-        {
-          "type": "commit",
-          "text": "Project hub: bento wall of live sites with search and settings"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "4d7ee6f7-cf30-480e-976b-d836f99e8af9",
-        "lastActivity": "2026-07-01T22:02:46.022Z",
-        "summary": ""
       }
     },
     {
@@ -383,61 +447,6 @@
         "sessionId": "afab8798-108e-47c3-9588-222e9667cbc0",
         "lastActivity": "2026-06-30T23:45:58.094Z",
         "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/b…"
-      }
-    },
-    {
-      "name": "Ideas",
-      "humanName": "Ideas",
-      "tagline": "ניצוץ · לתפוס רעיונות לפני שהם בורחים",
-      "longDescription": "ניצוץ · לתפוס רעיונות לפני שהם בורחים",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#a87432",
-      "screenshot": null,
-      "stack": "TypeScript + React 18 + Vite + Supabase",
-      "status": "paused",
-      "subStatus": null,
-      "lastActivity": "2026-06-30T22:50:13.024Z",
-      "lastActivityHebrew": "השבוע",
-      "size": "153M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/nitzotz",
-      "source": "local",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "11 days ago",
-        "lastCommitMessage": "Add small Crafel mark credit in the footer",
-        "lastCommitDate": "2026-07-01 01:50:05 +0300",
-        "lastCommitHebrew": "השבוע",
-        "isDirty": false,
-        "changedFiles": 0
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Add small Crafel mark credit in the footer"
-        },
-        {
-          "type": "commit",
-          "text": "Fix theme toggle: set data-theme so light wins over OS dark mode"
-        },
-        {
-          "type": "commit",
-          "text": "Revert Hebrew display font to Suez One"
-        },
-        {
-          "type": "chat",
-          "text": "[Request interrupted by user]",
-          "sessionId": "071cbb82-ca5d-4b36-ad2c-354cd77a8977"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "071cbb82-ca5d-4b36-ad2c-354cd77a8977",
-        "lastActivity": "2026-06-30T22:50:13.024Z",
-        "summary": "[Request interrupted by user]"
       }
     },
     {
