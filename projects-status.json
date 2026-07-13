@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-12T23:52:57.309Z",
+  "lastUpdated": "2026-07-13T05:53:28.650Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 29,
   "counts": {
@@ -24,7 +24,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-12T22:43:50.567Z",
-      "lastActivityHebrew": "לפני שעה",
+      "lastActivityHebrew": "לפני 7 שעות",
       "size": "488K",
       "isLive": false,
       "liveUrl": null,
@@ -33,10 +33,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "72 minutes ago",
+        "lastCommitRelative": "7 hours ago",
         "lastCommitMessage": "Make the save-confirmation toast attribute-driven with !important",
         "lastCommitDate": "2026-07-13 01:40:40 +0300",
-        "lastCommitHebrew": "לפני שעה",
+        "lastCommitHebrew": "לפני 7 שעות",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -79,7 +79,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-12T22:13:56.230Z",
-      "lastActivityHebrew": "לפני שעה",
+      "lastActivityHebrew": "לפני 7 שעות",
       "size": "153M",
       "isLive": false,
       "liveUrl": null,
@@ -88,10 +88,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "23 hours ago",
+        "lastCommitRelative": "29 hours ago",
         "lastCommitMessage": "Redeploy to pick up ANTHROPIC_API_KEY",
         "lastCommitDate": "2026-07-12 03:33:21 +0300",
-        "lastCommitHebrew": "לפני 23 שעות",
+        "lastCommitHebrew": "אתמול",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -134,7 +134,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-07T01:21:12.495Z",
-      "lastActivityHebrew": "לפני 5 ימים",
+      "lastActivityHebrew": "לפני 6 ימים",
       "size": "206M",
       "isLive": false,
       "liveUrl": null,
@@ -420,7 +420,7 @@
         "lastCommitRelative": "4 weeks ago",
         "lastCommitMessage": "fix(editor): keyframe arrow-nudge preempts canvas layer-nudge",
         "lastCommitDate": "2026-06-15 03:46:53 +0300",
-        "lastCommitHebrew": "לפני 3 שבועות",
+        "lastCommitHebrew": "לפני 0 חודשים",
         "isDirty": true,
         "changedFiles": 10
       },
