@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-13T17:15:11.189Z",
+  "lastUpdated": "2026-07-13T21:03:42.296Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 29,
   "counts": {
@@ -24,7 +24,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-13T13:54:36.010Z",
-      "lastActivityHebrew": "לפני 3 שעות",
+      "lastActivityHebrew": "לפני 7 שעות",
       "size": "488K",
       "isLive": false,
       "liveUrl": null,
@@ -33,10 +33,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "19 hours ago",
+        "lastCommitRelative": "22 hours ago",
         "lastCommitMessage": "Make the save-confirmation toast attribute-driven with !important",
         "lastCommitDate": "2026-07-13 01:40:40 +0300",
-        "lastCommitHebrew": "לפני 18 שעות",
+        "lastCommitHebrew": "לפני 22 שעות",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -79,7 +79,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-12T22:13:56.230Z",
-      "lastActivityHebrew": "לפני 19 שעות",
+      "lastActivityHebrew": "לפני 22 שעות",
       "size": "153M",
       "isLive": false,
       "liveUrl": null,
@@ -178,7 +178,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "11 days ago",
+        "lastCommitRelative": "12 days ago",
         "lastCommitMessage": "docs: add example-page.html, a full Crafel sample page",
         "lastCommitDate": "2026-07-02 11:10:17 +0300",
         "lastCommitHebrew": "השבוע",
@@ -288,7 +288,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/landing-page",
-        "lastCommitRelative": "12 days ago",
+        "lastCommitRelative": "13 days ago",
         "lastCommitMessage": "feat: add Crafel-themed social images",
         "lastCommitDate": "2026-07-01 12:21:37 +0300",
         "lastCommitHebrew": "השבוע",
