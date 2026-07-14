@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-14T19:39:49.472Z",
+  "lastUpdated": "2026-07-14T23:54:50.990Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 29,
   "counts": {
@@ -23,9 +23,9 @@
       "stack": "HTML/CSS/JS",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-07-13T13:54:36.010Z",
-      "lastActivityHebrew": "אתמול",
-      "size": "484K",
+      "lastActivity": "2026-07-14T21:58:23.268Z",
+      "lastActivityHebrew": "לפני שעה",
+      "size": "516K",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": "https://github.com/segalitoo/project-hub",
@@ -33,14 +33,18 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "2 days ago",
-        "lastCommitMessage": "Make the save-confirmation toast attribute-driven with !important",
-        "lastCommitDate": "2026-07-13 01:40:40 +0300",
-        "lastCommitHebrew": "אתמול",
+        "lastCommitRelative": "2 hours ago",
+        "lastCommitMessage": "Make Save feedback immediate and independent of the refetch",
+        "lastCommitDate": "2026-07-15 00:57:13 +0300",
+        "lastCommitHebrew": "לפני שעה",
         "isDirty": false,
         "changedFiles": 0
       },
       "recentActions": [
+        {
+          "type": "commit",
+          "text": "Make Save feedback immediate and independent of the refetch"
+        },
         {
           "type": "commit",
           "text": "Make the save-confirmation toast attribute-driven with !important"
@@ -50,10 +54,6 @@
           "text": "Fix crash on Save: recover from a fetch failure instead of leaving the form dead"
         },
         {
-          "type": "commit",
-          "text": "Fix new-project save: omit id and server-managed columns on write"
-        },
-        {
           "type": "chat",
           "text": "1 done.\n2 - attached image. is this the place?",
           "sessionId": "8de7af49-34bc-4752-a1d4-f322c3f4fb53"
@@ -61,7 +61,7 @@
       ],
       "lastSession": {
         "sessionId": "8de7af49-34bc-4752-a1d4-f322c3f4fb53",
-        "lastActivity": "2026-07-13T13:54:36.010Z",
+        "lastActivity": "2026-07-14T21:58:23.268Z",
         "summary": "1 done.\n2 - attached image. is this the place?"
       }
     },
@@ -79,7 +79,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-12T22:13:56.230Z",
-      "lastActivityHebrew": "אתמול",
+      "lastActivityHebrew": "שלשום",
       "size": "153M",
       "isLive": false,
       "liveUrl": null,
@@ -178,7 +178,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "12 days ago",
+        "lastCommitRelative": "13 days ago",
         "lastCommitMessage": "docs: add example-page.html, a full Crafel sample page",
         "lastCommitDate": "2026-07-02 11:10:17 +0300",
         "lastCommitHebrew": "השבוע",
@@ -288,7 +288,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/landing-page",
-        "lastCommitRelative": "13 days ago",
+        "lastCommitRelative": "2 weeks ago",
         "lastCommitMessage": "feat: add Crafel-themed social images",
         "lastCommitDate": "2026-07-01 12:21:37 +0300",
         "lastCommitHebrew": "השבוע",
@@ -408,7 +408,7 @@
       "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-06-30T23:45:58.094Z",
-      "lastActivityHebrew": "השבוע",
+      "lastActivityHebrew": "לפני 2 שבועות",
       "size": "259M",
       "isLive": false,
       "liveUrl": null,
