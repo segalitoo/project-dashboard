@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-14T10:14:20.914Z",
+  "lastUpdated": "2026-07-14T13:14:34.206Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 29,
   "counts": {
@@ -24,7 +24,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-13T13:54:36.010Z",
-      "lastActivityHebrew": "לפני 20 שעות",
+      "lastActivityHebrew": "לפני 23 שעות",
       "size": "484K",
       "isLive": false,
       "liveUrl": null,
@@ -88,7 +88,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "2 days ago",
+        "lastCommitRelative": "3 days ago",
         "lastCommitMessage": "Redeploy to pick up ANTHROPIC_API_KEY",
         "lastCommitDate": "2026-07-12 03:33:21 +0300",
         "lastCommitHebrew": "שלשום",
@@ -367,7 +367,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "13 days ago",
+        "lastCommitRelative": "2 weeks ago",
         "lastCommitMessage": "Fix theme toggle: set data-theme on <html> so OS dark mode can't override the explicit choice",
         "lastCommitDate": "2026-07-01 03:52:55 +0300",
         "lastCommitHebrew": "השבוע",
