@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-15T19:06:02.489Z",
+  "lastUpdated": "2026-07-15T23:25:36.031Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 29,
   "counts": {
@@ -24,7 +24,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-14T21:58:23.268Z",
-      "lastActivityHebrew": "לפני 21 שעות",
+      "lastActivityHebrew": "אתמול",
       "size": "516K",
       "isLive": false,
       "liveUrl": null,
@@ -33,10 +33,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "21 hours ago",
+        "lastCommitRelative": "25 hours ago",
         "lastCommitMessage": "Make Save feedback immediate and independent of the refetch",
         "lastCommitDate": "2026-07-15 00:57:13 +0300",
-        "lastCommitHebrew": "לפני 21 שעות",
+        "lastCommitHebrew": "אתמול",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -79,7 +79,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-12T22:13:56.230Z",
-      "lastActivityHebrew": "שלשום",
+      "lastActivityHebrew": "לפני 3 ימים",
       "size": "153M",
       "isLive": false,
       "liveUrl": null,
@@ -178,7 +178,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "13 days ago",
+        "lastCommitRelative": "2 weeks ago",
         "lastCommitMessage": "docs: add example-page.html, a full Crafel sample page",
         "lastCommitDate": "2026-07-02 11:10:17 +0300",
         "lastCommitHebrew": "השבוע",
@@ -219,7 +219,7 @@
       "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-07-01T22:06:16.381Z",
-      "lastActivityHebrew": "השבוע",
+      "lastActivityHebrew": "לפני 2 שבועות",
       "size": "148M",
       "isLive": false,
       "liveUrl": null,
@@ -231,7 +231,7 @@
         "lastCommitRelative": "2 weeks ago",
         "lastCommitMessage": "Add Naymo screenshots for Voice tab switching project",
         "lastCommitDate": "2026-07-02 01:06:03 +0300",
-        "lastCommitHebrew": "השבוע",
+        "lastCommitHebrew": "לפני 2 שבועות",
         "isDirty": true,
         "changedFiles": 16
       },
