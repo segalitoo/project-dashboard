@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-15T07:05:11.831Z",
+  "lastUpdated": "2026-07-15T10:05:24.135Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 29,
   "counts": {
@@ -24,7 +24,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-14T21:58:23.268Z",
-      "lastActivityHebrew": "לפני 9 שעות",
+      "lastActivityHebrew": "לפני 12 שעות",
       "size": "516K",
       "isLive": false,
       "liveUrl": null,
@@ -33,10 +33,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "9 hours ago",
+        "lastCommitRelative": "12 hours ago",
         "lastCommitMessage": "Make Save feedback immediate and independent of the refetch",
         "lastCommitDate": "2026-07-15 00:57:13 +0300",
-        "lastCommitHebrew": "לפני 9 שעות",
+        "lastCommitHebrew": "לפני 12 שעות",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -228,7 +228,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "13 days ago",
+        "lastCommitRelative": "2 weeks ago",
         "lastCommitMessage": "Add Naymo screenshots for Voice tab switching project",
         "lastCommitDate": "2026-07-02 01:06:03 +0300",
         "lastCommitHebrew": "השבוע",
@@ -279,7 +279,7 @@
       "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-07-01T09:21:55.444Z",
-      "lastActivityHebrew": "השבוע",
+      "lastActivityHebrew": "לפני 2 שבועות",
       "size": "835M",
       "isLive": false,
       "liveUrl": null,
@@ -291,7 +291,7 @@
         "lastCommitRelative": "2 weeks ago",
         "lastCommitMessage": "feat: add Crafel-themed social images",
         "lastCommitDate": "2026-07-01 12:21:37 +0300",
-        "lastCommitHebrew": "השבוע",
+        "lastCommitHebrew": "לפני 2 שבועות",
         "isDirty": true,
         "changedFiles": 74
       },
@@ -329,7 +329,7 @@
       "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-07-01T08:53:26.940Z",
-      "lastActivityHebrew": "השבוע",
+      "lastActivityHebrew": "לפני 2 שבועות",
       "size": "675M",
       "isLive": false,
       "liveUrl": null,
