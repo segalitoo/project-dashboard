@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-14T23:54:50.990Z",
+  "lastUpdated": "2026-07-15T07:05:11.831Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 29,
   "counts": {
@@ -24,7 +24,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-14T21:58:23.268Z",
-      "lastActivityHebrew": "לפני שעה",
+      "lastActivityHebrew": "לפני 9 שעות",
       "size": "516K",
       "isLive": false,
       "liveUrl": null,
@@ -33,10 +33,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "2 hours ago",
+        "lastCommitRelative": "9 hours ago",
         "lastCommitMessage": "Make Save feedback immediate and independent of the refetch",
         "lastCommitDate": "2026-07-15 00:57:13 +0300",
-        "lastCommitHebrew": "לפני שעה",
+        "lastCommitHebrew": "לפני 9 שעות",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -91,7 +91,7 @@
         "lastCommitRelative": "3 days ago",
         "lastCommitMessage": "Redeploy to pick up ANTHROPIC_API_KEY",
         "lastCommitDate": "2026-07-12 03:33:21 +0300",
-        "lastCommitHebrew": "שלשום",
+        "lastCommitHebrew": "לפני 3 ימים",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -358,7 +358,7 @@
       "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-07-01T01:34:28.388Z",
-      "lastActivityHebrew": "השבוע",
+      "lastActivityHebrew": "לפני 2 שבועות",
       "size": "197M",
       "isLive": false,
       "liveUrl": null,
@@ -370,7 +370,7 @@
         "lastCommitRelative": "2 weeks ago",
         "lastCommitMessage": "Fix theme toggle: set data-theme on <html> so OS dark mode can't override the explicit choice",
         "lastCommitDate": "2026-07-01 03:52:55 +0300",
-        "lastCommitHebrew": "השבוע",
+        "lastCommitHebrew": "לפני 2 שבועות",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -420,7 +420,7 @@
         "lastCommitRelative": "4 weeks ago",
         "lastCommitMessage": "fix(editor): keyframe arrow-nudge preempts canvas layer-nudge",
         "lastCommitDate": "2026-06-15 03:46:53 +0300",
-        "lastCommitHebrew": "לפני 0 חודשים",
+        "lastCommitHebrew": "לפני חודש",
         "isDirty": true,
         "changedFiles": 10
       },
@@ -463,7 +463,7 @@
       "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-06-24T01:01:17.353Z",
-      "lastActivityHebrew": "לפני 2 שבועות",
+      "lastActivityHebrew": "לפני 3 שבועות",
       "size": "250M",
       "isLive": true,
       "liveUrl": "https://payoneer-ad-generator.vercel.app",
