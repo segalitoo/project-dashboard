@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-15T23:25:36.031Z",
+  "lastUpdated": "2026-07-16T03:13:33.234Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 29,
   "counts": {
@@ -33,7 +33,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "25 hours ago",
+        "lastCommitRelative": "29 hours ago",
         "lastCommitMessage": "Make Save feedback immediate and independent of the refetch",
         "lastCommitDate": "2026-07-15 00:57:13 +0300",
         "lastCommitHebrew": "אתמול",
@@ -91,7 +91,7 @@
         "lastCommitRelative": "4 days ago",
         "lastCommitMessage": "Redeploy to pick up ANTHROPIC_API_KEY",
         "lastCommitDate": "2026-07-12 03:33:21 +0300",
-        "lastCommitHebrew": "לפני 3 ימים",
+        "lastCommitHebrew": "לפני 4 ימים",
         "isDirty": false,
         "changedFiles": 0
       },
