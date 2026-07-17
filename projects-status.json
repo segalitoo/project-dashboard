@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-16T21:07:13.380Z",
+  "lastUpdated": "2026-07-17T00:07:26.214Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 29,
   "counts": {
@@ -23,9 +23,9 @@
       "stack": "HTML/CSS/JS",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-07-14T21:58:23.268Z",
-      "lastActivityHebrew": "אתמול",
-      "size": "516K",
+      "lastActivity": "2026-07-16T22:09:14.284Z",
+      "lastActivityHebrew": "לפני שעה",
+      "size": "564K",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": "https://github.com/segalitoo/project-hub",
@@ -33,14 +33,18 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "2 days ago",
-        "lastCommitMessage": "Make Save feedback immediate and independent of the refetch",
-        "lastCommitDate": "2026-07-15 00:57:13 +0300",
-        "lastCommitHebrew": "אתמול",
+        "lastCommitRelative": "2 hours ago",
+        "lastCommitMessage": "Add reliable password sign-in and self-healing sessions",
+        "lastCommitDate": "2026-07-17 01:08:18 +0300",
+        "lastCommitHebrew": "לפני שעה",
         "isDirty": false,
         "changedFiles": 0
       },
       "recentActions": [
+        {
+          "type": "commit",
+          "text": "Add reliable password sign-in and self-healing sessions"
+        },
         {
           "type": "commit",
           "text": "Make Save feedback immediate and independent of the refetch"
@@ -50,10 +54,6 @@
           "text": "Make the save-confirmation toast attribute-driven with !important"
         },
         {
-          "type": "commit",
-          "text": "Fix crash on Save: recover from a fetch failure instead of leaving the form dead"
-        },
-        {
           "type": "chat",
           "text": "1 done.\n2 - attached image. is this the place?",
           "sessionId": "8de7af49-34bc-4752-a1d4-f322c3f4fb53"
@@ -61,7 +61,7 @@
       ],
       "lastSession": {
         "sessionId": "8de7af49-34bc-4752-a1d4-f322c3f4fb53",
-        "lastActivity": "2026-07-14T21:58:23.268Z",
+        "lastActivity": "2026-07-16T22:09:14.284Z",
         "summary": "1 done.\n2 - attached image. is this the place?"
       }
     },
@@ -79,7 +79,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-12T22:13:56.230Z",
-      "lastActivityHebrew": "לפני 3 ימים",
+      "lastActivityHebrew": "לפני 4 ימים",
       "size": "153M",
       "isLive": false,
       "liveUrl": null,
