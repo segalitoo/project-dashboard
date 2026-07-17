@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-17T00:07:26.214Z",
+  "lastUpdated": "2026-07-17T06:27:41.652Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 29,
   "counts": {
@@ -24,7 +24,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-16T22:09:14.284Z",
-      "lastActivityHebrew": "לפני שעה",
+      "lastActivityHebrew": "לפני 8 שעות",
       "size": "564K",
       "isLive": false,
       "liveUrl": null,
@@ -33,10 +33,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "2 hours ago",
+        "lastCommitRelative": "8 hours ago",
         "lastCommitMessage": "Add reliable password sign-in and self-healing sessions",
         "lastCommitDate": "2026-07-17 01:08:18 +0300",
-        "lastCommitHebrew": "לפני שעה",
+        "lastCommitHebrew": "לפני 8 שעות",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -91,7 +91,7 @@
         "lastCommitRelative": "5 days ago",
         "lastCommitMessage": "Redeploy to pick up ANTHROPIC_API_KEY",
         "lastCommitDate": "2026-07-12 03:33:21 +0300",
-        "lastCommitHebrew": "לפני 4 ימים",
+        "lastCommitHebrew": "לפני 5 ימים",
         "isDirty": false,
         "changedFiles": 0
       },
