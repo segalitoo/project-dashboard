@@ -1,15 +1,132 @@
 {
-  "lastUpdated": "2026-07-17T06:27:41.652Z",
+  "lastUpdated": "2026-07-18T05:41:13.761Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 29,
   "counts": {
     "live": 0,
-    "building": 2,
-    "paused": 9,
+    "building": 5,
+    "paused": 7,
     "archive": 6,
-    "idea": 12
+    "idea": 11
   },
   "projects": [
+    {
+      "name": "growth-operator",
+      "humanName": "growth-operator",
+      "tagline": "This file is the entry point. It loads every layer of the agent's architecture at session start.",
+      "longDescription": "This file is the entry point. It loads every layer of the agent's architecture at session start.",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#8b3a2e",
+      "screenshot": null,
+      "stack": "Unknown",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-07-18T05:13:44.697Z",
+      "lastActivityHebrew": "לפני 27 דקות",
+      "size": "96K",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [],
+      "lastSession": {
+        "sessionId": "40c51abd-4bcf-4084-8fa0-b88eeecf4a70",
+        "lastActivity": "2026-07-18T05:13:44.697Z",
+        "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/d…"
+      }
+    },
+    {
+      "name": "co-headshot",
+      "humanName": "co-headshot",
+      "tagline": "TypeScript + Next.js + Supabase",
+      "longDescription": "פרוייקט ב-TypeScript + Next.js + Supabase",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#1a4d4d",
+      "screenshot": null,
+      "stack": "TypeScript + Next.js + Supabase",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-07-17T22:12:20.000Z",
+      "lastActivityHebrew": "לפני 7 שעות",
+      "size": "528M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/co-headshot",
+      "source": "local",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "7 hours ago",
+        "lastCommitMessage": "Initial commit: corporate headshot generator",
+        "lastCommitDate": "2026-07-18 01:12:20 +0300",
+        "lastCommitHebrew": "לפני 7 שעות",
+        "isDirty": false,
+        "changedFiles": 0
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Initial commit: corporate headshot generator"
+        }
+      ],
+      "lastSession": null
+    },
+    {
+      "name": "Agent-blueprint",
+      "humanName": "Agent-blueprint",
+      "tagline": "Dev memory for Claude Code working ON this repository. This is not the agent template itself, and it does not load the template. The template is a deliverable that lives in `templa…",
+      "longDescription": "Dev memory for Claude Code working ON this repository. This is not the agent template itself, and it does not load the template. The template is a deliverable that lives in `templa…",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#3d5a3d",
+      "screenshot": null,
+      "stack": "Unknown",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-07-17T22:08:51.721Z",
+      "lastActivityHebrew": "לפני 7 שעות",
+      "size": "197M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/agent-blueprint",
+      "source": "local",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "2 weeks ago",
+        "lastCommitMessage": "Fix theme toggle: set data-theme on <html> so OS dark mode can't override the explicit choice",
+        "lastCommitDate": "2026-07-01 03:52:55 +0300",
+        "lastCommitHebrew": "לפני 2 שבועות",
+        "isDirty": false,
+        "changedFiles": 0
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Fix theme toggle: set data-theme on <html> so OS dark mode can't override the explicit choice"
+        },
+        {
+          "type": "commit",
+          "text": "Add Crafel landing variant, builder upgrades, and Vercel deploy"
+        },
+        {
+          "type": "commit",
+          "text": "Add real .zip export of all seven files"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "40fe2c06-868b-439c-beaa-eab54e2cdb99",
+        "lastActivity": "2026-07-17T22:08:51.721Z",
+        "summary": ""
+      }
+    },
     {
       "name": "Project-hub",
       "humanName": "Project-hub",
@@ -23,9 +140,9 @@
       "stack": "HTML/CSS/JS",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-07-16T22:09:14.284Z",
+      "lastActivity": "2026-07-17T21:40:21.164Z",
       "lastActivityHebrew": "לפני 8 שעות",
-      "size": "564K",
+      "size": "584K",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": "https://github.com/segalitoo/project-hub",
@@ -34,13 +151,17 @@
       "git": {
         "branch": "main",
         "lastCommitRelative": "8 hours ago",
-        "lastCommitMessage": "Add reliable password sign-in and self-healing sessions",
-        "lastCommitDate": "2026-07-17 01:08:18 +0300",
+        "lastCommitMessage": "Fix auth deadlock that hung Save and Set-password forever",
+        "lastCommitDate": "2026-07-18 00:35:04 +0300",
         "lastCommitHebrew": "לפני 8 שעות",
         "isDirty": false,
         "changedFiles": 0
       },
       "recentActions": [
+        {
+          "type": "commit",
+          "text": "Fix auth deadlock that hung Save and Set-password forever"
+        },
         {
           "type": "commit",
           "text": "Add reliable password sign-in and self-healing sessions"
@@ -50,10 +171,6 @@
           "text": "Make Save feedback immediate and independent of the refetch"
         },
         {
-          "type": "commit",
-          "text": "Make the save-confirmation toast attribute-driven with !important"
-        },
-        {
           "type": "chat",
           "text": "1 done.\n2 - attached image. is this the place?",
           "sessionId": "8de7af49-34bc-4752-a1d4-f322c3f4fb53"
@@ -61,7 +178,7 @@
       ],
       "lastSession": {
         "sessionId": "8de7af49-34bc-4752-a1d4-f322c3f4fb53",
-        "lastActivity": "2026-07-16T22:09:14.284Z",
+        "lastActivity": "2026-07-17T21:40:21.164Z",
         "summary": "1 done.\n2 - attached image. is this the place?"
       }
     },
@@ -79,7 +196,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-12T22:13:56.230Z",
-      "lastActivityHebrew": "לפני 4 ימים",
+      "lastActivityHebrew": "לפני 5 ימים",
       "size": "153M",
       "isLive": false,
       "liveUrl": null,
@@ -88,10 +205,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "5 days ago",
+        "lastCommitRelative": "6 days ago",
         "lastCommitMessage": "Redeploy to pick up ANTHROPIC_API_KEY",
         "lastCommitDate": "2026-07-12 03:33:21 +0300",
-        "lastCommitHebrew": "לפני 5 ימים",
+        "lastCommitHebrew": "לפני 6 ימים",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -345,56 +462,6 @@
       }
     },
     {
-      "name": "Agent-blueprint",
-      "humanName": "Agent-blueprint",
-      "tagline": "Dev memory for Claude Code working ON this repository. This is not the agent template itself, and it does not load the template. The template is a deliverable that lives in `templa…",
-      "longDescription": "Dev memory for Claude Code working ON this repository. This is not the agent template itself, and it does not load the template. The template is a deliverable that lives in `templa…",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#3d5a3d",
-      "screenshot": null,
-      "stack": "Unknown",
-      "status": "paused",
-      "subStatus": null,
-      "lastActivity": "2026-07-01T01:34:28.388Z",
-      "lastActivityHebrew": "לפני 2 שבועות",
-      "size": "197M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/agent-blueprint",
-      "source": "local",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "2 weeks ago",
-        "lastCommitMessage": "Fix theme toggle: set data-theme on <html> so OS dark mode can't override the explicit choice",
-        "lastCommitDate": "2026-07-01 03:52:55 +0300",
-        "lastCommitHebrew": "לפני 2 שבועות",
-        "isDirty": false,
-        "changedFiles": 0
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Fix theme toggle: set data-theme on <html> so OS dark mode can't override the explicit choice"
-        },
-        {
-          "type": "commit",
-          "text": "Add Crafel landing variant, builder upgrades, and Vercel deploy"
-        },
-        {
-          "type": "commit",
-          "text": "Add real .zip export of all seven files"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "548705ca-d6ec-41c4-a1f3-a2db55b9e144",
-        "lastActivity": "2026-07-01T01:34:28.388Z",
-        "summary": "Base directory for this skill: /Users/rannsegal/.claude/skills/craft\n\n# Craft — Visual Architect\n\nYou are **Craft**, a V…"
-      }
-    },
-    {
       "name": "anime-master",
       "humanName": "Anime Master",
       "tagline": "עורך אנימציות SVG עם ייצוא ל-Lottie",
@@ -507,35 +574,6 @@
         "sessionId": "4f9704cf-f8f9-4706-82c0-a4f2c83021e2",
         "lastActivity": "2026-06-24T01:01:17.353Z",
         "summary": "everything is too bright. we need to make a better visability but keeping some elements with pour green mint color"
-      }
-    },
-    {
-      "name": "growth-operator",
-      "humanName": "growth-operator",
-      "tagline": "This file is the entry point. It loads every layer of the agent's architecture at session start.",
-      "longDescription": "This file is the entry point. It loads every layer of the agent's architecture at session start.",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#8b3a2e",
-      "screenshot": null,
-      "stack": "Unknown",
-      "status": "paused",
-      "subStatus": null,
-      "lastActivity": "2026-06-23T00:42:44.695Z",
-      "lastActivityHebrew": "לפני 3 שבועות",
-      "size": "68K",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": null,
-      "source": "local",
-      "hasGit": false,
-      "git": null,
-      "recentActions": [],
-      "lastSession": {
-        "sessionId": "66e5dd19-7dd0-453f-a475-05aad38fb45e",
-        "lastActivity": "2026-06-23T00:42:44.695Z",
-        "summary": ""
       }
     },
     {
@@ -837,31 +875,6 @@
       "lastActivity": null,
       "lastActivityHebrew": "",
       "size": "20K",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": null,
-      "source": "local",
-      "hasGit": false,
-      "git": null,
-      "recentActions": [],
-      "lastSession": null
-    },
-    {
-      "name": "co-headshot",
-      "humanName": "co-headshot",
-      "tagline": "TypeScript + Next.js + Supabase",
-      "longDescription": "פרוייקט ב-TypeScript + Next.js + Supabase",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#1a4d4d",
-      "screenshot": null,
-      "stack": "TypeScript + Next.js + Supabase",
-      "status": "idea",
-      "subStatus": null,
-      "lastActivity": null,
-      "lastActivityHebrew": "",
-      "size": "528M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
