@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-18T22:47:59.487Z",
+  "lastUpdated": "2026-07-19T06:56:56.769Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 29,
   "counts": {
@@ -23,9 +23,9 @@
       "stack": "TypeScript + Next.js + Supabase",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-07-18T22:30:07.000Z",
-      "lastActivityHebrew": "לפני 17 דקות",
-      "size": "528M",
+      "lastActivity": "2026-07-19T00:04:45.000Z",
+      "lastActivityHebrew": "לפני 6 שעות",
+      "size": "547M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": "https://github.com/segalitoo/co-headshot",
@@ -33,28 +33,83 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "18 minutes ago",
-        "lastCommitMessage": "Fix generate timeout crash: budget-aware retries + safe JSON parsing",
-        "lastCommitDate": "2026-07-19 01:30:07 +0300",
-        "lastCommitHebrew": "לפני 17 דקות",
+        "lastCommitRelative": "7 hours ago",
+        "lastCommitMessage": "Migrate attire step to Bria gen_fill with a real-face guarantee",
+        "lastCommitDate": "2026-07-19 03:04:45 +0300",
+        "lastCommitHebrew": "לפני 6 שעות",
         "isDirty": false,
         "changedFiles": 0
       },
       "recentActions": [
         {
           "type": "commit",
-          "text": "Fix generate timeout crash: budget-aware retries + safe JSON parsing"
+          "text": "Migrate attire step to Bria gen_fill with a real-face guarantee"
         },
         {
           "type": "commit",
-          "text": "chore: trigger deploy with verified commit author"
+          "text": "Fix Bria background-removal endpoint path"
         },
         {
           "type": "commit",
-          "text": "Initial commit: corporate headshot generator"
+          "text": "Add Bria as a trial background-removal provider"
         }
       ],
       "lastSession": null
+    },
+    {
+      "name": "Project-hub",
+      "humanName": "Project-hub",
+      "tagline": "HTML/CSS/JS",
+      "longDescription": "פרוייקט ב-HTML/CSS/JS",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#7a8a3a",
+      "screenshot": null,
+      "stack": "HTML/CSS/JS",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-07-18T23:12:20.136Z",
+      "lastActivityHebrew": "לפני 7 שעות",
+      "size": "584K",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/project-hub",
+      "source": "local",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "33 hours ago",
+        "lastCommitMessage": "Fix auth deadlock that hung Save and Set-password forever",
+        "lastCommitDate": "2026-07-18 00:35:04 +0300",
+        "lastCommitHebrew": "אתמול",
+        "isDirty": false,
+        "changedFiles": 0
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Fix auth deadlock that hung Save and Set-password forever"
+        },
+        {
+          "type": "commit",
+          "text": "Add reliable password sign-in and self-healing sessions"
+        },
+        {
+          "type": "commit",
+          "text": "Make Save feedback immediate and independent of the refetch"
+        },
+        {
+          "type": "chat",
+          "text": "1 done.\n2 - attached image. is this the place?",
+          "sessionId": "8de7af49-34bc-4752-a1d4-f322c3f4fb53"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "8de7af49-34bc-4752-a1d4-f322c3f4fb53",
+        "lastActivity": "2026-07-18T23:12:20.136Z",
+        "summary": "1 done.\n2 - attached image. is this the place?"
+      }
     },
     {
       "name": "growth-operator",
@@ -70,7 +125,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-18T05:13:44.697Z",
-      "lastActivityHebrew": "לפני 17 שעות",
+      "lastActivityHebrew": "אתמול",
       "size": "96K",
       "isLive": false,
       "liveUrl": null,
@@ -136,61 +191,6 @@
       }
     },
     {
-      "name": "Project-hub",
-      "humanName": "Project-hub",
-      "tagline": "HTML/CSS/JS",
-      "longDescription": "פרוייקט ב-HTML/CSS/JS",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#7a8a3a",
-      "screenshot": null,
-      "stack": "HTML/CSS/JS",
-      "status": "building",
-      "subStatus": null,
-      "lastActivity": "2026-07-17T21:40:21.164Z",
-      "lastActivityHebrew": "אתמול",
-      "size": "584K",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/project-hub",
-      "source": "local",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "25 hours ago",
-        "lastCommitMessage": "Fix auth deadlock that hung Save and Set-password forever",
-        "lastCommitDate": "2026-07-18 00:35:04 +0300",
-        "lastCommitHebrew": "אתמול",
-        "isDirty": false,
-        "changedFiles": 0
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Fix auth deadlock that hung Save and Set-password forever"
-        },
-        {
-          "type": "commit",
-          "text": "Add reliable password sign-in and self-healing sessions"
-        },
-        {
-          "type": "commit",
-          "text": "Make Save feedback immediate and independent of the refetch"
-        },
-        {
-          "type": "chat",
-          "text": "1 done.\n2 - attached image. is this the place?",
-          "sessionId": "8de7af49-34bc-4752-a1d4-f322c3f4fb53"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "8de7af49-34bc-4752-a1d4-f322c3f4fb53",
-        "lastActivity": "2026-07-17T21:40:21.164Z",
-        "summary": "1 done.\n2 - attached image. is this the place?"
-      }
-    },
-    {
       "name": "Ideas",
       "humanName": "Ideas",
       "tagline": "ניצוץ · לתפוס רעיונות לפני שהם בורחים",
@@ -216,7 +216,7 @@
         "lastCommitRelative": "7 days ago",
         "lastCommitMessage": "Redeploy to pick up ANTHROPIC_API_KEY",
         "lastCommitDate": "2026-07-12 03:33:21 +0300",
-        "lastCommitHebrew": "לפני 6 ימים",
+        "lastCommitHebrew": "השבוע",
         "isDirty": false,
         "changedFiles": 0
       },
