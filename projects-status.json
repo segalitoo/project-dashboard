@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-19T06:56:56.769Z",
+  "lastUpdated": "2026-07-20T09:55:02.342Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 29,
   "counts": {
@@ -10,6 +10,61 @@
     "idea": 11
   },
   "projects": [
+    {
+      "name": "anime-master",
+      "humanName": "Anime Master",
+      "tagline": "עורך אנימציות SVG עם ייצוא ל-Lottie",
+      "longDescription": "כלי web ליצירת אנימציות SVG. המשתמש מצייר שכבות, מגדיר keyframes, ומייצא ל-Lottie JSON או GIF. בנוי על Vite + React 18, עם canvas מותאם אישית לעריכה.",
+      "nextStep": "לתקן באג של selectedLayerId כפול",
+      "notes": null,
+      "category": "Creative",
+      "accentColor": "#8b3a8e",
+      "screenshot": null,
+      "stack": "TypeScript + React 18 + Vite",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-07-19T22:39:27.291Z",
+      "lastActivityHebrew": "לפני 11 שעות",
+      "size": "259M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/anime-master",
+      "source": "both",
+      "hasGit": true,
+      "git": {
+        "branch": "redesign/drafting-table",
+        "lastCommitRelative": "5 weeks ago",
+        "lastCommitMessage": "fix(editor): keyframe arrow-nudge preempts canvas layer-nudge",
+        "lastCommitDate": "2026-06-15 03:46:53 +0300",
+        "lastCommitHebrew": "לפני חודש",
+        "isDirty": true,
+        "changedFiles": 10
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "fix(editor): keyframe arrow-nudge preempts canvas layer-nudge"
+        },
+        {
+          "type": "commit",
+          "text": "feat(editor): arrow-key keyframe nudge"
+        },
+        {
+          "type": "commit",
+          "text": "fix(editor): coalesce keyframe drags into one undo step"
+        },
+        {
+          "type": "chat",
+          "text": "[Request interrupted by user]",
+          "sessionId": "bad71fc1-0705-43d2-b885-283fd6024ee2"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "afab8798-108e-47c3-9588-222e9667cbc0",
+        "lastActivity": "2026-07-19T22:39:27.291Z",
+        "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/b…"
+      }
+    },
     {
       "name": "co-headshot",
       "humanName": "co-headshot",
@@ -24,7 +79,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-19T00:04:45.000Z",
-      "lastActivityHebrew": "לפני 6 שעות",
+      "lastActivityHebrew": "אתמול",
       "size": "547M",
       "isLive": false,
       "liveUrl": null,
@@ -33,10 +88,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "7 hours ago",
+        "lastCommitRelative": "34 hours ago",
         "lastCommitMessage": "Migrate attire step to Bria gen_fill with a real-face guarantee",
         "lastCommitDate": "2026-07-19 03:04:45 +0300",
-        "lastCommitHebrew": "לפני 6 שעות",
+        "lastCommitHebrew": "אתמול",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -70,7 +125,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-18T23:12:20.136Z",
-      "lastActivityHebrew": "לפני 7 שעות",
+      "lastActivityHebrew": "אתמול",
       "size": "584K",
       "isLive": false,
       "liveUrl": null,
@@ -79,10 +134,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "33 hours ago",
+        "lastCommitRelative": "3 days ago",
         "lastCommitMessage": "Fix auth deadlock that hung Save and Set-password forever",
         "lastCommitDate": "2026-07-18 00:35:04 +0300",
-        "lastCommitHebrew": "אתמול",
+        "lastCommitHebrew": "שלשום",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -125,7 +180,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-18T05:13:44.697Z",
-      "lastActivityHebrew": "אתמול",
+      "lastActivityHebrew": "שלשום",
       "size": "96K",
       "isLive": false,
       "liveUrl": null,
@@ -154,7 +209,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-17T22:08:51.721Z",
-      "lastActivityHebrew": "אתמול",
+      "lastActivityHebrew": "שלשום",
       "size": "197M",
       "isLive": false,
       "liveUrl": null,
@@ -201,10 +256,10 @@
       "accentColor": "#a87432",
       "screenshot": null,
       "stack": "TypeScript + React 18 + Vite + Supabase",
-      "status": "building",
+      "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-07-12T22:13:56.230Z",
-      "lastActivityHebrew": "לפני 6 ימים",
+      "lastActivityHebrew": "השבוע",
       "size": "153M",
       "isLive": false,
       "liveUrl": null,
@@ -213,7 +268,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "7 days ago",
+        "lastCommitRelative": "8 days ago",
         "lastCommitMessage": "Redeploy to pick up ANTHROPIC_API_KEY",
         "lastCommitDate": "2026-07-12 03:33:21 +0300",
         "lastCommitHebrew": "השבוע",
@@ -303,7 +358,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "2 weeks ago",
+        "lastCommitRelative": "3 weeks ago",
         "lastCommitMessage": "docs: add example-page.html, a full Crafel sample page",
         "lastCommitDate": "2026-07-02 11:10:17 +0300",
         "lastCommitHebrew": "לפני 2 שבועות",
@@ -353,7 +408,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "2 weeks ago",
+        "lastCommitRelative": "3 weeks ago",
         "lastCommitMessage": "Add Naymo screenshots for Voice tab switching project",
         "lastCommitDate": "2026-07-02 01:06:03 +0300",
         "lastCommitHebrew": "לפני 2 שבועות",
@@ -470,61 +525,6 @@
       }
     },
     {
-      "name": "anime-master",
-      "humanName": "Anime Master",
-      "tagline": "עורך אנימציות SVG עם ייצוא ל-Lottie",
-      "longDescription": "כלי web ליצירת אנימציות SVG. המשתמש מצייר שכבות, מגדיר keyframes, ומייצא ל-Lottie JSON או GIF. בנוי על Vite + React 18, עם canvas מותאם אישית לעריכה.",
-      "nextStep": "לתקן באג של selectedLayerId כפול",
-      "notes": null,
-      "category": "Creative",
-      "accentColor": "#8b3a8e",
-      "screenshot": null,
-      "stack": "TypeScript + React 18 + Vite",
-      "status": "paused",
-      "subStatus": null,
-      "lastActivity": "2026-06-30T23:45:58.094Z",
-      "lastActivityHebrew": "לפני 2 שבועות",
-      "size": "259M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/anime-master",
-      "source": "both",
-      "hasGit": true,
-      "git": {
-        "branch": "redesign/drafting-table",
-        "lastCommitRelative": "5 weeks ago",
-        "lastCommitMessage": "fix(editor): keyframe arrow-nudge preempts canvas layer-nudge",
-        "lastCommitDate": "2026-06-15 03:46:53 +0300",
-        "lastCommitHebrew": "לפני חודש",
-        "isDirty": true,
-        "changedFiles": 10
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "fix(editor): keyframe arrow-nudge preempts canvas layer-nudge"
-        },
-        {
-          "type": "commit",
-          "text": "feat(editor): arrow-key keyframe nudge"
-        },
-        {
-          "type": "commit",
-          "text": "fix(editor): coalesce keyframe drags into one undo step"
-        },
-        {
-          "type": "chat",
-          "text": "[Request interrupted by user]",
-          "sessionId": "bad71fc1-0705-43d2-b885-283fd6024ee2"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "afab8798-108e-47c3-9588-222e9667cbc0",
-        "lastActivity": "2026-06-30T23:45:58.094Z",
-        "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/b…"
-      }
-    },
-    {
       "name": "Payoneer-ad-generator",
       "humanName": "מחולל באנרים לפיוניר",
       "tagline": "כלי שמייצר אוטומטית באנרים פרסומיים באמצעות AI",
@@ -571,11 +571,6 @@
           "type": "chat",
           "text": "everything is too bright. we need to make a better visability but keeping some elements with pour green mint color",
           "sessionId": "4f9704cf-f8f9-4706-82c0-a4f2c83021e2"
-        },
-        {
-          "type": "chat",
-          "text": "Continue from where you left off.",
-          "sessionId": "9eb2d04d-bfbc-42b2-a515-9c8a85cf9fc9"
         }
       ],
       "lastSession": {
