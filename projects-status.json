@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-20T13:48:02.061Z",
+  "lastUpdated": "2026-07-20T21:21:33.157Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 29,
   "counts": {
@@ -10,6 +10,61 @@
     "idea": 11
   },
   "projects": [
+    {
+      "name": "Project-hub",
+      "humanName": "Project-hub",
+      "tagline": "HTML/CSS/JS",
+      "longDescription": "פרוייקט ב-HTML/CSS/JS",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#7a8a3a",
+      "screenshot": null,
+      "stack": "HTML/CSS/JS",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-07-20T20:38:42.981Z",
+      "lastActivityHebrew": "לפני 42 דקות",
+      "size": "584K",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/project-hub",
+      "source": "local",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "3 days ago",
+        "lastCommitMessage": "Fix auth deadlock that hung Save and Set-password forever",
+        "lastCommitDate": "2026-07-18 00:35:04 +0300",
+        "lastCommitHebrew": "שלשום",
+        "isDirty": false,
+        "changedFiles": 0
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Fix auth deadlock that hung Save and Set-password forever"
+        },
+        {
+          "type": "commit",
+          "text": "Add reliable password sign-in and self-healing sessions"
+        },
+        {
+          "type": "commit",
+          "text": "Make Save feedback immediate and independent of the refetch"
+        },
+        {
+          "type": "chat",
+          "text": "1 done.\n2 - attached image. is this the place?",
+          "sessionId": "8de7af49-34bc-4752-a1d4-f322c3f4fb53"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "8de7af49-34bc-4752-a1d4-f322c3f4fb53",
+        "lastActivity": "2026-07-20T20:38:42.981Z",
+        "summary": "1 done.\n2 - attached image. is this the place?"
+      }
+    },
     {
       "name": "anime-master",
       "humanName": "Anime Master",
@@ -24,7 +79,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-19T22:39:27.291Z",
-      "lastActivityHebrew": "לפני 15 שעות",
+      "lastActivityHebrew": "לפני 22 שעות",
       "size": "259M",
       "isLive": false,
       "liveUrl": null,
@@ -110,61 +165,6 @@
         }
       ],
       "lastSession": null
-    },
-    {
-      "name": "Project-hub",
-      "humanName": "Project-hub",
-      "tagline": "HTML/CSS/JS",
-      "longDescription": "פרוייקט ב-HTML/CSS/JS",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#7a8a3a",
-      "screenshot": null,
-      "stack": "HTML/CSS/JS",
-      "status": "building",
-      "subStatus": null,
-      "lastActivity": "2026-07-18T23:12:20.136Z",
-      "lastActivityHebrew": "אתמול",
-      "size": "584K",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/project-hub",
-      "source": "local",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "3 days ago",
-        "lastCommitMessage": "Fix auth deadlock that hung Save and Set-password forever",
-        "lastCommitDate": "2026-07-18 00:35:04 +0300",
-        "lastCommitHebrew": "שלשום",
-        "isDirty": false,
-        "changedFiles": 0
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Fix auth deadlock that hung Save and Set-password forever"
-        },
-        {
-          "type": "commit",
-          "text": "Add reliable password sign-in and self-healing sessions"
-        },
-        {
-          "type": "commit",
-          "text": "Make Save feedback immediate and independent of the refetch"
-        },
-        {
-          "type": "chat",
-          "text": "1 done.\n2 - attached image. is this the place?",
-          "sessionId": "8de7af49-34bc-4752-a1d4-f322c3f4fb53"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "8de7af49-34bc-4752-a1d4-f322c3f4fb53",
-        "lastActivity": "2026-07-18T23:12:20.136Z",
-        "summary": "1 done.\n2 - attached image. is this the place?"
-      }
     },
     {
       "name": "growth-operator",
