@@ -1,15 +1,50 @@
 {
-  "lastUpdated": "2026-07-21T00:21:45.467Z",
+  "lastUpdated": "2026-07-21T03:22:17.146Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 29,
   "counts": {
     "live": 0,
-    "building": 5,
-    "paused": 7,
+    "building": 6,
+    "paused": 6,
     "archive": 6,
     "idea": 11
   },
   "projects": [
+    {
+      "name": "Playtika",
+      "humanName": "Playtika",
+      "tagline": "Unknown",
+      "longDescription": "פרוייקט ב-Unknown",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#7a8a3a",
+      "screenshot": null,
+      "stack": "Unknown",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-07-21T01:37:47.629Z",
+      "lastActivityHebrew": "לפני שעה",
+      "size": "207M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [
+        {
+          "type": "chat",
+          "text": "[Request interrupted by user]",
+          "sessionId": "e8a319c5-06ff-4b35-af7a-5bff6ba5cf50"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "bff825ef-4d6a-4736-a284-f6f0672ea46f",
+        "lastActivity": "2026-07-21T01:37:47.629Z",
+        "summary": ""
+      }
+    },
     {
       "name": "Project-hub",
       "humanName": "Project-hub",
@@ -24,7 +59,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-20T20:38:42.981Z",
-      "lastActivityHebrew": "לפני 3 שעות",
+      "lastActivityHebrew": "לפני 6 שעות",
       "size": "584K",
       "isLive": false,
       "liveUrl": null,
@@ -297,41 +332,6 @@
       "lastSession": {
         "sessionId": "071cbb82-ca5d-4b36-ad2c-354cd77a8977",
         "lastActivity": "2026-07-12T22:13:56.230Z",
-        "summary": "[Request interrupted by user]"
-      }
-    },
-    {
-      "name": "Playtika",
-      "humanName": "Playtika",
-      "tagline": "Unknown",
-      "longDescription": "פרוייקט ב-Unknown",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#7a8a3a",
-      "screenshot": null,
-      "stack": "Unknown",
-      "status": "paused",
-      "subStatus": null,
-      "lastActivity": "2026-07-07T01:21:12.495Z",
-      "lastActivityHebrew": "השבוע",
-      "size": "206M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": null,
-      "source": "local",
-      "hasGit": false,
-      "git": null,
-      "recentActions": [
-        {
-          "type": "chat",
-          "text": "[Request interrupted by user]",
-          "sessionId": "e8a319c5-06ff-4b35-af7a-5bff6ba5cf50"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "e8a319c5-06ff-4b35-af7a-5bff6ba5cf50",
-        "lastActivity": "2026-07-07T01:21:12.495Z",
         "summary": "[Request interrupted by user]"
       }
     },
