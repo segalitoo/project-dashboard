@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-21T11:00:40.387Z",
+  "lastUpdated": "2026-07-21T18:48:30.627Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 29,
   "counts": {
@@ -24,7 +24,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-21T06:09:59.229Z",
-      "lastActivityHebrew": "לפני 4 שעות",
+      "lastActivityHebrew": "לפני 12 שעות",
       "size": "207M",
       "isLive": false,
       "liveUrl": null,
@@ -59,7 +59,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-20T20:38:42.981Z",
-      "lastActivityHebrew": "לפני 14 שעות",
+      "lastActivityHebrew": "לפני 22 שעות",
       "size": "584K",
       "isLive": false,
       "liveUrl": null,
@@ -178,7 +178,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "2 days ago",
+        "lastCommitRelative": "3 days ago",
         "lastCommitMessage": "Migrate attire step to Bria gen_fill with a real-face guarantee",
         "lastCommitDate": "2026-07-19 03:04:45 +0300",
         "lastCommitHebrew": "שלשום",
@@ -303,7 +303,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "9 days ago",
+        "lastCommitRelative": "10 days ago",
         "lastCommitMessage": "Redeploy to pick up ANTHROPIC_API_KEY",
         "lastCommitDate": "2026-07-12 03:33:21 +0300",
         "lastCommitHebrew": "השבוע",
