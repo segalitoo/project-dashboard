@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-22T06:59:33.067Z",
+  "lastUpdated": "2026-07-22T13:03:35.948Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 29,
   "counts": {
@@ -68,7 +68,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "4 days ago",
+        "lastCommitRelative": "5 days ago",
         "lastCommitMessage": "Fix auth deadlock that hung Save and Set-password forever",
         "lastCommitDate": "2026-07-18 00:35:04 +0300",
         "lastCommitHebrew": "לפני 4 ימים",
@@ -178,7 +178,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "3 days ago",
+        "lastCommitRelative": "4 days ago",
         "lastCommitMessage": "Migrate attire step to Bria gen_fill with a real-face guarantee",
         "lastCommitDate": "2026-07-19 03:04:45 +0300",
         "lastCommitHebrew": "לפני 3 ימים",
@@ -303,7 +303,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "10 days ago",
+        "lastCommitRelative": "11 days ago",
         "lastCommitMessage": "Redeploy to pick up ANTHROPIC_API_KEY",
         "lastCommitDate": "2026-07-12 03:33:21 +0300",
         "lastCommitHebrew": "השבוע",
@@ -459,7 +459,7 @@
       "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-07-01T09:21:55.444Z",
-      "lastActivityHebrew": "לפני 2 שבועות",
+      "lastActivityHebrew": "לפני 3 שבועות",
       "size": "835M",
       "isLive": false,
       "liveUrl": null,
@@ -471,7 +471,7 @@
         "lastCommitRelative": "3 weeks ago",
         "lastCommitMessage": "feat: add Crafel-themed social images",
         "lastCommitDate": "2026-07-01 12:21:37 +0300",
-        "lastCommitHebrew": "לפני 2 שבועות",
+        "lastCommitHebrew": "לפני 3 שבועות",
         "isDirty": true,
         "changedFiles": 74
       },
@@ -509,7 +509,7 @@
       "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-07-01T08:53:26.940Z",
-      "lastActivityHebrew": "לפני 2 שבועות",
+      "lastActivityHebrew": "לפני 3 שבועות",
       "size": "675M",
       "isLive": false,
       "liveUrl": null,
