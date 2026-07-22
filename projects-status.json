@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-22T19:04:02.250Z",
+  "lastUpdated": "2026-07-22T22:04:15.030Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 29,
   "counts": {
@@ -59,7 +59,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-20T20:38:42.981Z",
-      "lastActivityHebrew": "אתמול",
+      "lastActivityHebrew": "שלשום",
       "size": "584K",
       "isLive": false,
       "liveUrl": null,
@@ -71,7 +71,7 @@
         "lastCommitRelative": "5 days ago",
         "lastCommitMessage": "Fix auth deadlock that hung Save and Set-password forever",
         "lastCommitDate": "2026-07-18 00:35:04 +0300",
-        "lastCommitHebrew": "לפני 4 ימים",
+        "lastCommitHebrew": "לפני 5 ימים",
         "isDirty": false,
         "changedFiles": 0
       },
