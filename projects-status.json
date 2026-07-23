@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-07-23T20:05:10.724Z",
+  "lastUpdated": "2026-07-23T23:17:13.412Z",
   "lastUpdatedHebrew": "הרגע",
-  "projectCount": 29,
+  "projectCount": 30,
   "counts": {
     "live": 0,
-    "building": 6,
+    "building": 7,
     "paused": 6,
     "archive": 6,
     "idea": 11
@@ -23,8 +23,8 @@
       "stack": "Unknown",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-07-21T06:09:59.229Z",
-      "lastActivityHebrew": "שלשום",
+      "lastActivity": "2026-07-23T23:16:39.725Z",
+      "lastActivityHebrew": "הרגע",
       "size": "207M",
       "isLive": false,
       "liveUrl": null,
@@ -32,18 +32,58 @@
       "source": "local",
       "hasGit": false,
       "git": null,
+      "recentActions": [],
+      "lastSession": {
+        "sessionId": "78aaa319-ac10-4bbb-9f47-4fb7bb37c981",
+        "lastActivity": "2026-07-23T23:16:39.725Z",
+        "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/b…"
+      }
+    },
+    {
+      "name": "Studio",
+      "humanName": "Studio",
+      "tagline": "Unknown",
+      "longDescription": "פרוייקט ב-Unknown",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#a87432",
+      "screenshot": null,
+      "stack": "Unknown",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-07-23T23:16:18.000Z",
+      "lastActivityHebrew": "הרגע",
+      "size": "436K",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": true,
+      "git": {
+        "branch": "build-studio-skill",
+        "lastCommitRelative": "47 seconds ago",
+        "lastCommitMessage": "studio: template fixes and plan amendments from review",
+        "lastCommitDate": "2026-07-24 02:16:18 +0300",
+        "lastCommitHebrew": "הרגע",
+        "isDirty": false,
+        "changedFiles": 0
+      },
       "recentActions": [
         {
-          "type": "chat",
-          "text": "[Request interrupted by user]",
-          "sessionId": "e8a319c5-06ff-4b35-af7a-5bff6ba5cf50"
+          "type": "commit",
+          "text": "studio: template fixes and plan amendments from review"
+        },
+        {
+          "type": "commit",
+          "text": "studio: HTML page templates"
+        },
+        {
+          "type": "commit",
+          "text": "studio: state-file templates"
         }
       ],
-      "lastSession": {
-        "sessionId": "bff825ef-4d6a-4736-a284-f6f0672ea46f",
-        "lastActivity": "2026-07-21T06:09:59.229Z",
-        "summary": ""
-      }
+      "lastSession": null
     },
     {
       "name": "Project-hub",
@@ -59,7 +99,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-20T20:38:42.981Z",
-      "lastActivityHebrew": "שלשום",
+      "lastActivityHebrew": "לפני 3 ימים",
       "size": "584K",
       "isLive": false,
       "liveUrl": null,
@@ -71,7 +111,7 @@
         "lastCommitRelative": "6 days ago",
         "lastCommitMessage": "Fix auth deadlock that hung Save and Set-password forever",
         "lastCommitDate": "2026-07-18 00:35:04 +0300",
-        "lastCommitHebrew": "לפני 5 ימים",
+        "lastCommitHebrew": "לפני 6 ימים",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -114,7 +154,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-19T22:39:27.291Z",
-      "lastActivityHebrew": "לפני 3 ימים",
+      "lastActivityHebrew": "לפני 4 ימים",
       "size": "259M",
       "isLive": false,
       "liveUrl": null,
@@ -244,7 +284,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-17T22:08:51.721Z",
-      "lastActivityHebrew": "לפני 5 ימים",
+      "lastActivityHebrew": "לפני 6 ימים",
       "size": "197M",
       "isLive": false,
       "liveUrl": null,
