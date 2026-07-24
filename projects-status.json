@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-07-23T23:17:13.412Z",
+  "lastUpdated": "2026-07-24T06:56:16.355Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 30,
   "counts": {
     "live": 0,
     "building": 7,
-    "paused": 6,
-    "archive": 6,
+    "paused": 5,
+    "archive": 7,
     "idea": 11
   },
   "projects": [
@@ -23,8 +23,8 @@
       "stack": "Unknown",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-07-23T23:16:39.725Z",
-      "lastActivityHebrew": "הרגע",
+      "lastActivity": "2026-07-24T00:25:09.084Z",
+      "lastActivityHebrew": "לפני 6 שעות",
       "size": "207M",
       "isLive": false,
       "liveUrl": null,
@@ -35,7 +35,7 @@
       "recentActions": [],
       "lastSession": {
         "sessionId": "78aaa319-ac10-4bbb-9f47-4fb7bb37c981",
-        "lastActivity": "2026-07-23T23:16:39.725Z",
+        "lastActivity": "2026-07-24T00:25:09.084Z",
         "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/b…"
       }
     },
@@ -52,35 +52,35 @@
       "stack": "Unknown",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-07-23T23:16:18.000Z",
-      "lastActivityHebrew": "הרגע",
-      "size": "436K",
+      "lastActivity": "2026-07-24T00:24:51.000Z",
+      "lastActivityHebrew": "לפני 6 שעות",
+      "size": "19M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
       "source": "local",
       "hasGit": true,
       "git": {
-        "branch": "build-studio-skill",
-        "lastCommitRelative": "47 seconds ago",
-        "lastCommitMessage": "studio: template fixes and plan amendments from review",
-        "lastCommitDate": "2026-07-24 02:16:18 +0300",
-        "lastCommitHebrew": "הרגע",
+        "branch": "main",
+        "lastCommitRelative": "7 hours ago",
+        "lastCommitMessage": "studio: engine selection (nano-banana-pro default, higgsfield, bria)",
+        "lastCommitDate": "2026-07-24 03:24:51 +0300",
+        "lastCommitHebrew": "לפני 6 שעות",
         "isDirty": false,
         "changedFiles": 0
       },
       "recentActions": [
         {
           "type": "commit",
-          "text": "studio: template fixes and plan amendments from review"
+          "text": "studio: engine selection (nano-banana-pro default, higgsfield, bria)"
         },
         {
           "type": "commit",
-          "text": "studio: HTML page templates"
+          "text": "studio: final review polish (.gitkeep note, cap wording)"
         },
         {
           "type": "commit",
-          "text": "studio: state-file templates"
+          "text": "studio: pilot project + command fixes from pilot"
         }
       ],
       "lastSession": null
@@ -209,7 +209,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-19T00:04:45.000Z",
-      "lastActivityHebrew": "לפני 4 ימים",
+      "lastActivityHebrew": "לפני 5 ימים",
       "size": "547M",
       "isLive": false,
       "liveUrl": null,
@@ -221,7 +221,7 @@
         "lastCommitRelative": "5 days ago",
         "lastCommitMessage": "Migrate attire step to Bria gen_fill with a real-face guarantee",
         "lastCommitDate": "2026-07-19 03:04:45 +0300",
-        "lastCommitHebrew": "לפני 4 ימים",
+        "lastCommitHebrew": "לפני 5 ימים",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -255,7 +255,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-18T05:13:44.697Z",
-      "lastActivityHebrew": "לפני 5 ימים",
+      "lastActivityHebrew": "לפני 6 ימים",
       "size": "96K",
       "isLive": false,
       "liveUrl": null,
@@ -575,10 +575,10 @@
       "accentColor": "#8b3a2e",
       "screenshot": null,
       "stack": "TypeScript + React 19 + Vite + Supabase",
-      "status": "paused",
+      "status": "archive",
       "subStatus": null,
       "lastActivity": "2026-06-24T01:01:17.353Z",
-      "lastActivityHebrew": "לפני 0 חודשים",
+      "lastActivityHebrew": "לפני חודש",
       "size": "250M",
       "isLive": true,
       "liveUrl": "https://payoneer-ad-generator.vercel.app",
