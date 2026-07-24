@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-07-24T06:56:16.355Z",
+  "lastUpdated": "2026-07-24T23:32:44.484Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 30,
   "counts": {
     "live": 0,
-    "building": 7,
-    "paused": 5,
+    "building": 6,
+    "paused": 6,
     "archive": 7,
     "idea": 11
   },
@@ -24,7 +24,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-24T00:25:09.084Z",
-      "lastActivityHebrew": "לפני 6 שעות",
+      "lastActivityHebrew": "לפני 22 שעות",
       "size": "207M",
       "isLive": false,
       "liveUrl": null,
@@ -53,7 +53,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-24T00:24:51.000Z",
-      "lastActivityHebrew": "לפני 6 שעות",
+      "lastActivityHebrew": "לפני 22 שעות",
       "size": "19M",
       "isLive": false,
       "liveUrl": null,
@@ -62,12 +62,12 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "7 hours ago",
+        "lastCommitRelative": "23 hours ago",
         "lastCommitMessage": "studio: engine selection (nano-banana-pro default, higgsfield, bria)",
         "lastCommitDate": "2026-07-24 03:24:51 +0300",
-        "lastCommitHebrew": "לפני 6 שעות",
-        "isDirty": false,
-        "changedFiles": 0
+        "lastCommitHebrew": "לפני 22 שעות",
+        "isDirty": true,
+        "changedFiles": 1
       },
       "recentActions": [
         {
@@ -99,7 +99,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-20T20:38:42.981Z",
-      "lastActivityHebrew": "לפני 3 ימים",
+      "lastActivityHebrew": "לפני 4 ימים",
       "size": "584K",
       "isLive": false,
       "liveUrl": null,
@@ -108,10 +108,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "6 days ago",
+        "lastCommitRelative": "7 days ago",
         "lastCommitMessage": "Fix auth deadlock that hung Save and Set-password forever",
         "lastCommitDate": "2026-07-18 00:35:04 +0300",
-        "lastCommitHebrew": "לפני 6 ימים",
+        "lastCommitHebrew": "השבוע",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -154,7 +154,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-19T22:39:27.291Z",
-      "lastActivityHebrew": "לפני 4 ימים",
+      "lastActivityHebrew": "לפני 5 ימים",
       "size": "259M",
       "isLive": false,
       "liveUrl": null,
@@ -218,7 +218,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "5 days ago",
+        "lastCommitRelative": "6 days ago",
         "lastCommitMessage": "Migrate attire step to Bria gen_fill with a real-face guarantee",
         "lastCommitDate": "2026-07-19 03:04:45 +0300",
         "lastCommitHebrew": "לפני 5 ימים",
@@ -281,10 +281,10 @@
       "accentColor": "#3d5a3d",
       "screenshot": null,
       "stack": "Unknown",
-      "status": "building",
+      "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-07-17T22:08:51.721Z",
-      "lastActivityHebrew": "לפני 6 ימים",
+      "lastActivityHebrew": "השבוע",
       "size": "197M",
       "isLive": false,
       "liveUrl": null,
@@ -343,7 +343,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "12 days ago",
+        "lastCommitRelative": "13 days ago",
         "lastCommitMessage": "Redeploy to pick up ANTHROPIC_API_KEY",
         "lastCommitDate": "2026-07-12 03:33:21 +0300",
         "lastCommitHebrew": "השבוע",
