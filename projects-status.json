@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-25T18:23:03.001Z",
+  "lastUpdated": "2026-07-25T22:25:10.391Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 30,
   "counts": {
@@ -23,8 +23,8 @@
       "stack": "Unknown",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-07-24T00:25:09.084Z",
-      "lastActivityHebrew": "אתמול",
+      "lastActivity": "2026-07-25T21:27:51.069Z",
+      "lastActivityHebrew": "לפני 57 דקות",
       "size": "207M",
       "isLive": false,
       "liveUrl": null,
@@ -35,7 +35,7 @@
       "recentActions": [],
       "lastSession": {
         "sessionId": "78aaa319-ac10-4bbb-9f47-4fb7bb37c981",
-        "lastActivity": "2026-07-24T00:25:09.084Z",
+        "lastActivity": "2026-07-25T21:27:51.069Z",
         "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/b…"
       }
     },
@@ -52,8 +52,8 @@
       "stack": "Unknown",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-07-24T00:24:51.000Z",
-      "lastActivityHebrew": "אתמול",
+      "lastActivity": "2026-07-25T21:27:34.000Z",
+      "lastActivityHebrew": "לפני 57 דקות",
       "size": "19M",
       "isLive": false,
       "liveUrl": null,
@@ -62,14 +62,18 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "2 days ago",
-        "lastCommitMessage": "studio: engine selection (nano-banana-pro default, higgsfield, bria)",
-        "lastCommitDate": "2026-07-24 03:24:51 +0300",
-        "lastCommitHebrew": "אתמול",
-        "isDirty": true,
-        "changedFiles": 1
+        "lastCommitRelative": "57 minutes ago",
+        "lastCommitMessage": "studio: gitignore for secrets and macOS cruft",
+        "lastCommitDate": "2026-07-26 00:27:34 +0300",
+        "lastCommitHebrew": "לפני 57 דקות",
+        "isDirty": false,
+        "changedFiles": 0
       },
       "recentActions": [
+        {
+          "type": "commit",
+          "text": "studio: gitignore for secrets and macOS cruft"
+        },
         {
           "type": "commit",
           "text": "studio: engine selection (nano-banana-pro default, higgsfield, bria)"
@@ -77,10 +81,6 @@
         {
           "type": "commit",
           "text": "studio: final review polish (.gitkeep note, cap wording)"
-        },
-        {
-          "type": "commit",
-          "text": "studio: pilot project + command fixes from pilot"
         }
       ],
       "lastSession": null
@@ -99,7 +99,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-20T20:38:42.981Z",
-      "lastActivityHebrew": "לפני 4 ימים",
+      "lastActivityHebrew": "לפני 5 ימים",
       "size": "584K",
       "isLive": false,
       "liveUrl": null,
@@ -508,7 +508,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/landing-page",
-        "lastCommitRelative": "3 weeks ago",
+        "lastCommitRelative": "4 weeks ago",
         "lastCommitMessage": "feat: add Crafel-themed social images",
         "lastCommitDate": "2026-07-01 12:21:37 +0300",
         "lastCommitHebrew": "לפני 3 שבועות",
