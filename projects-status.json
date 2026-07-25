@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-25T11:09:31.483Z",
+  "lastUpdated": "2026-07-25T18:23:03.001Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 30,
   "counts": {
@@ -62,7 +62,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "35 hours ago",
+        "lastCommitRelative": "2 days ago",
         "lastCommitMessage": "studio: engine selection (nano-banana-pro default, higgsfield, bria)",
         "lastCommitDate": "2026-07-24 03:24:51 +0300",
         "lastCommitHebrew": "אתמול",
@@ -218,7 +218,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "6 days ago",
+        "lastCommitRelative": "7 days ago",
         "lastCommitMessage": "Migrate attire step to Bria gen_fill with a real-face guarantee",
         "lastCommitDate": "2026-07-19 03:04:45 +0300",
         "lastCommitHebrew": "לפני 6 ימים",
@@ -293,7 +293,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "3 weeks ago",
+        "lastCommitRelative": "4 weeks ago",
         "lastCommitMessage": "Fix theme toggle: set data-theme on <html> so OS dark mode can't override the explicit choice",
         "lastCommitDate": "2026-07-01 03:52:55 +0300",
         "lastCommitHebrew": "לפני 3 שבועות",
@@ -343,7 +343,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "13 days ago",
+        "lastCommitRelative": "2 weeks ago",
         "lastCommitMessage": "Redeploy to pick up ANTHROPIC_API_KEY",
         "lastCommitDate": "2026-07-12 03:33:21 +0300",
         "lastCommitHebrew": "השבוע",
