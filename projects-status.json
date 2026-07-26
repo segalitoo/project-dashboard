@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-26T12:15:30.334Z",
+  "lastUpdated": "2026-07-26T15:15:43.100Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 30,
   "counts": {
@@ -10,35 +10,6 @@
     "idea": 11
   },
   "projects": [
-    {
-      "name": "Playtika",
-      "humanName": "Playtika",
-      "tagline": "Unknown",
-      "longDescription": "פרוייקט ב-Unknown",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#7a8a3a",
-      "screenshot": null,
-      "stack": "Unknown",
-      "status": "building",
-      "subStatus": null,
-      "lastActivity": "2026-07-25T21:27:51.069Z",
-      "lastActivityHebrew": "לפני 14 שעות",
-      "size": "207M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": null,
-      "source": "local",
-      "hasGit": false,
-      "git": null,
-      "recentActions": [],
-      "lastSession": {
-        "sessionId": "78aaa319-ac10-4bbb-9f47-4fb7bb37c981",
-        "lastActivity": "2026-07-25T21:27:51.069Z",
-        "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/b…"
-      }
-    },
     {
       "name": "Studio",
       "humanName": "Studio",
@@ -52,8 +23,8 @@
       "stack": "Unknown",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-07-25T21:27:34.000Z",
-      "lastActivityHebrew": "לפני 14 שעות",
+      "lastActivity": "2026-07-26T13:41:03.921Z",
+      "lastActivityHebrew": "לפני שעה",
       "size": "19M",
       "isLive": false,
       "liveUrl": null,
@@ -62,28 +33,61 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "15 hours ago",
-        "lastCommitMessage": "studio: gitignore for secrets and macOS cruft",
-        "lastCommitDate": "2026-07-26 00:27:34 +0300",
-        "lastCommitHebrew": "לפני 14 שעות",
+        "lastCommitRelative": "2 hours ago",
+        "lastCommitMessage": "crafel-studio: direction locked",
+        "lastCommitDate": "2026-07-26 16:41:00 +0300",
+        "lastCommitHebrew": "לפני שעה",
         "isDirty": false,
         "changedFiles": 0
       },
       "recentActions": [
         {
           "type": "commit",
-          "text": "studio: gitignore for secrets and macOS cruft"
+          "text": "crafel-studio: direction locked"
         },
         {
           "type": "commit",
-          "text": "studio: engine selection (nano-banana-pro default, higgsfield, bria)"
+          "text": "crafel-studio: brief gate passed"
         },
         {
           "type": "commit",
-          "text": "studio: final review polish (.gitkeep note, cap wording)"
+          "text": "studio: restyle generated pages in the Crafel design system"
         }
       ],
-      "lastSession": null
+      "lastSession": {
+        "sessionId": "1128e4cb-9ce4-4507-9b47-f75c4d43cb7a",
+        "lastActivity": "2026-07-26T13:41:03.921Z",
+        "summary": "Base directory for this skill: /Users/rannsegal/.claude/skills/studio\n\n# Studio: creative production pipeline\n\nSolo-oper…"
+      }
+    },
+    {
+      "name": "Playtika",
+      "humanName": "Playtika",
+      "tagline": "Unknown",
+      "longDescription": "פרוייקט ב-Unknown",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#7a8a3a",
+      "screenshot": null,
+      "stack": "Unknown",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-07-26T13:13:53.617Z",
+      "lastActivityHebrew": "לפני 2 שעות",
+      "size": "207M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [],
+      "lastSession": {
+        "sessionId": "78aaa319-ac10-4bbb-9f47-4fb7bb37c981",
+        "lastActivity": "2026-07-26T13:13:53.617Z",
+        "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/b…"
+      }
     },
     {
       "name": "Project-hub",
