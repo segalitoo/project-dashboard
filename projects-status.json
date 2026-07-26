@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-26T18:15:55.467Z",
+  "lastUpdated": "2026-07-26T21:16:08.317Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 30,
   "counts": {
@@ -24,7 +24,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-26T13:41:03.921Z",
-      "lastActivityHebrew": "לפני 4 שעות",
+      "lastActivityHebrew": "לפני 7 שעות",
       "size": "19M",
       "isLive": false,
       "liveUrl": null,
@@ -33,10 +33,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "5 hours ago",
+        "lastCommitRelative": "8 hours ago",
         "lastCommitMessage": "crafel-studio: direction locked",
         "lastCommitDate": "2026-07-26 16:41:00 +0300",
-        "lastCommitHebrew": "לפני 4 שעות",
+        "lastCommitHebrew": "לפני 7 שעות",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -74,7 +74,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-26T13:13:53.617Z",
-      "lastActivityHebrew": "לפני 5 שעות",
+      "lastActivityHebrew": "לפני 8 שעות",
       "size": "207M",
       "isLive": false,
       "liveUrl": null,
@@ -103,7 +103,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-20T20:38:42.981Z",
-      "lastActivityHebrew": "לפני 5 ימים",
+      "lastActivityHebrew": "לפני 6 ימים",
       "size": "584K",
       "isLive": false,
       "liveUrl": null,
@@ -402,7 +402,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "3 weeks ago",
+        "lastCommitRelative": "4 weeks ago",
         "lastCommitMessage": "docs: add example-page.html, a full Crafel sample page",
         "lastCommitDate": "2026-07-02 11:10:17 +0300",
         "lastCommitHebrew": "לפני 3 שבועות",
