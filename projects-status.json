@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-07-27T18:42:51.026Z",
+  "lastUpdated": "2026-07-27T21:43:03.344Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 30,
   "counts": {
     "live": 0,
-    "building": 3,
-    "paused": 9,
+    "building": 2,
+    "paused": 10,
     "archive": 7,
     "idea": 11
   },
@@ -33,7 +33,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "29 hours ago",
+        "lastCommitRelative": "32 hours ago",
         "lastCommitMessage": "crafel-studio: direction locked",
         "lastCommitDate": "2026-07-26 16:41:00 +0300",
         "lastCommitHebrew": "אתמול",
@@ -100,10 +100,10 @@
       "accentColor": "#7a8a3a",
       "screenshot": null,
       "stack": "HTML/CSS/JS",
-      "status": "building",
+      "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-07-20T20:38:42.981Z",
-      "lastActivityHebrew": "לפני 6 ימים",
+      "lastActivityHebrew": "השבוע",
       "size": "584K",
       "isLive": false,
       "liveUrl": null,
