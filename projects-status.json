@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-28T09:43:55.579Z",
+  "lastUpdated": "2026-07-28T13:00:15.683Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 30,
   "counts": {
@@ -222,7 +222,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "9 days ago",
+        "lastCommitRelative": "10 days ago",
         "lastCommitMessage": "Migrate attire step to Bria gen_fill with a real-face guarantee",
         "lastCommitDate": "2026-07-19 03:04:45 +0300",
         "lastCommitHebrew": "השבוע",
