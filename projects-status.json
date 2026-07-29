@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-29T09:06:58.131Z",
+  "lastUpdated": "2026-07-29T14:50:00.175Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 30,
   "counts": {
@@ -24,7 +24,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-26T13:41:03.921Z",
-      "lastActivityHebrew": "שלשום",
+      "lastActivityHebrew": "לפני 3 ימים",
       "size": "19M",
       "isLive": false,
       "liveUrl": null,
@@ -36,7 +36,7 @@
         "lastCommitRelative": "3 days ago",
         "lastCommitMessage": "crafel-studio: direction locked",
         "lastCommitDate": "2026-07-26 16:41:00 +0300",
-        "lastCommitHebrew": "שלשום",
+        "lastCommitHebrew": "לפני 3 ימים",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -74,7 +74,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-26T13:13:53.617Z",
-      "lastActivityHebrew": "שלשום",
+      "lastActivityHebrew": "לפני 3 ימים",
       "size": "207M",
       "isLive": false,
       "liveUrl": null,
@@ -222,7 +222,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "10 days ago",
+        "lastCommitRelative": "11 days ago",
         "lastCommitMessage": "Migrate attire step to Bria gen_fill with a real-face guarantee",
         "lastCommitDate": "2026-07-19 03:04:45 +0300",
         "lastCommitHebrew": "השבוע",
@@ -347,7 +347,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "2 weeks ago",
+        "lastCommitRelative": "3 weeks ago",
         "lastCommitMessage": "Redeploy to pick up ANTHROPIC_API_KEY",
         "lastCommitDate": "2026-07-12 03:33:21 +0300",
         "lastCommitHebrew": "לפני 2 שבועות",
@@ -503,7 +503,7 @@
       "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-07-01T09:21:55.444Z",
-      "lastActivityHebrew": "לפני 3 שבועות",
+      "lastActivityHebrew": "לפני 0 חודשים",
       "size": "835M",
       "isLive": false,
       "liveUrl": null,
@@ -515,7 +515,7 @@
         "lastCommitRelative": "4 weeks ago",
         "lastCommitMessage": "feat: add Crafel-themed social images",
         "lastCommitDate": "2026-07-01 12:21:37 +0300",
-        "lastCommitHebrew": "לפני 3 שבועות",
+        "lastCommitHebrew": "לפני 0 חודשים",
         "isDirty": true,
         "changedFiles": 74
       },
