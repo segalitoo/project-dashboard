@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-31T12:23:48.717Z",
+  "lastUpdated": "2026-07-31T15:24:01.440Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 30,
   "counts": {
@@ -24,7 +24,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-26T13:41:03.921Z",
-      "lastActivityHebrew": "לפני 4 ימים",
+      "lastActivityHebrew": "לפני 5 ימים",
       "size": "19M",
       "isLive": false,
       "liveUrl": null,
@@ -36,7 +36,7 @@
         "lastCommitRelative": "5 days ago",
         "lastCommitMessage": "crafel-studio: direction locked",
         "lastCommitDate": "2026-07-26 16:41:00 +0300",
-        "lastCommitHebrew": "לפני 4 ימים",
+        "lastCommitHebrew": "לפני 5 ימים",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -74,7 +74,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-26T13:13:53.617Z",
-      "lastActivityHebrew": "לפני 4 ימים",
+      "lastActivityHebrew": "לפני 5 ימים",
       "size": "207M",
       "isLive": false,
       "liveUrl": null,
