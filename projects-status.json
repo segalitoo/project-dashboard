@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-01T20:35:44.480Z",
+  "lastUpdated": "2026-08-01T23:35:56.758Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 30,
   "counts": {
@@ -512,7 +512,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/landing-page",
-        "lastCommitRelative": "4 weeks ago",
+        "lastCommitRelative": "5 weeks ago",
         "lastCommitMessage": "feat: add Crafel-themed social images",
         "lastCommitDate": "2026-07-01 12:21:37 +0300",
         "lastCommitHebrew": "לפני חודש",
@@ -594,7 +594,7 @@
         "lastCommitRelative": "9 weeks ago",
         "lastCommitMessage": "design: fix residual AA contrast failures found in audit",
         "lastCommitDate": "2026-06-03 01:38:01 +0300",
-        "lastCommitHebrew": "לפני חודש",
+        "lastCommitHebrew": "לפני 2 חודשים",
         "isDirty": true,
         "changedFiles": 24
       },
