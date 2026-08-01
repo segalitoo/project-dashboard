@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-08-01T06:34:34.690Z",
+  "lastUpdated": "2026-08-01T14:35:19.413Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 30,
   "counts": {
     "live": 0,
     "building": 2,
-    "paused": 7,
-    "archive": 10,
+    "paused": 6,
+    "archive": 11,
     "idea": 11
   },
   "projects": [
@@ -24,7 +24,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-26T13:41:03.921Z",
-      "lastActivityHebrew": "לפני 5 ימים",
+      "lastActivityHebrew": "לפני 6 ימים",
       "size": "19M",
       "isLive": false,
       "liveUrl": null,
@@ -36,7 +36,7 @@
         "lastCommitRelative": "6 days ago",
         "lastCommitMessage": "crafel-studio: direction locked",
         "lastCommitDate": "2026-07-26 16:41:00 +0300",
-        "lastCommitHebrew": "לפני 5 ימים",
+        "lastCommitHebrew": "לפני 6 ימים",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -74,7 +74,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-07-26T13:13:53.617Z",
-      "lastActivityHebrew": "לפני 5 ימים",
+      "lastActivityHebrew": "לפני 6 ימים",
       "size": "207M",
       "isLive": false,
       "liveUrl": null,
@@ -222,7 +222,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "13 days ago",
+        "lastCommitRelative": "2 weeks ago",
         "lastCommitMessage": "Migrate attire step to Bria gen_fill with a real-face guarantee",
         "lastCommitDate": "2026-07-19 03:04:45 +0300",
         "lastCommitHebrew": "השבוע",
@@ -297,7 +297,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "4 weeks ago",
+        "lastCommitRelative": "5 weeks ago",
         "lastCommitMessage": "Fix theme toggle: set data-theme on <html> so OS dark mode can't override the explicit choice",
         "lastCommitDate": "2026-07-01 03:52:55 +0300",
         "lastCommitHebrew": "לפני חודש",
@@ -390,10 +390,10 @@
       "accentColor": "#8b3a8e",
       "screenshot": null,
       "stack": "Node.js",
-      "status": "paused",
+      "status": "archive",
       "subStatus": null,
       "lastActivity": "2026-07-02T08:10:32.303Z",
-      "lastActivityHebrew": "לפני 0 חודשים",
+      "lastActivityHebrew": "לפני חודש",
       "size": "428K",
       "isLive": false,
       "liveUrl": null,
@@ -405,7 +405,7 @@
         "lastCommitRelative": "4 weeks ago",
         "lastCommitMessage": "docs: add example-page.html, a full Crafel sample page",
         "lastCommitDate": "2026-07-02 11:10:17 +0300",
-        "lastCommitHebrew": "לפני 0 חודשים",
+        "lastCommitHebrew": "לפני חודש",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -591,7 +591,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "8 weeks ago",
+        "lastCommitRelative": "9 weeks ago",
         "lastCommitMessage": "design: fix residual AA contrast failures found in audit",
         "lastCommitDate": "2026-06-03 01:38:01 +0300",
         "lastCommitHebrew": "לפני חודש",
