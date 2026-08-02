@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-02T17:37:11.010Z",
+  "lastUpdated": "2026-08-02T20:37:23.913Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 30,
   "counts": {
@@ -402,7 +402,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "4 weeks ago",
+        "lastCommitRelative": "5 weeks ago",
         "lastCommitMessage": "docs: add example-page.html, a full Crafel sample page",
         "lastCommitDate": "2026-07-02 11:10:17 +0300",
         "lastCommitHebrew": "לפני חודש",
