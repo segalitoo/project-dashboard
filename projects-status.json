@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-02T08:36:33.798Z",
+  "lastUpdated": "2026-08-02T11:36:46.679Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 30,
   "counts": {
@@ -452,7 +452,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "4 weeks ago",
+        "lastCommitRelative": "5 weeks ago",
         "lastCommitMessage": "Add Naymo screenshots for Voice tab switching project",
         "lastCommitDate": "2026-07-02 01:06:03 +0300",
         "lastCommitHebrew": "לפני חודש",
