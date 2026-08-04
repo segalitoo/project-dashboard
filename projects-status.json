@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-04T09:25:30.199Z",
+  "lastUpdated": "2026-08-04T12:25:43.120Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 30,
   "counts": {
@@ -186,11 +186,6 @@
         {
           "type": "commit",
           "text": "fix(editor): coalesce keyframe drags into one undo step"
-        },
-        {
-          "type": "chat",
-          "text": "[Request interrupted by user]",
-          "sessionId": "bad71fc1-0705-43d2-b885-283fd6024ee2"
         }
       ],
       "lastSession": {
@@ -476,11 +471,6 @@
           "type": "chat",
           "text": "Continue from where you left off.",
           "sessionId": "62949473-9542-4af5-b1f3-c760e5957a96"
-        },
-        {
-          "type": "chat",
-          "text": "Continue from where you left off.",
-          "sessionId": "99ddefc0-751b-4ff1-97be-fa5b089c27a1"
         }
       ],
       "lastSession": {
