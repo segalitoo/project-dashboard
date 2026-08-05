@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-04T12:25:43.120Z",
+  "lastUpdated": "2026-08-05T05:47:34.329Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 30,
   "counts": {
@@ -33,7 +33,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "9 days ago",
+        "lastCommitRelative": "10 days ago",
         "lastCommitMessage": "crafel-studio: direction locked",
         "lastCommitDate": "2026-07-26 16:41:00 +0300",
         "lastCommitHebrew": "השבוע",
