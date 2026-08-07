@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-07T08:27:59.633Z",
+  "lastUpdated": "2026-08-07T19:33:29.027Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 30,
   "counts": {
@@ -387,7 +387,7 @@
       "stack": "Node.js",
       "status": "archive",
       "subStatus": null,
-      "lastActivity": "2026-07-02T08:10:32.303Z",
+      "lastActivity": "2026-07-02T08:10:17.000Z",
       "lastActivityHebrew": "לפני חודש",
       "size": "428K",
       "isLive": false,
@@ -418,11 +418,7 @@
           "text": "Add Crafel footer component (studio-credit lockup)"
         }
       ],
-      "lastSession": {
-        "sessionId": "67ff1d82-8a4a-4b6f-b28d-79fa7ac0907a",
-        "lastActivity": "2026-07-02T08:10:32.303Z",
-        "summary": ""
-      }
+      "lastSession": null
     },
     {
       "name": "ran-portfolio",
