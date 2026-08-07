@@ -1,15 +1,178 @@
 {
-  "lastUpdated": "2026-08-07T19:33:29.027Z",
+  "lastUpdated": "2026-08-07T22:33:43.025Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 30,
   "counts": {
     "live": 0,
-    "building": 0,
-    "paused": 8,
-    "archive": 11,
-    "idea": 11
+    "building": 4,
+    "paused": 7,
+    "archive": 9,
+    "idea": 10
   },
   "projects": [
+    {
+      "name": "Payoneer-ad-generator",
+      "humanName": "מחולל באנרים לפיוניר",
+      "tagline": "כלי שמייצר אוטומטית באנרים פרסומיים באמצעות AI",
+      "longDescription": "הפרוייקט מקבל פרטי מוצר ומחזיר עשרה באנרים פרסומיים בסגנונות שונים. מבוסס על Gemini ליצירת תמונות וניתוח תוכן, עם backend ב-Supabase לאחסון וצד משתמש ב-React. נבנה כדמו ל-Payoneer.",
+      "nextStep": "לסיים את הפיצ׳ר node-canvas ולמזג ל-main",
+      "notes": null,
+      "category": "AI Tools",
+      "accentColor": "#8b3a2e",
+      "screenshot": null,
+      "stack": "TypeScript + React 19 + Vite + Supabase",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-08-07T21:55:14.544Z",
+      "lastActivityHebrew": "לפני 38 דקות",
+      "size": "250M",
+      "isLive": true,
+      "liveUrl": "https://payoneer-ad-generator.vercel.app",
+      "githubUrl": "https://github.com/segalitoo/Payoneer-ad-generator",
+      "source": "both",
+      "hasGit": true,
+      "git": {
+        "branch": "feat/node-canvas",
+        "lastCommitRelative": "9 weeks ago",
+        "lastCommitMessage": "design: fix residual AA contrast failures found in audit",
+        "lastCommitDate": "2026-06-03 01:38:01 +0300",
+        "lastCommitHebrew": "לפני 2 חודשים",
+        "isDirty": true,
+        "changedFiles": 24
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "design: fix residual AA contrast failures found in audit"
+        },
+        {
+          "type": "commit",
+          "text": "design: migrate to shared toolkit design tokens"
+        },
+        {
+          "type": "commit",
+          "text": "docs: add spec for Mint portfolio marketing images"
+        },
+        {
+          "type": "chat",
+          "text": "everything is too bright. we need to make a better visability but keeping some elements with pour green mint color",
+          "sessionId": "4f9704cf-f8f9-4706-82c0-a4f2c83021e2"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "d141b2d9-2443-440b-b6e5-5a4560eac15f",
+        "lastActivity": "2026-08-07T21:55:14.544Z",
+        "summary": ""
+      }
+    },
+    {
+      "name": "agents",
+      "humanName": "agents",
+      "tagline": "Unknown",
+      "longDescription": "פרוייקט ב-Unknown",
+      "nextStep": null,
+      "notes": null,
+      "category": "AI Tools",
+      "accentColor": "#a87432",
+      "screenshot": null,
+      "stack": "Unknown",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-08-07T21:55:14.544Z",
+      "lastActivityHebrew": "לפני 38 דקות",
+      "size": "20K",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [],
+      "lastSession": {
+        "sessionId": "d141b2d9-2443-440b-b6e5-5a4560eac15f",
+        "lastActivity": "2026-08-07T21:55:14.544Z",
+        "summary": ""
+      }
+    },
+    {
+      "name": "growth-operator",
+      "humanName": "growth-operator",
+      "tagline": "This file is the entry point. It loads every layer of the agent's architecture at session start.",
+      "longDescription": "This file is the entry point. It loads every layer of the agent's architecture at session start.",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#8b3a2e",
+      "screenshot": null,
+      "stack": "Unknown",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-08-07T21:55:14.544Z",
+      "lastActivityHebrew": "לפני 38 דקות",
+      "size": "96K",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [],
+      "lastSession": {
+        "sessionId": "d141b2d9-2443-440b-b6e5-5a4560eac15f",
+        "lastActivity": "2026-08-07T21:55:14.544Z",
+        "summary": ""
+      }
+    },
+    {
+      "name": "shmup-reminder",
+      "humanName": "שמופ - תזכורות",
+      "tagline": "מנהל משימות בעברית RTL עם קלט קולי",
+      "longDescription": "אפליקציית web ל-iOS ו-Android (PWA) לניהול משימות יומיות בעברית. תמיכה מלאה ב-RTL, swipe gestures, haptic feedback, ושמירה ב-Supabase. הוקם במקור ב-Lovable, עכשיו בפיתוח מקומי.",
+      "nextStep": "לבדוק את ה-edge case של partial swipe",
+      "notes": null,
+      "category": "Productivity",
+      "accentColor": "#c9885f",
+      "screenshot": null,
+      "stack": "TypeScript + React 18 + Vite + Supabase",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-08-07T21:55:14.544Z",
+      "lastActivityHebrew": "לפני 38 דקות",
+      "size": "375M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/shmup-reminder",
+      "source": "both",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "5 months ago",
+        "lastCommitMessage": "Prevent accidental edit on partial swipe",
+        "lastCommitDate": "2026-02-25 11:54:51 +0000",
+        "lastCommitHebrew": "לפני כחצי שנה",
+        "isDirty": true,
+        "changedFiles": 27
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Prevent accidental edit on partial swipe"
+        },
+        {
+          "type": "commit",
+          "text": "Changes"
+        },
+        {
+          "type": "commit",
+          "text": "Add iOS haptic fallback"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "d141b2d9-2443-440b-b6e5-5a4560eac15f",
+        "lastActivity": "2026-08-07T21:55:14.544Z",
+        "summary": ""
+      }
+    },
     {
       "name": "Studio",
       "humanName": "Studio",
@@ -115,7 +278,7 @@
         "lastCommitRelative": "3 weeks ago",
         "lastCommitMessage": "Fix auth deadlock that hung Save and Set-password forever",
         "lastCommitDate": "2026-07-18 00:35:04 +0300",
-        "lastCommitHebrew": "לפני 2 שבועות",
+        "lastCommitHebrew": "לפני 3 שבועות",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -241,35 +404,6 @@
       "lastSession": null
     },
     {
-      "name": "growth-operator",
-      "humanName": "growth-operator",
-      "tagline": "This file is the entry point. It loads every layer of the agent's architecture at session start.",
-      "longDescription": "This file is the entry point. It loads every layer of the agent's architecture at session start.",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#8b3a2e",
-      "screenshot": null,
-      "stack": "Unknown",
-      "status": "paused",
-      "subStatus": null,
-      "lastActivity": "2026-07-18T05:13:44.697Z",
-      "lastActivityHebrew": "לפני 2 שבועות",
-      "size": "96K",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": null,
-      "source": "local",
-      "hasGit": false,
-      "git": null,
-      "recentActions": [],
-      "lastSession": {
-        "sessionId": "40c51abd-4bcf-4084-8fa0-b88eeecf4a70",
-        "lastActivity": "2026-07-18T05:13:44.697Z",
-        "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/d…"
-      }
-    },
-    {
       "name": "Agent-blueprint",
       "humanName": "Agent-blueprint",
       "tagline": "Dev memory for Claude Code working ON this repository. This is not the agent template itself, and it does not load the template. The template is a deliverable that lives in `templa…",
@@ -283,7 +417,7 @@
       "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-07-17T22:08:51.721Z",
-      "lastActivityHebrew": "לפני 2 שבועות",
+      "lastActivityHebrew": "לפני 3 שבועות",
       "size": "197M",
       "isLive": false,
       "liveUrl": null,
@@ -555,61 +689,6 @@
       }
     },
     {
-      "name": "Payoneer-ad-generator",
-      "humanName": "מחולל באנרים לפיוניר",
-      "tagline": "כלי שמייצר אוטומטית באנרים פרסומיים באמצעות AI",
-      "longDescription": "הפרוייקט מקבל פרטי מוצר ומחזיר עשרה באנרים פרסומיים בסגנונות שונים. מבוסס על Gemini ליצירת תמונות וניתוח תוכן, עם backend ב-Supabase לאחסון וצד משתמש ב-React. נבנה כדמו ל-Payoneer.",
-      "nextStep": "לסיים את הפיצ׳ר node-canvas ולמזג ל-main",
-      "notes": null,
-      "category": "AI Tools",
-      "accentColor": "#8b3a2e",
-      "screenshot": null,
-      "stack": "TypeScript + React 19 + Vite + Supabase",
-      "status": "archive",
-      "subStatus": null,
-      "lastActivity": "2026-06-24T01:01:17.353Z",
-      "lastActivityHebrew": "לפני חודש",
-      "size": "250M",
-      "isLive": true,
-      "liveUrl": "https://payoneer-ad-generator.vercel.app",
-      "githubUrl": "https://github.com/segalitoo/Payoneer-ad-generator",
-      "source": "both",
-      "hasGit": true,
-      "git": {
-        "branch": "feat/node-canvas",
-        "lastCommitRelative": "9 weeks ago",
-        "lastCommitMessage": "design: fix residual AA contrast failures found in audit",
-        "lastCommitDate": "2026-06-03 01:38:01 +0300",
-        "lastCommitHebrew": "לפני 2 חודשים",
-        "isDirty": true,
-        "changedFiles": 24
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "design: fix residual AA contrast failures found in audit"
-        },
-        {
-          "type": "commit",
-          "text": "design: migrate to shared toolkit design tokens"
-        },
-        {
-          "type": "commit",
-          "text": "docs: add spec for Mint portfolio marketing images"
-        },
-        {
-          "type": "chat",
-          "text": "everything is too bright. we need to make a better visability but keeping some elements with pour green mint color",
-          "sessionId": "4f9704cf-f8f9-4706-82c0-a4f2c83021e2"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "4f9704cf-f8f9-4706-82c0-a4f2c83021e2",
-        "lastActivity": "2026-06-24T01:01:17.353Z",
-        "summary": "everything is too bright. we need to make a better visability but keeping some elements with pour green mint color"
-      }
-    },
-    {
       "name": "project-dashboard",
       "humanName": "מעקב",
       "tagline": "לוח פרויקטים אישי — מרכז את כל הפרויקטים המקומיים והענן",
@@ -684,52 +763,6 @@
         {
           "type": "commit",
           "text": "עדכון טקסט טסטמוניאל: הסרת 'וואו'"
-        }
-      ],
-      "lastSession": null
-    },
-    {
-      "name": "shmup-reminder",
-      "humanName": "שמופ - תזכורות",
-      "tagline": "מנהל משימות בעברית RTL עם קלט קולי",
-      "longDescription": "אפליקציית web ל-iOS ו-Android (PWA) לניהול משימות יומיות בעברית. תמיכה מלאה ב-RTL, swipe gestures, haptic feedback, ושמירה ב-Supabase. הוקם במקור ב-Lovable, עכשיו בפיתוח מקומי.",
-      "nextStep": "לבדוק את ה-edge case של partial swipe",
-      "notes": null,
-      "category": "Productivity",
-      "accentColor": "#c9885f",
-      "screenshot": null,
-      "stack": "TypeScript + React 18 + Vite + Supabase",
-      "status": "archive",
-      "subStatus": null,
-      "lastActivity": "2026-02-25T11:54:51.000Z",
-      "lastActivityHebrew": "לפני כחצי שנה",
-      "size": "372M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/shmup-reminder",
-      "source": "both",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "5 months ago",
-        "lastCommitMessage": "Prevent accidental edit on partial swipe",
-        "lastCommitDate": "2026-02-25 11:54:51 +0000",
-        "lastCommitHebrew": "לפני כחצי שנה",
-        "isDirty": true,
-        "changedFiles": 26
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Prevent accidental edit on partial swipe"
-        },
-        {
-          "type": "commit",
-          "text": "Changes"
-        },
-        {
-          "type": "commit",
-          "text": "Add iOS haptic fallback"
         }
       ],
       "lastSession": null
@@ -883,31 +916,6 @@
       "lastActivity": null,
       "lastActivityHebrew": "",
       "size": "12K",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": null,
-      "source": "local",
-      "hasGit": false,
-      "git": null,
-      "recentActions": [],
-      "lastSession": null
-    },
-    {
-      "name": "agents",
-      "humanName": "agents",
-      "tagline": "Unknown",
-      "longDescription": "פרוייקט ב-Unknown",
-      "nextStep": null,
-      "notes": null,
-      "category": "AI Tools",
-      "accentColor": "#a87432",
-      "screenshot": null,
-      "stack": "Unknown",
-      "status": "idea",
-      "subStatus": null,
-      "lastActivity": null,
-      "lastActivityHebrew": "",
-      "size": "20K",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
