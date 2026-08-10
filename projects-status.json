@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-08-09T21:25:04.048Z",
+  "lastUpdated": "2026-08-10T05:17:14.539Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 30,
   "counts": {
     "live": 0,
-    "building": 5,
-    "paused": 7,
-    "archive": 8,
+    "building": 12,
+    "paused": 4,
+    "archive": 4,
     "idea": 10
   },
   "projects": [
@@ -23,9 +23,9 @@
       "stack": "TypeScript + React 19 + Vite + Supabase",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-08-08T21:27:38.825Z",
-      "lastActivityHebrew": "לפני 23 שעות",
-      "size": "250M",
+      "lastActivity": "2026-08-09T23:53:58.457Z",
+      "lastActivityHebrew": "לפני 5 שעות",
+      "size": "256M",
       "isLive": true,
       "liveUrl": "https://payoneer-ad-generator.vercel.app",
       "githubUrl": "https://github.com/segalitoo/Payoneer-ad-generator",
@@ -33,25 +33,25 @@
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "10 weeks ago",
-        "lastCommitMessage": "design: fix residual AA contrast failures found in audit",
-        "lastCommitDate": "2026-06-03 01:38:01 +0300",
-        "lastCommitHebrew": "לפני 2 חודשים",
-        "isDirty": true,
-        "changedFiles": 55
+        "lastCommitRelative": "6 hours ago",
+        "lastCommitMessage": "Untrack agent tooling scratch",
+        "lastCommitDate": "2026-08-10 02:33:57 +0300",
+        "lastCommitHebrew": "לפני 5 שעות",
+        "isDirty": false,
+        "changedFiles": 0
       },
       "recentActions": [
         {
           "type": "commit",
-          "text": "design: fix residual AA contrast failures found in audit"
+          "text": "Untrack agent tooling scratch"
         },
         {
           "type": "commit",
-          "text": "design: migrate to shared toolkit design tokens"
+          "text": "Add marketing capture scripts and raw screenshots"
         },
         {
           "type": "commit",
-          "text": "docs: add spec for Mint portfolio marketing images"
+          "text": "Namespace Toolkit design tokens with --tk-"
         },
         {
           "type": "chat",
@@ -61,7 +61,107 @@
       ],
       "lastSession": {
         "sessionId": "d141b2d9-2443-440b-b6e5-5a4560eac15f",
-        "lastActivity": "2026-08-08T21:27:38.825Z",
+        "lastActivity": "2026-08-09T23:53:58.457Z",
+        "summary": ""
+      }
+    },
+    {
+      "name": "Shhh",
+      "humanName": "Shhh",
+      "tagline": "כלי הכתבה חי שמדבר ישר לכל אפליקציה במק",
+      "longDescription": "אפליקציית macOS שמקליטה את המיקרופון, שולחת ל-Google Cloud Speech-to-Text, ומדביקה את הטקסט ישר לאפליקציה הפעילה. תומך עברית ואנגלית במקביל, עם UI ב-Swift ו-engine ב-Python.",
+      "nextStep": "לסיים את ה-landing page (53 קבצים open)",
+      "notes": null,
+      "category": "Productivity",
+      "accentColor": "#3d5a3d",
+      "screenshot": null,
+      "stack": "Python",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-08-09T23:53:58.457Z",
+      "lastActivityHebrew": "לפני 5 שעות",
+      "size": "835M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/Shhh",
+      "source": "both",
+      "hasGit": true,
+      "git": {
+        "branch": "feat/landing-page",
+        "lastCommitRelative": "6 hours ago",
+        "lastCommitMessage": "Remove the grammar module",
+        "lastCommitDate": "2026-08-10 02:38:18 +0300",
+        "lastCommitHebrew": "לפני 5 שעות",
+        "isDirty": false,
+        "changedFiles": 0
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Remove the grammar module"
+        },
+        {
+          "type": "commit",
+          "text": "Ignore the built app bundle"
+        },
+        {
+          "type": "commit",
+          "text": "Update CLAUDE.md and add dev server launch config"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "d141b2d9-2443-440b-b6e5-5a4560eac15f",
+        "lastActivity": "2026-08-09T23:53:58.457Z",
+        "summary": ""
+      }
+    },
+    {
+      "name": "Zoom-for-kids",
+      "humanName": "Zoom לילדים",
+      "tagline": "תוסף דפדפן שמתאים את ממשק הזום לילדים בכיתות וירטואליות",
+      "longDescription": "תוסף ל-Chrome ול-Firefox שמתאים את ממשק הזום ללמידה של ילדים - בקרות מפושטות, נעילות הורים, חסימת הפרעות, ועיצוב צבעוני יותר. כולל landing page ועזרים שיווקיים ל-marketplace.",
+      "nextStep": "להעלות ל-Chrome Web Store",
+      "notes": null,
+      "category": "Productivity",
+      "accentColor": "#a87432",
+      "screenshot": null,
+      "stack": "TypeScript + React 18 + Vite",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-08-09T23:53:58.457Z",
+      "lastActivityHebrew": "לפני 5 שעות",
+      "size": "288M",
+      "isLive": true,
+      "liveUrl": "https://zoom-for-kids.vercel.app",
+      "githubUrl": "https://github.com/segalitoo/Zoom-for-kids",
+      "source": "both",
+      "hasGit": true,
+      "git": {
+        "branch": "claude/add-claude-documentation-gFq7q",
+        "lastCommitRelative": "6 hours ago",
+        "lastCommitMessage": "Ignore packaged zips and agent worktree scratch",
+        "lastCommitDate": "2026-08-10 02:31:44 +0300",
+        "lastCommitHebrew": "לפני 5 שעות",
+        "isDirty": false,
+        "changedFiles": 0
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Ignore packaged zips and agent worktree scratch"
+        },
+        {
+          "type": "commit",
+          "text": "Add font preview and v3 docs page"
+        },
+        {
+          "type": "commit",
+          "text": "Add zoomi-extension"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "d141b2d9-2443-440b-b6e5-5a4560eac15f",
+        "lastActivity": "2026-08-09T23:53:58.457Z",
         "summary": ""
       }
     },
@@ -78,8 +178,8 @@
       "stack": "Unknown",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-08-08T21:27:38.825Z",
-      "lastActivityHebrew": "לפני 23 שעות",
+      "lastActivity": "2026-08-09T23:53:58.457Z",
+      "lastActivityHebrew": "לפני 5 שעות",
       "size": "20K",
       "isLive": false,
       "liveUrl": null,
@@ -90,7 +190,57 @@
       "recentActions": [],
       "lastSession": {
         "sessionId": "d141b2d9-2443-440b-b6e5-5a4560eac15f",
-        "lastActivity": "2026-08-08T21:27:38.825Z",
+        "lastActivity": "2026-08-09T23:53:58.457Z",
+        "summary": ""
+      }
+    },
+    {
+      "name": "anime-master",
+      "humanName": "Anime Master",
+      "tagline": "עורך אנימציות SVG עם ייצוא ל-Lottie",
+      "longDescription": "כלי web ליצירת אנימציות SVG. המשתמש מצייר שכבות, מגדיר keyframes, ומייצא ל-Lottie JSON או GIF. בנוי על Vite + React 18, עם canvas מותאם אישית לעריכה.",
+      "nextStep": "לתקן באג של selectedLayerId כפול",
+      "notes": null,
+      "category": "Creative",
+      "accentColor": "#8b3a8e",
+      "screenshot": null,
+      "stack": "TypeScript + React 18 + Vite",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-08-09T23:53:58.457Z",
+      "lastActivityHebrew": "לפני 5 שעות",
+      "size": "259M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/anime-master",
+      "source": "both",
+      "hasGit": true,
+      "git": {
+        "branch": "redesign/drafting-table",
+        "lastCommitRelative": "6 hours ago",
+        "lastCommitMessage": "Add dev server launch config",
+        "lastCommitDate": "2026-08-10 02:31:53 +0300",
+        "lastCommitHebrew": "לפני 5 שעות",
+        "isDirty": false,
+        "changedFiles": 0
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Add dev server launch config"
+        },
+        {
+          "type": "commit",
+          "text": "Add editor skin toggle"
+        },
+        {
+          "type": "commit",
+          "text": "fix(editor): keyframe arrow-nudge preempts canvas layer-nudge"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "d141b2d9-2443-440b-b6e5-5a4560eac15f",
+        "lastActivity": "2026-08-09T23:53:58.457Z",
         "summary": ""
       }
     },
@@ -107,9 +257,9 @@
       "stack": "Node.js",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-08-08T21:27:38.825Z",
-      "lastActivityHebrew": "לפני 23 שעות",
-      "size": "428K",
+      "lastActivity": "2026-08-09T23:53:58.457Z",
+      "lastActivityHebrew": "לפני 5 שעות",
+      "size": "444K",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": "https://github.com/segalitoo/crafel-design-system",
@@ -117,14 +267,18 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "6 weeks ago",
-        "lastCommitMessage": "docs: add example-page.html, a full Crafel sample page",
-        "lastCommitDate": "2026-07-02 11:10:17 +0300",
-        "lastCommitHebrew": "לפני חודש",
-        "isDirty": true,
-        "changedFiles": 1
+        "lastCommitRelative": "6 hours ago",
+        "lastCommitMessage": "Scope the dark theme class hook to :root",
+        "lastCommitDate": "2026-08-10 02:31:59 +0300",
+        "lastCommitHebrew": "לפני 5 שעות",
+        "isDirty": false,
+        "changedFiles": 0
       },
       "recentActions": [
+        {
+          "type": "commit",
+          "text": "Scope the dark theme class hook to :root"
+        },
         {
           "type": "commit",
           "text": "docs: add example-page.html, a full Crafel sample page"
@@ -132,15 +286,61 @@
         {
           "type": "commit",
           "text": "Crafel footer: add breathing space around the slash separator"
-        },
-        {
-          "type": "commit",
-          "text": "Add Crafel footer component (studio-credit lockup)"
         }
       ],
       "lastSession": {
         "sessionId": "d141b2d9-2443-440b-b6e5-5a4560eac15f",
-        "lastActivity": "2026-08-08T21:27:38.825Z",
+        "lastActivity": "2026-08-09T23:53:58.457Z",
+        "summary": ""
+      }
+    },
+    {
+      "name": "design-manager-portfolio",
+      "humanName": "פורטפוליו design manager",
+      "tagline": "אתר case studies ל-design manager",
+      "longDescription": "פורטפוליו עם 6 case studies, מעוצב ב-Next.js 16 + Tailwind 4. מיועד להציג עבודה כ-design manager, עם תמונות ריאליסטיות ו-storytelling חזק.",
+      "nextStep": "להחליף את התמונות הזמניות בתמונות אמיתיות",
+      "notes": null,
+      "category": "Portfolio",
+      "accentColor": "#1a4d4d",
+      "screenshot": null,
+      "stack": "TypeScript + Next.js",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-08-09T23:53:58.457Z",
+      "lastActivityHebrew": "לפני 5 שעות",
+      "size": "835M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/design-manager-portfolio",
+      "source": "local",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "6 hours ago",
+        "lastCommitMessage": "Add CLAUDE.md",
+        "lastCommitDate": "2026-08-10 02:27:56 +0300",
+        "lastCommitHebrew": "לפני 5 שעות",
+        "isDirty": false,
+        "changedFiles": 0
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Add CLAUDE.md"
+        },
+        {
+          "type": "commit",
+          "text": "Extract project data and add case study carousel"
+        },
+        {
+          "type": "commit",
+          "text": "Portfolio: 6 case studies with realistic photo placeholders"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "d141b2d9-2443-440b-b6e5-5a4560eac15f",
+        "lastActivity": "2026-08-09T23:53:58.457Z",
         "summary": ""
       }
     },
@@ -157,8 +357,8 @@
       "stack": "Unknown",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-08-08T21:27:38.825Z",
-      "lastActivityHebrew": "לפני 23 שעות",
+      "lastActivity": "2026-08-09T23:53:58.457Z",
+      "lastActivityHebrew": "לפני 5 שעות",
       "size": "96K",
       "isLive": false,
       "liveUrl": null,
@@ -169,7 +369,62 @@
       "recentActions": [],
       "lastSession": {
         "sessionId": "d141b2d9-2443-440b-b6e5-5a4560eac15f",
-        "lastActivity": "2026-08-08T21:27:38.825Z",
+        "lastActivity": "2026-08-09T23:53:58.457Z",
+        "summary": ""
+      }
+    },
+    {
+      "name": "ran-portfolio",
+      "humanName": "פורטפוליו אישי",
+      "tagline": "כרטיס ביקור אונליין - אוסף הפרוייקטים והשירותים שלי",
+      "longDescription": "אתר סטטי בעברית שמרכז את הפרוייקטים, ניסיון העבודה ופרטי קשר. מעוצב ידנית ב-HTML/CSS/JS ללא פריימוורק, עם דגש על טון אישי וחם. כולל מעקב אנליטיקס דרך GA4.",
+      "nextStep": "לפרסם את הגרסה האחרונה (יש 8 קבצים שונו)",
+      "notes": null,
+      "category": "Portfolio",
+      "accentColor": "#3a4a6b",
+      "screenshot": null,
+      "stack": "HTML/CSS/JS",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-08-09T23:53:58.457Z",
+      "lastActivityHebrew": "לפני 5 שעות",
+      "size": "148M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/ran-portfolio",
+      "source": "both",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "6 hours ago",
+        "lastCommitMessage": "Remove Zeph images and the superseded stylesheet",
+        "lastCommitDate": "2026-08-10 02:38:24 +0300",
+        "lastCommitHebrew": "לפני 5 שעות",
+        "isDirty": false,
+        "changedFiles": 0
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Remove Zeph images and the superseded stylesheet"
+        },
+        {
+          "type": "commit",
+          "text": "Add nav demo, Payoneer slide and Pear animation asset"
+        },
+        {
+          "type": "commit",
+          "text": "Rename Zeph to Naymo across the portfolio"
+        },
+        {
+          "type": "chat",
+          "text": "Continue from where you left off.",
+          "sessionId": "62949473-9542-4af5-b1f3-c760e5957a96"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "d141b2d9-2443-440b-b6e5-5a4560eac15f",
+        "lastActivity": "2026-08-09T23:53:58.457Z",
         "summary": ""
       }
     },
@@ -186,9 +441,9 @@
       "stack": "TypeScript + React 18 + Vite + Supabase",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-08-08T21:27:38.825Z",
-      "lastActivityHebrew": "לפני 23 שעות",
-      "size": "375M",
+      "lastActivity": "2026-08-09T23:53:58.457Z",
+      "lastActivityHebrew": "לפני 5 שעות",
+      "size": "377M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": "https://github.com/segalitoo/shmup-reminder",
@@ -196,31 +451,136 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "6 months ago",
-        "lastCommitMessage": "Prevent accidental edit on partial swipe",
-        "lastCommitDate": "2026-02-25 11:54:51 +0000",
-        "lastCommitHebrew": "לפני כחצי שנה",
+        "lastCommitRelative": "6 hours ago",
+        "lastCommitMessage": "Ignore Supabase CLI scratch directory",
+        "lastCommitDate": "2026-08-10 02:28:12 +0300",
+        "lastCommitHebrew": "לפני 5 שעות",
         "isDirty": true,
-        "changedFiles": 27
+        "changedFiles": 9
       },
       "recentActions": [
         {
           "type": "commit",
-          "text": "Prevent accidental edit on partial swipe"
+          "text": "Ignore Supabase CLI scratch directory"
         },
         {
           "type": "commit",
-          "text": "Changes"
+          "text": "Add CLAUDE.md"
         },
         {
           "type": "commit",
-          "text": "Add iOS haptic fallback"
+          "text": "Read Supabase key from either env var name"
         }
       ],
       "lastSession": {
         "sessionId": "d141b2d9-2443-440b-b6e5-5a4560eac15f",
-        "lastActivity": "2026-08-08T21:27:38.825Z",
+        "lastActivity": "2026-08-09T23:53:58.457Z",
         "summary": ""
+      }
+    },
+    {
+      "name": "Agent-blueprint",
+      "humanName": "Agent-blueprint",
+      "tagline": "Dev memory for Claude Code working ON this repository. This is not the agent template itself, and it does not load the template. The template is a deliverable that lives in `templa…",
+      "longDescription": "Dev memory for Claude Code working ON this repository. This is not the agent template itself, and it does not load the template. The template is a deliverable that lives in `templa…",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#3d5a3d",
+      "screenshot": null,
+      "stack": "Unknown",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-08-09T23:31:59.000Z",
+      "lastActivityHebrew": "לפני 5 שעות",
+      "size": "197M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/agent-blueprint",
+      "source": "local",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "6 hours ago",
+        "lastCommitMessage": "Scope the dark theme class hook to :root",
+        "lastCommitDate": "2026-08-10 02:31:59 +0300",
+        "lastCommitHebrew": "לפני 5 שעות",
+        "isDirty": false,
+        "changedFiles": 0
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Scope the dark theme class hook to :root"
+        },
+        {
+          "type": "commit",
+          "text": "Fix theme toggle: set data-theme on <html> so OS dark mode can't override the explicit choice"
+        },
+        {
+          "type": "commit",
+          "text": "Add Crafel landing variant, builder upgrades, and Vercel deploy"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "40fe2c06-868b-439c-beaa-eab54e2cdb99",
+        "lastActivity": "2026-07-17T22:08:51.721Z",
+        "summary": ""
+      }
+    },
+    {
+      "name": "Ideas",
+      "humanName": "Ideas",
+      "tagline": "ניצוץ · לתפוס רעיונות לפני שהם בורחים",
+      "longDescription": "ניצוץ · לתפוס רעיונות לפני שהם בורחים",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#a87432",
+      "screenshot": null,
+      "stack": "TypeScript + React 18 + Vite + Supabase",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-08-09T23:31:59.000Z",
+      "lastActivityHebrew": "לפני 5 שעות",
+      "size": "153M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/nitzotz",
+      "source": "local",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "6 hours ago",
+        "lastCommitMessage": "Scope the dark theme class hook to :root",
+        "lastCommitDate": "2026-08-10 02:31:59 +0300",
+        "lastCommitHebrew": "לפני 5 שעות",
+        "isDirty": false,
+        "changedFiles": 0
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Scope the dark theme class hook to :root"
+        },
+        {
+          "type": "commit",
+          "text": "Redeploy to pick up ANTHROPIC_API_KEY"
+        },
+        {
+          "type": "commit",
+          "text": "Stats and streak sheet"
+        },
+        {
+          "type": "chat",
+          "text": "[Request interrupted by user]",
+          "sessionId": "071cbb82-ca5d-4b36-ad2c-354cd77a8977"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "071cbb82-ca5d-4b36-ad2c-354cd77a8977",
+        "lastActivity": "2026-07-12T22:13:56.230Z",
+        "summary": "[Request interrupted by user]"
       }
     },
     {
@@ -358,56 +718,6 @@
       }
     },
     {
-      "name": "anime-master",
-      "humanName": "Anime Master",
-      "tagline": "עורך אנימציות SVG עם ייצוא ל-Lottie",
-      "longDescription": "כלי web ליצירת אנימציות SVG. המשתמש מצייר שכבות, מגדיר keyframes, ומייצא ל-Lottie JSON או GIF. בנוי על Vite + React 18, עם canvas מותאם אישית לעריכה.",
-      "nextStep": "לתקן באג של selectedLayerId כפול",
-      "notes": null,
-      "category": "Creative",
-      "accentColor": "#8b3a8e",
-      "screenshot": null,
-      "stack": "TypeScript + React 18 + Vite",
-      "status": "paused",
-      "subStatus": null,
-      "lastActivity": "2026-07-19T22:39:27.291Z",
-      "lastActivityHebrew": "לפני 2 שבועות",
-      "size": "259M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/anime-master",
-      "source": "both",
-      "hasGit": true,
-      "git": {
-        "branch": "redesign/drafting-table",
-        "lastCommitRelative": "8 weeks ago",
-        "lastCommitMessage": "fix(editor): keyframe arrow-nudge preempts canvas layer-nudge",
-        "lastCommitDate": "2026-06-15 03:46:53 +0300",
-        "lastCommitHebrew": "לפני חודש",
-        "isDirty": true,
-        "changedFiles": 10
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "fix(editor): keyframe arrow-nudge preempts canvas layer-nudge"
-        },
-        {
-          "type": "commit",
-          "text": "feat(editor): arrow-key keyframe nudge"
-        },
-        {
-          "type": "commit",
-          "text": "fix(editor): coalesce keyframe drags into one undo step"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "afab8798-108e-47c3-9588-222e9667cbc0",
-        "lastActivity": "2026-07-19T22:39:27.291Z",
-        "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/b…"
-      }
-    },
-    {
       "name": "co-headshot",
       "humanName": "co-headshot",
       "tagline": "TypeScript + Next.js + Supabase",
@@ -452,216 +762,6 @@
         }
       ],
       "lastSession": null
-    },
-    {
-      "name": "Agent-blueprint",
-      "humanName": "Agent-blueprint",
-      "tagline": "Dev memory for Claude Code working ON this repository. This is not the agent template itself, and it does not load the template. The template is a deliverable that lives in `templa…",
-      "longDescription": "Dev memory for Claude Code working ON this repository. This is not the agent template itself, and it does not load the template. The template is a deliverable that lives in `templa…",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#3d5a3d",
-      "screenshot": null,
-      "stack": "Unknown",
-      "status": "paused",
-      "subStatus": null,
-      "lastActivity": "2026-07-17T22:08:51.721Z",
-      "lastActivityHebrew": "לפני 3 שבועות",
-      "size": "197M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/agent-blueprint",
-      "source": "local",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "6 weeks ago",
-        "lastCommitMessage": "Fix theme toggle: set data-theme on <html> so OS dark mode can't override the explicit choice",
-        "lastCommitDate": "2026-07-01 03:52:55 +0300",
-        "lastCommitHebrew": "לפני חודש",
-        "isDirty": true,
-        "changedFiles": 1
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Fix theme toggle: set data-theme on <html> so OS dark mode can't override the explicit choice"
-        },
-        {
-          "type": "commit",
-          "text": "Add Crafel landing variant, builder upgrades, and Vercel deploy"
-        },
-        {
-          "type": "commit",
-          "text": "Add real .zip export of all seven files"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "40fe2c06-868b-439c-beaa-eab54e2cdb99",
-        "lastActivity": "2026-07-17T22:08:51.721Z",
-        "summary": ""
-      }
-    },
-    {
-      "name": "Ideas",
-      "humanName": "Ideas",
-      "tagline": "ניצוץ · לתפוס רעיונות לפני שהם בורחים",
-      "longDescription": "ניצוץ · לתפוס רעיונות לפני שהם בורחים",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#a87432",
-      "screenshot": null,
-      "stack": "TypeScript + React 18 + Vite + Supabase",
-      "status": "paused",
-      "subStatus": null,
-      "lastActivity": "2026-07-12T22:13:56.230Z",
-      "lastActivityHebrew": "לפני 3 שבועות",
-      "size": "153M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/nitzotz",
-      "source": "local",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "4 weeks ago",
-        "lastCommitMessage": "Redeploy to pick up ANTHROPIC_API_KEY",
-        "lastCommitDate": "2026-07-12 03:33:21 +0300",
-        "lastCommitHebrew": "לפני 0 חודשים",
-        "isDirty": true,
-        "changedFiles": 1
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Redeploy to pick up ANTHROPIC_API_KEY"
-        },
-        {
-          "type": "commit",
-          "text": "Stats and streak sheet"
-        },
-        {
-          "type": "commit",
-          "text": "Trash with 30-day restore"
-        },
-        {
-          "type": "chat",
-          "text": "[Request interrupted by user]",
-          "sessionId": "071cbb82-ca5d-4b36-ad2c-354cd77a8977"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "071cbb82-ca5d-4b36-ad2c-354cd77a8977",
-        "lastActivity": "2026-07-12T22:13:56.230Z",
-        "summary": "[Request interrupted by user]"
-      }
-    },
-    {
-      "name": "ran-portfolio",
-      "humanName": "פורטפוליו אישי",
-      "tagline": "כרטיס ביקור אונליין - אוסף הפרוייקטים והשירותים שלי",
-      "longDescription": "אתר סטטי בעברית שמרכז את הפרוייקטים, ניסיון העבודה ופרטי קשר. מעוצב ידנית ב-HTML/CSS/JS ללא פריימוורק, עם דגש על טון אישי וחם. כולל מעקב אנליטיקס דרך GA4.",
-      "nextStep": "לפרסם את הגרסה האחרונה (יש 8 קבצים שונו)",
-      "notes": null,
-      "category": "Portfolio",
-      "accentColor": "#3a4a6b",
-      "screenshot": null,
-      "stack": "HTML/CSS/JS",
-      "status": "archive",
-      "subStatus": null,
-      "lastActivity": "2026-07-01T22:06:16.381Z",
-      "lastActivityHebrew": "לפני חודש",
-      "size": "148M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/ran-portfolio",
-      "source": "both",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "6 weeks ago",
-        "lastCommitMessage": "Add Naymo screenshots for Voice tab switching project",
-        "lastCommitDate": "2026-07-02 01:06:03 +0300",
-        "lastCommitHebrew": "לפני חודש",
-        "isDirty": true,
-        "changedFiles": 17
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Add Naymo screenshots for Voice tab switching project"
-        },
-        {
-          "type": "commit",
-          "text": "Update Shhh project screenshots"
-        },
-        {
-          "type": "commit",
-          "text": "Update favicon to match Crafel brand mark"
-        },
-        {
-          "type": "chat",
-          "text": "Continue from where you left off.",
-          "sessionId": "62949473-9542-4af5-b1f3-c760e5957a96"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "62949473-9542-4af5-b1f3-c760e5957a96",
-        "lastActivity": "2026-07-01T22:06:16.381Z",
-        "summary": "Continue from where you left off."
-      }
-    },
-    {
-      "name": "Shhh",
-      "humanName": "Shhh",
-      "tagline": "כלי הכתבה חי שמדבר ישר לכל אפליקציה במק",
-      "longDescription": "אפליקציית macOS שמקליטה את המיקרופון, שולחת ל-Google Cloud Speech-to-Text, ומדביקה את הטקסט ישר לאפליקציה הפעילה. תומך עברית ואנגלית במקביל, עם UI ב-Swift ו-engine ב-Python.",
-      "nextStep": "לסיים את ה-landing page (53 קבצים open)",
-      "notes": null,
-      "category": "Productivity",
-      "accentColor": "#3d5a3d",
-      "screenshot": null,
-      "stack": "Python",
-      "status": "archive",
-      "subStatus": null,
-      "lastActivity": "2026-07-01T09:21:55.444Z",
-      "lastActivityHebrew": "לפני חודש",
-      "size": "835M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/Shhh",
-      "source": "both",
-      "hasGit": true,
-      "git": {
-        "branch": "feat/landing-page",
-        "lastCommitRelative": "6 weeks ago",
-        "lastCommitMessage": "feat: add Crafel-themed social images",
-        "lastCommitDate": "2026-07-01 12:21:37 +0300",
-        "lastCommitHebrew": "לפני חודש",
-        "isDirty": true,
-        "changedFiles": 74
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "feat: add Crafel-themed social images"
-        },
-        {
-          "type": "commit",
-          "text": "feat: ship Crafel redesign as live landing page"
-        },
-        {
-          "type": "commit",
-          "text": "fix: update portfolio link to correct GitHub username"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "07ecd1ec-397b-4af7-8d15-b19a8f55f5e7",
-        "lastActivity": "2026-07-01T09:21:55.444Z",
-        "summary": "Base directory for this skill: /private/tmp/claude-501/bundled-skills/2.1.138/c325fd82b8b807e648409daa5a24cab7/claude-ap…"
-      }
     },
     {
       "name": "tabspeak",
@@ -723,94 +823,6 @@
         "changedFiles": 0
       },
       "recentActions": [],
-      "lastSession": null
-    },
-    {
-      "name": "Zoom-for-kids",
-      "humanName": "Zoom לילדים",
-      "tagline": "תוסף דפדפן שמתאים את ממשק הזום לילדים בכיתות וירטואליות",
-      "longDescription": "תוסף ל-Chrome ול-Firefox שמתאים את ממשק הזום ללמידה של ילדים - בקרות מפושטות, נעילות הורים, חסימת הפרעות, ועיצוב צבעוני יותר. כולל landing page ועזרים שיווקיים ל-marketplace.",
-      "nextStep": "להעלות ל-Chrome Web Store",
-      "notes": null,
-      "category": "Productivity",
-      "accentColor": "#a87432",
-      "screenshot": null,
-      "stack": "TypeScript + React 18 + Vite",
-      "status": "archive",
-      "subStatus": null,
-      "lastActivity": "2026-04-15T09:18:38.000Z",
-      "lastActivityHebrew": "לפני 3 חודשים",
-      "size": "287M",
-      "isLive": true,
-      "liveUrl": "https://zoom-for-kids.vercel.app",
-      "githubUrl": "https://github.com/segalitoo/Zoom-for-kids",
-      "source": "both",
-      "hasGit": true,
-      "git": {
-        "branch": "claude/add-claude-documentation-gFq7q",
-        "lastCommitRelative": "4 months ago",
-        "lastCommitMessage": "Update extension components and marketplace mockup",
-        "lastCommitDate": "2026-04-15 12:18:38 +0300",
-        "lastCommitHebrew": "לפני 3 חודשים",
-        "isDirty": true,
-        "changedFiles": 15
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Update extension components and marketplace mockup"
-        },
-        {
-          "type": "commit",
-          "text": "Update landing page with improved design"
-        },
-        {
-          "type": "commit",
-          "text": "עדכון טקסט טסטמוניאל: הסרת 'וואו'"
-        }
-      ],
-      "lastSession": null
-    },
-    {
-      "name": "design-manager-portfolio",
-      "humanName": "פורטפוליו design manager",
-      "tagline": "אתר case studies ל-design manager",
-      "longDescription": "פורטפוליו עם 6 case studies, מעוצב ב-Next.js 16 + Tailwind 4. מיועד להציג עבודה כ-design manager, עם תמונות ריאליסטיות ו-storytelling חזק.",
-      "nextStep": "להחליף את התמונות הזמניות בתמונות אמיתיות",
-      "notes": null,
-      "category": "Portfolio",
-      "accentColor": "#1a4d4d",
-      "screenshot": null,
-      "stack": "TypeScript + Next.js",
-      "status": "archive",
-      "subStatus": null,
-      "lastActivity": "2026-02-24T21:40:56.000Z",
-      "lastActivityHebrew": "לפני כחצי שנה",
-      "size": "832M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/design-manager-portfolio",
-      "source": "local",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "6 months ago",
-        "lastCommitMessage": "Portfolio: 6 case studies with realistic photo placeholders",
-        "lastCommitDate": "2026-02-24 23:40:56 +0200",
-        "lastCommitHebrew": "לפני כחצי שנה",
-        "isDirty": true,
-        "changedFiles": 23
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Portfolio: 6 case studies with realistic photo placeholders"
-        },
-        {
-          "type": "commit",
-          "text": "Initial commit from Create Next App"
-        }
-      ],
       "lastSession": null
     },
     {
