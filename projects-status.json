@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-11T02:29:48.107Z",
+  "lastUpdated": "2026-08-11T09:48:03.940Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 30,
   "counts": {
@@ -33,7 +33,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "27 hours ago",
+        "lastCommitRelative": "34 hours ago",
         "lastCommitMessage": "Untrack agent tooling scratch",
         "lastCommitDate": "2026-08-10 02:33:57 +0300",
         "lastCommitHebrew": "אתמול",
@@ -88,7 +88,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/landing-page",
-        "lastCommitRelative": "27 hours ago",
+        "lastCommitRelative": "34 hours ago",
         "lastCommitMessage": "Remove the grammar module",
         "lastCommitDate": "2026-08-10 02:38:18 +0300",
         "lastCommitHebrew": "אתמול",
@@ -138,7 +138,7 @@
       "hasGit": true,
       "git": {
         "branch": "claude/add-claude-documentation-gFq7q",
-        "lastCommitRelative": "27 hours ago",
+        "lastCommitRelative": "34 hours ago",
         "lastCommitMessage": "Ignore packaged zips and agent worktree scratch",
         "lastCommitDate": "2026-08-10 02:31:44 +0300",
         "lastCommitHebrew": "אתמול",
@@ -217,7 +217,7 @@
       "hasGit": true,
       "git": {
         "branch": "redesign/drafting-table",
-        "lastCommitRelative": "27 hours ago",
+        "lastCommitRelative": "34 hours ago",
         "lastCommitMessage": "Add dev server launch config",
         "lastCommitDate": "2026-08-10 02:31:53 +0300",
         "lastCommitHebrew": "אתמול",
@@ -267,7 +267,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "27 hours ago",
+        "lastCommitRelative": "34 hours ago",
         "lastCommitMessage": "Scope the dark theme class hook to :root",
         "lastCommitDate": "2026-08-10 02:31:59 +0300",
         "lastCommitHebrew": "אתמול",
@@ -317,7 +317,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "27 hours ago",
+        "lastCommitRelative": "34 hours ago",
         "lastCommitMessage": "Add CLAUDE.md",
         "lastCommitDate": "2026-08-10 02:27:56 +0300",
         "lastCommitHebrew": "אתמול",
@@ -396,7 +396,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "27 hours ago",
+        "lastCommitRelative": "34 hours ago",
         "lastCommitMessage": "Remove Zeph images and the superseded stylesheet",
         "lastCommitDate": "2026-08-10 02:38:24 +0300",
         "lastCommitHebrew": "אתמול",
@@ -451,7 +451,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "27 hours ago",
+        "lastCommitRelative": "34 hours ago",
         "lastCommitMessage": "Ignore Supabase CLI scratch directory",
         "lastCommitDate": "2026-08-10 02:28:12 +0300",
         "lastCommitHebrew": "אתמול",
@@ -501,7 +501,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "27 hours ago",
+        "lastCommitRelative": "34 hours ago",
         "lastCommitMessage": "Scope the dark theme class hook to :root",
         "lastCommitDate": "2026-08-10 02:31:59 +0300",
         "lastCommitHebrew": "אתמול",
@@ -551,7 +551,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "27 hours ago",
+        "lastCommitRelative": "34 hours ago",
         "lastCommitMessage": "Scope the dark theme class hook to :root",
         "lastCommitDate": "2026-08-10 02:31:59 +0300",
         "lastCommitHebrew": "אתמול",
@@ -685,7 +685,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "3 weeks ago",
+        "lastCommitRelative": "4 weeks ago",
         "lastCommitMessage": "Fix auth deadlock that hung Save and Set-password forever",
         "lastCommitDate": "2026-07-18 00:35:04 +0300",
         "lastCommitHebrew": "לפני 3 שבועות",
