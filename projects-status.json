@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-08-13T18:04:01.050Z",
+  "lastUpdated": "2026-08-13T22:54:35.721Z",
   "lastUpdatedHebrew": "הרגע",
-  "projectCount": 30,
+  "projectCount": 31,
   "counts": {
     "live": 0,
     "building": 12,
     "paused": 4,
     "archive": 4,
-    "idea": 10
+    "idea": 11
   },
   "projects": [
     {
@@ -888,6 +888,31 @@
         "isDirty": false,
         "changedFiles": 0
       },
+      "recentActions": [],
+      "lastSession": null
+    },
+    {
+      "name": "AI Production Workflow ",
+      "humanName": "AI Production Workflow ",
+      "tagline": "Unknown",
+      "longDescription": "פרוייקט ב-Unknown",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#a87432",
+      "screenshot": null,
+      "stack": "Unknown",
+      "status": "idea",
+      "subStatus": null,
+      "lastActivity": null,
+      "lastActivityHebrew": "",
+      "size": "4.0K",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": false,
+      "git": null,
       "recentActions": [],
       "lastSession": null
     },
