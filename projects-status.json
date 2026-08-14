@@ -1,15 +1,61 @@
 {
-  "lastUpdated": "2026-08-13T22:54:35.721Z",
+  "lastUpdated": "2026-08-14T07:28:18.274Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 31,
   "counts": {
     "live": 0,
-    "building": 12,
-    "paused": 4,
+    "building": 13,
+    "paused": 3,
     "archive": 4,
     "idea": 11
   },
   "projects": [
+    {
+      "name": "AI Production Workflow",
+      "humanName": "AI Production Workflow",
+      "tagline": "This repo is the AI Production Workflow system: a 9-stage creative production",
+      "longDescription": "This repo is the AI Production Workflow system: a 9-stage creative production",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#a06b9e",
+      "screenshot": null,
+      "stack": "Unknown",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-08-14T00:53:01.000Z",
+      "lastActivityHebrew": "לפני 6 שעות",
+      "size": "20M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "7 hours ago",
+        "lastCommitMessage": "direction: set the production phase and point ENGINE at the engines reference",
+        "lastCommitDate": "2026-08-14 03:53:01 +0300",
+        "lastCommitHebrew": "לפני 6 שעות",
+        "isDirty": false,
+        "changedFiles": 0
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "direction: set the production phase and point ENGINE at the engines reference"
+        },
+        {
+          "type": "commit",
+          "text": "new, review, deliver, status: per-track schema 2 behavior"
+        },
+        {
+          "type": "commit",
+          "text": "produce: per-track rounds, motion phase, art-director delegation"
+        }
+      ],
+      "lastSession": null
+    },
     {
       "name": "Payoneer-ad-generator",
       "humanName": "מחולל באנרים לפיוניר",
@@ -24,7 +70,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-08-09T23:53:58.457Z",
-      "lastActivityHebrew": "לפני 3 ימים",
+      "lastActivityHebrew": "לפני 4 ימים",
       "size": "256M",
       "isLive": true,
       "liveUrl": "https://payoneer-ad-generator.vercel.app",
@@ -36,7 +82,7 @@
         "lastCommitRelative": "4 days ago",
         "lastCommitMessage": "Untrack agent tooling scratch",
         "lastCommitDate": "2026-08-10 02:33:57 +0300",
-        "lastCommitHebrew": "לפני 3 ימים",
+        "lastCommitHebrew": "לפני 4 ימים",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -79,7 +125,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-08-09T23:53:58.457Z",
-      "lastActivityHebrew": "לפני 3 ימים",
+      "lastActivityHebrew": "לפני 4 ימים",
       "size": "835M",
       "isLive": false,
       "liveUrl": null,
@@ -91,7 +137,7 @@
         "lastCommitRelative": "4 days ago",
         "lastCommitMessage": "Remove the grammar module",
         "lastCommitDate": "2026-08-10 02:38:18 +0300",
-        "lastCommitHebrew": "לפני 3 ימים",
+        "lastCommitHebrew": "לפני 4 ימים",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -129,7 +175,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-08-09T23:53:58.457Z",
-      "lastActivityHebrew": "לפני 3 ימים",
+      "lastActivityHebrew": "לפני 4 ימים",
       "size": "288M",
       "isLive": true,
       "liveUrl": "https://zoom-for-kids.vercel.app",
@@ -141,7 +187,7 @@
         "lastCommitRelative": "4 days ago",
         "lastCommitMessage": "Ignore packaged zips and agent worktree scratch",
         "lastCommitDate": "2026-08-10 02:31:44 +0300",
-        "lastCommitHebrew": "לפני 3 ימים",
+        "lastCommitHebrew": "לפני 4 ימים",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -179,7 +225,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-08-09T23:53:58.457Z",
-      "lastActivityHebrew": "לפני 3 ימים",
+      "lastActivityHebrew": "לפני 4 ימים",
       "size": "20K",
       "isLive": false,
       "liveUrl": null,
@@ -208,7 +254,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-08-09T23:53:58.457Z",
-      "lastActivityHebrew": "לפני 3 ימים",
+      "lastActivityHebrew": "לפני 4 ימים",
       "size": "259M",
       "isLive": false,
       "liveUrl": null,
@@ -220,7 +266,7 @@
         "lastCommitRelative": "4 days ago",
         "lastCommitMessage": "Add dev server launch config",
         "lastCommitDate": "2026-08-10 02:31:53 +0300",
-        "lastCommitHebrew": "לפני 3 ימים",
+        "lastCommitHebrew": "לפני 4 ימים",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -258,7 +304,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-08-09T23:53:58.457Z",
-      "lastActivityHebrew": "לפני 3 ימים",
+      "lastActivityHebrew": "לפני 4 ימים",
       "size": "444K",
       "isLive": false,
       "liveUrl": null,
@@ -270,7 +316,7 @@
         "lastCommitRelative": "4 days ago",
         "lastCommitMessage": "Scope the dark theme class hook to :root",
         "lastCommitDate": "2026-08-10 02:31:59 +0300",
-        "lastCommitHebrew": "לפני 3 ימים",
+        "lastCommitHebrew": "לפני 4 ימים",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -308,7 +354,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-08-09T23:53:58.457Z",
-      "lastActivityHebrew": "לפני 3 ימים",
+      "lastActivityHebrew": "לפני 4 ימים",
       "size": "835M",
       "isLive": false,
       "liveUrl": null,
@@ -320,7 +366,7 @@
         "lastCommitRelative": "4 days ago",
         "lastCommitMessage": "Add CLAUDE.md",
         "lastCommitDate": "2026-08-10 02:27:56 +0300",
-        "lastCommitHebrew": "לפני 3 ימים",
+        "lastCommitHebrew": "לפני 4 ימים",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -358,7 +404,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-08-09T23:53:58.457Z",
-      "lastActivityHebrew": "לפני 3 ימים",
+      "lastActivityHebrew": "לפני 4 ימים",
       "size": "96K",
       "isLive": false,
       "liveUrl": null,
@@ -387,7 +433,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-08-09T23:53:58.457Z",
-      "lastActivityHebrew": "לפני 3 ימים",
+      "lastActivityHebrew": "לפני 4 ימים",
       "size": "148M",
       "isLive": false,
       "liveUrl": null,
@@ -399,7 +445,7 @@
         "lastCommitRelative": "4 days ago",
         "lastCommitMessage": "Remove Zeph images and the superseded stylesheet",
         "lastCommitDate": "2026-08-10 02:38:24 +0300",
-        "lastCommitHebrew": "לפני 3 ימים",
+        "lastCommitHebrew": "לפני 4 ימים",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -442,7 +488,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-08-09T23:53:58.457Z",
-      "lastActivityHebrew": "לפני 3 ימים",
+      "lastActivityHebrew": "לפני 4 ימים",
       "size": "377M",
       "isLive": false,
       "liveUrl": null,
@@ -454,7 +500,7 @@
         "lastCommitRelative": "4 days ago",
         "lastCommitMessage": "Ignore Supabase CLI scratch directory",
         "lastCommitDate": "2026-08-10 02:28:12 +0300",
-        "lastCommitHebrew": "לפני 3 ימים",
+        "lastCommitHebrew": "לפני 4 ימים",
         "isDirty": true,
         "changedFiles": 9
       },
@@ -492,7 +538,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-08-09T23:31:59.000Z",
-      "lastActivityHebrew": "לפני 3 ימים",
+      "lastActivityHebrew": "לפני 4 ימים",
       "size": "197M",
       "isLive": false,
       "liveUrl": null,
@@ -504,7 +550,7 @@
         "lastCommitRelative": "4 days ago",
         "lastCommitMessage": "Scope the dark theme class hook to :root",
         "lastCommitDate": "2026-08-10 02:31:59 +0300",
-        "lastCommitHebrew": "לפני 3 ימים",
+        "lastCommitHebrew": "לפני 4 ימים",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -542,7 +588,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-08-09T23:31:59.000Z",
-      "lastActivityHebrew": "לפני 3 ימים",
+      "lastActivityHebrew": "לפני 4 ימים",
       "size": "153M",
       "isLive": false,
       "liveUrl": null,
@@ -554,7 +600,7 @@
         "lastCommitRelative": "4 days ago",
         "lastCommitMessage": "Scope the dark theme class hook to :root",
         "lastCommitDate": "2026-08-10 02:31:59 +0300",
-        "lastCommitHebrew": "לפני 3 ימים",
+        "lastCommitHebrew": "לפני 4 ימים",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -581,56 +627,6 @@
         "sessionId": "071cbb82-ca5d-4b36-ad2c-354cd77a8977",
         "lastActivity": "2026-07-12T22:13:56.230Z",
         "summary": "[Request interrupted by user]"
-      }
-    },
-    {
-      "name": "Studio",
-      "humanName": "Studio",
-      "tagline": "Unknown",
-      "longDescription": "פרוייקט ב-Unknown",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#a87432",
-      "screenshot": null,
-      "stack": "Unknown",
-      "status": "paused",
-      "subStatus": null,
-      "lastActivity": "2026-07-26T13:41:03.921Z",
-      "lastActivityHebrew": "לפני 2 שבועות",
-      "size": "19M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": null,
-      "source": "local",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "3 weeks ago",
-        "lastCommitMessage": "crafel-studio: direction locked",
-        "lastCommitDate": "2026-07-26 16:41:00 +0300",
-        "lastCommitHebrew": "לפני 2 שבועות",
-        "isDirty": false,
-        "changedFiles": 0
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "crafel-studio: direction locked"
-        },
-        {
-          "type": "commit",
-          "text": "crafel-studio: brief gate passed"
-        },
-        {
-          "type": "commit",
-          "text": "studio: restyle generated pages in the Crafel design system"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "1128e4cb-9ce4-4507-9b47-f75c4d43cb7a",
-        "lastActivity": "2026-07-26T13:41:03.921Z",
-        "summary": "Base directory for this skill: /Users/rannsegal/.claude/skills/studio\n\n# Studio: creative production pipeline\n\nSolo-oper…"
       }
     },
     {
