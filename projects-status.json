@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-15T10:54:09.339Z",
+  "lastUpdated": "2026-08-15T13:54:21.472Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 31,
   "counts": {
@@ -33,7 +33,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "34 hours ago",
+        "lastCommitRelative": "2 days ago",
         "lastCommitMessage": "direction: set the production phase and point ENGINE at the engines reference",
         "lastCommitDate": "2026-08-14 03:53:01 +0300",
         "lastCommitHebrew": "אתמול",
@@ -79,7 +79,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "5 days ago",
+        "lastCommitRelative": "6 days ago",
         "lastCommitMessage": "Untrack agent tooling scratch",
         "lastCommitDate": "2026-08-10 02:33:57 +0300",
         "lastCommitHebrew": "לפני 5 ימים",
@@ -134,7 +134,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/landing-page",
-        "lastCommitRelative": "5 days ago",
+        "lastCommitRelative": "6 days ago",
         "lastCommitMessage": "Remove the grammar module",
         "lastCommitDate": "2026-08-10 02:38:18 +0300",
         "lastCommitHebrew": "לפני 5 ימים",
@@ -184,7 +184,7 @@
       "hasGit": true,
       "git": {
         "branch": "claude/add-claude-documentation-gFq7q",
-        "lastCommitRelative": "5 days ago",
+        "lastCommitRelative": "6 days ago",
         "lastCommitMessage": "Ignore packaged zips and agent worktree scratch",
         "lastCommitDate": "2026-08-10 02:31:44 +0300",
         "lastCommitHebrew": "לפני 5 ימים",
@@ -263,7 +263,7 @@
       "hasGit": true,
       "git": {
         "branch": "redesign/drafting-table",
-        "lastCommitRelative": "5 days ago",
+        "lastCommitRelative": "6 days ago",
         "lastCommitMessage": "Add dev server launch config",
         "lastCommitDate": "2026-08-10 02:31:53 +0300",
         "lastCommitHebrew": "לפני 5 ימים",
@@ -313,7 +313,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "5 days ago",
+        "lastCommitRelative": "6 days ago",
         "lastCommitMessage": "Scope the dark theme class hook to :root",
         "lastCommitDate": "2026-08-10 02:31:59 +0300",
         "lastCommitHebrew": "לפני 5 ימים",
@@ -363,7 +363,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "5 days ago",
+        "lastCommitRelative": "6 days ago",
         "lastCommitMessage": "Add CLAUDE.md",
         "lastCommitDate": "2026-08-10 02:27:56 +0300",
         "lastCommitHebrew": "לפני 5 ימים",
@@ -442,7 +442,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "5 days ago",
+        "lastCommitRelative": "6 days ago",
         "lastCommitMessage": "Remove Zeph images and the superseded stylesheet",
         "lastCommitDate": "2026-08-10 02:38:24 +0300",
         "lastCommitHebrew": "לפני 5 ימים",
@@ -497,7 +497,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "5 days ago",
+        "lastCommitRelative": "6 days ago",
         "lastCommitMessage": "Ignore Supabase CLI scratch directory",
         "lastCommitDate": "2026-08-10 02:28:12 +0300",
         "lastCommitHebrew": "לפני 5 ימים",
@@ -547,7 +547,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "5 days ago",
+        "lastCommitRelative": "6 days ago",
         "lastCommitMessage": "Scope the dark theme class hook to :root",
         "lastCommitDate": "2026-08-10 02:31:59 +0300",
         "lastCommitHebrew": "לפני 5 ימים",
@@ -597,7 +597,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "5 days ago",
+        "lastCommitRelative": "6 days ago",
         "lastCommitMessage": "Scope the dark theme class hook to :root",
         "lastCommitDate": "2026-08-10 02:31:59 +0300",
         "lastCommitHebrew": "לפני 5 ימים",
