@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-15T04:53:44.296Z",
+  "lastUpdated": "2026-08-15T07:53:56.972Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 31,
   "counts": {
@@ -33,7 +33,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "28 hours ago",
+        "lastCommitRelative": "31 hours ago",
         "lastCommitMessage": "direction: set the production phase and point ENGINE at the engines reference",
         "lastCommitDate": "2026-08-14 03:53:01 +0300",
         "lastCommitHebrew": "אתמול",
