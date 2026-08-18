@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-08-17T21:51:45.050Z",
+  "lastUpdated": "2026-08-18T08:16:06.377Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 31,
   "counts": {
     "live": 0,
     "building": 1,
-    "paused": 15,
-    "archive": 4,
+    "paused": 14,
+    "archive": 5,
     "idea": 11
   },
   "projects": [
@@ -24,7 +24,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-08-14T00:53:01.000Z",
-      "lastActivityHebrew": "לפני 3 ימים",
+      "lastActivityHebrew": "לפני 4 ימים",
       "size": "20M",
       "isLive": false,
       "liveUrl": null,
@@ -36,7 +36,7 @@
         "lastCommitRelative": "4 days ago",
         "lastCommitMessage": "direction: set the production phase and point ENGINE at the engines reference",
         "lastCommitDate": "2026-08-14 03:53:01 +0300",
-        "lastCommitHebrew": "לפני 3 ימים",
+        "lastCommitHebrew": "לפני 4 ימים",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -724,10 +724,10 @@
       "accentColor": "#1a4d4d",
       "screenshot": null,
       "stack": "TypeScript + Next.js + Supabase",
-      "status": "paused",
+      "status": "archive",
       "subStatus": null,
       "lastActivity": "2026-07-19T00:04:45.000Z",
-      "lastActivityHebrew": "לפני 0 חודשים",
+      "lastActivityHebrew": "לפני חודש",
       "size": "547M",
       "isLive": false,
       "liveUrl": null,
@@ -739,7 +739,7 @@
         "lastCommitRelative": "4 weeks ago",
         "lastCommitMessage": "Migrate attire step to Bria gen_fill with a real-face guarantee",
         "lastCommitDate": "2026-07-19 03:04:45 +0300",
-        "lastCommitHebrew": "לפני 0 חודשים",
+        "lastCommitHebrew": "לפני חודש",
         "isDirty": false,
         "changedFiles": 0
       },
