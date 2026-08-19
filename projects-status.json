@@ -1,15 +1,44 @@
 {
-  "lastUpdated": "2026-08-19T19:14:41.559Z",
+  "lastUpdated": "2026-08-19T22:15:54.517Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 31,
   "counts": {
     "live": 0,
-    "building": 1,
-    "paused": 14,
+    "building": 2,
+    "paused": 13,
     "archive": 5,
     "idea": 11
   },
   "projects": [
+    {
+      "name": "tabspeak",
+      "humanName": "TabSpeak",
+      "tagline": "תוסף שמדבר את התוכן של הטאבים הפתוחים",
+      "longDescription": "תוסף דפדפן שקורא בקול את התוכן של הטאב הפעיל. שימושי לרב-משימה ולנגישות. בנוי על React 19 + Vite.",
+      "nextStep": "לתקן את הבאג שדווח (\"i think its not working\")",
+      "notes": null,
+      "category": "Productivity",
+      "accentColor": "#a06b9e",
+      "screenshot": null,
+      "stack": "TypeScript + React 19 + Vite",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-08-19T20:43:08.232Z",
+      "lastActivityHebrew": "לפני שעה",
+      "size": "675M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [],
+      "lastSession": {
+        "sessionId": "b38b00e2-f4e7-4f80-9fb3-b5588f8b0b16",
+        "lastActivity": "2026-08-19T20:43:08.232Z",
+        "summary": "Base directory for this skill: /Users/rannsegal/Library/Application Support/Claude/local-agent-mode-sessions/skills-plug…"
+      }
+    },
     {
       "name": "AI Production Workflow",
       "humanName": "AI Production Workflow",
@@ -25,7 +54,7 @@
       "subStatus": null,
       "lastActivity": "2026-08-14T00:53:01.000Z",
       "lastActivityHebrew": "לפני 5 ימים",
-      "size": "20M",
+      "size": "43M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
@@ -37,8 +66,8 @@
         "lastCommitMessage": "direction: set the production phase and point ENGINE at the engines reference",
         "lastCommitDate": "2026-08-14 03:53:01 +0300",
         "lastCommitHebrew": "לפני 5 ימים",
-        "isDirty": false,
-        "changedFiles": 0
+        "isDirty": true,
+        "changedFiles": 4
       },
       "recentActions": [
         {
@@ -669,10 +698,10 @@
       "accentColor": "#7a8a3a",
       "screenshot": null,
       "stack": "HTML/CSS/JS",
-      "status": "paused",
+      "status": "archive",
       "subStatus": null,
       "lastActivity": "2026-07-20T20:38:42.981Z",
-      "lastActivityHebrew": "לפני 0 חודשים",
+      "lastActivityHebrew": "לפני חודש",
       "size": "584K",
       "isLive": false,
       "liveUrl": null,
@@ -758,35 +787,6 @@
         }
       ],
       "lastSession": null
-    },
-    {
-      "name": "tabspeak",
-      "humanName": "TabSpeak",
-      "tagline": "תוסף שמדבר את התוכן של הטאבים הפתוחים",
-      "longDescription": "תוסף דפדפן שקורא בקול את התוכן של הטאב הפעיל. שימושי לרב-משימה ולנגישות. בנוי על React 19 + Vite.",
-      "nextStep": "לתקן את הבאג שדווח (\"i think its not working\")",
-      "notes": null,
-      "category": "Productivity",
-      "accentColor": "#a06b9e",
-      "screenshot": null,
-      "stack": "TypeScript + React 19 + Vite",
-      "status": "archive",
-      "subStatus": null,
-      "lastActivity": "2026-07-01T08:53:26.940Z",
-      "lastActivityHebrew": "לפני חודש",
-      "size": "675M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": null,
-      "source": "local",
-      "hasGit": false,
-      "git": null,
-      "recentActions": [],
-      "lastSession": {
-        "sessionId": "b38b00e2-f4e7-4f80-9fb3-b5588f8b0b16",
-        "lastActivity": "2026-07-01T08:53:26.940Z",
-        "summary": "Base directory for this skill: /Users/rannsegal/Library/Application Support/Claude/local-agent-mode-sessions/skills-plug…"
-      }
     },
     {
       "name": "project-dashboard",
