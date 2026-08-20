@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20T11:42:03.545Z",
+  "lastUpdated": "2026-08-20T14:42:16.857Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 31,
   "counts": {
@@ -24,7 +24,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-08-19T20:43:08.232Z",
-      "lastActivityHebrew": "לפני 14 שעות",
+      "lastActivityHebrew": "לפני 17 שעות",
       "size": "675M",
       "isLive": false,
       "liveUrl": null,
@@ -62,7 +62,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "6 days ago",
+        "lastCommitRelative": "7 days ago",
         "lastCommitMessage": "direction: set the production phase and point ENGINE at the engines reference",
         "lastCommitDate": "2026-08-14 03:53:01 +0300",
         "lastCommitHebrew": "לפני 6 ימים",
