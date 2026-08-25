@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-08-25T12:29:38.322Z",
+  "lastUpdated": "2026-08-25T15:29:51.640Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 31,
   "counts": {
     "live": 0,
     "building": 1,
-    "paused": 14,
-    "archive": 5,
+    "paused": 13,
+    "archive": 6,
     "idea": 11
   },
   "projects": [
@@ -24,7 +24,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-08-25T00:12:26.594Z",
-      "lastActivityHebrew": "לפני 12 שעות",
+      "lastActivityHebrew": "לפני 15 שעות",
       "size": "676M",
       "isLive": false,
       "liveUrl": null,
@@ -669,10 +669,10 @@
       "accentColor": "#7a8a3a",
       "screenshot": null,
       "stack": "Unknown",
-      "status": "paused",
+      "status": "archive",
       "subStatus": null,
       "lastActivity": "2026-07-26T13:13:53.617Z",
-      "lastActivityHebrew": "לפני 0 חודשים",
+      "lastActivityHebrew": "לפני חודש",
       "size": "207M",
       "isLive": false,
       "liveUrl": null,
