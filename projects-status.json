@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-24T22:19:14.459Z",
+  "lastUpdated": "2026-08-25T06:29:11.110Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 31,
   "counts": {
@@ -23,9 +23,9 @@
       "stack": "TypeScript + React 19 + Vite",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-08-19T20:43:08.232Z",
-      "lastActivityHebrew": "לפני 5 ימים",
-      "size": "675M",
+      "lastActivity": "2026-08-25T00:12:26.594Z",
+      "lastActivityHebrew": "לפני 6 שעות",
+      "size": "676M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
@@ -35,7 +35,7 @@
       "recentActions": [],
       "lastSession": {
         "sessionId": "b38b00e2-f4e7-4f80-9fb3-b5588f8b0b16",
-        "lastActivity": "2026-08-19T20:43:08.232Z",
+        "lastActivity": "2026-08-25T00:12:26.594Z",
         "summary": "Base directory for this skill: /Users/rannsegal/Library/Application Support/Claude/local-agent-mode-sessions/skills-plug…"
       }
     },
