@@ -1,15 +1,116 @@
 {
-  "lastUpdated": "2026-08-26T09:10:03.213Z",
+  "lastUpdated": "2026-08-26T12:10:18.910Z",
   "lastUpdatedHebrew": "הרגע",
-  "projectCount": 31,
+  "projectCount": 42,
   "counts": {
     "live": 0,
-    "building": 1,
-    "paused": 13,
-    "archive": 6,
-    "idea": 11
+    "building": 5,
+    "paused": 12,
+    "archive": 9,
+    "idea": 16
   },
   "projects": [
+    {
+      "name": "ran-portfolio",
+      "humanName": "פורטפוליו אישי",
+      "tagline": "כרטיס ביקור אונליין - אוסף הפרוייקטים והשירותים שלי",
+      "longDescription": "אתר סטטי בעברית שמרכז את הפרוייקטים, ניסיון העבודה ופרטי קשר. מעוצב ידנית ב-HTML/CSS/JS ללא פריימוורק, עם דגש על טון אישי וחם. כולל מעקב אנליטיקס דרך GA4.",
+      "nextStep": "לפרסם את הגרסה האחרונה (יש 8 קבצים שונו)",
+      "notes": null,
+      "category": "Portfolio",
+      "accentColor": "#3a4a6b",
+      "screenshot": null,
+      "stack": "HTML/CSS/JS",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-08-26T11:49:28.625Z",
+      "lastActivityHebrew": "לפני 20 דקות",
+      "size": "148M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/ran-portfolio",
+      "source": "both",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "21 minutes ago",
+        "lastCommitMessage": "Update index.html content",
+        "lastCommitDate": "2026-08-26 14:49:22 +0300",
+        "lastCommitHebrew": "לפני 20 דקות",
+        "isDirty": false,
+        "changedFiles": 0
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Update index.html content"
+        },
+        {
+          "type": "commit",
+          "text": "Hide static crawler fallback from visual display"
+        },
+        {
+          "type": "commit",
+          "text": "Add OG tags and static HTML fallback for crawlers"
+        },
+        {
+          "type": "chat",
+          "text": "Continue from where you left off.",
+          "sessionId": "62949473-9542-4af5-b1f3-c760e5957a96"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "62949473-9542-4af5-b1f3-c760e5957a96",
+        "lastActivity": "2026-08-26T11:49:28.625Z",
+        "summary": "Continue from where you left off."
+      }
+    },
+    {
+      "name": "creative-asset-studio",
+      "humanName": "creative-asset-studio",
+      "tagline": "A repeatable flow that turns a request into ad-ready assets:",
+      "longDescription": "A repeatable flow that turns a request into ad-ready assets:",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#1a4d4d",
+      "screenshot": null,
+      "stack": "Python",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-08-25T00:18:07.000Z",
+      "lastActivityHebrew": "אתמול",
+      "size": "316M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": true,
+      "git": {
+        "branch": "feat/brand-materials-crafel",
+        "lastCommitRelative": "2 days ago",
+        "lastCommitMessage": "feat(studio): brand autofill, AI concepts, materials upload, Crafel reskin",
+        "lastCommitDate": "2026-08-25 03:18:07 +0300",
+        "lastCommitHebrew": "אתמול",
+        "isDirty": false,
+        "changedFiles": 0
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "feat(studio): brand autofill, AI concepts, materials upload, Crafel reskin"
+        },
+        {
+          "type": "commit",
+          "text": "fix(editor): remount moveable on selection so rotated layers show a rotated box"
+        },
+        {
+          "type": "commit",
+          "text": "feat(editor): rotation, opacity for text, rounded-corner slider, duplicate, keyboard, per-size regenerate"
+        }
+      ],
+      "lastSession": null
+    },
     {
       "name": "tabspeak",
       "humanName": "TabSpeak",
@@ -38,6 +139,94 @@
         "lastActivity": "2026-08-25T00:12:26.594Z",
         "summary": "Base directory for this skill: /Users/rannsegal/Library/Application Support/Claude/local-agent-mode-sessions/skills-plug…"
       }
+    },
+    {
+      "name": "Kid-AI",
+      "humanName": "Kid-AI",
+      "tagline": "Unknown",
+      "longDescription": "פרוייקט ב-Unknown",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#3d5a3d",
+      "screenshot": null,
+      "stack": "Unknown",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-08-24T23:49:37.000Z",
+      "lastActivityHebrew": "אתמול",
+      "size": "215M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/pip-kid-ai",
+      "source": "local",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "2 days ago",
+        "lastCommitMessage": "Simplify Pip's robot design",
+        "lastCommitDate": "2026-08-25 02:49:37 +0300",
+        "lastCommitHebrew": "אתמול",
+        "isDirty": true,
+        "changedFiles": 1
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Simplify Pip's robot design"
+        },
+        {
+          "type": "commit",
+          "text": "Upgrade Pip's models for stronger Hebrew quality and safety judgment"
+        },
+        {
+          "type": "commit",
+          "text": "Wire up real speech-to-text and fix silent TTS on iOS"
+        }
+      ],
+      "lastSession": null
+    },
+    {
+      "name": "Agent_storyboard",
+      "humanName": "Agent_storyboard",
+      "tagline": "Project spec for the storyboard tool. Convert narrative text, scripts, or PRDs into",
+      "longDescription": "Project spec for the storyboard tool. Convert narrative text, scripts, or PRDs into",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#3a4a6b",
+      "screenshot": null,
+      "stack": "Unknown",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-08-19T21:44:49.000Z",
+      "lastActivityHebrew": "לפני 6 ימים",
+      "size": "1.4M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "7 days ago",
+        "lastCommitMessage": "Add Scene 02 \"Blue Wave\" storyboard and restore the director subagent",
+        "lastCommitDate": "2026-08-20 00:44:49 +0300",
+        "lastCommitHebrew": "לפני 6 ימים",
+        "isDirty": true,
+        "changedFiles": 1
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Add Scene 02 \"Blue Wave\" storyboard and restore the director subagent"
+        },
+        {
+          "type": "commit",
+          "text": "Initial commit: AI Director storyboard project"
+        }
+      ],
+      "lastSession": null
     },
     {
       "name": "AI Production Workflow",
@@ -449,61 +638,6 @@
       }
     },
     {
-      "name": "ran-portfolio",
-      "humanName": "פורטפוליו אישי",
-      "tagline": "כרטיס ביקור אונליין - אוסף הפרוייקטים והשירותים שלי",
-      "longDescription": "אתר סטטי בעברית שמרכז את הפרוייקטים, ניסיון העבודה ופרטי קשר. מעוצב ידנית ב-HTML/CSS/JS ללא פריימוורק, עם דגש על טון אישי וחם. כולל מעקב אנליטיקס דרך GA4.",
-      "nextStep": "לפרסם את הגרסה האחרונה (יש 8 קבצים שונו)",
-      "notes": null,
-      "category": "Portfolio",
-      "accentColor": "#3a4a6b",
-      "screenshot": null,
-      "stack": "HTML/CSS/JS",
-      "status": "paused",
-      "subStatus": null,
-      "lastActivity": "2026-08-09T23:53:58.457Z",
-      "lastActivityHebrew": "לפני 2 שבועות",
-      "size": "148M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/ran-portfolio",
-      "source": "both",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "2 weeks ago",
-        "lastCommitMessage": "Remove Zeph images and the superseded stylesheet",
-        "lastCommitDate": "2026-08-10 02:38:24 +0300",
-        "lastCommitHebrew": "לפני 2 שבועות",
-        "isDirty": false,
-        "changedFiles": 0
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Remove Zeph images and the superseded stylesheet"
-        },
-        {
-          "type": "commit",
-          "text": "Add nav demo, Payoneer slide and Pear animation asset"
-        },
-        {
-          "type": "commit",
-          "text": "Rename Zeph to Naymo across the portfolio"
-        },
-        {
-          "type": "chat",
-          "text": "Continue from where you left off.",
-          "sessionId": "62949473-9542-4af5-b1f3-c760e5957a96"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "d141b2d9-2443-440b-b6e5-5a4560eac15f",
-        "lastActivity": "2026-08-09T23:53:58.457Z",
-        "summary": ""
-      }
-    },
-    {
       "name": "shmup-reminder",
       "humanName": "שמופ - תזכורות",
       "tagline": "מנהל משימות בעברית RTL עם קלט קולי",
@@ -743,6 +877,52 @@
       }
     },
     {
+      "name": "Coloring-pages",
+      "humanName": "Coloring-pages",
+      "tagline": "TypeScript + Next.js",
+      "longDescription": "פרוייקט ב-TypeScript + Next.js",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#a06b9e",
+      "screenshot": null,
+      "stack": "TypeScript + Next.js",
+      "status": "archive",
+      "subStatus": null,
+      "lastActivity": "2026-07-19T22:44:52.000Z",
+      "lastActivityHebrew": "לפני חודש",
+      "size": "661M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "5 weeks ago",
+        "lastCommitMessage": "Merge Magic Pages build into main",
+        "lastCommitDate": "2026-07-20 01:44:52 +0300",
+        "lastCommitHebrew": "לפני חודש",
+        "isDirty": true,
+        "changedFiles": 1
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Merge Magic Pages build into main"
+        },
+        {
+          "type": "commit",
+          "text": "docs: add README with safety model and deploy notes"
+        },
+        {
+          "type": "commit",
+          "text": "test: add Playwright e2e for the full kid flow"
+        }
+      ],
+      "lastSession": null
+    },
+    {
       "name": "co-headshot",
       "humanName": "co-headshot",
       "tagline": "TypeScript + Next.js + Supabase",
@@ -765,7 +945,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "5 weeks ago",
+        "lastCommitRelative": "6 weeks ago",
         "lastCommitMessage": "Migrate attire step to Bria gen_fill with a real-face guarantee",
         "lastCommitDate": "2026-07-19 03:04:45 +0300",
         "lastCommitHebrew": "לפני חודש",
@@ -784,6 +964,98 @@
         {
           "type": "commit",
           "text": "Add Bria as a trial background-removal provider"
+        }
+      ],
+      "lastSession": null
+    },
+    {
+      "name": "Canva_ads",
+      "humanName": "Canva_ads",
+      "tagline": "A repeatable flow that turns a request into ad-ready assets:",
+      "longDescription": "A repeatable flow that turns a request into ad-ready assets:",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#2d5f7f",
+      "screenshot": null,
+      "stack": "Python",
+      "status": "archive",
+      "subStatus": null,
+      "lastActivity": "2026-06-23T23:48:12.000Z",
+      "lastActivityHebrew": "לפני 2 חודשים",
+      "size": "114M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "9 weeks ago",
+        "lastCommitMessage": "docs: spec for Creative Asset Studio web app (copy + FastAPI + React editor)",
+        "lastCommitDate": "2026-06-24 02:48:12 +0300",
+        "lastCommitHebrew": "לפני 2 חודשים",
+        "isDirty": true,
+        "changedFiles": 6
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "docs: spec for Creative Asset Studio web app (copy + FastAPI + React editor)"
+        },
+        {
+          "type": "commit",
+          "text": "merge: creative-asset-flow tool (prep_assets + new-creative-batch skill)"
+        },
+        {
+          "type": "commit",
+          "text": "feat: add new-creative-batch skill and document prep_assets.py"
+        }
+      ],
+      "lastSession": null
+    },
+    {
+      "name": "newsletter",
+      "humanName": "newsletter",
+      "tagline": "This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.",
+      "longDescription": "This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#7a8a3a",
+      "screenshot": null,
+      "stack": "TypeScript + Next.js + Supabase",
+      "status": "archive",
+      "subStatus": null,
+      "lastActivity": "2026-06-16T19:24:30.000Z",
+      "lastActivityHebrew": "לפני 2 חודשים",
+      "size": "397M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/newsletter",
+      "source": "local",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "2 months ago",
+        "lastCommitMessage": "Pre-fill non-secret values in .env.example for easier setup",
+        "lastCommitDate": "2026-06-16 19:24:30 +0000",
+        "lastCommitHebrew": "לפני 2 חודשים",
+        "isDirty": true,
+        "changedFiles": 1
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Pre-fill non-secret values in .env.example for easier setup"
+        },
+        {
+          "type": "commit",
+          "text": "Harden RSS ingestion: browser UA + verified feed URLs"
+        },
+        {
+          "type": "commit",
+          "text": "Add SETUP.md with configuration and run guide"
         }
       ],
       "lastSession": null
@@ -913,6 +1185,31 @@
       "lastSession": null
     },
     {
+      "name": "Agent-office",
+      "humanName": "Agent-office",
+      "tagline": "HTML/CSS/JS",
+      "longDescription": "פרוייקט ב-HTML/CSS/JS",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#d4a052",
+      "screenshot": null,
+      "stack": "HTML/CSS/JS",
+      "status": "idea",
+      "subStatus": null,
+      "lastActivity": null,
+      "lastActivityHebrew": "",
+      "size": "336K",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [],
+      "lastSession": null
+    },
+    {
       "name": "Chatgpt-codex",
       "humanName": "Chatgpt-codex",
       "tagline": "Unknown",
@@ -953,6 +1250,56 @@
       "lastActivity": null,
       "lastActivityHebrew": "",
       "size": "12K",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [],
+      "lastSession": null
+    },
+    {
+      "name": "Landing page",
+      "humanName": "Landing page",
+      "tagline": "Unknown",
+      "longDescription": "פרוייקט ב-Unknown",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#2d5f7f",
+      "screenshot": null,
+      "stack": "Unknown",
+      "status": "idea",
+      "subStatus": null,
+      "lastActivity": null,
+      "lastActivityHebrew": "",
+      "size": "36K",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [],
+      "lastSession": null
+    },
+    {
+      "name": "Sahara",
+      "humanName": "Sahara",
+      "tagline": "TypeScript + React 19 + Vite",
+      "longDescription": "פרוייקט ב-TypeScript + React 19 + Vite",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#a87432",
+      "screenshot": null,
+      "stack": "TypeScript + React 19 + Vite",
+      "status": "idea",
+      "subStatus": null,
+      "lastActivity": null,
+      "lastActivityHebrew": "",
+      "size": "134M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
@@ -1038,6 +1385,31 @@
       "lastSession": null
     },
     {
+      "name": "shefa",
+      "humanName": "shefa",
+      "tagline": "Unknown",
+      "longDescription": "פרוייקט ב-Unknown",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#b85f5f",
+      "screenshot": null,
+      "stack": "Unknown",
+      "status": "idea",
+      "subStatus": null,
+      "lastActivity": null,
+      "lastActivityHebrew": "",
+      "size": "0B",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [],
+      "lastSession": null
+    },
+    {
       "name": "spotted",
       "humanName": "Spotted",
       "tagline": "כלי לסימון אובייקטים בתמונות",
@@ -1057,6 +1429,31 @@
       "liveUrl": "https://spotted-tau.vercel.app",
       "githubUrl": "https://github.com/segalitoo/spotted",
       "source": "both",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [],
+      "lastSession": null
+    },
+    {
+      "name": "sunglasses",
+      "humanName": "sunglasses",
+      "tagline": "Unknown",
+      "longDescription": "פרוייקט ב-Unknown",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#2d5f7f",
+      "screenshot": null,
+      "stack": "Unknown",
+      "status": "idea",
+      "subStatus": null,
+      "lastActivity": null,
+      "lastActivityHebrew": "",
+      "size": "22M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
       "hasGit": false,
       "git": null,
       "recentActions": [],
