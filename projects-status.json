@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T13:53:11.996Z",
+  "lastUpdated": "2026-08-27T20:10:00.589Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 40,
   "counts": {
@@ -24,7 +24,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-08-27T01:57:37.400Z",
-      "lastActivityHebrew": "לפני 11 שעות",
+      "lastActivityHebrew": "לפני 18 שעות",
       "size": "149M",
       "isLive": false,
       "liveUrl": null,
@@ -33,7 +33,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "26 hours ago",
+        "lastCommitRelative": "32 hours ago",
         "lastCommitMessage": "Update index.html content",
         "lastCommitDate": "2026-08-26 14:49:22 +0300",
         "lastCommitHebrew": "אתמול",
