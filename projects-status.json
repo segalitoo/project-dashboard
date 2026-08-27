@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-08-26T22:24:34.809Z",
+  "lastUpdated": "2026-08-27T03:32:27.913Z",
   "lastUpdatedHebrew": "הרגע",
-  "projectCount": 42,
+  "projectCount": 40,
   "counts": {
     "live": 0,
     "building": 4,
     "paused": 13,
-    "archive": 9,
-    "idea": 16
+    "archive": 8,
+    "idea": 15
   },
   "projects": [
     {
@@ -23,9 +23,9 @@
       "stack": "HTML/CSS/JS",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-08-26T11:49:28.625Z",
-      "lastActivityHebrew": "לפני 10 שעות",
-      "size": "148M",
+      "lastActivity": "2026-08-27T01:57:37.400Z",
+      "lastActivityHebrew": "לפני שעה",
+      "size": "149M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": "https://github.com/segalitoo/ran-portfolio",
@@ -33,12 +33,12 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "11 hours ago",
+        "lastCommitRelative": "16 hours ago",
         "lastCommitMessage": "Update index.html content",
         "lastCommitDate": "2026-08-26 14:49:22 +0300",
-        "lastCommitHebrew": "לפני 10 שעות",
-        "isDirty": false,
-        "changedFiles": 0
+        "lastCommitHebrew": "לפני 15 שעות",
+        "isDirty": true,
+        "changedFiles": 2
       },
       "recentActions": [
         {
@@ -61,7 +61,7 @@
       ],
       "lastSession": {
         "sessionId": "62949473-9542-4af5-b1f3-c760e5957a96",
-        "lastActivity": "2026-08-26T11:49:28.625Z",
+        "lastActivity": "2026-08-27T01:57:37.400Z",
         "summary": "Continue from where you left off."
       }
     },
@@ -79,7 +79,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-08-25T00:18:07.000Z",
-      "lastActivityHebrew": "אתמול",
+      "lastActivityHebrew": "שלשום",
       "size": "316M",
       "isLive": false,
       "liveUrl": null,
@@ -91,7 +91,7 @@
         "lastCommitRelative": "2 days ago",
         "lastCommitMessage": "feat(studio): brand autofill, AI concepts, materials upload, Crafel reskin",
         "lastCommitDate": "2026-08-25 03:18:07 +0300",
-        "lastCommitHebrew": "אתמול",
+        "lastCommitHebrew": "שלשום",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -125,7 +125,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-08-25T00:12:26.594Z",
-      "lastActivityHebrew": "אתמול",
+      "lastActivityHebrew": "שלשום",
       "size": "676M",
       "isLive": false,
       "liveUrl": null,
@@ -154,7 +154,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-08-24T23:49:37.000Z",
-      "lastActivityHebrew": "אתמול",
+      "lastActivityHebrew": "שלשום",
       "size": "215M",
       "isLive": false,
       "liveUrl": null,
@@ -166,7 +166,7 @@
         "lastCommitRelative": "2 days ago",
         "lastCommitMessage": "Simplify Pip's robot design",
         "lastCommitDate": "2026-08-25 02:49:37 +0300",
-        "lastCommitHebrew": "אתמול",
+        "lastCommitHebrew": "שלשום",
         "isDirty": true,
         "changedFiles": 1
       },
@@ -573,7 +573,7 @@
       "subStatus": null,
       "lastActivity": "2026-08-09T23:53:58.457Z",
       "lastActivityHebrew": "לפני 2 שבועות",
-      "size": "835M",
+      "size": "734M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": "https://github.com/segalitoo/design-manager-portfolio",
@@ -836,7 +836,7 @@
       "subStatus": null,
       "lastActivity": "2026-07-20T20:38:42.981Z",
       "lastActivityHebrew": "לפני חודש",
-      "size": "584K",
+      "size": "592K",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": "https://github.com/segalitoo/project-hub",
@@ -877,52 +877,6 @@
       }
     },
     {
-      "name": "Coloring-pages",
-      "humanName": "Coloring-pages",
-      "tagline": "TypeScript + Next.js",
-      "longDescription": "פרוייקט ב-TypeScript + Next.js",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#a06b9e",
-      "screenshot": null,
-      "stack": "TypeScript + Next.js",
-      "status": "archive",
-      "subStatus": null,
-      "lastActivity": "2026-07-19T22:44:52.000Z",
-      "lastActivityHebrew": "לפני חודש",
-      "size": "661M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": null,
-      "source": "local",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "5 weeks ago",
-        "lastCommitMessage": "Merge Magic Pages build into main",
-        "lastCommitDate": "2026-07-20 01:44:52 +0300",
-        "lastCommitHebrew": "לפני חודש",
-        "isDirty": true,
-        "changedFiles": 1
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Merge Magic Pages build into main"
-        },
-        {
-          "type": "commit",
-          "text": "docs: add README with safety model and deploy notes"
-        },
-        {
-          "type": "commit",
-          "text": "test: add Playwright e2e for the full kid flow"
-        }
-      ],
-      "lastSession": null
-    },
-    {
       "name": "co-headshot",
       "humanName": "co-headshot",
       "tagline": "TypeScript + Next.js + Supabase",
@@ -937,7 +891,7 @@
       "subStatus": null,
       "lastActivity": "2026-07-19T00:04:45.000Z",
       "lastActivityHebrew": "לפני חודש",
-      "size": "547M",
+      "size": "437M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": "https://github.com/segalitoo/co-headshot",
@@ -1029,7 +983,7 @@
       "subStatus": null,
       "lastActivity": "2026-06-16T19:24:30.000Z",
       "lastActivityHebrew": "לפני 2 חודשים",
-      "size": "397M",
+      "size": "287M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": "https://github.com/segalitoo/newsletter",
@@ -1375,31 +1329,6 @@
       "lastActivity": null,
       "lastActivityHebrew": "",
       "size": "73M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": null,
-      "source": "local",
-      "hasGit": false,
-      "git": null,
-      "recentActions": [],
-      "lastSession": null
-    },
-    {
-      "name": "shefa",
-      "humanName": "shefa",
-      "tagline": "Unknown",
-      "longDescription": "פרוייקט ב-Unknown",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#b85f5f",
-      "screenshot": null,
-      "stack": "Unknown",
-      "status": "idea",
-      "subStatus": null,
-      "lastActivity": null,
-      "lastActivityHebrew": "",
-      "size": "0B",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
