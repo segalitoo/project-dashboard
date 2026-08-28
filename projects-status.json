@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-27T20:10:00.589Z",
+  "lastUpdated": "2026-08-28T13:32:32.492Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 40,
   "counts": {
@@ -24,7 +24,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-08-27T01:57:37.400Z",
-      "lastActivityHebrew": "לפני 18 שעות",
+      "lastActivityHebrew": "אתמול",
       "size": "149M",
       "isLive": false,
       "liveUrl": null,
@@ -33,10 +33,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "32 hours ago",
+        "lastCommitRelative": "2 days ago",
         "lastCommitMessage": "Update index.html content",
         "lastCommitDate": "2026-08-26 14:49:22 +0300",
-        "lastCommitHebrew": "אתמול",
+        "lastCommitHebrew": "שלשום",
         "isDirty": true,
         "changedFiles": 2
       },
@@ -79,7 +79,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-08-25T00:18:07.000Z",
-      "lastActivityHebrew": "שלשום",
+      "lastActivityHebrew": "לפני 3 ימים",
       "size": "316M",
       "isLive": false,
       "liveUrl": null,
@@ -88,10 +88,10 @@
       "hasGit": true,
       "git": {
         "branch": "feat/brand-materials-crafel",
-        "lastCommitRelative": "3 days ago",
+        "lastCommitRelative": "4 days ago",
         "lastCommitMessage": "feat(studio): brand autofill, AI concepts, materials upload, Crafel reskin",
         "lastCommitDate": "2026-08-25 03:18:07 +0300",
-        "lastCommitHebrew": "שלשום",
+        "lastCommitHebrew": "לפני 3 ימים",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -125,7 +125,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-08-25T00:12:26.594Z",
-      "lastActivityHebrew": "שלשום",
+      "lastActivityHebrew": "לפני 3 ימים",
       "size": "676M",
       "isLive": false,
       "liveUrl": null,
@@ -154,7 +154,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-08-24T23:49:37.000Z",
-      "lastActivityHebrew": "שלשום",
+      "lastActivityHebrew": "לפני 3 ימים",
       "size": "215M",
       "isLive": false,
       "liveUrl": null,
@@ -163,10 +163,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "3 days ago",
+        "lastCommitRelative": "4 days ago",
         "lastCommitMessage": "Simplify Pip's robot design",
         "lastCommitDate": "2026-08-25 02:49:37 +0300",
-        "lastCommitHebrew": "שלשום",
+        "lastCommitHebrew": "לפני 3 ימים",
         "isDirty": true,
         "changedFiles": 1
       },
@@ -209,7 +209,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "8 days ago",
+        "lastCommitRelative": "9 days ago",
         "lastCommitMessage": "Add Scene 02 \"Blue Wave\" storyboard and restore the director subagent",
         "lastCommitDate": "2026-08-20 00:44:49 +0300",
         "lastCommitHebrew": "השבוע",
@@ -242,7 +242,7 @@
       "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-08-14T00:53:01.000Z",
-      "lastActivityHebrew": "השבוע",
+      "lastActivityHebrew": "לפני 2 שבועות",
       "size": "43M",
       "isLive": false,
       "liveUrl": null,
@@ -254,7 +254,7 @@
         "lastCommitRelative": "2 weeks ago",
         "lastCommitMessage": "direction: set the production phase and point ENGINE at the engines reference",
         "lastCommitDate": "2026-08-14 03:53:01 +0300",
-        "lastCommitHebrew": "השבוע",
+        "lastCommitHebrew": "לפני 2 שבועות",
         "isDirty": true,
         "changedFiles": 4
       },
