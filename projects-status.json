@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T18:12:14.917Z",
+  "lastUpdated": "2026-08-29T23:50:16.027Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 40,
   "counts": {
@@ -33,7 +33,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "3 days ago",
+        "lastCommitRelative": "4 days ago",
         "lastCommitMessage": "Update index.html content",
         "lastCommitDate": "2026-08-26 14:49:22 +0300",
         "lastCommitHebrew": "לפני 3 ימים",
@@ -154,7 +154,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-08-24T23:49:37.000Z",
-      "lastActivityHebrew": "לפני 4 ימים",
+      "lastActivityHebrew": "לפני 5 ימים",
       "size": "215M",
       "isLive": false,
       "liveUrl": null,
@@ -166,7 +166,7 @@
         "lastCommitRelative": "5 days ago",
         "lastCommitMessage": "Simplify Pip's robot design",
         "lastCommitDate": "2026-08-25 02:49:37 +0300",
-        "lastCommitHebrew": "לפני 4 ימים",
+        "lastCommitHebrew": "לפני 5 ימים",
         "isDirty": true,
         "changedFiles": 1
       },
