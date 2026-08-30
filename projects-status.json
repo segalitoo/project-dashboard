@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-29T23:50:16.027Z",
+  "lastUpdated": "2026-08-30T05:22:09.258Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 40,
   "counts": {
@@ -24,7 +24,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-08-27T01:57:37.400Z",
-      "lastActivityHebrew": "שלשום",
+      "lastActivityHebrew": "לפני 3 ימים",
       "size": "149M",
       "isLive": false,
       "liveUrl": null,
@@ -79,7 +79,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-08-25T00:18:07.000Z",
-      "lastActivityHebrew": "לפני 4 ימים",
+      "lastActivityHebrew": "לפני 5 ימים",
       "size": "316M",
       "isLive": false,
       "liveUrl": null,
@@ -91,7 +91,7 @@
         "lastCommitRelative": "5 days ago",
         "lastCommitMessage": "feat(studio): brand autofill, AI concepts, materials upload, Crafel reskin",
         "lastCommitDate": "2026-08-25 03:18:07 +0300",
-        "lastCommitHebrew": "לפני 4 ימים",
+        "lastCommitHebrew": "לפני 5 ימים",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -125,7 +125,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-08-25T00:12:26.594Z",
-      "lastActivityHebrew": "לפני 4 ימים",
+      "lastActivityHebrew": "לפני 5 ימים",
       "size": "676M",
       "isLive": false,
       "liveUrl": null,
