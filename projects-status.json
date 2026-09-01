@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-01T11:02:03.362Z",
+  "lastUpdated": "2026-09-01T14:43:18.169Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 40,
   "counts": {
@@ -36,7 +36,7 @@
         "lastCommitRelative": "6 days ago",
         "lastCommitMessage": "Update index.html content",
         "lastCommitDate": "2026-08-26 14:49:22 +0300",
-        "lastCommitHebrew": "לפני 5 ימים",
+        "lastCommitHebrew": "לפני 6 ימים",
         "isDirty": true,
         "changedFiles": 2
       },
@@ -88,7 +88,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/brand-materials-crafel",
-        "lastCommitRelative": "7 days ago",
+        "lastCommitRelative": "8 days ago",
         "lastCommitMessage": "feat(studio): brand autofill, AI concepts, materials upload, Crafel reskin",
         "lastCommitDate": "2026-08-25 03:18:07 +0300",
         "lastCommitHebrew": "השבוע",
@@ -163,7 +163,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "7 days ago",
+        "lastCommitRelative": "8 days ago",
         "lastCommitMessage": "Simplify Pip's robot design",
         "lastCommitDate": "2026-08-25 02:49:37 +0300",
         "lastCommitHebrew": "השבוע",
@@ -945,7 +945,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "10 weeks ago",
+        "lastCommitRelative": "2 months ago",
         "lastCommitMessage": "docs: spec for Creative Asset Studio web app (copy + FastAPI + React editor)",
         "lastCommitDate": "2026-06-24 02:48:12 +0300",
         "lastCommitHebrew": "לפני 2 חודשים",
