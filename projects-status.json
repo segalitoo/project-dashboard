@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-02T11:46:07.030Z",
+  "lastUpdated": "2026-09-02T21:23:47.640Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 40,
   "counts": {
@@ -23,8 +23,8 @@
       "stack": "HTML/CSS/JS",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-08-27T01:57:37.400Z",
-      "lastActivityHebrew": "לפני 6 ימים",
+      "lastActivity": "2026-09-02T21:00:49.259Z",
+      "lastActivityHebrew": "לפני 22 דקות",
       "size": "149M",
       "isLive": false,
       "liveUrl": null,
@@ -36,7 +36,7 @@
         "lastCommitRelative": "7 days ago",
         "lastCommitMessage": "Update index.html content",
         "lastCommitDate": "2026-08-26 14:49:22 +0300",
-        "lastCommitHebrew": "לפני 6 ימים",
+        "lastCommitHebrew": "השבוע",
         "isDirty": true,
         "changedFiles": 2
       },
@@ -61,7 +61,7 @@
       ],
       "lastSession": {
         "sessionId": "62949473-9542-4af5-b1f3-c760e5957a96",
-        "lastActivity": "2026-08-27T01:57:37.400Z",
+        "lastActivity": "2026-09-02T21:00:49.259Z",
         "summary": "Continue from where you left off."
       }
     },
@@ -88,7 +88,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/brand-materials-crafel",
-        "lastCommitRelative": "8 days ago",
+        "lastCommitRelative": "9 days ago",
         "lastCommitMessage": "feat(studio): brand autofill, AI concepts, materials upload, Crafel reskin",
         "lastCommitDate": "2026-08-25 03:18:07 +0300",
         "lastCommitHebrew": "השבוע",
