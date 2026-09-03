@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-03T07:18:01.519Z",
+  "lastUpdated": "2026-09-03T10:34:42.486Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 40,
   "counts": {
@@ -23,8 +23,8 @@
       "stack": "HTML/CSS/JS",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-09-02T21:00:49.259Z",
-      "lastActivityHebrew": "לפני 10 שעות",
+      "lastActivity": "2026-09-03T10:34:07.101Z",
+      "lastActivityHebrew": "הרגע",
       "size": "149M",
       "isLive": false,
       "liveUrl": null,
@@ -38,7 +38,7 @@
         "lastCommitDate": "2026-08-26 14:49:22 +0300",
         "lastCommitHebrew": "השבוע",
         "isDirty": true,
-        "changedFiles": 2
+        "changedFiles": 6
       },
       "recentActions": [
         {
@@ -61,7 +61,7 @@
       ],
       "lastSession": {
         "sessionId": "62949473-9542-4af5-b1f3-c760e5957a96",
-        "lastActivity": "2026-09-02T21:00:49.259Z",
+        "lastActivity": "2026-09-03T10:34:07.101Z",
         "summary": "Continue from where you left off."
       }
     },
