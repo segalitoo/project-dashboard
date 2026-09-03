@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-03T10:34:42.486Z",
+  "lastUpdated": "2026-09-03T14:21:20.846Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 40,
   "counts": {
@@ -23,8 +23,8 @@
       "stack": "HTML/CSS/JS",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-09-03T10:34:07.101Z",
-      "lastActivityHebrew": "הרגע",
+      "lastActivity": "2026-09-03T11:58:03.989Z",
+      "lastActivityHebrew": "לפני 2 שעות",
       "size": "149M",
       "isLive": false,
       "liveUrl": null,
@@ -38,7 +38,7 @@
         "lastCommitDate": "2026-08-26 14:49:22 +0300",
         "lastCommitHebrew": "השבוע",
         "isDirty": true,
-        "changedFiles": 6
+        "changedFiles": 9
       },
       "recentActions": [
         {
@@ -61,7 +61,7 @@
       ],
       "lastSession": {
         "sessionId": "62949473-9542-4af5-b1f3-c760e5957a96",
-        "lastActivity": "2026-09-03T10:34:07.101Z",
+        "lastActivity": "2026-09-03T11:58:03.989Z",
         "summary": "Continue from where you left off."
       }
     },
@@ -88,7 +88,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/brand-materials-crafel",
-        "lastCommitRelative": "9 days ago",
+        "lastCommitRelative": "10 days ago",
         "lastCommitMessage": "feat(studio): brand autofill, AI concepts, materials upload, Crafel reskin",
         "lastCommitDate": "2026-08-25 03:18:07 +0300",
         "lastCommitHebrew": "השבוע",
@@ -163,7 +163,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "9 days ago",
+        "lastCommitRelative": "10 days ago",
         "lastCommitMessage": "Simplify Pip's robot design",
         "lastCommitDate": "2026-08-25 02:49:37 +0300",
         "lastCommitHebrew": "השבוע",
@@ -297,7 +297,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "3 weeks ago",
+        "lastCommitRelative": "4 weeks ago",
         "lastCommitMessage": "Untrack agent tooling scratch",
         "lastCommitDate": "2026-08-10 02:33:57 +0300",
         "lastCommitHebrew": "לפני 3 שבועות",
@@ -352,7 +352,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/landing-page",
-        "lastCommitRelative": "3 weeks ago",
+        "lastCommitRelative": "4 weeks ago",
         "lastCommitMessage": "Remove the grammar module",
         "lastCommitDate": "2026-08-10 02:38:18 +0300",
         "lastCommitHebrew": "לפני 3 שבועות",
@@ -402,7 +402,7 @@
       "hasGit": true,
       "git": {
         "branch": "claude/add-claude-documentation-gFq7q",
-        "lastCommitRelative": "3 weeks ago",
+        "lastCommitRelative": "4 weeks ago",
         "lastCommitMessage": "Ignore packaged zips and agent worktree scratch",
         "lastCommitDate": "2026-08-10 02:31:44 +0300",
         "lastCommitHebrew": "לפני 3 שבועות",
@@ -481,7 +481,7 @@
       "hasGit": true,
       "git": {
         "branch": "redesign/drafting-table",
-        "lastCommitRelative": "3 weeks ago",
+        "lastCommitRelative": "4 weeks ago",
         "lastCommitMessage": "Add dev server launch config",
         "lastCommitDate": "2026-08-10 02:31:53 +0300",
         "lastCommitHebrew": "לפני 3 שבועות",
@@ -531,7 +531,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "3 weeks ago",
+        "lastCommitRelative": "4 weeks ago",
         "lastCommitMessage": "Scope the dark theme class hook to :root",
         "lastCommitDate": "2026-08-10 02:31:59 +0300",
         "lastCommitHebrew": "לפני 3 שבועות",
@@ -581,7 +581,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "3 weeks ago",
+        "lastCommitRelative": "4 weeks ago",
         "lastCommitMessage": "Add CLAUDE.md",
         "lastCommitDate": "2026-08-10 02:27:56 +0300",
         "lastCommitHebrew": "לפני 3 שבועות",
@@ -660,7 +660,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "3 weeks ago",
+        "lastCommitRelative": "4 weeks ago",
         "lastCommitMessage": "Ignore Supabase CLI scratch directory",
         "lastCommitDate": "2026-08-10 02:28:12 +0300",
         "lastCommitHebrew": "לפני 3 שבועות",
@@ -710,7 +710,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "3 weeks ago",
+        "lastCommitRelative": "4 weeks ago",
         "lastCommitMessage": "Scope the dark theme class hook to :root",
         "lastCommitDate": "2026-08-10 02:31:59 +0300",
         "lastCommitHebrew": "לפני 3 שבועות",
@@ -760,7 +760,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "3 weeks ago",
+        "lastCommitRelative": "4 weeks ago",
         "lastCommitMessage": "Scope the dark theme class hook to :root",
         "lastCommitDate": "2026-08-10 02:31:59 +0300",
         "lastCommitHebrew": "לפני 3 שבועות",
