@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-09-03T20:36:57.655Z",
+  "lastUpdated": "2026-09-04T00:33:37.078Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 40,
   "counts": {
     "live": 0,
-    "building": 1,
-    "paused": 16,
-    "archive": 8,
+    "building": 3,
+    "paused": 15,
+    "archive": 7,
     "idea": 15
   },
   "projects": [
@@ -23,9 +23,9 @@
       "stack": "HTML/CSS/JS",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-09-03T11:58:03.989Z",
-      "lastActivityHebrew": "לפני 8 שעות",
-      "size": "149M",
+      "lastActivity": "2026-09-03T23:29:46.234Z",
+      "lastActivityHebrew": "לפני שעה",
+      "size": "159M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": "https://github.com/segalitoo/ran-portfolio",
@@ -33,12 +33,12 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "8 days ago",
+        "lastCommitRelative": "9 days ago",
         "lastCommitMessage": "Update index.html content",
         "lastCommitDate": "2026-08-26 14:49:22 +0300",
         "lastCommitHebrew": "השבוע",
         "isDirty": true,
-        "changedFiles": 9
+        "changedFiles": 16
       },
       "recentActions": [
         {
@@ -61,9 +61,55 @@
       ],
       "lastSession": {
         "sessionId": "62949473-9542-4af5-b1f3-c760e5957a96",
-        "lastActivity": "2026-09-03T11:58:03.989Z",
+        "lastActivity": "2026-09-03T23:29:46.234Z",
         "summary": "Continue from where you left off."
       }
+    },
+    {
+      "name": "Canva_ads",
+      "humanName": "Canva_ads",
+      "tagline": "A repeatable flow that turns a request into ad-ready assets:",
+      "longDescription": "A repeatable flow that turns a request into ad-ready assets:",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#2d5f7f",
+      "screenshot": null,
+      "stack": "Python",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-09-03T23:16:05.000Z",
+      "lastActivityHebrew": "לפני שעה",
+      "size": "115M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "77 minutes ago",
+        "lastCommitMessage": "merge: payoneer batch, studio plans, dev launch config",
+        "lastCommitDate": "2026-09-04 02:16:05 +0300",
+        "lastCommitHebrew": "לפני שעה",
+        "isDirty": false,
+        "changedFiles": 0
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "merge: payoneer batch, studio plans, dev launch config"
+        },
+        {
+          "type": "commit",
+          "text": "chore: add launch config for the studio dev server"
+        },
+        {
+          "type": "commit",
+          "text": "docs: implementation plans for the Creative Asset Studio web app"
+        }
+      ],
+      "lastSession": null
     },
     {
       "name": "creative-asset-studio",
@@ -76,26 +122,30 @@
       "accentColor": "#1a4d4d",
       "screenshot": null,
       "stack": "Python",
-      "status": "paused",
+      "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-08-25T00:18:07.000Z",
-      "lastActivityHebrew": "השבוע",
-      "size": "316M",
+      "lastActivity": "2026-09-03T23:15:10.000Z",
+      "lastActivityHebrew": "לפני שעה",
+      "size": "318M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
       "source": "local",
       "hasGit": true,
       "git": {
-        "branch": "feat/brand-materials-crafel",
-        "lastCommitRelative": "10 days ago",
-        "lastCommitMessage": "feat(studio): brand autofill, AI concepts, materials upload, Crafel reskin",
-        "lastCommitDate": "2026-08-25 03:18:07 +0300",
-        "lastCommitHebrew": "השבוע",
-        "isDirty": false,
-        "changedFiles": 0
+        "branch": "main",
+        "lastCommitRelative": "78 minutes ago",
+        "lastCommitMessage": "merge: brand-aware studio inputs and Crafel design system",
+        "lastCommitDate": "2026-09-04 02:15:10 +0300",
+        "lastCommitHebrew": "לפני שעה",
+        "isDirty": true,
+        "changedFiles": 11
       },
       "recentActions": [
+        {
+          "type": "commit",
+          "text": "merge: brand-aware studio inputs and Crafel design system"
+        },
         {
           "type": "commit",
           "text": "feat(studio): brand autofill, AI concepts, materials upload, Crafel reskin"
@@ -103,10 +153,6 @@
         {
           "type": "commit",
           "text": "fix(editor): remount moveable on selection so rotated layers show a rotated box"
-        },
-        {
-          "type": "commit",
-          "text": "feat(editor): rotation, opacity for text, rounded-corner slider, duplicate, keyboard, per-size regenerate"
         }
       ],
       "lastSession": null
@@ -918,52 +964,6 @@
         {
           "type": "commit",
           "text": "Add Bria as a trial background-removal provider"
-        }
-      ],
-      "lastSession": null
-    },
-    {
-      "name": "Canva_ads",
-      "humanName": "Canva_ads",
-      "tagline": "A repeatable flow that turns a request into ad-ready assets:",
-      "longDescription": "A repeatable flow that turns a request into ad-ready assets:",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#2d5f7f",
-      "screenshot": null,
-      "stack": "Python",
-      "status": "archive",
-      "subStatus": null,
-      "lastActivity": "2026-06-23T23:48:12.000Z",
-      "lastActivityHebrew": "לפני 2 חודשים",
-      "size": "114M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": null,
-      "source": "local",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "2 months ago",
-        "lastCommitMessage": "docs: spec for Creative Asset Studio web app (copy + FastAPI + React editor)",
-        "lastCommitDate": "2026-06-24 02:48:12 +0300",
-        "lastCommitHebrew": "לפני 2 חודשים",
-        "isDirty": true,
-        "changedFiles": 6
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "docs: spec for Creative Asset Studio web app (copy + FastAPI + React editor)"
-        },
-        {
-          "type": "commit",
-          "text": "merge: creative-asset-flow tool (prep_assets + new-creative-batch skill)"
-        },
-        {
-          "type": "commit",
-          "text": "feat: add new-creative-batch skill and document prep_assets.py"
         }
       ],
       "lastSession": null
