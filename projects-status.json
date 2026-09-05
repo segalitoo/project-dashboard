@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-04T03:33:52.083Z",
+  "lastUpdated": "2026-09-05T05:50:33.020Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 40,
   "counts": {
@@ -23,8 +23,8 @@
       "stack": "HTML/CSS/JS",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-09-03T23:29:46.234Z",
-      "lastActivityHebrew": "לפני 4 שעות",
+      "lastActivity": "2026-09-05T05:49:50.529Z",
+      "lastActivityHebrew": "הרגע",
       "size": "159M",
       "isLive": false,
       "liveUrl": null,
@@ -33,7 +33,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "9 days ago",
+        "lastCommitRelative": "10 days ago",
         "lastCommitMessage": "Update index.html content",
         "lastCommitDate": "2026-08-26 14:49:22 +0300",
         "lastCommitHebrew": "השבוע",
@@ -61,7 +61,7 @@
       ],
       "lastSession": {
         "sessionId": "62949473-9542-4af5-b1f3-c760e5957a96",
-        "lastActivity": "2026-09-03T23:29:46.234Z",
+        "lastActivity": "2026-09-05T05:49:50.529Z",
         "summary": "Continue from where you left off."
       }
     },
@@ -79,7 +79,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-09-03T23:16:05.000Z",
-      "lastActivityHebrew": "לפני 4 שעות",
+      "lastActivityHebrew": "אתמול",
       "size": "115M",
       "isLive": false,
       "liveUrl": null,
@@ -88,10 +88,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "4 hours ago",
+        "lastCommitRelative": "31 hours ago",
         "lastCommitMessage": "merge: payoneer batch, studio plans, dev launch config",
         "lastCommitDate": "2026-09-04 02:16:05 +0300",
-        "lastCommitHebrew": "לפני 4 שעות",
+        "lastCommitHebrew": "אתמול",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -125,7 +125,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-09-03T23:15:10.000Z",
-      "lastActivityHebrew": "לפני 4 שעות",
+      "lastActivityHebrew": "אתמול",
       "size": "318M",
       "isLive": false,
       "liveUrl": null,
@@ -134,10 +134,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "4 hours ago",
+        "lastCommitRelative": "31 hours ago",
         "lastCommitMessage": "merge: brand-aware studio inputs and Crafel design system",
         "lastCommitDate": "2026-09-04 02:15:10 +0300",
-        "lastCommitHebrew": "לפני 4 שעות",
+        "lastCommitHebrew": "אתמול",
         "isDirty": true,
         "changedFiles": 11
       },
@@ -209,7 +209,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "10 days ago",
+        "lastCommitRelative": "11 days ago",
         "lastCommitMessage": "Simplify Pip's robot design",
         "lastCommitDate": "2026-08-25 02:49:37 +0300",
         "lastCommitHebrew": "השבוע",
