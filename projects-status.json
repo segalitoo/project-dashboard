@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-05T05:50:33.020Z",
+  "lastUpdated": "2026-09-05T15:11:25.290Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 40,
   "counts": {
@@ -23,8 +23,8 @@
       "stack": "HTML/CSS/JS",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-09-05T05:49:50.529Z",
-      "lastActivityHebrew": "הרגע",
+      "lastActivity": "2026-09-05T11:50:39.649Z",
+      "lastActivityHebrew": "לפני 3 שעות",
       "size": "159M",
       "isLive": false,
       "liveUrl": null,
@@ -61,7 +61,7 @@
       ],
       "lastSession": {
         "sessionId": "62949473-9542-4af5-b1f3-c760e5957a96",
-        "lastActivity": "2026-09-05T05:49:50.529Z",
+        "lastActivity": "2026-09-05T11:50:39.649Z",
         "summary": "Continue from where you left off."
       }
     },
@@ -88,7 +88,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "31 hours ago",
+        "lastCommitRelative": "2 days ago",
         "lastCommitMessage": "merge: payoneer batch, studio plans, dev launch config",
         "lastCommitDate": "2026-09-04 02:16:05 +0300",
         "lastCommitHebrew": "אתמול",
@@ -134,7 +134,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "31 hours ago",
+        "lastCommitRelative": "2 days ago",
         "lastCommitMessage": "merge: brand-aware studio inputs and Crafel design system",
         "lastCommitDate": "2026-09-04 02:15:10 +0300",
         "lastCommitHebrew": "אתמול",
@@ -209,7 +209,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "11 days ago",
+        "lastCommitRelative": "12 days ago",
         "lastCommitMessage": "Simplify Pip's robot design",
         "lastCommitDate": "2026-08-25 02:49:37 +0300",
         "lastCommitHebrew": "השבוע",
