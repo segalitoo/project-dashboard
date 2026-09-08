@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-08T11:21:54.593Z",
+  "lastUpdated": "2026-09-08T18:50:04.754Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 41,
   "counts": {
@@ -23,8 +23,8 @@
       "stack": "HTML/CSS/JS",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-09-08T11:07:45.194Z",
-      "lastActivityHebrew": "לפני 14 דקות",
+      "lastActivity": "2026-09-08T11:41:24.521Z",
+      "lastActivityHebrew": "לפני 7 שעות",
       "size": "159M",
       "isLive": false,
       "liveUrl": null,
@@ -38,7 +38,7 @@
         "lastCommitDate": "2026-08-26 14:49:22 +0300",
         "lastCommitHebrew": "השבוע",
         "isDirty": true,
-        "changedFiles": 16
+        "changedFiles": 18
       },
       "recentActions": [
         {
@@ -61,7 +61,7 @@
       ],
       "lastSession": {
         "sessionId": "62949473-9542-4af5-b1f3-c760e5957a96",
-        "lastActivity": "2026-09-08T11:07:45.194Z",
+        "lastActivity": "2026-09-08T11:41:24.521Z",
         "summary": "Continue from where you left off."
       }
     },
@@ -79,7 +79,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-09-07T21:24:16.625Z",
-      "lastActivityHebrew": "לפני 13 שעות",
+      "lastActivityHebrew": "לפני 21 שעות",
       "size": "257M",
       "isLive": true,
       "liveUrl": "https://payoneer-ad-generator.vercel.app",
