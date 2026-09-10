@@ -1,15 +1,44 @@
 {
-  "lastUpdated": "2026-09-10T04:55:07.466Z",
+  "lastUpdated": "2026-09-10T11:46:09.735Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 41,
   "counts": {
     "live": 0,
-    "building": 4,
-    "paused": 4,
+    "building": 5,
+    "paused": 3,
     "archive": 17,
     "idea": 16
   },
   "projects": [
+    {
+      "name": "tabspeak",
+      "humanName": "TabSpeak",
+      "tagline": "תוסף שמדבר את התוכן של הטאבים הפתוחים",
+      "longDescription": "תוסף דפדפן שקורא בקול את התוכן של הטאב הפעיל. שימושי לרב-משימה ולנגישות. בנוי על React 19 + Vite.",
+      "nextStep": "לתקן את הבאג שדווח (\"i think its not working\")",
+      "notes": null,
+      "category": "Productivity",
+      "accentColor": "#a06b9e",
+      "screenshot": null,
+      "stack": "TypeScript + React 19 + Vite",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-09-10T11:37:45.967Z",
+      "lastActivityHebrew": "לפני 8 דקות",
+      "size": "678M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [],
+      "lastSession": {
+        "sessionId": "b38b00e2-f4e7-4f80-9fb3-b5588f8b0b16",
+        "lastActivity": "2026-09-10T11:37:45.967Z",
+        "summary": "Base directory for this skill: /Users/rannsegal/Library/Application Support/Claude/local-agent-mode-sessions/skills-plug…"
+      }
+    },
     {
       "name": "ran-portfolio",
       "humanName": "פורטפוליו אישי",
@@ -24,7 +53,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-09-08T11:41:24.521Z",
-      "lastActivityHebrew": "אתמול",
+      "lastActivityHebrew": "שלשום",
       "size": "159M",
       "isLive": false,
       "liveUrl": null,
@@ -88,7 +117,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "4 weeks ago",
+        "lastCommitRelative": "5 weeks ago",
         "lastCommitMessage": "Untrack agent tooling scratch",
         "lastCommitDate": "2026-08-10 02:33:57 +0300",
         "lastCommitHebrew": "לפני חודש",
@@ -143,7 +172,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "6 days ago",
+        "lastCommitRelative": "7 days ago",
         "lastCommitMessage": "merge: payoneer batch, studio plans, dev launch config",
         "lastCommitDate": "2026-09-04 02:16:05 +0300",
         "lastCommitHebrew": "לפני 6 ימים",
@@ -189,7 +218,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "6 days ago",
+        "lastCommitRelative": "7 days ago",
         "lastCommitMessage": "merge: brand-aware studio inputs and Crafel design system",
         "lastCommitDate": "2026-09-04 02:15:10 +0300",
         "lastCommitHebrew": "לפני 6 ימים",
@@ -211,35 +240,6 @@
         }
       ],
       "lastSession": null
-    },
-    {
-      "name": "tabspeak",
-      "humanName": "TabSpeak",
-      "tagline": "תוסף שמדבר את התוכן של הטאבים הפתוחים",
-      "longDescription": "תוסף דפדפן שקורא בקול את התוכן של הטאב הפעיל. שימושי לרב-משימה ולנגישות. בנוי על React 19 + Vite.",
-      "nextStep": "לתקן את הבאג שדווח (\"i think its not working\")",
-      "notes": null,
-      "category": "Productivity",
-      "accentColor": "#a06b9e",
-      "screenshot": null,
-      "stack": "TypeScript + React 19 + Vite",
-      "status": "paused",
-      "subStatus": null,
-      "lastActivity": "2026-08-25T00:12:26.594Z",
-      "lastActivityHebrew": "לפני 2 שבועות",
-      "size": "676M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": null,
-      "source": "local",
-      "hasGit": false,
-      "git": null,
-      "recentActions": [],
-      "lastSession": {
-        "sessionId": "b38b00e2-f4e7-4f80-9fb3-b5588f8b0b16",
-        "lastActivity": "2026-08-25T00:12:26.594Z",
-        "summary": "Base directory for this skill: /Users/rannsegal/Library/Application Support/Claude/local-agent-mode-sessions/skills-plug…"
-      }
     },
     {
       "name": "Kid-AI",
@@ -398,7 +398,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/landing-page",
-        "lastCommitRelative": "4 weeks ago",
+        "lastCommitRelative": "5 weeks ago",
         "lastCommitMessage": "Remove the grammar module",
         "lastCommitDate": "2026-08-10 02:38:18 +0300",
         "lastCommitHebrew": "לפני חודש",
@@ -448,7 +448,7 @@
       "hasGit": true,
       "git": {
         "branch": "claude/add-claude-documentation-gFq7q",
-        "lastCommitRelative": "4 weeks ago",
+        "lastCommitRelative": "5 weeks ago",
         "lastCommitMessage": "Ignore packaged zips and agent worktree scratch",
         "lastCommitDate": "2026-08-10 02:31:44 +0300",
         "lastCommitHebrew": "לפני חודש",
@@ -527,7 +527,7 @@
       "hasGit": true,
       "git": {
         "branch": "redesign/drafting-table",
-        "lastCommitRelative": "4 weeks ago",
+        "lastCommitRelative": "5 weeks ago",
         "lastCommitMessage": "Add dev server launch config",
         "lastCommitDate": "2026-08-10 02:31:53 +0300",
         "lastCommitHebrew": "לפני חודש",
@@ -577,7 +577,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "4 weeks ago",
+        "lastCommitRelative": "5 weeks ago",
         "lastCommitMessage": "Scope the dark theme class hook to :root",
         "lastCommitDate": "2026-08-10 02:31:59 +0300",
         "lastCommitHebrew": "לפני חודש",
@@ -627,7 +627,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "4 weeks ago",
+        "lastCommitRelative": "5 weeks ago",
         "lastCommitMessage": "Add CLAUDE.md",
         "lastCommitDate": "2026-08-10 02:27:56 +0300",
         "lastCommitHebrew": "לפני חודש",
@@ -706,7 +706,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "4 weeks ago",
+        "lastCommitRelative": "5 weeks ago",
         "lastCommitMessage": "Ignore Supabase CLI scratch directory",
         "lastCommitDate": "2026-08-10 02:28:12 +0300",
         "lastCommitHebrew": "לפני חודש",
@@ -756,7 +756,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "4 weeks ago",
+        "lastCommitRelative": "5 weeks ago",
         "lastCommitMessage": "Scope the dark theme class hook to :root",
         "lastCommitDate": "2026-08-10 02:31:59 +0300",
         "lastCommitHebrew": "לפני חודש",
@@ -806,7 +806,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "4 weeks ago",
+        "lastCommitRelative": "5 weeks ago",
         "lastCommitMessage": "Scope the dark theme class hook to :root",
         "lastCommitDate": "2026-08-10 02:31:59 +0300",
         "lastCommitHebrew": "לפני חודש",
