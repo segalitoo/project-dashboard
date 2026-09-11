@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-11T00:46:07.207Z",
+  "lastUpdated": "2026-09-11T07:41:21.137Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 41,
   "counts": {
@@ -24,7 +24,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-09-10T12:05:05.514Z",
-      "lastActivityHebrew": "לפני 12 שעות",
+      "lastActivityHebrew": "לפני 19 שעות",
       "size": "678M",
       "isLive": false,
       "liveUrl": null,
@@ -343,7 +343,7 @@
       "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-08-14T00:53:01.000Z",
-      "lastActivityHebrew": "לפני 3 שבועות",
+      "lastActivityHebrew": "לפני 0 חודשים",
       "size": "43M",
       "isLive": false,
       "liveUrl": null,
@@ -355,7 +355,7 @@
         "lastCommitRelative": "4 weeks ago",
         "lastCommitMessage": "direction: set the production phase and point ENGINE at the engines reference",
         "lastCommitDate": "2026-08-14 03:53:01 +0300",
-        "lastCommitHebrew": "לפני 3 שבועות",
+        "lastCommitHebrew": "לפני 0 חודשים",
         "isDirty": true,
         "changedFiles": 4
       },
