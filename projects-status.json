@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-14T07:45:13.678Z",
+  "lastUpdated": "2026-09-14T10:45:31.530Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 41,
   "counts": {
@@ -24,7 +24,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-09-13T22:28:56.422Z",
-      "lastActivityHebrew": "לפני 9 שעות",
+      "lastActivityHebrew": "לפני 12 שעות",
       "size": "1.4G",
       "isLive": false,
       "liveUrl": null,
@@ -74,7 +74,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-09-13T20:55:53.688Z",
-      "lastActivityHebrew": "לפני 10 שעות",
+      "lastActivityHebrew": "לפני 13 שעות",
       "size": "822M",
       "isLive": false,
       "liveUrl": null,
@@ -109,7 +109,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-09-13T20:46:26.630Z",
-      "lastActivityHebrew": "לפני 10 שעות",
+      "lastActivityHebrew": "לפני 13 שעות",
       "size": "1.1G",
       "isLive": true,
       "liveUrl": "https://zoom-for-kids.vercel.app",
@@ -160,7 +160,7 @@
       "subStatus": null,
       "lastActivity": "2026-09-08T11:41:24.521Z",
       "lastActivityHebrew": "לפני 5 ימים",
-      "size": "164M",
+      "size": "171M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": "https://github.com/segalitoo/ran-portfolio",
@@ -173,7 +173,7 @@
         "lastCommitDate": "2026-08-26 14:49:22 +0300",
         "lastCommitHebrew": "לפני 2 שבועות",
         "isDirty": true,
-        "changedFiles": 20
+        "changedFiles": 30
       },
       "recentActions": [
         {
@@ -324,7 +324,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "10 days ago",
+        "lastCommitRelative": "11 days ago",
         "lastCommitMessage": "merge: brand-aware studio inputs and Crafel design system",
         "lastCommitDate": "2026-09-04 02:15:10 +0300",
         "lastCommitHebrew": "השבוע",
