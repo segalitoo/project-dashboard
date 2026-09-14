@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-09-14T14:34:02.355Z",
+  "lastUpdated": "2026-09-14T22:29:01.607Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 41,
   "counts": {
     "live": 0,
-    "building": 5,
-    "paused": 4,
+    "building": 4,
+    "paused": 5,
     "archive": 16,
     "idea": 16
   },
@@ -24,7 +24,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-09-13T22:28:56.422Z",
-      "lastActivityHebrew": "לפני 16 שעות",
+      "lastActivityHebrew": "לפני 23 שעות",
       "size": "1.4G",
       "isLive": false,
       "liveUrl": null,
@@ -74,7 +74,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-09-13T20:55:53.688Z",
-      "lastActivityHebrew": "לפני 17 שעות",
+      "lastActivityHebrew": "אתמול",
       "size": "822M",
       "isLive": false,
       "liveUrl": null,
@@ -109,7 +109,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-09-13T20:46:26.630Z",
-      "lastActivityHebrew": "לפני 17 שעות",
+      "lastActivityHebrew": "אתמול",
       "size": "1.1G",
       "isLive": true,
       "liveUrl": "https://zoom-for-kids.vercel.app",
@@ -173,7 +173,7 @@
         "lastCommitDate": "2026-08-26 14:49:22 +0300",
         "lastCommitHebrew": "לפני 2 שבועות",
         "isDirty": true,
-        "changedFiles": 30
+        "changedFiles": 28
       },
       "recentActions": [
         {
@@ -211,10 +211,10 @@
       "accentColor": "#8b3a2e",
       "screenshot": null,
       "stack": "TypeScript + React 19 + Vite + Supabase",
-      "status": "building",
+      "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-09-07T21:24:16.625Z",
-      "lastActivityHebrew": "לפני 6 ימים",
+      "lastActivityHebrew": "השבוע",
       "size": "257M",
       "isLive": true,
       "liveUrl": "https://payoneer-ad-generator.vercel.app",
@@ -988,7 +988,7 @@
       "status": "archive",
       "subStatus": null,
       "lastActivity": "2026-06-16T19:24:30.000Z",
-      "lastActivityHebrew": "לפני 2 חודשים",
+      "lastActivityHebrew": "לפני 3 חודשים",
       "size": "287M",
       "isLive": false,
       "liveUrl": null,
@@ -1000,7 +1000,7 @@
         "lastCommitRelative": "3 months ago",
         "lastCommitMessage": "Pre-fill non-secret values in .env.example for easier setup",
         "lastCommitDate": "2026-06-16 19:24:30 +0000",
-        "lastCommitHebrew": "לפני 2 חודשים",
+        "lastCommitHebrew": "לפני 3 חודשים",
         "isDirty": true,
         "changedFiles": 1
       },
