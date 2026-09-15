@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-15T20:09:11.116Z",
+  "lastUpdated": "2026-09-15T23:20:49.773Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 41,
   "counts": {
@@ -24,7 +24,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-09-13T22:28:56.422Z",
-      "lastActivityHebrew": "אתמול",
+      "lastActivityHebrew": "שלשום",
       "size": "1.4G",
       "isLive": false,
       "liveUrl": null,
@@ -74,7 +74,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-09-13T20:55:53.688Z",
-      "lastActivityHebrew": "אתמול",
+      "lastActivityHebrew": "שלשום",
       "size": "822M",
       "isLive": false,
       "liveUrl": null,
@@ -109,7 +109,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-09-13T20:46:26.630Z",
-      "lastActivityHebrew": "אתמול",
+      "lastActivityHebrew": "שלשום",
       "size": "1.1G",
       "isLive": true,
       "liveUrl": "https://zoom-for-kids.vercel.app",
@@ -899,7 +899,7 @@
         "lastCommitRelative": "9 weeks ago",
         "lastCommitMessage": "Fix auth deadlock that hung Save and Set-password forever",
         "lastCommitDate": "2026-07-18 00:35:04 +0300",
-        "lastCommitHebrew": "לפני חודש",
+        "lastCommitHebrew": "לפני 2 חודשים",
         "isDirty": false,
         "changedFiles": 0
       },
