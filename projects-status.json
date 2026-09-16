@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-16T11:04:08.599Z",
+  "lastUpdated": "2026-09-16T14:37:22.913Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 41,
   "counts": {
@@ -23,9 +23,9 @@
       "stack": "HTML/CSS/JS",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-09-16T10:58:33.020Z",
-      "lastActivityHebrew": "לפני 5 דקות",
-      "size": "177M",
+      "lastActivity": "2026-09-16T12:37:30.096Z",
+      "lastActivityHebrew": "לפני שעה",
+      "size": "178M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": "https://github.com/segalitoo/ran-portfolio",
@@ -36,7 +36,7 @@
         "lastCommitRelative": "3 weeks ago",
         "lastCommitMessage": "Update index.html content",
         "lastCommitDate": "2026-08-26 14:49:22 +0300",
-        "lastCommitHebrew": "לפני 2 שבועות",
+        "lastCommitHebrew": "לפני 3 שבועות",
         "isDirty": true,
         "changedFiles": 33
       },
@@ -61,7 +61,7 @@
       ],
       "lastSession": {
         "sessionId": "62949473-9542-4af5-b1f3-c760e5957a96",
-        "lastActivity": "2026-09-16T10:58:33.020Z",
+        "lastActivity": "2026-09-16T12:37:30.096Z",
         "summary": "Continue from where you left off."
       }
     },
@@ -79,7 +79,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-09-16T10:12:26.068Z",
-      "lastActivityHebrew": "לפני 51 דקות",
+      "lastActivityHebrew": "לפני 4 שעות",
       "size": "1.4G",
       "isLive": false,
       "liveUrl": null,
@@ -951,7 +951,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "8 weeks ago",
+        "lastCommitRelative": "9 weeks ago",
         "lastCommitMessage": "Migrate attire step to Bria gen_fill with a real-face guarantee",
         "lastCommitDate": "2026-07-19 03:04:45 +0300",
         "lastCommitHebrew": "לפני חודש",
