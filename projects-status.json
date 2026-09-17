@@ -1,15 +1,48 @@
 {
-  "lastUpdated": "2026-09-17T03:53:20.424Z",
+  "lastUpdated": "2026-09-17T08:35:52.857Z",
   "lastUpdatedHebrew": "הרגע",
-  "projectCount": 41,
+  "projectCount": 42,
   "counts": {
-    "live": 0,
-    "building": 4,
+    "live": 1,
+    "building": 5,
     "paused": 5,
     "archive": 16,
-    "idea": 16
+    "idea": 15
   },
   "projects": [
+    {
+      "name": "spotted",
+      "humanName": "Spotted",
+      "tagline": "כלי לסימון אובייקטים בתמונות",
+      "longDescription": "אפליקציית web לסימון אובייקטים בתמונות באמצעות bounding boxes. בנוי על Next.js + React 19. שלב מוקדם של פיתוח.",
+      "nextStep": "להוסיף סימון פנים בתמונה הראשית",
+      "notes": null,
+      "category": "Creative",
+      "accentColor": "#b85f5f",
+      "screenshot": null,
+      "stack": "TypeScript",
+      "status": "live",
+      "subStatus": null,
+      "lastActivity": "2026-04-21T22:36:34Z",
+      "lastActivityHebrew": "לפני כחצי שנה",
+      "size": "cloud",
+      "isLive": true,
+      "liveUrl": "https://spotted-tau.vercel.app",
+      "githubUrl": "https://github.com/segalitoo/spotted",
+      "source": "cloud",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "",
+        "lastCommitMessage": "",
+        "lastCommitDate": "2026-04-21T22:36:34Z",
+        "lastCommitHebrew": "לפני כחצי שנה",
+        "isDirty": false,
+        "changedFiles": 0
+      },
+      "recentActions": [],
+      "lastSession": null
+    },
     {
       "name": "ran-portfolio",
       "humanName": "פורטפוליו אישי",
@@ -23,9 +56,9 @@
       "stack": "HTML/CSS/JS",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-09-16T20:41:31.083Z",
-      "lastActivityHebrew": "לפני 7 שעות",
-      "size": "178M",
+      "lastActivity": "2026-09-17T08:35:25.864Z",
+      "lastActivityHebrew": "הרגע",
+      "size": "196M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": "https://github.com/segalitoo/ran-portfolio",
@@ -33,25 +66,25 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "3 weeks ago",
-        "lastCommitMessage": "Update index.html content",
-        "lastCommitDate": "2026-08-26 14:49:22 +0300",
-        "lastCommitHebrew": "לפני 3 שבועות",
-        "isDirty": true,
-        "changedFiles": 33
+        "lastCommitRelative": "36 minutes ago",
+        "lastCommitMessage": "Unframe the hero image, match the landing page typeface",
+        "lastCommitDate": "2026-09-17 10:59:58 +0300",
+        "lastCommitHebrew": "לפני 35 דקות",
+        "isDirty": false,
+        "changedFiles": 0
       },
       "recentActions": [
         {
           "type": "commit",
-          "text": "Update index.html content"
+          "text": "Unframe the hero image, match the landing page typeface"
         },
         {
           "type": "commit",
-          "text": "Hide static crawler fallback from visual display"
+          "text": "Drop the recording pill and the pause control, still hero for Shhh"
         },
         {
           "type": "commit",
-          "text": "Add OG tags and static HTML fallback for crawlers"
+          "text": "Stop deploying the design archive"
         },
         {
           "type": "chat",
@@ -61,9 +94,47 @@
       ],
       "lastSession": {
         "sessionId": "62949473-9542-4af5-b1f3-c760e5957a96",
-        "lastActivity": "2026-09-16T20:41:31.083Z",
+        "lastActivity": "2026-09-17T08:35:25.864Z",
         "summary": "Continue from where you left off."
       }
+    },
+    {
+      "name": "cotton-candy",
+      "humanName": "cotton-candy",
+      "tagline": "HTML/CSS/JS",
+      "longDescription": "פרוייקט ב-HTML/CSS/JS",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#1a4d4d",
+      "screenshot": null,
+      "stack": "HTML/CSS/JS",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-09-17T08:28:54.000Z",
+      "lastActivityHebrew": "לפני 6 דקות",
+      "size": "7.3M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "7 minutes ago",
+        "lastCommitMessage": "Tsemer: a cotton candy landing page in English and Hebrew",
+        "lastCommitDate": "2026-09-17 11:28:54 +0300",
+        "lastCommitHebrew": "לפני 6 דקות",
+        "isDirty": true,
+        "changedFiles": 5
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Tsemer: a cotton candy landing page in English and Hebrew"
+        }
+      ],
+      "lastSession": null
     },
     {
       "name": "Shhh",
@@ -79,7 +150,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-09-16T10:12:26.068Z",
-      "lastActivityHebrew": "לפני 17 שעות",
+      "lastActivityHebrew": "לפני 22 שעות",
       "size": "1.4G",
       "isLive": false,
       "liveUrl": null,
@@ -1364,31 +1435,6 @@
       "liveUrl": null,
       "githubUrl": null,
       "source": "local",
-      "hasGit": false,
-      "git": null,
-      "recentActions": [],
-      "lastSession": null
-    },
-    {
-      "name": "spotted",
-      "humanName": "Spotted",
-      "tagline": "כלי לסימון אובייקטים בתמונות",
-      "longDescription": "אפליקציית web לסימון אובייקטים בתמונות באמצעות bounding boxes. בנוי על Next.js + React 19. שלב מוקדם של פיתוח.",
-      "nextStep": "להוסיף סימון פנים בתמונה הראשית",
-      "notes": null,
-      "category": "Creative",
-      "accentColor": "#b85f5f",
-      "screenshot": null,
-      "stack": "TypeScript + Next.js",
-      "status": "idea",
-      "subStatus": null,
-      "lastActivity": null,
-      "lastActivityHebrew": "",
-      "size": "442M",
-      "isLive": true,
-      "liveUrl": "https://spotted-tau.vercel.app",
-      "githubUrl": "https://github.com/segalitoo/spotted",
-      "source": "both",
       "hasGit": false,
       "git": null,
       "recentActions": [],
