@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-09-18T13:03:32.218Z",
+  "lastUpdated": "2026-09-18T23:13:00.884Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 43,
   "counts": {
     "live": 1,
     "building": 5,
-    "paused": 5,
-    "archive": 16,
+    "paused": 4,
+    "archive": 17,
     "idea": 16
   },
   "projects": [
@@ -56,9 +56,9 @@
       "stack": "HTML/CSS/JS",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-09-17T20:53:32.477Z",
-      "lastActivityHebrew": "לפני 16 שעות",
-      "size": "196M",
+      "lastActivity": "2026-09-18T20:53:36.052Z",
+      "lastActivityHebrew": "לפני 2 שעות",
+      "size": "197M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": "https://github.com/segalitoo/ran-portfolio",
@@ -66,25 +66,30 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "29 hours ago",
-        "lastCommitMessage": "Unframe the hero image, match the landing page typeface",
-        "lastCommitDate": "2026-09-17 10:59:58 +0300",
-        "lastCommitHebrew": "אתמול",
+        "lastCommitRelative": "2 hours ago",
+        "lastCommitMessage": "Take the Shhh pill down 25 per cent",
+        "lastCommitDate": "2026-09-18 23:52:22 +0300",
+        "lastCommitHebrew": "לפני 2 שעות",
         "isDirty": false,
         "changedFiles": 0
       },
       "recentActions": [
         {
           "type": "commit",
+          "text": "Take the Shhh pill down 25 per cent"
+        },
+        {
+          "type": "commit",
+          "text": "Shhh hero: the real dictation pill, not a picture of it"
+        },
+        {
+          "type": "commit",
           "text": "Unframe the hero image, match the landing page typeface"
         },
         {
-          "type": "commit",
-          "text": "Drop the recording pill and the pause control, still hero for Shhh"
-        },
-        {
-          "type": "commit",
-          "text": "Stop deploying the design archive"
+          "type": "chat",
+          "text": "we also dont need the box with background for the images or animation\n\nin need to fill like the image or animation is ju…",
+          "sessionId": "24c0da2a-c87a-495f-8e1e-7ba121901f03"
         },
         {
           "type": "chat",
@@ -93,9 +98,9 @@
         }
       ],
       "lastSession": {
-        "sessionId": "62949473-9542-4af5-b1f3-c760e5957a96",
-        "lastActivity": "2026-09-17T20:53:32.477Z",
-        "summary": "Continue from where you left off."
+        "sessionId": "24c0da2a-c87a-495f-8e1e-7ba121901f03",
+        "lastActivity": "2026-09-18T20:53:36.052Z",
+        "summary": "we also dont need the box with background for the images or animation\n\nin need to fill like the image or animation is ju…"
       }
     },
     {
@@ -121,7 +126,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "28 hours ago",
+        "lastCommitRelative": "2 days ago",
         "lastCommitMessage": "Option 2: the page as the shop counter",
         "lastCommitDate": "2026-09-17 11:40:13 +0300",
         "lastCommitHebrew": "אתמול",
@@ -204,7 +209,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-09-13T20:55:53.688Z",
-      "lastActivityHebrew": "לפני 4 ימים",
+      "lastActivityHebrew": "לפני 5 ימים",
       "size": "822M",
       "isLive": false,
       "liveUrl": null,
@@ -239,7 +244,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-09-13T20:46:26.630Z",
-      "lastActivityHebrew": "לפני 4 ימים",
+      "lastActivityHebrew": "לפני 5 ימים",
       "size": "1.1G",
       "isLive": true,
       "liveUrl": "https://zoom-for-kids.vercel.app",
@@ -479,10 +484,10 @@
       "accentColor": "#3a4a6b",
       "screenshot": null,
       "stack": "Unknown",
-      "status": "paused",
+      "status": "archive",
       "subStatus": null,
       "lastActivity": "2026-08-19T21:44:49.000Z",
-      "lastActivityHebrew": "לפני 0 חודשים",
+      "lastActivityHebrew": "לפני חודש",
       "size": "1.4M",
       "isLive": false,
       "liveUrl": null,
@@ -494,7 +499,7 @@
         "lastCommitRelative": "4 weeks ago",
         "lastCommitMessage": "Add Scene 02 \"Blue Wave\" storyboard and restore the director subagent",
         "lastCommitDate": "2026-08-20 00:44:49 +0300",
-        "lastCommitHebrew": "לפני 0 חודשים",
+        "lastCommitHebrew": "לפני חודש",
         "isDirty": true,
         "changedFiles": 1
       },
@@ -962,7 +967,7 @@
       "status": "archive",
       "subStatus": null,
       "lastActivity": "2026-07-20T20:38:42.981Z",
-      "lastActivityHebrew": "לפני חודש",
+      "lastActivityHebrew": "לפני 2 חודשים",
       "size": "592K",
       "isLive": false,
       "liveUrl": null,
