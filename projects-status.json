@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-18T23:13:00.884Z",
+  "lastUpdated": "2026-09-19T16:55:06.955Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 43,
   "counts": {
@@ -56,8 +56,8 @@
       "stack": "HTML/CSS/JS",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-09-18T20:53:36.052Z",
-      "lastActivityHebrew": "לפני 2 שעות",
+      "lastActivity": "2026-09-19T11:20:43.968Z",
+      "lastActivityHebrew": "לפני 5 שעות",
       "size": "197M",
       "isLive": false,
       "liveUrl": null,
@@ -66,25 +66,25 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "2 hours ago",
-        "lastCommitMessage": "Take the Shhh pill down 25 per cent",
-        "lastCommitDate": "2026-09-18 23:52:22 +0300",
-        "lastCommitHebrew": "לפני 2 שעות",
+        "lastCommitRelative": "6 hours ago",
+        "lastCommitMessage": "Take the card away and let the work sit on the page",
+        "lastCommitDate": "2026-09-19 14:18:49 +0300",
+        "lastCommitHebrew": "לפני 5 שעות",
         "isDirty": false,
         "changedFiles": 0
       },
       "recentActions": [
         {
           "type": "commit",
+          "text": "Take the card away and let the work sit on the page"
+        },
+        {
+          "type": "commit",
+          "text": "Stop the page generator undoing three fixes on every rebuild"
+        },
+        {
+          "type": "commit",
           "text": "Take the Shhh pill down 25 per cent"
-        },
-        {
-          "type": "commit",
-          "text": "Shhh hero: the real dictation pill, not a picture of it"
-        },
-        {
-          "type": "commit",
-          "text": "Unframe the hero image, match the landing page typeface"
         },
         {
           "type": "chat",
@@ -99,7 +99,7 @@
       ],
       "lastSession": {
         "sessionId": "24c0da2a-c87a-495f-8e1e-7ba121901f03",
-        "lastActivity": "2026-09-18T20:53:36.052Z",
+        "lastActivity": "2026-09-19T11:20:43.968Z",
         "summary": "we also dont need the box with background for the images or animation\n\nin need to fill like the image or animation is ju…"
       }
     },
@@ -117,7 +117,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-09-17T08:40:13.000Z",
-      "lastActivityHebrew": "אתמול",
+      "lastActivityHebrew": "שלשום",
       "size": "7.4M",
       "isLive": false,
       "liveUrl": null,
@@ -129,7 +129,7 @@
         "lastCommitRelative": "2 days ago",
         "lastCommitMessage": "Option 2: the page as the shop counter",
         "lastCommitDate": "2026-09-17 11:40:13 +0300",
-        "lastCommitHebrew": "אתמול",
+        "lastCommitHebrew": "שלשום",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -159,7 +159,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-09-16T10:12:26.068Z",
-      "lastActivityHebrew": "שלשום",
+      "lastActivityHebrew": "לפני 3 ימים",
       "size": "1.4G",
       "isLive": false,
       "liveUrl": null,
