@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T16:55:06.955Z",
+  "lastUpdated": "2026-09-19T19:55:24.372Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 43,
   "counts": {
@@ -57,7 +57,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-09-19T11:20:43.968Z",
-      "lastActivityHebrew": "לפני 5 שעות",
+      "lastActivityHebrew": "לפני 8 שעות",
       "size": "197M",
       "isLive": false,
       "liveUrl": null,
@@ -66,10 +66,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "6 hours ago",
+        "lastCommitRelative": "9 hours ago",
         "lastCommitMessage": "Take the card away and let the work sit on the page",
         "lastCommitDate": "2026-09-19 14:18:49 +0300",
-        "lastCommitHebrew": "לפני 5 שעות",
+        "lastCommitHebrew": "לפני 8 שעות",
         "isDirty": false,
         "changedFiles": 0
       },
