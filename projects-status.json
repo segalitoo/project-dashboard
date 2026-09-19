@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T19:55:24.372Z",
+  "lastUpdated": "2026-09-19T22:56:32.619Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 43,
   "counts": {
@@ -57,7 +57,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-09-19T11:20:43.968Z",
-      "lastActivityHebrew": "לפני 8 שעות",
+      "lastActivityHebrew": "לפני 11 שעות",
       "size": "197M",
       "isLive": false,
       "liveUrl": null,
@@ -66,10 +66,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "9 hours ago",
+        "lastCommitRelative": "12 hours ago",
         "lastCommitMessage": "Take the card away and let the work sit on the page",
         "lastCommitDate": "2026-09-19 14:18:49 +0300",
-        "lastCommitHebrew": "לפני 8 שעות",
+        "lastCommitHebrew": "לפני 11 שעות",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -126,7 +126,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "2 days ago",
+        "lastCommitRelative": "3 days ago",
         "lastCommitMessage": "Option 2: the page as the shop counter",
         "lastCommitDate": "2026-09-17 11:40:13 +0300",
         "lastCommitHebrew": "שלשום",
@@ -209,7 +209,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-09-13T20:55:53.688Z",
-      "lastActivityHebrew": "לפני 5 ימים",
+      "lastActivityHebrew": "לפני 6 ימים",
       "size": "822M",
       "isLive": false,
       "liveUrl": null,
@@ -244,7 +244,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-09-13T20:46:26.630Z",
-      "lastActivityHebrew": "לפני 5 ימים",
+      "lastActivityHebrew": "לפני 6 ימים",
       "size": "1.1G",
       "isLive": true,
       "liveUrl": "https://zoom-for-kids.vercel.app",
