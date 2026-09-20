@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T02:26:46.357Z",
+  "lastUpdated": "2026-09-20T05:41:06.420Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 43,
   "counts": {
@@ -57,7 +57,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-09-20T01:05:44.794Z",
-      "lastActivityHebrew": "לפני שעה",
+      "lastActivityHebrew": "לפני 4 שעות",
       "size": "617M",
       "isLive": false,
       "liveUrl": null,
@@ -66,10 +66,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "2 hours ago",
+        "lastCommitRelative": "5 hours ago",
         "lastCommitMessage": "Two inner-page heroes that move, and four typos out of one of them",
         "lastCommitDate": "2026-09-20 03:18:34 +0300",
-        "lastCommitHebrew": "לפני 2 שעות",
+        "lastCommitHebrew": "לפני 5 שעות",
         "isDirty": true,
         "changedFiles": 31
       },
