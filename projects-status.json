@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-19T22:56:32.619Z",
+  "lastUpdated": "2026-09-20T02:26:46.357Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 43,
   "counts": {
@@ -56,9 +56,9 @@
       "stack": "HTML/CSS/JS",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-09-19T11:20:43.968Z",
-      "lastActivityHebrew": "לפני 11 שעות",
-      "size": "197M",
+      "lastActivity": "2026-09-20T01:05:44.794Z",
+      "lastActivityHebrew": "לפני שעה",
+      "size": "617M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": "https://github.com/segalitoo/ran-portfolio",
@@ -66,14 +66,18 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "12 hours ago",
-        "lastCommitMessage": "Take the card away and let the work sit on the page",
-        "lastCommitDate": "2026-09-19 14:18:49 +0300",
-        "lastCommitHebrew": "לפני 11 שעות",
-        "isDirty": false,
-        "changedFiles": 0
+        "lastCommitRelative": "2 hours ago",
+        "lastCommitMessage": "Two inner-page heroes that move, and four typos out of one of them",
+        "lastCommitDate": "2026-09-20 03:18:34 +0300",
+        "lastCommitHebrew": "לפני 2 שעות",
+        "isDirty": true,
+        "changedFiles": 31
       },
       "recentActions": [
+        {
+          "type": "commit",
+          "text": "Two inner-page heroes that move, and four typos out of one of them"
+        },
         {
           "type": "commit",
           "text": "Take the card away and let the work sit on the page"
@@ -81,10 +85,6 @@
         {
           "type": "commit",
           "text": "Stop the page generator undoing three fixes on every rebuild"
-        },
-        {
-          "type": "commit",
-          "text": "Take the Shhh pill down 25 per cent"
         },
         {
           "type": "chat",
@@ -99,7 +99,7 @@
       ],
       "lastSession": {
         "sessionId": "24c0da2a-c87a-495f-8e1e-7ba121901f03",
-        "lastActivity": "2026-09-19T11:20:43.968Z",
+        "lastActivity": "2026-09-20T01:05:44.794Z",
         "summary": "we also dont need the box with background for the images or animation\n\nin need to fill like the image or animation is ju…"
       }
     },
