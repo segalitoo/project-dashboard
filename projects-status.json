@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T05:41:06.420Z",
+  "lastUpdated": "2026-09-20T09:48:11.550Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 43,
   "counts": {
@@ -56,9 +56,9 @@
       "stack": "HTML/CSS/JS",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-09-20T01:05:44.794Z",
-      "lastActivityHebrew": "לפני 4 שעות",
-      "size": "617M",
+      "lastActivity": "2026-09-20T07:50:00.570Z",
+      "lastActivityHebrew": "לפני שעה",
+      "size": "620M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": "https://github.com/segalitoo/ran-portfolio",
@@ -66,25 +66,25 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "5 hours ago",
-        "lastCommitMessage": "Two inner-page heroes that move, and four typos out of one of them",
-        "lastCommitDate": "2026-09-20 03:18:34 +0300",
-        "lastCommitHebrew": "לפני 5 שעות",
-        "isDirty": true,
-        "changedFiles": 31
+        "lastCommitRelative": "2 hours ago",
+        "lastCommitMessage": "One shoot in South Africa, not several across regions",
+        "lastCommitDate": "2026-09-20 10:49:34 +0300",
+        "lastCommitHebrew": "לפני שעה",
+        "isDirty": false,
+        "changedFiles": 0
       },
       "recentActions": [
         {
           "type": "commit",
-          "text": "Two inner-page heroes that move, and four typos out of one of them"
+          "text": "One shoot in South Africa, not several across regions"
         },
         {
           "type": "commit",
-          "text": "Take the card away and let the work sit on the page"
+          "text": "Send the colour round the arc twice instead of once"
         },
         {
           "type": "commit",
-          "text": "Stop the page generator undoing three fixes on every rebuild"
+          "text": "Let someone press the Brand Guidelines button"
         },
         {
           "type": "chat",
@@ -99,7 +99,7 @@
       ],
       "lastSession": {
         "sessionId": "24c0da2a-c87a-495f-8e1e-7ba121901f03",
-        "lastActivity": "2026-09-20T01:05:44.794Z",
+        "lastActivity": "2026-09-20T07:50:00.570Z",
         "summary": "we also dont need the box with background for the images or animation\n\nin need to fill like the image or animation is ju…"
       }
     },
@@ -117,7 +117,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-09-17T08:40:13.000Z",
-      "lastActivityHebrew": "שלשום",
+      "lastActivityHebrew": "לפני 3 ימים",
       "size": "7.4M",
       "isLive": false,
       "liveUrl": null,
@@ -129,7 +129,7 @@
         "lastCommitRelative": "3 days ago",
         "lastCommitMessage": "Option 2: the page as the shop counter",
         "lastCommitDate": "2026-09-17 11:40:13 +0300",
-        "lastCommitHebrew": "שלשום",
+        "lastCommitHebrew": "לפני 3 ימים",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -496,7 +496,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "4 weeks ago",
+        "lastCommitRelative": "5 weeks ago",
         "lastCommitMessage": "Add Scene 02 \"Blue Wave\" storyboard and restore the director subagent",
         "lastCommitDate": "2026-08-20 00:44:49 +0300",
         "lastCommitHebrew": "לפני חודש",
