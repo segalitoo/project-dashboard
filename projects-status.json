@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-20T21:20:32.953Z",
+  "lastUpdated": "2026-09-21T07:12:07.347Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 43,
   "counts": {
@@ -57,7 +57,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-09-20T07:50:00.570Z",
-      "lastActivityHebrew": "לפני 13 שעות",
+      "lastActivityHebrew": "לפני 23 שעות",
       "size": "620M",
       "isLive": false,
       "liveUrl": null,
@@ -66,10 +66,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "14 hours ago",
+        "lastCommitRelative": "23 hours ago",
         "lastCommitMessage": "One shoot in South Africa, not several across regions",
         "lastCommitDate": "2026-09-20 10:49:34 +0300",
-        "lastCommitHebrew": "לפני 13 שעות",
+        "lastCommitHebrew": "לפני 23 שעות",
         "isDirty": false,
         "changedFiles": 0
       },
