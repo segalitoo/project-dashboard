@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-21T07:12:07.347Z",
+  "lastUpdated": "2026-09-21T10:12:23.326Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 43,
   "counts": {
@@ -57,7 +57,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-09-20T07:50:00.570Z",
-      "lastActivityHebrew": "לפני 23 שעות",
+      "lastActivityHebrew": "אתמול",
       "size": "620M",
       "isLive": false,
       "liveUrl": null,
@@ -66,10 +66,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "23 hours ago",
+        "lastCommitRelative": "26 hours ago",
         "lastCommitMessage": "One shoot in South Africa, not several across regions",
         "lastCommitDate": "2026-09-20 10:49:34 +0300",
-        "lastCommitHebrew": "לפני 23 שעות",
+        "lastCommitHebrew": "אתמול",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -117,7 +117,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-09-17T08:40:13.000Z",
-      "lastActivityHebrew": "לפני 3 ימים",
+      "lastActivityHebrew": "לפני 4 ימים",
       "size": "7.4M",
       "isLive": false,
       "liveUrl": null,
@@ -129,7 +129,7 @@
         "lastCommitRelative": "4 days ago",
         "lastCommitMessage": "Option 2: the page as the shop counter",
         "lastCommitDate": "2026-09-17 11:40:13 +0300",
-        "lastCommitHebrew": "לפני 3 ימים",
+        "lastCommitHebrew": "לפני 4 ימים",
         "isDirty": false,
         "changedFiles": 0
       },
