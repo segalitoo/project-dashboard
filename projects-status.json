@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-21T16:12:55.417Z",
+  "lastUpdated": "2026-09-21T19:30:21.078Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 43,
   "counts": {
@@ -66,7 +66,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "32 hours ago",
+        "lastCommitRelative": "2 days ago",
         "lastCommitMessage": "One shoot in South Africa, not several across regions",
         "lastCommitDate": "2026-09-20 10:49:34 +0300",
         "lastCommitHebrew": "אתמול",
