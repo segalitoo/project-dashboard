@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-22T09:33:57.857Z",
+  "lastUpdated": "2026-09-22T12:34:17.197Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 43,
   "counts": {
@@ -56,8 +56,8 @@
       "stack": "Unknown",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-09-22T09:33:33.814Z",
-      "lastActivityHebrew": "הרגע",
+      "lastActivity": "2026-09-22T09:58:50.472Z",
+      "lastActivityHebrew": "לפני 2 שעות",
       "size": "215M",
       "isLive": false,
       "liveUrl": null,
@@ -71,7 +71,7 @@
         "lastCommitDate": "2026-08-25 02:49:37 +0300",
         "lastCommitHebrew": "לפני 0 חודשים",
         "isDirty": true,
-        "changedFiles": 1
+        "changedFiles": 2
       },
       "recentActions": [
         {
@@ -94,7 +94,7 @@
       ],
       "lastSession": {
         "sessionId": "0c2f1358-34d8-4173-9378-99f00876a6dd",
-        "lastActivity": "2026-09-22T09:33:33.814Z",
+        "lastActivity": "2026-09-22T09:58:50.472Z",
         "summary": "You are acting as my Lead Product Architect and UX/UI Designer.\nTASK: Plan and design a cross-platform (mobile and deskt…"
       }
     },
@@ -112,7 +112,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-09-22T08:55:54.491Z",
-      "lastActivityHebrew": "לפני 37 דקות",
+      "lastActivityHebrew": "לפני 3 שעות",
       "size": "620M",
       "isLive": false,
       "liveUrl": null,
@@ -121,10 +121,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "39 minutes ago",
+        "lastCommitRelative": "4 hours ago",
         "lastCommitMessage": "Let Contact me stand on its own",
         "lastCommitDate": "2026-09-22 11:55:11 +0300",
-        "lastCommitHebrew": "לפני 38 דקות",
+        "lastCommitHebrew": "לפני 3 שעות",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -214,7 +214,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-09-16T10:12:26.068Z",
-      "lastActivityHebrew": "לפני 5 ימים",
+      "lastActivityHebrew": "לפני 6 ימים",
       "size": "1.4G",
       "isLive": false,
       "liveUrl": null,
