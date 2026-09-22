@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-22T18:34:59.301Z",
+  "lastUpdated": "2026-09-22T21:35:20.282Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 43,
   "counts": {
@@ -57,7 +57,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-09-22T09:58:50.472Z",
-      "lastActivityHebrew": "לפני 8 שעות",
+      "lastActivityHebrew": "לפני 11 שעות",
       "size": "215M",
       "isLive": false,
       "liveUrl": null,
@@ -112,7 +112,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-09-22T08:55:54.491Z",
-      "lastActivityHebrew": "לפני 9 שעות",
+      "lastActivityHebrew": "לפני 12 שעות",
       "size": "620M",
       "isLive": false,
       "liveUrl": null,
@@ -121,10 +121,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "10 hours ago",
+        "lastCommitRelative": "13 hours ago",
         "lastCommitMessage": "Let Contact me stand on its own",
         "lastCommitDate": "2026-09-22 11:55:11 +0300",
-        "lastCommitHebrew": "לפני 9 שעות",
+        "lastCommitHebrew": "לפני 12 שעות",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -181,7 +181,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "5 days ago",
+        "lastCommitRelative": "6 days ago",
         "lastCommitMessage": "Option 2: the page as the shop counter",
         "lastCommitDate": "2026-09-17 11:40:13 +0300",
         "lastCommitHebrew": "לפני 5 ימים",
