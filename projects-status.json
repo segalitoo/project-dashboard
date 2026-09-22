@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-21T19:30:21.078Z",
+  "lastUpdated": "2026-09-22T04:42:08.371Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 43,
   "counts": {
@@ -126,7 +126,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "4 days ago",
+        "lastCommitRelative": "5 days ago",
         "lastCommitMessage": "Option 2: the page as the shop counter",
         "lastCommitDate": "2026-09-17 11:40:13 +0300",
         "lastCommitHebrew": "לפני 4 ימים",
@@ -294,7 +294,7 @@
       "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-09-07T21:24:16.625Z",
-      "lastActivityHebrew": "השבוע",
+      "lastActivityHebrew": "לפני 2 שבועות",
       "size": "257M",
       "isLive": true,
       "liveUrl": "https://payoneer-ad-generator.vercel.app",
@@ -441,7 +441,7 @@
       "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-08-24T23:49:37.000Z",
-      "lastActivityHebrew": "לפני 3 שבועות",
+      "lastActivityHebrew": "לפני 0 חודשים",
       "size": "215M",
       "isLive": false,
       "liveUrl": null,
@@ -453,7 +453,7 @@
         "lastCommitRelative": "4 weeks ago",
         "lastCommitMessage": "Simplify Pip's robot design",
         "lastCommitDate": "2026-08-25 02:49:37 +0300",
-        "lastCommitHebrew": "לפני 3 שבועות",
+        "lastCommitHebrew": "לפני 0 חודשים",
         "isDirty": true,
         "changedFiles": 1
       },
