@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-09-22T21:35:20.282Z",
+  "lastUpdated": "2026-09-23T06:35:18.892Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 43,
   "counts": {
     "live": 1,
-    "building": 4,
-    "paused": 5,
-    "archive": 17,
+    "building": 7,
+    "paused": 4,
+    "archive": 15,
     "idea": 16
   },
   "projects": [
@@ -44,6 +44,166 @@
       "lastSession": null
     },
     {
+      "name": "Payoneer-ad-generator",
+      "humanName": "מחולל באנרים לפיוניר",
+      "tagline": "כלי שמייצר אוטומטית באנרים פרסומיים באמצעות AI",
+      "longDescription": "הפרוייקט מקבל פרטי מוצר ומחזיר עשרה באנרים פרסומיים בסגנונות שונים. מבוסס על Gemini ליצירת תמונות וניתוח תוכן, עם backend ב-Supabase לאחסון וצד משתמש ב-React. נבנה כדמו ל-Payoneer.",
+      "nextStep": "לסיים את הפיצ׳ר node-canvas ולמזג ל-main",
+      "notes": null,
+      "category": "AI Tools",
+      "accentColor": "#8b3a2e",
+      "screenshot": null,
+      "stack": "TypeScript + React 19 + Vite + Supabase",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-09-22T23:34:03.024Z",
+      "lastActivityHebrew": "לפני 7 שעות",
+      "size": "257M",
+      "isLive": true,
+      "liveUrl": "https://payoneer-ad-generator.vercel.app",
+      "githubUrl": "https://github.com/segalitoo/Payoneer-ad-generator",
+      "source": "both",
+      "hasGit": true,
+      "git": {
+        "branch": "feat/node-canvas",
+        "lastCommitRelative": "7 hours ago",
+        "lastCommitMessage": "Serve the app for every route on Vercel",
+        "lastCommitDate": "2026-09-23 02:32:49 +0300",
+        "lastCommitHebrew": "לפני 7 שעות",
+        "isDirty": true,
+        "changedFiles": 1
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Serve the app for every route on Vercel"
+        },
+        {
+          "type": "commit",
+          "text": "Make wired-in reference images actually reach generation"
+        },
+        {
+          "type": "commit",
+          "text": "Show reference images whole instead of cropped"
+        },
+        {
+          "type": "chat",
+          "text": "everything is too bright. we need to make a better visability but keeping some elements with pour green mint color",
+          "sessionId": "4f9704cf-f8f9-4706-82c0-a4f2c83021e2"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "4f9704cf-f8f9-4706-82c0-a4f2c83021e2",
+        "lastActivity": "2026-09-22T23:34:03.024Z",
+        "summary": "everything is too bright. we need to make a better visability but keeping some elements with pour green mint color"
+      }
+    },
+    {
+      "name": "Ideas",
+      "humanName": "Ideas",
+      "tagline": "ניצוץ · לתפוס רעיונות לפני שהם בורחים",
+      "longDescription": "ניצוץ · לתפוס רעיונות לפני שהם בורחים",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#a87432",
+      "screenshot": null,
+      "stack": "TypeScript + React 18 + Vite + Supabase",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-09-22T23:15:35.156Z",
+      "lastActivityHebrew": "לפני 7 שעות",
+      "size": "153M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/nitzotz",
+      "source": "local",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "6 weeks ago",
+        "lastCommitMessage": "Scope the dark theme class hook to :root",
+        "lastCommitDate": "2026-08-10 02:31:59 +0300",
+        "lastCommitHebrew": "לפני חודש",
+        "isDirty": false,
+        "changedFiles": 0
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Scope the dark theme class hook to :root"
+        },
+        {
+          "type": "commit",
+          "text": "Redeploy to pick up ANTHROPIC_API_KEY"
+        },
+        {
+          "type": "commit",
+          "text": "Stats and streak sheet"
+        },
+        {
+          "type": "chat",
+          "text": "[Request interrupted by user]",
+          "sessionId": "071cbb82-ca5d-4b36-ad2c-354cd77a8977"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "071cbb82-ca5d-4b36-ad2c-354cd77a8977",
+        "lastActivity": "2026-09-22T23:15:35.156Z",
+        "summary": "[Request interrupted by user]"
+      }
+    },
+    {
+      "name": "anime-master",
+      "humanName": "Anime Master",
+      "tagline": "עורך אנימציות SVG עם ייצוא ל-Lottie",
+      "longDescription": "כלי web ליצירת אנימציות SVG. המשתמש מצייר שכבות, מגדיר keyframes, ומייצא ל-Lottie JSON או GIF. בנוי על Vite + React 18, עם canvas מותאם אישית לעריכה.",
+      "nextStep": "לתקן באג של selectedLayerId כפול",
+      "notes": null,
+      "category": "Creative",
+      "accentColor": "#8b3a8e",
+      "screenshot": null,
+      "stack": "TypeScript + React 18 + Vite",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-09-22T23:00:54.582Z",
+      "lastActivityHebrew": "לפני 7 שעות",
+      "size": "259M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/anime-master",
+      "source": "both",
+      "hasGit": true,
+      "git": {
+        "branch": "redesign/drafting-table",
+        "lastCommitRelative": "6 weeks ago",
+        "lastCommitMessage": "Add dev server launch config",
+        "lastCommitDate": "2026-08-10 02:31:53 +0300",
+        "lastCommitHebrew": "לפני חודש",
+        "isDirty": false,
+        "changedFiles": 0
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Add dev server launch config"
+        },
+        {
+          "type": "commit",
+          "text": "Add editor skin toggle"
+        },
+        {
+          "type": "commit",
+          "text": "fix(editor): keyframe arrow-nudge preempts canvas layer-nudge"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "afab8798-108e-47c3-9588-222e9667cbc0",
+        "lastActivity": "2026-09-22T23:00:54.582Z",
+        "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/b…"
+      }
+    },
+    {
       "name": "Kid-AI",
       "humanName": "Kid-AI",
       "tagline": "Unknown",
@@ -57,7 +217,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-09-22T09:58:50.472Z",
-      "lastActivityHebrew": "לפני 11 שעות",
+      "lastActivityHebrew": "לפני 20 שעות",
       "size": "215M",
       "isLive": false,
       "liveUrl": null,
@@ -112,7 +272,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-09-22T08:55:54.491Z",
-      "lastActivityHebrew": "לפני 12 שעות",
+      "lastActivityHebrew": "לפני 21 שעות",
       "size": "620M",
       "isLive": false,
       "liveUrl": null,
@@ -121,10 +281,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "13 hours ago",
+        "lastCommitRelative": "22 hours ago",
         "lastCommitMessage": "Let Contact me stand on its own",
         "lastCommitDate": "2026-09-22 11:55:11 +0300",
-        "lastCommitHebrew": "לפני 12 שעות",
+        "lastCommitHebrew": "לפני 21 שעות",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -336,61 +496,6 @@
       }
     },
     {
-      "name": "Payoneer-ad-generator",
-      "humanName": "מחולל באנרים לפיוניר",
-      "tagline": "כלי שמייצר אוטומטית באנרים פרסומיים באמצעות AI",
-      "longDescription": "הפרוייקט מקבל פרטי מוצר ומחזיר עשרה באנרים פרסומיים בסגנונות שונים. מבוסס על Gemini ליצירת תמונות וניתוח תוכן, עם backend ב-Supabase לאחסון וצד משתמש ב-React. נבנה כדמו ל-Payoneer.",
-      "nextStep": "לסיים את הפיצ׳ר node-canvas ולמזג ל-main",
-      "notes": null,
-      "category": "AI Tools",
-      "accentColor": "#8b3a2e",
-      "screenshot": null,
-      "stack": "TypeScript + React 19 + Vite + Supabase",
-      "status": "paused",
-      "subStatus": null,
-      "lastActivity": "2026-09-07T21:24:16.625Z",
-      "lastActivityHebrew": "לפני 2 שבועות",
-      "size": "257M",
-      "isLive": true,
-      "liveUrl": "https://payoneer-ad-generator.vercel.app",
-      "githubUrl": "https://github.com/segalitoo/Payoneer-ad-generator",
-      "source": "both",
-      "hasGit": true,
-      "git": {
-        "branch": "feat/node-canvas",
-        "lastCommitRelative": "6 weeks ago",
-        "lastCommitMessage": "Untrack agent tooling scratch",
-        "lastCommitDate": "2026-08-10 02:33:57 +0300",
-        "lastCommitHebrew": "לפני חודש",
-        "isDirty": true,
-        "changedFiles": 29
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Untrack agent tooling scratch"
-        },
-        {
-          "type": "commit",
-          "text": "Add marketing capture scripts and raw screenshots"
-        },
-        {
-          "type": "commit",
-          "text": "Namespace Toolkit design tokens with --tk-"
-        },
-        {
-          "type": "chat",
-          "text": "everything is too bright. we need to make a better visability but keeping some elements with pour green mint color",
-          "sessionId": "4f9704cf-f8f9-4706-82c0-a4f2c83021e2"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "4f9704cf-f8f9-4706-82c0-a4f2c83021e2",
-        "lastActivity": "2026-09-07T21:24:16.625Z",
-        "summary": "everything is too bright. we need to make a better visability but keeping some elements with pour green mint color"
-      }
-    },
-    {
       "name": "Canva_ads",
       "humanName": "Canva_ads",
       "tagline": "A repeatable flow that turns a request into ad-ready assets:",
@@ -593,56 +698,6 @@
       "hasGit": false,
       "git": null,
       "recentActions": [],
-      "lastSession": {
-        "sessionId": "d141b2d9-2443-440b-b6e5-5a4560eac15f",
-        "lastActivity": "2026-08-09T23:53:58.457Z",
-        "summary": ""
-      }
-    },
-    {
-      "name": "anime-master",
-      "humanName": "Anime Master",
-      "tagline": "עורך אנימציות SVG עם ייצוא ל-Lottie",
-      "longDescription": "כלי web ליצירת אנימציות SVG. המשתמש מצייר שכבות, מגדיר keyframes, ומייצא ל-Lottie JSON או GIF. בנוי על Vite + React 18, עם canvas מותאם אישית לעריכה.",
-      "nextStep": "לתקן באג של selectedLayerId כפול",
-      "notes": null,
-      "category": "Creative",
-      "accentColor": "#8b3a8e",
-      "screenshot": null,
-      "stack": "TypeScript + React 18 + Vite",
-      "status": "archive",
-      "subStatus": null,
-      "lastActivity": "2026-08-09T23:53:58.457Z",
-      "lastActivityHebrew": "לפני חודש",
-      "size": "259M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/anime-master",
-      "source": "both",
-      "hasGit": true,
-      "git": {
-        "branch": "redesign/drafting-table",
-        "lastCommitRelative": "6 weeks ago",
-        "lastCommitMessage": "Add dev server launch config",
-        "lastCommitDate": "2026-08-10 02:31:53 +0300",
-        "lastCommitHebrew": "לפני חודש",
-        "isDirty": false,
-        "changedFiles": 0
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Add dev server launch config"
-        },
-        {
-          "type": "commit",
-          "text": "Add editor skin toggle"
-        },
-        {
-          "type": "commit",
-          "text": "fix(editor): keyframe arrow-nudge preempts canvas layer-nudge"
-        }
-      ],
       "lastSession": {
         "sessionId": "d141b2d9-2443-440b-b6e5-5a4560eac15f",
         "lastActivity": "2026-08-09T23:53:58.457Z",
@@ -876,61 +931,6 @@
         "sessionId": "40fe2c06-868b-439c-beaa-eab54e2cdb99",
         "lastActivity": "2026-07-17T22:08:51.721Z",
         "summary": ""
-      }
-    },
-    {
-      "name": "Ideas",
-      "humanName": "Ideas",
-      "tagline": "ניצוץ · לתפוס רעיונות לפני שהם בורחים",
-      "longDescription": "ניצוץ · לתפוס רעיונות לפני שהם בורחים",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#a87432",
-      "screenshot": null,
-      "stack": "TypeScript + React 18 + Vite + Supabase",
-      "status": "archive",
-      "subStatus": null,
-      "lastActivity": "2026-08-09T23:31:59.000Z",
-      "lastActivityHebrew": "לפני חודש",
-      "size": "153M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/nitzotz",
-      "source": "local",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "6 weeks ago",
-        "lastCommitMessage": "Scope the dark theme class hook to :root",
-        "lastCommitDate": "2026-08-10 02:31:59 +0300",
-        "lastCommitHebrew": "לפני חודש",
-        "isDirty": false,
-        "changedFiles": 0
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Scope the dark theme class hook to :root"
-        },
-        {
-          "type": "commit",
-          "text": "Redeploy to pick up ANTHROPIC_API_KEY"
-        },
-        {
-          "type": "commit",
-          "text": "Stats and streak sheet"
-        },
-        {
-          "type": "chat",
-          "text": "[Request interrupted by user]",
-          "sessionId": "071cbb82-ca5d-4b36-ad2c-354cd77a8977"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "071cbb82-ca5d-4b36-ad2c-354cd77a8977",
-        "lastActivity": "2026-07-12T22:13:56.230Z",
-        "summary": "[Request interrupted by user]"
       }
     },
     {
