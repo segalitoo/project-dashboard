@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-24T13:47:08.195Z",
+  "lastUpdated": "2026-09-24T19:06:47.457Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 43,
   "counts": {
@@ -57,7 +57,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-09-24T11:04:26.444Z",
-      "lastActivityHebrew": "לפני 2 שעות",
+      "lastActivityHebrew": "לפני 8 שעות",
       "size": "165M",
       "isLive": false,
       "liveUrl": null,
@@ -66,10 +66,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "6 hours ago",
+        "lastCommitRelative": "12 hours ago",
         "lastCommitMessage": "Connect the dots: AI digest, related ideas and near-duplicates",
         "lastCommitDate": "2026-09-24 10:22:30 +0300",
-        "lastCommitHebrew": "לפני 6 שעות",
+        "lastCommitHebrew": "לפני 11 שעות",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -112,7 +112,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-09-24T10:50:41.414Z",
-      "lastActivityHebrew": "לפני 2 שעות",
+      "lastActivityHebrew": "לפני 8 שעות",
       "size": "207M",
       "isLive": false,
       "liveUrl": null,
@@ -147,7 +147,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-09-24T10:41:29.000Z",
-      "lastActivityHebrew": "לפני 3 שעות",
+      "lastActivityHebrew": "לפני 8 שעות",
       "size": "636M",
       "isLive": false,
       "liveUrl": null,
@@ -156,10 +156,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "3 hours ago",
+        "lastCommitRelative": "8 hours ago",
         "lastCommitMessage": "Pre-launch fixes: previews, LinkedIn, system dark, banner contrast",
         "lastCommitDate": "2026-09-24 13:41:29 +0300",
-        "lastCommitHebrew": "לפני 3 שעות",
+        "lastCommitHebrew": "לפני 8 שעות",
         "isDirty": false,
         "changedFiles": 0
       },
