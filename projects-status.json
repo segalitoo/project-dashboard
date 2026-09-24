@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-24T19:06:47.457Z",
+  "lastUpdated": "2026-09-24T22:07:05.433Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 43,
   "counts": {
@@ -44,6 +44,66 @@
       "lastSession": null
     },
     {
+      "name": "ran-portfolio",
+      "humanName": "פורטפוליו אישי",
+      "tagline": "כרטיס ביקור אונליין - אוסף הפרוייקטים והשירותים שלי",
+      "longDescription": "אתר סטטי בעברית שמרכז את הפרוייקטים, ניסיון העבודה ופרטי קשר. מעוצב ידנית ב-HTML/CSS/JS ללא פריימוורק, עם דגש על טון אישי וחם. כולל מעקב אנליטיקס דרך GA4.",
+      "nextStep": "לפרסם את הגרסה האחרונה (יש 8 קבצים שונו)",
+      "notes": null,
+      "category": "Portfolio",
+      "accentColor": "#3a4a6b",
+      "screenshot": null,
+      "stack": "HTML/CSS/JS",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-09-24T21:57:58.610Z",
+      "lastActivityHebrew": "לפני 9 דקות",
+      "size": "636M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/ran-portfolio",
+      "source": "both",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "13 minutes ago",
+        "lastCommitMessage": "Switch analytics back on",
+        "lastCommitDate": "2026-09-25 00:53:39 +0300",
+        "lastCommitHebrew": "לפני 13 דקות",
+        "isDirty": false,
+        "changedFiles": 0
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Switch analytics back on"
+        },
+        {
+          "type": "commit",
+          "text": "Pre-launch fixes: previews, LinkedIn, system dark, banner contrast"
+        },
+        {
+          "type": "commit",
+          "text": "Say I led the redesign process, and add Creative to every nav"
+        },
+        {
+          "type": "chat",
+          "text": "we also dont need the box with background for the images or animation\n\nin need to fill like the image or animation is ju…",
+          "sessionId": "24c0da2a-c87a-495f-8e1e-7ba121901f03"
+        },
+        {
+          "type": "chat",
+          "text": "Continue from where you left off.",
+          "sessionId": "62949473-9542-4af5-b1f3-c760e5957a96"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "24c0da2a-c87a-495f-8e1e-7ba121901f03",
+        "lastActivity": "2026-09-24T21:57:58.610Z",
+        "summary": "we also dont need the box with background for the images or animation\n\nin need to fill like the image or animation is ju…"
+      }
+    },
+    {
       "name": "Ideas",
       "humanName": "Ideas",
       "tagline": "ניצוץ · לתפוס רעיונות לפני שהם בורחים",
@@ -56,8 +116,8 @@
       "stack": "TypeScript + React 18 + Vite + Supabase",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-09-24T11:04:26.444Z",
-      "lastActivityHebrew": "לפני 8 שעות",
+      "lastActivity": "2026-09-24T21:51:36.368Z",
+      "lastActivityHebrew": "לפני 15 דקות",
       "size": "165M",
       "isLive": false,
       "liveUrl": null,
@@ -66,14 +126,18 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "12 hours ago",
-        "lastCommitMessage": "Connect the dots: AI digest, related ideas and near-duplicates",
-        "lastCommitDate": "2026-09-24 10:22:30 +0300",
-        "lastCommitHebrew": "לפני 11 שעות",
+        "lastCommitRelative": "16 minutes ago",
+        "lastCommitMessage": "Fix sign-in in the installed iOS app with a one-time session handoff",
+        "lastCommitDate": "2026-09-25 00:50:40 +0300",
+        "lastCommitHebrew": "לפני 16 דקות",
         "isDirty": false,
         "changedFiles": 0
       },
       "recentActions": [
+        {
+          "type": "commit",
+          "text": "Fix sign-in in the installed iOS app with a one-time session handoff"
+        },
         {
           "type": "commit",
           "text": "Connect the dots: AI digest, related ideas and near-duplicates"
@@ -83,10 +147,6 @@
           "text": "Photo to idea"
         },
         {
-          "type": "commit",
-          "text": "Auto-tags on save and continuous dictation"
-        },
-        {
           "type": "chat",
           "text": "[Request interrupted by user]",
           "sessionId": "071cbb82-ca5d-4b36-ad2c-354cd77a8977"
@@ -94,7 +154,7 @@
       ],
       "lastSession": {
         "sessionId": "071cbb82-ca5d-4b36-ad2c-354cd77a8977",
-        "lastActivity": "2026-09-24T11:04:26.444Z",
+        "lastActivity": "2026-09-24T21:51:36.368Z",
         "summary": "[Request interrupted by user]"
       }
     },
@@ -112,7 +172,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-09-24T10:50:41.414Z",
-      "lastActivityHebrew": "לפני 8 שעות",
+      "lastActivityHebrew": "לפני 11 שעות",
       "size": "207M",
       "isLive": false,
       "liveUrl": null,
@@ -131,66 +191,6 @@
         "sessionId": "fc0848a9-b3e1-4c1a-8c2d-6563db48e434",
         "lastActivity": "2026-09-24T10:50:41.414Z",
         "summary": "missing image of twinkle"
-      }
-    },
-    {
-      "name": "ran-portfolio",
-      "humanName": "פורטפוליו אישי",
-      "tagline": "כרטיס ביקור אונליין - אוסף הפרוייקטים והשירותים שלי",
-      "longDescription": "אתר סטטי בעברית שמרכז את הפרוייקטים, ניסיון העבודה ופרטי קשר. מעוצב ידנית ב-HTML/CSS/JS ללא פריימוורק, עם דגש על טון אישי וחם. כולל מעקב אנליטיקס דרך GA4.",
-      "nextStep": "לפרסם את הגרסה האחרונה (יש 8 קבצים שונו)",
-      "notes": null,
-      "category": "Portfolio",
-      "accentColor": "#3a4a6b",
-      "screenshot": null,
-      "stack": "HTML/CSS/JS",
-      "status": "building",
-      "subStatus": null,
-      "lastActivity": "2026-09-24T10:41:29.000Z",
-      "lastActivityHebrew": "לפני 8 שעות",
-      "size": "636M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/ran-portfolio",
-      "source": "both",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "8 hours ago",
-        "lastCommitMessage": "Pre-launch fixes: previews, LinkedIn, system dark, banner contrast",
-        "lastCommitDate": "2026-09-24 13:41:29 +0300",
-        "lastCommitHebrew": "לפני 8 שעות",
-        "isDirty": false,
-        "changedFiles": 0
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Pre-launch fixes: previews, LinkedIn, system dark, banner contrast"
-        },
-        {
-          "type": "commit",
-          "text": "Say I led the redesign process, and add Creative to every nav"
-        },
-        {
-          "type": "commit",
-          "text": "Break the creative heading after through it, on wide screens"
-        },
-        {
-          "type": "chat",
-          "text": "we also dont need the box with background for the images or animation\n\nin need to fill like the image or animation is ju…",
-          "sessionId": "24c0da2a-c87a-495f-8e1e-7ba121901f03"
-        },
-        {
-          "type": "chat",
-          "text": "Continue from where you left off.",
-          "sessionId": "62949473-9542-4af5-b1f3-c760e5957a96"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "24c0da2a-c87a-495f-8e1e-7ba121901f03",
-        "lastActivity": "2026-09-22T08:55:54.491Z",
-        "summary": "we also dont need the box with background for the images or animation\n\nin need to fill like the image or animation is ju…"
       }
     },
     {
@@ -376,7 +376,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "7 days ago",
+        "lastCommitRelative": "8 days ago",
         "lastCommitMessage": "Option 2: the page as the shop counter",
         "lastCommitDate": "2026-09-17 11:40:13 +0300",
         "lastCommitHebrew": "השבוע",
