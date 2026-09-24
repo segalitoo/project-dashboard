@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-24T10:46:50.324Z",
+  "lastUpdated": "2026-09-24T13:47:08.195Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 43,
   "counts": {
@@ -44,6 +44,61 @@
       "lastSession": null
     },
     {
+      "name": "Ideas",
+      "humanName": "Ideas",
+      "tagline": "ניצוץ · לתפוס רעיונות לפני שהם בורחים",
+      "longDescription": "ניצוץ · לתפוס רעיונות לפני שהם בורחים",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#a87432",
+      "screenshot": null,
+      "stack": "TypeScript + React 18 + Vite + Supabase",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-09-24T11:04:26.444Z",
+      "lastActivityHebrew": "לפני 2 שעות",
+      "size": "165M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/nitzotz",
+      "source": "local",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "6 hours ago",
+        "lastCommitMessage": "Connect the dots: AI digest, related ideas and near-duplicates",
+        "lastCommitDate": "2026-09-24 10:22:30 +0300",
+        "lastCommitHebrew": "לפני 6 שעות",
+        "isDirty": false,
+        "changedFiles": 0
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Connect the dots: AI digest, related ideas and near-duplicates"
+        },
+        {
+          "type": "commit",
+          "text": "Photo to idea"
+        },
+        {
+          "type": "commit",
+          "text": "Auto-tags on save and continuous dictation"
+        },
+        {
+          "type": "chat",
+          "text": "[Request interrupted by user]",
+          "sessionId": "071cbb82-ca5d-4b36-ad2c-354cd77a8977"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "071cbb82-ca5d-4b36-ad2c-354cd77a8977",
+        "lastActivity": "2026-09-24T11:04:26.444Z",
+        "summary": "[Request interrupted by user]"
+      }
+    },
+    {
       "name": "Playtika",
       "humanName": "Playtika",
       "tagline": "Unknown",
@@ -56,8 +111,8 @@
       "stack": "Unknown",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-09-24T10:41:44.853Z",
-      "lastActivityHebrew": "לפני 4 דקות",
+      "lastActivity": "2026-09-24T10:50:41.414Z",
+      "lastActivityHebrew": "לפני 2 שעות",
       "size": "207M",
       "isLive": false,
       "liveUrl": null,
@@ -74,7 +129,7 @@
       ],
       "lastSession": {
         "sessionId": "fc0848a9-b3e1-4c1a-8c2d-6563db48e434",
-        "lastActivity": "2026-09-24T10:41:44.853Z",
+        "lastActivity": "2026-09-24T10:50:41.414Z",
         "summary": "missing image of twinkle"
       }
     },
@@ -92,7 +147,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-09-24T10:41:29.000Z",
-      "lastActivityHebrew": "לפני 5 דקות",
+      "lastActivityHebrew": "לפני 3 שעות",
       "size": "636M",
       "isLive": false,
       "liveUrl": null,
@@ -100,11 +155,11 @@
       "source": "both",
       "hasGit": true,
       "git": {
-        "branch": "bingo-bay",
-        "lastCommitRelative": "5 minutes ago",
+        "branch": "main",
+        "lastCommitRelative": "3 hours ago",
         "lastCommitMessage": "Pre-launch fixes: previews, LinkedIn, system dark, banner contrast",
         "lastCommitDate": "2026-09-24 13:41:29 +0300",
-        "lastCommitHebrew": "לפני 5 דקות",
+        "lastCommitHebrew": "לפני 3 שעות",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -139,61 +194,6 @@
       }
     },
     {
-      "name": "Ideas",
-      "humanName": "Ideas",
-      "tagline": "ניצוץ · לתפוס רעיונות לפני שהם בורחים",
-      "longDescription": "ניצוץ · לתפוס רעיונות לפני שהם בורחים",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#a87432",
-      "screenshot": null,
-      "stack": "TypeScript + React 18 + Vite + Supabase",
-      "status": "building",
-      "subStatus": null,
-      "lastActivity": "2026-09-24T07:23:40.369Z",
-      "lastActivityHebrew": "לפני 3 שעות",
-      "size": "165M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/nitzotz",
-      "source": "local",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "3 hours ago",
-        "lastCommitMessage": "Connect the dots: AI digest, related ideas and near-duplicates",
-        "lastCommitDate": "2026-09-24 10:22:30 +0300",
-        "lastCommitHebrew": "לפני 3 שעות",
-        "isDirty": false,
-        "changedFiles": 0
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Connect the dots: AI digest, related ideas and near-duplicates"
-        },
-        {
-          "type": "commit",
-          "text": "Photo to idea"
-        },
-        {
-          "type": "commit",
-          "text": "Auto-tags on save and continuous dictation"
-        },
-        {
-          "type": "chat",
-          "text": "[Request interrupted by user]",
-          "sessionId": "071cbb82-ca5d-4b36-ad2c-354cd77a8977"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "071cbb82-ca5d-4b36-ad2c-354cd77a8977",
-        "lastActivity": "2026-09-24T07:23:40.369Z",
-        "summary": "[Request interrupted by user]"
-      }
-    },
-    {
       "name": "Payoneer-ad-generator",
       "humanName": "מחולל באנרים לפיוניר",
       "tagline": "כלי שמייצר אוטומטית באנרים פרסומיים באמצעות AI",
@@ -216,7 +216,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "35 hours ago",
+        "lastCommitRelative": "2 days ago",
         "lastCommitMessage": "Serve the app for every route on Vercel",
         "lastCommitDate": "2026-09-23 02:32:49 +0300",
         "lastCommitHebrew": "אתמול",
@@ -271,7 +271,7 @@
       "hasGit": true,
       "git": {
         "branch": "redesign/drafting-table",
-        "lastCommitRelative": "6 weeks ago",
+        "lastCommitRelative": "7 weeks ago",
         "lastCommitMessage": "Add dev server launch config",
         "lastCommitDate": "2026-08-10 02:31:53 +0300",
         "lastCommitHebrew": "לפני חודש",
@@ -418,7 +418,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/landing-page",
-        "lastCommitRelative": "6 weeks ago",
+        "lastCommitRelative": "7 weeks ago",
         "lastCommitMessage": "Remove the grammar module",
         "lastCommitDate": "2026-08-10 02:38:18 +0300",
         "lastCommitHebrew": "לפני חודש",
@@ -503,7 +503,7 @@
       "hasGit": true,
       "git": {
         "branch": "claude/add-claude-documentation-gFq7q",
-        "lastCommitRelative": "6 weeks ago",
+        "lastCommitRelative": "7 weeks ago",
         "lastCommitMessage": "Ignore packaged zips and agent worktree scratch",
         "lastCommitDate": "2026-08-10 02:31:44 +0300",
         "lastCommitHebrew": "לפני חודש",
@@ -762,7 +762,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "6 weeks ago",
+        "lastCommitRelative": "7 weeks ago",
         "lastCommitMessage": "Scope the dark theme class hook to :root",
         "lastCommitDate": "2026-08-10 02:31:59 +0300",
         "lastCommitHebrew": "לפני חודש",
@@ -812,7 +812,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "6 weeks ago",
+        "lastCommitRelative": "7 weeks ago",
         "lastCommitMessage": "Add CLAUDE.md",
         "lastCommitDate": "2026-08-10 02:27:56 +0300",
         "lastCommitHebrew": "לפני חודש",
@@ -891,7 +891,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "6 weeks ago",
+        "lastCommitRelative": "7 weeks ago",
         "lastCommitMessage": "Ignore Supabase CLI scratch directory",
         "lastCommitDate": "2026-08-10 02:28:12 +0300",
         "lastCommitHebrew": "לפני חודש",
@@ -941,7 +941,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "6 weeks ago",
+        "lastCommitRelative": "7 weeks ago",
         "lastCommitMessage": "Scope the dark theme class hook to :root",
         "lastCommitDate": "2026-08-10 02:31:59 +0300",
         "lastCommitHebrew": "לפני חודש",
