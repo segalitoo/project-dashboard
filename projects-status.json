@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-26T00:33:20.327Z",
+  "lastUpdated": "2026-09-26T22:32:53.806Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 43,
   "counts": {
@@ -57,7 +57,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-09-24T21:57:58.610Z",
-      "lastActivityHebrew": "אתמול",
+      "lastActivityHebrew": "שלשום",
       "size": "636M",
       "isLive": false,
       "liveUrl": null,
@@ -66,10 +66,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "27 hours ago",
+        "lastCommitRelative": "2 days ago",
         "lastCommitMessage": "Switch analytics back on",
         "lastCommitDate": "2026-09-25 00:53:39 +0300",
-        "lastCommitHebrew": "אתמול",
+        "lastCommitHebrew": "שלשום",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -117,7 +117,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-09-24T21:51:36.368Z",
-      "lastActivityHebrew": "אתמול",
+      "lastActivityHebrew": "שלשום",
       "size": "165M",
       "isLive": false,
       "liveUrl": null,
@@ -126,10 +126,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "26 hours ago",
+        "lastCommitRelative": "2 days ago",
         "lastCommitMessage": "Fix sign-in in the installed iOS app with a one-time session handoff",
         "lastCommitDate": "2026-09-25 00:50:40 +0300",
-        "lastCommitHebrew": "אתמול",
+        "lastCommitHebrew": "שלשום",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -172,7 +172,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-09-24T10:50:41.414Z",
-      "lastActivityHebrew": "אתמול",
+      "lastActivityHebrew": "שלשום",
       "size": "207M",
       "isLive": false,
       "liveUrl": null,
@@ -216,7 +216,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "3 days ago",
+        "lastCommitRelative": "4 days ago",
         "lastCommitMessage": "Serve the app for every route on Vercel",
         "lastCommitDate": "2026-09-23 02:32:49 +0300",
         "lastCommitHebrew": "לפני 3 ימים",
@@ -312,7 +312,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-09-22T09:58:50.472Z",
-      "lastActivityHebrew": "לפני 3 ימים",
+      "lastActivityHebrew": "לפני 4 ימים",
       "size": "215M",
       "isLive": false,
       "liveUrl": null,
@@ -376,7 +376,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "9 days ago",
+        "lastCommitRelative": "10 days ago",
         "lastCommitMessage": "Option 2: the page as the shop counter",
         "lastCommitDate": "2026-09-17 11:40:13 +0300",
         "lastCommitHebrew": "השבוע",
@@ -1046,7 +1046,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "10 weeks ago",
+        "lastCommitRelative": "2 months ago",
         "lastCommitMessage": "Migrate attire step to Bria gen_fill with a real-face guarantee",
         "lastCommitDate": "2026-07-19 03:04:45 +0300",
         "lastCommitHebrew": "לפני 2 חודשים",
