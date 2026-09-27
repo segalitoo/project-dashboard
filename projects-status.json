@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-27T12:13:42.754Z",
+  "lastUpdated": "2026-09-27T21:57:59.253Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 43,
   "counts": {
@@ -44,6 +44,61 @@
       "lastSession": null
     },
     {
+      "name": "Kid-AI",
+      "humanName": "Kid-AI",
+      "tagline": "Unknown",
+      "longDescription": "פרוייקט ב-Unknown",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#3d5a3d",
+      "screenshot": null,
+      "stack": "Unknown",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-09-27T13:50:19.095Z",
+      "lastActivityHebrew": "לפני 8 שעות",
+      "size": "215M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/pip-kid-ai",
+      "source": "local",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "8 hours ago",
+        "lastCommitMessage": "Cut answer time roughly in half and remove fake offline answers",
+        "lastCommitDate": "2026-09-27 16:50:02 +0300",
+        "lastCommitHebrew": "לפני 8 שעות",
+        "isDirty": true,
+        "changedFiles": 1
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Cut answer time roughly in half and remove fake offline answers"
+        },
+        {
+          "type": "commit",
+          "text": "Simplify Pip's robot design"
+        },
+        {
+          "type": "commit",
+          "text": "Upgrade Pip's models for stronger Hebrew quality and safety judgment"
+        },
+        {
+          "type": "chat",
+          "text": "You are acting as my Lead Product Architect and UX/UI Designer.\nTASK: Plan and design a cross-platform (mobile and deskt…",
+          "sessionId": "0c2f1358-34d8-4173-9378-99f00876a6dd"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "0c2f1358-34d8-4173-9378-99f00876a6dd",
+        "lastActivity": "2026-09-27T13:50:19.095Z",
+        "summary": "You are acting as my Lead Product Architect and UX/UI Designer.\nTASK: Plan and design a cross-platform (mobile and deskt…"
+      }
+    },
+    {
       "name": "ran-portfolio",
       "humanName": "פורטפוליו אישי",
       "tagline": "כרטיס ביקור אונליין - אוסף הפרוייקטים והשירותים שלי",
@@ -69,7 +124,7 @@
         "lastCommitRelative": "3 days ago",
         "lastCommitMessage": "Switch analytics back on",
         "lastCommitDate": "2026-09-25 00:53:39 +0300",
-        "lastCommitHebrew": "שלשום",
+        "lastCommitHebrew": "לפני 3 ימים",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -117,7 +172,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-09-24T21:51:36.368Z",
-      "lastActivityHebrew": "שלשום",
+      "lastActivityHebrew": "לפני 3 ימים",
       "size": "165M",
       "isLive": false,
       "liveUrl": null,
@@ -129,7 +184,7 @@
         "lastCommitRelative": "3 days ago",
         "lastCommitMessage": "Fix sign-in in the installed iOS app with a one-time session handoff",
         "lastCommitDate": "2026-09-25 00:50:40 +0300",
-        "lastCommitHebrew": "שלשום",
+        "lastCommitHebrew": "לפני 3 ימים",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -299,61 +354,6 @@
       }
     },
     {
-      "name": "Kid-AI",
-      "humanName": "Kid-AI",
-      "tagline": "Unknown",
-      "longDescription": "פרוייקט ב-Unknown",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#3d5a3d",
-      "screenshot": null,
-      "stack": "Unknown",
-      "status": "building",
-      "subStatus": null,
-      "lastActivity": "2026-09-22T09:58:50.472Z",
-      "lastActivityHebrew": "לפני 5 ימים",
-      "size": "215M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/pip-kid-ai",
-      "source": "local",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "5 weeks ago",
-        "lastCommitMessage": "Simplify Pip's robot design",
-        "lastCommitDate": "2026-08-25 02:49:37 +0300",
-        "lastCommitHebrew": "לפני חודש",
-        "isDirty": true,
-        "changedFiles": 2
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Simplify Pip's robot design"
-        },
-        {
-          "type": "commit",
-          "text": "Upgrade Pip's models for stronger Hebrew quality and safety judgment"
-        },
-        {
-          "type": "commit",
-          "text": "Wire up real speech-to-text and fix silent TTS on iOS"
-        },
-        {
-          "type": "chat",
-          "text": "You are acting as my Lead Product Architect and UX/UI Designer.\nTASK: Plan and design a cross-platform (mobile and deskt…",
-          "sessionId": "0c2f1358-34d8-4173-9378-99f00876a6dd"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "0c2f1358-34d8-4173-9378-99f00876a6dd",
-        "lastActivity": "2026-09-22T09:58:50.472Z",
-        "summary": "You are acting as my Lead Product Architect and UX/UI Designer.\nTASK: Plan and design a cross-platform (mobile and deskt…"
-      }
-    },
-    {
       "name": "cotton-candy",
       "humanName": "cotton-candy",
       "tagline": "HTML/CSS/JS",
@@ -376,7 +376,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "10 days ago",
+        "lastCommitRelative": "11 days ago",
         "lastCommitMessage": "Option 2: the page as the shop counter",
         "lastCommitDate": "2026-09-17 11:40:13 +0300",
         "lastCommitHebrew": "השבוע",
@@ -459,7 +459,7 @@
       "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-09-13T20:55:53.688Z",
-      "lastActivityHebrew": "השבוע",
+      "lastActivityHebrew": "לפני 2 שבועות",
       "size": "822M",
       "isLive": false,
       "liveUrl": null,
@@ -494,7 +494,7 @@
       "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-09-13T20:46:26.630Z",
-      "lastActivityHebrew": "השבוע",
+      "lastActivityHebrew": "לפני 2 שבועות",
       "size": "1.1G",
       "isLive": true,
       "liveUrl": "https://zoom-for-kids.vercel.app",
