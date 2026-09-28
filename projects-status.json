@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-27T21:57:59.253Z",
+  "lastUpdated": "2026-09-28T11:09:07.240Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 43,
   "counts": {
@@ -57,7 +57,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-09-27T13:50:19.095Z",
-      "lastActivityHebrew": "לפני 8 שעות",
+      "lastActivityHebrew": "לפני 21 שעות",
       "size": "215M",
       "isLive": false,
       "liveUrl": null,
@@ -66,10 +66,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "8 hours ago",
+        "lastCommitRelative": "21 hours ago",
         "lastCommitMessage": "Cut answer time roughly in half and remove fake offline answers",
         "lastCommitDate": "2026-09-27 16:50:02 +0300",
-        "lastCommitHebrew": "לפני 8 שעות",
+        "lastCommitHebrew": "לפני 21 שעות",
         "isDirty": true,
         "changedFiles": 1
       },
@@ -112,7 +112,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-09-24T21:57:58.610Z",
-      "lastActivityHebrew": "שלשום",
+      "lastActivityHebrew": "לפני 3 ימים",
       "size": "636M",
       "isLive": false,
       "liveUrl": null,
@@ -121,7 +121,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "3 days ago",
+        "lastCommitRelative": "4 days ago",
         "lastCommitMessage": "Switch analytics back on",
         "lastCommitDate": "2026-09-25 00:53:39 +0300",
         "lastCommitHebrew": "לפני 3 ימים",
@@ -181,7 +181,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "3 days ago",
+        "lastCommitRelative": "4 days ago",
         "lastCommitMessage": "Fix sign-in in the installed iOS app with a one-time session handoff",
         "lastCommitDate": "2026-09-25 00:50:40 +0300",
         "lastCommitHebrew": "לפני 3 ימים",
@@ -227,7 +227,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-09-24T10:50:41.414Z",
-      "lastActivityHebrew": "לפני 3 ימים",
+      "lastActivityHebrew": "לפני 4 ימים",
       "size": "207M",
       "isLive": false,
       "liveUrl": null,
@@ -262,7 +262,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-09-22T23:34:03.024Z",
-      "lastActivityHebrew": "לפני 4 ימים",
+      "lastActivityHebrew": "לפני 5 ימים",
       "size": "257M",
       "isLive": true,
       "liveUrl": "https://payoneer-ad-generator.vercel.app",
@@ -271,10 +271,10 @@
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "5 days ago",
+        "lastCommitRelative": "6 days ago",
         "lastCommitMessage": "Serve the app for every route on Vercel",
         "lastCommitDate": "2026-09-23 02:32:49 +0300",
-        "lastCommitHebrew": "לפני 4 ימים",
+        "lastCommitHebrew": "לפני 5 ימים",
         "isDirty": true,
         "changedFiles": 1
       },
@@ -317,7 +317,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-09-22T23:00:54.582Z",
-      "lastActivityHebrew": "לפני 4 ימים",
+      "lastActivityHebrew": "לפני 5 ימים",
       "size": "259M",
       "isLive": false,
       "liveUrl": null,
@@ -553,7 +553,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "3 weeks ago",
+        "lastCommitRelative": "4 weeks ago",
         "lastCommitMessage": "merge: payoneer batch, studio plans, dev launch config",
         "lastCommitDate": "2026-09-04 02:16:05 +0300",
         "lastCommitHebrew": "לפני 3 שבועות",
@@ -599,7 +599,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "3 weeks ago",
+        "lastCommitRelative": "4 weeks ago",
         "lastCommitMessage": "merge: brand-aware studio inputs and Crafel design system",
         "lastCommitDate": "2026-09-04 02:15:10 +0300",
         "lastCommitHebrew": "לפני 3 שבועות",
