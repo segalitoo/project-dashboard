@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-09-30T09:32:04.704Z",
+  "lastUpdated": "2026-09-30T12:32:22.093Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 43,
   "counts": {
@@ -227,7 +227,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-09-24T10:50:41.414Z",
-      "lastActivityHebrew": "לפני 5 ימים",
+      "lastActivityHebrew": "לפני 6 ימים",
       "size": "207M",
       "isLive": false,
       "liveUrl": null,
@@ -271,7 +271,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "7 days ago",
+        "lastCommitRelative": "8 days ago",
         "lastCommitMessage": "Serve the app for every route on Vercel",
         "lastCommitDate": "2026-09-23 02:32:49 +0300",
         "lastCommitHebrew": "השבוע",
@@ -409,7 +409,7 @@
       "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-09-16T10:12:26.068Z",
-      "lastActivityHebrew": "השבוע",
+      "lastActivityHebrew": "לפני 2 שבועות",
       "size": "1.4G",
       "isLive": false,
       "liveUrl": null,
