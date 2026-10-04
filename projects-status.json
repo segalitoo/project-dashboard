@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-10-04T08:20:21.942Z",
+  "lastUpdated": "2026-10-04T11:20:38.543Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 43,
   "counts": {
     "live": 1,
-    "building": 1,
-    "paused": 9,
+    "building": 2,
+    "paused": 8,
     "archive": 16,
     "idea": 16
   },
@@ -42,6 +42,66 @@
       },
       "recentActions": [],
       "lastSession": null
+    },
+    {
+      "name": "ran-portfolio",
+      "humanName": "פורטפוליו אישי",
+      "tagline": "כרטיס ביקור אונליין - אוסף הפרוייקטים והשירותים שלי",
+      "longDescription": "אתר סטטי בעברית שמרכז את הפרוייקטים, ניסיון העבודה ופרטי קשר. מעוצב ידנית ב-HTML/CSS/JS ללא פריימוורק, עם דגש על טון אישי וחם. כולל מעקב אנליטיקס דרך GA4.",
+      "nextStep": "לפרסם את הגרסה האחרונה (יש 8 קבצים שונו)",
+      "notes": null,
+      "category": "Portfolio",
+      "accentColor": "#3a4a6b",
+      "screenshot": null,
+      "stack": "HTML/CSS/JS",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-10-04T10:27:50.704Z",
+      "lastActivityHebrew": "לפני 52 דקות",
+      "size": "647M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/ran-portfolio",
+      "source": "both",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "24 hours ago",
+        "lastCommitMessage": "Motion case study: the B02 tube's cap re-cut whole",
+        "lastCommitDate": "2026-10-03 11:23:03 +0000",
+        "lastCommitHebrew": "לפני 23 שעות",
+        "isDirty": false,
+        "changedFiles": 0
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Motion case study: the B02 tube's cap re-cut whole"
+        },
+        {
+          "type": "commit",
+          "text": "Add the motion case study: four Byoma ads animated from their statics in code"
+        },
+        {
+          "type": "commit",
+          "text": "Add the spec-ads case study: two brands through my own ad pipeline"
+        },
+        {
+          "type": "chat",
+          "text": "we also dont need the box with background for the images or animation\n\nin need to fill like the image or animation is ju…",
+          "sessionId": "24c0da2a-c87a-495f-8e1e-7ba121901f03"
+        },
+        {
+          "type": "chat",
+          "text": "Continue from where you left off.",
+          "sessionId": "62949473-9542-4af5-b1f3-c760e5957a96"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "24c0da2a-c87a-495f-8e1e-7ba121901f03",
+        "lastActivity": "2026-10-04T10:27:50.704Z",
+        "summary": "we also dont need the box with background for the images or animation\n\nin need to fill like the image or animation is ju…"
+      }
     },
     {
       "name": "Kid-AI",
@@ -99,66 +159,6 @@
       }
     },
     {
-      "name": "ran-portfolio",
-      "humanName": "פורטפוליו אישי",
-      "tagline": "כרטיס ביקור אונליין - אוסף הפרוייקטים והשירותים שלי",
-      "longDescription": "אתר סטטי בעברית שמרכז את הפרוייקטים, ניסיון העבודה ופרטי קשר. מעוצב ידנית ב-HTML/CSS/JS ללא פריימוורק, עם דגש על טון אישי וחם. כולל מעקב אנליטיקס דרך GA4.",
-      "nextStep": "לפרסם את הגרסה האחרונה (יש 8 קבצים שונו)",
-      "notes": null,
-      "category": "Portfolio",
-      "accentColor": "#3a4a6b",
-      "screenshot": null,
-      "stack": "HTML/CSS/JS",
-      "status": "paused",
-      "subStatus": null,
-      "lastActivity": "2026-09-24T21:57:58.610Z",
-      "lastActivityHebrew": "השבוע",
-      "size": "636M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/ran-portfolio",
-      "source": "both",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "9 days ago",
-        "lastCommitMessage": "Switch analytics back on",
-        "lastCommitDate": "2026-09-25 00:53:39 +0300",
-        "lastCommitHebrew": "השבוע",
-        "isDirty": false,
-        "changedFiles": 0
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Switch analytics back on"
-        },
-        {
-          "type": "commit",
-          "text": "Pre-launch fixes: previews, LinkedIn, system dark, banner contrast"
-        },
-        {
-          "type": "commit",
-          "text": "Say I led the redesign process, and add Creative to every nav"
-        },
-        {
-          "type": "chat",
-          "text": "we also dont need the box with background for the images or animation\n\nin need to fill like the image or animation is ju…",
-          "sessionId": "24c0da2a-c87a-495f-8e1e-7ba121901f03"
-        },
-        {
-          "type": "chat",
-          "text": "Continue from where you left off.",
-          "sessionId": "62949473-9542-4af5-b1f3-c760e5957a96"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "24c0da2a-c87a-495f-8e1e-7ba121901f03",
-        "lastActivity": "2026-09-24T21:57:58.610Z",
-        "summary": "we also dont need the box with background for the images or animation\n\nin need to fill like the image or animation is ju…"
-      }
-    },
-    {
       "name": "Ideas",
       "humanName": "Ideas",
       "tagline": "ניצוץ · לתפוס רעיונות לפני שהם בורחים",
@@ -181,7 +181,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "9 days ago",
+        "lastCommitRelative": "10 days ago",
         "lastCommitMessage": "Fix sign-in in the installed iOS app with a one-time session handoff",
         "lastCommitDate": "2026-09-25 00:50:40 +0300",
         "lastCommitHebrew": "השבוע",
@@ -271,7 +271,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "11 days ago",
+        "lastCommitRelative": "12 days ago",
         "lastCommitMessage": "Serve the app for every route on Vercel",
         "lastCommitDate": "2026-09-23 02:32:49 +0300",
         "lastCommitHebrew": "השבוע",
@@ -645,7 +645,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "6 weeks ago",
+        "lastCommitRelative": "7 weeks ago",
         "lastCommitMessage": "Add Scene 02 \"Blue Wave\" storyboard and restore the director subagent",
         "lastCommitDate": "2026-08-20 00:44:49 +0300",
         "lastCommitHebrew": "לפני חודש",
