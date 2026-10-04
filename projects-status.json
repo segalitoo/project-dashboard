@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-04T14:20:56.428Z",
+  "lastUpdated": "2026-10-04T17:21:13.180Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 43,
   "counts": {
@@ -57,7 +57,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-10-04T10:27:50.704Z",
-      "lastActivityHebrew": "לפני 3 שעות",
+      "lastActivityHebrew": "לפני 6 שעות",
       "size": "647M",
       "isLive": false,
       "liveUrl": null,
@@ -66,7 +66,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "27 hours ago",
+        "lastCommitRelative": "30 hours ago",
         "lastCommitMessage": "Motion case study: the B02 tube's cap re-cut whole",
         "lastCommitDate": "2026-10-03 11:23:03 +0000",
         "lastCommitHebrew": "אתמול",
