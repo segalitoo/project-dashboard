@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-05T21:56:55.329Z",
+  "lastUpdated": "2026-10-06T08:33:13.392Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 43,
   "counts": {
@@ -66,7 +66,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "26 hours ago",
+        "lastCommitRelative": "2 days ago",
         "lastCommitMessage": "Keep the parked section out of the deployed tree",
         "lastCommitDate": "2026-10-04 23:15:23 +0300",
         "lastCommitHebrew": "אתמול",
@@ -126,7 +126,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "8 days ago",
+        "lastCommitRelative": "9 days ago",
         "lastCommitMessage": "Cut answer time roughly in half and remove fake offline answers",
         "lastCommitDate": "2026-09-27 16:50:02 +0300",
         "lastCommitHebrew": "השבוע",
