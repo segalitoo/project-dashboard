@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-06T17:14:24.030Z",
+  "lastUpdated": "2026-10-07T08:01:53.534Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 43,
   "counts": {
@@ -57,7 +57,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-10-04T20:15:54.850Z",
-      "lastActivityHebrew": "אתמול",
+      "lastActivityHebrew": "שלשום",
       "size": "647M",
       "isLive": false,
       "liveUrl": null,
@@ -66,10 +66,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "2 days ago",
+        "lastCommitRelative": "3 days ago",
         "lastCommitMessage": "Keep the parked section out of the deployed tree",
         "lastCommitDate": "2026-10-04 23:15:23 +0300",
-        "lastCommitHebrew": "אתמול",
+        "lastCommitHebrew": "שלשום",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -126,7 +126,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "9 days ago",
+        "lastCommitRelative": "10 days ago",
         "lastCommitMessage": "Cut answer time roughly in half and remove fake offline answers",
         "lastCommitDate": "2026-09-27 16:50:02 +0300",
         "lastCommitHebrew": "השבוע",
@@ -262,7 +262,7 @@
       "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-09-22T23:34:03.024Z",
-      "lastActivityHebrew": "השבוע",
+      "lastActivityHebrew": "לפני 2 שבועות",
       "size": "257M",
       "isLive": true,
       "liveUrl": "https://payoneer-ad-generator.vercel.app",
@@ -274,7 +274,7 @@
         "lastCommitRelative": "2 weeks ago",
         "lastCommitMessage": "Serve the app for every route on Vercel",
         "lastCommitDate": "2026-09-23 02:32:49 +0300",
-        "lastCommitHebrew": "השבוע",
+        "lastCommitHebrew": "לפני 2 שבועות",
         "isDirty": true,
         "changedFiles": 1
       },
@@ -317,7 +317,7 @@
       "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-09-22T23:00:54.582Z",
-      "lastActivityHebrew": "השבוע",
+      "lastActivityHebrew": "לפני 2 שבועות",
       "size": "259M",
       "isLive": false,
       "liveUrl": null,
