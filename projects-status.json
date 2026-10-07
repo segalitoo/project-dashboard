@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-07T08:01:53.534Z",
+  "lastUpdated": "2026-10-07T14:31:34.069Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 43,
   "counts": {
@@ -181,7 +181,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "12 days ago",
+        "lastCommitRelative": "13 days ago",
         "lastCommitMessage": "Fix sign-in in the installed iOS app with a one-time session handoff",
         "lastCommitDate": "2026-09-25 00:50:40 +0300",
         "lastCommitHebrew": "השבוע",
@@ -409,7 +409,7 @@
       "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-09-16T10:12:26.068Z",
-      "lastActivityHebrew": "לפני 2 שבועות",
+      "lastActivityHebrew": "לפני 3 שבועות",
       "size": "1.4G",
       "isLive": false,
       "liveUrl": null,
