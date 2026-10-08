@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-08T10:17:02.006Z",
+  "lastUpdated": "2026-10-08T13:17:19.023Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 44,
   "counts": {
@@ -56,7 +56,7 @@
       "stack": "Unknown",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-10-08T08:56:11.264Z",
+      "lastActivity": "2026-10-08T11:27:12.452Z",
       "lastActivityHebrew": "לפני שעה",
       "size": "0B",
       "isLive": false,
@@ -68,7 +68,7 @@
       "recentActions": [],
       "lastSession": {
         "sessionId": "e1111045-dcd8-4a9e-8831-d32679f62d13",
-        "lastActivity": "2026-10-08T08:56:11.264Z",
+        "lastActivity": "2026-10-08T11:27:12.452Z",
         "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/b…"
       }
     },
@@ -256,7 +256,7 @@
       "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-09-24T10:50:41.414Z",
-      "lastActivityHebrew": "השבוע",
+      "lastActivityHebrew": "לפני 2 שבועות",
       "size": "207M",
       "isLive": false,
       "liveUrl": null,
@@ -355,7 +355,7 @@
       "hasGit": true,
       "git": {
         "branch": "redesign/drafting-table",
-        "lastCommitRelative": "8 weeks ago",
+        "lastCommitRelative": "9 weeks ago",
         "lastCommitMessage": "Add dev server launch config",
         "lastCommitDate": "2026-08-10 02:31:53 +0300",
         "lastCommitHebrew": "לפני חודש",
@@ -447,7 +447,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/landing-page",
-        "lastCommitRelative": "8 weeks ago",
+        "lastCommitRelative": "9 weeks ago",
         "lastCommitMessage": "Remove the grammar module",
         "lastCommitDate": "2026-08-10 02:38:18 +0300",
         "lastCommitHebrew": "לפני חודש",
@@ -532,7 +532,7 @@
       "hasGit": true,
       "git": {
         "branch": "claude/add-claude-documentation-gFq7q",
-        "lastCommitRelative": "8 weeks ago",
+        "lastCommitRelative": "9 weeks ago",
         "lastCommitMessage": "Ignore packaged zips and agent worktree scratch",
         "lastCommitDate": "2026-08-10 02:31:44 +0300",
         "lastCommitHebrew": "לפני חודש",
@@ -791,7 +791,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "8 weeks ago",
+        "lastCommitRelative": "9 weeks ago",
         "lastCommitMessage": "Scope the dark theme class hook to :root",
         "lastCommitDate": "2026-08-10 02:31:59 +0300",
         "lastCommitHebrew": "לפני חודש",
@@ -841,7 +841,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "8 weeks ago",
+        "lastCommitRelative": "9 weeks ago",
         "lastCommitMessage": "Add CLAUDE.md",
         "lastCommitDate": "2026-08-10 02:27:56 +0300",
         "lastCommitHebrew": "לפני חודש",
@@ -920,7 +920,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "8 weeks ago",
+        "lastCommitRelative": "9 weeks ago",
         "lastCommitMessage": "Ignore Supabase CLI scratch directory",
         "lastCommitDate": "2026-08-10 02:28:12 +0300",
         "lastCommitHebrew": "לפני חודש",
@@ -970,7 +970,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "8 weeks ago",
+        "lastCommitRelative": "9 weeks ago",
         "lastCommitMessage": "Scope the dark theme class hook to :root",
         "lastCommitDate": "2026-08-10 02:31:59 +0300",
         "lastCommitHebrew": "לפני חודש",
