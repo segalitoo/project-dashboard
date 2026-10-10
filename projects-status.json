@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T20:14:16.725Z",
+  "lastUpdated": "2026-10-10T23:14:33.904Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 44,
   "counts": {
@@ -86,7 +86,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-10-04T20:15:54.850Z",
-      "lastActivityHebrew": "לפני 5 ימים",
+      "lastActivityHebrew": "לפני 6 ימים",
       "size": "647M",
       "isLive": false,
       "liveUrl": null,
@@ -98,7 +98,7 @@
         "lastCommitRelative": "6 days ago",
         "lastCommitMessage": "Keep the parked section out of the deployed tree",
         "lastCommitDate": "2026-10-04 23:15:23 +0300",
-        "lastCommitHebrew": "לפני 5 ימים",
+        "lastCommitHebrew": "לפני 6 ימים",
         "isDirty": false,
         "changedFiles": 0
       },
