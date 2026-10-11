@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T23:14:33.904Z",
+  "lastUpdated": "2026-10-11T02:14:50.787Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 44,
   "counts": {
@@ -155,7 +155,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "13 days ago",
+        "lastCommitRelative": "2 weeks ago",
         "lastCommitMessage": "Cut answer time roughly in half and remove fake offline answers",
         "lastCommitDate": "2026-09-27 16:50:02 +0300",
         "lastCommitHebrew": "השבוע",
