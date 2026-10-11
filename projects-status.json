@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T11:16:07.437Z",
+  "lastUpdated": "2026-10-11T18:00:20.361Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 44,
   "counts": {
@@ -57,7 +57,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-10-08T11:27:12.452Z",
-      "lastActivityHebrew": "שלשום",
+      "lastActivityHebrew": "לפני 3 ימים",
       "size": "0B",
       "isLive": false,
       "liveUrl": null,
@@ -146,7 +146,7 @@
       "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-09-27T13:50:19.095Z",
-      "lastActivityHebrew": "השבוע",
+      "lastActivityHebrew": "לפני 2 שבועות",
       "size": "215M",
       "isLive": false,
       "liveUrl": null,
@@ -158,7 +158,7 @@
         "lastCommitRelative": "2 weeks ago",
         "lastCommitMessage": "Cut answer time roughly in half and remove fake offline answers",
         "lastCommitDate": "2026-09-27 16:50:02 +0300",
-        "lastCommitHebrew": "השבוע",
+        "lastCommitHebrew": "לפני 2 שבועות",
         "isDirty": true,
         "changedFiles": 1
       },
