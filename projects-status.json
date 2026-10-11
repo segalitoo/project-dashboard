@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T08:15:47.714Z",
+  "lastUpdated": "2026-10-11T11:16:07.437Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 44,
   "counts": {
@@ -674,7 +674,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "7 weeks ago",
+        "lastCommitRelative": "8 weeks ago",
         "lastCommitMessage": "Add Scene 02 \"Blue Wave\" storyboard and restore the director subagent",
         "lastCommitDate": "2026-08-20 00:44:49 +0300",
         "lastCommitHebrew": "לפני חודש",
