@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T18:00:20.361Z",
+  "lastUpdated": "2026-10-12T08:45:46.853Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 44,
   "counts": {
@@ -44,35 +44,6 @@
       "lastSession": null
     },
     {
-      "name": "pet",
-      "humanName": "pet",
-      "tagline": "Unknown",
-      "longDescription": "פרוייקט ב-Unknown",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#5f9d7f",
-      "screenshot": null,
-      "stack": "Unknown",
-      "status": "building",
-      "subStatus": null,
-      "lastActivity": "2026-10-08T11:27:12.452Z",
-      "lastActivityHebrew": "לפני 3 ימים",
-      "size": "0B",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": null,
-      "source": "local",
-      "hasGit": false,
-      "git": null,
-      "recentActions": [],
-      "lastSession": {
-        "sessionId": "e1111045-dcd8-4a9e-8831-d32679f62d13",
-        "lastActivity": "2026-10-08T11:27:12.452Z",
-        "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/b…"
-      }
-    },
-    {
       "name": "ran-portfolio",
       "humanName": "פורטפוליו אישי",
       "tagline": "כרטיס ביקור אונליין - אוסף הפרוייקטים והשירותים שלי",
@@ -85,8 +56,8 @@
       "stack": "HTML/CSS/JS",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-10-04T20:15:54.850Z",
-      "lastActivityHebrew": "לפני 6 ימים",
+      "lastActivity": "2026-10-12T08:31:28.533Z",
+      "lastActivityHebrew": "לפני 14 דקות",
       "size": "647M",
       "isLive": false,
       "liveUrl": null,
@@ -95,12 +66,12 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "7 days ago",
+        "lastCommitRelative": "8 days ago",
         "lastCommitMessage": "Keep the parked section out of the deployed tree",
         "lastCommitDate": "2026-10-04 23:15:23 +0300",
-        "lastCommitHebrew": "לפני 6 ימים",
-        "isDirty": false,
-        "changedFiles": 0
+        "lastCommitHebrew": "השבוע",
+        "isDirty": true,
+        "changedFiles": 1
       },
       "recentActions": [
         {
@@ -128,8 +99,37 @@
       ],
       "lastSession": {
         "sessionId": "24c0da2a-c87a-495f-8e1e-7ba121901f03",
-        "lastActivity": "2026-10-04T20:15:54.850Z",
+        "lastActivity": "2026-10-12T08:31:28.533Z",
         "summary": "we also dont need the box with background for the images or animation\n\nin need to fill like the image or animation is ju…"
+      }
+    },
+    {
+      "name": "pet",
+      "humanName": "pet",
+      "tagline": "Unknown",
+      "longDescription": "פרוייקט ב-Unknown",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#5f9d7f",
+      "screenshot": null,
+      "stack": "Unknown",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-10-08T11:27:12.452Z",
+      "lastActivityHebrew": "לפני 3 ימים",
+      "size": "0B",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [],
+      "lastSession": {
+        "sessionId": "e1111045-dcd8-4a9e-8831-d32679f62d13",
+        "lastActivity": "2026-10-08T11:27:12.452Z",
+        "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/b…"
       }
     },
     {
@@ -405,7 +405,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "3 weeks ago",
+        "lastCommitRelative": "4 weeks ago",
         "lastCommitMessage": "Option 2: the page as the shop counter",
         "lastCommitDate": "2026-09-17 11:40:13 +0300",
         "lastCommitHebrew": "לפני 3 שבועות",
@@ -488,7 +488,7 @@
       "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-09-13T20:55:53.688Z",
-      "lastActivityHebrew": "לפני 3 שבועות",
+      "lastActivityHebrew": "לפני 0 חודשים",
       "size": "822M",
       "isLive": false,
       "liveUrl": null,
@@ -523,7 +523,7 @@
       "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-09-13T20:46:26.630Z",
-      "lastActivityHebrew": "לפני 3 שבועות",
+      "lastActivityHebrew": "לפני 0 חודשים",
       "size": "1.1G",
       "isLive": true,
       "liveUrl": "https://zoom-for-kids.vercel.app",
