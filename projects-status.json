@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-12T08:45:46.853Z",
+  "lastUpdated": "2026-10-12T12:12:40.747Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 44,
   "counts": {
@@ -56,9 +56,9 @@
       "stack": "HTML/CSS/JS",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-10-12T08:31:28.533Z",
-      "lastActivityHebrew": "לפני 14 דקות",
-      "size": "647M",
+      "lastActivity": "2026-10-12T11:15:41.987Z",
+      "lastActivityHebrew": "לפני 56 דקות",
+      "size": "599M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": "https://github.com/segalitoo/ran-portfolio",
@@ -66,25 +66,25 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "8 days ago",
-        "lastCommitMessage": "Keep the parked section out of the deployed tree",
-        "lastCommitDate": "2026-10-04 23:15:23 +0300",
-        "lastCommitHebrew": "השבוע",
+        "lastCommitRelative": "2 hours ago",
+        "lastCommitMessage": "Take 49 MB of source images off the published branch",
+        "lastCommitDate": "2026-10-12 12:58:36 +0300",
+        "lastCommitHebrew": "לפני 2 שעות",
         "isDirty": true,
         "changedFiles": 1
       },
       "recentActions": [
         {
           "type": "commit",
-          "text": "Keep the parked section out of the deployed tree"
+          "text": "Take 49 MB of source images off the published branch"
         },
         {
           "type": "commit",
-          "text": "Park the AI ad-production section, off the live site but kept whole"
+          "text": "One link per card, tap targets at the floor, and PRODUCT.md told the truth"
         },
         {
           "type": "commit",
-          "text": "Motion case study: the B02 tube's cap re-cut whole"
+          "text": "Link previews that scrapers will actually render, and drop the unused serif"
         },
         {
           "type": "chat",
@@ -99,7 +99,7 @@
       ],
       "lastSession": {
         "sessionId": "24c0da2a-c87a-495f-8e1e-7ba121901f03",
-        "lastActivity": "2026-10-12T08:31:28.533Z",
+        "lastActivity": "2026-10-12T11:15:41.987Z",
         "summary": "we also dont need the box with background for the images or animation\n\nin need to fill like the image or animation is ju…"
       }
     },
@@ -117,7 +117,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-10-08T11:27:12.452Z",
-      "lastActivityHebrew": "לפני 3 ימים",
+      "lastActivityHebrew": "לפני 4 ימים",
       "size": "0B",
       "isLive": false,
       "liveUrl": null,
@@ -210,7 +210,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "2 weeks ago",
+        "lastCommitRelative": "3 weeks ago",
         "lastCommitMessage": "Fix sign-in in the installed iOS app with a one-time session handoff",
         "lastCommitDate": "2026-09-25 00:50:40 +0300",
         "lastCommitHebrew": "לפני 2 שבועות",
@@ -582,7 +582,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "5 weeks ago",
+        "lastCommitRelative": "6 weeks ago",
         "lastCommitMessage": "merge: payoneer batch, studio plans, dev launch config",
         "lastCommitDate": "2026-09-04 02:16:05 +0300",
         "lastCommitHebrew": "לפני חודש",
@@ -628,7 +628,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "5 weeks ago",
+        "lastCommitRelative": "6 weeks ago",
         "lastCommitMessage": "merge: brand-aware studio inputs and Crafel design system",
         "lastCommitDate": "2026-09-04 02:15:10 +0300",
         "lastCommitHebrew": "לפני חודש",
