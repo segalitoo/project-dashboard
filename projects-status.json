@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-13T05:32:03.230Z",
+  "lastUpdated": "2026-10-13T09:06:31.899Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 44,
   "counts": {
@@ -44,35 +44,6 @@
       "lastSession": null
     },
     {
-      "name": "pet",
-      "humanName": "pet",
-      "tagline": "Unknown",
-      "longDescription": "פרוייקט ב-Unknown",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#5f9d7f",
-      "screenshot": null,
-      "stack": "Unknown",
-      "status": "building",
-      "subStatus": null,
-      "lastActivity": "2026-10-12T20:56:11.887Z",
-      "lastActivityHebrew": "לפני 8 שעות",
-      "size": "120K",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": null,
-      "source": "local",
-      "hasGit": false,
-      "git": null,
-      "recentActions": [],
-      "lastSession": {
-        "sessionId": "e1111045-dcd8-4a9e-8831-d32679f62d13",
-        "lastActivity": "2026-10-12T20:56:11.887Z",
-        "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/b…"
-      }
-    },
-    {
       "name": "ran-portfolio",
       "humanName": "פורטפוליו אישי",
       "tagline": "כרטיס ביקור אונליין - אוסף הפרוייקטים והשירותים שלי",
@@ -85,9 +56,9 @@
       "stack": "HTML/CSS/JS",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-10-12T11:15:41.987Z",
-      "lastActivityHebrew": "לפני 18 שעות",
-      "size": "599M",
+      "lastActivity": "2026-10-13T07:42:16.000Z",
+      "lastActivityHebrew": "לפני שעה",
+      "size": "606M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": "https://github.com/segalitoo/ran-portfolio",
@@ -95,25 +66,25 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "20 hours ago",
-        "lastCommitMessage": "Take 49 MB of source images off the published branch",
-        "lastCommitDate": "2026-10-12 12:58:36 +0300",
-        "lastCommitHebrew": "לפני 19 שעות",
+        "lastCommitRelative": "84 minutes ago",
+        "lastCommitMessage": "TradersMood page: dark theme reads again",
+        "lastCommitDate": "2026-10-13 10:42:16 +0300",
+        "lastCommitHebrew": "לפני שעה",
         "isDirty": true,
         "changedFiles": 1
       },
       "recentActions": [
         {
           "type": "commit",
-          "text": "Take 49 MB of source images off the published branch"
+          "text": "TradersMood page: dark theme reads again"
         },
         {
           "type": "commit",
-          "text": "One link per card, tap targets at the floor, and PRODUCT.md told the truth"
+          "text": "Bring back the dot-field hero"
         },
         {
           "type": "commit",
-          "text": "Link previews that scrapers will actually render, and drop the unused serif"
+          "text": "Add the TradersMood case study, and bring the link previews back"
         },
         {
           "type": "chat",
@@ -130,6 +101,52 @@
         "sessionId": "24c0da2a-c87a-495f-8e1e-7ba121901f03",
         "lastActivity": "2026-10-12T11:15:41.987Z",
         "summary": "we also dont need the box with background for the images or animation\n\nin need to fill like the image or animation is ju…"
+      }
+    },
+    {
+      "name": "pet",
+      "humanName": "pet",
+      "tagline": "Unknown",
+      "longDescription": "פרוייקט ב-Unknown",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#5f9d7f",
+      "screenshot": null,
+      "stack": "Unknown",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-10-13T06:37:25.690Z",
+      "lastActivityHebrew": "לפני 2 שעות",
+      "size": "300K",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "2 hours ago",
+        "lastCommitMessage": "Add Tantan implementation plan",
+        "lastCommitDate": "2026-10-13 09:37:17 +0300",
+        "lastCommitHebrew": "לפני 2 שעות",
+        "isDirty": false,
+        "changedFiles": 0
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Add Tantan implementation plan"
+        },
+        {
+          "type": "commit",
+          "text": "Add Tantan pet design spec, sprite art and render tools"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "e1111045-dcd8-4a9e-8831-d32679f62d13",
+        "lastActivity": "2026-10-13T06:37:25.690Z",
+        "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/b…"
       }
     },
     {
