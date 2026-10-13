@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-13T09:06:31.899Z",
+  "lastUpdated": "2026-10-13T14:18:57.620Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 44,
   "counts": {
@@ -56,8 +56,8 @@
       "stack": "HTML/CSS/JS",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-10-13T07:42:16.000Z",
-      "lastActivityHebrew": "לפני שעה",
+      "lastActivity": "2026-10-13T11:23:50.396Z",
+      "lastActivityHebrew": "לפני 2 שעות",
       "size": "606M",
       "isLive": false,
       "liveUrl": null,
@@ -66,25 +66,25 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "84 minutes ago",
-        "lastCommitMessage": "TradersMood page: dark theme reads again",
-        "lastCommitDate": "2026-10-13 10:42:16 +0300",
-        "lastCommitHebrew": "לפני שעה",
-        "isDirty": true,
-        "changedFiles": 1
+        "lastCommitRelative": "3 hours ago",
+        "lastCommitMessage": "Re-cut the TradersMood cards from the updated Figma cover",
+        "lastCommitDate": "2026-10-13 14:23:04 +0300",
+        "lastCommitHebrew": "לפני 2 שעות",
+        "isDirty": false,
+        "changedFiles": 0
       },
       "recentActions": [
         {
           "type": "commit",
+          "text": "Re-cut the TradersMood cards from the updated Figma cover"
+        },
+        {
+          "type": "commit",
+          "text": "Swap the TradersMood thumbnail for the dark EP. 9 cover"
+        },
+        {
+          "type": "commit",
           "text": "TradersMood page: dark theme reads again"
-        },
-        {
-          "type": "commit",
-          "text": "Bring back the dot-field hero"
-        },
-        {
-          "type": "commit",
-          "text": "Add the TradersMood case study, and bring the link previews back"
         },
         {
           "type": "chat",
@@ -99,7 +99,7 @@
       ],
       "lastSession": {
         "sessionId": "24c0da2a-c87a-495f-8e1e-7ba121901f03",
-        "lastActivity": "2026-10-12T11:15:41.987Z",
+        "lastActivity": "2026-10-13T11:23:50.396Z",
         "summary": "we also dont need the box with background for the images or animation\n\nin need to fill like the image or animation is ju…"
       }
     },
@@ -117,7 +117,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-10-13T06:37:25.690Z",
-      "lastActivityHebrew": "לפני 2 שעות",
+      "lastActivityHebrew": "לפני 7 שעות",
       "size": "300K",
       "isLive": false,
       "liveUrl": null,
@@ -126,10 +126,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "2 hours ago",
+        "lastCommitRelative": "8 hours ago",
         "lastCommitMessage": "Add Tantan implementation plan",
         "lastCommitDate": "2026-10-13 09:37:17 +0300",
-        "lastCommitHebrew": "לפני 2 שעות",
+        "lastCommitHebrew": "לפני 7 שעות",
         "isDirty": false,
         "changedFiles": 0
       },
