@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-10-13T14:18:57.620Z",
+  "lastUpdated": "2026-10-13T22:10:33.508Z",
   "lastUpdatedHebrew": "הרגע",
-  "projectCount": 44,
+  "projectCount": 45,
   "counts": {
     "live": 1,
-    "building": 2,
-    "paused": 9,
-    "archive": 16,
+    "building": 3,
+    "paused": 7,
+    "archive": 18,
     "idea": 16
   },
   "projects": [
@@ -44,6 +44,52 @@
       "lastSession": null
     },
     {
+      "name": "special-ops",
+      "humanName": "special-ops",
+      "tagline": "An isometric stealth-tactics game for the browser, in the style of Commandos 1 (1998).",
+      "longDescription": "An isometric stealth-tactics game for the browser, in the style of Commandos 1 (1998).",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#5f7fa8",
+      "screenshot": null,
+      "stack": "TypeScript + Vite",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-10-13T22:10:25.542Z",
+      "lastActivityHebrew": "הרגע",
+      "size": "203M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/launch-window",
+      "source": "local",
+      "hasGit": true,
+      "git": {
+        "branch": "session/01-sim-port",
+        "lastCommitRelative": "22 minutes ago",
+        "lastCommitMessage": "Session 1: sim port, tests, flat iso placeholder",
+        "lastCommitDate": "2026-10-14 00:48:58 +0300",
+        "lastCommitHebrew": "לפני 21 דקות",
+        "isDirty": false,
+        "changedFiles": 0
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Session 1: sim port, tests, flat iso placeholder"
+        },
+        {
+          "type": "commit",
+          "text": "Add starter kit: project rules, plan, Session 1 kickoff, prototype"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "95762f9a-74b3-429c-9408-1054f1004f7c",
+        "lastActivity": "2026-10-13T22:10:25.542Z",
+        "summary": ""
+      }
+    },
+    {
       "name": "ran-portfolio",
       "humanName": "פורטפוליו אישי",
       "tagline": "כרטיס ביקור אונליין - אוסף הפרוייקטים והשירותים שלי",
@@ -57,7 +103,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-10-13T11:23:50.396Z",
-      "lastActivityHebrew": "לפני 2 שעות",
+      "lastActivityHebrew": "לפני 10 שעות",
       "size": "606M",
       "isLive": false,
       "liveUrl": null,
@@ -66,10 +112,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "3 hours ago",
+        "lastCommitRelative": "11 hours ago",
         "lastCommitMessage": "Re-cut the TradersMood cards from the updated Figma cover",
         "lastCommitDate": "2026-10-13 14:23:04 +0300",
-        "lastCommitHebrew": "לפני 2 שעות",
+        "lastCommitHebrew": "לפני 10 שעות",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -117,7 +163,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-10-13T06:37:25.690Z",
-      "lastActivityHebrew": "לפני 7 שעות",
+      "lastActivityHebrew": "לפני 15 שעות",
       "size": "300K",
       "isLive": false,
       "liveUrl": null,
@@ -126,10 +172,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "8 hours ago",
+        "lastCommitRelative": "16 hours ago",
         "lastCommitMessage": "Add Tantan implementation plan",
         "lastCommitDate": "2026-10-13 09:37:17 +0300",
-        "lastCommitHebrew": "לפני 7 שעות",
+        "lastCommitHebrew": "לפני 15 שעות",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -502,10 +548,10 @@
       "accentColor": "#a06b9e",
       "screenshot": null,
       "stack": "TypeScript + React 19 + Vite",
-      "status": "paused",
+      "status": "archive",
       "subStatus": null,
       "lastActivity": "2026-09-13T20:55:53.688Z",
-      "lastActivityHebrew": "לפני 0 חודשים",
+      "lastActivityHebrew": "לפני חודש",
       "size": "822M",
       "isLive": false,
       "liveUrl": null,
@@ -537,10 +583,10 @@
       "accentColor": "#a87432",
       "screenshot": null,
       "stack": "TypeScript + React 18 + Vite",
-      "status": "paused",
+      "status": "archive",
       "subStatus": null,
       "lastActivity": "2026-09-13T20:46:26.630Z",
-      "lastActivityHebrew": "לפני 0 חודשים",
+      "lastActivityHebrew": "לפני חודש",
       "size": "1.1G",
       "isLive": true,
       "liveUrl": "https://zoom-for-kids.vercel.app",
