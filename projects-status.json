@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-14T13:01:24.540Z",
+  "lastUpdated": "2026-10-14T18:45:17.686Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 45,
   "counts": {
@@ -56,40 +56,40 @@
       "stack": "TypeScript + Vite",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-10-14T12:57:45.474Z",
-      "lastActivityHebrew": "לפני 3 דקות",
-      "size": "657M",
+      "lastActivity": "2026-10-14T18:21:43.885Z",
+      "lastActivityHebrew": "לפני 23 דקות",
+      "size": "726M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": "https://github.com/segalitoo/launch-window",
       "source": "local",
       "hasGit": true,
       "git": {
-        "branch": "session/05-yoav",
-        "lastCommitRelative": "16 minutes ago",
-        "lastCommitMessage": "Noa and Itai: models, kit, throw and work animations, in the game",
-        "lastCommitDate": "2026-10-14 15:45:37 +0300",
-        "lastCommitHebrew": "לפני 15 דקות",
-        "isDirty": true,
-        "changedFiles": 10
+        "branch": "session/07-look",
+        "lastCommitRelative": "24 minutes ago",
+        "lastCommitMessage": "Look A in the game behind ?look=a: Yoav and the guards (takedown pair included); motion library uses the look A guard",
+        "lastCommitDate": "2026-10-14 21:20:55 +0300",
+        "lastCommitHebrew": "לפני 24 דקות",
+        "isDirty": false,
+        "changedFiles": 0
       },
       "recentActions": [
         {
           "type": "commit",
-          "text": "Noa and Itai: models, kit, throw and work animations, in the game"
+          "text": "Look A in the game behind ?look=a: Yoav and the guards (takedown pair included); motion library uses the look A guard"
         },
         {
           "type": "commit",
-          "text": "Takedown v2: from the back-right, knife raised and thrust, big reaction, 0.8 s"
+          "text": "Look A test: Yoav rendered in look A (yoav_a atlas, takedown included), shown in the motion library under the current Yoav; squad tape kept through the ink"
         },
         {
           "type": "commit",
-          "text": "Low crawl rebuilt with IK; IK targets for formula poses"
+          "text": "Drawn character looks in the compositor (render_unit.py --look): cel bands and ink by body part; test sheet"
         }
       ],
       "lastSession": {
         "sessionId": "95762f9a-74b3-429c-9408-1054f1004f7c",
-        "lastActivity": "2026-10-14T12:57:45.474Z",
+        "lastActivity": "2026-10-14T18:21:43.885Z",
         "summary": "Base directory for this skill: /Users/rannsegal/Library/Application Support/Claude/local-agent-mode-sessions/skills-plug…"
       }
     },
@@ -116,7 +116,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "26 hours ago",
+        "lastCommitRelative": "31 hours ago",
         "lastCommitMessage": "Re-cut the TradersMood cards from the updated Figma cover",
         "lastCommitDate": "2026-10-13 14:23:04 +0300",
         "lastCommitHebrew": "אתמול",
@@ -176,7 +176,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "30 hours ago",
+        "lastCommitRelative": "2 days ago",
         "lastCommitMessage": "Add Tantan implementation plan",
         "lastCommitDate": "2026-10-13 09:37:17 +0300",
         "lastCommitHebrew": "אתמול",
