@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-14T10:00:42.586Z",
+  "lastUpdated": "2026-10-14T13:01:24.540Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 45,
   "counts": {
@@ -56,9 +56,9 @@
       "stack": "TypeScript + Vite",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-10-14T09:59:30.102Z",
-      "lastActivityHebrew": "הרגע",
-      "size": "543M",
+      "lastActivity": "2026-10-14T12:57:45.474Z",
+      "lastActivityHebrew": "לפני 3 דקות",
+      "size": "657M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": "https://github.com/segalitoo/launch-window",
@@ -66,30 +66,30 @@
       "hasGit": true,
       "git": {
         "branch": "session/05-yoav",
-        "lastCommitRelative": "60 minutes ago",
-        "lastCommitMessage": "Tick Yoav animations in PLAN.md",
-        "lastCommitDate": "2026-10-14 12:00:09 +0300",
-        "lastCommitHebrew": "לפני שעה",
+        "lastCommitRelative": "16 minutes ago",
+        "lastCommitMessage": "Noa and Itai: models, kit, throw and work animations, in the game",
+        "lastCommitDate": "2026-10-14 15:45:37 +0300",
+        "lastCommitHebrew": "לפני 15 דקות",
         "isDirty": true,
-        "changedFiles": 1
+        "changedFiles": 10
       },
       "recentActions": [
         {
           "type": "commit",
-          "text": "Tick Yoav animations in PLAN.md"
+          "text": "Noa and Itai: models, kit, throw and work animations, in the game"
         },
         {
           "type": "commit",
-          "text": "Yoav: all 10 animations, trimmed multi-atlas, ring fully under the figure"
+          "text": "Takedown v2: from the back-right, knife raised and thrust, big reaction, 0.8 s"
         },
         {
           "type": "commit",
-          "text": "Ring on the ground layer only; record Ran's note on the final character look"
+          "text": "Low crawl rebuilt with IK; IK targets for formula poses"
         }
       ],
       "lastSession": {
         "sessionId": "95762f9a-74b3-429c-9408-1054f1004f7c",
-        "lastActivity": "2026-10-14T09:59:30.102Z",
+        "lastActivity": "2026-10-14T12:57:45.474Z",
         "summary": "Base directory for this skill: /Users/rannsegal/Library/Application Support/Claude/local-agent-mode-sessions/skills-plug…"
       }
     },
@@ -107,7 +107,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-10-13T11:23:50.396Z",
-      "lastActivityHebrew": "לפני 22 שעות",
+      "lastActivityHebrew": "אתמול",
       "size": "606M",
       "isLive": false,
       "liveUrl": null,
@@ -116,10 +116,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "23 hours ago",
+        "lastCommitRelative": "26 hours ago",
         "lastCommitMessage": "Re-cut the TradersMood cards from the updated Figma cover",
         "lastCommitDate": "2026-10-13 14:23:04 +0300",
-        "lastCommitHebrew": "לפני 22 שעות",
+        "lastCommitHebrew": "אתמול",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -176,7 +176,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "27 hours ago",
+        "lastCommitRelative": "30 hours ago",
         "lastCommitMessage": "Add Tantan implementation plan",
         "lastCommitDate": "2026-10-13 09:37:17 +0300",
         "lastCommitHebrew": "אתמול",
@@ -505,7 +505,7 @@
       "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-09-16T10:12:26.068Z",
-      "lastActivityHebrew": "לפני 3 שבועות",
+      "lastActivityHebrew": "לפני 0 חודשים",
       "size": "1.4G",
       "isLive": false,
       "liveUrl": null,
