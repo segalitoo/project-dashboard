@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-15T14:34:57.591Z",
+  "lastUpdated": "2026-10-15T17:58:43.919Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 45,
   "counts": {
@@ -56,40 +56,40 @@
       "stack": "TypeScript + Vite",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-10-15T14:26:34.080Z",
-      "lastActivityHebrew": "לפני 8 דקות",
-      "size": "644M",
+      "lastActivity": "2026-10-15T16:35:04.931Z",
+      "lastActivityHebrew": "לפני שעה",
+      "size": "674M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": "https://github.com/segalitoo/launch-window",
       "source": "local",
       "hasGit": true,
       "git": {
-        "branch": "session/09-noa",
-        "lastCommitRelative": "9 minutes ago",
-        "lastCommitMessage": "Noa's tools and guns for all three",
-        "lastCommitDate": "2026-10-15 17:25:51 +0300",
-        "lastCommitHebrew": "לפני 9 דקות",
+        "branch": "session/13-tests",
+        "lastCommitRelative": "84 minutes ago",
+        "lastCommitMessage": "Test maps: 9 tool puzzles (strict, reach the exit) from tools/test_maps.py, solved by script; tests.html list; ?map= loads one; play log with copy buttons on the end screen",
+        "lastCommitDate": "2026-10-15 19:34:18 +0300",
+        "lastCommitHebrew": "לפני שעה",
         "isDirty": false,
         "changedFiles": 0
       },
       "recentActions": [
         {
           "type": "commit",
-          "text": "Noa's tools and guns for all three"
+          "text": "Test maps: 9 tool puzzles (strict, reach the exit) from tools/test_maps.py, solved by script; tests.html list; ?map= loads one; play log with copy buttons on the end screen"
         },
         {
           "type": "commit",
-          "text": "Noa's tools in the sim: binoculars reveal a guard's route, smoke grenades block all sight (2, 13 s), captured uniform (seen through when crawling, dragging, within 1 tile, or in an alarm)"
+          "text": "Merge session/12-backpack: the selected operator's kit as a backpack"
         },
         {
           "type": "commit",
-          "text": "Lesson: keep branch names short for working Vercel links"
+          "text": "Backpack: the selected operator's kit replaces the tool row on every screen, with line icons, counts and keys; used-up items stay greyed"
         }
       ],
       "lastSession": {
         "sessionId": "95762f9a-74b3-429c-9408-1054f1004f7c",
-        "lastActivity": "2026-10-15T14:26:34.080Z",
+        "lastActivity": "2026-10-15T16:35:04.931Z",
         "summary": "Base directory for this skill: /Users/rannsegal/Library/Application Support/Claude/local-agent-mode-sessions/skills-plug…"
       }
     },
