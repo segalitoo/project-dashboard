@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-14T18:45:17.686Z",
+  "lastUpdated": "2026-10-15T06:28:34.826Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 45,
   "counts": {
@@ -56,9 +56,9 @@
       "stack": "TypeScript + Vite",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-10-14T18:21:43.885Z",
-      "lastActivityHebrew": "לפני 23 דקות",
-      "size": "726M",
+      "lastActivity": "2026-10-14T19:36:41.180Z",
+      "lastActivityHebrew": "לפני 10 שעות",
+      "size": "738M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": "https://github.com/segalitoo/launch-window",
@@ -66,30 +66,30 @@
       "hasGit": true,
       "git": {
         "branch": "session/07-look",
-        "lastCommitRelative": "24 minutes ago",
-        "lastCommitMessage": "Look A in the game behind ?look=a: Yoav and the guards (takedown pair included); motion library uses the look A guard",
-        "lastCommitDate": "2026-10-14 21:20:55 +0300",
-        "lastCommitHebrew": "לפני 24 דקות",
+        "lastCommitRelative": "11 hours ago",
+        "lastCommitMessage": "Final unit look D3 for every unit (Ran, Phase 2): render, highlights, gain, 1 px black outline",
+        "lastCommitDate": "2026-10-14 22:36:27 +0300",
+        "lastCommitHebrew": "לפני 10 שעות",
         "isDirty": false,
         "changedFiles": 0
       },
       "recentActions": [
         {
           "type": "commit",
+          "text": "Final unit look D3 for every unit (Ran, Phase 2): render, highlights, gain, 1 px black outline"
+        },
+        {
+          "type": "commit",
+          "text": "Look test D3 (render + highlights + gain + black outline) replaces look A behind ?look=a; look A rejected by Ran (no detail)"
+        },
+        {
+          "type": "commit",
           "text": "Look A in the game behind ?look=a: Yoav and the guards (takedown pair included); motion library uses the look A guard"
-        },
-        {
-          "type": "commit",
-          "text": "Look A test: Yoav rendered in look A (yoav_a atlas, takedown included), shown in the motion library under the current Yoav; squad tape kept through the ink"
-        },
-        {
-          "type": "commit",
-          "text": "Drawn character looks in the compositor (render_unit.py --look): cel bands and ink by body part; test sheet"
         }
       ],
       "lastSession": {
         "sessionId": "95762f9a-74b3-429c-9408-1054f1004f7c",
-        "lastActivity": "2026-10-14T18:21:43.885Z",
+        "lastActivity": "2026-10-14T19:36:41.180Z",
         "summary": "Base directory for this skill: /Users/rannsegal/Library/Application Support/Claude/local-agent-mode-sessions/skills-plug…"
       }
     },
@@ -116,7 +116,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "31 hours ago",
+        "lastCommitRelative": "2 days ago",
         "lastCommitMessage": "Re-cut the TradersMood cards from the updated Figma cover",
         "lastCommitDate": "2026-10-13 14:23:04 +0300",
         "lastCommitHebrew": "אתמול",
@@ -222,7 +222,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "2 weeks ago",
+        "lastCommitRelative": "3 weeks ago",
         "lastCommitMessage": "Cut answer time roughly in half and remove fake offline answers",
         "lastCommitDate": "2026-09-27 16:50:02 +0300",
         "lastCommitHebrew": "לפני 2 שבועות",
@@ -1179,7 +1179,7 @@
       "status": "archive",
       "subStatus": null,
       "lastActivity": "2026-06-16T19:24:30.000Z",
-      "lastActivityHebrew": "לפני 3 חודשים",
+      "lastActivityHebrew": "לפני כחצי שנה",
       "size": "287M",
       "isLive": false,
       "liveUrl": null,
@@ -1191,7 +1191,7 @@
         "lastCommitRelative": "4 months ago",
         "lastCommitMessage": "Pre-fill non-secret values in .env.example for easier setup",
         "lastCommitDate": "2026-06-16 19:24:30 +0000",
-        "lastCommitHebrew": "לפני 3 חודשים",
+        "lastCommitHebrew": "לפני כחצי שנה",
         "isDirty": true,
         "changedFiles": 1
       },
