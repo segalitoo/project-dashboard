@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-10-15T17:58:43.919Z",
+  "lastUpdated": "2026-10-17T03:00:23.781Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 45,
   "counts": {
     "live": 1,
     "building": 3,
-    "paused": 7,
-    "archive": 18,
+    "paused": 6,
+    "archive": 19,
     "idea": 16
   },
   "projects": [
@@ -56,24 +56,28 @@
       "stack": "TypeScript + Vite",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-10-15T16:35:04.931Z",
-      "lastActivityHebrew": "לפני שעה",
-      "size": "674M",
+      "lastActivity": "2026-10-16T20:25:28.675Z",
+      "lastActivityHebrew": "לפני 6 שעות",
+      "size": "679M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": "https://github.com/segalitoo/launch-window",
       "source": "local",
       "hasGit": true,
       "git": {
-        "branch": "session/13-tests",
-        "lastCommitRelative": "84 minutes ago",
-        "lastCommitMessage": "Test maps: 9 tool puzzles (strict, reach the exit) from tools/test_maps.py, solved by script; tests.html list; ?map= loads one; play log with copy buttons on the end screen",
-        "lastCommitDate": "2026-10-15 19:34:18 +0300",
-        "lastCommitHebrew": "לפני שעה",
+        "branch": "main",
+        "lastCommitRelative": "7 hours ago",
+        "lastCommitMessage": "Merge session/13-tests: tool test maps and the play log",
+        "lastCommitDate": "2026-10-16 23:24:45 +0300",
+        "lastCommitHebrew": "לפני 6 שעות",
         "isDirty": false,
         "changedFiles": 0
       },
       "recentActions": [
+        {
+          "type": "commit",
+          "text": "Merge session/13-tests: tool test maps and the play log"
+        },
         {
           "type": "commit",
           "text": "Test maps: 9 tool puzzles (strict, reach the exit) from tools/test_maps.py, solved by script; tests.html list; ?map= loads one; play log with copy buttons on the end screen"
@@ -81,15 +85,11 @@
         {
           "type": "commit",
           "text": "Merge session/12-backpack: the selected operator's kit as a backpack"
-        },
-        {
-          "type": "commit",
-          "text": "Backpack: the selected operator's kit replaces the tool row on every screen, with line icons, counts and keys; used-up items stay greyed"
         }
       ],
       "lastSession": {
         "sessionId": "95762f9a-74b3-429c-9408-1054f1004f7c",
-        "lastActivity": "2026-10-15T16:35:04.931Z",
+        "lastActivity": "2026-10-16T20:25:28.675Z",
         "summary": "Base directory for this skill: /Users/rannsegal/Library/Application Support/Claude/local-agent-mode-sessions/skills-plug…"
       }
     },
@@ -107,7 +107,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-10-13T11:23:50.396Z",
-      "lastActivityHebrew": "שלשום",
+      "lastActivityHebrew": "לפני 3 ימים",
       "size": "606M",
       "isLive": false,
       "liveUrl": null,
@@ -116,10 +116,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "2 days ago",
+        "lastCommitRelative": "4 days ago",
         "lastCommitMessage": "Re-cut the TradersMood cards from the updated Figma cover",
         "lastCommitDate": "2026-10-13 14:23:04 +0300",
-        "lastCommitHebrew": "שלשום",
+        "lastCommitHebrew": "לפני 3 ימים",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -167,7 +167,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-10-13T06:37:25.690Z",
-      "lastActivityHebrew": "שלשום",
+      "lastActivityHebrew": "לפני 3 ימים",
       "size": "308K",
       "isLive": false,
       "liveUrl": null,
@@ -176,10 +176,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "2 days ago",
+        "lastCommitRelative": "4 days ago",
         "lastCommitMessage": "Add Tantan implementation plan",
         "lastCommitDate": "2026-10-13 09:37:17 +0300",
-        "lastCommitHebrew": "שלשום",
+        "lastCommitHebrew": "לפני 3 ימים",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -268,7 +268,7 @@
       "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-09-24T21:51:36.368Z",
-      "lastActivityHebrew": "לפני 2 שבועות",
+      "lastActivityHebrew": "לפני 3 שבועות",
       "size": "165M",
       "isLive": false,
       "liveUrl": null,
@@ -280,7 +280,7 @@
         "lastCommitRelative": "3 weeks ago",
         "lastCommitMessage": "Fix sign-in in the installed iOS app with a one-time session handoff",
         "lastCommitDate": "2026-09-25 00:50:40 +0300",
-        "lastCommitHebrew": "לפני 2 שבועות",
+        "lastCommitHebrew": "לפני 3 שבועות",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -502,10 +502,10 @@
       "accentColor": "#3d5a3d",
       "screenshot": null,
       "stack": "Python",
-      "status": "paused",
+      "status": "archive",
       "subStatus": null,
       "lastActivity": "2026-09-16T10:12:26.068Z",
-      "lastActivityHebrew": "לפני 0 חודשים",
+      "lastActivityHebrew": "לפני חודש",
       "size": "1.4G",
       "isLive": false,
       "liveUrl": null,
@@ -1090,7 +1090,7 @@
         "lastCommitRelative": "3 months ago",
         "lastCommitMessage": "Fix auth deadlock that hung Save and Set-password forever",
         "lastCommitDate": "2026-07-18 00:35:04 +0300",
-        "lastCommitHebrew": "לפני 2 חודשים",
+        "lastCommitHebrew": "לפני 3 חודשים",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -1133,7 +1133,7 @@
       "status": "archive",
       "subStatus": null,
       "lastActivity": "2026-07-19T00:04:45.000Z",
-      "lastActivityHebrew": "לפני 2 חודשים",
+      "lastActivityHebrew": "לפני 3 חודשים",
       "size": "437M",
       "isLive": false,
       "liveUrl": null,
@@ -1145,7 +1145,7 @@
         "lastCommitRelative": "3 months ago",
         "lastCommitMessage": "Migrate attire step to Bria gen_fill with a real-face guarantee",
         "lastCommitDate": "2026-07-19 03:04:45 +0300",
-        "lastCommitHebrew": "לפני 2 חודשים",
+        "lastCommitHebrew": "לפני 3 חודשים",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -1258,7 +1258,7 @@
       "status": "archive",
       "subStatus": null,
       "lastActivity": "2026-02-18T10:03:13Z",
-      "lastActivityHebrew": "לפני 7 חודשים",
+      "lastActivityHebrew": "לפני 8 חודשים",
       "size": "cloud",
       "isLive": false,
       "liveUrl": null,
@@ -1270,7 +1270,7 @@
         "lastCommitRelative": "",
         "lastCommitMessage": "",
         "lastCommitDate": "2026-02-18T10:03:13Z",
-        "lastCommitHebrew": "לפני 7 חודשים",
+        "lastCommitHebrew": "לפני 8 חודשים",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -1291,7 +1291,7 @@
       "status": "archive",
       "subStatus": null,
       "lastActivity": "2026-02-18T08:49:55Z",
-      "lastActivityHebrew": "לפני 7 חודשים",
+      "lastActivityHebrew": "לפני 8 חודשים",
       "size": "cloud",
       "isLive": false,
       "liveUrl": null,
@@ -1303,7 +1303,7 @@
         "lastCommitRelative": "",
         "lastCommitMessage": "",
         "lastCommitDate": "2026-02-18T08:49:55Z",
-        "lastCommitHebrew": "לפני 7 חודשים",
+        "lastCommitHebrew": "לפני 8 חודשים",
         "isDirty": false,
         "changedFiles": 0
       },
