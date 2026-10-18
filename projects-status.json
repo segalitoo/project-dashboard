@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T13:54:41.630Z",
+  "lastUpdated": "2026-10-18T16:55:00.677Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 45,
   "counts": {
@@ -57,7 +57,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-10-18T08:33:31.466Z",
-      "lastActivityHebrew": "לפני 5 שעות",
+      "lastActivityHebrew": "לפני 8 שעות",
       "size": "165M",
       "isLive": false,
       "liveUrl": null,
@@ -117,7 +117,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-10-18T08:08:38.816Z",
-      "lastActivityHebrew": "לפני 5 שעות",
+      "lastActivityHebrew": "לפני 8 שעות",
       "size": "674M",
       "isLive": false,
       "liveUrl": null,
@@ -167,7 +167,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-10-18T07:55:48.189Z",
-      "lastActivityHebrew": "לפני 5 שעות",
+      "lastActivityHebrew": "לפני 8 שעות",
       "size": "607M",
       "isLive": false,
       "liveUrl": null,
@@ -176,10 +176,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "6 hours ago",
+        "lastCommitRelative": "9 hours ago",
         "lastCommitMessage": "Add Microsoft Clarity alongside GA4",
         "lastCommitDate": "2026-10-18 10:35:51 +0300",
-        "lastCommitHebrew": "לפני 6 שעות",
+        "lastCommitHebrew": "לפני 9 שעות",
         "isDirty": false,
         "changedFiles": 0
       },
