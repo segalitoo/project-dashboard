@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-18T10:19:26.038Z",
+  "lastUpdated": "2026-10-18T13:54:41.630Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 45,
   "counts": {
@@ -57,7 +57,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-10-18T08:33:31.466Z",
-      "lastActivityHebrew": "לפני שעה",
+      "lastActivityHebrew": "לפני 5 שעות",
       "size": "165M",
       "isLive": false,
       "liveUrl": null,
@@ -117,7 +117,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-10-18T08:08:38.816Z",
-      "lastActivityHebrew": "לפני 2 שעות",
+      "lastActivityHebrew": "לפני 5 שעות",
       "size": "674M",
       "isLive": false,
       "liveUrl": null,
@@ -167,7 +167,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-10-18T07:55:48.189Z",
-      "lastActivityHebrew": "לפני 2 שעות",
+      "lastActivityHebrew": "לפני 5 שעות",
       "size": "607M",
       "isLive": false,
       "liveUrl": null,
@@ -176,10 +176,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "3 hours ago",
+        "lastCommitRelative": "6 hours ago",
         "lastCommitMessage": "Add Microsoft Clarity alongside GA4",
         "lastCommitDate": "2026-10-18 10:35:51 +0300",
-        "lastCommitHebrew": "לפני 2 שעות",
+        "lastCommitHebrew": "לפני 6 שעות",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -273,7 +273,7 @@
       "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-09-27T13:50:19.095Z",
-      "lastActivityHebrew": "לפני 2 שבועות",
+      "lastActivityHebrew": "לפני 3 שבועות",
       "size": "215M",
       "isLive": false,
       "liveUrl": null,
@@ -285,7 +285,7 @@
         "lastCommitRelative": "3 weeks ago",
         "lastCommitMessage": "Cut answer time roughly in half and remove fake offline answers",
         "lastCommitDate": "2026-09-27 16:50:02 +0300",
-        "lastCommitHebrew": "לפני 2 שבועות",
+        "lastCommitHebrew": "לפני 3 שבועות",
         "isDirty": true,
         "changedFiles": 1
       },
@@ -427,7 +427,7 @@
       "hasGit": true,
       "git": {
         "branch": "redesign/drafting-table",
-        "lastCommitRelative": "10 weeks ago",
+        "lastCommitRelative": "2 months ago",
         "lastCommitMessage": "Add dev server launch config",
         "lastCommitDate": "2026-08-10 02:31:53 +0300",
         "lastCommitHebrew": "לפני 2 חודשים",
@@ -519,7 +519,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/landing-page",
-        "lastCommitRelative": "10 weeks ago",
+        "lastCommitRelative": "2 months ago",
         "lastCommitMessage": "Remove the grammar module",
         "lastCommitDate": "2026-08-10 02:38:18 +0300",
         "lastCommitHebrew": "לפני 2 חודשים",
@@ -604,7 +604,7 @@
       "hasGit": true,
       "git": {
         "branch": "claude/add-claude-documentation-gFq7q",
-        "lastCommitRelative": "10 weeks ago",
+        "lastCommitRelative": "2 months ago",
         "lastCommitMessage": "Ignore packaged zips and agent worktree scratch",
         "lastCommitDate": "2026-08-10 02:31:44 +0300",
         "lastCommitHebrew": "לפני 2 חודשים",
@@ -863,7 +863,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "10 weeks ago",
+        "lastCommitRelative": "2 months ago",
         "lastCommitMessage": "Scope the dark theme class hook to :root",
         "lastCommitDate": "2026-08-10 02:31:59 +0300",
         "lastCommitHebrew": "לפני 2 חודשים",
@@ -913,7 +913,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "10 weeks ago",
+        "lastCommitRelative": "2 months ago",
         "lastCommitMessage": "Add CLAUDE.md",
         "lastCommitDate": "2026-08-10 02:27:56 +0300",
         "lastCommitHebrew": "לפני 2 חודשים",
@@ -992,7 +992,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "10 weeks ago",
+        "lastCommitRelative": "2 months ago",
         "lastCommitMessage": "Ignore Supabase CLI scratch directory",
         "lastCommitDate": "2026-08-10 02:28:12 +0300",
         "lastCommitHebrew": "לפני 2 חודשים",
@@ -1042,7 +1042,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "10 weeks ago",
+        "lastCommitRelative": "2 months ago",
         "lastCommitMessage": "Scope the dark theme class hook to :root",
         "lastCommitDate": "2026-08-10 02:31:59 +0300",
         "lastCommitHebrew": "לפני 2 חודשים",
