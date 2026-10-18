@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-10-18T07:19:04.539Z",
+  "lastUpdated": "2026-10-18T10:19:26.038Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 45,
   "counts": {
     "live": 1,
-    "building": 3,
-    "paused": 5,
+    "building": 4,
+    "paused": 4,
     "archive": 20,
     "idea": 16
   },
@@ -44,63 +44,63 @@
       "lastSession": null
     },
     {
-      "name": "ran-portfolio",
-      "humanName": "פורטפוליו אישי",
-      "tagline": "כרטיס ביקור אונליין - אוסף הפרוייקטים והשירותים שלי",
-      "longDescription": "אתר סטטי בעברית שמרכז את הפרוייקטים, ניסיון העבודה ופרטי קשר. מעוצב ידנית ב-HTML/CSS/JS ללא פריימוורק, עם דגש על טון אישי וחם. כולל מעקב אנליטיקס דרך GA4.",
-      "nextStep": "לפרסם את הגרסה האחרונה (יש 8 קבצים שונו)",
+      "name": "Ideas",
+      "humanName": "Ideas",
+      "tagline": "ניצוץ · לתפוס רעיונות לפני שהם בורחים",
+      "longDescription": "ניצוץ · לתפוס רעיונות לפני שהם בורחים",
+      "nextStep": null,
       "notes": null,
-      "category": "Portfolio",
-      "accentColor": "#3a4a6b",
+      "category": null,
+      "accentColor": "#a87432",
       "screenshot": null,
-      "stack": "HTML/CSS/JS",
+      "stack": "TypeScript + React 18 + Vite + Supabase",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-10-18T07:04:03.350Z",
-      "lastActivityHebrew": "לפני 14 דקות",
-      "size": "606M",
+      "lastActivity": "2026-10-18T08:33:31.466Z",
+      "lastActivityHebrew": "לפני שעה",
+      "size": "165M",
       "isLive": false,
       "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/ran-portfolio",
-      "source": "both",
+      "githubUrl": "https://github.com/segalitoo/nitzotz",
+      "source": "local",
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "16 minutes ago",
-        "lastCommitMessage": "Stop sending readers to the gated TradersMood presentation",
-        "lastCommitDate": "2026-10-18 10:03:27 +0300",
-        "lastCommitHebrew": "לפני 15 דקות",
+        "lastCommitRelative": "3 weeks ago",
+        "lastCommitMessage": "Fix sign-in in the installed iOS app with a one-time session handoff",
+        "lastCommitDate": "2026-09-25 00:50:40 +0300",
+        "lastCommitHebrew": "לפני 3 שבועות",
         "isDirty": false,
         "changedFiles": 0
       },
       "recentActions": [
         {
           "type": "commit",
-          "text": "Stop sending readers to the gated TradersMood presentation"
+          "text": "Fix sign-in in the installed iOS app with a one-time session handoff"
         },
         {
           "type": "commit",
-          "text": "Take the Bingo Bay artifact out of the close"
+          "text": "Connect the dots: AI digest, related ideas and near-duplicates"
         },
         {
           "type": "commit",
-          "text": "Drop the hiring-test framing from the two client projects"
+          "text": "Photo to idea"
         },
         {
           "type": "chat",
-          "text": "we also dont need the box with background for the images or animation\n\nin need to fill like the image or animation is ju…",
-          "sessionId": "24c0da2a-c87a-495f-8e1e-7ba121901f03"
+          "text": "good exampke to add to taste skill:",
+          "sessionId": "08d0827c-bef2-48f1-9d43-4c4217502b5d"
         },
         {
           "type": "chat",
-          "text": "Continue from where you left off.",
-          "sessionId": "62949473-9542-4af5-b1f3-c760e5957a96"
+          "text": "[Request interrupted by user]",
+          "sessionId": "071cbb82-ca5d-4b36-ad2c-354cd77a8977"
         }
       ],
       "lastSession": {
-        "sessionId": "24c0da2a-c87a-495f-8e1e-7ba121901f03",
-        "lastActivity": "2026-10-18T07:04:03.350Z",
-        "summary": "we also dont need the box with background for the images or animation\n\nin need to fill like the image or animation is ju…"
+        "sessionId": "08d0827c-bef2-48f1-9d43-4c4217502b5d",
+        "lastActivity": "2026-10-18T08:33:31.466Z",
+        "summary": "good exampke to add to taste skill:"
       }
     },
     {
@@ -116,9 +116,9 @@
       "stack": "TypeScript + Vite",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-10-16T20:25:28.675Z",
-      "lastActivityHebrew": "אתמול",
-      "size": "676M",
+      "lastActivity": "2026-10-18T08:08:38.816Z",
+      "lastActivityHebrew": "לפני 2 שעות",
+      "size": "674M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": "https://github.com/segalitoo/launch-window",
@@ -126,7 +126,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "35 hours ago",
+        "lastCommitRelative": "2 days ago",
         "lastCommitMessage": "Merge session/13-tests: tool test maps and the play log",
         "lastCommitDate": "2026-10-16 23:24:45 +0300",
         "lastCommitHebrew": "אתמול",
@@ -148,9 +148,69 @@
         }
       ],
       "lastSession": {
-        "sessionId": "95762f9a-74b3-429c-9408-1054f1004f7c",
-        "lastActivity": "2026-10-16T20:25:28.675Z",
-        "summary": "Base directory for this skill: /Users/rannsegal/Library/Application Support/Claude/local-agent-mode-sessions/skills-plug…"
+        "sessionId": "f73dea04-6805-4b69-95cf-05b280e5c7cc",
+        "lastActivity": "2026-10-18T08:08:38.816Z",
+        "summary": ""
+      }
+    },
+    {
+      "name": "ran-portfolio",
+      "humanName": "פורטפוליו אישי",
+      "tagline": "כרטיס ביקור אונליין - אוסף הפרוייקטים והשירותים שלי",
+      "longDescription": "אתר סטטי בעברית שמרכז את הפרוייקטים, ניסיון העבודה ופרטי קשר. מעוצב ידנית ב-HTML/CSS/JS ללא פריימוורק, עם דגש על טון אישי וחם. כולל מעקב אנליטיקס דרך GA4.",
+      "nextStep": "לפרסם את הגרסה האחרונה (יש 8 קבצים שונו)",
+      "notes": null,
+      "category": "Portfolio",
+      "accentColor": "#3a4a6b",
+      "screenshot": null,
+      "stack": "HTML/CSS/JS",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-10-18T07:55:48.189Z",
+      "lastActivityHebrew": "לפני 2 שעות",
+      "size": "607M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/ran-portfolio",
+      "source": "both",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "3 hours ago",
+        "lastCommitMessage": "Add Microsoft Clarity alongside GA4",
+        "lastCommitDate": "2026-10-18 10:35:51 +0300",
+        "lastCommitHebrew": "לפני 2 שעות",
+        "isDirty": false,
+        "changedFiles": 0
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Add Microsoft Clarity alongside GA4"
+        },
+        {
+          "type": "commit",
+          "text": "Add a sound toggle to the TradersMood hero, and keep myself out of GA4"
+        },
+        {
+          "type": "commit",
+          "text": "Stop sending readers to the gated TradersMood presentation"
+        },
+        {
+          "type": "chat",
+          "text": "we also dont need the box with background for the images or animation\n\nin need to fill like the image or animation is ju…",
+          "sessionId": "24c0da2a-c87a-495f-8e1e-7ba121901f03"
+        },
+        {
+          "type": "chat",
+          "text": "Continue from where you left off.",
+          "sessionId": "62949473-9542-4af5-b1f3-c760e5957a96"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "24c0da2a-c87a-495f-8e1e-7ba121901f03",
+        "lastActivity": "2026-10-18T07:55:48.189Z",
+        "summary": "we also dont need the box with background for the images or animation\n\nin need to fill like the image or animation is ju…"
       }
     },
     {
@@ -252,61 +312,6 @@
         "sessionId": "0c2f1358-34d8-4173-9378-99f00876a6dd",
         "lastActivity": "2026-09-27T13:50:19.095Z",
         "summary": "You are acting as my Lead Product Architect and UX/UI Designer.\nTASK: Plan and design a cross-platform (mobile and deskt…"
-      }
-    },
-    {
-      "name": "Ideas",
-      "humanName": "Ideas",
-      "tagline": "ניצוץ · לתפוס רעיונות לפני שהם בורחים",
-      "longDescription": "ניצוץ · לתפוס רעיונות לפני שהם בורחים",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#a87432",
-      "screenshot": null,
-      "stack": "TypeScript + React 18 + Vite + Supabase",
-      "status": "paused",
-      "subStatus": null,
-      "lastActivity": "2026-09-24T21:51:36.368Z",
-      "lastActivityHebrew": "לפני 3 שבועות",
-      "size": "165M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/nitzotz",
-      "source": "local",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "3 weeks ago",
-        "lastCommitMessage": "Fix sign-in in the installed iOS app with a one-time session handoff",
-        "lastCommitDate": "2026-09-25 00:50:40 +0300",
-        "lastCommitHebrew": "לפני 3 שבועות",
-        "isDirty": false,
-        "changedFiles": 0
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Fix sign-in in the installed iOS app with a one-time session handoff"
-        },
-        {
-          "type": "commit",
-          "text": "Connect the dots: AI digest, related ideas and near-duplicates"
-        },
-        {
-          "type": "commit",
-          "text": "Photo to idea"
-        },
-        {
-          "type": "chat",
-          "text": "[Request interrupted by user]",
-          "sessionId": "071cbb82-ca5d-4b36-ad2c-354cd77a8977"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "071cbb82-ca5d-4b36-ad2c-354cd77a8977",
-        "lastActivity": "2026-09-24T21:51:36.368Z",
-        "summary": "[Request interrupted by user]"
       }
     },
     {
@@ -741,7 +746,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "8 weeks ago",
+        "lastCommitRelative": "9 weeks ago",
         "lastCommitMessage": "Add Scene 02 \"Blue Wave\" storyboard and restore the director subagent",
         "lastCommitDate": "2026-08-20 00:44:49 +0300",
         "lastCommitHebrew": "לפני חודש",
