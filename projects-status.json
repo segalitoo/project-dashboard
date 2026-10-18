@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-10-17T03:00:23.781Z",
+  "lastUpdated": "2026-10-18T07:19:04.539Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 45,
   "counts": {
     "live": 1,
     "building": 3,
-    "paused": 6,
-    "archive": 19,
+    "paused": 5,
+    "archive": 20,
     "idea": 16
   },
   "projects": [
@@ -44,6 +44,66 @@
       "lastSession": null
     },
     {
+      "name": "ran-portfolio",
+      "humanName": "פורטפוליו אישי",
+      "tagline": "כרטיס ביקור אונליין - אוסף הפרוייקטים והשירותים שלי",
+      "longDescription": "אתר סטטי בעברית שמרכז את הפרוייקטים, ניסיון העבודה ופרטי קשר. מעוצב ידנית ב-HTML/CSS/JS ללא פריימוורק, עם דגש על טון אישי וחם. כולל מעקב אנליטיקס דרך GA4.",
+      "nextStep": "לפרסם את הגרסה האחרונה (יש 8 קבצים שונו)",
+      "notes": null,
+      "category": "Portfolio",
+      "accentColor": "#3a4a6b",
+      "screenshot": null,
+      "stack": "HTML/CSS/JS",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-10-18T07:04:03.350Z",
+      "lastActivityHebrew": "לפני 14 דקות",
+      "size": "606M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/ran-portfolio",
+      "source": "both",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "16 minutes ago",
+        "lastCommitMessage": "Stop sending readers to the gated TradersMood presentation",
+        "lastCommitDate": "2026-10-18 10:03:27 +0300",
+        "lastCommitHebrew": "לפני 15 דקות",
+        "isDirty": false,
+        "changedFiles": 0
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Stop sending readers to the gated TradersMood presentation"
+        },
+        {
+          "type": "commit",
+          "text": "Take the Bingo Bay artifact out of the close"
+        },
+        {
+          "type": "commit",
+          "text": "Drop the hiring-test framing from the two client projects"
+        },
+        {
+          "type": "chat",
+          "text": "we also dont need the box with background for the images or animation\n\nin need to fill like the image or animation is ju…",
+          "sessionId": "24c0da2a-c87a-495f-8e1e-7ba121901f03"
+        },
+        {
+          "type": "chat",
+          "text": "Continue from where you left off.",
+          "sessionId": "62949473-9542-4af5-b1f3-c760e5957a96"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "24c0da2a-c87a-495f-8e1e-7ba121901f03",
+        "lastActivity": "2026-10-18T07:04:03.350Z",
+        "summary": "we also dont need the box with background for the images or animation\n\nin need to fill like the image or animation is ju…"
+      }
+    },
+    {
       "name": "special-ops",
       "humanName": "special-ops",
       "tagline": "An isometric stealth-tactics game for the browser, in the style of Commandos 1 (1998).",
@@ -57,8 +117,8 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-10-16T20:25:28.675Z",
-      "lastActivityHebrew": "לפני 6 שעות",
-      "size": "679M",
+      "lastActivityHebrew": "אתמול",
+      "size": "676M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": "https://github.com/segalitoo/launch-window",
@@ -66,10 +126,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "7 hours ago",
+        "lastCommitRelative": "35 hours ago",
         "lastCommitMessage": "Merge session/13-tests: tool test maps and the play log",
         "lastCommitDate": "2026-10-16 23:24:45 +0300",
-        "lastCommitHebrew": "לפני 6 שעות",
+        "lastCommitHebrew": "אתמול",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -94,66 +154,6 @@
       }
     },
     {
-      "name": "ran-portfolio",
-      "humanName": "פורטפוליו אישי",
-      "tagline": "כרטיס ביקור אונליין - אוסף הפרוייקטים והשירותים שלי",
-      "longDescription": "אתר סטטי בעברית שמרכז את הפרוייקטים, ניסיון העבודה ופרטי קשר. מעוצב ידנית ב-HTML/CSS/JS ללא פריימוורק, עם דגש על טון אישי וחם. כולל מעקב אנליטיקס דרך GA4.",
-      "nextStep": "לפרסם את הגרסה האחרונה (יש 8 קבצים שונו)",
-      "notes": null,
-      "category": "Portfolio",
-      "accentColor": "#3a4a6b",
-      "screenshot": null,
-      "stack": "HTML/CSS/JS",
-      "status": "building",
-      "subStatus": null,
-      "lastActivity": "2026-10-13T11:23:50.396Z",
-      "lastActivityHebrew": "לפני 3 ימים",
-      "size": "606M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/ran-portfolio",
-      "source": "both",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "4 days ago",
-        "lastCommitMessage": "Re-cut the TradersMood cards from the updated Figma cover",
-        "lastCommitDate": "2026-10-13 14:23:04 +0300",
-        "lastCommitHebrew": "לפני 3 ימים",
-        "isDirty": false,
-        "changedFiles": 0
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Re-cut the TradersMood cards from the updated Figma cover"
-        },
-        {
-          "type": "commit",
-          "text": "Swap the TradersMood thumbnail for the dark EP. 9 cover"
-        },
-        {
-          "type": "commit",
-          "text": "TradersMood page: dark theme reads again"
-        },
-        {
-          "type": "chat",
-          "text": "we also dont need the box with background for the images or animation\n\nin need to fill like the image or animation is ju…",
-          "sessionId": "24c0da2a-c87a-495f-8e1e-7ba121901f03"
-        },
-        {
-          "type": "chat",
-          "text": "Continue from where you left off.",
-          "sessionId": "62949473-9542-4af5-b1f3-c760e5957a96"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "24c0da2a-c87a-495f-8e1e-7ba121901f03",
-        "lastActivity": "2026-10-13T11:23:50.396Z",
-        "summary": "we also dont need the box with background for the images or animation\n\nin need to fill like the image or animation is ju…"
-      }
-    },
-    {
       "name": "pet",
       "humanName": "pet",
       "tagline": "Unknown",
@@ -167,7 +167,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-10-13T06:37:25.690Z",
-      "lastActivityHebrew": "לפני 3 ימים",
+      "lastActivityHebrew": "לפני 5 ימים",
       "size": "308K",
       "isLive": false,
       "liveUrl": null,
@@ -176,10 +176,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "4 days ago",
+        "lastCommitRelative": "5 days ago",
         "lastCommitMessage": "Add Tantan implementation plan",
         "lastCommitDate": "2026-10-13 09:37:17 +0300",
-        "lastCommitHebrew": "לפני 3 ימים",
+        "lastCommitHebrew": "לפני 5 ימים",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -367,7 +367,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "3 weeks ago",
+        "lastCommitRelative": "4 weeks ago",
         "lastCommitMessage": "Serve the app for every route on Vercel",
         "lastCommitDate": "2026-09-23 02:32:49 +0300",
         "lastCommitHebrew": "לפני 3 שבועות",
@@ -460,10 +460,10 @@
       "accentColor": "#1a4d4d",
       "screenshot": null,
       "stack": "HTML/CSS/JS",
-      "status": "paused",
+      "status": "archive",
       "subStatus": null,
       "lastActivity": "2026-09-17T08:40:13.000Z",
-      "lastActivityHebrew": "לפני 0 חודשים",
+      "lastActivityHebrew": "לפני חודש",
       "size": "7.4M",
       "isLive": false,
       "liveUrl": null,
@@ -475,7 +475,7 @@
         "lastCommitRelative": "4 weeks ago",
         "lastCommitMessage": "Option 2: the page as the shop counter",
         "lastCommitDate": "2026-09-17 11:40:13 +0300",
-        "lastCommitHebrew": "לפני 0 חודשים",
+        "lastCommitHebrew": "לפני חודש",
         "isDirty": false,
         "changedFiles": 0
       },
