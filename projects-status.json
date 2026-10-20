@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-10-20T13:06:44.089Z",
+  "lastUpdated": "2026-10-20T21:40:24.750Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 45,
   "counts": {
     "live": 1,
-    "building": 4,
+    "building": 5,
     "paused": 4,
-    "archive": 20,
+    "archive": 19,
     "idea": 16
   },
   "projects": [
@@ -44,116 +44,6 @@
       "lastSession": null
     },
     {
-      "name": "pet",
-      "humanName": "pet",
-      "tagline": "Unknown",
-      "longDescription": "פרוייקט ב-Unknown",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#5f9d7f",
-      "screenshot": null,
-      "stack": "Unknown",
-      "status": "building",
-      "subStatus": null,
-      "lastActivity": "2026-10-20T11:04:44.784Z",
-      "lastActivityHebrew": "לפני 2 שעות",
-      "size": "380K",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": null,
-      "source": "local",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "2 hours ago",
-        "lastCommitMessage": "Add cross-project work memory to Tantan spec and plan",
-        "lastCommitDate": "2026-10-20 14:04:35 +0300",
-        "lastCommitHebrew": "לפני 2 שעות",
-        "isDirty": false,
-        "changedFiles": 0
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Add cross-project work memory to Tantan spec and plan"
-        },
-        {
-          "type": "commit",
-          "text": "Add Tantan implementation plan"
-        },
-        {
-          "type": "commit",
-          "text": "Add Tantan pet design spec, sprite art and render tools"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "e1111045-dcd8-4a9e-8831-d32679f62d13",
-        "lastActivity": "2026-10-20T11:04:44.784Z",
-        "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/b…"
-      }
-    },
-    {
-      "name": "ran-portfolio",
-      "humanName": "פורטפוליו אישי",
-      "tagline": "כרטיס ביקור אונליין - אוסף הפרוייקטים והשירותים שלי",
-      "longDescription": "אתר סטטי בעברית שמרכז את הפרוייקטים, ניסיון העבודה ופרטי קשר. מעוצב ידנית ב-HTML/CSS/JS ללא פריימוורק, עם דגש על טון אישי וחם. כולל מעקב אנליטיקס דרך GA4.",
-      "nextStep": "לפרסם את הגרסה האחרונה (יש 8 קבצים שונו)",
-      "notes": null,
-      "category": "Portfolio",
-      "accentColor": "#3a4a6b",
-      "screenshot": null,
-      "stack": "HTML/CSS/JS",
-      "status": "building",
-      "subStatus": null,
-      "lastActivity": "2026-10-20T08:09:45.437Z",
-      "lastActivityHebrew": "לפני 4 שעות",
-      "size": "607M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/ran-portfolio",
-      "source": "both",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "5 hours ago",
-        "lastCommitMessage": "Fix: only the card title text was ever clickable",
-        "lastCommitDate": "2026-10-20 11:08:47 +0300",
-        "lastCommitHebrew": "לפני 4 שעות",
-        "isDirty": false,
-        "changedFiles": 0
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Fix: only the card title text was ever clickable"
-        },
-        {
-          "type": "commit",
-          "text": "Fix: \"View project\" was the one dead spot on every card"
-        },
-        {
-          "type": "commit",
-          "text": "Add Microsoft Clarity alongside GA4"
-        },
-        {
-          "type": "chat",
-          "text": "we also dont need the box with background for the images or animation\n\nin need to fill like the image or animation is ju…",
-          "sessionId": "24c0da2a-c87a-495f-8e1e-7ba121901f03"
-        },
-        {
-          "type": "chat",
-          "text": "Continue from where you left off.",
-          "sessionId": "62949473-9542-4af5-b1f3-c760e5957a96"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "24c0da2a-c87a-495f-8e1e-7ba121901f03",
-        "lastActivity": "2026-10-20T08:09:45.437Z",
-        "summary": "we also dont need the box with background for the images or animation\n\nin need to fill like the image or animation is ju…"
-      }
-    },
-    {
       "name": "Ideas",
       "humanName": "Ideas",
       "tagline": "ניצוץ · לתפוס רעיונות לפני שהם בורחים",
@@ -166,8 +56,8 @@
       "stack": "TypeScript + React 18 + Vite + Supabase",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-10-18T08:33:31.466Z",
-      "lastActivityHebrew": "שלשום",
+      "lastActivity": "2026-10-20T20:53:45.210Z",
+      "lastActivityHebrew": "לפני 46 דקות",
       "size": "165M",
       "isLive": false,
       "liveUrl": null,
@@ -209,8 +99,168 @@
       ],
       "lastSession": {
         "sessionId": "08d0827c-bef2-48f1-9d43-4c4217502b5d",
-        "lastActivity": "2026-10-18T08:33:31.466Z",
+        "lastActivity": "2026-10-20T20:53:45.210Z",
         "summary": "good exampke to add to taste skill:"
+      }
+    },
+    {
+      "name": "Agent-blueprint",
+      "humanName": "Agent-blueprint",
+      "tagline": "Dev memory for Claude Code working ON this repository. This is not the agent template itself, and it does not load the template. The template is a deliverable that lives in `templa…",
+      "longDescription": "Dev memory for Claude Code working ON this repository. This is not the agent template itself, and it does not load the template. The template is a deliverable that lives in `templa…",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#3d5a3d",
+      "screenshot": null,
+      "stack": "Unknown",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-10-20T20:45:41.774Z",
+      "lastActivityHebrew": "לפני 54 דקות",
+      "size": "197M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/agent-blueprint",
+      "source": "local",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "2 months ago",
+        "lastCommitMessage": "Scope the dark theme class hook to :root",
+        "lastCommitDate": "2026-08-10 02:31:59 +0300",
+        "lastCommitHebrew": "לפני 2 חודשים",
+        "isDirty": false,
+        "changedFiles": 0
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Scope the dark theme class hook to :root"
+        },
+        {
+          "type": "commit",
+          "text": "Fix theme toggle: set data-theme on <html> so OS dark mode can't override the explicit choice"
+        },
+        {
+          "type": "commit",
+          "text": "Add Crafel landing variant, builder upgrades, and Vercel deploy"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "548705ca-d6ec-41c4-a1f3-a2db55b9e144",
+        "lastActivity": "2026-10-20T20:45:41.774Z",
+        "summary": "Base directory for this skill: /Users/rannsegal/.claude/skills/craft\n\n# Craft — Visual Architect\n\nYou are **Craft**, a V…"
+      }
+    },
+    {
+      "name": "ran-portfolio",
+      "humanName": "פורטפוליו אישי",
+      "tagline": "כרטיס ביקור אונליין - אוסף הפרוייקטים והשירותים שלי",
+      "longDescription": "אתר סטטי בעברית שמרכז את הפרוייקטים, ניסיון העבודה ופרטי קשר. מעוצב ידנית ב-HTML/CSS/JS ללא פריימוורק, עם דגש על טון אישי וחם. כולל מעקב אנליטיקס דרך GA4.",
+      "nextStep": "לפרסם את הגרסה האחרונה (יש 8 קבצים שונו)",
+      "notes": null,
+      "category": "Portfolio",
+      "accentColor": "#3a4a6b",
+      "screenshot": null,
+      "stack": "HTML/CSS/JS",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-10-20T19:54:31.536Z",
+      "lastActivityHebrew": "לפני שעה",
+      "size": "610M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/ran-portfolio",
+      "source": "both",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "2 hours ago",
+        "lastCommitMessage": "Restore the images the cleanup commit deleted but the site still loads",
+        "lastCommitDate": "2026-10-20 22:52:42 +0300",
+        "lastCommitHebrew": "לפני שעה",
+        "isDirty": false,
+        "changedFiles": 0
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Restore the images the cleanup commit deleted but the site still loads"
+        },
+        {
+          "type": "commit",
+          "text": "Fix: only the card title text was ever clickable"
+        },
+        {
+          "type": "commit",
+          "text": "Fix: \"View project\" was the one dead spot on every card"
+        },
+        {
+          "type": "chat",
+          "text": "we also dont need the box with background for the images or animation\n\nin need to fill like the image or animation is ju…",
+          "sessionId": "24c0da2a-c87a-495f-8e1e-7ba121901f03"
+        },
+        {
+          "type": "chat",
+          "text": "Continue from where you left off.",
+          "sessionId": "62949473-9542-4af5-b1f3-c760e5957a96"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "24c0da2a-c87a-495f-8e1e-7ba121901f03",
+        "lastActivity": "2026-10-20T19:54:31.536Z",
+        "summary": "we also dont need the box with background for the images or animation\n\nin need to fill like the image or animation is ju…"
+      }
+    },
+    {
+      "name": "pet",
+      "humanName": "pet",
+      "tagline": "Unknown",
+      "longDescription": "פרוייקט ב-Unknown",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#5f9d7f",
+      "screenshot": null,
+      "stack": "Unknown",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-10-20T11:04:44.784Z",
+      "lastActivityHebrew": "לפני 10 שעות",
+      "size": "380K",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "11 hours ago",
+        "lastCommitMessage": "Add cross-project work memory to Tantan spec and plan",
+        "lastCommitDate": "2026-10-20 14:04:35 +0300",
+        "lastCommitHebrew": "לפני 10 שעות",
+        "isDirty": false,
+        "changedFiles": 0
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Add cross-project work memory to Tantan spec and plan"
+        },
+        {
+          "type": "commit",
+          "text": "Add Tantan implementation plan"
+        },
+        {
+          "type": "commit",
+          "text": "Add Tantan pet design spec, sprite art and render tools"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "e1111045-dcd8-4a9e-8831-d32679f62d13",
+        "lastActivity": "2026-10-20T11:04:44.784Z",
+        "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/b…"
       }
     },
     {
@@ -239,7 +289,7 @@
         "lastCommitRelative": "4 days ago",
         "lastCommitMessage": "Merge session/13-tests: tool test maps and the play log",
         "lastCommitDate": "2026-10-16 23:24:45 +0300",
-        "lastCommitHebrew": "לפני 3 ימים",
+        "lastCommitHebrew": "לפני 4 ימים",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -1020,56 +1070,6 @@
       "lastSession": {
         "sessionId": "d141b2d9-2443-440b-b6e5-5a4560eac15f",
         "lastActivity": "2026-08-09T23:53:58.457Z",
-        "summary": ""
-      }
-    },
-    {
-      "name": "Agent-blueprint",
-      "humanName": "Agent-blueprint",
-      "tagline": "Dev memory for Claude Code working ON this repository. This is not the agent template itself, and it does not load the template. The template is a deliverable that lives in `templa…",
-      "longDescription": "Dev memory for Claude Code working ON this repository. This is not the agent template itself, and it does not load the template. The template is a deliverable that lives in `templa…",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#3d5a3d",
-      "screenshot": null,
-      "stack": "Unknown",
-      "status": "archive",
-      "subStatus": null,
-      "lastActivity": "2026-08-09T23:31:59.000Z",
-      "lastActivityHebrew": "לפני 2 חודשים",
-      "size": "197M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/agent-blueprint",
-      "source": "local",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "2 months ago",
-        "lastCommitMessage": "Scope the dark theme class hook to :root",
-        "lastCommitDate": "2026-08-10 02:31:59 +0300",
-        "lastCommitHebrew": "לפני 2 חודשים",
-        "isDirty": false,
-        "changedFiles": 0
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Scope the dark theme class hook to :root"
-        },
-        {
-          "type": "commit",
-          "text": "Fix theme toggle: set data-theme on <html> so OS dark mode can't override the explicit choice"
-        },
-        {
-          "type": "commit",
-          "text": "Add Crafel landing variant, builder upgrades, and Vercel deploy"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "40fe2c06-868b-439c-beaa-eab54e2cdb99",
-        "lastActivity": "2026-07-17T22:08:51.721Z",
         "summary": ""
       }
     },
