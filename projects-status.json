@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-20T06:17:11.146Z",
+  "lastUpdated": "2026-10-20T13:06:44.089Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 45,
   "counts": {
@@ -44,6 +44,116 @@
       "lastSession": null
     },
     {
+      "name": "pet",
+      "humanName": "pet",
+      "tagline": "Unknown",
+      "longDescription": "פרוייקט ב-Unknown",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#5f9d7f",
+      "screenshot": null,
+      "stack": "Unknown",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-10-20T11:04:44.784Z",
+      "lastActivityHebrew": "לפני 2 שעות",
+      "size": "380K",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "2 hours ago",
+        "lastCommitMessage": "Add cross-project work memory to Tantan spec and plan",
+        "lastCommitDate": "2026-10-20 14:04:35 +0300",
+        "lastCommitHebrew": "לפני 2 שעות",
+        "isDirty": false,
+        "changedFiles": 0
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Add cross-project work memory to Tantan spec and plan"
+        },
+        {
+          "type": "commit",
+          "text": "Add Tantan implementation plan"
+        },
+        {
+          "type": "commit",
+          "text": "Add Tantan pet design spec, sprite art and render tools"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "e1111045-dcd8-4a9e-8831-d32679f62d13",
+        "lastActivity": "2026-10-20T11:04:44.784Z",
+        "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/b…"
+      }
+    },
+    {
+      "name": "ran-portfolio",
+      "humanName": "פורטפוליו אישי",
+      "tagline": "כרטיס ביקור אונליין - אוסף הפרוייקטים והשירותים שלי",
+      "longDescription": "אתר סטטי בעברית שמרכז את הפרוייקטים, ניסיון העבודה ופרטי קשר. מעוצב ידנית ב-HTML/CSS/JS ללא פריימוורק, עם דגש על טון אישי וחם. כולל מעקב אנליטיקס דרך GA4.",
+      "nextStep": "לפרסם את הגרסה האחרונה (יש 8 קבצים שונו)",
+      "notes": null,
+      "category": "Portfolio",
+      "accentColor": "#3a4a6b",
+      "screenshot": null,
+      "stack": "HTML/CSS/JS",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-10-20T08:09:45.437Z",
+      "lastActivityHebrew": "לפני 4 שעות",
+      "size": "607M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/ran-portfolio",
+      "source": "both",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "5 hours ago",
+        "lastCommitMessage": "Fix: only the card title text was ever clickable",
+        "lastCommitDate": "2026-10-20 11:08:47 +0300",
+        "lastCommitHebrew": "לפני 4 שעות",
+        "isDirty": false,
+        "changedFiles": 0
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Fix: only the card title text was ever clickable"
+        },
+        {
+          "type": "commit",
+          "text": "Fix: \"View project\" was the one dead spot on every card"
+        },
+        {
+          "type": "commit",
+          "text": "Add Microsoft Clarity alongside GA4"
+        },
+        {
+          "type": "chat",
+          "text": "we also dont need the box with background for the images or animation\n\nin need to fill like the image or animation is ju…",
+          "sessionId": "24c0da2a-c87a-495f-8e1e-7ba121901f03"
+        },
+        {
+          "type": "chat",
+          "text": "Continue from where you left off.",
+          "sessionId": "62949473-9542-4af5-b1f3-c760e5957a96"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "24c0da2a-c87a-495f-8e1e-7ba121901f03",
+        "lastActivity": "2026-10-20T08:09:45.437Z",
+        "summary": "we also dont need the box with background for the images or animation\n\nin need to fill like the image or animation is ju…"
+      }
+    },
+    {
       "name": "Ideas",
       "humanName": "Ideas",
       "tagline": "ניצוץ · לתפוס רעיונות לפני שהם בורחים",
@@ -57,7 +167,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-10-18T08:33:31.466Z",
-      "lastActivityHebrew": "אתמול",
+      "lastActivityHebrew": "שלשום",
       "size": "165M",
       "isLive": false,
       "liveUrl": null,
@@ -117,7 +227,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-10-18T08:08:38.816Z",
-      "lastActivityHebrew": "אתמול",
+      "lastActivityHebrew": "שלשום",
       "size": "674M",
       "isLive": false,
       "liveUrl": null,
@@ -126,7 +236,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "3 days ago",
+        "lastCommitRelative": "4 days ago",
         "lastCommitMessage": "Merge session/13-tests: tool test maps and the play log",
         "lastCommitDate": "2026-10-16 23:24:45 +0300",
         "lastCommitHebrew": "לפני 3 ימים",
@@ -151,112 +261,6 @@
         "sessionId": "f73dea04-6805-4b69-95cf-05b280e5c7cc",
         "lastActivity": "2026-10-18T08:08:38.816Z",
         "summary": ""
-      }
-    },
-    {
-      "name": "ran-portfolio",
-      "humanName": "פורטפוליו אישי",
-      "tagline": "כרטיס ביקור אונליין - אוסף הפרוייקטים והשירותים שלי",
-      "longDescription": "אתר סטטי בעברית שמרכז את הפרוייקטים, ניסיון העבודה ופרטי קשר. מעוצב ידנית ב-HTML/CSS/JS ללא פריימוורק, עם דגש על טון אישי וחם. כולל מעקב אנליטיקס דרך GA4.",
-      "nextStep": "לפרסם את הגרסה האחרונה (יש 8 קבצים שונו)",
-      "notes": null,
-      "category": "Portfolio",
-      "accentColor": "#3a4a6b",
-      "screenshot": null,
-      "stack": "HTML/CSS/JS",
-      "status": "building",
-      "subStatus": null,
-      "lastActivity": "2026-10-18T07:55:48.189Z",
-      "lastActivityHebrew": "אתמול",
-      "size": "607M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/ran-portfolio",
-      "source": "both",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "2 days ago",
-        "lastCommitMessage": "Add Microsoft Clarity alongside GA4",
-        "lastCommitDate": "2026-10-18 10:35:51 +0300",
-        "lastCommitHebrew": "אתמול",
-        "isDirty": false,
-        "changedFiles": 0
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Add Microsoft Clarity alongside GA4"
-        },
-        {
-          "type": "commit",
-          "text": "Add a sound toggle to the TradersMood hero, and keep myself out of GA4"
-        },
-        {
-          "type": "commit",
-          "text": "Stop sending readers to the gated TradersMood presentation"
-        },
-        {
-          "type": "chat",
-          "text": "we also dont need the box with background for the images or animation\n\nin need to fill like the image or animation is ju…",
-          "sessionId": "24c0da2a-c87a-495f-8e1e-7ba121901f03"
-        },
-        {
-          "type": "chat",
-          "text": "Continue from where you left off.",
-          "sessionId": "62949473-9542-4af5-b1f3-c760e5957a96"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "24c0da2a-c87a-495f-8e1e-7ba121901f03",
-        "lastActivity": "2026-10-18T07:55:48.189Z",
-        "summary": "we also dont need the box with background for the images or animation\n\nin need to fill like the image or animation is ju…"
-      }
-    },
-    {
-      "name": "pet",
-      "humanName": "pet",
-      "tagline": "Unknown",
-      "longDescription": "פרוייקט ב-Unknown",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#5f9d7f",
-      "screenshot": null,
-      "stack": "Unknown",
-      "status": "building",
-      "subStatus": null,
-      "lastActivity": "2026-10-13T06:37:25.690Z",
-      "lastActivityHebrew": "לפני 6 ימים",
-      "size": "308K",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": null,
-      "source": "local",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "7 days ago",
-        "lastCommitMessage": "Add Tantan implementation plan",
-        "lastCommitDate": "2026-10-13 09:37:17 +0300",
-        "lastCommitHebrew": "לפני 6 ימים",
-        "isDirty": false,
-        "changedFiles": 0
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Add Tantan implementation plan"
-        },
-        {
-          "type": "commit",
-          "text": "Add Tantan pet design spec, sprite art and render tools"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "e1111045-dcd8-4a9e-8831-d32679f62d13",
-        "lastActivity": "2026-10-13T06:37:25.690Z",
-        "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/b…"
       }
     },
     {
