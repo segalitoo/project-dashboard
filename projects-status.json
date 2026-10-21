@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T08:22:49.705Z",
+  "lastUpdated": "2026-10-21T12:45:52.056Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 45,
   "counts": {
@@ -57,7 +57,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-10-21T06:47:48.424Z",
-      "lastActivityHebrew": "לפני שעה",
+      "lastActivityHebrew": "לפני 5 שעות",
       "size": "165M",
       "isLive": false,
       "liveUrl": null,
@@ -117,7 +117,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-10-20T20:45:41.774Z",
-      "lastActivityHebrew": "לפני 11 שעות",
+      "lastActivityHebrew": "לפני 15 שעות",
       "size": "197M",
       "isLive": false,
       "liveUrl": null,
@@ -167,7 +167,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-10-20T19:54:31.536Z",
-      "lastActivityHebrew": "לפני 12 שעות",
+      "lastActivityHebrew": "לפני 16 שעות",
       "size": "610M",
       "isLive": false,
       "liveUrl": null,
@@ -176,10 +176,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "13 hours ago",
+        "lastCommitRelative": "17 hours ago",
         "lastCommitMessage": "Restore the images the cleanup commit deleted but the site still loads",
         "lastCommitDate": "2026-10-20 22:52:42 +0300",
-        "lastCommitHebrew": "לפני 12 שעות",
+        "lastCommitHebrew": "לפני 16 שעות",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -227,7 +227,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-10-20T11:04:44.784Z",
-      "lastActivityHebrew": "לפני 21 שעות",
+      "lastActivityHebrew": "אתמול",
       "size": "380K",
       "isLive": false,
       "liveUrl": null,
@@ -236,10 +236,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "21 hours ago",
+        "lastCommitRelative": "26 hours ago",
         "lastCommitMessage": "Add cross-project work memory to Tantan spec and plan",
         "lastCommitDate": "2026-10-20 14:04:35 +0300",
-        "lastCommitHebrew": "לפני 21 שעות",
+        "lastCommitHebrew": "אתמול",
         "isDirty": false,
         "changedFiles": 0
       },
