@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-21T12:45:52.056Z",
+  "lastUpdated": "2026-10-22T07:08:49.208Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 45,
   "counts": {
@@ -57,7 +57,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-10-21T06:47:48.424Z",
-      "lastActivityHebrew": "לפני 5 שעות",
+      "lastActivityHebrew": "אתמול",
       "size": "165M",
       "isLive": false,
       "liveUrl": null,
@@ -117,7 +117,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-10-20T20:45:41.774Z",
-      "lastActivityHebrew": "לפני 15 שעות",
+      "lastActivityHebrew": "אתמול",
       "size": "197M",
       "isLive": false,
       "liveUrl": null,
@@ -167,7 +167,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-10-20T19:54:31.536Z",
-      "lastActivityHebrew": "לפני 16 שעות",
+      "lastActivityHebrew": "אתמול",
       "size": "610M",
       "isLive": false,
       "liveUrl": null,
@@ -176,10 +176,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "17 hours ago",
+        "lastCommitRelative": "35 hours ago",
         "lastCommitMessage": "Restore the images the cleanup commit deleted but the site still loads",
         "lastCommitDate": "2026-10-20 22:52:42 +0300",
-        "lastCommitHebrew": "לפני 16 שעות",
+        "lastCommitHebrew": "אתמול",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -236,7 +236,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "26 hours ago",
+        "lastCommitRelative": "2 days ago",
         "lastCommitMessage": "Add cross-project work memory to Tantan spec and plan",
         "lastCommitDate": "2026-10-20 14:04:35 +0300",
         "lastCommitHebrew": "אתמול",
@@ -289,7 +289,7 @@
         "lastCommitRelative": "5 days ago",
         "lastCommitMessage": "Merge session/13-tests: tool test maps and the play log",
         "lastCommitDate": "2026-10-16 23:24:45 +0300",
-        "lastCommitHebrew": "לפני 4 ימים",
+        "lastCommitHebrew": "לפני 5 ימים",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -336,7 +336,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "3 weeks ago",
+        "lastCommitRelative": "4 weeks ago",
         "lastCommitMessage": "Cut answer time roughly in half and remove fake offline answers",
         "lastCommitDate": "2026-09-27 16:50:02 +0300",
         "lastCommitHebrew": "לפני 3 שבועות",
