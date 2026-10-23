@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-10-22T07:08:49.208Z",
+  "lastUpdated": "2026-10-23T16:31:41.814Z",
   "lastUpdatedHebrew": "הרגע",
-  "projectCount": 45,
+  "projectCount": 47,
   "counts": {
     "live": 1,
-    "building": 5,
-    "paused": 4,
-    "archive": 19,
-    "idea": 16
+    "building": 6,
+    "paused": 2,
+    "archive": 21,
+    "idea": 17
   },
   "projects": [
     {
@@ -44,6 +44,85 @@
       "lastSession": null
     },
     {
+      "name": "pet",
+      "humanName": "pet",
+      "tagline": "Unknown",
+      "longDescription": "פרוייקט ב-Unknown",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#5f9d7f",
+      "screenshot": null,
+      "stack": "Unknown",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-10-23T11:50:02.533Z",
+      "lastActivityHebrew": "לפני 4 שעות",
+      "size": "1.2M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": true,
+      "git": {
+        "branch": "tantan-v1",
+        "lastCommitRelative": "5 hours ago",
+        "lastCommitMessage": "Wire Tantan moods, voice, journal and commands to the floating body",
+        "lastCommitDate": "2026-10-23 14:47:28 +0300",
+        "lastCommitHebrew": "לפני 4 שעות",
+        "isDirty": false,
+        "changedFiles": 0
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Wire Tantan moods, voice, journal and commands to the floating body"
+        },
+        {
+          "type": "commit",
+          "text": "Add cross-project work journal logic"
+        },
+        {
+          "type": "commit",
+          "text": "Add Tantan voice rules, prompt and canned lines"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "e1111045-dcd8-4a9e-8831-d32679f62d13",
+        "lastActivity": "2026-10-23T11:50:02.533Z",
+        "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/b…"
+      }
+    },
+    {
+      "name": "lead-finder",
+      "humanName": "lead-finder",
+      "tagline": "This folder holds the `lead-finder` skill: it finds Israeli small businesses with outdated websites",
+      "longDescription": "This folder holds the `lead-finder` skill: it finds Israeli small businesses with outdated websites",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#7a8a3a",
+      "screenshot": null,
+      "stack": "Unknown",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-10-22T12:21:38.803Z",
+      "lastActivityHebrew": "אתמול",
+      "size": "88M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [],
+      "lastSession": {
+        "sessionId": "91d22747-5738-4869-9dbb-ed3fcd633d32",
+        "lastActivity": "2026-10-22T12:21:38.803Z",
+        "summary": "Base directory for this skill: /Users/rannsegal/Claude/lead-finder/.claude/skills/lead-finder\n\n# Lead Finder\n\nFinds busi…"
+      }
+    },
+    {
       "name": "Ideas",
       "humanName": "Ideas",
       "tagline": "ניצוץ · לתפוס רעיונות לפני שהם בורחים",
@@ -57,7 +136,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-10-21T06:47:48.424Z",
-      "lastActivityHebrew": "אתמול",
+      "lastActivityHebrew": "שלשום",
       "size": "165M",
       "isLive": false,
       "liveUrl": null,
@@ -69,7 +148,7 @@
         "lastCommitRelative": "4 weeks ago",
         "lastCommitMessage": "Fix sign-in in the installed iOS app with a one-time session handoff",
         "lastCommitDate": "2026-09-25 00:50:40 +0300",
-        "lastCommitHebrew": "לפני 3 שבועות",
+        "lastCommitHebrew": "לפני 0 חודשים",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -117,7 +196,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-10-20T20:45:41.774Z",
-      "lastActivityHebrew": "אתמול",
+      "lastActivityHebrew": "שלשום",
       "size": "197M",
       "isLive": false,
       "liveUrl": null,
@@ -126,7 +205,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "2 months ago",
+        "lastCommitRelative": "3 months ago",
         "lastCommitMessage": "Scope the dark theme class hook to :root",
         "lastCommitDate": "2026-08-10 02:31:59 +0300",
         "lastCommitHebrew": "לפני 2 חודשים",
@@ -167,7 +246,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-10-20T19:54:31.536Z",
-      "lastActivityHebrew": "אתמול",
+      "lastActivityHebrew": "שלשום",
       "size": "610M",
       "isLive": false,
       "liveUrl": null,
@@ -176,10 +255,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "35 hours ago",
+        "lastCommitRelative": "3 days ago",
         "lastCommitMessage": "Restore the images the cleanup commit deleted but the site still loads",
         "lastCommitDate": "2026-10-20 22:52:42 +0300",
-        "lastCommitHebrew": "אתמול",
+        "lastCommitHebrew": "שלשום",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -214,56 +293,6 @@
       }
     },
     {
-      "name": "pet",
-      "humanName": "pet",
-      "tagline": "Unknown",
-      "longDescription": "פרוייקט ב-Unknown",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#5f9d7f",
-      "screenshot": null,
-      "stack": "Unknown",
-      "status": "building",
-      "subStatus": null,
-      "lastActivity": "2026-10-20T11:04:44.784Z",
-      "lastActivityHebrew": "אתמול",
-      "size": "380K",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": null,
-      "source": "local",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "2 days ago",
-        "lastCommitMessage": "Add cross-project work memory to Tantan spec and plan",
-        "lastCommitDate": "2026-10-20 14:04:35 +0300",
-        "lastCommitHebrew": "אתמול",
-        "isDirty": false,
-        "changedFiles": 0
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Add cross-project work memory to Tantan spec and plan"
-        },
-        {
-          "type": "commit",
-          "text": "Add Tantan implementation plan"
-        },
-        {
-          "type": "commit",
-          "text": "Add Tantan pet design spec, sprite art and render tools"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "e1111045-dcd8-4a9e-8831-d32679f62d13",
-        "lastActivity": "2026-10-20T11:04:44.784Z",
-        "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/b…"
-      }
-    },
-    {
       "name": "special-ops",
       "humanName": "special-ops",
       "tagline": "An isometric stealth-tactics game for the browser, in the style of Commandos 1 (1998).",
@@ -277,7 +306,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-10-18T08:08:38.816Z",
-      "lastActivityHebrew": "לפני 3 ימים",
+      "lastActivityHebrew": "לפני 5 ימים",
       "size": "674M",
       "isLive": false,
       "liveUrl": null,
@@ -286,10 +315,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "5 days ago",
+        "lastCommitRelative": "7 days ago",
         "lastCommitMessage": "Merge session/13-tests: tool test maps and the play log",
         "lastCommitDate": "2026-10-16 23:24:45 +0300",
-        "lastCommitHebrew": "לפני 5 ימים",
+        "lastCommitHebrew": "לפני 6 ימים",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -382,7 +411,7 @@
       "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-09-24T10:50:41.414Z",
-      "lastActivityHebrew": "לפני 3 שבועות",
+      "lastActivityHebrew": "לפני 0 חודשים",
       "size": "207M",
       "isLive": false,
       "liveUrl": null,
@@ -414,10 +443,10 @@
       "accentColor": "#8b3a2e",
       "screenshot": null,
       "stack": "TypeScript + React 19 + Vite + Supabase",
-      "status": "paused",
+      "status": "archive",
       "subStatus": null,
       "lastActivity": "2026-09-22T23:34:03.024Z",
-      "lastActivityHebrew": "לפני 0 חודשים",
+      "lastActivityHebrew": "לפני חודש",
       "size": "257M",
       "isLive": true,
       "liveUrl": "https://payoneer-ad-generator.vercel.app",
@@ -429,7 +458,7 @@
         "lastCommitRelative": "4 weeks ago",
         "lastCommitMessage": "Serve the app for every route on Vercel",
         "lastCommitDate": "2026-09-23 02:32:49 +0300",
-        "lastCommitHebrew": "לפני 0 חודשים",
+        "lastCommitHebrew": "לפני חודש",
         "isDirty": true,
         "changedFiles": 1
       },
@@ -469,10 +498,10 @@
       "accentColor": "#8b3a8e",
       "screenshot": null,
       "stack": "TypeScript + React 18 + Vite",
-      "status": "paused",
+      "status": "archive",
       "subStatus": null,
       "lastActivity": "2026-09-22T23:00:54.582Z",
-      "lastActivityHebrew": "לפני 0 חודשים",
+      "lastActivityHebrew": "לפני חודש",
       "size": "259M",
       "isLive": false,
       "liveUrl": null,
@@ -481,7 +510,7 @@
       "hasGit": true,
       "git": {
         "branch": "redesign/drafting-table",
-        "lastCommitRelative": "2 months ago",
+        "lastCommitRelative": "3 months ago",
         "lastCommitMessage": "Add dev server launch config",
         "lastCommitDate": "2026-08-10 02:31:53 +0300",
         "lastCommitHebrew": "לפני 2 חודשים",
@@ -573,7 +602,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/landing-page",
-        "lastCommitRelative": "2 months ago",
+        "lastCommitRelative": "3 months ago",
         "lastCommitMessage": "Remove the grammar module",
         "lastCommitDate": "2026-08-10 02:38:18 +0300",
         "lastCommitHebrew": "לפני 2 חודשים",
@@ -658,7 +687,7 @@
       "hasGit": true,
       "git": {
         "branch": "claude/add-claude-documentation-gFq7q",
-        "lastCommitRelative": "2 months ago",
+        "lastCommitRelative": "3 months ago",
         "lastCommitMessage": "Ignore packaged zips and agent worktree scratch",
         "lastCommitDate": "2026-08-10 02:31:44 +0300",
         "lastCommitHebrew": "לפני 2 חודשים",
@@ -842,7 +871,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "10 weeks ago",
+        "lastCommitRelative": "2 months ago",
         "lastCommitMessage": "direction: set the production phase and point ENGINE at the engines reference",
         "lastCommitDate": "2026-08-14 03:53:01 +0300",
         "lastCommitHebrew": "לפני 2 חודשים",
@@ -917,7 +946,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "2 months ago",
+        "lastCommitRelative": "3 months ago",
         "lastCommitMessage": "Scope the dark theme class hook to :root",
         "lastCommitDate": "2026-08-10 02:31:59 +0300",
         "lastCommitHebrew": "לפני 2 חודשים",
@@ -967,7 +996,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "2 months ago",
+        "lastCommitRelative": "3 months ago",
         "lastCommitMessage": "Add CLAUDE.md",
         "lastCommitDate": "2026-08-10 02:27:56 +0300",
         "lastCommitHebrew": "לפני 2 חודשים",
@@ -1046,7 +1075,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "2 months ago",
+        "lastCommitRelative": "3 months ago",
         "lastCommitMessage": "Ignore Supabase CLI scratch directory",
         "lastCommitDate": "2026-08-10 02:28:12 +0300",
         "lastCommitHebrew": "לפני 2 חודשים",
@@ -1485,6 +1514,31 @@
       "lastActivity": null,
       "lastActivityHebrew": "",
       "size": "134M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [],
+      "lastSession": null
+    },
+    {
+      "name": "Website builder",
+      "humanName": "Website builder",
+      "tagline": "Unknown",
+      "longDescription": "פרוייקט ב-Unknown",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#2d5f7f",
+      "screenshot": null,
+      "stack": "Unknown",
+      "status": "idea",
+      "subStatus": null,
+      "lastActivity": null,
+      "lastActivityHebrew": "",
+      "size": "25M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
