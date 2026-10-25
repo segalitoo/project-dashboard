@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-10-23T16:31:41.814Z",
+  "lastUpdated": "2026-10-25T22:58:47.433Z",
   "lastUpdatedHebrew": "הרגע",
-  "projectCount": 47,
+  "projectCount": 49,
   "counts": {
     "live": 1,
     "building": 6,
-    "paused": 2,
-    "archive": 21,
-    "idea": 17
+    "paused": 1,
+    "archive": 22,
+    "idea": 19
   },
   "projects": [
     {
@@ -44,6 +44,116 @@
       "lastSession": null
     },
     {
+      "name": "special-ops",
+      "humanName": "special-ops",
+      "tagline": "An isometric stealth-tactics game for the browser, in the style of Commandos 1 (1998).",
+      "longDescription": "An isometric stealth-tactics game for the browser, in the style of Commandos 1 (1998).",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#5f7fa8",
+      "screenshot": null,
+      "stack": "TypeScript + Vite",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-10-25T21:53:43.919Z",
+      "lastActivityHebrew": "לפני שעה",
+      "size": "1.0G",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/launch-window",
+      "source": "local",
+      "hasGit": true,
+      "git": {
+        "branch": "session/16-tels",
+        "lastCommitRelative": "66 minutes ago",
+        "lastCommitMessage": "Launch compound: Ran picked option A (concrete slab); built as tels, options B and C and the ?tels switch removed; open-door patch for the steel door (35, 22)",
+        "lastCommitDate": "2026-10-25 23:52:53 +0200",
+        "lastCommitHebrew": "לפני שעה",
+        "isDirty": false,
+        "changedFiles": 0
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Launch compound: Ran picked option A (concrete slab); built as tels, options B and C and the ?tels switch removed; open-door patch for the steel door (35, 22)"
+        },
+        {
+          "type": "commit",
+          "text": "Launch compound (Phase 4, with the north-east and east perimeter walls): fitted plate, three options in game (?tels=A|B|C), 2K picks A4, B1, C4"
+        },
+        {
+          "type": "commit",
+          "text": "Merge session/15-gate: courtyard painted (option B), perimeter wall folded into neighbouring areas"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "95762f9a-74b3-429c-9408-1054f1004f7c",
+        "lastActivity": "2026-10-25T21:53:43.919Z",
+        "summary": "Base directory for this skill: /Users/rannsegal/Library/Application Support/Claude/local-agent-mode-sessions/skills-plug…"
+      }
+    },
+    {
+      "name": "Ideas",
+      "humanName": "Ideas",
+      "tagline": "ניצוץ · לתפוס רעיונות לפני שהם בורחים",
+      "longDescription": "ניצוץ · לתפוס רעיונות לפני שהם בורחים",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#a87432",
+      "screenshot": null,
+      "stack": "TypeScript + React 18 + Vite + Supabase",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-10-23T19:22:00.075Z",
+      "lastActivityHebrew": "שלשום",
+      "size": "165M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/nitzotz",
+      "source": "local",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "4 weeks ago",
+        "lastCommitMessage": "Fix sign-in in the installed iOS app with a one-time session handoff",
+        "lastCommitDate": "2026-09-25 00:50:40 +0300",
+        "lastCommitHebrew": "לפני חודש",
+        "isDirty": false,
+        "changedFiles": 0
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Fix sign-in in the installed iOS app with a one-time session handoff"
+        },
+        {
+          "type": "commit",
+          "text": "Connect the dots: AI digest, related ideas and near-duplicates"
+        },
+        {
+          "type": "commit",
+          "text": "Photo to idea"
+        },
+        {
+          "type": "chat",
+          "text": "good exampke to add to taste skill:",
+          "sessionId": "08d0827c-bef2-48f1-9d43-4c4217502b5d"
+        },
+        {
+          "type": "chat",
+          "text": "[Request interrupted by user]",
+          "sessionId": "071cbb82-ca5d-4b36-ad2c-354cd77a8977"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "08d0827c-bef2-48f1-9d43-4c4217502b5d",
+        "lastActivity": "2026-10-23T19:22:00.075Z",
+        "summary": "good exampke to add to taste skill:"
+      }
+    },
+    {
       "name": "pet",
       "humanName": "pet",
       "tagline": "Unknown",
@@ -57,7 +167,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-10-23T11:50:02.533Z",
-      "lastActivityHebrew": "לפני 4 שעות",
+      "lastActivityHebrew": "שלשום",
       "size": "1.2M",
       "isLive": false,
       "liveUrl": null,
@@ -66,10 +176,10 @@
       "hasGit": true,
       "git": {
         "branch": "tantan-v1",
-        "lastCommitRelative": "5 hours ago",
+        "lastCommitRelative": "2 days ago",
         "lastCommitMessage": "Wire Tantan moods, voice, journal and commands to the floating body",
         "lastCommitDate": "2026-10-23 14:47:28 +0300",
-        "lastCommitHebrew": "לפני 4 שעות",
+        "lastCommitHebrew": "שלשום",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -107,7 +217,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-10-22T12:21:38.803Z",
-      "lastActivityHebrew": "אתמול",
+      "lastActivityHebrew": "לפני 3 ימים",
       "size": "88M",
       "isLive": false,
       "liveUrl": null,
@@ -120,66 +230,6 @@
         "sessionId": "91d22747-5738-4869-9dbb-ed3fcd633d32",
         "lastActivity": "2026-10-22T12:21:38.803Z",
         "summary": "Base directory for this skill: /Users/rannsegal/Claude/lead-finder/.claude/skills/lead-finder\n\n# Lead Finder\n\nFinds busi…"
-      }
-    },
-    {
-      "name": "Ideas",
-      "humanName": "Ideas",
-      "tagline": "ניצוץ · לתפוס רעיונות לפני שהם בורחים",
-      "longDescription": "ניצוץ · לתפוס רעיונות לפני שהם בורחים",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#a87432",
-      "screenshot": null,
-      "stack": "TypeScript + React 18 + Vite + Supabase",
-      "status": "building",
-      "subStatus": null,
-      "lastActivity": "2026-10-21T06:47:48.424Z",
-      "lastActivityHebrew": "שלשום",
-      "size": "165M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/nitzotz",
-      "source": "local",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "4 weeks ago",
-        "lastCommitMessage": "Fix sign-in in the installed iOS app with a one-time session handoff",
-        "lastCommitDate": "2026-09-25 00:50:40 +0300",
-        "lastCommitHebrew": "לפני 0 חודשים",
-        "isDirty": false,
-        "changedFiles": 0
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Fix sign-in in the installed iOS app with a one-time session handoff"
-        },
-        {
-          "type": "commit",
-          "text": "Connect the dots: AI digest, related ideas and near-duplicates"
-        },
-        {
-          "type": "commit",
-          "text": "Photo to idea"
-        },
-        {
-          "type": "chat",
-          "text": "good exampke to add to taste skill:",
-          "sessionId": "08d0827c-bef2-48f1-9d43-4c4217502b5d"
-        },
-        {
-          "type": "chat",
-          "text": "[Request interrupted by user]",
-          "sessionId": "071cbb82-ca5d-4b36-ad2c-354cd77a8977"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "08d0827c-bef2-48f1-9d43-4c4217502b5d",
-        "lastActivity": "2026-10-21T06:47:48.424Z",
-        "summary": "good exampke to add to taste skill:"
       }
     },
     {
@@ -196,7 +246,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-10-20T20:45:41.774Z",
-      "lastActivityHebrew": "שלשום",
+      "lastActivityHebrew": "לפני 5 ימים",
       "size": "197M",
       "isLive": false,
       "liveUrl": null,
@@ -246,7 +296,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-10-20T19:54:31.536Z",
-      "lastActivityHebrew": "שלשום",
+      "lastActivityHebrew": "לפני 5 ימים",
       "size": "610M",
       "isLive": false,
       "liveUrl": null,
@@ -255,10 +305,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "3 days ago",
+        "lastCommitRelative": "5 days ago",
         "lastCommitMessage": "Restore the images the cleanup commit deleted but the site still loads",
         "lastCommitDate": "2026-10-20 22:52:42 +0300",
-        "lastCommitHebrew": "שלשום",
+        "lastCommitHebrew": "לפני 5 ימים",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -293,56 +343,6 @@
       }
     },
     {
-      "name": "special-ops",
-      "humanName": "special-ops",
-      "tagline": "An isometric stealth-tactics game for the browser, in the style of Commandos 1 (1998).",
-      "longDescription": "An isometric stealth-tactics game for the browser, in the style of Commandos 1 (1998).",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#5f7fa8",
-      "screenshot": null,
-      "stack": "TypeScript + Vite",
-      "status": "building",
-      "subStatus": null,
-      "lastActivity": "2026-10-18T08:08:38.816Z",
-      "lastActivityHebrew": "לפני 5 ימים",
-      "size": "674M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/launch-window",
-      "source": "local",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "7 days ago",
-        "lastCommitMessage": "Merge session/13-tests: tool test maps and the play log",
-        "lastCommitDate": "2026-10-16 23:24:45 +0300",
-        "lastCommitHebrew": "לפני 6 ימים",
-        "isDirty": false,
-        "changedFiles": 0
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Merge session/13-tests: tool test maps and the play log"
-        },
-        {
-          "type": "commit",
-          "text": "Test maps: 9 tool puzzles (strict, reach the exit) from tools/test_maps.py, solved by script; tests.html list; ?map= loads one; play log with copy buttons on the end screen"
-        },
-        {
-          "type": "commit",
-          "text": "Merge session/12-backpack: the selected operator's kit as a backpack"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "f73dea04-6805-4b69-95cf-05b280e5c7cc",
-        "lastActivity": "2026-10-18T08:08:38.816Z",
-        "summary": ""
-      }
-    },
-    {
       "name": "Kid-AI",
       "humanName": "Kid-AI",
       "tagline": "Unknown",
@@ -356,7 +356,7 @@
       "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-09-27T13:50:19.095Z",
-      "lastActivityHebrew": "לפני 3 שבועות",
+      "lastActivityHebrew": "לפני 0 חודשים",
       "size": "215M",
       "isLive": false,
       "liveUrl": null,
@@ -368,7 +368,7 @@
         "lastCommitRelative": "4 weeks ago",
         "lastCommitMessage": "Cut answer time roughly in half and remove fake offline answers",
         "lastCommitDate": "2026-09-27 16:50:02 +0300",
-        "lastCommitHebrew": "לפני 3 שבועות",
+        "lastCommitHebrew": "לפני 0 חודשים",
         "isDirty": true,
         "changedFiles": 1
       },
@@ -408,10 +408,10 @@
       "accentColor": "#7a8a3a",
       "screenshot": null,
       "stack": "Unknown",
-      "status": "paused",
+      "status": "archive",
       "subStatus": null,
       "lastActivity": "2026-09-24T10:50:41.414Z",
-      "lastActivityHebrew": "לפני 0 חודשים",
+      "lastActivityHebrew": "לפני חודש",
       "size": "207M",
       "isLive": false,
       "liveUrl": null,
@@ -455,7 +455,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "4 weeks ago",
+        "lastCommitRelative": "5 weeks ago",
         "lastCommitMessage": "Serve the app for every route on Vercel",
         "lastCommitDate": "2026-09-23 02:32:49 +0300",
         "lastCommitHebrew": "לפני חודש",
@@ -560,7 +560,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "5 weeks ago",
+        "lastCommitRelative": "6 weeks ago",
         "lastCommitMessage": "Option 2: the page as the shop counter",
         "lastCommitDate": "2026-09-17 11:40:13 +0300",
         "lastCommitHebrew": "לפני חודש",
@@ -829,7 +829,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "9 weeks ago",
+        "lastCommitRelative": "10 weeks ago",
         "lastCommitMessage": "Add Scene 02 \"Blue Wave\" storyboard and restore the director subagent",
         "lastCommitDate": "2026-08-20 00:44:49 +0300",
         "lastCommitHebrew": "לפני 2 חודשים",
@@ -1424,6 +1424,31 @@
       "lastSession": null
     },
     {
+      "name": "Comic generator",
+      "humanName": "Comic generator",
+      "tagline": "Your Figma Plugin",
+      "longDescription": "Your Figma Plugin",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#2d5f7f",
+      "screenshot": null,
+      "stack": "TypeScript",
+      "status": "idea",
+      "subStatus": null,
+      "lastActivity": null,
+      "lastActivityHebrew": "",
+      "size": "40K",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [],
+      "lastSession": null
+    },
+    {
       "name": "Design",
       "humanName": "Design",
       "tagline": "Unknown",
@@ -1464,6 +1489,31 @@
       "lastActivity": null,
       "lastActivityHebrew": "",
       "size": "0B",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [],
+      "lastSession": null
+    },
+    {
+      "name": "KDP book ",
+      "humanName": "KDP book ",
+      "tagline": "Local pipeline for 6x9 kids graphic novels (ages 6-9) on Amazon KDP. Replaces the old Figma plugin in `../Comic generator/` (its `code.js` is truncated and `code.ts` is a stub that…",
+      "longDescription": "Local pipeline for 6x9 kids graphic novels (ages 6-9) on Amazon KDP. Replaces the old Figma plugin in `../Comic generator/` (its `code.js` is truncated and `code.ts` is a stub that…",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#8b3a2e",
+      "screenshot": null,
+      "stack": "Node.js",
+      "status": "idea",
+      "subStatus": null,
+      "lastActivity": null,
+      "lastActivityHebrew": "",
+      "size": "24M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
