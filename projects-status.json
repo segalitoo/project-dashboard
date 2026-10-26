@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-25T22:58:47.433Z",
+  "lastUpdated": "2026-10-26T08:21:37.215Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 49,
   "counts": {
@@ -56,40 +56,40 @@
       "stack": "TypeScript + Vite",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-10-25T21:53:43.919Z",
-      "lastActivityHebrew": "לפני שעה",
-      "size": "1.0G",
+      "lastActivity": "2026-10-26T07:47:52.044Z",
+      "lastActivityHebrew": "לפני 33 דקות",
+      "size": "1.1G",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": "https://github.com/segalitoo/launch-window",
       "source": "local",
       "hasGit": true,
       "git": {
-        "branch": "session/16-tels",
-        "lastCommitRelative": "66 minutes ago",
-        "lastCommitMessage": "Launch compound: Ran picked option A (concrete slab); built as tels, options B and C and the ?tels switch removed; open-door patch for the steel door (35, 22)",
-        "lastCommitDate": "2026-10-25 23:52:53 +0200",
-        "lastCommitHebrew": "לפני שעה",
+        "branch": "session/18-ui",
+        "lastCommitRelative": "35 minutes ago",
+        "lastCommitMessage": "Phase 6: landscape layout on phones (split edges: squad rail left, backpack and orders right, pause top right); upright shows a turn-your-phone screen and pauses the game",
+        "lastCommitDate": "2026-10-26 09:46:52 +0200",
+        "lastCommitHebrew": "לפני 34 דקות",
         "isDirty": false,
         "changedFiles": 0
       },
       "recentActions": [
         {
           "type": "commit",
-          "text": "Launch compound: Ran picked option A (concrete slab); built as tels, options B and C and the ?tels switch removed; open-door patch for the steel door (35, 22)"
+          "text": "Phase 6: landscape layout on phones (split edges: squad rail left, backpack and orders right, pause top right); upright shows a turn-your-phone screen and pauses the game"
         },
         {
           "type": "commit",
-          "text": "Launch compound (Phase 4, with the north-east and east perimeter walls): fitted plate, three options in game (?tels=A|B|C), 2K picks A4, B1, C4"
+          "text": "Merge session/17-south: south strip painted (option A); Phase 4 map art complete"
         },
         {
           "type": "commit",
-          "text": "Merge session/15-gate: courtyard painted (option B), perimeter wall folded into neighbouring areas"
+          "text": "PLAN: Phase 4 map art done; fence cut patches still open"
         }
       ],
       "lastSession": {
         "sessionId": "95762f9a-74b3-429c-9408-1054f1004f7c",
-        "lastActivity": "2026-10-25T21:53:43.919Z",
+        "lastActivity": "2026-10-26T07:47:52.044Z",
         "summary": "Base directory for this skill: /Users/rannsegal/Library/Application Support/Claude/local-agent-mode-sessions/skills-plug…"
       }
     },
@@ -176,7 +176,7 @@
       "hasGit": true,
       "git": {
         "branch": "tantan-v1",
-        "lastCommitRelative": "2 days ago",
+        "lastCommitRelative": "3 days ago",
         "lastCommitMessage": "Wire Tantan moods, voice, journal and commands to the floating body",
         "lastCommitDate": "2026-10-23 14:47:28 +0300",
         "lastCommitHebrew": "שלשום",
@@ -305,7 +305,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "5 days ago",
+        "lastCommitRelative": "6 days ago",
         "lastCommitMessage": "Restore the images the cleanup commit deleted but the site still loads",
         "lastCommitDate": "2026-10-20 22:52:42 +0300",
         "lastCommitHebrew": "לפני 5 ימים",
@@ -1513,7 +1513,7 @@
       "subStatus": null,
       "lastActivity": null,
       "lastActivityHebrew": "",
-      "size": "24M",
+      "size": "337M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
