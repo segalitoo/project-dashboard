@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-27T21:15:27.753Z",
+  "lastUpdated": "2026-10-28T09:37:44.884Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 49,
   "counts": {
@@ -44,56 +44,6 @@
       "lastSession": null
     },
     {
-      "name": "special-ops",
-      "humanName": "special-ops",
-      "tagline": "An isometric stealth-tactics game for the browser, in the style of Commandos 1 (1998).",
-      "longDescription": "An isometric stealth-tactics game for the browser, in the style of Commandos 1 (1998).",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#5f7fa8",
-      "screenshot": null,
-      "stack": "TypeScript + Vite",
-      "status": "building",
-      "subStatus": null,
-      "lastActivity": "2026-10-26T07:47:52.044Z",
-      "lastActivityHebrew": "אתמול",
-      "size": "1.1G",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/launch-window",
-      "source": "local",
-      "hasGit": true,
-      "git": {
-        "branch": "session/18-ui",
-        "lastCommitRelative": "2 days ago",
-        "lastCommitMessage": "Phase 6: landscape layout on phones (split edges: squad rail left, backpack and orders right, pause top right); upright shows a turn-your-phone screen and pauses the game",
-        "lastCommitDate": "2026-10-26 09:46:52 +0200",
-        "lastCommitHebrew": "אתמול",
-        "isDirty": false,
-        "changedFiles": 0
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Phase 6: landscape layout on phones (split edges: squad rail left, backpack and orders right, pause top right); upright shows a turn-your-phone screen and pauses the game"
-        },
-        {
-          "type": "commit",
-          "text": "Merge session/17-south: south strip painted (option A); Phase 4 map art complete"
-        },
-        {
-          "type": "commit",
-          "text": "PLAN: Phase 4 map art done; fence cut patches still open"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "95762f9a-74b3-429c-9408-1054f1004f7c",
-        "lastActivity": "2026-10-26T07:47:52.044Z",
-        "summary": "Base directory for this skill: /Users/rannsegal/Library/Application Support/Claude/local-agent-mode-sessions/skills-plug…"
-      }
-    },
-    {
       "name": "Ideas",
       "humanName": "Ideas",
       "tagline": "ניצוץ · לתפוס רעיונות לפני שהם בורחים",
@@ -106,8 +56,8 @@
       "stack": "TypeScript + React 18 + Vite + Supabase",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-10-23T19:22:00.075Z",
-      "lastActivityHebrew": "לפני 4 ימים",
+      "lastActivity": "2026-10-28T08:26:41.576Z",
+      "lastActivityHebrew": "לפני שעה",
       "size": "165M",
       "isLive": false,
       "liveUrl": null,
@@ -149,8 +99,58 @@
       ],
       "lastSession": {
         "sessionId": "08d0827c-bef2-48f1-9d43-4c4217502b5d",
-        "lastActivity": "2026-10-23T19:22:00.075Z",
+        "lastActivity": "2026-10-28T08:26:41.576Z",
         "summary": "good exampke to add to taste skill:"
+      }
+    },
+    {
+      "name": "special-ops",
+      "humanName": "special-ops",
+      "tagline": "An isometric stealth-tactics game for the browser, in the style of Commandos 1 (1998).",
+      "longDescription": "An isometric stealth-tactics game for the browser, in the style of Commandos 1 (1998).",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#5f7fa8",
+      "screenshot": null,
+      "stack": "TypeScript + Vite",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-10-26T07:47:52.044Z",
+      "lastActivityHebrew": "שלשום",
+      "size": "1.1G",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/launch-window",
+      "source": "local",
+      "hasGit": true,
+      "git": {
+        "branch": "session/18-ui",
+        "lastCommitRelative": "2 days ago",
+        "lastCommitMessage": "Phase 6: landscape layout on phones (split edges: squad rail left, backpack and orders right, pause top right); upright shows a turn-your-phone screen and pauses the game",
+        "lastCommitDate": "2026-10-26 09:46:52 +0200",
+        "lastCommitHebrew": "שלשום",
+        "isDirty": false,
+        "changedFiles": 0
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Phase 6: landscape layout on phones (split edges: squad rail left, backpack and orders right, pause top right); upright shows a turn-your-phone screen and pauses the game"
+        },
+        {
+          "type": "commit",
+          "text": "Merge session/17-south: south strip painted (option A); Phase 4 map art complete"
+        },
+        {
+          "type": "commit",
+          "text": "PLAN: Phase 4 map art done; fence cut patches still open"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "95762f9a-74b3-429c-9408-1054f1004f7c",
+        "lastActivity": "2026-10-26T07:47:52.044Z",
+        "summary": "Base directory for this skill: /Users/rannsegal/Library/Application Support/Claude/local-agent-mode-sessions/skills-plug…"
       }
     },
     {
@@ -176,7 +176,7 @@
       "hasGit": true,
       "git": {
         "branch": "tantan-v1",
-        "lastCommitRelative": "4 days ago",
+        "lastCommitRelative": "5 days ago",
         "lastCommitMessage": "Wire Tantan moods, voice, journal and commands to the floating body",
         "lastCommitDate": "2026-10-23 14:47:28 +0300",
         "lastCommitHebrew": "לפני 4 ימים",
@@ -305,7 +305,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "7 days ago",
+        "lastCommitRelative": "8 days ago",
         "lastCommitMessage": "Restore the images the cleanup commit deleted but the site still loads",
         "lastCommitDate": "2026-10-20 22:52:42 +0300",
         "lastCommitHebrew": "השבוע",
@@ -829,7 +829,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "10 weeks ago",
+        "lastCommitRelative": "2 months ago",
         "lastCommitMessage": "Add Scene 02 \"Blue Wave\" storyboard and restore the director subagent",
         "lastCommitDate": "2026-08-20 00:44:49 +0300",
         "lastCommitHebrew": "לפני 2 חודשים",
@@ -1513,7 +1513,7 @@
       "subStatus": null,
       "lastActivity": null,
       "lastActivityHebrew": "",
-      "size": "733M",
+      "size": "868M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
