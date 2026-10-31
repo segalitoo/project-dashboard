@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-10-31T20:11:24.919Z",
+  "lastUpdated": "2026-10-31T23:11:44.808Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 49,
   "counts": {
     "live": 1,
-    "building": 3,
+    "building": 4,
     "paused": 3,
-    "archive": 23,
+    "archive": 22,
     "idea": 19
   },
   "projects": [
@@ -56,8 +56,8 @@
       "stack": "TypeScript + Vite",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-10-31T20:11:16.671Z",
-      "lastActivityHebrew": "הרגע",
+      "lastActivity": "2026-10-31T22:56:19.007Z",
+      "lastActivityHebrew": "לפני 15 דקות",
       "size": "1.1G",
       "isLive": false,
       "liveUrl": null,
@@ -65,32 +65,72 @@
       "source": "local",
       "hasGit": true,
       "git": {
-        "branch": "session/19-portraits",
-        "lastCommitRelative": "7 hours ago",
-        "lastCommitMessage": "Portraits for Noa and Itai (face framing); docs",
-        "lastCommitDate": "2026-10-31 15:00:41 +0200",
-        "lastCommitHebrew": "לפני 7 שעות",
+        "branch": "session/20-briefing",
+        "lastCommitRelative": "2 hours ago",
+        "lastCommitMessage": "Phone memory: lit painting and light map only cover the lamp pools, dark light map is a tint fill, no lit copies for areas without lamps: canvases 186 MB to 99 MB",
+        "lastCommitDate": "2026-10-31 23:01:54 +0200",
+        "lastCommitHebrew": "לפני 2 שעות",
         "isDirty": true,
         "changedFiles": 2
       },
       "recentActions": [
         {
           "type": "commit",
-          "text": "Portraits for Noa and Itai (face framing); docs"
+          "text": "Phone memory: lit painting and light map only cover the lamp pools, dark light map is a tint fill, no lit copies for areas without lamps: canvases 186 MB to 99 MB"
         },
         {
           "type": "commit",
-          "text": "Portraits: face framing (Ran's pick A); smaller name tape; health shows only when hurt, as a red bar over the portrait (no dots)"
+          "text": "Sound (Phase 7): synthesised with WebAudio, no files: footsteps per surface, shots, siren, wind, blast, decoy, smoke, bark, takedown; placed by distance and pan from the view; Sound button mutes, remembered"
         },
         {
           "type": "commit",
-          "text": "Phase 6 portraits, round 1: render_portrait.py (head-and-shoulders plates from the unit rigs), Yoav painted over in three framings, portrait slot on the squad cards (?portrait= to compare)"
+          "text": "Guard and officer aim: rifle raised when they stand to shoot in combat, kick frame on each shot (Phase 5)"
         }
       ],
       "lastSession": {
         "sessionId": "95762f9a-74b3-429c-9408-1054f1004f7c",
-        "lastActivity": "2026-10-31T20:11:16.671Z",
+        "lastActivity": "2026-10-31T22:56:19.007Z",
         "summary": "Base directory for this skill: /Users/rannsegal/Library/Application Support/Claude/local-agent-mode-sessions/skills-plug…"
+      }
+    },
+    {
+      "name": "tabspeak",
+      "humanName": "TabSpeak",
+      "tagline": "תוסף שמדבר את התוכן של הטאבים הפתוחים",
+      "longDescription": "תוסף דפדפן שקורא בקול את התוכן של הטאב הפעיל. שימושי לרב-משימה ולנגישות. בנוי על React 19 + Vite.",
+      "nextStep": "לתקן את הבאג שדווח (\"i think its not working\")",
+      "notes": null,
+      "category": "Productivity",
+      "accentColor": "#a06b9e",
+      "screenshot": null,
+      "stack": "TypeScript + React 19 + Vite",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-10-31T21:54:45.742Z",
+      "lastActivityHebrew": "לפני שעה",
+      "size": "822M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [
+        {
+          "type": "chat",
+          "text": "[Request interrupted by user]",
+          "sessionId": "18785f7f-0193-41cd-a958-b1435a30cf80"
+        },
+        {
+          "type": "chat",
+          "text": "@\"/Users/rannsegal/Claude/tabspeak/landing/image1.svg\"\n/remotion-best-practices  design a loop animation for this image.…",
+          "sessionId": "4d20594e-17b7-4675-b9b5-98e2bccda07a"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "18785f7f-0193-41cd-a958-b1435a30cf80",
+        "lastActivity": "2026-10-31T21:54:45.742Z",
+        "summary": "[Request interrupted by user]"
       }
     },
     {
@@ -107,7 +147,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-10-31T12:12:52.308Z",
-      "lastActivityHebrew": "לפני 7 שעות",
+      "lastActivityHebrew": "לפני 10 שעות",
       "size": "1.3M",
       "isLive": false,
       "liveUrl": null,
@@ -116,10 +156,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "8 hours ago",
+        "lastCommitRelative": "11 hours ago",
         "lastCommitMessage": "Fix review findings: model timeouts, subagent turns, cross-session hide/mute, stale owner takeover, fast session start, speech priority, Esc not an error",
         "lastCommitDate": "2026-10-31 14:09:35 +0200",
-        "lastCommitHebrew": "לפני 8 שעות",
+        "lastCommitHebrew": "לפני 11 שעות",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -157,7 +197,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-10-28T22:33:44.516Z",
-      "lastActivityHebrew": "שלשום",
+      "lastActivityHebrew": "לפני 3 ימים",
       "size": "165M",
       "isLive": false,
       "liveUrl": null,
@@ -627,41 +667,6 @@
         "sessionId": "07ecd1ec-397b-4af7-8d15-b19a8f55f5e7",
         "lastActivity": "2026-09-16T10:12:26.068Z",
         "summary": "Base directory for this skill: /private/tmp/claude-501/bundled-skills/2.1.138/c325fd82b8b807e648409daa5a24cab7/claude-ap…"
-      }
-    },
-    {
-      "name": "tabspeak",
-      "humanName": "TabSpeak",
-      "tagline": "תוסף שמדבר את התוכן של הטאבים הפתוחים",
-      "longDescription": "תוסף דפדפן שקורא בקול את התוכן של הטאב הפעיל. שימושי לרב-משימה ולנגישות. בנוי על React 19 + Vite.",
-      "nextStep": "לתקן את הבאג שדווח (\"i think its not working\")",
-      "notes": null,
-      "category": "Productivity",
-      "accentColor": "#a06b9e",
-      "screenshot": null,
-      "stack": "TypeScript + React 19 + Vite",
-      "status": "archive",
-      "subStatus": null,
-      "lastActivity": "2026-09-13T20:55:53.688Z",
-      "lastActivityHebrew": "לפני חודש",
-      "size": "822M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": null,
-      "source": "local",
-      "hasGit": false,
-      "git": null,
-      "recentActions": [
-        {
-          "type": "chat",
-          "text": "@\"/Users/rannsegal/Claude/tabspeak/landing/image1.svg\"\n/remotion-best-practices  design a loop animation for this image.…",
-          "sessionId": "4d20594e-17b7-4675-b9b5-98e2bccda07a"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "4d20594e-17b7-4675-b9b5-98e2bccda07a",
-        "lastActivity": "2026-09-13T20:55:53.688Z",
-        "summary": "@\"/Users/rannsegal/Claude/tabspeak/landing/image1.svg\"\n/remotion-best-practices  design a loop animation for this image.…"
       }
     },
     {
