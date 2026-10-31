@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-29T18:32:45.521Z",
+  "lastUpdated": "2026-10-31T20:11:24.919Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 49,
   "counts": {
@@ -44,6 +44,106 @@
       "lastSession": null
     },
     {
+      "name": "special-ops",
+      "humanName": "special-ops",
+      "tagline": "An isometric stealth-tactics game for the browser, in the style of Commandos 1 (1998).",
+      "longDescription": "An isometric stealth-tactics game for the browser, in the style of Commandos 1 (1998).",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#5f7fa8",
+      "screenshot": null,
+      "stack": "TypeScript + Vite",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-10-31T20:11:16.671Z",
+      "lastActivityHebrew": "הרגע",
+      "size": "1.1G",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/launch-window",
+      "source": "local",
+      "hasGit": true,
+      "git": {
+        "branch": "session/19-portraits",
+        "lastCommitRelative": "7 hours ago",
+        "lastCommitMessage": "Portraits for Noa and Itai (face framing); docs",
+        "lastCommitDate": "2026-10-31 15:00:41 +0200",
+        "lastCommitHebrew": "לפני 7 שעות",
+        "isDirty": true,
+        "changedFiles": 2
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Portraits for Noa and Itai (face framing); docs"
+        },
+        {
+          "type": "commit",
+          "text": "Portraits: face framing (Ran's pick A); smaller name tape; health shows only when hurt, as a red bar over the portrait (no dots)"
+        },
+        {
+          "type": "commit",
+          "text": "Phase 6 portraits, round 1: render_portrait.py (head-and-shoulders plates from the unit rigs), Yoav painted over in three framings, portrait slot on the squad cards (?portrait= to compare)"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "95762f9a-74b3-429c-9408-1054f1004f7c",
+        "lastActivity": "2026-10-31T20:11:16.671Z",
+        "summary": "Base directory for this skill: /Users/rannsegal/Library/Application Support/Claude/local-agent-mode-sessions/skills-plug…"
+      }
+    },
+    {
+      "name": "pet",
+      "humanName": "pet",
+      "tagline": "Unknown",
+      "longDescription": "פרוייקט ב-Unknown",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#5f9d7f",
+      "screenshot": null,
+      "stack": "Unknown",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-10-31T12:12:52.308Z",
+      "lastActivityHebrew": "לפני 7 שעות",
+      "size": "1.3M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "8 hours ago",
+        "lastCommitMessage": "Fix review findings: model timeouts, subagent turns, cross-session hide/mute, stale owner takeover, fast session start, speech priority, Esc not an error",
+        "lastCommitDate": "2026-10-31 14:09:35 +0200",
+        "lastCommitHebrew": "לפני 8 שעות",
+        "isDirty": false,
+        "changedFiles": 0
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Fix review findings: model timeouts, subagent turns, cross-session hide/mute, stale owner takeover, fast session start, speech priority, Esc not an error"
+        },
+        {
+          "type": "commit",
+          "text": "Add README with install and dev instructions"
+        },
+        {
+          "type": "commit",
+          "text": "Add project status: left-off notes, git state, /tantan projects, stale nudges, command help"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "e1111045-dcd8-4a9e-8831-d32679f62d13",
+        "lastActivity": "2026-10-31T12:12:52.308Z",
+        "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/b…"
+      }
+    },
+    {
       "name": "Ideas",
       "humanName": "Ideas",
       "tagline": "ניצוץ · לתפוס רעיונות לפני שהם בורחים",
@@ -57,7 +157,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-10-28T22:33:44.516Z",
-      "lastActivityHebrew": "לפני 19 שעות",
+      "lastActivityHebrew": "שלשום",
       "size": "165M",
       "isLive": false,
       "liveUrl": null,
@@ -101,106 +201,6 @@
         "sessionId": "08d0827c-bef2-48f1-9d43-4c4217502b5d",
         "lastActivity": "2026-10-28T22:33:44.516Z",
         "summary": "good exampke to add to taste skill:"
-      }
-    },
-    {
-      "name": "special-ops",
-      "humanName": "special-ops",
-      "tagline": "An isometric stealth-tactics game for the browser, in the style of Commandos 1 (1998).",
-      "longDescription": "An isometric stealth-tactics game for the browser, in the style of Commandos 1 (1998).",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#5f7fa8",
-      "screenshot": null,
-      "stack": "TypeScript + Vite",
-      "status": "building",
-      "subStatus": null,
-      "lastActivity": "2026-10-26T07:47:52.044Z",
-      "lastActivityHebrew": "לפני 3 ימים",
-      "size": "1.1G",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/launch-window",
-      "source": "local",
-      "hasGit": true,
-      "git": {
-        "branch": "session/18-ui",
-        "lastCommitRelative": "3 days ago",
-        "lastCommitMessage": "Phase 6: landscape layout on phones (split edges: squad rail left, backpack and orders right, pause top right); upright shows a turn-your-phone screen and pauses the game",
-        "lastCommitDate": "2026-10-26 09:46:52 +0200",
-        "lastCommitHebrew": "לפני 3 ימים",
-        "isDirty": false,
-        "changedFiles": 0
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Phase 6: landscape layout on phones (split edges: squad rail left, backpack and orders right, pause top right); upright shows a turn-your-phone screen and pauses the game"
-        },
-        {
-          "type": "commit",
-          "text": "Merge session/17-south: south strip painted (option A); Phase 4 map art complete"
-        },
-        {
-          "type": "commit",
-          "text": "PLAN: Phase 4 map art done; fence cut patches still open"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "95762f9a-74b3-429c-9408-1054f1004f7c",
-        "lastActivity": "2026-10-26T07:47:52.044Z",
-        "summary": "Base directory for this skill: /Users/rannsegal/Library/Application Support/Claude/local-agent-mode-sessions/skills-plug…"
-      }
-    },
-    {
-      "name": "pet",
-      "humanName": "pet",
-      "tagline": "Unknown",
-      "longDescription": "פרוייקט ב-Unknown",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#5f9d7f",
-      "screenshot": null,
-      "stack": "Unknown",
-      "status": "building",
-      "subStatus": null,
-      "lastActivity": "2026-10-23T11:50:02.533Z",
-      "lastActivityHebrew": "לפני 6 ימים",
-      "size": "1.2M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": null,
-      "source": "local",
-      "hasGit": true,
-      "git": {
-        "branch": "tantan-v1",
-        "lastCommitRelative": "6 days ago",
-        "lastCommitMessage": "Wire Tantan moods, voice, journal and commands to the floating body",
-        "lastCommitDate": "2026-10-23 14:47:28 +0300",
-        "lastCommitHebrew": "לפני 6 ימים",
-        "isDirty": false,
-        "changedFiles": 0
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Wire Tantan moods, voice, journal and commands to the floating body"
-        },
-        {
-          "type": "commit",
-          "text": "Add cross-project work journal logic"
-        },
-        {
-          "type": "commit",
-          "text": "Add Tantan voice rules, prompt and canned lines"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "e1111045-dcd8-4a9e-8831-d32679f62d13",
-        "lastActivity": "2026-10-23T11:50:02.533Z",
-        "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/b…"
       }
     },
     {
@@ -305,7 +305,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "9 days ago",
+        "lastCommitRelative": "11 days ago",
         "lastCommitMessage": "Restore the images the cleanup commit deleted but the site still loads",
         "lastCommitDate": "2026-10-20 22:52:42 +0300",
         "lastCommitHebrew": "השבוע",
@@ -455,7 +455,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "5 weeks ago",
+        "lastCommitRelative": "6 weeks ago",
         "lastCommitMessage": "Serve the app for every route on Vercel",
         "lastCommitDate": "2026-09-23 02:32:49 +0300",
         "lastCommitHebrew": "לפני חודש",
@@ -1125,7 +1125,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "3 months ago",
+        "lastCommitRelative": "4 months ago",
         "lastCommitMessage": "Fix auth deadlock that hung Save and Set-password forever",
         "lastCommitDate": "2026-07-18 00:35:04 +0300",
         "lastCommitHebrew": "לפני 3 חודשים",
@@ -1180,7 +1180,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "3 months ago",
+        "lastCommitRelative": "4 months ago",
         "lastCommitMessage": "Migrate attire step to Bria gen_fill with a real-face guarantee",
         "lastCommitDate": "2026-07-19 03:04:45 +0300",
         "lastCommitHebrew": "לפני 3 חודשים",
