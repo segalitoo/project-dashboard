@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T15:39:42.816Z",
+  "lastUpdated": "2026-11-01T22:20:03.419Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 54,
   "counts": {
@@ -57,7 +57,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-01T11:55:24.187Z",
-      "lastActivityHebrew": "לפני 3 שעות",
+      "lastActivityHebrew": "לפני 10 שעות",
       "size": "165M",
       "isLive": false,
       "liveUrl": null,
@@ -117,7 +117,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-01T07:37:48.417Z",
-      "lastActivityHebrew": "לפני 8 שעות",
+      "lastActivityHebrew": "לפני 14 שעות",
       "size": "822M",
       "isLive": false,
       "liveUrl": null,
@@ -157,7 +157,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-10-31T22:56:19.007Z",
-      "lastActivityHebrew": "לפני 16 שעות",
+      "lastActivityHebrew": "לפני 23 שעות",
       "size": "1.1G",
       "isLive": false,
       "liveUrl": null,
@@ -166,10 +166,10 @@
       "hasGit": true,
       "git": {
         "branch": "session/20-briefing",
-        "lastCommitRelative": "19 hours ago",
+        "lastCommitRelative": "25 hours ago",
         "lastCommitMessage": "Phone memory: lit painting and light map only cover the lamp pools, dark light map is a tint fill, no lit copies for areas without lamps: canvases 186 MB to 99 MB",
         "lastCommitDate": "2026-10-31 23:01:54 +0200",
-        "lastCommitHebrew": "לפני 18 שעות",
+        "lastCommitHebrew": "אתמול",
         "isDirty": true,
         "changedFiles": 2
       },
@@ -216,7 +216,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "28 hours ago",
+        "lastCommitRelative": "34 hours ago",
         "lastCommitMessage": "Fix review findings: model timeouts, subagent turns, cross-session hide/mute, stale owner takeover, fast session start, speech priority, Esc not an error",
         "lastCommitDate": "2026-10-31 14:09:35 +0200",
         "lastCommitHebrew": "אתמול",
@@ -600,7 +600,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "6 weeks ago",
+        "lastCommitRelative": "7 weeks ago",
         "lastCommitMessage": "Option 2: the page as the shop counter",
         "lastCommitDate": "2026-09-17 11:40:13 +0300",
         "lastCommitHebrew": "לפני חודש",
