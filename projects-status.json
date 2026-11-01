@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-10-31T23:11:44.808Z",
+  "lastUpdated": "2026-11-01T09:37:14.711Z",
   "lastUpdatedHebrew": "הרגע",
-  "projectCount": 49,
+  "projectCount": 54,
   "counts": {
     "live": 1,
     "building": 4,
     "paused": 3,
-    "archive": 22,
-    "idea": 19
+    "archive": 23,
+    "idea": 23
   },
   "projects": [
     {
@@ -44,6 +44,46 @@
       "lastSession": null
     },
     {
+      "name": "tabspeak",
+      "humanName": "TabSpeak",
+      "tagline": "תוסף שמדבר את התוכן של הטאבים הפתוחים",
+      "longDescription": "תוסף דפדפן שקורא בקול את התוכן של הטאב הפעיל. שימושי לרב-משימה ולנגישות. בנוי על React 19 + Vite.",
+      "nextStep": "לתקן את הבאג שדווח (\"i think its not working\")",
+      "notes": null,
+      "category": "Productivity",
+      "accentColor": "#a06b9e",
+      "screenshot": null,
+      "stack": "TypeScript + React 19 + Vite",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-11-01T07:37:48.417Z",
+      "lastActivityHebrew": "לפני שעה",
+      "size": "822M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [
+        {
+          "type": "chat",
+          "text": "[Request interrupted by user]",
+          "sessionId": "18785f7f-0193-41cd-a958-b1435a30cf80"
+        },
+        {
+          "type": "chat",
+          "text": "@\"/Users/rannsegal/Claude/tabspeak/landing/image1.svg\"\n/remotion-best-practices  design a loop animation for this image.…",
+          "sessionId": "4d20594e-17b7-4675-b9b5-98e2bccda07a"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "18785f7f-0193-41cd-a958-b1435a30cf80",
+        "lastActivity": "2026-11-01T07:37:48.417Z",
+        "summary": "[Request interrupted by user]"
+      }
+    },
+    {
       "name": "special-ops",
       "humanName": "special-ops",
       "tagline": "An isometric stealth-tactics game for the browser, in the style of Commandos 1 (1998).",
@@ -57,7 +97,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-10-31T22:56:19.007Z",
-      "lastActivityHebrew": "לפני 15 דקות",
+      "lastActivityHebrew": "לפני 10 שעות",
       "size": "1.1G",
       "isLive": false,
       "liveUrl": null,
@@ -66,10 +106,10 @@
       "hasGit": true,
       "git": {
         "branch": "session/20-briefing",
-        "lastCommitRelative": "2 hours ago",
+        "lastCommitRelative": "13 hours ago",
         "lastCommitMessage": "Phone memory: lit painting and light map only cover the lamp pools, dark light map is a tint fill, no lit copies for areas without lamps: canvases 186 MB to 99 MB",
         "lastCommitDate": "2026-10-31 23:01:54 +0200",
-        "lastCommitHebrew": "לפני 2 שעות",
+        "lastCommitHebrew": "לפני 12 שעות",
         "isDirty": true,
         "changedFiles": 2
       },
@@ -94,46 +134,6 @@
       }
     },
     {
-      "name": "tabspeak",
-      "humanName": "TabSpeak",
-      "tagline": "תוסף שמדבר את התוכן של הטאבים הפתוחים",
-      "longDescription": "תוסף דפדפן שקורא בקול את התוכן של הטאב הפעיל. שימושי לרב-משימה ולנגישות. בנוי על React 19 + Vite.",
-      "nextStep": "לתקן את הבאג שדווח (\"i think its not working\")",
-      "notes": null,
-      "category": "Productivity",
-      "accentColor": "#a06b9e",
-      "screenshot": null,
-      "stack": "TypeScript + React 19 + Vite",
-      "status": "building",
-      "subStatus": null,
-      "lastActivity": "2026-10-31T21:54:45.742Z",
-      "lastActivityHebrew": "לפני שעה",
-      "size": "822M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": null,
-      "source": "local",
-      "hasGit": false,
-      "git": null,
-      "recentActions": [
-        {
-          "type": "chat",
-          "text": "[Request interrupted by user]",
-          "sessionId": "18785f7f-0193-41cd-a958-b1435a30cf80"
-        },
-        {
-          "type": "chat",
-          "text": "@\"/Users/rannsegal/Claude/tabspeak/landing/image1.svg\"\n/remotion-best-practices  design a loop animation for this image.…",
-          "sessionId": "4d20594e-17b7-4675-b9b5-98e2bccda07a"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "18785f7f-0193-41cd-a958-b1435a30cf80",
-        "lastActivity": "2026-10-31T21:54:45.742Z",
-        "summary": "[Request interrupted by user]"
-      }
-    },
-    {
       "name": "pet",
       "humanName": "pet",
       "tagline": "Unknown",
@@ -147,8 +147,8 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-10-31T12:12:52.308Z",
-      "lastActivityHebrew": "לפני 10 שעות",
-      "size": "1.3M",
+      "lastActivityHebrew": "לפני 21 שעות",
+      "size": "1.2M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
@@ -156,10 +156,10 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "11 hours ago",
+        "lastCommitRelative": "21 hours ago",
         "lastCommitMessage": "Fix review findings: model timeouts, subagent turns, cross-session hide/mute, stale owner takeover, fast session start, speech priority, Esc not an error",
         "lastCommitDate": "2026-10-31 14:09:35 +0200",
-        "lastCommitHebrew": "לפני 11 שעות",
+        "lastCommitHebrew": "לפני 21 שעות",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -345,7 +345,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "11 days ago",
+        "lastCommitRelative": "12 days ago",
         "lastCommitMessage": "Restore the images the cleanup commit deleted but the site still loads",
         "lastCommitDate": "2026-10-20 22:52:42 +0300",
         "lastCommitHebrew": "השבוע",
@@ -620,56 +620,6 @@
       "lastSession": null
     },
     {
-      "name": "Shhh",
-      "humanName": "Shhh",
-      "tagline": "כלי הכתבה חי שמדבר ישר לכל אפליקציה במק",
-      "longDescription": "אפליקציית macOS שמקליטה את המיקרופון, שולחת ל-Google Cloud Speech-to-Text, ומדביקה את הטקסט ישר לאפליקציה הפעילה. תומך עברית ואנגלית במקביל, עם UI ב-Swift ו-engine ב-Python.",
-      "nextStep": "לסיים את ה-landing page (53 קבצים open)",
-      "notes": null,
-      "category": "Productivity",
-      "accentColor": "#3d5a3d",
-      "screenshot": null,
-      "stack": "Python",
-      "status": "archive",
-      "subStatus": null,
-      "lastActivity": "2026-09-16T10:12:26.068Z",
-      "lastActivityHebrew": "לפני חודש",
-      "size": "1.4G",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/Shhh",
-      "source": "both",
-      "hasGit": true,
-      "git": {
-        "branch": "feat/landing-page",
-        "lastCommitRelative": "3 months ago",
-        "lastCommitMessage": "Remove the grammar module",
-        "lastCommitDate": "2026-08-10 02:38:18 +0300",
-        "lastCommitHebrew": "לפני 2 חודשים",
-        "isDirty": true,
-        "changedFiles": 7
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Remove the grammar module"
-        },
-        {
-          "type": "commit",
-          "text": "Ignore the built app bundle"
-        },
-        {
-          "type": "commit",
-          "text": "Update CLAUDE.md and add dev server launch config"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "07ecd1ec-397b-4af7-8d15-b19a8f55f5e7",
-        "lastActivity": "2026-09-16T10:12:26.068Z",
-        "summary": "Base directory for this skill: /private/tmp/claude-501/bundled-skills/2.1.138/c325fd82b8b807e648409daa5a24cab7/claude-ap…"
-      }
-    },
-    {
       "name": "Zoom-for-kids",
       "humanName": "Zoom לילדים",
       "tagline": "תוסף דפדפן שמתאים את ממשק הזום לילדים בכיתות וירטואליות",
@@ -684,7 +634,7 @@
       "subStatus": null,
       "lastActivity": "2026-09-13T20:46:26.630Z",
       "lastActivityHebrew": "לפני חודש",
-      "size": "1.1G",
+      "size": "725M",
       "isLive": true,
       "liveUrl": "https://zoom-for-kids.vercel.app",
       "githubUrl": "https://github.com/segalitoo/Zoom-for-kids",
@@ -807,6 +757,52 @@
         {
           "type": "commit",
           "text": "fix(editor): remount moveable on selection so rotated layers show a rotated box"
+        }
+      ],
+      "lastSession": null
+    },
+    {
+      "name": "UGC",
+      "humanName": "UGC",
+      "tagline": "Unknown",
+      "longDescription": "פרוייקט ב-Unknown",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#b85f5f",
+      "screenshot": null,
+      "stack": "Unknown",
+      "status": "archive",
+      "subStatus": null,
+      "lastActivity": "2026-08-27T00:43:42.000Z",
+      "lastActivityHebrew": "לפני 2 חודשים",
+      "size": "587M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "9 weeks ago",
+        "lastCommitMessage": "Add verified API payloads, executable render helpers, and a free-lane self test",
+        "lastCommitDate": "2026-08-27 03:43:42 +0300",
+        "lastCommitHebrew": "לפני 2 חודשים",
+        "isDirty": true,
+        "changedFiles": 2
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Add verified API payloads, executable render helpers, and a free-lane self test"
+        },
+        {
+          "type": "commit",
+          "text": "Strip em dashes per global writing rule; align captions reference with Caption[] output"
+        },
+        {
+          "type": "commit",
+          "text": "UGC pipeline: skill, workspace, fal rails, Remotion render lane"
         }
       ],
       "lastSession": null
@@ -1288,6 +1284,39 @@
       "lastSession": null
     },
     {
+      "name": "Shhh",
+      "humanName": "Shhh",
+      "tagline": "כלי הכתבה חי שמדבר ישר לכל אפליקציה במק",
+      "longDescription": "אפליקציית macOS שמקליטה את המיקרופון, שולחת ל-Google Cloud Speech-to-Text, ומדביקה את הטקסט ישר לאפליקציה הפעילה. תומך עברית ואנגלית במקביל, עם UI ב-Swift ו-engine ב-Python.",
+      "nextStep": "לסיים את ה-landing page (53 קבצים open)",
+      "notes": null,
+      "category": "Productivity",
+      "accentColor": "#3d5a3d",
+      "screenshot": null,
+      "stack": "TypeScript",
+      "status": "archive",
+      "subStatus": null,
+      "lastActivity": "2026-04-05T23:18:42Z",
+      "lastActivityHebrew": "לפני כחצי שנה",
+      "size": "cloud",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/Shhh",
+      "source": "cloud",
+      "hasGit": true,
+      "git": {
+        "branch": "feat/landing-page",
+        "lastCommitRelative": "",
+        "lastCommitMessage": "",
+        "lastCommitDate": "2026-04-05T23:18:42Z",
+        "lastCommitHebrew": "לפני כחצי שנה",
+        "isDirty": false,
+        "changedFiles": 0
+      },
+      "recentActions": [],
+      "lastSession": null
+    },
+    {
       "name": "Codex",
       "humanName": "Codex",
       "tagline": "test",
@@ -1504,6 +1533,31 @@
       "lastSession": null
     },
     {
+      "name": "Intreview aid",
+      "humanName": "Intreview aid",
+      "tagline": "Ran's job search portal: https://claude.ai/artifact/4uDrsjvkQ6oqEic1WcVssM",
+      "longDescription": "Ran's job search portal: https://claude.ai/artifact/4uDrsjvkQ6oqEic1WcVssM",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#5f9d7f",
+      "screenshot": null,
+      "stack": "Unknown",
+      "status": "idea",
+      "subStatus": null,
+      "lastActivity": null,
+      "lastActivityHebrew": "",
+      "size": "48K",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [],
+      "lastSession": null
+    },
+    {
       "name": "KDP book ",
       "humanName": "KDP book ",
       "tagline": "Local pipeline for 6x9 kids graphic novels (ages 6-9) on Amazon KDP. Replaces the old Figma plugin in `../Comic generator/` (its `code.js` is truncated and `code.ts` is a stub that…",
@@ -1579,6 +1633,56 @@
       "lastSession": null
     },
     {
+      "name": "The5ers",
+      "humanName": "The5ers",
+      "tagline": "Ran Segal is interviewing for **Art Director** (studio lead) at **The5ers**, a prop trading firm in Ra'anana. This folder holds the interview prep and the current home assignment: …",
+      "longDescription": "Ran Segal is interviewing for **Art Director** (studio lead) at **The5ers**, a prop trading firm in Ra'anana. This folder holds the interview prep and the current home assignment: …",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#a87432",
+      "screenshot": null,
+      "stack": "Unknown",
+      "status": "idea",
+      "subStatus": null,
+      "lastActivity": null,
+      "lastActivityHebrew": "",
+      "size": "804M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [],
+      "lastSession": null
+    },
+    {
+      "name": "UGC ",
+      "humanName": "UGC ",
+      "tagline": "Unknown",
+      "longDescription": "פרוייקט ב-Unknown",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#3a4a6b",
+      "screenshot": null,
+      "stack": "Unknown",
+      "status": "idea",
+      "subStatus": null,
+      "lastActivity": null,
+      "lastActivityHebrew": "",
+      "size": "0B",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [],
+      "lastSession": null
+    },
+    {
       "name": "Website builder",
       "humanName": "Website builder",
       "tagline": "Unknown",
@@ -1644,6 +1748,31 @@
       "lastActivity": null,
       "lastActivityHebrew": "",
       "size": "16K",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [],
+      "lastSession": null
+    },
+    {
+      "name": "just skills",
+      "humanName": "just skills",
+      "tagline": "Unknown",
+      "longDescription": "פרוייקט ב-Unknown",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#8b3a2e",
+      "screenshot": null,
+      "stack": "Unknown",
+      "status": "idea",
+      "subStatus": null,
+      "lastActivity": null,
+      "lastActivityHebrew": "",
+      "size": "40M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
