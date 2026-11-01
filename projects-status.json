@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T09:37:14.711Z",
+  "lastUpdated": "2026-11-01T12:39:23.861Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 54,
   "counts": {
@@ -44,146 +44,6 @@
       "lastSession": null
     },
     {
-      "name": "tabspeak",
-      "humanName": "TabSpeak",
-      "tagline": "תוסף שמדבר את התוכן של הטאבים הפתוחים",
-      "longDescription": "תוסף דפדפן שקורא בקול את התוכן של הטאב הפעיל. שימושי לרב-משימה ולנגישות. בנוי על React 19 + Vite.",
-      "nextStep": "לתקן את הבאג שדווח (\"i think its not working\")",
-      "notes": null,
-      "category": "Productivity",
-      "accentColor": "#a06b9e",
-      "screenshot": null,
-      "stack": "TypeScript + React 19 + Vite",
-      "status": "building",
-      "subStatus": null,
-      "lastActivity": "2026-11-01T07:37:48.417Z",
-      "lastActivityHebrew": "לפני שעה",
-      "size": "822M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": null,
-      "source": "local",
-      "hasGit": false,
-      "git": null,
-      "recentActions": [
-        {
-          "type": "chat",
-          "text": "[Request interrupted by user]",
-          "sessionId": "18785f7f-0193-41cd-a958-b1435a30cf80"
-        },
-        {
-          "type": "chat",
-          "text": "@\"/Users/rannsegal/Claude/tabspeak/landing/image1.svg\"\n/remotion-best-practices  design a loop animation for this image.…",
-          "sessionId": "4d20594e-17b7-4675-b9b5-98e2bccda07a"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "18785f7f-0193-41cd-a958-b1435a30cf80",
-        "lastActivity": "2026-11-01T07:37:48.417Z",
-        "summary": "[Request interrupted by user]"
-      }
-    },
-    {
-      "name": "special-ops",
-      "humanName": "special-ops",
-      "tagline": "An isometric stealth-tactics game for the browser, in the style of Commandos 1 (1998).",
-      "longDescription": "An isometric stealth-tactics game for the browser, in the style of Commandos 1 (1998).",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#5f7fa8",
-      "screenshot": null,
-      "stack": "TypeScript + Vite",
-      "status": "building",
-      "subStatus": null,
-      "lastActivity": "2026-10-31T22:56:19.007Z",
-      "lastActivityHebrew": "לפני 10 שעות",
-      "size": "1.1G",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/launch-window",
-      "source": "local",
-      "hasGit": true,
-      "git": {
-        "branch": "session/20-briefing",
-        "lastCommitRelative": "13 hours ago",
-        "lastCommitMessage": "Phone memory: lit painting and light map only cover the lamp pools, dark light map is a tint fill, no lit copies for areas without lamps: canvases 186 MB to 99 MB",
-        "lastCommitDate": "2026-10-31 23:01:54 +0200",
-        "lastCommitHebrew": "לפני 12 שעות",
-        "isDirty": true,
-        "changedFiles": 2
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Phone memory: lit painting and light map only cover the lamp pools, dark light map is a tint fill, no lit copies for areas without lamps: canvases 186 MB to 99 MB"
-        },
-        {
-          "type": "commit",
-          "text": "Sound (Phase 7): synthesised with WebAudio, no files: footsteps per surface, shots, siren, wind, blast, decoy, smoke, bark, takedown; placed by distance and pan from the view; Sound button mutes, remembered"
-        },
-        {
-          "type": "commit",
-          "text": "Guard and officer aim: rifle raised when they stand to shoot in combat, kick frame on each shot (Phase 5)"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "95762f9a-74b3-429c-9408-1054f1004f7c",
-        "lastActivity": "2026-10-31T22:56:19.007Z",
-        "summary": "Base directory for this skill: /Users/rannsegal/Library/Application Support/Claude/local-agent-mode-sessions/skills-plug…"
-      }
-    },
-    {
-      "name": "pet",
-      "humanName": "pet",
-      "tagline": "Unknown",
-      "longDescription": "פרוייקט ב-Unknown",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#5f9d7f",
-      "screenshot": null,
-      "stack": "Unknown",
-      "status": "building",
-      "subStatus": null,
-      "lastActivity": "2026-10-31T12:12:52.308Z",
-      "lastActivityHebrew": "לפני 21 שעות",
-      "size": "1.2M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": null,
-      "source": "local",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "21 hours ago",
-        "lastCommitMessage": "Fix review findings: model timeouts, subagent turns, cross-session hide/mute, stale owner takeover, fast session start, speech priority, Esc not an error",
-        "lastCommitDate": "2026-10-31 14:09:35 +0200",
-        "lastCommitHebrew": "לפני 21 שעות",
-        "isDirty": false,
-        "changedFiles": 0
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Fix review findings: model timeouts, subagent turns, cross-session hide/mute, stale owner takeover, fast session start, speech priority, Esc not an error"
-        },
-        {
-          "type": "commit",
-          "text": "Add README with install and dev instructions"
-        },
-        {
-          "type": "commit",
-          "text": "Add project status: left-off notes, git state, /tantan projects, stale nudges, command help"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "e1111045-dcd8-4a9e-8831-d32679f62d13",
-        "lastActivity": "2026-10-31T12:12:52.308Z",
-        "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/b…"
-      }
-    },
-    {
       "name": "Ideas",
       "humanName": "Ideas",
       "tagline": "ניצוץ · לתפוס רעיונות לפני שהם בורחים",
@@ -196,8 +56,8 @@
       "stack": "TypeScript + React 18 + Vite + Supabase",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-10-28T22:33:44.516Z",
-      "lastActivityHebrew": "לפני 3 ימים",
+      "lastActivity": "2026-11-01T11:55:24.187Z",
+      "lastActivityHebrew": "לפני 43 דקות",
       "size": "165M",
       "isLive": false,
       "liveUrl": null,
@@ -239,8 +99,148 @@
       ],
       "lastSession": {
         "sessionId": "08d0827c-bef2-48f1-9d43-4c4217502b5d",
-        "lastActivity": "2026-10-28T22:33:44.516Z",
+        "lastActivity": "2026-11-01T11:55:24.187Z",
         "summary": "good exampke to add to taste skill:"
+      }
+    },
+    {
+      "name": "tabspeak",
+      "humanName": "TabSpeak",
+      "tagline": "תוסף שמדבר את התוכן של הטאבים הפתוחים",
+      "longDescription": "תוסף דפדפן שקורא בקול את התוכן של הטאב הפעיל. שימושי לרב-משימה ולנגישות. בנוי על React 19 + Vite.",
+      "nextStep": "לתקן את הבאג שדווח (\"i think its not working\")",
+      "notes": null,
+      "category": "Productivity",
+      "accentColor": "#a06b9e",
+      "screenshot": null,
+      "stack": "TypeScript + React 19 + Vite",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-11-01T07:37:48.417Z",
+      "lastActivityHebrew": "לפני 5 שעות",
+      "size": "822M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [
+        {
+          "type": "chat",
+          "text": "[Request interrupted by user]",
+          "sessionId": "18785f7f-0193-41cd-a958-b1435a30cf80"
+        },
+        {
+          "type": "chat",
+          "text": "@\"/Users/rannsegal/Claude/tabspeak/landing/image1.svg\"\n/remotion-best-practices  design a loop animation for this image.…",
+          "sessionId": "4d20594e-17b7-4675-b9b5-98e2bccda07a"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "18785f7f-0193-41cd-a958-b1435a30cf80",
+        "lastActivity": "2026-11-01T07:37:48.417Z",
+        "summary": "[Request interrupted by user]"
+      }
+    },
+    {
+      "name": "special-ops",
+      "humanName": "special-ops",
+      "tagline": "An isometric stealth-tactics game for the browser, in the style of Commandos 1 (1998).",
+      "longDescription": "An isometric stealth-tactics game for the browser, in the style of Commandos 1 (1998).",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#5f7fa8",
+      "screenshot": null,
+      "stack": "TypeScript + Vite",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-10-31T22:56:19.007Z",
+      "lastActivityHebrew": "לפני 13 שעות",
+      "size": "1.1G",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/launch-window",
+      "source": "local",
+      "hasGit": true,
+      "git": {
+        "branch": "session/20-briefing",
+        "lastCommitRelative": "16 hours ago",
+        "lastCommitMessage": "Phone memory: lit painting and light map only cover the lamp pools, dark light map is a tint fill, no lit copies for areas without lamps: canvases 186 MB to 99 MB",
+        "lastCommitDate": "2026-10-31 23:01:54 +0200",
+        "lastCommitHebrew": "לפני 15 שעות",
+        "isDirty": true,
+        "changedFiles": 2
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Phone memory: lit painting and light map only cover the lamp pools, dark light map is a tint fill, no lit copies for areas without lamps: canvases 186 MB to 99 MB"
+        },
+        {
+          "type": "commit",
+          "text": "Sound (Phase 7): synthesised with WebAudio, no files: footsteps per surface, shots, siren, wind, blast, decoy, smoke, bark, takedown; placed by distance and pan from the view; Sound button mutes, remembered"
+        },
+        {
+          "type": "commit",
+          "text": "Guard and officer aim: rifle raised when they stand to shoot in combat, kick frame on each shot (Phase 5)"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "95762f9a-74b3-429c-9408-1054f1004f7c",
+        "lastActivity": "2026-10-31T22:56:19.007Z",
+        "summary": "Base directory for this skill: /Users/rannsegal/Library/Application Support/Claude/local-agent-mode-sessions/skills-plug…"
+      }
+    },
+    {
+      "name": "pet",
+      "humanName": "pet",
+      "tagline": "Unknown",
+      "longDescription": "פרוייקט ב-Unknown",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#5f9d7f",
+      "screenshot": null,
+      "stack": "Unknown",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-10-31T12:12:52.308Z",
+      "lastActivityHebrew": "אתמול",
+      "size": "1.2M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "25 hours ago",
+        "lastCommitMessage": "Fix review findings: model timeouts, subagent turns, cross-session hide/mute, stale owner takeover, fast session start, speech priority, Esc not an error",
+        "lastCommitDate": "2026-10-31 14:09:35 +0200",
+        "lastCommitHebrew": "אתמול",
+        "isDirty": false,
+        "changedFiles": 0
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Fix review findings: model timeouts, subagent turns, cross-session hide/mute, stale owner takeover, fast session start, speech priority, Esc not an error"
+        },
+        {
+          "type": "commit",
+          "text": "Add README with install and dev instructions"
+        },
+        {
+          "type": "commit",
+          "text": "Add project status: left-off notes, git state, /tantan projects, stale nudges, command help"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "e1111045-dcd8-4a9e-8831-d32679f62d13",
+        "lastActivity": "2026-10-31T12:12:52.308Z",
+        "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/5.0.7/skills/b…"
       }
     },
     {
@@ -784,7 +784,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "9 weeks ago",
+        "lastCommitRelative": "10 weeks ago",
         "lastCommitMessage": "Add verified API payloads, executable render helpers, and a free-lane self test",
         "lastCommitDate": "2026-08-27 03:43:42 +0300",
         "lastCommitHebrew": "לפני 2 חודשים",
@@ -1547,7 +1547,7 @@
       "subStatus": null,
       "lastActivity": null,
       "lastActivityHebrew": "",
-      "size": "48K",
+      "size": "116K",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
