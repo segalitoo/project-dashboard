@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T12:39:23.861Z",
+  "lastUpdated": "2026-11-01T15:39:42.816Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 54,
   "counts": {
@@ -57,7 +57,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-01T11:55:24.187Z",
-      "lastActivityHebrew": "לפני 43 דקות",
+      "lastActivityHebrew": "לפני 3 שעות",
       "size": "165M",
       "isLive": false,
       "liveUrl": null,
@@ -117,7 +117,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-01T07:37:48.417Z",
-      "lastActivityHebrew": "לפני 5 שעות",
+      "lastActivityHebrew": "לפני 8 שעות",
       "size": "822M",
       "isLive": false,
       "liveUrl": null,
@@ -157,7 +157,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-10-31T22:56:19.007Z",
-      "lastActivityHebrew": "לפני 13 שעות",
+      "lastActivityHebrew": "לפני 16 שעות",
       "size": "1.1G",
       "isLive": false,
       "liveUrl": null,
@@ -166,10 +166,10 @@
       "hasGit": true,
       "git": {
         "branch": "session/20-briefing",
-        "lastCommitRelative": "16 hours ago",
+        "lastCommitRelative": "19 hours ago",
         "lastCommitMessage": "Phone memory: lit painting and light map only cover the lamp pools, dark light map is a tint fill, no lit copies for areas without lamps: canvases 186 MB to 99 MB",
         "lastCommitDate": "2026-10-31 23:01:54 +0200",
-        "lastCommitHebrew": "לפני 15 שעות",
+        "lastCommitHebrew": "לפני 18 שעות",
         "isDirty": true,
         "changedFiles": 2
       },
@@ -216,7 +216,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "25 hours ago",
+        "lastCommitRelative": "28 hours ago",
         "lastCommitMessage": "Fix review findings: model timeouts, subagent turns, cross-session hide/mute, stale owner takeover, fast session start, speech priority, Esc not an error",
         "lastCommitDate": "2026-10-31 14:09:35 +0200",
         "lastCommitHebrew": "אתמול",
