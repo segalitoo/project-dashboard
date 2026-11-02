@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-01T22:20:03.419Z",
+  "lastUpdated": "2026-11-02T09:23:13.110Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 54,
   "counts": {
@@ -57,7 +57,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-01T11:55:24.187Z",
-      "lastActivityHebrew": "לפני 10 שעות",
+      "lastActivityHebrew": "לפני 21 שעות",
       "size": "165M",
       "isLive": false,
       "liveUrl": null,
@@ -66,7 +66,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "5 weeks ago",
+        "lastCommitRelative": "6 weeks ago",
         "lastCommitMessage": "Fix sign-in in the installed iOS app with a one-time session handoff",
         "lastCommitDate": "2026-09-25 00:50:40 +0300",
         "lastCommitHebrew": "לפני חודש",
@@ -117,7 +117,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-01T07:37:48.417Z",
-      "lastActivityHebrew": "לפני 14 שעות",
+      "lastActivityHebrew": "אתמול",
       "size": "822M",
       "isLive": false,
       "liveUrl": null,
@@ -157,7 +157,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-10-31T22:56:19.007Z",
-      "lastActivityHebrew": "לפני 23 שעות",
+      "lastActivityHebrew": "אתמול",
       "size": "1.1G",
       "isLive": false,
       "liveUrl": null,
@@ -166,7 +166,7 @@
       "hasGit": true,
       "git": {
         "branch": "session/20-briefing",
-        "lastCommitRelative": "25 hours ago",
+        "lastCommitRelative": "2 days ago",
         "lastCommitMessage": "Phone memory: lit painting and light map only cover the lamp pools, dark light map is a tint fill, no lit copies for areas without lamps: canvases 186 MB to 99 MB",
         "lastCommitDate": "2026-10-31 23:01:54 +0200",
         "lastCommitHebrew": "אתמול",
@@ -216,7 +216,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "34 hours ago",
+        "lastCommitRelative": "2 days ago",
         "lastCommitMessage": "Fix review findings: model timeouts, subagent turns, cross-session hide/mute, stale owner takeover, fast session start, speech priority, Esc not an error",
         "lastCommitDate": "2026-10-31 14:09:35 +0200",
         "lastCommitHebrew": "אתמול",
@@ -345,7 +345,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "12 days ago",
+        "lastCommitRelative": "13 days ago",
         "lastCommitMessage": "Restore the images the cleanup commit deleted but the site still loads",
         "lastCommitDate": "2026-10-20 22:52:42 +0300",
         "lastCommitHebrew": "השבוע",
@@ -830,7 +830,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "2 months ago",
+        "lastCommitRelative": "3 months ago",
         "lastCommitMessage": "Add Scene 02 \"Blue Wave\" storyboard and restore the director subagent",
         "lastCommitDate": "2026-08-20 00:44:49 +0300",
         "lastCommitHebrew": "לפני 2 חודשים",
@@ -1297,7 +1297,7 @@
       "status": "archive",
       "subStatus": null,
       "lastActivity": "2026-04-05T23:18:42Z",
-      "lastActivityHebrew": "לפני כחצי שנה",
+      "lastActivityHebrew": "לפני 7 חודשים",
       "size": "cloud",
       "isLive": false,
       "liveUrl": null,
@@ -1309,7 +1309,7 @@
         "lastCommitRelative": "",
         "lastCommitMessage": "",
         "lastCommitDate": "2026-04-05T23:18:42Z",
-        "lastCommitHebrew": "לפני כחצי שנה",
+        "lastCommitHebrew": "לפני 7 חודשים",
         "isDirty": false,
         "changedFiles": 0
       },
