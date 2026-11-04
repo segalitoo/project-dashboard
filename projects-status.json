@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-11-04T08:03:38.748Z",
+  "lastUpdated": "2026-11-04T11:03:57.569Z",
   "lastUpdatedHebrew": "הרגע",
-  "projectCount": 55,
+  "projectCount": 56,
   "counts": {
     "live": 1,
-    "building": 5,
+    "building": 6,
     "paused": 3,
     "archive": 23,
     "idea": 23
@@ -44,6 +44,35 @@
       "lastSession": null
     },
     {
+      "name": "Company",
+      "humanName": "Company",
+      "tagline": "Unknown",
+      "longDescription": "פרוייקט ב-Unknown",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#b85f5f",
+      "screenshot": null,
+      "stack": "Unknown",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-11-04T10:00:30.855Z",
+      "lastActivityHebrew": "לפני שעה",
+      "size": "87M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [],
+      "lastSession": {
+        "sessionId": "84822012-99de-4874-b6b7-c6c501abf6c5",
+        "lastActivity": "2026-11-04T10:00:30.855Z",
+        "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/7.0.0/skills/b…"
+      }
+    },
+    {
       "name": "Newcore",
       "humanName": "Newcore",
       "tagline": "Unknown",
@@ -56,9 +85,9 @@
       "stack": "Unknown",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-11-04T07:39:33.617Z",
-      "lastActivityHebrew": "לפני 23 דקות",
-      "size": "88K",
+      "lastActivity": "2026-11-04T09:59:09.219Z",
+      "lastActivityHebrew": "לפני שעה",
+      "size": "692K",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
@@ -68,7 +97,7 @@
       "recentActions": [],
       "lastSession": {
         "sessionId": "a323d9dc-1940-42f7-9bab-e88f92eb1283",
-        "lastActivity": "2026-11-04T07:39:33.617Z",
+        "lastActivity": "2026-11-04T09:59:09.219Z",
         "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/7.0.0/skills/b…"
       }
     },
@@ -195,7 +224,7 @@
       "hasGit": true,
       "git": {
         "branch": "session/20-briefing",
-        "lastCommitRelative": "3 days ago",
+        "lastCommitRelative": "4 days ago",
         "lastCommitMessage": "Phone memory: lit painting and light map only cover the lamp pools, dark light map is a tint fill, no lit copies for areas without lamps: canvases 186 MB to 99 MB",
         "lastCommitDate": "2026-10-31 23:01:54 +0200",
         "lastCommitHebrew": "לפני 3 ימים",
