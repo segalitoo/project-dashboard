@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-04T11:03:57.569Z",
+  "lastUpdated": "2026-11-04T22:09:58.910Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 56,
   "counts": {
@@ -56,9 +56,9 @@
       "stack": "Unknown",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-11-04T10:00:30.855Z",
-      "lastActivityHebrew": "לפני שעה",
-      "size": "87M",
+      "lastActivity": "2026-11-04T21:54:11.977Z",
+      "lastActivityHebrew": "לפני 15 דקות",
+      "size": "89M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
@@ -68,7 +68,7 @@
       "recentActions": [],
       "lastSession": {
         "sessionId": "84822012-99de-4874-b6b7-c6c501abf6c5",
-        "lastActivity": "2026-11-04T10:00:30.855Z",
+        "lastActivity": "2026-11-04T21:54:11.977Z",
         "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/7.0.0/skills/b…"
       }
     },
@@ -85,9 +85,9 @@
       "stack": "Unknown",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-11-04T09:59:09.219Z",
-      "lastActivityHebrew": "לפני שעה",
-      "size": "692K",
+      "lastActivity": "2026-11-04T21:22:24.924Z",
+      "lastActivityHebrew": "לפני 47 דקות",
+      "size": "708K",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
@@ -97,7 +97,7 @@
       "recentActions": [],
       "lastSession": {
         "sessionId": "a323d9dc-1940-42f7-9bab-e88f92eb1283",
-        "lastActivity": "2026-11-04T09:59:09.219Z",
+        "lastActivity": "2026-11-04T21:22:24.924Z",
         "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/7.0.0/skills/b…"
       }
     },
@@ -115,7 +115,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-01T11:55:24.187Z",
-      "lastActivityHebrew": "שלשום",
+      "lastActivityHebrew": "לפני 3 ימים",
       "size": "165M",
       "isLive": false,
       "liveUrl": null,
@@ -227,7 +227,7 @@
         "lastCommitRelative": "4 days ago",
         "lastCommitMessage": "Phone memory: lit painting and light map only cover the lamp pools, dark light map is a tint fill, no lit copies for areas without lamps: canvases 186 MB to 99 MB",
         "lastCommitDate": "2026-10-31 23:01:54 +0200",
-        "lastCommitHebrew": "לפני 3 ימים",
+        "lastCommitHebrew": "לפני 4 ימים",
         "isDirty": true,
         "changedFiles": 2
       },
@@ -265,7 +265,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-10-31T12:12:52.308Z",
-      "lastActivityHebrew": "לפני 3 ימים",
+      "lastActivityHebrew": "לפני 4 ימים",
       "size": "1.2M",
       "isLive": false,
       "liveUrl": null,
@@ -277,7 +277,7 @@
         "lastCommitRelative": "4 days ago",
         "lastCommitMessage": "Fix review findings: model timeouts, subagent turns, cross-session hide/mute, stale owner takeover, fast session start, speech priority, Esc not an error",
         "lastCommitDate": "2026-10-31 14:09:35 +0200",
-        "lastCommitHebrew": "לפני 3 ימים",
+        "lastCommitHebrew": "לפני 4 ימים",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -842,7 +842,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "10 weeks ago",
+        "lastCommitRelative": "2 months ago",
         "lastCommitMessage": "Add verified API payloads, executable render helpers, and a free-lane self test",
         "lastCommitDate": "2026-08-27 03:43:42 +0300",
         "lastCommitHebrew": "לפני 2 חודשים",
