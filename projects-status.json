@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-04T22:09:58.910Z",
+  "lastUpdated": "2026-11-05T01:10:16.963Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 56,
   "counts": {
@@ -56,9 +56,9 @@
       "stack": "Unknown",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-11-04T21:54:11.977Z",
-      "lastActivityHebrew": "לפני 15 דקות",
-      "size": "89M",
+      "lastActivity": "2026-11-04T22:26:38.629Z",
+      "lastActivityHebrew": "לפני 2 שעות",
+      "size": "90M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
@@ -68,7 +68,7 @@
       "recentActions": [],
       "lastSession": {
         "sessionId": "84822012-99de-4874-b6b7-c6c501abf6c5",
-        "lastActivity": "2026-11-04T21:54:11.977Z",
+        "lastActivity": "2026-11-04T22:26:38.629Z",
         "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/7.0.0/skills/b…"
       }
     },
@@ -86,7 +86,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-04T21:22:24.924Z",
-      "lastActivityHebrew": "לפני 47 דקות",
+      "lastActivityHebrew": "לפני 3 שעות",
       "size": "708K",
       "isLive": false,
       "liveUrl": null,
@@ -215,7 +215,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-10-31T22:56:19.007Z",
-      "lastActivityHebrew": "לפני 3 ימים",
+      "lastActivityHebrew": "לפני 4 ימים",
       "size": "1.1G",
       "isLive": false,
       "liveUrl": null,
@@ -274,7 +274,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "4 days ago",
+        "lastCommitRelative": "5 days ago",
         "lastCommitMessage": "Fix review findings: model timeouts, subagent turns, cross-session hide/mute, stale owner takeover, fast session start, speech priority, Esc not an error",
         "lastCommitDate": "2026-10-31 14:09:35 +0200",
         "lastCommitHebrew": "לפני 4 ימים",
