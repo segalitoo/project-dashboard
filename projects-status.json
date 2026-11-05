@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-05T13:48:28.992Z",
+  "lastUpdated": "2026-11-05T16:48:50.185Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 56,
   "counts": {
@@ -56,9 +56,9 @@
       "stack": "Unknown",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-11-05T13:36:35.551Z",
-      "lastActivityHebrew": "לפני 11 דקות",
-      "size": "162M",
+      "lastActivity": "2026-11-05T14:33:35.350Z",
+      "lastActivityHebrew": "לפני 2 שעות",
+      "size": "165M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
@@ -68,7 +68,7 @@
       "recentActions": [],
       "lastSession": {
         "sessionId": "84822012-99de-4874-b6b7-c6c501abf6c5",
-        "lastActivity": "2026-11-05T13:36:35.551Z",
+        "lastActivity": "2026-11-05T14:33:35.350Z",
         "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/7.0.0/skills/b…"
       }
     },
@@ -85,8 +85,8 @@
       "stack": "Unknown",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-11-05T07:30:15.713Z",
-      "lastActivityHebrew": "לפני 6 שעות",
+      "lastActivity": "2026-11-05T14:13:26.589Z",
+      "lastActivityHebrew": "לפני 2 שעות",
       "size": "1.1M",
       "isLive": false,
       "liveUrl": null,
@@ -97,7 +97,7 @@
       "recentActions": [],
       "lastSession": {
         "sessionId": "a323d9dc-1940-42f7-9bab-e88f92eb1283",
-        "lastActivity": "2026-11-05T07:30:15.713Z",
+        "lastActivity": "2026-11-05T14:13:26.589Z",
         "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/7.0.0/skills/b…"
       }
     },
@@ -1605,7 +1605,7 @@
       "subStatus": null,
       "lastActivity": null,
       "lastActivityHebrew": "",
-      "size": "572K",
+      "size": "956K",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
