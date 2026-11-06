@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-06T12:20:47.018Z",
+  "lastUpdated": "2026-11-06T15:58:44.380Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 56,
   "counts": {
@@ -56,9 +56,9 @@
       "stack": "Unknown",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-11-06T11:57:58.593Z",
-      "lastActivityHebrew": "לפני 22 דקות",
-      "size": "1.8M",
+      "lastActivity": "2026-11-06T15:32:02.097Z",
+      "lastActivityHebrew": "לפני 26 דקות",
+      "size": "8.6M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
@@ -67,38 +67,9 @@
       "git": null,
       "recentActions": [],
       "lastSession": {
-        "sessionId": "a323d9dc-1940-42f7-9bab-e88f92eb1283",
-        "lastActivity": "2026-11-06T11:57:58.593Z",
-        "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/7.0.0/skills/b…"
-      }
-    },
-    {
-      "name": "Company",
-      "humanName": "Company",
-      "tagline": "Unknown",
-      "longDescription": "פרוייקט ב-Unknown",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#b85f5f",
-      "screenshot": null,
-      "stack": "Unknown",
-      "status": "building",
-      "subStatus": null,
-      "lastActivity": "2026-11-05T21:19:54.451Z",
-      "lastActivityHebrew": "לפני 15 שעות",
-      "size": "167M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": null,
-      "source": "local",
-      "hasGit": false,
-      "git": null,
-      "recentActions": [],
-      "lastSession": {
-        "sessionId": "84822012-99de-4874-b6b7-c6c501abf6c5",
-        "lastActivity": "2026-11-05T21:19:54.451Z",
-        "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/7.0.0/skills/b…"
+        "sessionId": "5f9fbdf4-ca98-4df3-9858-78eb2142ca10",
+        "lastActivity": "2026-11-06T15:32:02.097Z",
+        "summary": ""
       }
     },
     {
@@ -114,8 +85,8 @@
       "stack": "TypeScript + React 18 + Vite + Supabase",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-11-01T11:55:24.187Z",
-      "lastActivityHebrew": "לפני 5 ימים",
+      "lastActivity": "2026-11-06T14:34:24.057Z",
+      "lastActivityHebrew": "לפני שעה",
       "size": "165M",
       "isLive": false,
       "liveUrl": null,
@@ -157,8 +128,37 @@
       ],
       "lastSession": {
         "sessionId": "08d0827c-bef2-48f1-9d43-4c4217502b5d",
-        "lastActivity": "2026-11-01T11:55:24.187Z",
+        "lastActivity": "2026-11-06T14:34:24.057Z",
         "summary": "good exampke to add to taste skill:"
+      }
+    },
+    {
+      "name": "Company",
+      "humanName": "Company",
+      "tagline": "Unknown",
+      "longDescription": "פרוייקט ב-Unknown",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#b85f5f",
+      "screenshot": null,
+      "stack": "Unknown",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-11-05T21:19:54.451Z",
+      "lastActivityHebrew": "לפני 18 שעות",
+      "size": "167M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [],
+      "lastSession": {
+        "sessionId": "84822012-99de-4874-b6b7-c6c501abf6c5",
+        "lastActivity": "2026-11-05T21:19:54.451Z",
+        "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/7.0.0/skills/b…"
       }
     },
     {
