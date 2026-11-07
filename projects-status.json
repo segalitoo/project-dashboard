@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-07T00:59:51.847Z",
+  "lastUpdated": "2026-11-07T04:00:12.185Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 56,
   "counts": {
@@ -44,35 +44,6 @@
       "lastSession": null
     },
     {
-      "name": "Company",
-      "humanName": "Company",
-      "tagline": "Unknown",
-      "longDescription": "פרוייקט ב-Unknown",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#b85f5f",
-      "screenshot": null,
-      "stack": "Unknown",
-      "status": "building",
-      "subStatus": null,
-      "lastActivity": "2026-11-07T00:59:32.316Z",
-      "lastActivityHebrew": "הרגע",
-      "size": "167M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": null,
-      "source": "local",
-      "hasGit": false,
-      "git": null,
-      "recentActions": [],
-      "lastSession": {
-        "sessionId": "84822012-99de-4874-b6b7-c6c501abf6c5",
-        "lastActivity": "2026-11-07T00:59:32.316Z",
-        "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/7.0.0/skills/b…"
-      }
-    },
-    {
       "name": "Newcore",
       "humanName": "Newcore",
       "tagline": "Unknown",
@@ -85,9 +56,9 @@
       "stack": "Unknown",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-11-07T00:53:43.475Z",
-      "lastActivityHebrew": "לפני 5 דקות",
-      "size": "18M",
+      "lastActivity": "2026-11-07T01:50:32.261Z",
+      "lastActivityHebrew": "לפני 2 שעות",
+      "size": "28M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
@@ -97,8 +68,37 @@
       "recentActions": [],
       "lastSession": {
         "sessionId": "5f9fbdf4-ca98-4df3-9858-78eb2142ca10",
-        "lastActivity": "2026-11-07T00:53:43.475Z",
+        "lastActivity": "2026-11-07T01:50:32.261Z",
         "summary": "Base directory for this skill: /Users/rannsegal/.claude/skills/animate\n\n# Building Animations\n\nA construction skill. It …"
+      }
+    },
+    {
+      "name": "Company",
+      "humanName": "Company",
+      "tagline": "Unknown",
+      "longDescription": "פרוייקט ב-Unknown",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#b85f5f",
+      "screenshot": null,
+      "stack": "Unknown",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-11-07T01:43:46.610Z",
+      "lastActivityHebrew": "לפני 2 שעות",
+      "size": "210M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [],
+      "lastSession": {
+        "sessionId": "84822012-99de-4874-b6b7-c6c501abf6c5",
+        "lastActivity": "2026-11-07T01:43:46.610Z",
+        "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/7.0.0/skills/b…"
       }
     },
     {
@@ -115,7 +115,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-06T14:34:24.057Z",
-      "lastActivityHebrew": "לפני 10 שעות",
+      "lastActivityHebrew": "לפני 13 שעות",
       "size": "165M",
       "isLive": false,
       "liveUrl": null,
