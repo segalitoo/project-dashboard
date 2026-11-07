@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-11-07T04:00:12.185Z",
+  "lastUpdated": "2026-11-07T21:39:26.238Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 56,
   "counts": {
     "live": 1,
-    "building": 6,
-    "paused": 3,
+    "building": 5,
+    "paused": 4,
     "archive": 23,
     "idea": 23
   },
@@ -56,8 +56,8 @@
       "stack": "Unknown",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-11-07T01:50:32.261Z",
-      "lastActivityHebrew": "לפני 2 שעות",
+      "lastActivity": "2026-11-07T21:34:12.654Z",
+      "lastActivityHebrew": "לפני 4 דקות",
       "size": "28M",
       "isLive": false,
       "liveUrl": null,
@@ -68,7 +68,7 @@
       "recentActions": [],
       "lastSession": {
         "sessionId": "5f9fbdf4-ca98-4df3-9858-78eb2142ca10",
-        "lastActivity": "2026-11-07T01:50:32.261Z",
+        "lastActivity": "2026-11-07T21:34:12.654Z",
         "summary": "Base directory for this skill: /Users/rannsegal/.claude/skills/animate\n\n# Building Animations\n\nA construction skill. It …"
       }
     },
@@ -85,9 +85,9 @@
       "stack": "Unknown",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-11-07T01:43:46.610Z",
-      "lastActivityHebrew": "לפני 2 שעות",
-      "size": "210M",
+      "lastActivity": "2026-11-07T21:31:08.640Z",
+      "lastActivityHebrew": "לפני 8 דקות",
+      "size": "217M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
@@ -97,7 +97,7 @@
       "recentActions": [],
       "lastSession": {
         "sessionId": "84822012-99de-4874-b6b7-c6c501abf6c5",
-        "lastActivity": "2026-11-07T01:43:46.610Z",
+        "lastActivity": "2026-11-07T21:31:08.640Z",
         "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/7.0.0/skills/b…"
       }
     },
@@ -115,7 +115,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-06T14:34:24.057Z",
-      "lastActivityHebrew": "לפני 13 שעות",
+      "lastActivityHebrew": "אתמול",
       "size": "165M",
       "isLive": false,
       "liveUrl": null,
@@ -175,7 +175,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-01T07:37:48.417Z",
-      "lastActivityHebrew": "לפני 5 ימים",
+      "lastActivityHebrew": "לפני 6 ימים",
       "size": "822M",
       "isLive": false,
       "liveUrl": null,
@@ -224,10 +224,10 @@
       "hasGit": true,
       "git": {
         "branch": "session/20-briefing",
-        "lastCommitRelative": "6 days ago",
+        "lastCommitRelative": "7 days ago",
         "lastCommitMessage": "Phone memory: lit painting and light map only cover the lamp pools, dark light map is a tint fill, no lit copies for areas without lamps: canvases 186 MB to 99 MB",
         "lastCommitDate": "2026-10-31 23:01:54 +0200",
-        "lastCommitHebrew": "לפני 6 ימים",
+        "lastCommitHebrew": "השבוע",
         "isDirty": true,
         "changedFiles": 2
       },
@@ -262,10 +262,10 @@
       "accentColor": "#5f9d7f",
       "screenshot": null,
       "stack": "Unknown",
-      "status": "building",
+      "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-10-31T12:12:52.308Z",
-      "lastActivityHebrew": "לפני 6 ימים",
+      "lastActivityHebrew": "השבוע",
       "size": "1.2M",
       "isLive": false,
       "liveUrl": null,
@@ -277,7 +277,7 @@
         "lastCommitRelative": "7 days ago",
         "lastCommitMessage": "Fix review findings: model timeouts, subagent turns, cross-session hide/mute, stale owner takeover, fast session start, speech priority, Esc not an error",
         "lastCommitDate": "2026-10-31 14:09:35 +0200",
-        "lastCommitHebrew": "לפני 6 ימים",
+        "lastCommitHebrew": "השבוע",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -403,7 +403,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "2 weeks ago",
+        "lastCommitRelative": "3 weeks ago",
         "lastCommitMessage": "Restore the images the cleanup commit deleted but the site still loads",
         "lastCommitDate": "2026-10-20 22:52:42 +0300",
         "lastCommitHebrew": "לפני 2 שבועות",
@@ -553,7 +553,7 @@
       "hasGit": true,
       "git": {
         "branch": "feat/node-canvas",
-        "lastCommitRelative": "6 weeks ago",
+        "lastCommitRelative": "7 weeks ago",
         "lastCommitMessage": "Serve the app for every route on Vercel",
         "lastCommitDate": "2026-09-23 02:32:49 +0300",
         "lastCommitHebrew": "לפני חודש",
