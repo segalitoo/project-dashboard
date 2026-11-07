@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-06T21:59:31.908Z",
+  "lastUpdated": "2026-11-07T00:59:51.847Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 56,
   "counts": {
@@ -44,6 +44,35 @@
       "lastSession": null
     },
     {
+      "name": "Company",
+      "humanName": "Company",
+      "tagline": "Unknown",
+      "longDescription": "פרוייקט ב-Unknown",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#b85f5f",
+      "screenshot": null,
+      "stack": "Unknown",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-11-07T00:59:32.316Z",
+      "lastActivityHebrew": "הרגע",
+      "size": "167M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [],
+      "lastSession": {
+        "sessionId": "84822012-99de-4874-b6b7-c6c501abf6c5",
+        "lastActivity": "2026-11-07T00:59:32.316Z",
+        "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/7.0.0/skills/b…"
+      }
+    },
+    {
       "name": "Newcore",
       "humanName": "Newcore",
       "tagline": "Unknown",
@@ -56,9 +85,9 @@
       "stack": "Unknown",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-11-06T21:59:03.371Z",
-      "lastActivityHebrew": "הרגע",
-      "size": "9.4M",
+      "lastActivity": "2026-11-07T00:53:43.475Z",
+      "lastActivityHebrew": "לפני 5 דקות",
+      "size": "18M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
@@ -68,8 +97,8 @@
       "recentActions": [],
       "lastSession": {
         "sessionId": "5f9fbdf4-ca98-4df3-9858-78eb2142ca10",
-        "lastActivity": "2026-11-06T21:59:03.371Z",
-        "summary": ""
+        "lastActivity": "2026-11-07T00:53:43.475Z",
+        "summary": "Base directory for this skill: /Users/rannsegal/.claude/skills/animate\n\n# Building Animations\n\nA construction skill. It …"
       }
     },
     {
@@ -86,7 +115,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-06T14:34:24.057Z",
-      "lastActivityHebrew": "לפני 7 שעות",
+      "lastActivityHebrew": "לפני 10 שעות",
       "size": "165M",
       "isLive": false,
       "liveUrl": null,
@@ -130,35 +159,6 @@
         "sessionId": "08d0827c-bef2-48f1-9d43-4c4217502b5d",
         "lastActivity": "2026-11-06T14:34:24.057Z",
         "summary": "good exampke to add to taste skill:"
-      }
-    },
-    {
-      "name": "Company",
-      "humanName": "Company",
-      "tagline": "Unknown",
-      "longDescription": "פרוייקט ב-Unknown",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#b85f5f",
-      "screenshot": null,
-      "stack": "Unknown",
-      "status": "building",
-      "subStatus": null,
-      "lastActivity": "2026-11-05T21:19:54.451Z",
-      "lastActivityHebrew": "אתמול",
-      "size": "167M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": null,
-      "source": "local",
-      "hasGit": false,
-      "git": null,
-      "recentActions": [],
-      "lastSession": {
-        "sessionId": "84822012-99de-4874-b6b7-c6c501abf6c5",
-        "lastActivity": "2026-11-05T21:19:54.451Z",
-        "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/7.0.0/skills/b…"
       }
     },
     {
@@ -215,7 +215,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-10-31T22:56:19.007Z",
-      "lastActivityHebrew": "לפני 5 ימים",
+      "lastActivityHebrew": "לפני 6 ימים",
       "size": "1.1G",
       "isLive": false,
       "liveUrl": null,
@@ -274,7 +274,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "6 days ago",
+        "lastCommitRelative": "7 days ago",
         "lastCommitMessage": "Fix review findings: model timeouts, subagent turns, cross-session hide/mute, stale owner takeover, fast session start, speech priority, Esc not an error",
         "lastCommitDate": "2026-10-31 14:09:35 +0200",
         "lastCommitHebrew": "לפני 6 ימים",
