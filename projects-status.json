@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T10:48:51.618Z",
+  "lastUpdated": "2026-11-08T13:49:11.060Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 56,
   "counts": {
@@ -56,8 +56,8 @@
       "stack": "Unknown",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-11-08T09:59:42.864Z",
-      "lastActivityHebrew": "לפני 48 דקות",
+      "lastActivity": "2026-11-08T13:07:40.949Z",
+      "lastActivityHebrew": "לפני 41 דקות",
       "size": "28M",
       "isLive": false,
       "liveUrl": null,
@@ -68,7 +68,7 @@
       "recentActions": [],
       "lastSession": {
         "sessionId": "5f9fbdf4-ca98-4df3-9858-78eb2142ca10",
-        "lastActivity": "2026-11-08T09:59:42.864Z",
+        "lastActivity": "2026-11-08T13:07:40.949Z",
         "summary": "Base directory for this skill: /Users/rannsegal/.claude/skills/animate\n\n# Building Animations\n\nA construction skill. It …"
       }
     },
@@ -86,7 +86,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-08T07:01:14.707Z",
-      "lastActivityHebrew": "לפני 3 שעות",
+      "lastActivityHebrew": "לפני 6 שעות",
       "size": "225M",
       "isLive": false,
       "liveUrl": null,
