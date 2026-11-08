@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T07:48:24.215Z",
+  "lastUpdated": "2026-11-08T10:48:51.618Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 56,
   "counts": {
@@ -56,8 +56,8 @@
       "stack": "Unknown",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-11-08T07:47:07.841Z",
-      "lastActivityHebrew": "לפני 1 דקות",
+      "lastActivity": "2026-11-08T09:59:42.864Z",
+      "lastActivityHebrew": "לפני 48 דקות",
       "size": "28M",
       "isLive": false,
       "liveUrl": null,
@@ -68,7 +68,7 @@
       "recentActions": [],
       "lastSession": {
         "sessionId": "5f9fbdf4-ca98-4df3-9858-78eb2142ca10",
-        "lastActivity": "2026-11-08T07:47:07.841Z",
+        "lastActivity": "2026-11-08T09:59:42.864Z",
         "summary": "Base directory for this skill: /Users/rannsegal/.claude/skills/animate\n\n# Building Animations\n\nA construction skill. It …"
       }
     },
@@ -86,7 +86,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-08T07:01:14.707Z",
-      "lastActivityHebrew": "לפני 46 דקות",
+      "lastActivityHebrew": "לפני 3 שעות",
       "size": "225M",
       "isLive": false,
       "liveUrl": null,
@@ -224,7 +224,7 @@
       "hasGit": true,
       "git": {
         "branch": "session/20-briefing",
-        "lastCommitRelative": "7 days ago",
+        "lastCommitRelative": "8 days ago",
         "lastCommitMessage": "Phone memory: lit painting and light map only cover the lamp pools, dark light map is a tint fill, no lit copies for areas without lamps: canvases 186 MB to 99 MB",
         "lastCommitDate": "2026-10-31 23:01:54 +0200",
         "lastCommitHebrew": "השבוע",
