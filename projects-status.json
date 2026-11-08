@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-08T13:49:11.060Z",
+  "lastUpdated": "2026-11-08T20:14:10.745Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 56,
   "counts": {
@@ -56,9 +56,9 @@
       "stack": "Unknown",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-11-08T13:07:40.949Z",
-      "lastActivityHebrew": "לפני 41 דקות",
-      "size": "28M",
+      "lastActivity": "2026-11-08T20:09:08.901Z",
+      "lastActivityHebrew": "לפני 4 דקות",
+      "size": "33M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
@@ -68,7 +68,7 @@
       "recentActions": [],
       "lastSession": {
         "sessionId": "5f9fbdf4-ca98-4df3-9858-78eb2142ca10",
-        "lastActivity": "2026-11-08T13:07:40.949Z",
+        "lastActivity": "2026-11-08T20:09:08.901Z",
         "summary": "Base directory for this skill: /Users/rannsegal/.claude/skills/animate\n\n# Building Animations\n\nA construction skill. It …"
       }
     },
@@ -86,7 +86,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-08T07:01:14.707Z",
-      "lastActivityHebrew": "לפני 6 שעות",
+      "lastActivityHebrew": "לפני 13 שעות",
       "size": "225M",
       "isLive": false,
       "liveUrl": null,
@@ -115,7 +115,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-06T14:34:24.057Z",
-      "lastActivityHebrew": "אתמול",
+      "lastActivityHebrew": "שלשום",
       "size": "165M",
       "isLive": false,
       "liveUrl": null,
@@ -658,7 +658,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "7 weeks ago",
+        "lastCommitRelative": "8 weeks ago",
         "lastCommitMessage": "Option 2: the page as the shop counter",
         "lastCommitDate": "2026-09-17 11:40:13 +0300",
         "lastCommitHebrew": "לפני חודש",
