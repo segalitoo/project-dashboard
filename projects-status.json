@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-09T16:45:57.981Z",
+  "lastUpdated": "2026-11-09T23:42:34.077Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 56,
   "counts": {
@@ -56,20 +56,26 @@
       "stack": "Unknown",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-11-09T10:21:05.522Z",
-      "lastActivityHebrew": "לפני 6 שעות",
-      "size": "39M",
+      "lastActivity": "2026-11-09T23:18:35.646Z",
+      "lastActivityHebrew": "לפני 23 דקות",
+      "size": "110M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
       "source": "local",
       "hasGit": false,
       "git": null,
-      "recentActions": [],
+      "recentActions": [
+        {
+          "type": "chat",
+          "text": "[Request interrupted by user]",
+          "sessionId": "8bc2e5ff-34a2-4ba1-81bd-fffba4b1cf64"
+        }
+      ],
       "lastSession": {
-        "sessionId": "5f9fbdf4-ca98-4df3-9858-78eb2142ca10",
-        "lastActivity": "2026-11-09T10:21:05.522Z",
-        "summary": "Base directory for this skill: /Users/rannsegal/.claude/skills/animate\n\n# Building Animations\n\nA construction skill. It …"
+        "sessionId": "8bc2e5ff-34a2-4ba1-81bd-fffba4b1cf64",
+        "lastActivity": "2026-11-09T23:18:35.646Z",
+        "summary": "[Request interrupted by user]"
       }
     },
     {
@@ -274,7 +280,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "9 days ago",
+        "lastCommitRelative": "10 days ago",
         "lastCommitMessage": "Fix review findings: model timeouts, subagent turns, cross-session hide/mute, stale owner takeover, fast session start, speech priority, Esc not an error",
         "lastCommitDate": "2026-10-31 14:09:35 +0200",
         "lastCommitHebrew": "השבוע",
