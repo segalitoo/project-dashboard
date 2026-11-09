@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-09T09:42:04.293Z",
+  "lastUpdated": "2026-11-09T16:45:57.981Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 56,
   "counts": {
@@ -56,8 +56,8 @@
       "stack": "Unknown",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-11-09T09:19:40.679Z",
-      "lastActivityHebrew": "לפני 22 דקות",
+      "lastActivity": "2026-11-09T10:21:05.522Z",
+      "lastActivityHebrew": "לפני 6 שעות",
       "size": "39M",
       "isLive": false,
       "liveUrl": null,
@@ -68,7 +68,7 @@
       "recentActions": [],
       "lastSession": {
         "sessionId": "5f9fbdf4-ca98-4df3-9858-78eb2142ca10",
-        "lastActivity": "2026-11-09T09:19:40.679Z",
+        "lastActivity": "2026-11-09T10:21:05.522Z",
         "summary": "Base directory for this skill: /Users/rannsegal/.claude/skills/animate\n\n# Building Animations\n\nA construction skill. It …"
       }
     },
@@ -115,7 +115,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-06T14:34:24.057Z",
-      "lastActivityHebrew": "שלשום",
+      "lastActivityHebrew": "לפני 3 ימים",
       "size": "165M",
       "isLive": false,
       "liveUrl": null,
@@ -750,7 +750,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "9 weeks ago",
+        "lastCommitRelative": "10 weeks ago",
         "lastCommitMessage": "merge: payoneer batch, studio plans, dev launch config",
         "lastCommitDate": "2026-09-04 02:16:05 +0300",
         "lastCommitHebrew": "לפני 2 חודשים",
@@ -796,7 +796,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "9 weeks ago",
+        "lastCommitRelative": "10 weeks ago",
         "lastCommitMessage": "merge: brand-aware studio inputs and Crafel design system",
         "lastCommitDate": "2026-09-04 02:15:10 +0300",
         "lastCommitHebrew": "לפני 2 חודשים",
@@ -842,7 +842,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "2 months ago",
+        "lastCommitRelative": "3 months ago",
         "lastCommitMessage": "Add verified API payloads, executable render helpers, and a free-lane self test",
         "lastCommitDate": "2026-08-27 03:43:42 +0300",
         "lastCommitHebrew": "לפני 2 חודשים",
