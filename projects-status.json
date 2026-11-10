@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-09T23:42:34.077Z",
+  "lastUpdated": "2026-11-10T08:20:16.927Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 56,
   "counts": {
@@ -56,9 +56,9 @@
       "stack": "Unknown",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-11-09T23:18:35.646Z",
-      "lastActivityHebrew": "לפני 23 דקות",
-      "size": "110M",
+      "lastActivity": "2026-11-10T08:19:48.851Z",
+      "lastActivityHebrew": "הרגע",
+      "size": "114M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
@@ -69,12 +69,17 @@
         {
           "type": "chat",
           "text": "[Request interrupted by user]",
+          "sessionId": "5442f666-4642-4f50-ac30-c6b7d779b116"
+        },
+        {
+          "type": "chat",
+          "text": "[Request interrupted by user]",
           "sessionId": "8bc2e5ff-34a2-4ba1-81bd-fffba4b1cf64"
         }
       ],
       "lastSession": {
-        "sessionId": "8bc2e5ff-34a2-4ba1-81bd-fffba4b1cf64",
-        "lastActivity": "2026-11-09T23:18:35.646Z",
+        "sessionId": "5442f666-4642-4f50-ac30-c6b7d779b116",
+        "lastActivity": "2026-11-10T08:19:48.851Z",
         "summary": "[Request interrupted by user]"
       }
     },
@@ -92,7 +97,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-08T07:01:14.707Z",
-      "lastActivityHebrew": "אתמול",
+      "lastActivityHebrew": "שלשום",
       "size": "225M",
       "isLive": false,
       "liveUrl": null,
