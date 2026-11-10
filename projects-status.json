@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-11-10T08:20:16.927Z",
+  "lastUpdated": "2026-11-10T11:20:40.509Z",
   "lastUpdatedHebrew": "הרגע",
-  "projectCount": 56,
+  "projectCount": 57,
   "counts": {
     "live": 1,
     "building": 3,
     "paused": 6,
     "archive": 23,
-    "idea": 23
+    "idea": 24
   },
   "projects": [
     {
@@ -56,9 +56,9 @@
       "stack": "Unknown",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-11-10T08:19:48.851Z",
-      "lastActivityHebrew": "הרגע",
-      "size": "114M",
+      "lastActivity": "2026-11-10T10:38:50.042Z",
+      "lastActivityHebrew": "לפני 41 דקות",
+      "size": "115M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
@@ -68,19 +68,19 @@
       "recentActions": [
         {
           "type": "chat",
-          "text": "[Request interrupted by user]",
-          "sessionId": "5442f666-4642-4f50-ac30-c6b7d779b116"
+          "text": "create 3 diverging entrance motion storyboards for how the main visual element on the right enters the page. once ready …",
+          "sessionId": "85f7a10e-fa7e-4912-a3a6-7fee5e3f4a43"
         },
         {
           "type": "chat",
           "text": "[Request interrupted by user]",
-          "sessionId": "8bc2e5ff-34a2-4ba1-81bd-fffba4b1cf64"
+          "sessionId": "5442f666-4642-4f50-ac30-c6b7d779b116"
         }
       ],
       "lastSession": {
-        "sessionId": "5442f666-4642-4f50-ac30-c6b7d779b116",
-        "lastActivity": "2026-11-10T08:19:48.851Z",
-        "summary": "[Request interrupted by user]"
+        "sessionId": "85f7a10e-fa7e-4912-a3a6-7fee5e3f4a43",
+        "lastActivity": "2026-11-10T10:38:50.042Z",
+        "summary": "create 3 diverging entrance motion storyboards for how the main visual element on the right enters the page. once ready …"
       }
     },
     {
@@ -235,7 +235,7 @@
       "hasGit": true,
       "git": {
         "branch": "session/20-briefing",
-        "lastCommitRelative": "9 days ago",
+        "lastCommitRelative": "10 days ago",
         "lastCommitMessage": "Phone memory: lit painting and light map only cover the lamp pools, dark light map is a tint fill, no lit copies for areas without lamps: canvases 186 MB to 99 MB",
         "lastCommitDate": "2026-10-31 23:01:54 +0200",
         "lastCommitHebrew": "השבוע",
@@ -1667,6 +1667,31 @@
       "lastActivity": null,
       "lastActivityHebrew": "",
       "size": "36K",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [],
+      "lastSession": null
+    },
+    {
+      "name": "My taste",
+      "humanName": "My taste",
+      "tagline": "Unknown",
+      "longDescription": "פרוייקט ב-Unknown",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#7a8a3a",
+      "screenshot": null,
+      "stack": "Unknown",
+      "status": "idea",
+      "subStatus": null,
+      "lastActivity": null,
+      "lastActivityHebrew": "",
+      "size": "0B",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
