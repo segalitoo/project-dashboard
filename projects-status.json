@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-11-10T19:06:47.730Z",
+  "lastUpdated": "2026-11-11T11:52:53.122Z",
   "lastUpdatedHebrew": "הרגע",
-  "projectCount": 57,
+  "projectCount": 58,
   "counts": {
     "live": 1,
-    "building": 3,
-    "paused": 6,
+    "building": 4,
+    "paused": 5,
     "archive": 23,
-    "idea": 24
+    "idea": 25
   },
   "projects": [
     {
@@ -44,6 +44,66 @@
       "lastSession": null
     },
     {
+      "name": "ran-portfolio",
+      "humanName": "פורטפוליו אישי",
+      "tagline": "כרטיס ביקור אונליין - אוסף הפרוייקטים והשירותים שלי",
+      "longDescription": "אתר סטטי בעברית שמרכז את הפרוייקטים, ניסיון העבודה ופרטי קשר. מעוצב ידנית ב-HTML/CSS/JS ללא פריימוורק, עם דגש על טון אישי וחם. כולל מעקב אנליטיקס דרך GA4.",
+      "nextStep": "לפרסם את הגרסה האחרונה (יש 8 קבצים שונו)",
+      "notes": null,
+      "category": "Portfolio",
+      "accentColor": "#3a4a6b",
+      "screenshot": null,
+      "stack": "HTML/CSS/JS",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-11-11T11:34:11.588Z",
+      "lastActivityHebrew": "לפני 18 דקות",
+      "size": "612M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/ran-portfolio",
+      "source": "both",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "3 weeks ago",
+        "lastCommitMessage": "Restore the images the cleanup commit deleted but the site still loads",
+        "lastCommitDate": "2026-10-20 22:52:42 +0300",
+        "lastCommitHebrew": "לפני 3 שבועות",
+        "isDirty": false,
+        "changedFiles": 0
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Restore the images the cleanup commit deleted but the site still loads"
+        },
+        {
+          "type": "commit",
+          "text": "Fix: only the card title text was ever clickable"
+        },
+        {
+          "type": "commit",
+          "text": "Fix: \"View project\" was the one dead spot on every card"
+        },
+        {
+          "type": "chat",
+          "text": "we also dont need the box with background for the images or animation\n\nin need to fill like the image or animation is ju…",
+          "sessionId": "24c0da2a-c87a-495f-8e1e-7ba121901f03"
+        },
+        {
+          "type": "chat",
+          "text": "Continue from where you left off.",
+          "sessionId": "62949473-9542-4af5-b1f3-c760e5957a96"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "24c0da2a-c87a-495f-8e1e-7ba121901f03",
+        "lastActivity": "2026-11-11T11:34:11.588Z",
+        "summary": "we also dont need the box with background for the images or animation\n\nin need to fill like the image or animation is ju…"
+      }
+    },
+    {
       "name": "Newcore",
       "humanName": "Newcore",
       "tagline": "Unknown",
@@ -57,7 +117,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-10T10:38:50.042Z",
-      "lastActivityHebrew": "לפני 8 שעות",
+      "lastActivityHebrew": "אתמול",
       "size": "115M",
       "isLive": false,
       "liveUrl": null,
@@ -97,7 +157,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-08T07:01:14.707Z",
-      "lastActivityHebrew": "שלשום",
+      "lastActivityHebrew": "לפני 3 ימים",
       "size": "225M",
       "isLive": false,
       "liveUrl": null,
@@ -235,7 +295,7 @@
       "hasGit": true,
       "git": {
         "branch": "session/20-briefing",
-        "lastCommitRelative": "10 days ago",
+        "lastCommitRelative": "11 days ago",
         "lastCommitMessage": "Phone memory: lit painting and light map only cover the lamp pools, dark light map is a tint fill, no lit copies for areas without lamps: canvases 186 MB to 99 MB",
         "lastCommitDate": "2026-10-31 23:01:54 +0200",
         "lastCommitHebrew": "השבוע",
@@ -285,7 +345,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "10 days ago",
+        "lastCommitRelative": "11 days ago",
         "lastCommitMessage": "Fix review findings: model timeouts, subagent turns, cross-session hide/mute, stale owner takeover, fast session start, speech priority, Esc not an error",
         "lastCommitDate": "2026-10-31 14:09:35 +0200",
         "lastCommitHebrew": "השבוע",
@@ -355,7 +415,7 @@
       "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-10-20T20:45:41.774Z",
-      "lastActivityHebrew": "לפני 2 שבועות",
+      "lastActivityHebrew": "לפני 3 שבועות",
       "size": "197M",
       "isLive": false,
       "liveUrl": null,
@@ -389,66 +449,6 @@
         "sessionId": "548705ca-d6ec-41c4-a1f3-a2db55b9e144",
         "lastActivity": "2026-10-20T20:45:41.774Z",
         "summary": "Base directory for this skill: /Users/rannsegal/.claude/skills/craft\n\n# Craft — Visual Architect\n\nYou are **Craft**, a V…"
-      }
-    },
-    {
-      "name": "ran-portfolio",
-      "humanName": "פורטפוליו אישי",
-      "tagline": "כרטיס ביקור אונליין - אוסף הפרוייקטים והשירותים שלי",
-      "longDescription": "אתר סטטי בעברית שמרכז את הפרוייקטים, ניסיון העבודה ופרטי קשר. מעוצב ידנית ב-HTML/CSS/JS ללא פריימוורק, עם דגש על טון אישי וחם. כולל מעקב אנליטיקס דרך GA4.",
-      "nextStep": "לפרסם את הגרסה האחרונה (יש 8 קבצים שונו)",
-      "notes": null,
-      "category": "Portfolio",
-      "accentColor": "#3a4a6b",
-      "screenshot": null,
-      "stack": "HTML/CSS/JS",
-      "status": "paused",
-      "subStatus": null,
-      "lastActivity": "2026-10-20T19:54:31.536Z",
-      "lastActivityHebrew": "לפני 2 שבועות",
-      "size": "610M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/ran-portfolio",
-      "source": "both",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "3 weeks ago",
-        "lastCommitMessage": "Restore the images the cleanup commit deleted but the site still loads",
-        "lastCommitDate": "2026-10-20 22:52:42 +0300",
-        "lastCommitHebrew": "לפני 2 שבועות",
-        "isDirty": false,
-        "changedFiles": 0
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Restore the images the cleanup commit deleted but the site still loads"
-        },
-        {
-          "type": "commit",
-          "text": "Fix: only the card title text was ever clickable"
-        },
-        {
-          "type": "commit",
-          "text": "Fix: \"View project\" was the one dead spot on every card"
-        },
-        {
-          "type": "chat",
-          "text": "we also dont need the box with background for the images or animation\n\nin need to fill like the image or animation is ju…",
-          "sessionId": "24c0da2a-c87a-495f-8e1e-7ba121901f03"
-        },
-        {
-          "type": "chat",
-          "text": "Continue from where you left off.",
-          "sessionId": "62949473-9542-4af5-b1f3-c760e5957a96"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "24c0da2a-c87a-495f-8e1e-7ba121901f03",
-        "lastActivity": "2026-10-20T19:54:31.536Z",
-        "summary": "we also dont need the box with background for the images or animation\n\nin need to fill like the image or animation is ju…"
       }
     },
     {
@@ -1942,6 +1942,31 @@
       "lastActivity": null,
       "lastActivityHebrew": "",
       "size": "22M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [],
+      "lastSession": null
+    },
+    {
+      "name": "yaels-house",
+      "humanName": "yaels-house",
+      "tagline": "Unknown",
+      "longDescription": "פרוייקט ב-Unknown",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#1a4d4d",
+      "screenshot": null,
+      "stack": "Unknown",
+      "status": "idea",
+      "subStatus": null,
+      "lastActivity": null,
+      "lastActivityHebrew": "",
+      "size": "7.6M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
