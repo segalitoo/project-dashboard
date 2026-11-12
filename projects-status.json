@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-12T08:35:29.487Z",
+  "lastUpdated": "2026-11-12T22:32:17.503Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 58,
   "counts": {
@@ -44,6 +44,66 @@
       "lastSession": null
     },
     {
+      "name": "Ideas",
+      "humanName": "Ideas",
+      "tagline": "ניצוץ · לתפוס רעיונות לפני שהם בורחים",
+      "longDescription": "ניצוץ · לתפוס רעיונות לפני שהם בורחים",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#a87432",
+      "screenshot": null,
+      "stack": "TypeScript + React 18 + Vite + Supabase",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-11-12T19:10:14.226Z",
+      "lastActivityHebrew": "לפני 3 שעות",
+      "size": "165M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/nitzotz",
+      "source": "local",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "7 weeks ago",
+        "lastCommitMessage": "Fix sign-in in the installed iOS app with a one-time session handoff",
+        "lastCommitDate": "2026-09-25 00:50:40 +0300",
+        "lastCommitHebrew": "לפני חודש",
+        "isDirty": false,
+        "changedFiles": 0
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Fix sign-in in the installed iOS app with a one-time session handoff"
+        },
+        {
+          "type": "commit",
+          "text": "Connect the dots: AI digest, related ideas and near-duplicates"
+        },
+        {
+          "type": "commit",
+          "text": "Photo to idea"
+        },
+        {
+          "type": "chat",
+          "text": "good exampke to add to taste skill:",
+          "sessionId": "08d0827c-bef2-48f1-9d43-4c4217502b5d"
+        },
+        {
+          "type": "chat",
+          "text": "[Request interrupted by user]",
+          "sessionId": "071cbb82-ca5d-4b36-ad2c-354cd77a8977"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "08d0827c-bef2-48f1-9d43-4c4217502b5d",
+        "lastActivity": "2026-11-12T19:10:14.226Z",
+        "summary": "good exampke to add to taste skill:"
+      }
+    },
+    {
       "name": "ran-portfolio",
       "humanName": "פורטפוליו אישי",
       "tagline": "כרטיס ביקור אונליין - אוסף הפרוייקטים והשירותים שלי",
@@ -56,9 +116,9 @@
       "stack": "HTML/CSS/JS",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-11-11T11:34:11.588Z",
-      "lastActivityHebrew": "לפני 21 שעות",
-      "size": "612M",
+      "lastActivity": "2026-11-12T10:42:03.549Z",
+      "lastActivityHebrew": "לפני 11 שעות",
+      "size": "614M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": "https://github.com/segalitoo/ran-portfolio",
@@ -99,7 +159,7 @@
       ],
       "lastSession": {
         "sessionId": "24c0da2a-c87a-495f-8e1e-7ba121901f03",
-        "lastActivity": "2026-11-11T11:34:11.588Z",
+        "lastActivity": "2026-11-12T10:42:03.549Z",
         "summary": "we also dont need the box with background for the images or animation\n\nin need to fill like the image or animation is ju…"
       }
     },
@@ -117,7 +177,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-10T10:38:50.042Z",
-      "lastActivityHebrew": "אתמול",
+      "lastActivityHebrew": "שלשום",
       "size": "115M",
       "isLive": false,
       "liveUrl": null,
@@ -170,66 +230,6 @@
         "sessionId": "84822012-99de-4874-b6b7-c6c501abf6c5",
         "lastActivity": "2026-11-08T07:01:14.707Z",
         "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/7.0.0/skills/b…"
-      }
-    },
-    {
-      "name": "Ideas",
-      "humanName": "Ideas",
-      "tagline": "ניצוץ · לתפוס רעיונות לפני שהם בורחים",
-      "longDescription": "ניצוץ · לתפוס רעיונות לפני שהם בורחים",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#a87432",
-      "screenshot": null,
-      "stack": "TypeScript + React 18 + Vite + Supabase",
-      "status": "building",
-      "subStatus": null,
-      "lastActivity": "2026-11-06T14:34:24.057Z",
-      "lastActivityHebrew": "לפני 5 ימים",
-      "size": "165M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/nitzotz",
-      "source": "local",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "7 weeks ago",
-        "lastCommitMessage": "Fix sign-in in the installed iOS app with a one-time session handoff",
-        "lastCommitDate": "2026-09-25 00:50:40 +0300",
-        "lastCommitHebrew": "לפני חודש",
-        "isDirty": false,
-        "changedFiles": 0
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Fix sign-in in the installed iOS app with a one-time session handoff"
-        },
-        {
-          "type": "commit",
-          "text": "Connect the dots: AI digest, related ideas and near-duplicates"
-        },
-        {
-          "type": "commit",
-          "text": "Photo to idea"
-        },
-        {
-          "type": "chat",
-          "text": "good exampke to add to taste skill:",
-          "sessionId": "08d0827c-bef2-48f1-9d43-4c4217502b5d"
-        },
-        {
-          "type": "chat",
-          "text": "[Request interrupted by user]",
-          "sessionId": "071cbb82-ca5d-4b36-ad2c-354cd77a8977"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "08d0827c-bef2-48f1-9d43-4c4217502b5d",
-        "lastActivity": "2026-11-06T14:34:24.057Z",
-        "summary": "good exampke to add to taste skill:"
       }
     },
     {
@@ -386,7 +386,7 @@
       "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-10-22T12:21:38.803Z",
-      "lastActivityHebrew": "לפני 2 שבועות",
+      "lastActivityHebrew": "לפני 3 שבועות",
       "size": "88M",
       "isLive": false,
       "liveUrl": null,
@@ -702,7 +702,7 @@
       "status": "archive",
       "subStatus": null,
       "lastActivity": "2026-09-13T20:46:26.630Z",
-      "lastActivityHebrew": "לפני חודש",
+      "lastActivityHebrew": "לפני 2 חודשים",
       "size": "725M",
       "isLive": true,
       "liveUrl": "https://zoom-for-kids.vercel.app",
@@ -761,7 +761,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "10 weeks ago",
+        "lastCommitRelative": "2 months ago",
         "lastCommitMessage": "merge: payoneer batch, studio plans, dev launch config",
         "lastCommitDate": "2026-09-04 02:16:05 +0300",
         "lastCommitHebrew": "לפני 2 חודשים",
@@ -807,7 +807,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "10 weeks ago",
+        "lastCommitRelative": "2 months ago",
         "lastCommitMessage": "merge: brand-aware studio inputs and Crafel design system",
         "lastCommitDate": "2026-09-04 02:15:10 +0300",
         "lastCommitHebrew": "לפני 2 חודשים",
