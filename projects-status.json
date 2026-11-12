@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-11T20:01:35.602Z",
+  "lastUpdated": "2026-11-12T08:35:29.487Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 58,
   "counts": {
@@ -57,7 +57,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-11T11:34:11.588Z",
-      "lastActivityHebrew": "לפני 8 שעות",
+      "lastActivityHebrew": "לפני 21 שעות",
       "size": "612M",
       "isLive": false,
       "liveUrl": null,
@@ -157,7 +157,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-08T07:01:14.707Z",
-      "lastActivityHebrew": "לפני 3 ימים",
+      "lastActivityHebrew": "לפני 4 ימים",
       "size": "225M",
       "isLive": false,
       "liveUrl": null,
@@ -295,7 +295,7 @@
       "hasGit": true,
       "git": {
         "branch": "session/20-briefing",
-        "lastCommitRelative": "11 days ago",
+        "lastCommitRelative": "12 days ago",
         "lastCommitMessage": "Phone memory: lit painting and light map only cover the lamp pools, dark light map is a tint fill, no lit copies for areas without lamps: canvases 186 MB to 99 MB",
         "lastCommitDate": "2026-10-31 23:01:54 +0200",
         "lastCommitHebrew": "השבוע",
@@ -345,7 +345,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "11 days ago",
+        "lastCommitRelative": "12 days ago",
         "lastCommitMessage": "Fix review findings: model timeouts, subagent turns, cross-session hide/mute, stale owner takeover, fast session start, speech priority, Esc not an error",
         "lastCommitDate": "2026-10-31 14:09:35 +0200",
         "lastCommitHebrew": "השבוע",
@@ -474,7 +474,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "6 weeks ago",
+        "lastCommitRelative": "7 weeks ago",
         "lastCommitMessage": "Cut answer time roughly in half and remove fake offline answers",
         "lastCommitDate": "2026-09-27 16:50:02 +0300",
         "lastCommitHebrew": "לפני חודש",
@@ -932,7 +932,7 @@
       "status": "archive",
       "subStatus": null,
       "lastActivity": "2026-08-14T00:53:01.000Z",
-      "lastActivityHebrew": "לפני 2 חודשים",
+      "lastActivityHebrew": "לפני 3 חודשים",
       "size": "43M",
       "isLive": false,
       "liveUrl": null,
@@ -944,7 +944,7 @@
         "lastCommitRelative": "3 months ago",
         "lastCommitMessage": "direction: set the production phase and point ENGINE at the engines reference",
         "lastCommitDate": "2026-08-14 03:53:01 +0300",
-        "lastCommitHebrew": "לפני 2 חודשים",
+        "lastCommitHebrew": "לפני 3 חודשים",
         "isDirty": true,
         "changedFiles": 4
       },
