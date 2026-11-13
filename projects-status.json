@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-11-13T20:27:56.150Z",
+  "lastUpdated": "2026-11-13T23:28:32.044Z",
   "lastUpdatedHebrew": "הרגע",
-  "projectCount": 58,
+  "projectCount": 59,
   "counts": {
     "live": 1,
     "building": 5,
     "paused": 5,
     "archive": 22,
-    "idea": 25
+    "idea": 26
   },
   "projects": [
     {
@@ -44,6 +44,56 @@
       "lastSession": null
     },
     {
+      "name": "brand-system",
+      "humanName": "brand-system",
+      "tagline": "Crafel studio design system: cobalt + coral tokens, components, brand assets, and tone of voice. Shared across all studio products.",
+      "longDescription": "Crafel studio design system: cobalt + coral tokens, components, brand assets, and tone of voice. Shared across all studio products.",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#8b3a8e",
+      "screenshot": null,
+      "stack": "Node.js",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-11-13T23:10:04.747Z",
+      "lastActivityHebrew": "לפני 18 דקות",
+      "size": "452K",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/crafel-design-system",
+      "source": "local",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "3 months ago",
+        "lastCommitMessage": "Scope the dark theme class hook to :root",
+        "lastCommitDate": "2026-08-10 02:31:59 +0300",
+        "lastCommitHebrew": "לפני 3 חודשים",
+        "isDirty": false,
+        "changedFiles": 0
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Scope the dark theme class hook to :root"
+        },
+        {
+          "type": "commit",
+          "text": "docs: add example-page.html, a full Crafel sample page"
+        },
+        {
+          "type": "commit",
+          "text": "Crafel footer: add breathing space around the slash separator"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "5d7fa4c2-6263-4ac9-839a-688e2e92109f",
+        "lastActivity": "2026-11-13T23:10:04.747Z",
+        "summary": "Base directory for this skill: /Users/rannsegal/.claude/skills/taste-ran\n\n# Taste (Ran)\n\nGeneric work comes from making …"
+      }
+    },
+    {
       "name": "ran-portfolio",
       "humanName": "פורטפוליו אישי",
       "tagline": "כרטיס ביקור אונליין - אוסף הפרוייקטים והשירותים שלי",
@@ -56,8 +106,8 @@
       "stack": "HTML/CSS/JS",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-11-13T08:17:10.474Z",
-      "lastActivityHebrew": "לפני 12 שעות",
+      "lastActivity": "2026-11-13T23:05:07.620Z",
+      "lastActivityHebrew": "לפני 23 דקות",
       "size": "618M",
       "isLive": false,
       "liveUrl": null,
@@ -99,58 +149,8 @@
       ],
       "lastSession": {
         "sessionId": "24c0da2a-c87a-495f-8e1e-7ba121901f03",
-        "lastActivity": "2026-11-13T08:17:10.474Z",
+        "lastActivity": "2026-11-13T23:05:07.620Z",
         "summary": "we also dont need the box with background for the images or animation\n\nin need to fill like the image or animation is ju…"
-      }
-    },
-    {
-      "name": "brand-system",
-      "humanName": "brand-system",
-      "tagline": "Crafel studio design system: cobalt + coral tokens, components, brand assets, and tone of voice. Shared across all studio products.",
-      "longDescription": "Crafel studio design system: cobalt + coral tokens, components, brand assets, and tone of voice. Shared across all studio products.",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#8b3a8e",
-      "screenshot": null,
-      "stack": "Node.js",
-      "status": "building",
-      "subStatus": null,
-      "lastActivity": "2026-11-13T08:14:10.133Z",
-      "lastActivityHebrew": "לפני 12 שעות",
-      "size": "452K",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/crafel-design-system",
-      "source": "local",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "3 months ago",
-        "lastCommitMessage": "Scope the dark theme class hook to :root",
-        "lastCommitDate": "2026-08-10 02:31:59 +0300",
-        "lastCommitHebrew": "לפני 3 חודשים",
-        "isDirty": false,
-        "changedFiles": 0
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Scope the dark theme class hook to :root"
-        },
-        {
-          "type": "commit",
-          "text": "docs: add example-page.html, a full Crafel sample page"
-        },
-        {
-          "type": "commit",
-          "text": "Crafel footer: add breathing space around the slash separator"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "5d7fa4c2-6263-4ac9-839a-688e2e92109f",
-        "lastActivity": "2026-11-13T08:14:10.133Z",
-        "summary": "Base directory for this skill: /Users/rannsegal/.claude/skills/taste-ran\n\n# Taste (Ran)\n\nGeneric work comes from making …"
       }
     },
     {
@@ -1927,6 +1927,31 @@
       "lastSession": null
     },
     {
+      "name": "showcase-kit",
+      "humanName": "showcase-kit",
+      "tagline": "A reusable one-page portfolio template. Vanilla HTML/CSS/JS, no build step.",
+      "longDescription": "A reusable one-page portfolio template. Vanilla HTML/CSS/JS, no build step.",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#8b3a2e",
+      "screenshot": null,
+      "stack": "HTML/CSS/JS",
+      "status": "idea",
+      "subStatus": null,
+      "lastActivity": null,
+      "lastActivityHebrew": "",
+      "size": "6.1M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [],
+      "lastSession": null
+    },
+    {
       "name": "sunglasses",
       "humanName": "sunglasses",
       "tagline": "Unknown",
@@ -1966,7 +1991,7 @@
       "subStatus": null,
       "lastActivity": null,
       "lastActivityHebrew": "",
-      "size": "89M",
+      "size": "117M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
