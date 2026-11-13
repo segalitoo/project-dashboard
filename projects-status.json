@@ -1,12 +1,12 @@
 {
-  "lastUpdated": "2026-11-12T22:32:17.503Z",
+  "lastUpdated": "2026-11-13T11:26:49.825Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 58,
   "counts": {
     "live": 1,
-    "building": 4,
+    "building": 5,
     "paused": 5,
-    "archive": 23,
+    "archive": 22,
     "idea": 25
   },
   "projects": [
@@ -44,6 +44,116 @@
       "lastSession": null
     },
     {
+      "name": "ran-portfolio",
+      "humanName": "פורטפוליו אישי",
+      "tagline": "כרטיס ביקור אונליין - אוסף הפרוייקטים והשירותים שלי",
+      "longDescription": "אתר סטטי בעברית שמרכז את הפרוייקטים, ניסיון העבודה ופרטי קשר. מעוצב ידנית ב-HTML/CSS/JS ללא פריימוורק, עם דגש על טון אישי וחם. כולל מעקב אנליטיקס דרך GA4.",
+      "nextStep": "לפרסם את הגרסה האחרונה (יש 8 קבצים שונו)",
+      "notes": null,
+      "category": "Portfolio",
+      "accentColor": "#3a4a6b",
+      "screenshot": null,
+      "stack": "HTML/CSS/JS",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-11-13T08:17:10.474Z",
+      "lastActivityHebrew": "לפני 3 שעות",
+      "size": "618M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/ran-portfolio",
+      "source": "both",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "3 weeks ago",
+        "lastCommitMessage": "Restore the images the cleanup commit deleted but the site still loads",
+        "lastCommitDate": "2026-10-20 22:52:42 +0300",
+        "lastCommitHebrew": "לפני 3 שבועות",
+        "isDirty": false,
+        "changedFiles": 0
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Restore the images the cleanup commit deleted but the site still loads"
+        },
+        {
+          "type": "commit",
+          "text": "Fix: only the card title text was ever clickable"
+        },
+        {
+          "type": "commit",
+          "text": "Fix: \"View project\" was the one dead spot on every card"
+        },
+        {
+          "type": "chat",
+          "text": "we also dont need the box with background for the images or animation\n\nin need to fill like the image or animation is ju…",
+          "sessionId": "24c0da2a-c87a-495f-8e1e-7ba121901f03"
+        },
+        {
+          "type": "chat",
+          "text": "Continue from where you left off.",
+          "sessionId": "62949473-9542-4af5-b1f3-c760e5957a96"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "24c0da2a-c87a-495f-8e1e-7ba121901f03",
+        "lastActivity": "2026-11-13T08:17:10.474Z",
+        "summary": "we also dont need the box with background for the images or animation\n\nin need to fill like the image or animation is ju…"
+      }
+    },
+    {
+      "name": "brand-system",
+      "humanName": "brand-system",
+      "tagline": "Crafel studio design system: cobalt + coral tokens, components, brand assets, and tone of voice. Shared across all studio products.",
+      "longDescription": "Crafel studio design system: cobalt + coral tokens, components, brand assets, and tone of voice. Shared across all studio products.",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#8b3a8e",
+      "screenshot": null,
+      "stack": "Node.js",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-11-13T08:14:10.133Z",
+      "lastActivityHebrew": "לפני 3 שעות",
+      "size": "452K",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/crafel-design-system",
+      "source": "local",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "3 months ago",
+        "lastCommitMessage": "Scope the dark theme class hook to :root",
+        "lastCommitDate": "2026-08-10 02:31:59 +0300",
+        "lastCommitHebrew": "לפני 3 חודשים",
+        "isDirty": false,
+        "changedFiles": 0
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Scope the dark theme class hook to :root"
+        },
+        {
+          "type": "commit",
+          "text": "docs: add example-page.html, a full Crafel sample page"
+        },
+        {
+          "type": "commit",
+          "text": "Crafel footer: add breathing space around the slash separator"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "5d7fa4c2-6263-4ac9-839a-688e2e92109f",
+        "lastActivity": "2026-11-13T08:14:10.133Z",
+        "summary": "Base directory for this skill: /Users/rannsegal/.claude/skills/taste-ran\n\n# Taste (Ran)\n\nGeneric work comes from making …"
+      }
+    },
+    {
       "name": "Ideas",
       "humanName": "Ideas",
       "tagline": "ניצוץ · לתפוס רעיונות לפני שהם בורחים",
@@ -57,7 +167,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-12T19:10:14.226Z",
-      "lastActivityHebrew": "לפני 3 שעות",
+      "lastActivityHebrew": "לפני 16 שעות",
       "size": "165M",
       "isLive": false,
       "liveUrl": null,
@@ -104,66 +214,6 @@
       }
     },
     {
-      "name": "ran-portfolio",
-      "humanName": "פורטפוליו אישי",
-      "tagline": "כרטיס ביקור אונליין - אוסף הפרוייקטים והשירותים שלי",
-      "longDescription": "אתר סטטי בעברית שמרכז את הפרוייקטים, ניסיון העבודה ופרטי קשר. מעוצב ידנית ב-HTML/CSS/JS ללא פריימוורק, עם דגש על טון אישי וחם. כולל מעקב אנליטיקס דרך GA4.",
-      "nextStep": "לפרסם את הגרסה האחרונה (יש 8 קבצים שונו)",
-      "notes": null,
-      "category": "Portfolio",
-      "accentColor": "#3a4a6b",
-      "screenshot": null,
-      "stack": "HTML/CSS/JS",
-      "status": "building",
-      "subStatus": null,
-      "lastActivity": "2026-11-12T10:42:03.549Z",
-      "lastActivityHebrew": "לפני 11 שעות",
-      "size": "614M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/ran-portfolio",
-      "source": "both",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "3 weeks ago",
-        "lastCommitMessage": "Restore the images the cleanup commit deleted but the site still loads",
-        "lastCommitDate": "2026-10-20 22:52:42 +0300",
-        "lastCommitHebrew": "לפני 3 שבועות",
-        "isDirty": false,
-        "changedFiles": 0
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Restore the images the cleanup commit deleted but the site still loads"
-        },
-        {
-          "type": "commit",
-          "text": "Fix: only the card title text was ever clickable"
-        },
-        {
-          "type": "commit",
-          "text": "Fix: \"View project\" was the one dead spot on every card"
-        },
-        {
-          "type": "chat",
-          "text": "we also dont need the box with background for the images or animation\n\nin need to fill like the image or animation is ju…",
-          "sessionId": "24c0da2a-c87a-495f-8e1e-7ba121901f03"
-        },
-        {
-          "type": "chat",
-          "text": "Continue from where you left off.",
-          "sessionId": "62949473-9542-4af5-b1f3-c760e5957a96"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "24c0da2a-c87a-495f-8e1e-7ba121901f03",
-        "lastActivity": "2026-11-12T10:42:03.549Z",
-        "summary": "we also dont need the box with background for the images or animation\n\nin need to fill like the image or animation is ju…"
-      }
-    },
-    {
       "name": "Newcore",
       "humanName": "Newcore",
       "tagline": "Unknown",
@@ -177,7 +227,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-10T10:38:50.042Z",
-      "lastActivityHebrew": "שלשום",
+      "lastActivityHebrew": "לפני 3 ימים",
       "size": "115M",
       "isLive": false,
       "liveUrl": null,
@@ -217,7 +267,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-08T07:01:14.707Z",
-      "lastActivityHebrew": "לפני 4 ימים",
+      "lastActivityHebrew": "לפני 5 ימים",
       "size": "225M",
       "isLive": false,
       "liveUrl": null,
@@ -295,7 +345,7 @@
       "hasGit": true,
       "git": {
         "branch": "session/20-briefing",
-        "lastCommitRelative": "12 days ago",
+        "lastCommitRelative": "13 days ago",
         "lastCommitMessage": "Phone memory: lit painting and light map only cover the lamp pools, dark light map is a tint fill, no lit copies for areas without lamps: canvases 186 MB to 99 MB",
         "lastCommitDate": "2026-10-31 23:01:54 +0200",
         "lastCommitHebrew": "השבוע",
@@ -345,7 +395,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "12 days ago",
+        "lastCommitRelative": "13 days ago",
         "lastCommitMessage": "Fix review findings: model timeouts, subagent turns, cross-session hide/mute, stale owner takeover, fast session start, speech priority, Esc not an error",
         "lastCommitDate": "2026-10-31 14:09:35 +0200",
         "lastCommitHebrew": "השבוע",
@@ -987,56 +1037,6 @@
       "hasGit": false,
       "git": null,
       "recentActions": [],
-      "lastSession": {
-        "sessionId": "d141b2d9-2443-440b-b6e5-5a4560eac15f",
-        "lastActivity": "2026-08-09T23:53:58.457Z",
-        "summary": ""
-      }
-    },
-    {
-      "name": "brand-system",
-      "humanName": "brand-system",
-      "tagline": "Crafel studio design system: cobalt + coral tokens, components, brand assets, and tone of voice. Shared across all studio products.",
-      "longDescription": "Crafel studio design system: cobalt + coral tokens, components, brand assets, and tone of voice. Shared across all studio products.",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#8b3a8e",
-      "screenshot": null,
-      "stack": "Node.js",
-      "status": "archive",
-      "subStatus": null,
-      "lastActivity": "2026-08-09T23:53:58.457Z",
-      "lastActivityHebrew": "לפני 3 חודשים",
-      "size": "452K",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/crafel-design-system",
-      "source": "local",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "3 months ago",
-        "lastCommitMessage": "Scope the dark theme class hook to :root",
-        "lastCommitDate": "2026-08-10 02:31:59 +0300",
-        "lastCommitHebrew": "לפני 3 חודשים",
-        "isDirty": false,
-        "changedFiles": 0
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Scope the dark theme class hook to :root"
-        },
-        {
-          "type": "commit",
-          "text": "docs: add example-page.html, a full Crafel sample page"
-        },
-        {
-          "type": "commit",
-          "text": "Crafel footer: add breathing space around the slash separator"
-        }
-      ],
       "lastSession": {
         "sessionId": "d141b2d9-2443-440b-b6e5-5a4560eac15f",
         "lastActivity": "2026-08-09T23:53:58.457Z",
@@ -1966,7 +1966,7 @@
       "subStatus": null,
       "lastActivity": null,
       "lastActivityHebrew": "",
-      "size": "77M",
+      "size": "89M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
