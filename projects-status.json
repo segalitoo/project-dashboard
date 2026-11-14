@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-13T23:28:32.044Z",
+  "lastUpdated": "2026-11-14T02:28:55.451Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 59,
   "counts": {
@@ -57,7 +57,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-13T23:10:04.747Z",
-      "lastActivityHebrew": "לפני 18 דקות",
+      "lastActivityHebrew": "לפני 3 שעות",
       "size": "452K",
       "isLive": false,
       "liveUrl": null,
@@ -107,7 +107,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-13T23:05:07.620Z",
-      "lastActivityHebrew": "לפני 23 דקות",
+      "lastActivityHebrew": "לפני 3 שעות",
       "size": "618M",
       "isLive": false,
       "liveUrl": null,
@@ -395,7 +395,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "13 days ago",
+        "lastCommitRelative": "2 weeks ago",
         "lastCommitMessage": "Fix review findings: model timeouts, subagent turns, cross-session hide/mute, stale owner takeover, fast session start, speech priority, Esc not an error",
         "lastCommitDate": "2026-10-31 14:09:35 +0200",
         "lastCommitHebrew": "השבוע",
@@ -1991,7 +1991,7 @@
       "subStatus": null,
       "lastActivity": null,
       "lastActivityHebrew": "",
-      "size": "117M",
+      "size": "121M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
