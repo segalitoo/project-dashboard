@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-15T16:34:50.560Z",
+  "lastUpdated": "2026-11-15T19:35:12.952Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 59,
   "counts": {
@@ -44,6 +44,66 @@
       "lastSession": null
     },
     {
+      "name": "Ideas",
+      "humanName": "Ideas",
+      "tagline": "ניצוץ · לתפוס רעיונות לפני שהם בורחים",
+      "longDescription": "ניצוץ · לתפוס רעיונות לפני שהם בורחים",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#a87432",
+      "screenshot": null,
+      "stack": "TypeScript + React 18 + Vite + Supabase",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-11-15T18:58:37.359Z",
+      "lastActivityHebrew": "לפני 36 דקות",
+      "size": "165M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/nitzotz",
+      "source": "local",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "7 weeks ago",
+        "lastCommitMessage": "Fix sign-in in the installed iOS app with a one-time session handoff",
+        "lastCommitDate": "2026-09-25 00:50:40 +0300",
+        "lastCommitHebrew": "לפני חודש",
+        "isDirty": false,
+        "changedFiles": 0
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Fix sign-in in the installed iOS app with a one-time session handoff"
+        },
+        {
+          "type": "commit",
+          "text": "Connect the dots: AI digest, related ideas and near-duplicates"
+        },
+        {
+          "type": "commit",
+          "text": "Photo to idea"
+        },
+        {
+          "type": "chat",
+          "text": "good exampke to add to taste skill:",
+          "sessionId": "08d0827c-bef2-48f1-9d43-4c4217502b5d"
+        },
+        {
+          "type": "chat",
+          "text": "[Request interrupted by user]",
+          "sessionId": "071cbb82-ca5d-4b36-ad2c-354cd77a8977"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "08d0827c-bef2-48f1-9d43-4c4217502b5d",
+        "lastActivity": "2026-11-15T18:58:37.359Z",
+        "summary": "good exampke to add to taste skill:"
+      }
+    },
+    {
       "name": "brand-system",
       "humanName": "brand-system",
       "tagline": "Crafel studio design system: cobalt + coral tokens, components, brand assets, and tone of voice. Shared across all studio products.",
@@ -57,7 +117,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-15T08:24:22.712Z",
-      "lastActivityHebrew": "לפני 8 שעות",
+      "lastActivityHebrew": "לפני 11 שעות",
       "size": "452K",
       "isLive": false,
       "liveUrl": null,
@@ -151,66 +211,6 @@
         "sessionId": "24c0da2a-c87a-495f-8e1e-7ba121901f03",
         "lastActivity": "2026-11-13T23:05:07.620Z",
         "summary": "we also dont need the box with background for the images or animation\n\nin need to fill like the image or animation is ju…"
-      }
-    },
-    {
-      "name": "Ideas",
-      "humanName": "Ideas",
-      "tagline": "ניצוץ · לתפוס רעיונות לפני שהם בורחים",
-      "longDescription": "ניצוץ · לתפוס רעיונות לפני שהם בורחים",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#a87432",
-      "screenshot": null,
-      "stack": "TypeScript + React 18 + Vite + Supabase",
-      "status": "building",
-      "subStatus": null,
-      "lastActivity": "2026-11-12T19:10:14.226Z",
-      "lastActivityHebrew": "שלשום",
-      "size": "165M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/nitzotz",
-      "source": "local",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "7 weeks ago",
-        "lastCommitMessage": "Fix sign-in in the installed iOS app with a one-time session handoff",
-        "lastCommitDate": "2026-09-25 00:50:40 +0300",
-        "lastCommitHebrew": "לפני חודש",
-        "isDirty": false,
-        "changedFiles": 0
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Fix sign-in in the installed iOS app with a one-time session handoff"
-        },
-        {
-          "type": "commit",
-          "text": "Connect the dots: AI digest, related ideas and near-duplicates"
-        },
-        {
-          "type": "commit",
-          "text": "Photo to idea"
-        },
-        {
-          "type": "chat",
-          "text": "good exampke to add to taste skill:",
-          "sessionId": "08d0827c-bef2-48f1-9d43-4c4217502b5d"
-        },
-        {
-          "type": "chat",
-          "text": "[Request interrupted by user]",
-          "sessionId": "071cbb82-ca5d-4b36-ad2c-354cd77a8977"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "08d0827c-bef2-48f1-9d43-4c4217502b5d",
-        "lastActivity": "2026-11-12T19:10:14.226Z",
-        "summary": "good exampke to add to taste skill:"
       }
     },
     {
