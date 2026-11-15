@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-15T07:33:37.995Z",
+  "lastUpdated": "2026-11-15T10:34:03.047Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 59,
   "counts": {
@@ -56,8 +56,8 @@
       "stack": "Node.js",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-11-15T07:29:59.332Z",
-      "lastActivityHebrew": "לפני 3 דקות",
+      "lastActivity": "2026-11-15T08:24:22.712Z",
+      "lastActivityHebrew": "לפני 2 שעות",
       "size": "452K",
       "isLive": false,
       "liveUrl": null,
@@ -89,7 +89,7 @@
       ],
       "lastSession": {
         "sessionId": "5d7fa4c2-6263-4ac9-839a-688e2e92109f",
-        "lastActivity": "2026-11-15T07:29:59.332Z",
+        "lastActivity": "2026-11-15T08:24:22.712Z",
         "summary": "Base directory for this skill: /Users/rannsegal/.claude/skills/taste-ran\n\n# Taste (Ran)\n\nGeneric work comes from making …"
       }
     },
@@ -296,7 +296,7 @@
       "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-11-01T07:37:48.417Z",
-      "lastActivityHebrew": "השבוע",
+      "lastActivityHebrew": "לפני 2 שבועות",
       "size": "822M",
       "isLive": false,
       "liveUrl": null,
@@ -1399,7 +1399,7 @@
       "status": "archive",
       "subStatus": null,
       "lastActivity": "2026-02-18T10:03:13Z",
-      "lastActivityHebrew": "לפני 8 חודשים",
+      "lastActivityHebrew": "לפני 9 חודשים",
       "size": "cloud",
       "isLive": false,
       "liveUrl": null,
@@ -1411,7 +1411,7 @@
         "lastCommitRelative": "",
         "lastCommitMessage": "",
         "lastCommitDate": "2026-02-18T10:03:13Z",
-        "lastCommitHebrew": "לפני 8 חודשים",
+        "lastCommitHebrew": "לפני 9 חודשים",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -1432,7 +1432,7 @@
       "status": "archive",
       "subStatus": null,
       "lastActivity": "2026-02-18T08:49:55Z",
-      "lastActivityHebrew": "לפני 8 חודשים",
+      "lastActivityHebrew": "לפני 9 חודשים",
       "size": "cloud",
       "isLive": false,
       "liveUrl": null,
@@ -1444,7 +1444,7 @@
         "lastCommitRelative": "",
         "lastCommitMessage": "",
         "lastCommitDate": "2026-02-18T08:49:55Z",
-        "lastCommitHebrew": "לפני 8 חודשים",
+        "lastCommitHebrew": "לפני 9 חודשים",
         "isDirty": false,
         "changedFiles": 0
       },
@@ -1991,7 +1991,7 @@
       "subStatus": null,
       "lastActivity": null,
       "lastActivityHebrew": "",
-      "size": "178M",
+      "size": "180M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
