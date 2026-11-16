@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-16T02:04:56.613Z",
+  "lastUpdated": "2026-11-16T21:29:31.404Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 59,
   "counts": {
@@ -44,6 +44,56 @@
       "lastSession": null
     },
     {
+      "name": "brand-system",
+      "humanName": "brand-system",
+      "tagline": "Crafel studio design system: cobalt + coral tokens, components, brand assets, and tone of voice. Shared across all studio products.",
+      "longDescription": "Crafel studio design system: cobalt + coral tokens, components, brand assets, and tone of voice. Shared across all studio products.",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#8b3a8e",
+      "screenshot": null,
+      "stack": "Node.js",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-11-16T21:00:55.907Z",
+      "lastActivityHebrew": "לפני 28 דקות",
+      "size": "452K",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": "https://github.com/segalitoo/crafel-design-system",
+      "source": "local",
+      "hasGit": true,
+      "git": {
+        "branch": "main",
+        "lastCommitRelative": "3 months ago",
+        "lastCommitMessage": "Scope the dark theme class hook to :root",
+        "lastCommitDate": "2026-08-10 02:31:59 +0300",
+        "lastCommitHebrew": "לפני 3 חודשים",
+        "isDirty": false,
+        "changedFiles": 0
+      },
+      "recentActions": [
+        {
+          "type": "commit",
+          "text": "Scope the dark theme class hook to :root"
+        },
+        {
+          "type": "commit",
+          "text": "docs: add example-page.html, a full Crafel sample page"
+        },
+        {
+          "type": "commit",
+          "text": "Crafel footer: add breathing space around the slash separator"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "5d7fa4c2-6263-4ac9-839a-688e2e92109f",
+        "lastActivity": "2026-11-16T21:00:55.907Z",
+        "summary": "Base directory for this skill: /Users/rannsegal/.claude/skills/taste-ran\n\n# Taste (Ran)\n\nGeneric work comes from making …"
+      }
+    },
+    {
       "name": "Ideas",
       "humanName": "Ideas",
       "tagline": "ניצוץ · לתפוס רעיונות לפני שהם בורחים",
@@ -56,8 +106,8 @@
       "stack": "TypeScript + React 18 + Vite + Supabase",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-11-15T18:58:37.359Z",
-      "lastActivityHebrew": "לפני 7 שעות",
+      "lastActivity": "2026-11-16T08:22:54.200Z",
+      "lastActivityHebrew": "לפני 13 שעות",
       "size": "165M",
       "isLive": false,
       "liveUrl": null,
@@ -66,7 +116,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "7 weeks ago",
+        "lastCommitRelative": "8 weeks ago",
         "lastCommitMessage": "Fix sign-in in the installed iOS app with a one-time session handoff",
         "lastCommitDate": "2026-09-25 00:50:40 +0300",
         "lastCommitHebrew": "לפני חודש",
@@ -99,58 +149,8 @@
       ],
       "lastSession": {
         "sessionId": "08d0827c-bef2-48f1-9d43-4c4217502b5d",
-        "lastActivity": "2026-11-15T18:58:37.359Z",
+        "lastActivity": "2026-11-16T08:22:54.200Z",
         "summary": "good exampke to add to taste skill:"
-      }
-    },
-    {
-      "name": "brand-system",
-      "humanName": "brand-system",
-      "tagline": "Crafel studio design system: cobalt + coral tokens, components, brand assets, and tone of voice. Shared across all studio products.",
-      "longDescription": "Crafel studio design system: cobalt + coral tokens, components, brand assets, and tone of voice. Shared across all studio products.",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#8b3a8e",
-      "screenshot": null,
-      "stack": "Node.js",
-      "status": "building",
-      "subStatus": null,
-      "lastActivity": "2026-11-15T08:24:22.712Z",
-      "lastActivityHebrew": "לפני 17 שעות",
-      "size": "452K",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": "https://github.com/segalitoo/crafel-design-system",
-      "source": "local",
-      "hasGit": true,
-      "git": {
-        "branch": "main",
-        "lastCommitRelative": "3 months ago",
-        "lastCommitMessage": "Scope the dark theme class hook to :root",
-        "lastCommitDate": "2026-08-10 02:31:59 +0300",
-        "lastCommitHebrew": "לפני 3 חודשים",
-        "isDirty": false,
-        "changedFiles": 0
-      },
-      "recentActions": [
-        {
-          "type": "commit",
-          "text": "Scope the dark theme class hook to :root"
-        },
-        {
-          "type": "commit",
-          "text": "docs: add example-page.html, a full Crafel sample page"
-        },
-        {
-          "type": "commit",
-          "text": "Crafel footer: add breathing space around the slash separator"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "5d7fa4c2-6263-4ac9-839a-688e2e92109f",
-        "lastActivity": "2026-11-15T08:24:22.712Z",
-        "summary": "Base directory for this skill: /Users/rannsegal/.claude/skills/taste-ran\n\n# Taste (Ran)\n\nGeneric work comes from making …"
       }
     },
     {
@@ -227,7 +227,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-10T10:38:50.042Z",
-      "lastActivityHebrew": "לפני 5 ימים",
+      "lastActivityHebrew": "לפני 6 ימים",
       "size": "115M",
       "isLive": false,
       "liveUrl": null,
@@ -710,7 +710,7 @@
       "status": "archive",
       "subStatus": null,
       "lastActivity": "2026-09-17T08:40:13.000Z",
-      "lastActivityHebrew": "לפני חודש",
+      "lastActivityHebrew": "לפני 2 חודשים",
       "size": "7.4M",
       "isLive": false,
       "liveUrl": null,
@@ -722,7 +722,7 @@
         "lastCommitRelative": "9 weeks ago",
         "lastCommitMessage": "Option 2: the page as the shop counter",
         "lastCommitDate": "2026-09-17 11:40:13 +0300",
-        "lastCommitHebrew": "לפני חודש",
+        "lastCommitHebrew": "לפני 2 חודשים",
         "isDirty": false,
         "changedFiles": 0
       },
