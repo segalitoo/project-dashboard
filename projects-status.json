@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-16T21:29:31.404Z",
+  "lastUpdated": "2026-11-17T07:41:57.331Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 59,
   "counts": {
@@ -56,8 +56,8 @@
       "stack": "Node.js",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-11-16T21:00:55.907Z",
-      "lastActivityHebrew": "לפני 28 דקות",
+      "lastActivity": "2026-11-17T05:34:21.972Z",
+      "lastActivityHebrew": "לפני 2 שעות",
       "size": "452K",
       "isLive": false,
       "liveUrl": null,
@@ -89,7 +89,7 @@
       ],
       "lastSession": {
         "sessionId": "5d7fa4c2-6263-4ac9-839a-688e2e92109f",
-        "lastActivity": "2026-11-16T21:00:55.907Z",
+        "lastActivity": "2026-11-17T05:34:21.972Z",
         "summary": "Base directory for this skill: /Users/rannsegal/.claude/skills/taste-ran\n\n# Taste (Ran)\n\nGeneric work comes from making …"
       }
     },
@@ -106,8 +106,8 @@
       "stack": "TypeScript + React 18 + Vite + Supabase",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-11-16T08:22:54.200Z",
-      "lastActivityHebrew": "לפני 13 שעות",
+      "lastActivity": "2026-11-17T05:34:21.841Z",
+      "lastActivityHebrew": "לפני 2 שעות",
       "size": "165M",
       "isLive": false,
       "liveUrl": null,
@@ -149,7 +149,7 @@
       ],
       "lastSession": {
         "sessionId": "08d0827c-bef2-48f1-9d43-4c4217502b5d",
-        "lastActivity": "2026-11-16T08:22:54.200Z",
+        "lastActivity": "2026-11-17T05:34:21.841Z",
         "summary": "good exampke to add to taste skill:"
       }
     },
@@ -167,7 +167,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-13T23:05:07.620Z",
-      "lastActivityHebrew": "שלשום",
+      "lastActivityHebrew": "לפני 3 ימים",
       "size": "618M",
       "isLive": false,
       "liveUrl": null,
