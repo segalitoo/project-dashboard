@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-18T12:57:36.672Z",
+  "lastUpdated": "2026-11-18T15:57:59.267Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 60,
   "counts": {
@@ -56,9 +56,9 @@
       "stack": "Unknown",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-11-18T11:47:11.925Z",
+      "lastActivity": "2026-11-18T14:54:27.114Z",
       "lastActivityHebrew": "לפני שעה",
-      "size": "257M",
+      "size": "269M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
@@ -68,7 +68,7 @@
       "recentActions": [],
       "lastSession": {
         "sessionId": "84822012-99de-4874-b6b7-c6c501abf6c5",
-        "lastActivity": "2026-11-18T11:47:11.925Z",
+        "lastActivity": "2026-11-18T14:54:27.114Z",
         "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/7.0.0/skills/b…"
       }
     },
@@ -86,7 +86,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-18T11:41:07.389Z",
-      "lastActivityHebrew": "לפני שעה",
+      "lastActivityHebrew": "לפני 4 שעות",
       "size": "452K",
       "isLive": false,
       "liveUrl": null,
