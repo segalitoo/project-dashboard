@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-18T15:57:59.267Z",
+  "lastUpdated": "2026-11-18T19:25:54.926Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 60,
   "counts": {
@@ -44,35 +44,6 @@
       "lastSession": null
     },
     {
-      "name": "Company",
-      "humanName": "Company",
-      "tagline": "Unknown",
-      "longDescription": "פרוייקט ב-Unknown",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#b85f5f",
-      "screenshot": null,
-      "stack": "Unknown",
-      "status": "building",
-      "subStatus": null,
-      "lastActivity": "2026-11-18T14:54:27.114Z",
-      "lastActivityHebrew": "לפני שעה",
-      "size": "269M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": null,
-      "source": "local",
-      "hasGit": false,
-      "git": null,
-      "recentActions": [],
-      "lastSession": {
-        "sessionId": "84822012-99de-4874-b6b7-c6c501abf6c5",
-        "lastActivity": "2026-11-18T14:54:27.114Z",
-        "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/7.0.0/skills/b…"
-      }
-    },
-    {
       "name": "brand-system",
       "humanName": "brand-system",
       "tagline": "Crafel studio design system: cobalt + coral tokens, components, brand assets, and tone of voice. Shared across all studio products.",
@@ -85,8 +56,8 @@
       "stack": "Node.js",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-11-18T11:41:07.389Z",
-      "lastActivityHebrew": "לפני 4 שעות",
+      "lastActivity": "2026-11-18T19:05:41.370Z",
+      "lastActivityHebrew": "לפני 20 דקות",
       "size": "452K",
       "isLive": false,
       "liveUrl": null,
@@ -118,8 +89,37 @@
       ],
       "lastSession": {
         "sessionId": "5d7fa4c2-6263-4ac9-839a-688e2e92109f",
-        "lastActivity": "2026-11-18T11:41:07.389Z",
+        "lastActivity": "2026-11-18T19:05:41.370Z",
         "summary": "Base directory for this skill: /Users/rannsegal/.claude/skills/taste-ran\n\n# Taste (Ran)\n\nGeneric work comes from making …"
+      }
+    },
+    {
+      "name": "Company",
+      "humanName": "Company",
+      "tagline": "Unknown",
+      "longDescription": "פרוייקט ב-Unknown",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#b85f5f",
+      "screenshot": null,
+      "stack": "Unknown",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-11-18T16:49:21.723Z",
+      "lastActivityHebrew": "לפני 2 שעות",
+      "size": "271M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [],
+      "lastSession": {
+        "sessionId": "84822012-99de-4874-b6b7-c6c501abf6c5",
+        "lastActivity": "2026-11-18T16:49:21.723Z",
+        "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/7.0.0/skills/b…"
       }
     },
     {
@@ -1891,7 +1891,7 @@
       "subStatus": null,
       "lastActivity": null,
       "lastActivityHebrew": "",
-      "size": "22M",
+      "size": "24M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
@@ -2016,7 +2016,7 @@
       "subStatus": null,
       "lastActivity": null,
       "lastActivityHebrew": "",
-      "size": "180M",
+      "size": "183M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
