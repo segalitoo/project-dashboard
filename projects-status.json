@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-18T06:48:05.467Z",
+  "lastUpdated": "2026-11-18T09:57:11.938Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 60,
   "counts": {
@@ -56,8 +56,8 @@
       "stack": "Node.js",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-11-17T13:12:11.881Z",
-      "lastActivityHebrew": "לפני 17 שעות",
+      "lastActivity": "2026-11-18T08:36:25.387Z",
+      "lastActivityHebrew": "לפני שעה",
       "size": "452K",
       "isLive": false,
       "liveUrl": null,
@@ -89,7 +89,7 @@
       ],
       "lastSession": {
         "sessionId": "5d7fa4c2-6263-4ac9-839a-688e2e92109f",
-        "lastActivity": "2026-11-17T13:12:11.881Z",
+        "lastActivity": "2026-11-18T08:36:25.387Z",
         "summary": "Base directory for this skill: /Users/rannsegal/.claude/skills/taste-ran\n\n# Taste (Ran)\n\nGeneric work comes from making …"
       }
     },
@@ -107,7 +107,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-17T12:12:41.257Z",
-      "lastActivityHebrew": "לפני 18 שעות",
+      "lastActivityHebrew": "לפני 21 שעות",
       "size": "822M",
       "isLive": false,
       "liveUrl": null,
@@ -345,7 +345,7 @@
       "hasGit": true,
       "git": {
         "branch": "session/20-briefing",
-        "lastCommitRelative": "2 weeks ago",
+        "lastCommitRelative": "3 weeks ago",
         "lastCommitMessage": "Phone memory: lit painting and light map only cover the lamp pools, dark light map is a tint fill, no lit copies for areas without lamps: canvases 186 MB to 99 MB",
         "lastCommitDate": "2026-10-31 23:01:54 +0200",
         "lastCommitHebrew": "לפני 2 שבועות",
