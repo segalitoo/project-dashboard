@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-11-18T09:57:11.938Z",
+  "lastUpdated": "2026-11-18T12:57:36.672Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 60,
   "counts": {
     "live": 1,
-    "building": 4,
-    "paused": 6,
+    "building": 5,
+    "paused": 5,
     "archive": 22,
     "idea": 27
   },
@@ -44,6 +44,35 @@
       "lastSession": null
     },
     {
+      "name": "Company",
+      "humanName": "Company",
+      "tagline": "Unknown",
+      "longDescription": "פרוייקט ב-Unknown",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#b85f5f",
+      "screenshot": null,
+      "stack": "Unknown",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-11-18T11:47:11.925Z",
+      "lastActivityHebrew": "לפני שעה",
+      "size": "257M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [],
+      "lastSession": {
+        "sessionId": "84822012-99de-4874-b6b7-c6c501abf6c5",
+        "lastActivity": "2026-11-18T11:47:11.925Z",
+        "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/7.0.0/skills/b…"
+      }
+    },
+    {
       "name": "brand-system",
       "humanName": "brand-system",
       "tagline": "Crafel studio design system: cobalt + coral tokens, components, brand assets, and tone of voice. Shared across all studio products.",
@@ -56,7 +85,7 @@
       "stack": "Node.js",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-11-18T08:36:25.387Z",
+      "lastActivity": "2026-11-18T11:41:07.389Z",
       "lastActivityHebrew": "לפני שעה",
       "size": "452K",
       "isLive": false,
@@ -89,7 +118,7 @@
       ],
       "lastSession": {
         "sessionId": "5d7fa4c2-6263-4ac9-839a-688e2e92109f",
-        "lastActivity": "2026-11-18T08:36:25.387Z",
+        "lastActivity": "2026-11-18T11:41:07.389Z",
         "summary": "Base directory for this skill: /Users/rannsegal/.claude/skills/taste-ran\n\n# Taste (Ran)\n\nGeneric work comes from making …"
       }
     },
@@ -107,7 +136,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-17T12:12:41.257Z",
-      "lastActivityHebrew": "לפני 21 שעות",
+      "lastActivityHebrew": "אתמול",
       "size": "822M",
       "isLive": false,
       "liveUrl": null,
@@ -291,35 +320,6 @@
         "sessionId": "85f7a10e-fa7e-4912-a3a6-7fee5e3f4a43",
         "lastActivity": "2026-11-10T10:38:50.042Z",
         "summary": "create 3 diverging entrance motion storyboards for how the main visual element on the right enters the page. once ready …"
-      }
-    },
-    {
-      "name": "Company",
-      "humanName": "Company",
-      "tagline": "Unknown",
-      "longDescription": "פרוייקט ב-Unknown",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#b85f5f",
-      "screenshot": null,
-      "stack": "Unknown",
-      "status": "paused",
-      "subStatus": null,
-      "lastActivity": "2026-11-08T07:01:14.707Z",
-      "lastActivityHebrew": "השבוע",
-      "size": "225M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": null,
-      "source": "local",
-      "hasGit": false,
-      "git": null,
-      "recentActions": [],
-      "lastSession": {
-        "sessionId": "84822012-99de-4874-b6b7-c6c501abf6c5",
-        "lastActivity": "2026-11-08T07:01:14.707Z",
-        "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/7.0.0/skills/b…"
       }
     },
     {
