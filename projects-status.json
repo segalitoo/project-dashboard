@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-18T22:26:45.946Z",
+  "lastUpdated": "2026-11-19T01:27:07.217Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 60,
   "counts": {
@@ -57,7 +57,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-18T19:05:41.370Z",
-      "lastActivityHebrew": "לפני 3 שעות",
+      "lastActivityHebrew": "לפני 6 שעות",
       "size": "452K",
       "isLive": false,
       "liveUrl": null,
@@ -107,7 +107,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-18T16:49:21.723Z",
-      "lastActivityHebrew": "לפני 5 שעות",
+      "lastActivityHebrew": "לפני 8 שעות",
       "size": "271M",
       "isLive": false,
       "liveUrl": null,
@@ -236,7 +236,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-13T23:05:07.620Z",
-      "lastActivityHebrew": "לפני 4 ימים",
+      "lastActivityHebrew": "לפני 5 ימים",
       "size": "618M",
       "isLive": false,
       "liveUrl": null,
@@ -524,7 +524,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "7 weeks ago",
+        "lastCommitRelative": "8 weeks ago",
         "lastCommitMessage": "Cut answer time roughly in half and remove fake offline answers",
         "lastCommitDate": "2026-09-27 16:50:02 +0300",
         "lastCommitHebrew": "לפני חודש",
