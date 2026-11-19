@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-19T01:27:07.217Z",
+  "lastUpdated": "2026-11-19T08:06:29.519Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 60,
   "counts": {
@@ -56,8 +56,8 @@
       "stack": "Node.js",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-11-18T19:05:41.370Z",
-      "lastActivityHebrew": "לפני 6 שעות",
+      "lastActivity": "2026-11-19T08:05:33.586Z",
+      "lastActivityHebrew": "הרגע",
       "size": "452K",
       "isLive": false,
       "liveUrl": null,
@@ -89,7 +89,7 @@
       ],
       "lastSession": {
         "sessionId": "5d7fa4c2-6263-4ac9-839a-688e2e92109f",
-        "lastActivity": "2026-11-18T19:05:41.370Z",
+        "lastActivity": "2026-11-19T08:05:33.586Z",
         "summary": "Base directory for this skill: /Users/rannsegal/.claude/skills/taste-ran\n\n# Taste (Ran)\n\nGeneric work comes from making …"
       }
     },
@@ -106,8 +106,8 @@
       "stack": "Unknown",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-11-18T16:49:21.723Z",
-      "lastActivityHebrew": "לפני 8 שעות",
+      "lastActivity": "2026-11-19T07:28:24.595Z",
+      "lastActivityHebrew": "לפני 37 דקות",
       "size": "271M",
       "isLive": false,
       "liveUrl": null,
@@ -118,7 +118,7 @@
       "recentActions": [],
       "lastSession": {
         "sessionId": "84822012-99de-4874-b6b7-c6c501abf6c5",
-        "lastActivity": "2026-11-18T16:49:21.723Z",
+        "lastActivity": "2026-11-19T07:28:24.595Z",
         "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/7.0.0/skills/b…"
       }
     },
@@ -176,7 +176,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-17T05:34:21.841Z",
-      "lastActivityHebrew": "אתמול",
+      "lastActivityHebrew": "שלשום",
       "size": "165M",
       "isLive": false,
       "liveUrl": null,
