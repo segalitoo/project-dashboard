@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T04:57:54.728Z",
+  "lastUpdated": "2026-11-21T07:58:21.920Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 60,
   "counts": {
@@ -56,9 +56,9 @@
       "stack": "Unknown",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-11-21T00:10:33.212Z",
-      "lastActivityHebrew": "לפני 4 שעות",
-      "size": "269M",
+      "lastActivity": "2026-11-21T07:49:24.083Z",
+      "lastActivityHebrew": "לפני 8 דקות",
+      "size": "270M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
@@ -68,7 +68,7 @@
       "recentActions": [],
       "lastSession": {
         "sessionId": "84822012-99de-4874-b6b7-c6c501abf6c5",
-        "lastActivity": "2026-11-21T00:10:33.212Z",
+        "lastActivity": "2026-11-21T07:49:24.083Z",
         "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/7.0.0/skills/b…"
       }
     },
@@ -85,8 +85,8 @@
       "stack": "TypeScript + React 19 + Vite",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-11-21T00:05:46.002Z",
-      "lastActivityHebrew": "לפני 4 שעות",
+      "lastActivity": "2026-11-21T07:46:57.625Z",
+      "lastActivityHebrew": "לפני 11 דקות",
       "size": "822M",
       "isLive": false,
       "liveUrl": null,
@@ -108,7 +108,7 @@
       ],
       "lastSession": {
         "sessionId": "18785f7f-0193-41cd-a958-b1435a30cf80",
-        "lastActivity": "2026-11-21T00:05:46.002Z",
+        "lastActivity": "2026-11-21T07:46:57.625Z",
         "summary": "[Request interrupted by user]"
       }
     },
@@ -126,7 +126,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-20T13:35:25.738Z",
-      "lastActivityHebrew": "לפני 15 שעות",
+      "lastActivityHebrew": "לפני 18 שעות",
       "size": "452K",
       "isLive": false,
       "liveUrl": null,
@@ -176,7 +176,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-17T05:34:21.841Z",
-      "lastActivityHebrew": "לפני 3 ימים",
+      "lastActivityHebrew": "לפני 4 ימים",
       "size": "165M",
       "isLive": false,
       "liveUrl": null,
@@ -245,7 +245,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "4 weeks ago",
+        "lastCommitRelative": "5 weeks ago",
         "lastCommitMessage": "Restore the images the cleanup commit deleted but the site still loads",
         "lastCommitDate": "2026-10-20 22:52:42 +0300",
         "lastCommitHebrew": "לפני חודש",
@@ -1891,7 +1891,7 @@
       "subStatus": null,
       "lastActivity": null,
       "lastActivityHebrew": "",
-      "size": "37M",
+      "size": "41M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
