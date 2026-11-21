@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-11-20T22:57:12.482Z",
+  "lastUpdated": "2026-11-21T01:57:32.755Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 60,
   "counts": {
     "live": 1,
-    "building": 5,
-    "paused": 4,
+    "building": 4,
+    "paused": 5,
     "archive": 23,
     "idea": 27
   },
@@ -56,9 +56,9 @@
       "stack": "Unknown",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-11-20T22:23:52.260Z",
-      "lastActivityHebrew": "לפני 33 דקות",
-      "size": "271M",
+      "lastActivity": "2026-11-21T00:10:33.212Z",
+      "lastActivityHebrew": "לפני שעה",
+      "size": "269M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
@@ -68,8 +68,48 @@
       "recentActions": [],
       "lastSession": {
         "sessionId": "84822012-99de-4874-b6b7-c6c501abf6c5",
-        "lastActivity": "2026-11-20T22:23:52.260Z",
+        "lastActivity": "2026-11-21T00:10:33.212Z",
         "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/7.0.0/skills/b…"
+      }
+    },
+    {
+      "name": "tabspeak",
+      "humanName": "TabSpeak",
+      "tagline": "תוסף שמדבר את התוכן של הטאבים הפתוחים",
+      "longDescription": "תוסף דפדפן שקורא בקול את התוכן של הטאב הפעיל. שימושי לרב-משימה ולנגישות. בנוי על React 19 + Vite.",
+      "nextStep": "לתקן את הבאג שדווח (\"i think its not working\")",
+      "notes": null,
+      "category": "Productivity",
+      "accentColor": "#a06b9e",
+      "screenshot": null,
+      "stack": "TypeScript + React 19 + Vite",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-11-21T00:05:46.002Z",
+      "lastActivityHebrew": "לפני שעה",
+      "size": "822M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [
+        {
+          "type": "chat",
+          "text": "[Request interrupted by user]",
+          "sessionId": "18785f7f-0193-41cd-a958-b1435a30cf80"
+        },
+        {
+          "type": "chat",
+          "text": "@\"/Users/rannsegal/Claude/tabspeak/landing/image1.svg\"\n/remotion-best-practices  design a loop animation for this image.…",
+          "sessionId": "4d20594e-17b7-4675-b9b5-98e2bccda07a"
+        }
+      ],
+      "lastSession": {
+        "sessionId": "18785f7f-0193-41cd-a958-b1435a30cf80",
+        "lastActivity": "2026-11-21T00:05:46.002Z",
+        "summary": "[Request interrupted by user]"
       }
     },
     {
@@ -86,7 +126,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-20T13:35:25.738Z",
-      "lastActivityHebrew": "לפני 9 שעות",
+      "lastActivityHebrew": "לפני 12 שעות",
       "size": "452K",
       "isLive": false,
       "liveUrl": null,
@@ -120,46 +160,6 @@
         "sessionId": "5d7fa4c2-6263-4ac9-839a-688e2e92109f",
         "lastActivity": "2026-11-20T13:35:25.738Z",
         "summary": "Base directory for this skill: /Users/rannsegal/.claude/skills/taste-ran\n\n# Taste (Ran)\n\nGeneric work comes from making …"
-      }
-    },
-    {
-      "name": "tabspeak",
-      "humanName": "TabSpeak",
-      "tagline": "תוסף שמדבר את התוכן של הטאבים הפתוחים",
-      "longDescription": "תוסף דפדפן שקורא בקול את התוכן של הטאב הפעיל. שימושי לרב-משימה ולנגישות. בנוי על React 19 + Vite.",
-      "nextStep": "לתקן את הבאג שדווח (\"i think its not working\")",
-      "notes": null,
-      "category": "Productivity",
-      "accentColor": "#a06b9e",
-      "screenshot": null,
-      "stack": "TypeScript + React 19 + Vite",
-      "status": "building",
-      "subStatus": null,
-      "lastActivity": "2026-11-17T12:12:41.257Z",
-      "lastActivityHebrew": "לפני 3 ימים",
-      "size": "822M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": null,
-      "source": "local",
-      "hasGit": false,
-      "git": null,
-      "recentActions": [
-        {
-          "type": "chat",
-          "text": "[Request interrupted by user]",
-          "sessionId": "18785f7f-0193-41cd-a958-b1435a30cf80"
-        },
-        {
-          "type": "chat",
-          "text": "@\"/Users/rannsegal/Claude/tabspeak/landing/image1.svg\"\n/remotion-best-practices  design a loop animation for this image.…",
-          "sessionId": "4d20594e-17b7-4675-b9b5-98e2bccda07a"
-        }
-      ],
-      "lastSession": {
-        "sessionId": "18785f7f-0193-41cd-a958-b1435a30cf80",
-        "lastActivity": "2026-11-17T12:12:41.257Z",
-        "summary": "[Request interrupted by user]"
       }
     },
     {
@@ -233,10 +233,10 @@
       "accentColor": "#3a4a6b",
       "screenshot": null,
       "stack": "HTML/CSS/JS",
-      "status": "building",
+      "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-11-13T23:05:07.620Z",
-      "lastActivityHebrew": "לפני 6 ימים",
+      "lastActivityHebrew": "השבוע",
       "size": "618M",
       "isLive": false,
       "liveUrl": null,
@@ -1891,7 +1891,7 @@
       "subStatus": null,
       "lastActivity": null,
       "lastActivityHebrew": "",
-      "size": "35M",
+      "size": "37M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
