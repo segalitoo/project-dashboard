@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-21T20:00:01.019Z",
+  "lastUpdated": "2026-11-21T23:00:21.904Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 60,
   "counts": {
@@ -56,8 +56,8 @@
       "stack": "Unknown",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-11-21T19:59:31.929Z",
-      "lastActivityHebrew": "הרגע",
+      "lastActivity": "2026-11-21T20:13:19.045Z",
+      "lastActivityHebrew": "לפני 2 שעות",
       "size": "271M",
       "isLive": false,
       "liveUrl": null,
@@ -68,7 +68,7 @@
       "recentActions": [],
       "lastSession": {
         "sessionId": "84822012-99de-4874-b6b7-c6c501abf6c5",
-        "lastActivity": "2026-11-21T19:59:31.929Z",
+        "lastActivity": "2026-11-21T20:13:19.045Z",
         "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/7.0.0/skills/b…"
       }
     },
@@ -86,7 +86,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-21T07:46:57.625Z",
-      "lastActivityHebrew": "לפני 12 שעות",
+      "lastActivityHebrew": "לפני 15 שעות",
       "size": "822M",
       "isLive": false,
       "liveUrl": null,
@@ -336,7 +336,7 @@
       "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-10-31T22:56:19.007Z",
-      "lastActivityHebrew": "לפני 2 שבועות",
+      "lastActivityHebrew": "לפני 3 שבועות",
       "size": "1.1G",
       "isLive": false,
       "liveUrl": null,
@@ -348,7 +348,7 @@
         "lastCommitRelative": "3 weeks ago",
         "lastCommitMessage": "Phone memory: lit painting and light map only cover the lamp pools, dark light map is a tint fill, no lit copies for areas without lamps: canvases 186 MB to 99 MB",
         "lastCommitDate": "2026-10-31 23:01:54 +0200",
-        "lastCommitHebrew": "לפני 2 שבועות",
+        "lastCommitHebrew": "לפני 3 שבועות",
         "isDirty": true,
         "changedFiles": 2
       },
