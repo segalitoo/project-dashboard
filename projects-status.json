@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-11-22T11:24:51.922Z",
+  "lastUpdated": "2026-11-22T14:59:17.260Z",
   "lastUpdatedHebrew": "הרגע",
-  "projectCount": 60,
+  "projectCount": 61,
   "counts": {
     "live": 1,
     "building": 4,
     "paused": 4,
     "archive": 24,
-    "idea": 27
+    "idea": 28
   },
   "projects": [
     {
@@ -44,35 +44,6 @@
       "lastSession": null
     },
     {
-      "name": "Company",
-      "humanName": "Company",
-      "tagline": "Unknown",
-      "longDescription": "פרוייקט ב-Unknown",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#b85f5f",
-      "screenshot": null,
-      "stack": "Unknown",
-      "status": "building",
-      "subStatus": null,
-      "lastActivity": "2026-11-22T07:02:11.822Z",
-      "lastActivityHebrew": "לפני 4 שעות",
-      "size": "480M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": null,
-      "source": "local",
-      "hasGit": false,
-      "git": null,
-      "recentActions": [],
-      "lastSession": {
-        "sessionId": "84822012-99de-4874-b6b7-c6c501abf6c5",
-        "lastActivity": "2026-11-22T07:02:11.822Z",
-        "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/7.0.0/skills/b…"
-      }
-    },
-    {
       "name": "brand-system",
       "humanName": "brand-system",
       "tagline": "Crafel studio design system: cobalt + coral tokens, components, brand assets, and tone of voice. Shared across all studio products.",
@@ -85,8 +56,8 @@
       "stack": "Node.js",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-11-22T00:45:34.827Z",
-      "lastActivityHebrew": "לפני 10 שעות",
+      "lastActivity": "2026-11-22T13:58:23.753Z",
+      "lastActivityHebrew": "לפני שעה",
       "size": "452K",
       "isLive": false,
       "liveUrl": null,
@@ -118,8 +89,37 @@
       ],
       "lastSession": {
         "sessionId": "5d7fa4c2-6263-4ac9-839a-688e2e92109f",
-        "lastActivity": "2026-11-22T00:45:34.827Z",
+        "lastActivity": "2026-11-22T13:58:23.753Z",
         "summary": "Base directory for this skill: /Users/rannsegal/.claude/skills/taste-ran\n\n# Taste (Ran)\n\nGeneric work comes from making …"
+      }
+    },
+    {
+      "name": "Company",
+      "humanName": "Company",
+      "tagline": "Unknown",
+      "longDescription": "פרוייקט ב-Unknown",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#b85f5f",
+      "screenshot": null,
+      "stack": "Unknown",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-11-22T07:02:11.822Z",
+      "lastActivityHebrew": "לפני 7 שעות",
+      "size": "480M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [],
+      "lastSession": {
+        "sessionId": "84822012-99de-4874-b6b7-c6c501abf6c5",
+        "lastActivity": "2026-11-22T07:02:11.822Z",
+        "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/7.0.0/skills/b…"
       }
     },
     {
@@ -1616,7 +1616,7 @@
       "subStatus": null,
       "lastActivity": null,
       "lastActivityHebrew": "",
-      "size": "956K",
+      "size": "11M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
@@ -1942,6 +1942,31 @@
       "lastActivity": null,
       "lastActivityHebrew": "",
       "size": "73M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [],
+      "lastSession": null
+    },
+    {
+      "name": "ran-segal-site",
+      "humanName": "ran-segal-site",
+      "tagline": "HTML/CSS/JS",
+      "longDescription": "פרוייקט ב-HTML/CSS/JS",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#c9885f",
+      "screenshot": null,
+      "stack": "HTML/CSS/JS",
+      "status": "idea",
+      "subStatus": null,
+      "lastActivity": null,
+      "lastActivityHebrew": "",
+      "size": "12M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
