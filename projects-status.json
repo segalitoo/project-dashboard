@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-22T21:05:06.164Z",
+  "lastUpdated": "2026-11-23T08:07:59.731Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 61,
   "counts": {
@@ -56,8 +56,8 @@
       "stack": "Node.js",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-11-22T18:44:16.862Z",
-      "lastActivityHebrew": "לפני 2 שעות",
+      "lastActivity": "2026-11-23T08:07:46.105Z",
+      "lastActivityHebrew": "הרגע",
       "size": "452K",
       "isLive": false,
       "liveUrl": null,
@@ -89,7 +89,7 @@
       ],
       "lastSession": {
         "sessionId": "5d7fa4c2-6263-4ac9-839a-688e2e92109f",
-        "lastActivity": "2026-11-22T18:44:16.862Z",
+        "lastActivity": "2026-11-23T08:07:46.105Z",
         "summary": "Base directory for this skill: /Users/rannsegal/.claude/skills/taste-ran\n\n# Taste (Ran)\n\nGeneric work comes from making …"
       }
     },
@@ -106,9 +106,9 @@
       "stack": "Unknown",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-11-22T18:35:35.957Z",
-      "lastActivityHebrew": "לפני 2 שעות",
-      "size": "480M",
+      "lastActivity": "2026-11-23T08:07:36.856Z",
+      "lastActivityHebrew": "הרגע",
+      "size": "503M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
@@ -118,7 +118,7 @@
       "recentActions": [],
       "lastSession": {
         "sessionId": "84822012-99de-4874-b6b7-c6c501abf6c5",
-        "lastActivity": "2026-11-22T18:35:35.957Z",
+        "lastActivity": "2026-11-23T08:07:36.856Z",
         "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/7.0.0/skills/b…"
       }
     },
@@ -136,7 +136,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-21T07:46:57.625Z",
-      "lastActivityHebrew": "אתמול",
+      "lastActivityHebrew": "שלשום",
       "size": "822M",
       "isLive": false,
       "liveUrl": null,
@@ -176,7 +176,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-17T05:34:21.841Z",
-      "lastActivityHebrew": "לפני 5 ימים",
+      "lastActivityHebrew": "לפני 6 ימים",
       "size": "165M",
       "isLive": false,
       "liveUrl": null,
