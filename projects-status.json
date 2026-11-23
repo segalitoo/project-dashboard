@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-23T19:47:12.414Z",
+  "lastUpdated": "2026-11-23T23:36:28.145Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 61,
   "counts": {
@@ -56,8 +56,8 @@
       "stack": "Node.js",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-11-23T14:13:32.680Z",
-      "lastActivityHebrew": "לפני 5 שעות",
+      "lastActivity": "2026-11-23T22:58:42.967Z",
+      "lastActivityHebrew": "לפני 37 דקות",
       "size": "452K",
       "isLive": false,
       "liveUrl": null,
@@ -89,7 +89,7 @@
       ],
       "lastSession": {
         "sessionId": "5d7fa4c2-6263-4ac9-839a-688e2e92109f",
-        "lastActivity": "2026-11-23T14:13:32.680Z",
+        "lastActivity": "2026-11-23T22:58:42.967Z",
         "summary": "Base directory for this skill: /Users/rannsegal/.claude/skills/taste-ran\n\n# Taste (Ran)\n\nGeneric work comes from making …"
       }
     },
@@ -107,7 +107,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-23T09:15:02.131Z",
-      "lastActivityHebrew": "לפני 10 שעות",
+      "lastActivityHebrew": "לפני 14 שעות",
       "size": "982M",
       "isLive": false,
       "liveUrl": null,
@@ -136,7 +136,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-23T09:03:21.089Z",
-      "lastActivityHebrew": "לפני 10 שעות",
+      "lastActivityHebrew": "לפני 14 שעות",
       "size": "510M",
       "isLive": false,
       "liveUrl": null,
@@ -217,7 +217,7 @@
         "lastCommitRelative": "9 weeks ago",
         "lastCommitMessage": "Fix sign-in in the installed iOS app with a one-time session handoff",
         "lastCommitDate": "2026-09-25 00:50:40 +0300",
-        "lastCommitHebrew": "לפני חודש",
+        "lastCommitHebrew": "לפני 2 חודשים",
         "isDirty": false,
         "changedFiles": 0
       },
