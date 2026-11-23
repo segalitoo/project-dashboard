@@ -1,13 +1,13 @@
 {
-  "lastUpdated": "2026-11-23T08:07:59.731Z",
+  "lastUpdated": "2026-11-23T13:46:22.253Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 61,
   "counts": {
     "live": 1,
-    "building": 4,
+    "building": 5,
     "paused": 4,
     "archive": 24,
-    "idea": 28
+    "idea": 27
   },
   "projects": [
     {
@@ -56,8 +56,8 @@
       "stack": "Node.js",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-11-23T08:07:46.105Z",
-      "lastActivityHebrew": "הרגע",
+      "lastActivity": "2026-11-23T09:40:32.177Z",
+      "lastActivityHebrew": "לפני 4 שעות",
       "size": "452K",
       "isLive": false,
       "liveUrl": null,
@@ -89,8 +89,37 @@
       ],
       "lastSession": {
         "sessionId": "5d7fa4c2-6263-4ac9-839a-688e2e92109f",
-        "lastActivity": "2026-11-23T08:07:46.105Z",
+        "lastActivity": "2026-11-23T09:40:32.177Z",
         "summary": "Base directory for this skill: /Users/rannsegal/.claude/skills/taste-ran\n\n# Taste (Ran)\n\nGeneric work comes from making …"
+      }
+    },
+    {
+      "name": "The5ers",
+      "humanName": "The5ers",
+      "tagline": "Ran Segal is interviewing for **Art Director** (studio lead) at **The5ers**, a prop trading firm in Ra'anana. This folder holds the interview prep and the current home assignment: …",
+      "longDescription": "Ran Segal is interviewing for **Art Director** (studio lead) at **The5ers**, a prop trading firm in Ra'anana. This folder holds the interview prep and the current home assignment: …",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#a87432",
+      "screenshot": null,
+      "stack": "Unknown",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-11-23T09:15:02.131Z",
+      "lastActivityHebrew": "לפני 4 שעות",
+      "size": "982M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [],
+      "lastSession": {
+        "sessionId": "aeb9a106-466b-4f12-91b6-638fa95727ae",
+        "lastActivity": "2026-11-23T09:15:02.131Z",
+        "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/impeccable/impeccable/4.5.2/skills/impeccable\n\nThi…"
       }
     },
     {
@@ -106,9 +135,9 @@
       "stack": "Unknown",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-11-23T08:07:36.856Z",
-      "lastActivityHebrew": "הרגע",
-      "size": "503M",
+      "lastActivity": "2026-11-23T09:03:21.089Z",
+      "lastActivityHebrew": "לפני 4 שעות",
+      "size": "510M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
@@ -118,7 +147,7 @@
       "recentActions": [],
       "lastSession": {
         "sessionId": "84822012-99de-4874-b6b7-c6c501abf6c5",
-        "lastActivity": "2026-11-23T08:07:36.856Z",
+        "lastActivity": "2026-11-23T09:03:21.089Z",
         "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/claude-plugins-official/superpowers/7.0.0/skills/b…"
       }
     },
@@ -185,7 +214,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "8 weeks ago",
+        "lastCommitRelative": "9 weeks ago",
         "lastCommitMessage": "Fix sign-in in the installed iOS app with a one-time session handoff",
         "lastCommitDate": "2026-09-25 00:50:40 +0300",
         "lastCommitHebrew": "לפני חודש",
@@ -570,7 +599,7 @@
       "status": "archive",
       "subStatus": null,
       "lastActivity": "2026-09-24T10:50:41.414Z",
-      "lastActivityHebrew": "לפני חודש",
+      "lastActivityHebrew": "לפני 2 חודשים",
       "size": "207M",
       "isLive": false,
       "liveUrl": null,
@@ -1727,31 +1756,6 @@
       "lastSession": null
     },
     {
-      "name": "The5ers",
-      "humanName": "The5ers",
-      "tagline": "Ran Segal is interviewing for **Art Director** (studio lead) at **The5ers**, a prop trading firm in Ra'anana. This folder holds the interview prep and the current home assignment: …",
-      "longDescription": "Ran Segal is interviewing for **Art Director** (studio lead) at **The5ers**, a prop trading firm in Ra'anana. This folder holds the interview prep and the current home assignment: …",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#a87432",
-      "screenshot": null,
-      "stack": "Unknown",
-      "status": "idea",
-      "subStatus": null,
-      "lastActivity": null,
-      "lastActivityHebrew": "",
-      "size": "804M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": null,
-      "source": "local",
-      "hasGit": false,
-      "git": null,
-      "recentActions": [],
-      "lastSession": null
-    },
-    {
       "name": "UGC ",
       "humanName": "UGC ",
       "tagline": "Unknown",
@@ -1891,7 +1895,7 @@
       "subStatus": null,
       "lastActivity": null,
       "lastActivityHebrew": "",
-      "size": "86M",
+      "size": "138M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
@@ -1966,7 +1970,7 @@
       "subStatus": null,
       "lastActivity": null,
       "lastActivityHebrew": "",
-      "size": "14M",
+      "size": "20M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
