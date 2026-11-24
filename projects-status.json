@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-24T09:40:59.545Z",
+  "lastUpdated": "2026-11-24T12:41:30.705Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 61,
   "counts": {
@@ -56,8 +56,8 @@
       "stack": "Node.js",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-11-24T09:37:40.293Z",
-      "lastActivityHebrew": "לפני 3 דקות",
+      "lastActivity": "2026-11-24T12:16:30.457Z",
+      "lastActivityHebrew": "לפני 24 דקות",
       "size": "452K",
       "isLive": false,
       "liveUrl": null,
@@ -88,8 +88,8 @@
         }
       ],
       "lastSession": {
-        "sessionId": "f64ae07d-1798-43d4-b936-768ac928ebfb",
-        "lastActivity": "2026-11-24T09:37:40.293Z",
+        "sessionId": "5d7fa4c2-6263-4ac9-839a-688e2e92109f",
+        "lastActivity": "2026-11-24T12:16:30.457Z",
         "summary": "Base directory for this skill: /Users/rannsegal/.claude/skills/taste-ran\n\n# Taste (Ran)\n\nGeneric work comes from making …"
       }
     },
@@ -325,7 +325,7 @@
       "status": "paused",
       "subStatus": null,
       "lastActivity": "2026-11-10T10:38:50.042Z",
-      "lastActivityHebrew": "השבוע",
+      "lastActivityHebrew": "לפני 2 שבועות",
       "size": "115M",
       "isLive": false,
       "liveUrl": null,
@@ -1970,7 +1970,7 @@
       "subStatus": null,
       "lastActivity": null,
       "lastActivityHebrew": "",
-      "size": "31M",
+      "size": "35M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
