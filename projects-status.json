@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-25T18:16:07.944Z",
+  "lastUpdated": "2026-11-25T22:14:03.732Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 61,
   "counts": {
@@ -57,7 +57,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-25T04:10:38.506Z",
-      "lastActivityHebrew": "לפני 14 שעות",
+      "lastActivityHebrew": "לפני 18 שעות",
       "size": "452K",
       "isLive": false,
       "liveUrl": null,
@@ -748,7 +748,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "10 weeks ago",
+        "lastCommitRelative": "2 months ago",
         "lastCommitMessage": "Option 2: the page as the shop counter",
         "lastCommitDate": "2026-09-17 11:40:13 +0300",
         "lastCommitHebrew": "לפני 2 חודשים",
@@ -1895,7 +1895,7 @@
       "subStatus": null,
       "lastActivity": null,
       "lastActivityHebrew": "",
-      "size": "261M",
+      "size": "285M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
