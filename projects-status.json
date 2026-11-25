@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-24T18:42:27.522Z",
+  "lastUpdated": "2026-11-25T09:25:50.193Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 61,
   "counts": {
@@ -56,8 +56,8 @@
       "stack": "Node.js",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-11-24T12:16:30.457Z",
-      "lastActivityHebrew": "לפני 6 שעות",
+      "lastActivity": "2026-11-25T04:10:38.506Z",
+      "lastActivityHebrew": "לפני 5 שעות",
       "size": "452K",
       "isLive": false,
       "liveUrl": null,
@@ -89,7 +89,7 @@
       ],
       "lastSession": {
         "sessionId": "5d7fa4c2-6263-4ac9-839a-688e2e92109f",
-        "lastActivity": "2026-11-24T12:16:30.457Z",
+        "lastActivity": "2026-11-25T04:10:38.506Z",
         "summary": "Base directory for this skill: /Users/rannsegal/.claude/skills/taste-ran\n\n# Taste (Ran)\n\nGeneric work comes from making …"
       }
     },
@@ -107,7 +107,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-23T09:15:02.131Z",
-      "lastActivityHebrew": "אתמול",
+      "lastActivityHebrew": "שלשום",
       "size": "982M",
       "isLive": false,
       "liveUrl": null,
@@ -136,7 +136,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-23T09:03:21.089Z",
-      "lastActivityHebrew": "אתמול",
+      "lastActivityHebrew": "שלשום",
       "size": "510M",
       "isLive": false,
       "liveUrl": null,
@@ -165,7 +165,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-21T07:46:57.625Z",
-      "lastActivityHebrew": "לפני 3 ימים",
+      "lastActivityHebrew": "לפני 4 ימים",
       "size": "822M",
       "isLive": false,
       "liveUrl": null,
@@ -374,7 +374,7 @@
       "hasGit": true,
       "git": {
         "branch": "session/20-briefing",
-        "lastCommitRelative": "3 weeks ago",
+        "lastCommitRelative": "4 weeks ago",
         "lastCommitMessage": "Phone memory: lit painting and light map only cover the lamp pools, dark light map is a tint fill, no lit copies for areas without lamps: canvases 186 MB to 99 MB",
         "lastCommitDate": "2026-10-31 23:01:54 +0200",
         "lastCommitHebrew": "לפני 3 שבועות",
@@ -424,7 +424,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "3 weeks ago",
+        "lastCommitRelative": "4 weeks ago",
         "lastCommitMessage": "Fix review findings: model timeouts, subagent turns, cross-session hide/mute, stale owner takeover, fast session start, speech priority, Esc not an error",
         "lastCommitDate": "2026-10-31 14:09:35 +0200",
         "lastCommitHebrew": "לפני 3 שבועות",
@@ -923,7 +923,7 @@
       "status": "archive",
       "subStatus": null,
       "lastActivity": "2026-08-27T00:43:42.000Z",
-      "lastActivityHebrew": "לפני 2 חודשים",
+      "lastActivityHebrew": "לפני 3 חודשים",
       "size": "587M",
       "isLive": false,
       "liveUrl": null,
@@ -935,7 +935,7 @@
         "lastCommitRelative": "3 months ago",
         "lastCommitMessage": "Add verified API payloads, executable render helpers, and a free-lane self test",
         "lastCommitDate": "2026-08-27 03:43:42 +0300",
-        "lastCommitHebrew": "לפני 2 חודשים",
+        "lastCommitHebrew": "לפני 3 חודשים",
         "isDirty": true,
         "changedFiles": 2
       },
