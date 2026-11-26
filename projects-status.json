@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-26T09:33:11.783Z",
+  "lastUpdated": "2026-11-26T15:45:14.765Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 61,
   "counts": {
@@ -57,7 +57,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-26T07:57:51.551Z",
-      "lastActivityHebrew": "לפני שעה",
+      "lastActivityHebrew": "לפני 7 שעות",
       "size": "982M",
       "isLive": false,
       "liveUrl": null,
@@ -86,7 +86,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-26T04:50:57.832Z",
-      "lastActivityHebrew": "לפני 4 שעות",
+      "lastActivityHebrew": "לפני 10 שעות",
       "size": "452K",
       "isLive": false,
       "liveUrl": null,
@@ -544,7 +544,7 @@
       "status": "archive",
       "subStatus": null,
       "lastActivity": "2026-09-27T13:50:19.095Z",
-      "lastActivityHebrew": "לפני חודש",
+      "lastActivityHebrew": "לפני 2 חודשים",
       "size": "215M",
       "isLive": false,
       "liveUrl": null,
@@ -556,7 +556,7 @@
         "lastCommitRelative": "9 weeks ago",
         "lastCommitMessage": "Cut answer time roughly in half and remove fake offline answers",
         "lastCommitDate": "2026-09-27 16:50:02 +0300",
-        "lastCommitHebrew": "לפני חודש",
+        "lastCommitHebrew": "לפני 2 חודשים",
         "isDirty": true,
         "changedFiles": 1
       },
@@ -1020,7 +1020,7 @@
       "hasGit": true,
       "git": {
         "branch": "main",
-        "lastCommitRelative": "3 months ago",
+        "lastCommitRelative": "4 months ago",
         "lastCommitMessage": "direction: set the production phase and point ENGINE at the engines reference",
         "lastCommitDate": "2026-08-14 03:53:01 +0300",
         "lastCommitHebrew": "לפני 3 חודשים",
