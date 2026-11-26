@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-26T01:34:48.135Z",
+  "lastUpdated": "2026-11-26T09:33:11.783Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 61,
   "counts": {
@@ -44,6 +44,35 @@
       "lastSession": null
     },
     {
+      "name": "The5ers",
+      "humanName": "The5ers",
+      "tagline": "Ran Segal is interviewing for **Art Director** (studio lead) at **The5ers**, a prop trading firm in Ra'anana. This folder holds the interview prep and the current home assignment: …",
+      "longDescription": "Ran Segal is interviewing for **Art Director** (studio lead) at **The5ers**, a prop trading firm in Ra'anana. This folder holds the interview prep and the current home assignment: …",
+      "nextStep": null,
+      "notes": null,
+      "category": null,
+      "accentColor": "#a87432",
+      "screenshot": null,
+      "stack": "Unknown",
+      "status": "building",
+      "subStatus": null,
+      "lastActivity": "2026-11-26T07:57:51.551Z",
+      "lastActivityHebrew": "לפני שעה",
+      "size": "982M",
+      "isLive": false,
+      "liveUrl": null,
+      "githubUrl": null,
+      "source": "local",
+      "hasGit": false,
+      "git": null,
+      "recentActions": [],
+      "lastSession": {
+        "sessionId": "aeb9a106-466b-4f12-91b6-638fa95727ae",
+        "lastActivity": "2026-11-26T07:57:51.551Z",
+        "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/impeccable/impeccable/4.5.2/skills/impeccable\n\nThi…"
+      }
+    },
+    {
       "name": "brand-system",
       "humanName": "brand-system",
       "tagline": "Crafel studio design system: cobalt + coral tokens, components, brand assets, and tone of voice. Shared across all studio products.",
@@ -56,8 +85,8 @@
       "stack": "Node.js",
       "status": "building",
       "subStatus": null,
-      "lastActivity": "2026-11-25T04:10:38.506Z",
-      "lastActivityHebrew": "לפני 21 שעות",
+      "lastActivity": "2026-11-26T04:50:57.832Z",
+      "lastActivityHebrew": "לפני 4 שעות",
       "size": "452K",
       "isLive": false,
       "liveUrl": null,
@@ -89,37 +118,8 @@
       ],
       "lastSession": {
         "sessionId": "5d7fa4c2-6263-4ac9-839a-688e2e92109f",
-        "lastActivity": "2026-11-25T04:10:38.506Z",
+        "lastActivity": "2026-11-26T04:50:57.832Z",
         "summary": "Base directory for this skill: /Users/rannsegal/.claude/skills/taste-ran\n\n# Taste (Ran)\n\nGeneric work comes from making …"
-      }
-    },
-    {
-      "name": "The5ers",
-      "humanName": "The5ers",
-      "tagline": "Ran Segal is interviewing for **Art Director** (studio lead) at **The5ers**, a prop trading firm in Ra'anana. This folder holds the interview prep and the current home assignment: …",
-      "longDescription": "Ran Segal is interviewing for **Art Director** (studio lead) at **The5ers**, a prop trading firm in Ra'anana. This folder holds the interview prep and the current home assignment: …",
-      "nextStep": null,
-      "notes": null,
-      "category": null,
-      "accentColor": "#a87432",
-      "screenshot": null,
-      "stack": "Unknown",
-      "status": "building",
-      "subStatus": null,
-      "lastActivity": "2026-11-23T09:15:02.131Z",
-      "lastActivityHebrew": "שלשום",
-      "size": "982M",
-      "isLive": false,
-      "liveUrl": null,
-      "githubUrl": null,
-      "source": "local",
-      "hasGit": false,
-      "git": null,
-      "recentActions": [],
-      "lastSession": {
-        "sessionId": "aeb9a106-466b-4f12-91b6-638fa95727ae",
-        "lastActivity": "2026-11-23T09:15:02.131Z",
-        "summary": "Base directory for this skill: /Users/rannsegal/.claude/plugins/cache/impeccable/impeccable/4.5.2/skills/impeccable\n\nThi…"
       }
     },
     {
@@ -136,7 +136,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-23T09:03:21.089Z",
-      "lastActivityHebrew": "שלשום",
+      "lastActivityHebrew": "לפני 3 ימים",
       "size": "510M",
       "isLive": false,
       "liveUrl": null,
@@ -165,7 +165,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-21T07:46:57.625Z",
-      "lastActivityHebrew": "לפני 4 ימים",
+      "lastActivityHebrew": "לפני 5 ימים",
       "size": "822M",
       "isLive": false,
       "liveUrl": null,
