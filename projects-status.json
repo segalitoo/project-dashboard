@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-11-26T15:45:14.765Z",
+  "lastUpdated": "2026-11-26T22:10:33.398Z",
   "lastUpdatedHebrew": "הרגע",
   "projectCount": 61,
   "counts": {
@@ -57,7 +57,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-26T07:57:51.551Z",
-      "lastActivityHebrew": "לפני 7 שעות",
+      "lastActivityHebrew": "לפני 14 שעות",
       "size": "982M",
       "isLive": false,
       "liveUrl": null,
@@ -86,7 +86,7 @@
       "status": "building",
       "subStatus": null,
       "lastActivity": "2026-11-26T04:50:57.832Z",
-      "lastActivityHebrew": "לפני 10 שעות",
+      "lastActivityHebrew": "לפני 17 שעות",
       "size": "452K",
       "isLive": false,
       "liveUrl": null,
@@ -1895,7 +1895,7 @@
       "subStatus": null,
       "lastActivity": null,
       "lastActivityHebrew": "",
-      "size": "285M",
+      "size": "732M",
       "isLive": false,
       "liveUrl": null,
       "githubUrl": null,
